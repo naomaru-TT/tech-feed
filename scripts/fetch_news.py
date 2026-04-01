@@ -5,71 +5,118 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
 FEEDS = [
+    # ── AWS ──────────────────────────────────────────────
     {
-        "name": "AWS 公式ブログ",
+        "name": "AWS 公式ブログ（日本語）",
         "url": "https://aws.amazon.com/jp/blogs/news/feed/",
+        "tag": "AWS",
+        "color": "#FF9900",
+    },
+    {
+        "name": "AWS What's New（日本語）",
+        "url": "https://aws.amazon.com/jp/about-aws/whats-new/recent/feed/",
         "tag": "AWS",
         "color": "#FF9900",
     },
     {
         "name": "Zenn - AWS",
         "url": "https://zenn.dev/topics/aws/feed",
-        "tag": "Zenn",
-        "color": "#3EA8FF",
+        "tag": "AWS",
+        "color": "#FF9900",
     },
+    {
+        "name": "Qiita - AWS",
+        "url": "https://qiita.com/tags/aws/feed",
+        "tag": "AWS",
+        "color": "#FF9900",
+    },
+    # ── AI ───────────────────────────────────────────────
+    {
+        "name": "Zenn - 機械学習",
+        "url": "https://zenn.dev/topics/machinelearning/feed",
+        "tag": "AI",
+        "color": "#10A37F",
+    },
+    {
+        "name": "Zenn - LLM",
+        "url": "https://zenn.dev/topics/llm/feed",
+        "tag": "AI",
+        "color": "#10A37F",
+    },
+    {
+        "name": "Qiita - 機械学習",
+        "url": "https://qiita.com/tags/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92/feed",
+        "tag": "AI",
+        "color": "#10A37F",
+    },
+    {
+        "name": "Qiita - ChatGPT",
+        "url": "https://qiita.com/tags/chatgpt/feed",
+        "tag": "AI",
+        "color": "#10A37F",
+    },
+    {
+        "name": "ITmedia AI+",
+        "url": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+        "tag": "AI",
+        "color": "#10A37F",
+    },
+    # ── インフラ ─────────────────────────────────────────
     {
         "name": "Zenn - Kubernetes",
         "url": "https://zenn.dev/topics/kubernetes/feed",
-        "tag": "Zenn",
-        "color": "#3EA8FF",
+        "tag": "インフラ",
+        "color": "#326CE5",
     },
     {
-        "name": "Zenn - インフラ",
-        "url": "https://zenn.dev/topics/infrastructure/feed",
-        "tag": "Zenn",
-        "color": "#3EA8FF",
+        "name": "Zenn - Terraform",
+        "url": "https://zenn.dev/topics/terraform/feed",
+        "tag": "インフラ",
+        "color": "#326CE5",
     },
     {
-        "name": "Google Cloud Blog",
+        "name": "Zenn - Docker",
+        "url": "https://zenn.dev/topics/docker/feed",
+        "tag": "インフラ",
+        "color": "#326CE5",
+    },
+    {
+        "name": "Qiita - インフラ",
+        "url": "https://qiita.com/tags/%E3%82%A4%E3%83%B3%E3%83%95%E3%83%A9/feed",
+        "tag": "インフラ",
+        "color": "#326CE5",
+    },
+    {
+        "name": "Qiita - Kubernetes",
+        "url": "https://qiita.com/tags/kubernetes/feed",
+        "tag": "インフラ",
+        "color": "#326CE5",
+    },
+    # ── GCP ──────────────────────────────────────────────
+    {
+        "name": "Google Cloud リリースノート",
         "url": "https://cloud.google.com/feeds/gcp-release-notes.xml",
         "tag": "GCP",
         "color": "#4285F4",
     },
     {
-        "name": "Azure Updates",
-        "url": "https://azurecomcdn.azureedge.net/en-us/updates/feed/",
-        "tag": "Azure",
-        "color": "#0078D4",
+        "name": "Zenn - GCP",
+        "url": "https://zenn.dev/topics/gcp/feed",
+        "tag": "GCP",
+        "color": "#4285F4",
+    },
+    # ── テック全般 ────────────────────────────────────────
+    {
+        "name": "ITmedia エンタープライズ",
+        "url": "https://rss.itmedia.co.jp/rss/2.0/itmediaenterprise.xml",
+        "tag": "テック",
+        "color": "#888780",
     },
     {
-        "name": "Hacker News - Ask HN / Show HN",
-        "url": "https://hnrss.org/newest?q=kubernetes+OR+terraform+OR+aws+OR+llm&points=50",
-        "tag": "HN",
-        "color": "#FF6600",
-    },
-    {
-        "name": "The New Stack",
-        "url": "https://thenewstack.io/feed/",
-        "tag": "インフラ",
-        "color": "#009688",
-    },
-    {
-        "name": "OpenAI Blog",
-        "url": "https://openai.com/blog/rss.xml",
-        "tag": "AI",
-        "color": "#10A37F",
-    },
-    {
-        "name": "Anthropic News",
-        "url": "https://www.anthropic.com/rss.xml",
-        "tag": "AI",
-        "color": "#B07E53",
-    },
-    {
-        "name": "Google AI Blog",
-        "url": "https://blog.research.google/feeds/posts/default",
-        "tag": "AI",
-        "color": "#EA4335",
+        "name": "Publickey",
+        "url": "https://www.publickey1.jp/atom.xml",
+        "tag": "テック",
+        "color": "#888780",
     },
 ]
 
