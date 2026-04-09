@@ -1,14 +1,50 @@
 {
-  "updated": "2026-04-09T16:48:50.439289+00:00",
+  "updated": "2026-04-09T20:35:59.737463+00:00",
   "items": [
     {
-      "title": "非エンジニアがKaggleで3999チーム中1257位になった話",
-      "link": "https://zenn.dev/ugu000x/articles/b58ae5bf9816ae",
-      "summary": "はじめに\n製造業15年、うち品質管理10年。エンジニア職歴ゼロ。\nそんな自分が、世界最大のデータ分析コンペ「Kaggle」に参加した。結果は3999チーム中1257位。上位31%に入った。\n「Kaggleは天才エンジニアが集まる場所」と思っていた。正直、場違いだと感じていた。でも実際にやってみたら、製造業の現場経験が意外なほど活きた。\nこの記事では、非エンジニアがどうやってKaggleに挑戦したか",
-      "published": "2026-04-09T16:23:31+00:00",
-      "source": "Zenn - 機械学習",
+      "title": "VS CodeのPython拡張機能が強化、venv内パッケージのシンボル検索が可能に",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2604/10/news019.html",
+      "summary": "VS Code用Python拡張機能の2026年3月更新版が公開された。仮想環境にインストール済みのパッケージのシンボルを［ワークスペース内のシンボルへ移動］で検索できるようになった。コードを深く理解するのに有用な機能だ。",
+      "published": "2026-04-09T20:00:00+00:00",
+      "source": "ITmedia AI+",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "秘匿環境でAIエージェントを構築する - MCPと安全制御を含めた設計と実装",
+      "link": "https://zenn.dev/tokimoa/articles/8f5cf3910c3430",
+      "summary": "この記事の内容\n秘匿環境（オンプレミスやVPC）で、ローカルLLMがMCPツールを自律的に選択・実行するAIエージェントを構築しました。\nRAGは「質問→ベクトル検索→LLMに渡す」という固定パイプラインですが、エージェントはLLMが状況に応じて「どのツールを使うか」を自分で判断します。文書検索が必要なら文書を検索し、対応履歴を調べるべきなら履歴DBにアクセスし、タスク登録が必要ならタスクを登録す",
+      "published": "2026-04-09T18:36:47+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "LLMにOSレベルのメモリ管理を与えるMemOSを解説する",
+      "link": "https://zenn.dev/0ai/articles/2507-03724-memos-memory-os",
+      "summary": "はじめに\nこの論文の完全解説（図解付き）は flecto で公開中 →\n\n 論文の概要（TL;DR）\nLLMは本質的にステートレスです。セッションをまたいで記憶を保持できず、ユーザーの好みや過去の会話は毎回リセットされます。\nMemOSはこの問題に対して、コンピューターOSのアプローチを持ち込みます。プレーンテキスト・KVキャッシュ・モデル重みという3種類のメモリを「OSレベルのリソース」として統",
+      "published": "2026-04-09T18:16:20+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Claude Mythos Preview System Card - 1. はじめに",
+      "link": "https://zenn.dev/sol_sun/articles/claude-mythos-01-introduction",
+      "summary": "!\n本記事は，Anthropicが公開した Claude Mythos Preview System Card の日本語訳です．\n\n\n 1. はじめに\nClaude Mythos Preview is a new large language model from Anthropic. It is a frontier AI model, and has capabilities in many",
+      "published": "2026-04-09T17:01:35+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "「AWSコンテナ設計・構築[本格]入門 増補改訂版」を使って色々勉強した",
+      "link": "https://zenn.dev/sweetgreen/articles/c917f5b64ec2dd",
+      "summary": "経緯\n自分が初めてAWSを仕事で使うことになった時に、「AWSコンテナ設計・構築[本格]入門」を読んだ覚えがあります。\n当時の自分には全く理解できなかったのが懐かしいです。\nあれからだいぶ時は流れ、AWSもさすがにちょっとは使えるようになったと思っています。\nただ、自分が過去にいた会社は自社でサービスを開発しており、自分が入った頃にはすでにインフラ環境の大半は構築済みだったので、ゼロからインフラを",
+      "published": "2026-04-09T16:59:30+00:00",
+      "source": "Zenn - Terraform",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "秘匿環境で使うAI議事録の構成を考える - パイプライン型とLLM完結型の検証",
@@ -83,15 +119,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "GCP複数アカウントをdirenvで自動切替 — gcloud authとADCの違いも解説",
-      "link": "https://zenn.dev/takish/articles/gcp-multi-account-direnv",
-      "summary": "切り替えたつもりでデプロイしたらエラーになった\n複数の GCP アカウントを使い分けていると、こんな場面に遭遇します。\n\nアカウントを切り替えたつもりで gcloud run deploy したら、別プロジェクトへのデプロイでエラー\n作業のたびに gcloud auth list → gcloud config set account ... → gcloud config set project",
-      "published": "2026-04-09T12:59:27+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "【小ネタ/Tips】迷子のサーバーを探せ！「EC2 Capacity Manager」で複数環境の無駄遣いを一発で暴く方法",
       "link": "https://qiita.com/yoshi-sa/items/bd4f5ed4be125f25cd11",
       "summary": "【導入文】\nこんにちは。社内システムのクラウド化を支援している「僕」です。\n半導体エンジニアの「妻」にAWSの仕組みを語り、ハードウェア目線で鋭いツッコミをもらうこのシリーズ。今回は、複数のアカウントやリージョン（地域）にまたがるAWS環境の「見えない無駄遣い」を暴く新機能...",
@@ -108,15 +135,6 @@
       "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "Bladeの条件分岐が本番で効かない → 原因は「データの経路」だった。3時間デバッグした記録😇",
-      "link": "https://zenn.dev/ausssxi/articles/d0809786517af5",
-      "summary": "Bladeの条件分岐が本番で効かない → 原因は「データの経路」だった。3時間デバッグした記録😇\n\n はじめに\nバイクポータルサイト「MotoHub」を個人開発しています。\nニュースページのサムネイルに、メーカーロゴが object-cover でトリミングされて「kaw」しか見えない問題を直しました。\n修正は Str::contains($url, 'manufacturers/') の1行。",
-      "published": "2026-04-09T12:49:23+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "AIへの指示専用の本格エディタを、自分が欲しいから作った話",
@@ -141,33 +159,6 @@
       "link": "https://zenn.dev/dantarg/articles/3829d785b15b60",
       "summary": "はじめに\nAIエージェントの設計や運用を考えるとき、よく出てくる概念がある。\n\nRACI\nHuman-in-the-loop（HITL）\nGuardrails\n\nどれも重要だ。\nただ、AIが本番環境に入るほど、これらを導入しただけでは事故を防ぎきれない場面が増えてくる。\nなぜなら、これらはそれぞれ別の設計対象を扱っているからだ。\nそして、AI時代に最後に残る問題は、単なる役割分担でも、人間確認でも",
       "published": "2026-04-09T11:25:49+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Claude Code CLIをGLM/MiniMaxで代替した話（コスト大幅削減の実測）",
-      "link": "https://zenn.dev/fukukei23/articles/claude-code-cost-optimization",
-      "summary": "はじめに\nClaude Code CLIは、Anthropic社のAPIエンドポイント以外にも、外部プロバイダーのエンドポイントをバックエンドとして指定できる仕組みを持っています。\nこの仕組みを活用することで、プロバイダーの料金体系や提供モデルの違いを利用したコスト最適化が可能になります。実際の開発業務において、Claude Sonnet 4.6のサブスクリプションプランと比較し、大幅なコスト削減",
-      "published": "2026-04-09T11:21:02+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AIがソフトウェア開発を変える——2026年、エンジニアリングの自動化最前線",
-      "link": "https://zenn.dev/shintaroamaike/articles/58036e930bb7f3",
-      "summary": "気づいたら、エンジニアはコーディングをしなくなっていた。\nAnthropic は、競合他社が四半期ごとに機能を出す横で、週単位でサービスをリリースし続けている。\n2026年に入ってからのわずか数ヶ月で、すでに 74 のリリース（機能・改善含む）が世に出た。\nもはやキャッチアップが追いつかないほどの速度だ。\n（参考：Product CompassのClaude Shipping Calendarより",
-      "published": "2026-04-09T11:20:12+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "\"なんとなく改善\"からの脱却。Langfuseで作る、精度を改善し続けられるAI開発基盤",
-      "link": "https://zenn.dev/layerx/articles/cd04dd1350bac5",
-      "summary": "バクラク事業部ソフトウェアエンジニアのyataです。\n生成AI機能、最近よく見ますよね。\n現在では非常に多くのプロダクトに組み込まれ、日常的に触れることが当たり前になるほど世間に広まってきました。\nただ、今までの開発と同じコストや難易度でこの機能が実現できるわけではありません。\n「精度は微妙だが、それっぽい挙動をするもの」は簡単に作ることができても、「お客様に継続的に使っていただける、安定した精度",
-      "published": "2026-04-09T11:00:04+00:00",
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
@@ -216,24 +207,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "GitHubに置かない選択 — ローカルGit + cgit で作る read-only 開発環境",
-      "link": "https://zenn.dev/nonamecode/articles/b24f61e307264f",
-      "summary": "この記事について\nAI対話ログと開発記録をもとに Claude Code が下書きを作成し、私が加筆修正しました。\n本記事は個人開発環境のセットアップ記録であり、本番環境向けの推奨構成ではありません。\nローカル Git サーバーに 28 リポジトリを置いて開発している。ターミナルで git log を叩けば履歴は見えるが、ブラウザでさっとリポジトリ一覧を見たいときがある。コードレビュー、ファイルツ",
-      "published": "2026-04-09T09:29:09+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "GitHub Actions × Rails RSpec を高速化するために知っておくべきこと",
-      "link": "https://zenn.dev/dely_jp/articles/b713c5fab32715",
-      "summary": "はじめに\nこんにちは、クラシルのサーバーサイドエンジニアの haind です。\n今回は、CI の実行時間を短縮するために知っておくべきポイントを共有します。\n弊社では GitHub Actions で Rails の RSpec を実行しています。CI の実行時間に影響する要素を把握していないと、気づかないうちにどんどん遅くなってしまいます。実際に私が経験したことをもとに、皆さんの参考になれば幸い",
-      "published": "2026-04-09T09:23:47+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "AWS Weekly Roundup: AWS DevOps エージェントとセキュリティエージェント GA、製品ライフサイクルの更新など (2026 年 4 月 6 日)",
@@ -310,7 +283,7 @@
     {
       "title": "April 09, 2026",
       "link": "https://docs.cloud.google.com/release-notes#April_09_2026",
-      "summary": "Service Extensions\nFeature\nGoogle Kubernetes Engine (GKE) Gateway support for using extensions by using\ncallouts to add custom logic into the load balancing processing path is in\nGeneral Availability.",
+      "summary": "Bigtable\nFeature\nYou can use Gemini in Bigtable Studio to help you write GoogleSQL queries. This\nfeature is available in Preview.\nFor more information, see Write SQL with Gemini assistance.\nService Ex",
       "published": "2026-04-09T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
@@ -522,15 +495,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "自然言語で「XVL Studio」をカスタマイズ　生成AIによる自動プログラミング機能",
-      "link": "https://monoist.itmedia.co.jp/mn/articles/2604/09/news034.html",
-      "summary": "ラティス・テクノロジーは、3Dデータ活用ソフトウェア「XVL Studio」に生成AIを用いた自動プログラミング機能を追加した。ユーザーが自然言語で処理内容を指示することで、「XVL Studio SDK」を用いたプログラムを自動生成し、そのまま実行できる。",
-      "published": "2026-04-09T00:00:00+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "待望の日本語化！Google Cloud 認定 Database Engineer 試験の概要と対策",
@@ -767,6 +731,15 @@
       "color": "#888780"
     },
     {
+      "title": "「AIで稼ぐ」の本当の意味",
+      "link": "https://zenn.dev/ugu000x/articles/d0846db81cba05",
+      "summary": "はじめに\n「AIを使えば稼げる」という言葉をよく見かけるようになった。\nChatGPTやClaudeで記事を量産できる、画像を生成できる、コードが書ける。確かにAIでできることは増えた。\nでも「AIを使えば稼げる」は本当だろうか。\n結論から言うと、半分正しくて半分間違っている。正確には**「売れるものをAIで作れるようになった」**が正しい。\n\n 私が観察した失敗パターン\nあるSNSアカウントを観",
+      "published": "2026-04-08T03:44:29+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "ACアダプタとPoEインジェクタの違いと使い分け方",
       "link": "https://qiita.com/Chaitian/items/888ece37b10aea4cc254",
       "summary": "無線APやIPカメラを設置するとき、\n「ACアダプタで給電」と「PoEインジェクタで給電」の\nどちらを使うか迷ったことがありました。\nどちらもPoEハブを使わずに給電できる方法ですが、\n使い分けのポイントが最初はよくわからなかったです。\nこの記事では、2つの給電方法の違いと...",
@@ -866,6 +839,15 @@
       "color": "#326CE5"
     },
     {
+      "title": "【Google x GenAI】Gemini Enterprise におけるエージェントデザイナーとは？",
+      "link": "https://zenn.dev/softbank/articles/3831e9d7855bd1",
+      "summary": "【Google x GenAI】Gemini Enterprise におけるエージェントデザイナーとは？\nこんにちは、ソフトバンクでクラウドエンジニアをしている井上です。\n日々生成 AI を活用する中で「もっと複雑な業務フローを生成 AI に任せられたらいいのに」と考えたことはありませんか？\nこれまでの生成 AI 活用は、ユーザーが問いかけ、生成 AI がそれに答えるという「1対1の対話」が中心で",
+      "published": "2026-04-07T09:22:22+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
       "title": "Docker で Cognito Local を使うときは IssuerDomain を固定した方がいい",
       "link": "https://zenn.dev/tenkei/articles/2e6bb07b1833c5",
       "summary": "TL;DR\nDocker で cognito-local を動かすと、JWT の iss（issuer）が http://0.0.0.0:9229/... になります。Windows では 0.0.0.0 にアクセスできないため、JWKS 公開鍵の取得に失敗します。\n解決策: config.json で TokenConfig.IssuerDomain を http://localhost:922",
@@ -924,6 +906,24 @@
       "link": "https://zenn.dev/emp_tech_blog/articles/mac-mini-n8n-docker-caddy",
       "summary": "※本記事は、読者の方にとって分かりやすい構成となるようAIのサポート活用し、私自身の経験と裏取りを元に書き下ろしたものです。\n\n 1. はじめに\n本記事では、Mac miniにてDockerを用いてn8nサーバーを構築し、24時間常時稼働させるための具体的な手順を解説します。\nn8nはセキュリティ要件が厳しく、安全にログインするためにはHTTPS通信を利用してクッキーを付与する必要があります。\nそ",
       "published": "2026-04-07T02:50:32+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "ZabbixでDockerコンテナをリソース監視する：Coolify環境の可視化",
+      "link": "https://zenn.dev/minedia/articles/2026-03-16-coolify-zabbix-monitoring",
+      "summary": "概要\n\n\nZabbix agent 2 + Docker テンプレートで、コンテナ単位のCPU・メモリ・ネットワークを自動検出・監視\nCoolify環境の30+コンテナのリソース使用量を可視化するダッシュボードを構築\n「メモリ食いすぎコンテナ」や「CPU使用率の異常スパイク」を検知できるようになった\n\n第5回までで、Coolify + Cloudflare Tunnelの基盤は完成した。でも、監視",
+      "published": "2026-04-07T00:00:09+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "Openclaw体験記 vol.4 — WSL2でOllamaを動かすまでの道",
+      "link": "https://zenn.dev/mizutamari/articles/local-llm-vol4",
+      "summary": "!\nこの記事は貧弱GPUをローカルLLMに繋げようとした体験記です。\n技術的な正確さより、体験の正直さを優先して書いています。\n\nvol.3でOpenclawと一緒に記事を公開するところまで来た。\n結局Openclaw経由だとAPI消費激しいので普通にAPI経由じゃなくAIに記事書いてもらいそれを人間が検証している方が安くつくという結論に辿り着いた。\n経験としては申し分ない経験ができたと思う。ここ",
+      "published": "2026-04-06T23:22:43+00:00",
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
@@ -1010,6 +1010,15 @@
       "color": "#888780"
     },
     {
+      "title": "Dockerを使ってZenn執筆環境を作ってみた！",
+      "link": "https://zenn.dev/arupakani_san/articles/64cb57c1a8059e",
+      "summary": "はじめに\n最近スリーシェイクの二日間の春のインターンに参加しました。\nそこではDockerとKubernetesについて学びました。ただDockerのしくみについても曖昧でKubernetesに関しては完全に初心者でした。\n二日間の短い期間でしたがDockerはそれなりに理解することができました。\nオフライン参加だったのに急遽オンラインで参加したりして迷惑をお掛けしました\nメンターさんありがとう",
+      "published": "2026-04-05T13:34:29+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "AWS × TerraformでWebサーバーを自動化",
       "link": "https://zenn.dev/osakichise/articles/199812d5424e81",
       "summary": "1. 概要\nインフラエンジニア（SRE）の実務を想定し、AIのサポートを受けながらAWS上でのWebサーバー（EC2）構築を行いました。AIを使用するうえで、自分がいまなにをしているのか、なぜこのコードを実行するのか考えることを意識しました。\nはじめはAWSコンソールから手作業で構築し、SSH接続はターミナルから行いましたが、手動構築のミスの起きやすさを体感しました。そのうえで、Terraform",
@@ -1041,15 +1050,6 @@
       "link": "https://zenn.dev/mono_tec/articles/oracle19c-pdb-migration-02-terraform",
       "summary": "第2章：TerraformでOCIに検証環境を構築する\n本章では、PDBクローン検証環境のベースとなる\nOCI上のインフラ構築を行います。\n今回のポイントは、\n👉 Terraformを使って環境を再現可能にすること\nです。\n\n\n Terraformを使う理由\n今回の検証では、環境構築を手作業ではなく、\n👉 Infrastructure as Code（IaC）\nとして管理します。\nTerrafor",
       "published": "2026-04-04T23:39:29+00:00",
-      "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "第1章：PDBクローンによるOracle19c移行検証の全体像",
-      "link": "https://zenn.dev/mono_tec/articles/oracle19c-pdb-migration-01-overview",
-      "summary": "第1章：PDBクローンによるOracle19c移行検証の全体像\n本章では、Oracle Database のリプレースに向けて、\nPDBクローンによる移行検証環境の全体像を整理します。\nいきなり手順に入る前に、\n👉 「なぜこの構成にしたのか」\n👉 「どんな検証をするのか」\nを理解しておくことが重要です。\n\n\n 背景：Data Pumpで移行するはずだった\n今回、Oracle Database のリ",
-      "published": "2026-04-04T23:39:28+00:00",
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
@@ -1147,7 +1147,7 @@
     {
       "title": "April 01, 2026",
       "link": "https://docs.cloud.google.com/release-notes#April_01_2026",
-      "summary": "Cloud Composer\nChange\nNew images\nare available in Cloud Composer 2:\n\ncomposer-2.16.10-airflow-2.11.1\ncomposer-2.16.10-airflow-2.10.5 (default)\ncomposer-2.16.10-airflow-2.9.3\n\nFeature\nAirflow 2.11.1 is",
+      "summary": "Cloud Composer\nFeature\nAirflow 2.11.1 is available in Cloud Composer 3 and Cloud Composer 2.\nChange\nNew Airflow builds\nare available in Cloud Composer 3:\n\ncomposer-3-airflow-2.11.1-build.0\ncomposer-3-",
       "published": "2026-04-01T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
