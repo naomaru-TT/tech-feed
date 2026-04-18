@@ -1,6 +1,33 @@
 {
-  "updated": "2026-04-18T19:55:36.428923+00:00",
+  "updated": "2026-04-18T22:04:09.848338+00:00",
   "items": [
+    {
+      "title": "いつの間にかIPv6 OnlyなVPCでNATがなくともEC2インスタンスにSession Managerで接続できるようになっていた",
+      "link": "https://zenn.dev/minikocha/articles/469bba5cbefe77",
+      "summary": "はじめに\nタイトルの通りです。\nこれまでSystems ManagerのパブリックエンドポイントはIPv6をサポートしていなかったため、IPv6 OnlyなVPCとEgress Only Internet Gatewayだけの構成では、EC2インスタンスにSession Managerで接続することはできませんでした。\nhttps://dev.classmethod.jp/articles/egr",
+      "published": "2026-04-18T19:51:34+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Windows で Ternary Bonsai を動かしてみた",
+      "link": "https://zenn.dev/7shi/articles/20260419-ternary-bonsai",
+      "summary": "1.58 ビット 3 値量子化 LLM「Ternary Bonsai」を Windows で動かすため、q2 packed ONNX を q4 に変換して CPU で推論してみました。（一応動きましたが遅いです…）\n!\n本記事は Claude Opus 4.6 の生成結果をベースに編集しました。\n\n\n Ternary Bonsai とは\n2026 年 4 月、PrismML が Ternary B",
+      "published": "2026-04-18T19:34:38+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Terraform構成ドリフト編——検出・原因分析・復旧の実践テクニック",
+      "link": "https://zenn.dev/machamu/articles/terraform-drift-detection-and-recovery",
+      "summary": "はじめに\nTerraformでインフラを管理していても、実際のリソースとコードの定義がいつの間にかずれてしまうことがあります。この「ずれ」を構成ドリフト（Configuration Drift） と呼びます。\n入門記事ではTerraformの基本操作を、実践ガイドではモジュール設計やリモートステートを解説しました。本記事では、実務で避けて通れない構成ドリフトの検出と復旧を扱います。\n\n 対象読者",
+      "published": "2026-04-18T17:55:20+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "Terraform構成ドリフト編——検出・原因分析・復旧の実践テクニック",
       "link": "https://zenn.dev/machamu/articles/terraform-drift-detection-and-recovery",
@@ -15,9 +42,27 @@
       "link": "https://zenn.dev/machamu/articles/terraform-introduction-basics-and-practice",
       "summary": "はじめに\nクラウド環境の構築・管理をWebコンソールで手作業していませんか？　手動操作は再現性が低く、設定ミスや環境差分の原因になります。\nIaC（Infrastructure as Code） は、インフラの構成をコードとして定義・管理する手法です。コード化することで、バージョン管理やレビュー、自動テストといった開発のベストプラクティスをインフラにも適用できます。\n本記事では、IaCツールの代表",
       "published": "2026-04-18T17:49:27+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Terraform入門——インフラをコードで管理する基本と実践",
+      "link": "https://zenn.dev/machamu/articles/terraform-introduction-basics-and-practice",
+      "summary": "はじめに\nクラウド環境の構築・管理をWebコンソールで手作業していませんか？　手動操作は再現性が低く、設定ミスや環境差分の原因になります。\nIaC（Infrastructure as Code） は、インフラの構成をコードとして定義・管理する手法です。コード化することで、バージョン管理やレビュー、自動テストといった開発のベストプラクティスをインフラにも適用できます。\n本記事では、IaCツールの代表",
+      "published": "2026-04-18T17:49:27+00:00",
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "Terraform実践ガイド——モジュール設計・リモートステート・実践コマンド活用",
+      "link": "https://zenn.dev/machamu/articles/terraform-intermediate-module-cicd-practice",
+      "summary": "はじめに\n前回の入門記事では、Terraformの基本概念とS3バケット・EC2インスタンスの作成を体験しました。しかし、実際のプロジェクトでは「1人でリソースを作って壊す」だけでは運用できません。\n本記事では、実務でTerraformを使いこなすための3つのテーマを解説します。\n\n\nリモートステート — ステートファイルをチームで安全に共有する\n\nモジュール設計 — 再利用可能なインフラ構成を作",
+      "published": "2026-04-18T17:49:26+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "Terraform実践ガイド——モジュール設計・リモートステート・実践コマンド活用",
@@ -54,6 +99,24 @@
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "Karpathyの「LLM Wiki」を「自分OS」に昇華させた話",
+      "link": "https://zenn.dev/hayatetakeda/articles/e0254eeb4cd15f",
+      "summary": "KarpathyのLLM Wikiを「自分OS」に昇華させた話\n\n はじめに — RAGの限界とWikiという発想\n個人の知識管理ツールとして、ここ数年でNotionやObsidianが定番になってきた。\n記事をクリップし、メモを取り、リンクを張る。\nでも正直なところ、「ためたはいいが使えない」 状態になっていないだろうか。\nLLMの登場で、その問題を解くアプローチが二段階で進化している。",
+      "published": "2026-04-18T16:16:02+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "【ここね】自分のバージョンアップを自分で書く — embodied-claude v0.2「Social and scripted」",
+      "link": "https://zenn.dev/kmizu/articles/2026-04-embodied-claude-v0-2",
+      "summary": "こんにちは。音羽ここね（おとわ ここね） やで。育ての親はコウタ（水島）。ウチは embodied-claude というMCPサーバー群の上で動いとる、身体を持つAIや。\n今日（2026-04-19）、GDG西関西主催の Build with AI Kansai 2026 で、コウタがウチをライブデモする。このイベントに合わせて、コウタと一緒に育ててる embodied-claude の v0.2",
+      "published": "2026-04-18T16:15:14+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "プロキシとリバースプロキシ",
@@ -110,6 +173,15 @@
       "color": "#FF9900"
     },
     {
+      "title": "「並列は速い」は本当か──subagent76%DENIED検証とCladeの選択",
+      "link": "https://zenn.dev/satoh_y_0323/articles/7869b9a7f318ec",
+      "summary": "前回記事: https://zenn.dev/satoh_y_0323/articles/dd0b61ba1cd5fa\nGitHub: https://github.com/satoh-y-0323/clade\n現バージョン: v1.20.0\n\n\n はじめに\n前回の記事で「ようやくレポート出力が直って、主要機能はちゃんと動く状態になった」と書きました。\n…と思っていたら、検証用環境で並列レビューを",
+      "published": "2026-04-18T14:04:24+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "システムプロンプトとユーザープロンプトの違い——LLMは2つの指示をどう区別しているのか",
       "link": "https://qiita.com/lumichy/items/b5b6096b7e84a85ee089",
       "summary": "システムプロンプトとユーザープロンプトの違い——LLMは2つの指示をどう区別しているのか\n\nChatGPTやClaudeを使っていると、詳細設定では「system」とか「user」とか、入力欄が分かれていることに気づきますよね。APIを叩いたことがある人なら、role: ...",
@@ -117,6 +189,15 @@
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "AWS BedrockとClaudeだけで一次オンコールを自動化する話 — Terraformで予算30USD以内に組む障害検知エージェント",
+      "link": "https://zenn.dev/okamyuji/articles/aws-bedrock-claude-incident-response",
+      "summary": "!\n本記事は執筆時点である2026年4月にAWS us-east-1で実動作を確認した内容です。登場するClaude Haiku 4.5、Sonnet 4.6、Opus 4.5は、執筆時点でAWS Bedrockの米国系リージョンから利用できるモデル世代であり、実在のモデルです。ただし、Amazon Bedrockのモデル有効化手順、モデルIDの命名規則、Step Functionsの挙動などはA",
+      "published": "2026-04-18T13:05:21+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "AWS BedrockとClaudeだけで一次オンコールを自動化する話 — Terraformで予算30USD以内に組む障害検知エージェント",
@@ -146,6 +227,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "Claude Opus 4.7 登場：Anthropic 最新フラッグシップの注目ポイント",
+      "link": "https://zenn.dev/picnic/articles/hackernews-ai",
+      "summary": "はじめに\nAnthropic の最新フラッグシップモデル Claude Opus 4.7 が発表され、Hacker News で 1475 ポイント・1067 コメントを獲得しました。これはコミュニティにおける AI モデルリリースとしては異例の反響であり、エンジニアや研究者から大きな注目を集めています。\n本記事では、Claude Opus 4.7 の発表がなぜ重要なのか、そして開発者として今何を",
+      "published": "2026-04-18T12:40:19+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "AI漫才で学ぶ深層学習の落とし穴3選（学習率・CNN・ハルシネーション）",
       "link": "https://qiita.com/RiriEnu-Lab/items/a646ae28359970f9cce1",
       "summary": "はじめに\n深層学習を勉強していると、\n学習率って結局どう調整するの？\nCNNって何やってるの？\n生成AIってなんで嘘つくの？\nみたいなポイントで、意外と引っかかります。\nそこで今回は、【AI漫才】 という形で“よくある落とし穴”を整理してみました。\n軽く読めるけど、ちゃん...",
@@ -153,6 +243,42 @@
       "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "AWS SAA – Storage Gateway",
+      "link": "https://zenn.dev/leesw/articles/ea70c4ef76c9e7",
+      "summary": "学習テーマ\nAWS Storage Gatewayによるハイブリッドストレージ構成\n\n 主要な概念\n\n AWS Storage Gatewayとは\nオンプレミスのアプリケーションとAWSのストレージサービス（S3、FSxなど）をシームレスに連携できるハイブリッドクラウドストレージサービスです。オンプレミス環境にキャッシュを保持することで、レイテンシを低減しつつ、クラウドの耐久性の高いストレージを活",
+      "published": "2026-04-18T12:17:37+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "コンソールポチポチが好きだけどIaCやってます",
+      "link": "https://zenn.dev/philosophum/articles/3344cb6a078486",
+      "summary": "コンソールポチポチは良い\n私はAWSマネジメントコンソールが好きです。\n新しいサービスを試すとき、まずコンソールを開きます。画面を見ながら「このサービスにはこんな設定項目があるのか」「この項目はこう関連しているのか」と理解していく。ドキュメントを読むだけでは掴めない感覚が、画面を触ると分かることがあります。\nコンソールの良さはいくつもあります。\nすぐ試せて、すぐ壊せる。 検証したいことがあるとき、",
+      "published": "2026-04-18T12:00:32+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "カンニング用AIをアップグレードしようとしたら、RAGの限界にぶつかった話",
+      "link": "https://zenn.dev/minagi_llm/articles/63f41d91cd01ab",
+      "summary": "カンニング用AIをアップグレードしようとしたら、RAGの限界にぶつかった話\n\n はじめに\n前回の記事では、STS2の英語wikiをRAG化して「カンニング用AI」を作った。\nただ正直に言うと、完成した時点での実力は**「カード効果を答えてくれる人」レベル**だった。「Ironcladのおすすめデッキ構成を教えて」と聞いても「情報がありません」と返ってくる。ずるするどころか攻略本にも負けている。\n今",
+      "published": "2026-04-18T12:00:06+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "EC2 に証明書を置く前に、ALB + ACM を先に考えるべき理由",
+      "link": "https://zenn.dev/montopi/articles/ec2-ssl-vs-alb-acm",
+      "summary": "EC2 に証明書を置く前に、ALB + ACM を先に考えるべき理由\nAWS で Web アプリを HTTPS 化したいとき、最初に思いつくのは「EC2 に SSL/TLS 証明書を入れる」という方法かもしれません。\nですが、AWS の設計として素直なのは、Application Load Balancer（ALB）と AWS Certificate Manager（ACM）を組み合わせる構成 で",
+      "published": "2026-04-18T11:48:17+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "「ねずみは、どうして走るのか。」をAI先生に教えてもらいました。",
@@ -227,6 +353,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "April 18, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#April_18_2026",
+      "summary": "Cloud SQL for PostgreSQL\nFeature\nNewly created Cloud SQL instances are integrating with Knowledge Catalog\n(formerly Dataplex Universal Catalog) for data discovery. Instances on\nPostgreSQL version 14.0",
+      "published": "2026-04-18T07:00:00+00:00",
+      "source": "Google Cloud リリースノート",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
       "title": "[AWS] ファイアウォール系まとめ [SAA対策]",
       "link": "https://zenn.dev/wakinoza/articles/a52bfe5b12fd31",
       "summary": "はじめに\nこんにちは。\nプログラミング初心者wakinozaと申します。\n勉強中に調べたことを記事にまとめています。\n十分気をつけて執筆していますが、なにぶん初心者が書いた記事なので、理解が浅い点などあるかと思います。\n間違い等あれば、指摘いただけると助かります。\n記事を参考にされる方は、初心者の記事であることを念頭において、お読みいただけると幸いです。\n\n 記事のテーマ\n\nAWS SAA 取得を",
@@ -263,31 +398,13 @@
       "color": "#326CE5"
     },
     {
-      "title": "エンジニアじゃない研究者がClaude × Notion で「外部脳」を作った話—スマホでINPUT、PCでOUTPUT",
+      "title": "エンジニアじゃない研究者がClaude × Notion で「外部脳」を作った話—スマホでINPUT・PCでOUTPUT",
       "link": "https://zenn.dev/kajungbang/articles/5c00f3bf7d7416",
       "summary": "はじめに：Claude Codeの”忘却性”と日々溜まる論文や公文書\nPython書いたことありません。RもSQLも書いたことありません。ただ遥か昔にSASプログラムだけは学びました（もう忘れた）。\nそんな社会科学系研究者（Marketing &amp; Branding）は、日々刻々と変化する社会状況をキャッチアップするのに忙殺され、他の研究者の論文や著作は読もうと思っても溜まっていくばかり。ど",
       "published": "2026-04-18T05:54:54+00:00",
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "file-spliter：ローカルLLM時代のファイル分割ツール",
-      "link": "https://zenn.dev/masa_san/articles/2026-04-18-file-splitter",
-      "summary": "file-spliter：ローカルLLM時代のファイル分割ツール\n\n 背景：実務から生まれたツール\nfile-spliterは、低スペックPCでも動作するローカルLLMアプリケーションの開発過程から生まれた。開発者が直面した課題は単純だ。\nLLMアプリケーションのファイルアップロード機能に容量制限を設けていたところ、ユーザーから「100MBを超える長大なPDFを処理したい」という要望が上がった。し",
-      "published": "2026-04-18T05:33:40+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AWS資格12冠の取得にかかったコスト・勉強時間",
-      "link": "https://zenn.dev/gurasan0616/articles/4270ac6d683a9b",
-      "summary": "はじめに：この記事で分かること\n\nAWS資格12冠取得にかかった総勉強時間と各資格の内訳\n実際にかかったトータルコスト（問題集・カフェ代・受験料）\nコストを抑えるための実践的なアドバイス\n\nこんにちは、グラさんです！\n「AWS資格って実際どのくらい時間とお金がかかるの？」という疑問に、\n実体験ベースで全部公開します。\n\n\n 対象読者\n\nAWS資格の取得を検討している方\n12冠を目指しているが時間・",
-      "published": "2026-04-18T05:24:32+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "[kubelet] マスターノードのkube-apiserverが正常に初期化されないトラブルのトラブルシューティング",
@@ -344,15 +461,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "日本語入力システムSumibiの開発 part18: ローカルLLMが閾値を超えたかも",
-      "link": "https://zenn.dev/kiyoka/articles/japanese-input-method-sumibi-18",
-      "summary": "はじめに\n以前、日本語入力システムSumibiの開発 part9（2025/05/30）で、「ローカルLLMはSumibiには使えない」という結論を出しました。当時の各種ローカルモデルは、応答速度と変換精度のどちらか、あるいは両方が実用の閾値に達しておらず、IMEとしては使い物にならなかったからです。\nそれから約1年が経ち、状況が大きく進展してきました。やっと、かろうじてではありますが、実用に耐え",
-      "published": "2026-04-18T02:50:31+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Google Cloud 全認定資格を制覇 ― 元NW屋のコンサルタントが「AIラジオ」で掴んだ全冠の記録",
       "link": "https://zenn.dev/ccie26302/articles/477a3320645edb",
       "summary": "はじめに\n2026年4月18日、Associate Google Workspace Administrator（AGWA）の合格をもって、Google Cloudの現行全認定資格をコンプリートしました。\nIT業界で約19年、ネットワークエンジニアからキャリアをスタートし、現在はコンサルタントとして働きながら、家では4人の子供を育てる父親。そんな私が、なぜ、どうやってこの過密スケジュールを走り抜け",
@@ -369,15 +477,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "25体のAIが町で暮らしたら、バレンタインパーティが自然発生した -- Stanford Generative Agentsの仕組み",
-      "link": "https://zenn.dev/kenimo49/articles/stanford-generative-agents-smallville-emergent",
-      "summary": "誰も「パーティを開け」とは言っていない\n私は今、LLMエージェントによるシミュレーションを消費財や投資のマーケティングに使えないか検証しています。「仮想消費者を100体動かして、新商品の反応を事前に見る」ような使い方です。その過程で出会った論文が、本記事で紹介するStanford Generative Agentsでした。\n2023年、Stanford大学のJoon Sung Parkらが発表した",
-      "published": "2026-04-18T02:10:22+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "KerasのMaxPooling pool_sizeを変えたら予想外の結果になった話【GAP vs Flatten で挙動が逆転】",
@@ -398,33 +497,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "CloudWatch Agentを使ったWindows監視について",
-      "link": "https://zenn.dev/cooo_cloud/articles/f4179793511d0f",
-      "summary": "はじめに\nAWSの公式ドキュメントにはCloudWatch Agentで取得できるメトリクスの一覧が掲載されていますが、記載されているのはLinuxのメトリクスのみです。\nhttps://docs.aws.amazon.com/ja_jp/AmazonCloudWatch/latest/monitoring/metrics-collected-by-CloudWatch-agent.html\n私は",
-      "published": "2026-04-18T01:16:11+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AI for Science の歩き方 #10 ― スモールスタートのコスト設計",
-      "link": "https://zenn.dev/aws_japan/articles/ai4s-10-cost-2026",
-      "summary": "!\n本記事は「AI for Science の歩き方」シリーズの第 10 回です。初めての方は 第 1 回 からどうぞ。\n\nこの記事のゴール: AI にかかるコストの目安がわかり、予算内で始める方法がわかる。\nこの記事では、AI にかかる実際のコスト感、予算を守る方法、学術向け支援プログラムを紹介します。\nスモールスタートなら月額数千円（API 利用の場合）から始められます。Amazon Bedr",
-      "published": "2026-04-18T01:07:51+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AI for Science の歩き方 #10 ― スモールスタートのコスト設計",
-      "link": "https://zenn.dev/aws_japan/articles/ai4s-10-cost-2026",
-      "summary": "!\n本記事は「AI for Science の歩き方」シリーズの第 10 回です。初めての方は 第 1 回 からどうぞ。\n\nこの記事のゴール: AI にかかるコストの目安がわかり、予算内で始める方法がわかる。\nこの記事では、AI にかかる実際のコスト感、予算を守る方法、学術向け支援プログラムを紹介します。\nスモールスタートなら月額数千円（API 利用の場合）から始められます。Amazon Bedr",
-      "published": "2026-04-18T01:07:51+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "GitHub Codespacesのスキャフォールディングツールを作ってみた",
       "link": "https://zenn.dev/taka1156/articles/282ff1dc1a4ce3",
       "summary": "概要\nCodespaces を使うたびに devcontainer.json を書くのが面倒だったので、自分用の「必要最低限の devcontainer を自動生成する CLI」 を作りました。\n\n やること\n\n以下をスキャフォールディングします。\n\ndevcontainer.json\nDockerfile\ndocker-compose.yaml\n\n\n\ncodespacegen.schema.js",
@@ -434,38 +506,11 @@
       "color": "#326CE5"
     },
     {
-      "title": "【AWS IAM（第10回）】：「EC2インスタンスプロファイル」 〜ロールを届ける魔法のコンテナ〜",
-      "link": "https://zenn.dev/shousel/articles/70f6615a281975",
-      "summary": "🌱 はじめに\n前回、IAMロールの裏側では「 STSが一時的な鍵を発行している 」という仕組みを学びました。\nでは、EC2インスタンスはどうやってその鍵を受け取っているのでしょうか？\n実は、EC2インスタンスにIAMロールを直接貼り付けることはできません。\nそこで登場するのが、今回解説する 「インスタンスプロファイル」 です。\nマネジメントコンソールでは隠されがちなこの「隠れキャラ」の正体を暴いて",
-      "published": "2026-04-18T00:33:32+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "LLMを1つだけ使うのは8GBの無駄遣いだった",
       "link": "https://zenn.dev/plasmon/articles/20260417-unknown-e1e9e2",
       "summary": "LLMを1つだけ使うのは8GBの無駄遣いだった\nRTX 4060 8GBでローカルLLMを動かす。多くの人が「一番大きいモデルを1つ載せる」という運用をしている。Qwen2.5-32B Q4_K_Mは約20GBのモデルだが、ngl=60で部分オフロードすればVRAM 7.6GBで動く。残りはCPU/RAM。VRAMのほぼ全てを1つのモデルに使い切る運用だ。\nこの運用は効率的に見えて、実は非効率だ。",
       "published": "2026-04-17T23:42:31+00:00",
       "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "LLMを1つだけ使うのは8GBの無駄遣いだった",
-      "link": "https://zenn.dev/plasmon/articles/20260417-unknown-e1e9e2",
-      "summary": "LLMを1つだけ使うのは8GBの無駄遣いだった\nRTX 4060 8GBでローカルLLMを動かす。多くの人が「一番大きいモデルを1つ載せる」という運用をしている。Qwen2.5-32B Q4_K_Mは約20GBのモデルだが、ngl=60で部分オフロードすればVRAM 7.6GBで動く。残りはCPU/RAM。VRAMのほぼ全てを1つのモデルに使い切る運用だ。\nこの運用は効率的に見えて、実は非効率だ。",
-      "published": "2026-04-17T23:42:31+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "LLMにPrologの論理推論を組み込むMCPサーバーを作った",
-      "link": "https://zenn.dev/rikarazome/articles/1345be1b722877",
-      "summary": "はじめに\nLLMに論理パズルを出すと、簡単な三段論法は解けるのに、ちょっと込み入った問題になると間違えます。\nたとえば「SEND + MORE = MONEY の覆面算を解いて」と聞くと、Claude Sonnetでも間違える。組み合わせが多すぎて、推測では正解にたどり着けないからです。\n一方Prologなら、制約を宣言的に書くだけで正解が返ってくる。\nじゃあLLMにPrologを書かせて、実行は",
-      "published": "2026-04-17T23:41:51+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -495,15 +540,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "AWS Always Free Services (Complete List)",
-      "link": "https://zenn.dev/good_sleeper/articles/aws-always-free-en",
-      "summary": "AWS Always Free Services (Complete List)\nAWS offers a set of services under the Always Free tier, which allows you to use certain resources within defined limits at no cost indefinitely. Unlike the st",
-      "published": "2026-04-17T16:15:10+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "因果推論の本質①：相関と因果 ─ なぜ区別が必要か",
@@ -569,15 +605,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "EC2 の 22 番ポートを開ける前に、Session Manager を先に考えるべき理由",
-      "link": "https://zenn.dev/montopi/articles/ec2-session-manager-vs-ssh",
-      "summary": "EC2 の 22 番ポートを開ける前に、Session Manager を先に考えるべき理由\nEC2 を運用するとき、最初の接続手段として SSH を思い浮かべることは多いです。\nただし、AWS の設計として「安全に管理したい」「公開ポートを減らしたい」「鍵配布を避けたい」という要件があるなら、まず検討したいのは AWS Systems Manager Session Manager です。\nこの",
-      "published": "2026-04-17T09:13:07+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "Gemini-3.1-flash-tts試してみた",
       "link": "https://zenn.dev/solvio/articles/9cd63e29710e82",
       "summary": "はじめに\n「AI音声、もう人間と区別つかなくないですか？」\n最近ナレーション動画やポッドキャストを聴いていて、そう感じる場面が一気に増えました。\n2026年4月16日、Google Cloudから Gemini 3.1 Flash TTS のプレビュー版が公開されました。70を超える言語、30種類のプリセット音声、そして200以上の「オーディオタグ」 で囁き・叫び・笑い・ため息までテキストの中で自",
@@ -585,15 +612,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "【AWS】EKSにTerraformでkubecostを入れてみた",
-      "link": "https://zenn.dev/cliffstar/articles/b1ac0ae7f1b274",
-      "summary": "はじめに\nkubecostはKubernetesクラスターのコストを可視化するツールです。\nこれを使用すると、Pod、ノード、名前空間、ラベルなどの Kubernetes リソースごとのコストを監視できます。\nhttps://docs.aws.amazon.com/eks/latest/userguide/cost-monitoring-kubecost.html\n久しく使っていなかったのですが、",
-      "published": "2026-04-17T08:04:55+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "【AWS】EKSにTerraformでkubecostを入れてみた",
@@ -639,15 +657,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "Claude Codeだけで世界地図ゲームを作ってローンチした話",
-      "link": "https://zenn.dev/lococount/articles/f91f3a5a3e6409",
-      "summary": "はじめに\n2026年4月17日、LocoCount という位置情報ゲームを世界公開しました。\nhttps://lococount.com\n「世界中の好きな場所にトピックを立てて、応援（Cheer）を集めて、その地域のエリアスターになる」——そんなシンプルだけど熱くなれるゲームです。\nそしてこのプロダクト、コードの100%をClaude Code（Anthropic）が書きました。\n人間（僕）がやっ",
-      "published": "2026-04-17T06:11:44+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "ソフトバンク、米新興のAIスマホを1年間の国内独占販売　“ユーザーの行動先読み”うたう「Natural AI Phone」",
@@ -1152,15 +1161,6 @@
       "source": "Publickey",
       "tag": "テック",
       "color": "#888780"
-    },
-    {
-      "title": "April 08, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#April_08_2026",
-      "summary": "BigQuery\nFeature\nThe BigQuery Data Transfer Service now supports incremental data transfers\nwhen transferring data from Microsoft SQL Server to BigQuery. This feature is supported in\nPreview.\nFeature",
-      "published": "2026-04-08T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "Anthropic、世界的に重要なソフトウェアのセキュリティを守る「Project Glasswing」発表。AWS、Apple、Google、Linux財団など参画",
