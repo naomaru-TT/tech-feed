@@ -1,6 +1,15 @@
 {
-  "updated": "2026-04-19T17:03:14.147127+00:00",
+  "updated": "2026-04-19T19:55:52.151652+00:00",
   "items": [
+    {
+      "title": "Well-Architected フレームワークの覚え方：「失せしパコジ」",
+      "link": "https://qiita.com/LierFort/items/c953e2f19239f7402dc5",
+      "summary": "Well-Architected フレームワーク\nAWSの設計のベストプラクティスである\n「6つの柱」について\n私はこれで覚えました。\n\n失せしパコジ\n\nはい、そうです。\n単に頭文字並べただけです（脳筋）\nでも取っ掛かりを得るには、\nこういうのも悪くないでしょう？笑",
+      "published": "2026-04-19T17:44:56+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "外部モデルに一切頼らず自作LLMをバイブコーディングで作ってみた",
       "link": "https://qiita.com/natsu529/items/6d7ae63ea7374754984a",
@@ -137,22 +146,31 @@
       "color": "#FF9900"
     },
     {
-      "title": "RDS MySQL 8.0 to 8.4",
-      "link": "https://qiita.com/tksnino/items/77a126cd99ac915c0179",
-      "summary": "MySQL Community版のEOL\nRDS for MySQL 8.0 が間もなくEOLを迎えます。\n\nRDS 標準サポート終了日：2026/7/31\n\nしたがって、MySQL 8.4 へアップグレードを進めなければいけません。\n\n事前対応\nMySQL 8...",
-      "published": "2026-04-19T10:58:35+00:00",
-      "source": "Qiita - AWS",
+      "title": "AWS Network Firewall徹底解説①(基礎編)",
+      "link": "https://zenn.dev/ashika018/articles/aws-network_firewall_doc-20260419",
+      "summary": "AWS Network Firewallについて、なんとなく親近感が湧かない方も多いのではないでしょうか。\n私もAWS Network Firewallとは何かよくわかっていませんでした。\nそこで本記事では、AWS Network Firewall が結局どのようなサービスで、どのように通信を検査しているのかを、公式ドキュメントをもとに整理してみます。\nAWS Network Firewall の",
+      "published": "2026-04-19T12:16:25+00:00",
+      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "Cursorは外、Claude Codeは中。Docker Compose で閉じたAI開発端末を作った",
-      "link": "https://zenn.dev/moimoi/articles/docker-claude-code-sandbox",
-      "summary": "はじめに\nClaude Code を業務でホストに直接動かすのは、正直ちょっと怖い。個人開発なら WSL でそのまま使っているけど、チームで Agent Teams を回すとなると話は別。\n標準の sandbox モードはまだ様子見でいいかなという感触で、Anthropic 公式ドキュメント自身「強い境界が必要なら Docker 等と組み合わせろ」と書いている。素直にコンテナ境界に乗っかった構成を",
-      "published": "2026-04-19T10:35:50+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
+      "title": "AWSの鍵管理ベストエフォート（よくある運用例つき）",
+      "link": "https://zenn.dev/tonbi_attack/articles/4c7493b40eac09",
+      "summary": "はじめに\nAWS で EC2 や Kubernetes を運用していると、避けて通れないのが鍵と認証情報の管理です。\n理想論だけであれば、SSH 鍵を配らず、個人を IAM で識別し、操作は監査ログに残す、で終わります。\nただし実務では、Bastion 前提の構成、共有フォルダでの鍵配布、手作業の本番操作が残っていることも珍しくありません。\nこの記事では、次の内容を整理します。\n\nAWS における",
+      "published": "2026-04-19T10:34:29+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "【AWS Amplify Gen 2】テンプレートを活用してフルスタックアプリをサクッとデプロイしてみた",
+      "link": "https://zenn.dev/lunette/articles/e6c9426ce3df48",
+      "summary": "はじめに\nフロントエンドエンジニアがバックエンドを含めたフルスタックな開発を迅速に行うためのツールとして、AWS Amplifyが広く利用されている。2024年に登場したAWS Amplify Gen 2は、これまでのGen 1で課題だった設定の複雑さが解消されており、かなり使いやすくなっている。\n本記事では、公式ドキュメントのクイックスタートをベースに、Next.js（App Router）を用",
+      "published": "2026-04-19T09:51:06+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "Amazon Cognito のパスキー認証を Flask で実装する",
@@ -173,9 +191,9 @@
       "color": "#4285F4"
     },
     {
-      "title": "プロンプトの再現性をAI に自動チューニングさせる方法 ~ 暗黙知を排除する",
+      "title": "プロンプトの再現性を、AI に自動チューニングさせる",
       "link": "https://zenn.dev/mizchi/articles/empirical-prompt-tuning",
-      "summary": "AI の技術記事は食傷気味なんですが、さすがにこれは効くと思ったパターンを見つけたので紹介します。\n\n tl;dr\n\nプロンプト (skill / slash command) を書いた直後は「これで伝わるはず！」と思うのに、別のセッションで使うと暗黙知が不足していて、再現性がなくなる\n思い込みは当人に修正できないバイアスなので、別の AI に実際にやらせて詰まった箇所をレポートさせる\nこれを繰り",
+      "summary": "tl;dr\n\nプロンプト (skill / slash command) を書いた直後は「これで伝わるよね」と思うのに、別の AI セッションで使うと普通に詰まる\n思い込みは当人に修正できないバイアスなので、書いた直後に別の AI に実際にやらせて詰まった箇所をレポートさせる\nこれを繰り返す。プロンプトが段階的に洗練される (TDD のテストと同じ位置づけ)\n実際に 8 個の skill で試して",
       "published": "2026-04-19T08:04:42+00:00",
       "source": "Zenn - LLM",
       "tag": "AI",
@@ -483,27 +501,9 @@
       "link": "https://zenn.dev/machamu/articles/terraform-introduction-basics-and-practice",
       "summary": "はじめに\nクラウド環境の構築・管理をWebコンソールで手作業していませんか？　手動操作は再現性が低く、設定ミスや環境差分の原因になります。\nIaC（Infrastructure as Code） は、インフラの構成をコードとして定義・管理する手法です。コード化することで、バージョン管理やレビュー、自動テストといった開発のベストプラクティスをインフラにも適用できます。\n本記事では、IaCツールの代表",
       "published": "2026-04-18T17:49:27+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "Terraform入門——インフラをコードで管理する基本と実践",
-      "link": "https://zenn.dev/machamu/articles/terraform-introduction-basics-and-practice",
-      "summary": "はじめに\nクラウド環境の構築・管理をWebコンソールで手作業していませんか？　手動操作は再現性が低く、設定ミスや環境差分の原因になります。\nIaC（Infrastructure as Code） は、インフラの構成をコードとして定義・管理する手法です。コード化することで、バージョン管理やレビュー、自動テストといった開発のベストプラクティスをインフラにも適用できます。\n本記事では、IaCツールの代表",
-      "published": "2026-04-18T17:49:27+00:00",
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "Terraform実践ガイド——モジュール設計・リモートステート・実践コマンド活用",
-      "link": "https://zenn.dev/machamu/articles/terraform-intermediate-module-cicd-practice",
-      "summary": "はじめに\n前回の入門記事では、Terraformの基本概念とS3バケット・EC2インスタンスの作成を体験しました。しかし、実際のプロジェクトでは「1人でリソースを作って壊す」だけでは運用できません。\n本記事では、実務でTerraformを使いこなすための3つのテーマを解説します。\n\n\nリモートステート — ステートファイルをチームで安全に共有する\n\nモジュール設計 — 再利用可能なインフラ構成を作",
-      "published": "2026-04-18T17:49:26+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "Terraform実践ガイド——モジュール設計・リモートステート・実践コマンド活用",
@@ -549,15 +549,6 @@
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "AWS BedrockとClaudeだけで障害発生時の一次オンコールを自動化する話 — 低予算で組む障害検知エージェント",
-      "link": "https://zenn.dev/okamyuji/articles/aws-bedrock-claude-incident-response",
-      "summary": "!\n本記事は執筆時点である2026年4月にAWS us-east-1で実動作を確認した内容です。登場するClaude Haiku 4.5、Sonnet 4.6、Opus 4.5は、執筆時点でAWS Bedrockの米国系リージョンから利用できるモデル世代であり、実在のモデルです。ただし、Amazon Bedrockのモデル有効化手順、モデルIDの命名規則、Step Functionsの挙動などはA",
-      "published": "2026-04-18T13:05:21+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "AWS BedrockとClaudeだけで障害発生時の一次オンコールを自動化する話 — 低予算で組む障害検知エージェント",
@@ -722,6 +713,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "ポケモン第3世代の努力値管理ツールを自作したら、思いのほか技術的に楽しかった話",
+      "link": "https://zenn.dev/eh6gac4/articles/poke-ev-tracker",
+      "summary": "はじめに\n子どものころに遊んだポケモン ファイアレッド・リーフグリーン（FRLG）がSwitchで出ると知り、「やるしかない」と思いました。\nただ、せっかく遊ぶなら普通のプレイとは少し違う楽しみ方をしてみたい。そこで考えたのが、旅の中で無理のない範囲で努力値稼ぎをしながら進むというスタイルです。ジムバッジを集めつつ、自分のパーティを少しずつ強化していく感じが、育成ゲームとしてのポケモンの楽しさをよ",
+      "published": "2026-04-17T21:55:21+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "スプレッドシートで管理していたテーブルコメントをDDLに反映する仕組みを作った",
       "link": "https://zenn.dev/38_38/articles/5eb6bb74dea6f0",
       "summary": "はじめに\n既存システムのテーブル定義は、スプレッドシートで管理されていました。\nカラムの意味や補足などの情報はスプレッドシート側にしか存在せず、\nDBのDDLにはコメントがほとんど付いていない状態でした。\nそのため、\n\nカラムの意味を確認するたびにスプレッドシートを見に行く必要がある\nDDLと定義書の二重管理になっている\nコメントの整備や更新が大変\n\nといった課題がありました。\nそこで、スプレッド",
@@ -749,7 +749,7 @@
       "color": "#10A37F"
     },
     {
-      "title": "Gemini-3.1-flash-tts試してみた",
+      "title": "【TTSモデル最良？？】Gemini-3.1-flash-tts試してみた",
       "link": "https://zenn.dev/solvio/articles/9cd63e29710e82",
       "summary": "はじめに\n「AI音声、もう人間と区別つかなくないですか？」\n最近ナレーション動画やポッドキャストを聴いていて、そう感じる場面が一気に増えました。\n2026年4月16日、Google Cloudから Gemini 3.1 Flash TTS のプレビュー版が公開されました。70を超える言語、30種類のプリセット音声、そして200以上の「オーディオタグ」 で囁き・叫び・笑い・ため息までテキストの中で自",
       "published": "2026-04-17T08:30:00+00:00",
