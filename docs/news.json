@@ -1,6 +1,24 @@
 {
-  "updated": "2026-04-19T14:11:01.407954+00:00",
+  "updated": "2026-04-19T17:03:14.147127+00:00",
   "items": [
+    {
+      "title": "外部モデルに一切頼らず自作LLMをバイブコーディングで作ってみた",
+      "link": "https://qiita.com/natsu529/items/6d7ae63ea7374754984a",
+      "summary": "はじめに\n研究室で深層学習の中身を勉強しているので、自作でLLMを作ってみたいという好奇心からこのプロジェクトを始めました。\n研究室ではさまざまなNNアーキテクチャをnumpyで実装し、数学的に説明するということをやっているのですが、実際の現場ではcudaでpytorch...",
+      "published": "2026-04-19T16:10:05+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "StrandsAgentsをAG-UI対応するアダプタのコードを読みながらAG-UIを学びたい",
+      "link": "https://qiita.com/Takenoko4594/items/2e9e171d60854d77652f",
+      "summary": "はじめに\n今回は、AIエージェントとフロントエンドを繋ぐプロトコル「AG-UI」に入門してみたいと思います。\n題材として、AWSが提供するStrandsAgentsというSDKでAIエージェントを構築するケースを想定します。\nStrandsAgentsをAG-U対応するた...",
+      "published": "2026-04-19T16:07:11+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "Cloudflare、AIエージェント用のファイルシステム「Cloudflare Artifacts」発表。Git対応バージョン管理とRESTful API対応のファイルシステム",
       "link": "https://www.publickey1.jp/blog/26/cloudflareaicloudflare_artifactsgitrestful_api.html",
@@ -29,6 +47,24 @@
       "color": "#888780"
     },
     {
+      "title": "移民で解決できるのか？ ― 欧州データが示す“低賃金構造”の限界と日本の選択 : Pythonで学ぶ マクロ経済学入門 (73)",
+      "link": "https://qiita.com/maskot1977/items/7ed27bd20761d144f33c",
+      "summary": "user:\n「Pythonで学ぶマクロ経済学入門」、第73回を始めましょう。まず\n「なぜ現場が疲弊するのか ― “財源幻想”と“移民ではない建前”が自治体に押し付けるコスト構造 : Pythonで学ぶ マクロ経済学入門 (72)」 https://qiita.com/ma...",
+      "published": "2026-04-19T15:03:48+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "【計画】AWS ECS（CaaS）構成でWebアプリを構築する",
+      "link": "https://qiita.com/takuto_25/items/ef0e9dd8a4892d3fded3",
+      "summary": "目次\n\nはじめに\n対象のアプリ\n構築のポイントについて（Well-Architectedをもとに）\n完成時の構成図（暫定版）\n大まかな計画\n\n1. はじめに\nここまでにAWS上でEC2を使用し、自作アプリをシンプルなIaaS構成で動かした。\n今回はさらなる学習のステップ...",
+      "published": "2026-04-19T14:44:41+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "Podが起動しないときの調査手順（kubectl get / describe / logs）【Kubernetes】",
       "link": "https://qiita.com/yoshihira0103/items/48d5f933843a045dc276",
       "summary": "Kubernetes運用でよくあるのが「Podが立ち上がらない問題」です。\nこの記事では、現場で使える初動調査手順をまとめます。\n\n結論：3ステップ\nkubectl get pod -A\nkubectl describe pod  -n \n...",
@@ -47,7 +83,7 @@
       "color": "#326CE5"
     },
     {
-      "title": "ローリングアップデート前に必ず確認したい3つの設定",
+      "title": "【Kubernetes】ローリングアップデート前に必ず確認したい3つの設定",
       "link": "https://qiita.com/yoshihira0103/items/81db6c4ae09687821e9a",
       "summary": "Kubernetes ローリングアップデートで事故る3つのポイント\nローリングアップデートは便利ですが、設定が適切でないと普通に障害起きます。\n実務でハマりやすいポイントを3つに絞ってまとめます。\n\n① レプリカ数1は危険\nレプリカ数が1の場合、切り替え時に一瞬でもPo...",
       "published": "2026-04-19T13:57:39+00:00",
@@ -63,6 +99,24 @@
       "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "因果推論の本質②：交絡因子 ─ 第三の変数の罠",
+      "link": "https://zenn.dev/kk_data13/articles/causal-inference-02",
+      "summary": "この記事で答える問い\n\n全体で見ると「女性の方が合格率が低い」。\nしかし学部別に見ると「どの学部でも女性の方が合格率が高い」。\nいったいどちらが真実なのか？\n\n前回、「相関は因果ではない」ことを確認した。その元凶が交絡因子（confounder） だ。\n本記事では、交絡因子がなぜ因果推定を狂わせるのか、そして調整すべき変数の判断を間違えるとどうなるかを、シンプソンのパラドックスと符号反転の実例で体",
+      "published": "2026-04-19T13:50:10+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Elasticsearchの3検索を混ぜて精度検証してみた - Dense, Lexical, Sparse Retrival",
+      "link": "https://zenn.dev/taimo/articles/28a1d0eccbc199",
+      "summary": "この記事で分かること\n\nElasticsearchで使える3つの検索手法 (Dense / Lexical / Sparse) の違いと、それらを RRF で統合した3-way検索の実務上の位置づけ\nJMTEBの11タスクで検証した結果 (NDCG@10)\n\n\n 最初に\n最近、仕事でElasticsearchを使い始めました。設計を進める上で迷ったのが、検索アルゴリズムをどう選定するかという点です",
+      "published": "2026-04-19T13:16:28+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "Kubernetes",
@@ -92,22 +146,13 @@
       "color": "#FF9900"
     },
     {
-      "title": "EventBridgeのイベントを再送させてみた。",
-      "link": "https://qiita.com/ko-ta-ro/items/5a7b769e52c4e9e59f6b",
-      "summary": "1. EventBridgeとは\n　EventBridgeはAWSが提供するサービスの1つです。1分毎にイベントを送信する、毎日9時にイベントを送信する、S3にオブジェクトがアップロードされたらイベントを送信するなど、様々なタイミングでイベントを送信することができます。ま...",
-      "published": "2026-04-19T10:40:12+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "ポートフォリオサイトをCloudFront+S3で構築 & NFCカードでデジタル名刺を作成",
-      "link": "https://qiita.com/KokoHakotaro/items/d8afd8890e88ab430811",
-      "summary": "はじめに\nこんにちは、KokoHakotaroです。\n私はよくAWSのエンジニアコミュニティイベントに参加しているのですが、そこでよく、このような方と出会います。\n「このカードから自己紹介ページに飛ぶので、スマホをかざしてみてください」\nそう、NFCカードを使ったデジタル...",
-      "published": "2026-04-19T08:46:03+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "Cursorは外、Claude Codeは中。Docker Compose で閉じたAI開発端末を作った",
+      "link": "https://zenn.dev/moimoi/articles/docker-claude-code-sandbox",
+      "summary": "はじめに\nClaude Code を業務でホストに直接動かすのは、正直ちょっと怖い。個人開発なら WSL でそのまま使っているけど、チームで Agent Teams を回すとなると話は別。\n標準の sandbox モードはまだ様子見でいいかなという感触で、Anthropic 公式ドキュメント自身「強い境界が必要なら Docker 等と組み合わせろ」と書いている。素直にコンテナ境界に乗っかった構成を",
+      "published": "2026-04-19T10:35:50+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "Amazon Cognito のパスキー認証を Flask で実装する",
@@ -146,6 +191,24 @@
       "color": "#10A37F"
     },
     {
+      "title": "【初学者向け】cgroupとは？焼肉で理解するLinuxリソース制御の仕組み",
+      "link": "https://zenn.dev/gachigachi/articles/7727c8b95183a6",
+      "summary": "0. はじめに\nコンピューターが突然遅くなったりフリーズするのは、\n一部のプログラムがCPUやメモリを使いすぎて、他が動けなくなるからです。\nこれを防ぐのが cgroup（Control Groups）。\nLinuxカーネルの機能で、プロセスごとにCPUやメモリの使用量を制限できます。\nDockerやKubernetesでも使われている重要な仕組みです。\nとはいえ「リソース制御」と言われてもピンと",
+      "published": "2026-04-19T08:00:08+00:00",
+      "source": "Zenn - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "【初学者向け】cgroupとは？焼肉で理解するLinuxリソース制御の仕組み",
+      "link": "https://zenn.dev/gachigachi/articles/7727c8b95183a6",
+      "summary": "0. はじめに\nコンピューターが突然遅くなったりフリーズするのは、\n一部のプログラムがCPUやメモリを使いすぎて、他が動けなくなるからです。\nこれを防ぐのが cgroup（Control Groups）。\nLinuxカーネルの機能で、プロセスごとにCPUやメモリの使用量を制限できます。\nDockerやKubernetesでも使われている重要な仕組みです。\nとはいえ「リソース制御」と言われてもピンと",
+      "published": "2026-04-19T08:00:08+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "ローカルLLM用の簡易版スキルとしてトリガーという機能を考えてみました",
       "link": "https://zenn.dev/karaage0703/articles/89631872ca5a86",
       "summary": "最近、DGX Spark上でローカルLLMをどれだけ使えるかという実験をしています。\nhttps://zenn.dev/karaage0703/articles/fcca40c614dffd\nローカルLLM、単純におしゃべりをさせたり、単一の作業をさせるだけなら、使える場面も増えてきたのですが、Claude CodeやCodexみたいに、スキルを使って汎用的に様々な作業をさせようとすると、うまくい",
@@ -171,6 +234,15 @@
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "【実践】ハーネスエンジニアリング入門：セキュリティAIエージェント Warren を手元で動かして学ぶ",
+      "link": "https://zenn.dev/yohei_data/articles/2f9a843cd9d208",
+      "summary": "はじめに\n2026年に入ってから「ハーネスエンジニアリング」という概念が、LLMエージェント開発の界隈で話題になっています。\n先日公開されたUbieの水谷氏による記事では、セキュリティ分析AIエージェント「Warren」を題材に、この概念の具体例が詳細に解説されていました。\n記事を読んで非常に興味深かったので、実際にWarrenを自分のPCで動かして、ハーネスエンジニアリングの要素を実地で確認して",
+      "published": "2026-04-19T07:23:55+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "【競馬AI検証記録】260419：皐月賞（中山11R）",
@@ -272,6 +344,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "Kerasのmodel.summary()、ちゃんと読めてますか？パラメータ数の計算方法を図解",
+      "link": "https://zenn.dev/wasurenamemo/articles/caa1ce29e960da",
+      "summary": "Kerasでモデルを作ると必ず表示される model.summary()。\n最初のうちは「Output Shapeの None って何？」「Param # はどうやって計算されてるの？」\nと思いながら読み飛ばしてしまいがちです。\n一度理解してしまえば、モデルの設計ミスやパラメータ数の膨らみにすぐ気づけるようになります。\n\n 3つの列の意味\n\n\n\n列名\n意味\n注意点\n\n\n\n\nLayer (type)",
+      "published": "2026-04-19T04:00:17+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "API Gatewayのログについて:実行ログとアクセスログの違い・出力先・CDKでの設定まとめ",
       "link": "https://zenn.dev/hknote/articles/4f3cc4c76624f0",
       "summary": "Lambda と API Gateway を使った構成でトラブルシューティングをしていたとき、「そもそもリクエストが API Gateway まで届いているのか？」がわからず困ったことがありました。\n調べてみると、API Gateway には 実行ログ（Execution Logs） と アクセスログ（Access Logs） の2種類があり、それぞれ役割も設定方法も違うことを知りました。今回はそ",
@@ -304,15 +385,6 @@
       "summary": "私はエンジニアではない。２月１０日、会社命令で初めて業務用Copilotを触った。以来、ＡＩの魅力に取りつかれ、１日１０時間は対話をしているだけのただの変態、もとい、一般人である。\n　本稿は、そんな一般人におけるエッセイのようなものだと思ってほしい。\n結論\n　無料最強はC...",
       "published": "2026-04-19T02:57:14+00:00",
       "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "日経平均の終値を予測する #3",
-      "link": "https://qiita.com/tk0crypto/items/d4aaa8035344d5de62da",
-      "summary": "要旨\n\n前回までの検討を踏まえ、現在の前提・戦略は以下の通り。\n\n8:40 JST時点で当日日経平均の終値15:30の予測を試みる。\n現在の戦略：08:40 直前の日経平均先物CME NKD=F 1 分足 Close をそのまま予測値とする。\n\nこの 1 点採用では、...",
-      "published": "2026-04-19T02:14:46+00:00",
-      "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -506,15 +578,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "「ねずみは、どうして走るのか。」をAI先生に教えてもらいました。",
-      "link": "https://qiita.com/mrrclb48z/items/f86104c9f31accba08b9",
-      "summary": "・今回、ほぼ完全?貼り付けです。\n\n(本日の)ChatGPT先生へ\n\nねずみが走る理由は、とてもシンプルですが、いくつかの本能が組み合わさっています。\n① 外敵から逃げるため\nねずみは、猫・鳥・ヘビなど多くの動物に狙われる「弱い立場の動物」です。\nそのため、危険を感じたらと...",
-      "published": "2026-04-18T11:37:46+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Dockerアプリの環境構築を経て、macOS = Linuxでないことを知った話",
       "link": "https://zenn.dev/rin__rin/articles/51f071d0ac02f1",
       "summary": "1. 目的・背景\n\n 1.1. 背景\n現在、私は下記の参考書を読んでいます。\n\n実践！Go言語とgRPCで学ぶマイクロサービス開発（設計技術シリーズ126）\n\n上記参考書では、サンプルコードを動かす環境として、WSL + Docker Desktopで環境構築していましたが、私はプライベートではMacbookユーザーなので、macOS + Rancher Desktopで環境構築をすることにしまし",
@@ -659,24 +722,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "ポケモン第3世代の努力値管理ツールを自作したら、思いのほか技術的に楽しかった話",
-      "link": "https://zenn.dev/eh6gac4/articles/poke-ev-tracker",
-      "summary": "はじめに\n子どものころに遊んだポケモン ファイアレッド・リーフグリーン（FRLG）がSwitchで出ると知り、「やるしかない」と思いました。\nただ、せっかく遊ぶなら普通のプレイとは少し違う楽しみ方をしてみたい。そこで考えたのが、旅の中で無理のない範囲で努力値稼ぎをしながら進むというスタイルです。ジムバッジを集めつつ、自分のパーティを少しずつ強化していく感じが、育成ゲームとしてのポケモンの楽しさをよ",
-      "published": "2026-04-17T21:55:21+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "因果推論の本質①：相関と因果 ─ なぜ区別が必要か",
-      "link": "https://zenn.dev/kk_data13/articles/causal-inference-01",
-      "summary": "この記事で答える問い\n\n広告を打ったら売上が上がった。\n広告のおかげ？ それとも繁忙期だっただけ？\n\nデータ分析で「AとBに相関がある」と分かっても、「AがBを引き起こしている」とは限らない。この区別を曖昧にしたまま意思決定すると、効果のない施策にコストを投じたり、逆効果の介入を行ったりしてしまう。\n本記事では、相関と因果の違いを直感から数式まで段階的に解説し、Pythonコードで「交絡を無視する",
-      "published": "2026-04-17T16:09:28+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "スプレッドシートで管理していたテーブルコメントをDDLに反映する仕組みを作った",
       "link": "https://zenn.dev/38_38/articles/5eb6bb74dea6f0",
       "summary": "はじめに\n既存システムのテーブル定義は、スプレッドシートで管理されていました。\nカラムの意味や補足などの情報はスプレッドシート側にしか存在せず、\nDBのDDLにはコメントがほとんど付いていない状態でした。\nそのため、\n\nカラムの意味を確認するたびにスプレッドシートを見に行く必要がある\nDDLと定義書の二重管理になっている\nコメントの整備や更新が大変\n\nといった課題がありました。\nそこで、スプレッド",
@@ -684,15 +729,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "ポートフォリオ設計のPython実装 -- 100万円を擬似運用",
-      "link": "https://zenn.dev/shimada_ml/articles/08c0db24793b9d",
-      "summary": "はじめに\n本シリーズでは、4本の記事を通じてファイナンス理論の数理を導出し、Pythonで実装してきました。\n\n効率的フロンティアの数理とPython実装（マーコウィッツ）\nCAPMの数理とPython実装（ベータ・アルファ・SML）\nモンテカルロシミュレーションの数理とPython実装（GBM・VaR）\nブラック-ショールズ方程式の数理とPython実装（オプション・グリークス）\n\nしかし、理論",
-      "published": "2026-04-17T12:32:06+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "初めてGCPを少し触って、Cloud Functionsからスプレッドシートに書き込むまでやったメモ",
@@ -709,15 +745,6 @@
       "summary": "Notionがナレッジワーカーを対象に実施した調査によると、21％が業務でAIを「ほぼ毎日」使うと回答した。一方、「出力が独自性に欠ける」などの課題も見えてきた。",
       "published": "2026-04-17T10:13:00+00:00",
       "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "TurboScribe とは？使いどころと他ツールとの違いを整理する",
-      "link": "https://zenn.dev/polayan/articles/f623bc7d57870c",
-      "summary": "音声や動画の文字起こしツールはここ数年でかなり増えてきましたが、実際に使ってみると「どれも同じ」ではなく、設計思想がかなり違います。\nこの記事では、TurboScribe を中心に、実際の使い方や向いているケース、そして他の選択肢との違いを整理します。\n\n\n TurboScribe とは？どんな人に向いているのか\nTurboScribe は、音声や動画をテキストに変換する AI ベースの文字起こし",
-      "published": "2026-04-17T09:47:05+00:00",
-      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -857,15 +884,6 @@
       "color": "#888780"
     },
     {
-      "title": "docker-compose.yml の書き方についてまとめみた",
-      "link": "https://zenn.dev/sawa_tech/articles/20ca42ee4bfb65",
-      "summary": "はじめに\n今回は docker-compose.yml ファイルの基本的な構文についてまとめてみます。\n\n docker-compose.yml ファイルとは？\ndocker-compose.yml は複数の Docker で構成されるアプリケーションのサービス、ボリューム、ネットワークを YAML 形式で定義するファイルです。\ndocker compose コマンドを使うことで、アプリケーション",
-      "published": "2026-04-16T14:25:54+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "TerraformでAWS上にDocker環境を爆誕させる！〜初心者がハマりがちなSSH鍵とIP制限も自動化〜",
       "link": "https://zenn.dev/hunter_66/articles/7218245aeab4a3",
       "summary": "はじめに\nAWSの学習（SAP/DOPなど）をしていると、コンソールをポチポチするのが面倒になりませんか？\n今回は「Terraformを使って、自分のIPアドレスからのアクセスだけを許可した安全なDocker環境」を一撃で構築する方法をまとめました。\n特にWindows（VSCodeターミナル）でハマりやすい「SSH鍵のパス問題」の解決策もセットで解説します。\n\n 構成図\n・VPC / Publi",
@@ -882,15 +900,6 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "元インフラ屋がWeb開発初挑戦！構成図で見るセキュアなチャット基盤の全貌！",
-      "link": "https://zenn.dev/yonimal_dev/articles/8d66a65f640b64",
-      "summary": "シリーズ一覧\n\n全体構成編：本記事\nホストOS防衛編：Dockerコンテナからホストを守れ！元インフラ屋が施したSSHとFWの鉄壁設定！\n以降執筆中...\n\n\n はじめに\nこんにちは。私は、Web開発初挑戦で「yonimal」というチャットサービスを作りました。\nhttps://yonimal.com\nまじの初めてです。HTMLは&lt;a&gt;タグや&lt;br&gt;タグ等、基礎しか知りませ",
-      "published": "2026-04-16T07:14:15+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "April 16, 2026",
@@ -1161,15 +1170,6 @@
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "「Mailu」による自宅メールサーバーからGmail・Yahooメールへの配信拒否が起こった際の対応",
-      "link": "https://zenn.dev/tokiwa_t/articles/4798e6c1d70a1a",
-      "summary": "Summary\n\nKubernetes上でMailuを構築後、Gmail・Yahooメールへの配信が拒否される問題が発生した\nGmail向けの対処法として、Google Postmaster Toolsへの登録とドメインレピュテーション蓄積が有効である\nYahoo向けの対処法として、送信IPアドレスに対する逆引きDNS（PTR）レコードの設定が必要である\n\n\n やらないこと\n本記事では、Mailu",
-      "published": "2026-04-09T01:36:53+00:00",
-      "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "AWS Elemental MediaLive で SRT Listener モードのサポートを開始",
