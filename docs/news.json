@@ -1,6 +1,15 @@
 {
-  "updated": "2026-04-24T17:56:02.564933+00:00",
+  "updated": "2026-04-24T20:07:10.413254+00:00",
   "items": [
+    {
+      "title": "harness engineering を 5 層で整理する — Python で 1 から書いて見えたこと",
+      "link": "https://zenn.dev/luoxi/articles/harness-engineering-everyday",
+      "summary": "harness engineering は、普段 Claude Code や Codex を触っている人がすでに実践していて、言語化されていなかっただけ の概念だと自分は思う。この記事は自分なりの整理メモ。ついでに「じゃあ 1 から組むとどうなるか」も Python で実装してみたので、後半にその過程で見えたことをまとめた。あくまで自分なりの纏め方なので、正確に追いたい場合は末尾の参考リンクの原典",
+      "published": "2026-04-24T17:02:17+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "AWS 無料チュートリアルその15: ALB 配下で EC2 が自動増減したり CPU 負荷 でスケールする Auto Scaling を実装したい",
       "link": "https://qiita.com/tclinux/items/a854a4add56d71ef2239",
@@ -29,6 +38,15 @@
       "color": "#FF9900"
     },
     {
+      "title": "PDF4LLM：LLM前処理ドキュメント処理レイヤー",
+      "link": "https://zenn.dev/jamielemon/articles/10216fe4f7242f",
+      "summary": "PDFを解析する。LLMを強化する。\nあらゆるRAGパイプライン、ファインチューニングデータセット、ドキュメント対応エージェントは、同じ問題にぶつかってきました。入力がPDFであり、PDFは本当の意味でのドキュメントではないという問題です。PDFはレンダラーのための描画命令の集合体です。ファイルの中に「見出し」も「表」も読み順もなく、あるのは座標とフォントとグリフだけ——読者ではなくレンダラーのた",
+      "published": "2026-04-24T15:09:12+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "過学習はなぜ“訓練が上手い”のに困るのか",
       "link": "https://qiita.com/Seine_A_Shintani/items/7e77764ef447ee797477",
       "summary": "はじめに\n機械学習を勉強していると、よく 過学習 という言葉が出てきます。\n過学習は、ざっくり言うと\n\n訓練データにはとてもよく合っているのに、未知のデータにはうまく対応できない状態\n\nです。\n一見すると、\n\n訓練データで成績が良いなら、いいモデルなのでは？\n\nと...",
@@ -45,6 +63,15 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
+    },
+    {
+      "title": "なぜClaude Codeは「トークンを食いまくる」のか、そしてそれを止める6つの習慣",
+      "link": "https://zenn.dev/ruralwritter/articles/b5e90a4883308e",
+      "summary": "*全3回シリーズ・第1回\n日本語で記事を書くのは今回が初めてです。何かお気づきの点があれば、ぜひご指摘いただければ幸いです。\n\nシリーズ: Claude Codeのトークン節約術\n\n\n第1回: 基本の6つの習慣 ← いまここ\n第2回: Prompt Cache\n第3回: 3層スタックを組み合わせる\n\n\n ある夜、私は「何かがおかしい」と気づいた\nその日は朝からClaude Codeを開いていました",
+      "published": "2026-04-24T14:47:58+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "Google Cloud Next '26 現地レポ——AI エージェントはパイロット開発から本番へ",
@@ -110,6 +137,15 @@
       "color": "#326CE5"
     },
     {
+      "title": "OpenWebUIの『Thinking...』は本当に推論しているのか？",
+      "link": "https://zenn.dev/hitama/articles/bd3c771f6984ea",
+      "summary": "1. はじめに\nOpenWebUIには「Thinking...」という思考表示があります。\n一見すると、\n「OpenWebUIが内部で推論している」ように見えます。\nどういう仕組みなのだろうと思って調べました。\n結論から言うと、以下の通りです。\n\nthinkingはLLMが出力しています\nOpenWebUIはそれを検出・整形・表示しているだけです\n\n本記事では、この仕組みをコードベースで追いながら",
+      "published": "2026-04-24T12:03:42+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "AWS SAA – Lambda",
       "link": "https://zenn.dev/leesw/articles/3a9ffddaf29b42",
       "summary": "主要な概念\n\n AWS Lambdaとは\nサーバーのプロビジョニングや管理をすることなくコードを実行できるサーバーレス計算サービスです。\n\n\nイベント駆動： S3へのアップロードやDynamoDBの更新など、特定のイベント発生時のみ実行されます。\n\n実行時間の制限： 1つの関数につき最大15分まで実行可能です。\n\n自動スケーリング： リクエスト数に応じてAWSが自動でリソースを拡張し処理します。",
@@ -117,6 +153,15 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "agent /tools の設計要素 — アプリ開発者の腕の入れ所",
+      "link": "https://zenn.dev/loglass/articles/5512010213b87e",
+      "summary": "!\nこの記事は毎週必ず記事がでるテックブログ Loglass Tech Blog Sprint の140週目の記事です！\n3年間連続達成まで残り19週となりました！\n\n\n 1. SDK が引き受けてくれるもの、いないもの\nエージェントを書いていて、「結局、自分で設計する余地ってどこだっけ？」 となる瞬間があります。\n定型処理の多くは、SDK/ライブラリ が吸収してくれますよね。\n\nmodel の呼",
+      "published": "2026-04-24T11:30:51+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "【Cloud Next 2026 セッションレポート】What's new in Cloud Run",
@@ -281,15 +326,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "AIとAIをつなぐ意味のパイプライン設計：会話ではなく、正典・制約・実ファイルで状態を継承する",
-      "link": "https://zenn.dev/yuta_yokoi/articles/91cf894e1072c6",
-      "summary": "会話ではなく、正典・制約・実ファイルで状態を継承する\n!\nこの記事は、完結済みのAIO実践シリーズ全6本の「第7弾」ではありません。\n既存シリーズを前提資料として扱い、その上位レイヤーに立つ 独立記事 です。\n\n関連キーワード：#AIO #AI #LLM #MultiAgent #AIエージェント #AIオーケストレーション #PM #アーキテクチャ #プロンプトエンジニアリング #llms.tx",
-      "published": "2026-04-24T07:22:36+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Amazon Athena関数",
       "link": "https://zenn.dev/uhs/articles/6e2fd57e778646",
       "summary": "Athena / Presto / Trino 関数\nAthena（およびその基盤である Presto・Trino）には、「知らなくても一応動くけど、知っていると劇的にクエリがシンプルになる」関数がたくさんあります。本記事は、そういった関数を なぜ使うのか から丁寧に説明します。全ての関数に 実際の入力データと出力結果 を掲載しているので、動きを頭の中でイメージしながら読んでください。\n\n\n ウィ",
@@ -362,15 +398,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "TIME-LLM を読んでみた：LLM はどうやって時間系列予測に使われるのか",
-      "link": "https://zenn.dev/yuyu1/articles/aae287575bb453",
-      "summary": "はじめに\nLLM を使う研究がかなり増えてきた。その中でも TIME-LLM は、読んでいて「なるほど、こういう方向で使うのか」と思った論文だった。\n最初は、自分も「LLM に数字をそのまま読ませて、次の値を予測するのかな」\nと何となく思っていた。\nでも実際に読むと、TIME-LLM はそんな単純な話ではなかった。むしろこの論文は、LLM はそのままだと時間系列をうまく扱えないという前提から出発し",
-      "published": "2026-04-24T06:25:12+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Codexは「コードを書くAI」ではない。SEの開発・調査・テスト・事務処理まで変える“実務エージェント”だ",
       "link": "https://qiita.com/espritfort_tech/items/9ed0661f332145d11b9b",
       "summary": "はじめに：AIを使うSEと、AI時代に埋もれるSEの差はどこで生まれるのか\n株式会社エスプリフォートは、\n「ITの力でお客様のビジネスを支え、笑顔と価値を創造する」ことを大切にしているシステム開発会社です。\n私たちは、単にシステムを作るだけではなく、\n顧客価値をどう生み...",
@@ -434,29 +461,11 @@
       "color": "#10A37F"
     },
     {
-      "title": "なぜAIエージェントの再現性はプロンプトだけで解決できないのか？——暗黙知の構造化と「記憶設計」への転換",
-      "link": "https://zenn.dev/memorylakeai/articles/e4e59fec635d98",
-      "summary": "はじめに\n「昨日は完璧に動いていたAIエージェントが、今日になったら全く違う挙動をする」\n「別のタスクを頼んだら、さっきまで守っていた出力ルールを忘れてしまった」\nLLMを使ったアプリケーションやAIエージェントを開発していると、誰もが一度はこのような「再現性の欠如」に直面します。この問題に対して、多くの開発チームは「プロンプトの指示が足りないからだ」「もっと詳細に条件を記述しよう」と考え、プロン",
-      "published": "2026-04-24T03:43:59+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "「アカデミアで国産LLMをやる意味」に対する答え　NII所長に聞く、透明性へのこだわり",
       "link": "https://www.itmedia.co.jp/aiplus/articles/2604/24/news061.html",
       "summary": "日本語性能の高いオープンなLLMの開発に取り組んでいる国立情報学研究所。独自モデルの開発を続ける理由を黒橋禎夫所長に聞いた。",
       "published": "2026-04-24T03:00:00+00:00",
       "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "PPOかGRPOか？Explained Varianceが解くRLVRの最大のジレンマ",
-      "link": "https://zenn.dev/lixian/articles/evpo-explained-variance-ppo",
-      "summary": "PPOかGRPOか？Explained Varianceが解くRLVRの最大のジレンマ\n\n TL;DR\n\nLLM後段訓練（RLVR）における最大の設計判断の一つは「Criticを使うかどうか」だが、PPO（Criticあり）とGRPO（Criticなし）のどちらが優れるかはタスク依存で、統一見解がない\n北京大学・复旦大学がEVPO（Explained Variance Policy Optimiz",
-      "published": "2026-04-24T02:29:09+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -475,15 +484,6 @@
       "summary": "Anthropicは、「Claude」の外部連携機能「コネクタ」を拡充した。Uber EatsやSpotify、Booking.comなど日常的なサービスに対応。会話の文脈から最適なアプリを動的に提案し、Claudeで予約や検索を行える。全プランのユーザーが利用可能だ。",
       "published": "2026-04-24T01:27:00+00:00",
       "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "個人のWikiから組織のナレッジ基盤へ：AIが読める知識を外在化する設計思想",
-      "link": "https://zenn.dev/biscuit/articles/externalize-knowledge-personal-to-org",
-      "summary": "はじめに\n以前、Andrej Karpathyが提唱した「LLM Wiki」のアイデアをClaude Codeで実装した話を記事にしました。\nhttps://zenn.dev/biscuit/articles/llm-wiki-claude-code-personal-knowledge-base\nObsidian Web Clipperで素材を集め、Claude Code Skillsで構造化W",
-      "published": "2026-04-24T01:23:59+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
