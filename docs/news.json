@@ -1,12 +1,30 @@
 {
-  "updated": "2026-04-25T17:11:20.882967+00:00",
+  "updated": "2026-04-25T19:56:54.193189+00:00",
   "items": [
+    {
+      "title": "EFS設計時の注意点",
+      "link": "https://zenn.dev/wakaka23/articles/84512dd8d26b69",
+      "summary": "EFSマウント時のファイルシステム構成\n\nhttps://qiita.com/sakai00kou/items/3ee37db9eb31a726f558\n\n EFSファイルシステム復元時の注意点\nAWS BackupによりバックアップしたEFSを復元する際には、EFSファイルシステムのルートディレクトリ配下に作成されるaws-backup-restore_[datetime]に元の階層構造が保持さ",
+      "published": "2026-04-25T16:38:40+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "AWS VPCのCIDRについてチャッピーと問答してみた",
       "link": "https://qiita.com/katsuki-fleur/items/8d82234b3f6c515a804b",
       "summary": "こんにちは。歌月と申します。\n初めての投稿です。\nAWSの学習のため、個人アカウントでハンズオンをしてみました。\nVPCでサブネットを作成する段階で、IPアドレスとCIDRにどのような値を入れるのが適切なのかわからなかったので、\n「そもそもサブネットマスクってなんだっけ？」...",
       "published": "2026-04-25T16:18:50+00:00",
       "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Claude Code on Bedrock のユーザー別コスト、もう自分で計算しなくていい",
+      "link": "https://zenn.dev/zhizhiarv/articles/claude-code-on-bedrock-per-user-cost-tracking",
+      "summary": "はじめに\nClaude Code や Cowork を組織利用する際、セキュリティ・ガバナンスや請求の一元化の観点で Amazon Bedrock 経由のニーズが増えています。\n参考：https://aws.amazon.com/jp/blogs/startup/claude-code-cowork-amazon-bedrock-benefits/\nMax プランや Team プランは月額固定です",
+      "published": "2026-04-25T15:50:39+00:00",
+      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -27,6 +45,15 @@
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "【AWS CLF-C02】SE4年目の合格体験記",
+      "link": "https://zenn.dev/hamunosuke/articles/56d59abe0b375c",
+      "summary": "はじめまして、ハムのすけ と申します。\n2026年4月25日にAWS CLF-C02を受験し、無事合格することができたため、その過程を共有させていただきます。\n受験を検討している方の参考になりますと幸いです。\n!\n既に上級資格を取得した人が初級資格を受験したという内容になっているため、初学者の方はご注意ください。\n\n\n\n 1. スペックと受験背景\n\n バックグラウンド\n\n\n職歴\n\nSE（工学系卒、",
+      "published": "2026-04-25T14:06:11+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "【AWS CloudFormation】CLIでのスタック操作まとめ",
@@ -54,6 +81,42 @@
       "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "論理削除という技術的負債 — 3 段階の代替案で剥がす",
+      "link": "https://zenn.dev/eftech/articles/eftech-soft-delete-as-technical-debt",
+      "summary": "はじめに\n「削除します」のダイアログを出しておいて、実は DB 上では deleted_at に NOW() を入れているだけ。画面には「この操作は元に戻せません」と書いてあるのに、嘘をついている。私はこの矛盾を 10 年以上抱えたまま仕事をしてきました。\n論理削除は、最初はシンプルで安全に見えます。データは消えないし、戻せるし、監査にも強い。しかし運用を続けるほど、インデックスは肥大化し、ユニー",
+      "published": "2026-04-25T12:00:07+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AWS CDKのドリフトを元に戻す--revert-driftオプションがcdk deployに追加されました",
+      "link": "https://zenn.dev/aki_kii/articles/cdk-deploy-revert-drift",
+      "summary": "AWS CDKでデプロイしたAWSリソースにドリフトが発生した時、元に戻すのが大変だった経験はありませんか？\naws-cdk@v2.1110.0 からcdk deployコマンドに--revert-driftオプションが追加されました。\nこのオプションを指定することで、CDKでデプロイしたリソースにドリフトが発生していた場合でも、合成したテンプレートに合わせてドリフトを解消してくれるようになります",
+      "published": "2026-04-25T11:39:44+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "【IAM】何気なく使っているIAM Identity Centerの仕組みについてまとめてみた",
+      "link": "https://zenn.dev/yuuyass/articles/6d8d4ecd540fad",
+      "summary": "はじめに\nAWS環境のアカウントへログインする方法は、主に以下２種類になると思います。\n具体的には、IAMユーザを指定しての直接ログインする方法と、組織から指定されたAccess Portalを利用してのユーザ認証でのログインする方法があります。\n今回は後者のAccess Portalを利用した方法についてまとめてみました。\nAccess Portalを利用した方法は、IAMで提供されている機能「",
+      "published": "2026-04-25T11:30:31+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "マルチAZ設計の本質（可用性を支えるクラウド設計）",
+      "link": "https://zenn.dev/irukaboat/articles/c4d6dd6e5540ea",
+      "summary": "はじめに\nクラウドインフラにおけるマルチAZ設計は、単なる「冗長化構成」ではなく、障害を前提にシステムを成立させるための設計思想である。\n本記事では、マルチAZの基本から、可用性向上の本質、マルチリージョンとの違いまでを整理する。\n\n\n マルチAZとは何か\nマルチAZ（Availability Zone）設計とは、複数の独立した可用性ゾーンにリソースを分散配置し、\n単一AZ障害が発生してもサービス",
+      "published": "2026-04-25T11:19:03+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "containerlab上でdocker版のSONiC-VSを動かす",
@@ -101,6 +164,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "Amazon BedrockのAmazon NovaモデルがWeb Groundingに対応したので試してみる",
+      "link": "https://zenn.dev/kameoncloud/articles/e65134729edcc6",
+      "summary": "先日AWSブログでAmazon Nova モデルがWeb Groundingに対応したというアナウンスがありました。\nhttps://aws.amazon.com/jp/blogs/aws/build-more-accurate-ai-applications-with-amazon-nova-web-grounding/\n\n Web Grounding とは\n生成AIは大量のデータをもとに学習し",
+      "published": "2026-04-25T10:01:47+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "Claude Codeのトークン削減テクニックまとめ",
       "link": "https://zenn.dev/seekseep/articles/claude-code-token-reduction-tips",
       "summary": "Claude Code を日常的に使っていると、セッションの途中で「コンテキストが長くなりすぎて応答が遅い」「トークン消費が想定以上に膨らんでいる」と感じる場面があるのではないでしょうか。AI コーディングアシスタントの性能は、入力するトークン量に大きく左右されます。必要な情報だけを的確に渡すことで、回答の精度と速度の両方を改善できます。\n対象読者: Claude Code を使い始めた方、または",
@@ -144,6 +216,15 @@
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "AWSコスト見積もりを自動化するために調べたAPIと設計方針",
+      "link": "https://zenn.dev/haragames/articles/aws-cost-estimation-api-design",
+      "summary": "はじめに\nAWS の月額コストを自動で見積もる仕組みを作りたいと思い、AWS 公式ツールと API の使い分けを整理しました。\n結論から言うと、AWS のコスト見積もりは大きく次の 2 種類に分けて考える必要があります。\n\n\n\n目的\n向いている手段\n\n\n\n\nこれから構築する構成の概算見積もり\nAWS Pricing Calculator / Price List Query API\n\n\nすでに運用",
+      "published": "2026-04-25T08:20:19+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "MemoRAG: RAGは「検索」から「記憶」へ。長文脈時代の新解を徹底解剖＆実装解説",
@@ -200,6 +281,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "AI エージェントに「この順番で呼んで」が通じない!! — Strands Steering でツール順序を決定論的に保証する",
+      "link": "https://zenn.dev/aws_japan/articles/584e4f5743eb37",
+      "summary": "この記事をざっくり言うと\n\nAI エージェントにプロンプトで「この順番でツールを呼んで」と書いても、LLM は確率的にトークンを生成する仕組みなので、従わない可能性を原理的に排除できない\nStrands Agents SDK の Steering Hook を使うと、ツール呼び出しの前に Python のチェックコードが割り込み、前提条件を満たさない呼び出しをキャンセルしてモデルに矯正を促せる\nプ",
+      "published": "2026-04-25T06:38:36+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "CNNのDense層をreluからeluに変えたら精度が上がった話【Keras×CIFAR-10】",
       "link": "https://zenn.dev/wasurenamemo/articles/df23a488b99545",
       "summary": "KerasのDense層のactivationは、なんとなくreluにしていませんか？\nMNISTならrelu・gelu・eluの差はほぼゼロです（既存の比較実験で確認済み）。\nではCIFAR-10ではどうでしょうか？実験してみました。\n\n\n 実験条件\n\nモデル：Conv2D×2層（relu固定）＋GAP＋Dropout=0.2\n\nDense層のactivationだけをrelu/gelu/elu",
@@ -227,15 +317,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "ACM証明書のDNS検証が終わらないと思ったらRoute 53で取得した.jpドメインのNSがJPRSに反映されていなかった話",
-      "link": "https://zenn.dev/program_panda/articles/e46bdbb3244352",
-      "summary": "はじめに\nAWS Route 53で .jp ドメインを取得したところ、Route 53コンソール上のネームサーバ設定と、実際のJPRS権威サーバに登録されているネームサーバが一致しない事象に遭遇しました。\n本記事では、発生した事象、調査手順、原因の切り分け方法をまとめます。\n\n TL;DR\n\nACMでSSL証明書をDNS検証で発行しようとしたら「保留中の検証」から進まなかった\n原因調査の過程で、",
-      "published": "2026-04-25T03:41:22+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "Atlassian × Google Cloud 提携深化：Jira/Confluence を「AI エージェントの活動拠点」に変える",
       "link": "https://zenn.dev/hokanco28/articles/19ebcd3204ac4a",
       "summary": "はじめに\n現在開催中の Google Cloud Next '26 にて、Atlassian と Google Cloud の戦略的パートナーシップのさらなる深化が発表されました。今回の目玉は、単なる機能連携ではなく、「Gemini を介した開発サイクルの自律化」 です。\nインフラと開発プロセスがどう統合され、どう「整う」のか、その核心を解説します。\n\n 1.「RAG for Developers",
@@ -261,15 +342,6 @@
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "ECS Fargate + Terraformでポートフォリオサイトを構築した話（CI/CD・コスト最適化・設計まとめ）",
-      "link": "https://zenn.dev/jishinzerogon/articles/9a2c479a3e904b",
-      "summary": "はじめに\n自己紹介用のポートフォリオサイトを AWS 上に構築した際の、構成・技術選定・工夫した点・ハマり所をまとめた記事です。\n\n なぜ作ったか\n\n\nコンテナ / CI/CD の実践的な学習: 業務では触る機会が少ない領域を、自分で仕様を決められる個人プロジェクトで一通り組み立てたかった\n\nアウトプットの土台づくり: 継続的に運用・改善を試せる題材として、自分の自己紹介サイトを手元に持っておきた",
-      "published": "2026-04-25T01:40:47+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "ECS Fargate + Terraformでポートフォリオサイトを構築した話（CI/CD・コスト最適化・設計まとめ）",
@@ -335,15 +407,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "AI×Amplify Gen2で月40万を1万に！非エンジニアの開発記 #10：CI/CDとNode.js 22移行",
-      "link": "https://zenn.dev/ricotiler/articles/document-app-dev-10-cicd-node22",
-      "summary": "概要\n第1話から始まったドキュメント管理アプリ開発も、ついに最終回を迎えました。これまでは開発者個人のローカル環境から「サンドボックス（Sandbox）」機能を使ってバックエンドを構築してきましたが、実際の運用では「コードを書き換えたら自動的に本番環境に反映される」仕組み、すなわち CI/CD パイプラインが不可欠です。\n今回は、連載の集大成として AWS CodePipeline を用いた自動デ",
-      "published": "2026-04-24T21:32:50+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "harness engineering を 5 層で整理する — Python で 1 から書いて見えたこと",
       "link": "https://zenn.dev/luoxi/articles/harness-engineering-everyday",
       "summary": "harness engineering は、普段 Claude Code や Codex を触っている人がすでに実践していて、言語化されていなかっただけ の概念だと自分は思う。この記事は自分なりの整理メモ。ついでに「じゃあ 1 から組むとどうなるか」も Python で実装してみたので、後半にその過程で見えたことをまとめた。あくまで自分なりの纏め方なので、正確に追いたい場合は末尾の参考リンクの原典",
@@ -398,24 +461,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "AWS認定 SAP & DVA 合格体験記",
-      "link": "https://zenn.dev/rkknttkm0831/articles/399888a93be251",
-      "summary": "はじめに\n29歳社内SEサラリーマン🧑‍💼\nメイン案件でレガシーシステムの老朽化対応をしていて、意味のわからない仕様に毎日頭を悩ませていました。\n保守で触れる周辺システムでAWSを使っており、息抜きがてらモダンな知識に触れたいと思って勉強📚\n「SAP：Solutions Architect - Professional」「DVA：Developer - Associate」を受験しました！\n\n 受",
-      "published": "2026-04-24T12:39:31+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "「CORS エラーで画像アップロードが落ちる」と思ったら AWS WAF のデフォルトルールだった話",
-      "link": "https://zenn.dev/lococount/articles/50781e6b15283f",
-      "summary": "「CORS エラーで画像アップロードが落ちる」と思ったら AWS WAF のデフォルトルールだった話\n\n TL;DR\n\n2MB の画像を POST したら、ブラウザに No 'Access-Control-Allow-Origin' header is present + net::ERR_FAILED が出た\nサーバー側の CORS 設定は何度見直しても正しい\n犯人は API Gateway の",
-      "published": "2026-04-24T12:32:43+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "npm install だけで機密情報が漏洩するリスク — サプライチェーンリスクのデモと対策",
       "link": "https://zenn.dev/hisa_tech_2973/articles/13d4d58e62cb5b",
       "summary": "「信頼できるパッケージを使っているから大丈夫」と思っていませんか？\n近年、npm パッケージを経由したサプライチェーンリスクが増加しており、npm install を実行しただけで機密情報が漏洩するリスクがあります。\n本記事では、このリスクを実際に手元で再現できるデモを紹介し、取りうる対策とその限界を整理します。\n\n サプライチェーンリスクとは\nソフトウェアのサプライチェーンリスクとは、自分たちが",
@@ -425,15 +470,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "AWS SAA – Lambda",
-      "link": "https://zenn.dev/leesw/articles/3a9ffddaf29b42",
-      "summary": "主要な概念\n\n AWS Lambdaとは\nサーバーのプロビジョニングや管理をすることなくコードを実行できるサーバーレス計算サービスです。\n\n\nイベント駆動： S3へのアップロードやDynamoDBの更新など、特定のイベント発生時のみ実行されます。\n\n実行時間の制限： 1つの関数につき最大15分まで実行可能です。\n\n自動スケーリング： リクエスト数に応じてAWSが自動でリソースを拡張し処理します。",
-      "published": "2026-04-24T11:44:49+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "【Cloud Next 2026 セッションレポート】What's new in Cloud Run",
       "link": "https://zenn.dev/nttdata_tech/articles/9049e227181405",
       "summary": "はじめに\nこんにちは！NTTデータ テクノロジーコンサルティング事業部の松苗です。\n2026年4月22日〜24日の3日間、米国ネバダ州ラスベガスのマンダレイ・ベイで開催されている Google Cloud Next 2026 に現地参加しています。\n本記事では、Cloud Runの製品チームや最前線のパートナーが登壇したセッション「What's new in Cloud Run」の内容をレポートし",
@@ -441,24 +477,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "AWS ALBの実務的な役割整理〜環境分離とネットワーク設計の中での位置づけ〜",
-      "link": "https://zenn.dev/irukaboat/articles/07f1929ce15a1a",
-      "summary": "!\nALBは環境切替をする装置ではないが、環境を成立させる入口である\n環境切替の主役は VPN / ネットワークである。ALBは各環境内の「交通整理係」のイメージ\n\n\n ■ はじめに\nAWSのALB（Application Load Balancer）は「負荷分散装置」として語られることが多いですが、実務ではそれ以上に “環境を成立させるための入口設計” として扱われるケースが多いです。\n単体の機",
-      "published": "2026-04-24T10:28:11+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "Strands Agents SDK入門 3行で始めるAIエージェント開発と他フレームワーク比較",
-      "link": "https://zenn.dev/0h_n0/articles/d509a8830be75b",
-      "summary": "Strands Agents SDK入門 3行で始めるAIエージェント開発と他フレームワーク比較\n\n この記事でわかること\n\nStrands Agents SDKの基本アーキテクチャと「model-driven」設計思想の理解\n3行のPythonコードからマルチエージェントシステムまでの段階的な実装方法\nLangGraph・CrewAI・OpenAI Agents SDKとの具体的な設計思想・機能",
-      "published": "2026-04-24T10:00:34+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "Docker Compose入門｜何が嬉しいのか・いつ使うか・最小例まで一気に解説",
@@ -477,24 +495,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "SA Night #3 ～SAの生存戦略：生成AIは「設計」の何を変えるのか～ イベントレポート",
-      "link": "https://zenn.dev/finatext/articles/sa-night-03-event-report",
-      "summary": "株式会社Finatextの技術広報 兼 エンジニアの五十嵐です！本日は2026年3月31日に開催した勉強会「SA Night #3 ～SAの生存戦略：生成AIは「設計」の何を変えるのか～」のイベントレポートをお届けします！\n\n SA Night #3 ～SAの生存戦略：生成AIは「設計」の何を変えるのか～\nSA Nightは、ソリューションアーキテクト（SA）について語る勉強会です。2019年の#",
-      "published": "2026-04-24T08:54:31+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "Terraformの設計書を書いてみて気づいたこと【後編】",
-      "link": "https://zenn.dev/scalar_sol_blog/articles/3992e552bd5c42",
-      "summary": "概要\n失敗と試行錯誤を経て、実際にTerraformの設計書を書き上げました。この記事では、設計書を書く中で気づいたことを書いています。要件を先に整理すること、モジュールとディレクトリ構造の選び方、用語集を作ること、あたりで特に多くの気づきがありました。\n\n 対象読者\n\nTerraformの設計書をこれから書く方\nモジュール設計やディレクトリ構造をどうするか迷っている方\n設計書に何を書くべきか、構",
-      "published": "2026-04-24T08:30:07+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "Terraformの設計書を書いてみて気づいたこと【後編】",
