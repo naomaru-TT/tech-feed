@@ -1,6 +1,33 @@
 {
-  "updated": "2026-05-03T15:39:11.514914+00:00",
+  "updated": "2026-05-03T18:46:04.402867+00:00",
   "items": [
+    {
+      "title": "【AWS SAA対策】Amazon EC2 まとめ ― 購入オプション・ストレージ・設計パターンを整理する",
+      "link": "https://qiita.com/stpatrick/items/32bc7fd05b117b33b703",
+      "summary": "はじめに\nAWS Solutions Architect Associate (SAA) の学習中に整理した Amazon EC2 関連の知識をまとめました。\nサービス概要から試験で問われやすい設計パターンまで、ひと通り網羅しています。\n\n本記事は個人の学習ノートをベース...",
+      "published": "2026-05-03T18:35:52+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "m8i.16xlargeを使う前に、aws EC2のm8i.largeでNestedVirtを有効にしてみた",
+      "link": "https://qiita.com/labunix/items/fd9d0659ecb41a0c1b3a",
+      "summary": "■aws EC2を「on KVM」にするため、ネストされた仮想化のサポートを試してみる\n　個人的には、そもそもネステッドにできないものは「仮想化基盤」とは言わないと思っている。\n　metalは高額なので、砂場にするのももったいない。\n　ネステッド要件のインスタンスタイプにつ...",
+      "published": "2026-05-03T16:34:08+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "ガバメント AI「源内」の Web インターフェース（genai-web）を閉域の AWS 環境へデプロイしてみた",
+      "link": "https://qiita.com/takeda_h/items/47fce84d66bae672d744",
+      "summary": "OSS として公開された ガバメント AI「源内」 について、源内 AI アプリ の方を閉域の AWS 環境へデプロイできるようにした記事を書きました。\n\n源内 Web（AI インターフェース）の方を閉域ネットワークで動かすのは難しいのかなと思っていたのですが、Kubo...",
+      "published": "2026-05-03T16:22:25+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "GWはKindle Unlimitedの技術書でPython機械学習を学ぼう",
       "link": "https://qiita.com/harycurl/items/3d097747806e69911f9e",
@@ -24,33 +51,6 @@
       "link": "https://qiita.com/Serina_Morino/items/bcdf5b9ca126504c8d1d",
       "summary": "GenU チートシート ― よく使うコマンドと設定早見表\n対象バージョン：v5.4.0 ／ 参照リポジトリ：aws-samples/generative-ai-use-cases\n\n1. セットアップ\n# リポジトリをクローン\ngit clone https://gi...",
       "published": "2026-05-03T12:36:35+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "【What's Next with AWS 2026】Amazon Connectが4つの agentic AI ソリューションへ拡大しました！",
-      "link": "https://qiita.com/yosuke-suzuki/items/f932b69d0c6e699cede7",
-      "summary": "はじめに\n2026年4月28日に開催された What's Next with AWS にて、Amazon Connect が従来の単一プロダクトという位置づけから、以下4つの agentic AI ソリューション群へ拡張されることがアナウンスされました。\n\nAmazon ...",
-      "published": "2026-05-03T12:26:29+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "serverless frameworkの使い方",
-      "link": "https://qiita.com/suisuina/items/0ca310e50adef4f1f4ca",
-      "summary": "serverless frameworkの使い方について記載（v4.5）\n1.サービス作成\n$sls\n\nServerless ϟ Framework\n\nWelcome to Serverless Framework V.4\n\nCreate a new project by ...",
-      "published": "2026-05-03T12:10:13+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AWS Client VPN 経由でプライベートサブネットの RDS（PostgreSQL）に接続する",
-      "link": "https://qiita.com/ham-nao/items/4eb73c18aa3f464007fd",
-      "summary": "はじめに\nRDS をプライベートサブネットに配置すると、外部からの不正アクセスを防げる一方、開発者 PC から直接接続できなくなります。\n本記事では AWS Client VPN を使って、セキュアにプライベートサブネットの RDS（PostgreSQL）へ接続する手順を...",
-      "published": "2026-05-03T11:27:12+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
@@ -346,7 +346,7 @@
     {
       "title": "Tera TermのLinuxログインランチャー",
       "link": "https://qiita.com/mochizukiaiichiro/items/ea0d8580b812f431a520",
-      "summary": "はじめに\n職場にサーバーごとにTeraTermを起動するマクロがありました。\n分かりにくく間違いやすいため、起動ランチャーを作りました。\n\n目次\n\nランチャー\nExcel VBA\nLibreOffice Basic\nテラタームマクロ\n\nランチャー\nサーバーのIPアドレス...",
+      "summary": "はじめに\n職場にサーバーごとにTeraTermを起動するマクロがあり、分かりにくく間違いやすいため、起動ランチャーを作りました。\n\n目次\n\nランチャー\nExcel VBA\nLibreOffice Basic\nテラタームマクロ\n\nランチャー\nサーバーのIPアドレス、ユーザ...",
       "published": "2026-05-02T23:01:03+00:00",
       "source": "Qiita - インフラ",
       "tag": "インフラ",
