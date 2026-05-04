@@ -1,21 +1,30 @@
 {
-  "updated": "2026-05-04T13:25:44.703839+00:00",
+  "updated": "2026-05-04T16:26:24.952627+00:00",
   "items": [
     {
-      "title": "Next.jsをAWS Amplifyで動かしてみて分かったこと",
-      "link": "https://zenn.dev/38_38/articles/8e39545afd4fa1",
-      "summary": "はじめに\nNext.js をデプロイすると聞くと、\nまず候補に上がりやすいのは Vercel かもしれません。\n実際、Next.jsとの親和性や導入速度だけで見れば非常に強力です。\nただ、私が関わったプロジェクトでは、\n\n 前提\n\n既存インフラはAWS中心\n\nという構成になっており、\n\n 「フロントだけ別基盤に切り出すより、AWS内で完結させたい」\nという理由から、\nAWS Amplify Hos",
-      "published": "2026-05-04T13:23:59+00:00",
-      "source": "Zenn - AWS",
+      "title": "環境数の不揃いに起因するGoogle Cloudネットワーク設計のハマりどころ",
+      "link": "https://qiita.com/takano0131/items/613a8c47a5dd4a23fca4",
+      "summary": "TL;DR\nGoogle Cloudにおける複数VPCから同一の外部DNSへ転送する構成では、35.199.192.0/19 経由の戻り経路が一意に決まらず破綻します。\nhub-and-spoke + DNS peering で回避しましょう。\n\n対象読者\n・Google...",
+      "published": "2026-05-04T14:53:30+00:00",
+      "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "AWS SAA - DynamoDB",
-      "link": "https://zenn.dev/leesw/articles/9d38dc05db14fc",
-      "summary": "学習テーマ\nAmazon DynamoDBの概要\n\n 主要な概念\n\n Amazon DynamoDBとは\nAWS独自のフルマネージドNoSQLデータベースサービスです。サーバーのプロビジョニングが不要で、自動的に3つの可用性ゾーン（AZ）にデータが複製されるため、極めて高い可用性とスケーラビリティを誇ります。\n\n スキーマの柔軟性\nRDSとは異なり、項目（行）ごとに異なる属性（列）を持つことが可能",
-      "published": "2026-05-04T13:20:57+00:00",
-      "source": "Zenn - AWS",
+      "title": "分散システムの守護神「ZooKeeper」をマスターする：設計思想の理解から自動構築スクリプトまで",
+      "link": "https://qiita.com/mooreyxia/items/a2dbc8f1770713b616ea",
+      "summary": "1. ZooKeeper イントロダクション\n\n分散システムにおいて、複数のサーバー間で整合性を保ちながら連携させることは非常に困難な課題です。これを解決し、システム全体の「司令塔」として機能するのが Apache ZooKeeperです。\n\n1.1 ZooKeep...",
+      "published": "2026-05-04T14:05:58+00:00",
+      "source": "Qiita - インフラ",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "「AWS 運動会 - 組体操で学ぶクラウド」から学ぶ学習の姿勢",
+      "link": "https://qiita.com/LierFort/items/6c4585f366c64eafbdde",
+      "summary": "「AWS 運動会 - 組体操で学ぶクラウド」\nこの動画知ってますか？\n\n私はつい最近知りました。\n\nAWSの広告のセンス\nこの動画を配信するにあたって\nAWSの広告担当の方々が\n「よっしゃ、組体操で説明してみよう！」\nと会議をし、実際に撮影したってことですよね。\nいや...",
+      "published": "2026-05-04T14:03:02+00:00",
+      "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -42,33 +51,6 @@
       "link": "https://qiita.com/sugiyama404/items/6d9272294f447e38671e",
       "summary": "はじめに\nAWSのサーバーレスアーキテクチャを中心に設計・構築を担当するエンジニアです。これまで「ECS上でコンテナを動かす」スタイルで開発体験を最適化してきましたが、Lambda中心のアーキテクチャに移行する際、多くの開発者が「ローカルでいかにLambda環境を再現する...",
       "published": "2026-05-04T13:16:22+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "ECSの新たなフルマネージド型コンピューティングオプションECS Managed Instanceを試してみた",
-      "link": "https://zenn.dev/kameoncloud/articles/3388660a5086e5",
-      "summary": "https://serverless.co.jp/blog/zabb2q9cm/\nに投稿した記事の微修正版です\n過去の記事でAWS re:Invent 2025 でアナウンスされた Amazon ECS Express Mode を紹介しました。\nhttps://serverless.co.jp/blog/p6irs-87h/\n今日は2025年９月にアナウンスされたもう一つのECS 起動オプション",
-      "published": "2026-05-04T13:04:46+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "勝手にAWS教室 8時間目：Aurora・DynamoDB・ElastiCache・DocumentDB・Neptune",
-      "link": "https://qiita.com/koutorino/items/63568ef5a0ecc8ca5e51",
-      "summary": "勝手にAWS教室 8時間目：Aurora・DynamoDB・ElastiCache・DocumentDB・Neptune\n\n情報が古い場合があります。間違っている箇所がありましたらご教授いただけると幸いです。\n\nRDSの回でリレーショナルデータベースの基本を学びまし...",
-      "published": "2026-05-04T13:02:09+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "操作しながら覚えるAWS：コマンドラインでSSH接続可能なEC2環境を作る",
-      "link": "https://qiita.com/ifor2u/items/304f9dce60c71cc093f5",
-      "summary": "この記事は私が初めてAWS上でEC2を作成した際に利用した手順の記録です。\n元々の手順は、ChatGPTに作成してもらいました。その手順で動作確認しながら学習を行いました。\n\n0.変数の設定\nREGION=ap-northeast-1\nVPC_CIDR=10.0.0.0/1...",
-      "published": "2026-05-04T12:42:51+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
@@ -117,6 +99,24 @@
       "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "Claude Code + Python で AI 情報収集→記事化パイプラインを Phase 3 まで作って分かったこと",
+      "link": "https://zenn.dev/masaki333/articles/31dd976fa49737",
+      "summary": "本記事は 2026-05 時点の実装・運用ログに基づく。\n\n\n\n なぜ作ったか\nClaude Code が面白そうだという理由だけで始めた、というのが正直なところだ。\nAI ツールの情報は速い。公式リリースノート、Hacker News のスレッド、Reddit の事例共有、Zenn の技術記事——毎週何十件と流れてくる。それを手作業で追うのは限界があるし、そもそも「追った気になって何も残らない」",
+      "published": "2026-05-04T09:02:41+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Vertex AI Gemini で非構造化データを扱う",
+      "link": "https://zenn.dev/tetsu_don/articles/3bc7c9fb30edb2",
+      "summary": "Vertex AI Gemini で非構造化データを構造化して BigQuery に格納してみた\n\n はじめに\nてつどんです。データエンジニアやってます。\nデータエンジニアとして、必要な知識をインプット・アウトプットする上で、次はLLMを用いた学習をやってみました。\n一般的な「チャットで質問する」使い方ではなく、データパイプラインの中に LLM を組み込むという観点でのインプットです。\n一般的な使",
+      "published": "2026-05-04T08:49:07+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "Lambda はとりあえず arm64 で作ってよさそう",
@@ -308,15 +308,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "「お相手、本物ですか？」SSL/TLSと証明書、基本の\"キ\"",
-      "link": "https://qiita.com/kaga-yasumitsu/items/7f2fa9db6373c03699ef",
-      "summary": "その通信、漏れていませんか？\n안녕하신게라！パナソニック コネクト株式会社クラウドソリューション部の加賀です。\n前回「NTPの基本の\"キ\"」で「すべてのシステムは正しい時間の上に成り立っている」という話をしました。時計がズレていると、ログ順序が狂うだけでなく、今回の「証明...",
-      "published": "2026-05-04T01:24:31+00:00",
-      "source": "Qiita - インフラ",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "GPT-5.5とClaude Mythosが同水準に達した週、AIエージェントの「特権リスク」を考える",
       "link": "https://qiita.com/syunichisato51/items/ac3e32c1716af90d069d",
       "summary": "今週はAIモデルの能力評価をめぐる重要な発表と、エージェント実装の現実的な課題が同時に出てきた週でした。GW初日で世間は連休モードですが、フリーランスとして案件のレビューに備えながらニュースを追っていると、半年前とは明らかに潮目が変わってきている感覚があります。今週の本質は...",
@@ -353,6 +344,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "AWS Trusted Advisor によるコスト最適化設計 -フロントエンドから考える実践的アプローチ-",
+      "link": "https://zenn.dev/irukaboat/articles/0e688a0a683ffd",
+      "summary": "はじめに\nフロントエンドエンジニアでも、インフラコストは無関係ではない。\nむしろ、\n\n無駄なAPIリクエスト\n不要なデータ取得\n重いアセット配信\n\nこれらはすべて AWSコストに直結する。\n本記事では、AWS Trusted Advisor を軸に、\nフロントエンド設計とコスト最適化の関係を整理する。\n\n\n Trusted Advisor とは\nAWS Trusted Advisor は、AWS環",
+      "published": "2026-05-03T23:19:01+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "ChatGPT があなたの冷蔵庫を知る — GPTs Actions で個人データを差し込んだ会話実例",
       "link": "https://zenn.dev/yatmita/articles/chatgpt-knows-your-fridge",
       "summary": "はじめに — ChatGPT はあなたの冷蔵庫を知らない\nChatGPT に「今夜のおかず何にしようかな」と相談すると、それなりに筋の通った提案が返ってくる。豚こまとキャベツの炒め物。鶏もも肉の照り焼き。豆腐ともやしのチャンプルー。\nただ、これは ChatGPT が世間一般の家庭料理から持ってきた提案 であって、いまあなたの冷蔵庫に何が入っているかは ChatGPT は知らない。「冷凍豚バラと冷凍",
@@ -385,15 +385,6 @@
       "summary": "修正内容\n\nServices/AutoPremiumCalculator.cs\n            decimal baseRate = policy.AutoModel switch\n            {\n                \"軽自動車\" =&gt; 0...",
       "published": "2026-05-03T20:33:44+00:00",
       "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "LLMに戦略を聞くと96%が『差別化』を選ぶ — HBR論文が名付けたTrendslopとは何か",
-      "link": "https://zenn.dev/sigma7641/articles/fcf90de4822321",
-      "summary": "はじめに\nChatGPT や Claude に「うちの事業はコストリーダーシップで攻めるべきか、差別化で攻めるべきか」と聞いたことがあるでしょうか。その応答は、ほぼ確実に「差別化」を推してきます。「自動化と人間能力拡張のどちらに投資すべきか」と聞けば、同じく高い確率で「拡張（augmentation）」が返ってきます。\nこれは偶然ではありません。2026年3月、Harvard Business R",
-      "published": "2026-05-03T20:00:05+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -450,6 +441,24 @@
       "source": "Qiita - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "マネージドサービスを使えば楽になると思っていた",
+      "link": "https://zenn.dev/philosophum/articles/50faf789b33552",
+      "summary": "マネージドサービスを使えば楽になるはず\nAWSで新しいシステムを作るとき、可能なかぎりマネージドサービスを選ぶようにしています。\n例えば、コンテナを動かすならECS on Fargateを選びます。ホストOSの管理はAWSがやってくれるのでOSのメンテナンスを気にすることもない。データベースならRDS。バックアップは自動で取られるし、フェイルオーバーの仕組みも最初から用意されている。Lambdaな",
+      "published": "2026-05-03T10:56:47+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "【保存版】ECS + ALB構成の作り方｜よくあるエラーと解決方法",
+      "link": "https://zenn.dev/tasuya/articles/e1311321b8cb53",
+      "summary": "AWSでコンテナ運用を始めたときに構築した内容の一部ECS + ALB構成を残しておきたいと思います。\nコンテナ間通信はこの記事では行なっていないです。\nこの記事では👇\n\nVPC / ALB / ECSの基本構成\n実務でよくハマるポイント\n最短でデプロイする手順\n\nをまとめています。\nこの記事はこんな人向けです👇\n\nECSをこれから触る人\nALBとの接続でハマっている人\nとりあえず動く構成を知りた",
+      "published": "2026-05-03T10:02:38+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "【保存版】ECS + ALB構成の作り方｜よくあるエラーと解決方法",
@@ -666,15 +675,6 @@
       "source": "Zenn - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "Kubernetes、全部さわる (後編) — GKE と各種マネージドサービス",
-      "link": "https://zenn.dev/mrmtsntr/articles/k8s-all-in-one-part3",
-      "summary": "!\nこの記事は「Kubernetes、全部さわる」シリーズの後編です。\n\n前編: コンテナの基礎から Pod・Deployment・Service まで\n中編: Istio・Helm・Prometheus・Flux・Gatekeeper を kind で動かす\n後編 (この記事): GKE と各種マネージドサービス\n\n\n\n GKE と各種マネージドサービス\n前編・中編では kind 上のローカルク",
-      "published": "2026-05-02T04:53:21+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "Kubernetes、全部さわる (中編) — kind で Istio・Helm・Prometheus・Flux・Gatekeeper",
