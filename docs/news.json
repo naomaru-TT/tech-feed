@@ -1,6 +1,24 @@
 {
-  "updated": "2026-05-04T16:26:24.952627+00:00",
+  "updated": "2026-05-04T19:16:58.192781+00:00",
   "items": [
+    {
+      "title": "Pythonパッケージ配布の最短手順",
+      "link": "https://zenn.dev/d3c0b/articles/74627e56499816",
+      "summary": "パッケージの配布は簡単\n表題の通りです。難しく感じることがあるすればそれは、パッケージ配布そのものに本質的には関係のない多種の設定によるものかと思います。\n\n パッケージの最短配布手順\nまずは最低限必要なことを知るべきです。パッケージに対する様々な脚色の方法はその後に学ぶのが良いはずです。\n伝えたいのは、以下の4コマンド(実質3コマンド)だけで、何もないところからパッケージ配布は出来てしまうという",
+      "published": "2026-05-04T16:22:30+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "Windows 直入れ・WSL2・Ubuntu 直入れ・Proxmox を比較して、自宅開発基盤を考える",
+      "link": "https://zenn.dev/tohru_ohnishi/articles/76c1474589ff20",
+      "summary": "先に結論\nすぐに開発を始めたいなら、Windows 直入れや WSL2 は今でも強い選択肢です。\n特に WSL2 は、Windows を普段使いしながら Linux の開発体験を得やすく、個人開発や軽量な検証には十分です。\n一方で、AI コーディングで試行錯誤が増えるほど、開発環境には「壊しても戻せること」「用途ごとに分けられること」「長く使うサービスを手元 PC から切り離せること」が重要になり",
+      "published": "2026-05-04T15:09:52+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
     {
       "title": "環境数の不揃いに起因するGoogle Cloudネットワーク設計のハマりどころ",
       "link": "https://qiita.com/takano0131/items/613a8c47a5dd4a23fca4",
@@ -20,11 +38,38 @@
       "color": "#326CE5"
     },
     {
+      "title": "AnsibleとTerraformでProxmoxクラスターの構築を自動化してk0sでKubernetesを構築する",
+      "link": "https://zenn.dev/hurack/articles/492713b31e06bc",
+      "summary": "概要\nAnsibleとTerraformを使用してProxmoxクラスターの構築を自動化し、k0sでKubernetesを構築する方法について解説します。\n使用する各ツールのインストール方法や使用方法は説明しませんが、必要なツールのバージョンを前提として記載します。\n基本的にWSL2上のUbuntu環境で作業を行いますが、ブートUSBの作成など一部の作業はWindows上で行います。\n\n 前提",
+      "published": "2026-05-04T14:05:49+00:00",
+      "source": "Zenn - Terraform",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "「AWS 運動会 - 組体操で学ぶクラウド」から学ぶ学習の姿勢",
       "link": "https://qiita.com/LierFort/items/6c4585f366c64eafbdde",
       "summary": "「AWS 運動会 - 組体操で学ぶクラウド」\nこの動画知ってますか？\n\n私はつい最近知りました。\n\nAWSの広告のセンス\nこの動画を配信するにあたって\nAWSの広告担当の方々が\n「よっしゃ、組体操で説明してみよう！」\nと会議をし、実際に撮影したってことですよね。\nいや...",
       "published": "2026-05-04T14:03:02+00:00",
       "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Next.jsをAWS Amplifyで動かしてみて分かったこと",
+      "link": "https://zenn.dev/38_38/articles/8e39545afd4fa1",
+      "summary": "はじめに\nNext.js をデプロイすると聞くと、\nまず候補に上がりやすいのは Vercel かもしれません。\n実際、Next.jsとの親和性や導入速度だけで見れば非常に強力です。\nただ、私が関わったプロジェクトでは、\n\n 前提\n\n既存インフラはAWS中心\n\nという構成になっており、\n\n 「フロントだけ別基盤に切り出すより、AWS内で完結させたい」\nという理由から、\nAWS Amplify Hos",
+      "published": "2026-05-04T13:23:59+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AWS SAA - DynamoDB",
+      "link": "https://zenn.dev/leesw/articles/9d38dc05db14fc",
+      "summary": "学習テーマ\nAmazon DynamoDBの概要\n\n 主要な概念\n\n Amazon DynamoDBとは\nAWS独自のフルマネージドNoSQLデータベースサービスです。サーバーのプロビジョニングが不要で、自動的に3つの可用性ゾーン（AZ）にデータが複製されるため、極めて高い可用性とスケーラビリティを誇ります。\n\n スキーマの柔軟性\nRDSとは異なり、項目（行）ごとに異なる属性（列）を持つことが可能",
+      "published": "2026-05-04T13:20:57+00:00",
+      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -52,6 +97,15 @@
       "summary": "はじめに\nAWSのサーバーレスアーキテクチャを中心に設計・構築を担当するエンジニアです。これまで「ECS上でコンテナを動かす」スタイルで開発体験を最適化してきましたが、Lambda中心のアーキテクチャに移行する際、多くの開発者が「ローカルでいかにLambda環境を再現する...",
       "published": "2026-05-04T13:16:22+00:00",
       "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "ECSの新たなフルマネージド型コンピューティングオプションECS Managed Instanceを試してみた",
+      "link": "https://zenn.dev/kameoncloud/articles/3388660a5086e5",
+      "summary": "https://serverless.co.jp/blog/zabb2q9cm/\nに投稿した記事の微修正版です\n過去の記事でAWS re:Invent 2025 でアナウンスされた Amazon ECS Express Mode を紹介しました。\nhttps://serverless.co.jp/blog/p6irs-87h/\n今日は2025年９月にアナウンスされたもう一つのECS 起動オプション",
+      "published": "2026-05-04T13:04:46+00:00",
+      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -344,15 +398,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "AWS Trusted Advisor によるコスト最適化設計 -フロントエンドから考える実践的アプローチ-",
-      "link": "https://zenn.dev/irukaboat/articles/0e688a0a683ffd",
-      "summary": "はじめに\nフロントエンドエンジニアでも、インフラコストは無関係ではない。\nむしろ、\n\n無駄なAPIリクエスト\n不要なデータ取得\n重いアセット配信\n\nこれらはすべて AWSコストに直結する。\n本記事では、AWS Trusted Advisor を軸に、\nフロントエンド設計とコスト最適化の関係を整理する。\n\n\n Trusted Advisor とは\nAWS Trusted Advisor は、AWS環",
-      "published": "2026-05-03T23:19:01+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "ChatGPT があなたの冷蔵庫を知る — GPTs Actions で個人データを差し込んだ会話実例",
       "link": "https://zenn.dev/yatmita/articles/chatgpt-knows-your-fridge",
       "summary": "はじめに — ChatGPT はあなたの冷蔵庫を知らない\nChatGPT に「今夜のおかず何にしようかな」と相談すると、それなりに筋の通った提案が返ってくる。豚こまとキャベツの炒め物。鶏もも肉の照り焼き。豆腐ともやしのチャンプルー。\nただ、これは ChatGPT が世間一般の家庭料理から持ってきた提案 であって、いまあなたの冷蔵庫に何が入っているかは ChatGPT は知らない。「冷凍豚バラと冷凍",
@@ -441,24 +486,6 @@
       "source": "Qiita - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "マネージドサービスを使えば楽になると思っていた",
-      "link": "https://zenn.dev/philosophum/articles/50faf789b33552",
-      "summary": "マネージドサービスを使えば楽になるはず\nAWSで新しいシステムを作るとき、可能なかぎりマネージドサービスを選ぶようにしています。\n例えば、コンテナを動かすならECS on Fargateを選びます。ホストOSの管理はAWSがやってくれるのでOSのメンテナンスを気にすることもない。データベースならRDS。バックアップは自動で取られるし、フェイルオーバーの仕組みも最初から用意されている。Lambdaな",
-      "published": "2026-05-03T10:56:47+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "【保存版】ECS + ALB構成の作り方｜よくあるエラーと解決方法",
-      "link": "https://zenn.dev/tasuya/articles/e1311321b8cb53",
-      "summary": "AWSでコンテナ運用を始めたときに構築した内容の一部ECS + ALB構成を残しておきたいと思います。\nコンテナ間通信はこの記事では行なっていないです。\nこの記事では👇\n\nVPC / ALB / ECSの基本構成\n実務でよくハマるポイント\n最短でデプロイする手順\n\nをまとめています。\nこの記事はこんな人向けです👇\n\nECSをこれから触る人\nALBとの接続でハマっている人\nとりあえず動く構成を知りた",
-      "published": "2026-05-03T10:02:38+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "【保存版】ECS + ALB構成の作り方｜よくあるエラーと解決方法",
@@ -767,15 +794,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "Datadog APM で Python アプリを計装するために必要なこと【Docker 編】",
-      "link": "https://zenn.dev/yukionodera/articles/datadog-apm-python-instrumentation",
-      "summary": "はじめに\n今回は、Datadog APM を使って Python アプリケーションを計装するために必要なコンポーネントと、Docker 環境での設定方法についてまとめます。\n「Datadog Agent とライブラリを入れればなんとかなる」という認識は正しいのですが、それぞれの内部でどのコンポーネントが何をしているのかを理解しておくと、トラブル時の原因切り分けが格段にしやすくなります。\n\n Dat",
-      "published": "2026-05-01T09:31:33+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "ChatGPTの「画像生成」、どう進化？　開発者に聞く　“文字化け解消”の秘訣",
       "link": "https://www.itmedia.co.jp/aiplus/articles/2605/01/news110.html",
       "summary": "米OpenAIの画像生成AI「ChatGPT Images 2.0」はどのように進化したのか。ポイントを開発者に聞いた。",
@@ -792,15 +810,6 @@
       "source": "ITmedia AI+",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "Go + gRPC サーバーのコンテナ化を行い、イメージ作成は Dockerfile より ko が適していると感じた理由",
-      "link": "https://zenn.dev/baleenstudio/articles/ea23ce22c6b3c3",
-      "summary": "はじめに\nGo で gRPC サーバーを作り、それをコンテナとして動かす。\nよくある構成だと思います。\nGo初学者である自分もこの構成を試してみて、簡単なgRPCサーバーのみの Dockerfile を使ったコンテナ化を行ってみました。\nただ、その過程で強く感じたのは、\nDockerfile は理解しなければいけないことが想像以上に多い という点でした。\n\nbuild ステージと runtime",
-      "published": "2026-05-01T07:41:40+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "May 01, 2026",
@@ -972,15 +981,6 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "ECS タスク定義の ignore_changes と完全にオサラバする",
-      "link": "https://zenn.dev/miztch/articles/ecs-taskdef-ignore-changes",
-      "summary": "Terraform で ECS サービスやタスク定義を管理する\nアプリケーションのデプロイ時には Terraform 外の CI/CD パイプライン (CodePipeline 等) でコンテナイメージやタスク定義を更新する\n\nというパターンで、 ECS タスク定義の差分を抑制するために仕方なく使っている ignore_changes と決別する。\n  lifecycle {\n    ignore",
-      "published": "2026-04-29T13:38:52+00:00",
-      "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "Kubernetesネットワークの仕組みを覗いてみたらそこはLinuxの世界だった",
