@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-05T19:07:20.434106+00:00",
+  "updated": "2026-05-05T21:55:33.584382+00:00",
   "items": [
     {
       "title": "【日本語試験問題集】Databricks認定機械学習-アソシエイト-（Machine Learning）",
@@ -9,6 +9,15 @@
       "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "Fluentd + copy プラグインで OOMKilled が連鎖する問題の調査と対策",
+      "link": "https://zenn.dev/msekine/articles/26d26c86a2d4a2",
+      "summary": "TL;DR\n\nFluentd が OOMKilled を繰り返し、ログパイプラインが全停止した\n原因は copy プラグインで1つのログを4経路に複製していたこと\n通常のログサイズなら問題ないが、巨大なペイロード（40MB 超）が流入すると 40MB × 4 = 160MB が一瞬でメモリに乗る\nFluentd のバッファリングはチャンク単位なので、1レコードが巨大だとバッファの制御が効かない\n対",
+      "published": "2026-05-05T17:04:43+00:00",
+      "source": "Zenn - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "FlociとTerraformでAWSローカル検証環境を作って永続化まで確認した",
@@ -36,15 +45,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "多肉植物LM を育てる (2) — テンソルネットワークで再びモデル圧縮を行う",
-      "link": "https://zenn.dev/derwind/articles/dwd-succulm02",
-      "summary": "目的\n多肉植物LM を育てる (1) — データセットの作成とモデル訓練まで に対して Transformer に触れてみる (7) — GPT-2 もどきをテンソルネットワークでモデル圧縮したり解剖して挙動を見たりする の内容を適用するというものである。\n実際はテンソル化でパラメータが増えた後に圧縮するので、この規模のモデルではテンソル化前のものより圧縮できてはいない。ここで見たいのはサイズでは",
-      "published": "2026-05-05T16:46:23+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "GitHub ActionsとTerraformで本番環境の変更（ドリフト）を検知する方法",
@@ -209,15 +209,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "正確性評価がLLMのハルシネーションを招く：Nature掲載論文が暴くインセンティブ構造",
-      "link": "https://zenn.dev/lixian/articles/llm-hallucination-incentive-nature",
-      "summary": "正確性評価がLLMのハルシネーションを招く：Nature掲載論文が暴くインセンティブ構造\n\n\"ハルシネーションはミステリアスな現象ではない。現在の訓練・評価手順の必然的な産物だ。\"\n— Kalai, Nachum, Vempala, Zhang (OpenAI × Georgia Tech)\n\n2026年4月、Natureに掲載された論文 \"Evaluating large language mo",
-      "published": "2026-05-05T10:33:15+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "【AWS × Cloudflare × IPv6 Only】EC2でTududiを月650円・ポート0で運用する手順書",
       "link": "https://zenn.dev/roni/articles/195b9f46d6d657",
       "summary": "はじめに\nこの記事は、セルフホスト型タスク管理アプリ「Tududi」をAWSに構築した際の、実際に詰まったポイントとその解決策を含む手順書です。\n構築の過程でIPv6-only環境特有の罠を数多く踏んだため、同じ道を歩む方がスムーズに構築できるよう、すべての知見をまとめました。\n\n この構成で実現できること\n\n\n\n項目\n内容\n\n\n\n\n💰 IPv4課金\n\n$0（IPv6-onlyで完全回避）\n\n\n🔒",
@@ -234,24 +225,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "AIに任せたはずなのに人間がコピペ中継している——A2A AgentCardで解消した",
-      "link": "https://zenn.dev/i_ichi/articles/claude-code-agentcard-role-boundary",
-      "summary": "カスタムGPTで調査させた結果を、別のチャットにコピペして渡したことはないか。\nエージェントが出した設計書を、自分でまとめ直して、次のエージェントに貼り付けた。\nそのAI同士の橋渡しを、人間がやっている。\nそれ、2026年の作業じゃない。\n\n エージェントは互いを知らない\nカスタムGPTsやClaude Codeのエージェントを複数使っている人の多くは、こう動いている。\n調査エージェントに情報を集",
-      "published": "2026-05-05T10:22:34+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Codex appを使ってみた。CLIより「作業の見通し」が良くてけっこう好きだった",
-      "link": "https://zenn.dev/dokusy/articles/b528905b1cbb1a",
-      "summary": "Codex appを使ってみた。CLIより「作業の見通し」が良くてけっこう好きだった\nども。\n最近、Xでつよつよエンジニアの方たちが Codex app をかなり褒めていて、気になったので自分でも使ってみました。\nもともと私はCodex CLIをよく使っているのですが、Codex appはCLIとは少し感覚が違いました。\nCLIが「ターミナルでエージェントに作業してもらう道具」だとすると、Code",
-      "published": "2026-05-05T10:20:24+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "【実験】Gemini で画像生成してマッチングアプリのプロフ写真を作ってみた話──数字で見えてきた\"限界\"と\"正解\"",
@@ -483,6 +456,33 @@
       "link": "https://zenn.dev/knowledgesense/articles/cb14d18ac43801",
       "summary": "導入\nこんにちは、株式会社ナレッジセンスの須藤英寿です。\n今回は人間の脳を再現して情報を検索し、さらに必要な情報にだけ整理することで高い精度を実現する手法「NeocorRAG」について紹介します。\nhttps://arxiv.org/pdf/2604.27852\n\n\n サマリー\n以前、人間の脳を再現して高い検索性能を実現した「HippoRAG2」という手法を紹介しました。この手法は、キーワードと文",
       "published": "2026-05-05T01:16:26+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Claude Codeに長期記憶を持たせたら、壁打ちの質が変わるらしいのだが実際に作って分かったことのまとめ",
+      "link": "https://zenn.dev/0rv3/articles/cf3ca186ee68cd",
+      "summary": "はじめに\n当記事に則って\nhttps://zenn.dev/noprogllama/articles/7c24b2c2410213\nClaude Codeにプロジェクト単位のローカル記憶を持たせるツール sui-memory を実装した。設計から実装まで一気通貫でやってみたところ、公式ドキュメントとコミュニティ記事の両方に載っていない仕様が大量に出てきた。\n本記事は、後続の実装者が同じ地雷を踏まな",
+      "published": "2026-05-05T01:14:23+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "「AIに評価させると甘くなる」をどう解決するか──メトロノーム評価法群 × GitHub Copilot 多モデル実践",
+      "link": "https://zenn.dev/x_metronome/articles/10ee3abe45fe02",
+      "summary": "「AIに評価させると甘くなる」をどう解決するか──メトロノーム評価法群 × GitHub Copilot 多モデル実践\n著者: メトロノーム\n公開日: 2026年5月5日\n\n 導入：「AIに評価させると甘くなる」問題\nAIを使って自分の成果物や思考プロセスを評価させたとき、こんな経験はないだろうか。\n\n「すごくよく整理されていますね」「独創的なアプローチです」「十分に高い水準です」\n\n何度やっても",
+      "published": "2026-05-05T01:11:00+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "LLM APIコスト最適化 企業規模別ケーススタディ——スタートアップ・中堅・大手の3段階戦略",
+      "link": "https://zenn.dev/kei_concierge/articles/llm-api-cost-enterprise-cases-2026",
+      "summary": "LLM APIコスト最適化 企業規模別ケーススタディ——スタートアップ・中堅・大手の3段階戦略\n\nこのシリーズについて\n\nパート1：Batch API・キャッシュ・モデル選定で月次コストを半減する実装ガイド\nパート2：開発現場で繰り返される7つのアンチパターン\n\nパート3（本記事）：企業規模別 実装ケーススタディ\n\n\n\n「コスト削減の手法はわかった。でも自分たちの規模にはどれが合っているのか」\nこ",
+      "published": "2026-05-05T01:00:07+00:00",
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
@@ -785,6 +785,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "化学データをDuckDBで扱えるようにする自作拡張機能を作った",
+      "link": "https://zenn.dev/amana/articles/fb537174583854",
+      "summary": "アイデア\n化学データ系のコンペの追試でヒントを得て、化学データを扱える自作拡張機能を作り始めた。\n\n できること\n\npandasやRDKitなしで、SMILES文字列やInChI、PDB...など化学データをそのまま扱える\nDuckDB標準機能でCSV/Parquet/Iceberg/S3/HTTP直URLとそのまま繋がるので、データ取り込みから軽微な前処理までできる\n\n\n そもそも\n化学データっ",
+      "published": "2026-05-02T12:42:59+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "May 02, 2026",
       "link": "https://docs.cloud.google.com/release-notes#May_02_2026",
       "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.83 is now available for all regions.",
@@ -990,15 +999,6 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "Harness Engineering Meetup に参加して、AIエージェントの「ハーネス」について考えた",
-      "link": "https://zenn.dev/naomine_egawa/articles/harness-engineering-meetup-and-agent-harness",
-      "summary": "Harness Engineering Meetup に行ってきた\n!\nこの記事は、Harness Engineering をまだ知らない方向けに概要を伝えることを目的として、AIとの対話をもとに構成・生成しています。ファクトチェックは行っていますが、誤りがあればコメントで教えてください。\n\n2026年4月24日、六本木ヒルズのメルカリ本社で開催された Harness Engineering Me",
-      "published": "2026-04-30T05:53:30+00:00",
-      "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "個人番号利用事務系の実業務で生成AI活用 ― 奈良市と日立システムズが Generative AI Use Cases (GenU) で特定保健指導等における業務効率化に向けた有効性を確認",
