@@ -1,14 +1,50 @@
 {
-  "updated": "2026-05-06T02:03:07.231736+00:00",
+  "updated": "2026-05-06T05:49:52.427742+00:00",
   "items": [
     {
-      "title": "コンテナのセキュリティを高めるDHI - node/python/ruby/goでの比較",
-      "link": "https://zenn.dev/okamyuji/articles/docker-hardened-images-dockerfile-migration",
-      "summary": "はじめに\nDockerが提供するDocker Hardened Images（DHI）は、最小構成かつ署名付きの本番向けベースイメージです。FROMを置き換えるだけで使えるよう設計されている一方、ランタイムイメージにはshellもパッケージマネージャも入っていないので、既存のDockerfileをそのままコピーしてもうまくいかない箇所が出てきます。\nこの記事ではnode 24、python 3.1",
-      "published": "2026-05-06T01:28:43+00:00",
-      "source": "Zenn - Docker",
+      "title": "『なんか知らんけど動いた』を終わらせる Next.js × Amplify 認証アーキテクチャ実践ガイド(OAuth / OIDC / PKCEの完全整理)！！",
+      "link": "https://qiita.com/dellacraft888/items/35fb386bf900a7f3a25a",
+      "summary": "Next.js × Amplify 認証アーキテクチャ実践ガイド\nみなさんこんにちは！\n突然ですが、こんな依頼をされたことはありませんか？\n\n「じゃあ、プロトタイプ作っといてくれる？」\n「あ、あと認証もつけといてね！」\n\n私はあります。\nしかも、だいたい期限は今週中。\n...",
+      "published": "2026-05-06T05:40:38+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "GPT4oはAI利用への精神的依存リスクが顕在化したモデルだったと思う",
+      "link": "https://qiita.com/yuzukaki1000/items/f9c6f5859b79b707e6df",
+      "summary": "こんにちは。ゆずかきです。\n今回は、かなり熱狂的な支持層を持つかつてのchatGPTのフロンティアモデル：GPT4oへの、批判的観点もある主張考察になります。\nもしかしたら気分を害される可能性もあります。\nその時は、感情的議論ではなく、ブラウザバックをお願いしますm(__)...",
+      "published": "2026-05-06T05:18:44+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "【Terraform】remote state使ってみた",
+      "link": "https://qiita.com/jyas-protein/items/cd97eae8b2db95e6bde7",
+      "summary": "はじめに\n今回は、以下の記事で作成した「単一の.tfファイル」のTerraformプロジェクトを、「remote state」を使用して、クロススタック化してみました。\n少しでも参考になれば幸いです。\n\nremote stateとは\nremote stateとは、別...",
+      "published": "2026-05-06T04:05:15+00:00",
+      "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "コードに DB パスワードを書く前に：Secrets Manager と Parameter Store の使い分け",
+      "link": "https://qiita.com/montopi/items/d0d76506a77d9920505a",
+      "summary": "DB パスワードや API キーをコードに直書きするのは、だいたい事故の入口です。\nGit に残る。ログに出る。開発者のローカルに散らばる。退職者の端末にも残る。最悪なのは、漏れたあとに「どこを変えればいいのか」が分からなくなることです。\nAWS で認証情報を扱うなら、まず...",
+      "published": "2026-05-06T03:22:18+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "【建築士×Claude】気付いたら「AI時代の設計情報基盤」を作っていた件 — 自分が作ってるものの“珍しさ”を、客観的に整理してみた",
+      "link": "https://qiita.com/architectJapan/items/f3d5f291a8fe9f66c2d2",
+      "summary": "東海地区で建築設計事務所を経営している建築士です。\nChatGPT/Claudeに業務をブッ込みまくる「コード書けない開発者」やってます。\n\n▼ これまでのあらすじ（第1〜6話の超ザックリまとめ）\n\n第1話：野良DXFを3秒で解析する爆速ツール\n\n第2話：Google...",
+      "published": "2026-05-06T02:55:18+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "awesome-kiro 経由で見る Kiro エコシステムの現在地",
@@ -47,15 +83,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "IAM Access Analyzer の使いどころ：外部共有リスクと最小権限を整理する",
-      "link": "https://zenn.dev/montopi/articles/iam-access-analyzer-least-privilege",
-      "summary": "IAM Access Analyzer の使いどころ：外部共有リスクと最小権限を整理する\nIAM の権限レビューで一番まずいのは、「たぶん大丈夫」で済ませることです。\nS3 バケットポリシー、KMS キー、IAM ロール、Lambda 関数などは、設定の一部を間違えるだけで外部アカウントから使える状態になることがあります。しかも、人力レビューだけでは見落としやすい。画面を眺めて安心する運用は、だい",
-      "published": "2026-05-05T23:11:35+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "RDS の Read Replica と Multi-AZ を混同しない：高可用性と読み取り分散の違い",
       "link": "https://qiita.com/montopi/items/a4562a2905f1e0435ac1",
       "summary": "Amazon RDS を設計するとき、Read Replica と Multi-AZ はよく混同されます。\nどちらも「本番 DB を強くする仕組み」に見えるからです。でも、目的はまったく違います。Multi-AZ は高可用性と自動フェイルオーバーのための構成で、Read R...",
@@ -63,24 +90,6 @@
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "Kiro CLI Custom Agent で SOC 2 証跡収集を自動化する",
-      "link": "https://qiita.com/nemf/items/0f46e647f3e5dd7cbac9",
-      "summary": "Zenn の連続投稿制限にかかったので、Qiita に変更。\n\nサマリ\n2026/4 に Kiro 公式ブログが公開した Planview 事例（\"Planview saves 40+ hours per audit cycle by automating SOC ...",
-      "published": "2026-05-05T23:10:58+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "「Claude Codeに全部やらせる時代が来た」のか検証してみた",
-      "link": "https://zenn.dev/okazu_dm/articles/83957f1623ec4d",
-      "summary": "はじめに\nこんにちは。セキュリティエンジニアの@okazu_dmです。\nこの記事は、最近リリースされたLLMベースのセキュリティスキャンツールとしてclaude-security-scan を使ってみた所感の記事です。\n\n先週、以下の記事を見つけました。\n\n検出率100%という結果が紹介されており、Claude Codeに全部やらせる時代が来た、というタイトルから「楽な時代が来たな」と思ったのです",
-      "published": "2026-05-05T23:00:06+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "質問力こそ、AI時代の最強の武器　生成AIから「使える提案」を引き出す8つのプロンプト例",
@@ -128,6 +137,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "Kubernetes 4冠（CKA/CKAD/CKS/KCNA）を確実に取得するルート",
+      "link": "https://zenn.dev/cnative_tkb/articles/6eb4e44d67864c",
+      "summary": "はじめに\n\n\nなぜこれを書くか: Kubernetes 4 冠を取る過程で「順序を間違えた」「教材を買いすぎた」遠回りを共有し、これから始める人が同じ失敗を踏まずに着実に取得を積み上げられるよう整理する\n\n読者にどんな価値があるか: 4 認定の特徴・順序判断の根拠・各段階で効くリソースを 1 本でまとめて把握できる。実務で K8s に触れる人の基礎力の証明として、また、技術的な裏付けとして、確実に",
+      "published": "2026-05-05T21:33:22+00:00",
+      "source": "Zenn - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "【日本語試験問題集】Databricks認定機械学習-アソシエイト-（Machine Learning）",
       "link": "https://qiita.com/arahata0907/items/7f23b35262a88f12307a",
       "summary": "はじめに\nデータサイエンティストや機械学習エンジニアが、Databricks環境において機械学習のライフサイクル全体を適切に管理・運用できる能力を証明する試験が「Databricks 認定機械学習アソシエイト（Databricks Certified Machine Le...",
@@ -144,6 +162,15 @@
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "Fluentd + copy プラグインで OOMKilled が連鎖する問題の調査と対策",
+      "link": "https://zenn.dev/msekine/articles/26d26c86a2d4a2",
+      "summary": "TL;DR\n\nFluentd が OOMKilled を繰り返し、ログパイプラインが全停止した\n原因は copy プラグインで1つのログを4経路に複製していたこと\n通常のログサイズなら問題ないが、巨大なペイロード（40MB 超）が流入すると 40MB × 4 = 160MB が一瞬でメモリに乗る\nFluentd のバッファリングはチャンク単位なので、1レコードが巨大だとバッファの制御が効かない\n対",
+      "published": "2026-05-05T17:04:43+00:00",
+      "source": "Zenn - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "FlociとTerraformでAWSローカル検証環境を作って永続化まで確認した",
@@ -209,24 +236,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "AWS Systems Manager Documents (Automation runbook) で自動開閉局を実装してみた",
-      "link": "https://qiita.com/tyskJ/items/f5e2335ff6912a375c89",
-      "summary": "概要\n外部公開しているサイトにおいて、日時開閉局が必要というシステム要件を想定した自動開閉局の構成をAWS Systems Manager Documents (Authomation runbook) を使って実装してみました。\n\nシステム概要\n\n環境コードは以...",
-      "published": "2026-05-05T15:33:33+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "人口減少と \"置き換え\" をどう防ぐか―所得・子育て・移民政策の構造を読み解く : Pythonで学ぶ マクロ経済学入門 (78)",
-      "link": "https://qiita.com/maskot1977/items/f693fc76db8406b5ac6b",
-      "summary": "user:\n「Pythonで学ぶマクロ経済学入門」、第78回を始めましょう。まず\n「人口政策と少子化・貧困・年金・医療をつなぐ経済構造 : Pythonで学ぶ マクロ経済学入門 (77)」 \nhttps://qiita.com/maskot1977/items/b805a...",
-      "published": "2026-05-05T15:08:06+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "OCM で Cluster Inventory API を始める（Part 1: ClusterProfile）",
       "link": "https://qiita.com/kahirokunn/items/5e84242a761643e0be8a",
       "summary": "この記事は 2 部構成の Part 1 です。\nPart 2（近日公開）: ClusterProfile を起点に、multicluster-runtime を使ってコントローラーから spoke クラスターへ接続します。\n\nこの記事で扱うこと\nCluster Inve...",
@@ -234,15 +243,6 @@
       "source": "Qiita - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "2026年〜2027年のAI界隈の様子を予想　ChatGPTとGPT-Image2にて",
-      "link": "https://qiita.com/hotstaff/items/e7267518f2943b032141",
-      "summary": "以下は**2026年〜2027年のAIに関する最新情報（実際のニュース＋研究）**を整理したうえで、そこから導ける「起きそうな出来事」を現実ベースでまとめたものです。\n\nGPT-Image2にて以下に示した調査結果から作成、画像生成は驚異的なレベルにまで進化しています。\n\n...",
-      "published": "2026-05-05T14:01:09+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "Ollama実践入門──ローカルLLMをMacBook上で動かしてRAG・MCPと組み合わせる【2026】",
@@ -337,7 +337,7 @@
     {
       "title": "Claude Opus 4.7 への移行で 400 エラーを避ける",
       "link": "https://zenn.dev/nemutaizo/articles/6938cf0279054e",
-      "summary": "!\nZenn の連続投稿制限にかかったので、この記事以降は、Qiita に変更。\n\n\n サマリ\nClaude Opus 4.7（2026/4/16 リリース）は、過去バージョンとの API 互換性を壊す変更を含んでいる。特に以下の 4 点は「Opus 4.6 で動いていたコードがそのままだと 400 エラーになる」直接の原因になる。\n\n\nthinking.type: \"enabled\" + bud",
+      "summary": "サマリ\nClaude Opus 4.7（2026/4/16 リリース）は、過去バージョンとの API 互換性を壊す変更を含んでいる。特に以下の 4 点は「Opus 4.6 で動いていたコードがそのままだと 400 エラーになる」直接の原因になる。\n\n\nthinking.type: \"enabled\" + budget_tokens は 400 エラー。Adaptive Thinking（think",
       "published": "2026-05-05T11:25:13+00:00",
       "source": "Zenn - AWS",
       "tag": "AWS",
@@ -384,6 +384,15 @@
       "link": "https://zenn.dev/i_ichi/articles/claude-code-agentcard-role-boundary",
       "summary": "カスタムGPTで調査させた結果を、別のチャットにコピペして渡したことはないか。\nエージェントが出した設計書を、自分でまとめ直して、次のエージェントに貼り付けた。\nそのAI同士の橋渡しを、人間がやっている。\nそれ、2026年の作業じゃない。\n\n エージェントは互いを知らない\nなぜそうなるか。各エージェントは「自分が何をできるか」を互いに知らないからだ。誰に何を渡すべきか判断できない。だから人間が間に",
       "published": "2026-05-05T10:22:34+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Codex appを使ってみた。CLIより「作業の見通し」が良くてけっこう好きだった",
+      "link": "https://zenn.dev/dokusy/articles/b528905b1cbb1a",
+      "summary": "Codex appを使ってみた。CLIより「作業の見通し」が良くてけっこう好きだった\nども。\n最近、Xでつよつよエンジニアの方たちが Codex app をかなり褒めていて、気になったので自分でも使ってみました。\nもともと私はCodex CLIをよく使っているのですが、Codex appはCLIとは少し感覚が違いました。\nCLIが「ターミナルでエージェントに作業してもらう道具」だとすると、Code",
+      "published": "2026-05-05T10:20:24+00:00",
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
@@ -515,6 +524,15 @@
       "color": "#326CE5"
     },
     {
+      "title": "規制業界での Kiro 運用 — dotkiro + Git で監査証跡を構造的に担保する",
+      "link": "https://zenn.dev/nemutaizo/articles/3c6c51bfb91700",
+      "summary": "サマリ\n\n規制業界で Kiro を運用する際、監査官から問われるのは「いつ・どの標準で・誰の承認のもとで・何が生成されたか」の追跡可能性\n\ndotkiro の「中央 Git リポジトリ + manifest」モデルは、Git のコミット履歴・PR・CODEOWNERS・branch protection を活用してこれを構造的に満たせる\nmanifest を \"Standards Bill of",
+      "published": "2026-05-05T05:35:04+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "ADKでAIエージェントを作るときの認可Gateway設計",
       "link": "https://zenn.dev/peintangos/articles/adk-agent-gateway-architecture",
       "summary": "こんにちは、松尾淳平です。Agent Development Kit (ADK)のagent / tool / MCP / Memory Bank / evalを触りながら、multi-user / multi-tenant SaaSのAIエージェントを作るとき、どこで認可処理を入れるべきかを検証してみました。本記事では、その設計判断について検討してみたいと思います。\n!\nmulti-user /",
@@ -610,15 +628,6 @@
       "summary": "先に結論\nすぐに開発を始めたいなら、Windows 直入れや WSL2 は今でも強い選択肢です。\n特に WSL2 は、Windows を普段使いしながら Linux の開発体験を得やすく、個人開発や軽量な検証には十分です。\n一方で、AI コーディングで試行錯誤が増えるほど、開発環境には「壊しても戻せること」「用途ごとに分けられること」「長く使うサービスを手元 PC から切り離せること」が重要になり",
       "published": "2026-05-04T15:09:52+00:00",
       "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "分散システムの守護神「ZooKeeper」をマスターする：設計思想の理解から自動構築スクリプトまで",
-      "link": "https://qiita.com/mooreyxia/items/a2dbc8f1770713b616ea",
-      "summary": "1. ZooKeeper イントロダクション\n\n分散システムにおいて、複数のサーバー間で整合性を保ちながら連携させることは非常に困難な課題です。これを解決し、システム全体の「司令塔」として機能するのが Apache ZooKeeperです。\n\n1.1 ZooKeep...",
-      "published": "2026-05-04T14:05:58+00:00",
-      "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
     },
@@ -812,6 +821,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "Docker+Tailscaleでマイクラサーバーを立てたメモ",
+      "link": "https://zenn.dev/markun4649/articles/5668bfb9343530",
+      "summary": "DockerでMinecraftサーバーを立てて、Tailscale経由で友達と入れるようにしたメモ\n自宅に置いているUbuntuサーバー上で、Dockerを使ってMinecraft Java版サーバーを立てたときのメモです。\n今回はまず最小構成として、itzg/minecraft-server イメージを使って Paper サーバーを立てました。\nポート開放ができない環境だったため、外部公開には",
+      "published": "2026-05-02T16:50:15+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "Andrej Karpathyの「autoresearch」が描く未来",
       "link": "https://zenn.dev/aienthusiast/articles/article-20260322-094255",
       "summary": "はじめに\nAI研究の世界に、また一つ革新的なプロジェクトが登場しました。Tesla元AIディレクターでOpenAI創業メンバーでもあるAndrej Karpathy氏が公開した「autoresearch」は、AI研究そのものを自動化するという野心的な試みです。\nこのリポジトリは公開からわずかな期間で48,000以上のスターを獲得し、AI・機械学習コミュニティで大きな注目を集めています。一体何がそれ",
@@ -965,15 +983,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "S3 Files を本番 EKS で運用し、imageビルド時間を 19→4分に改善した",
-      "link": "https://zenn.dev/shibatch/articles/e0a27373bdfc3c",
-      "summary": "TL;DR\nEKS で動かしている画像合成 API (ユーザーがアップロードした画像と T シャツなど商品テンプレートの白地画像を合成してプレビューを返す) で、Docker イメージに焼き込まれていた 1.7 GB の assets (合成素材ファイル群) を別リポジトリ + S3 Files (2026-04-07 GA) マウントに切り出した結果、image ビルド時間が 19 分 → 4",
-      "published": "2026-05-01T03:11:11+00:00",
-      "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "April 30, 2026",
       "link": "https://docs.cloud.google.com/release-notes#April_30_2026",
       "summary": "BigQuery\nBreaking\nStarting May 7, 2026, new transfer configurations that transfer data from Google Ads using the\nBigQuery Data Transfer Service will require Multi-factor authentication (MFA)\nfor indiv",
@@ -999,15 +1008,6 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "Harness Engineering Meetup に参加して、AIエージェントの「ハーネス」について考えた",
-      "link": "https://zenn.dev/naomine_egawa/articles/harness-engineering-meetup-and-agent-harness",
-      "summary": "Harness Engineering Meetup に行ってきた\n!\nこの記事は、Harness Engineering をまだ知らない方向けに概要を伝えることを目的として、AIとの対話をもとに構成・生成しています。ファクトチェックは行っていますが、誤りがあればコメントで教えてください。\n\n2026年4月24日、六本木ヒルズのメルカリ本社で開催された Harness Engineering Me",
-      "published": "2026-04-30T05:53:30+00:00",
-      "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "個人番号利用事務系の実業務で生成AI活用 ― 奈良市と日立システムズが Generative AI Use Cases (GenU) で特定保健指導等における業務効率化に向けた有効性を確認",
