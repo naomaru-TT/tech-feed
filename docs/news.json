@@ -1,12 +1,30 @@
 {
-  "updated": "2026-05-07T19:27:57.447004+00:00",
+  "updated": "2026-05-07T21:48:15.999508+00:00",
   "items": [
+    {
+      "title": "DOP 試験で知った CloudWatch メトリクスストリームを試してみた",
+      "link": "https://qiita.com/s_moriyama/items/9e944e78bf03b14f08c2",
+      "summary": "はじめに\n少し前に、DOP（AWS Certified DevOps Engineer - Professional / DOP-C02）を更新してきました。\n（難しかった…）\n\nその試験の中で「メトリクスストリーム」に関する問題が出てきたのですが、問題を見て初めて知...",
+      "published": "2026-05-07T20:35:25+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "Kubernetes 上の Jenkins エージェントコンテナで Spring Boot (Maven) をビルド & デプロイする",
       "link": "https://qiita.com/jqit-yukiono/items/30e31b276afe00474f9a",
       "summary": "はじめに\nJenkins の静的エージェントを運用していると、\n\nビルドが詰まったときにスケールできない\nJDK / Maven / Node のバージョン差分がエージェントごとにバラつく\nビルド残骸でディスクが逼迫する\n\nといった、よくある運用課題にぶつかります。\nそこ...",
       "published": "2026-05-07T18:09:22+00:00",
       "source": "Qiita - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "ローカルn8nを立ち上げてみた。Windowsで動くよという話",
+      "link": "https://zenn.dev/kiki_707/articles/b4188f4fbcc177",
+      "summary": "はじめに\n今回はn8nの導入のお話です。\n会社で使っている n8n は便利だけど、個人のPCでも動かしたい。\n\n副業で使いたい\n自分の環境で自由に試したい\n会社アカウントに依存したくない\n\nなどなど理由はなんでもよいのですが、「自分のマシンにn8nが欲しい」という気持ち、わかる人にはわかっていただけるのではないでしょうか。\nですが、n8nのクラウド版（SaaS）には無料プランがありません。\nでもセ",
+      "published": "2026-05-07T17:21:25+00:00",
+      "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
     },
@@ -25,6 +43,15 @@
       "summary": "米Googleは5月7日、ウェアラブル「Fitbit」シリーズの新モデル「Google Fitbit Air」を発表した。画面を搭載しないリストバンドタイプのトラッカーで、Fitbitシリーズ最小としている。同日にGoogle ストアで予約受付を開始し、26日に発売する。価格は1万6800円。AndroidだけでなくiOSでも利用可能。",
       "published": "2026-05-07T17:00:00+00:00",
       "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Cursor の Agent から RubyDex を使う - MCP 経由でコード構造を直接クエリする",
+      "link": "https://zenn.dev/kota_koyama/articles/a0cd2f1d59ef72",
+      "summary": "はじめに\nRubyKaigi 2026 で Shopify の Alexandre Terrasa さんによる 「Blazing-fast Code Indexing for Smarter Ruby Tools」 という発表がありました。RubyLSP・Tapioca・Spoom への統合で、最大 10 倍の高速化と半分以下のメモリ使用量を実現する Rust 製の Ruby コードインデクサー、",
+      "published": "2026-05-07T16:55:34+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -65,15 +92,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "DynamoDBとAppSyncとCDKでGraphQL APIを作ってみよう！",
-      "link": "https://qiita.com/mashharuki/items/7915bd5d95879cd47a39",
-      "summary": "はじめに\n\n「AppSyncって興味あるけど、VTL（Velocity Template Language）を書くのが辛くて挫折した...」\n「GraphQLのバックエンドを自前で構築・運用するのは大変そう...」\n「Next.js 16とReact 19の最新機能を活...",
-      "published": "2026-05-07T15:43:39+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "AWSの権限を雑に理解する",
       "link": "https://zenn.dev/take5553/articles/2b9743ec91f677",
       "summary": "!\nこの記事は私の主観が入っています。嘘は言っていません。\n\n\n AWSの権限を雑に理解する\n\n 1. 権限の基本構成\n権限は、主体（誰が）・対象（誰に）・アクション（何ができる・できない） の3つで成り立っています。ここにコンディション（どんな条件下で） が加わり4つになることもあります。\n\nまずはこの4つを押さえれば十分です。\n\n 2. ロールとポリシー\n権限をEC2に直接付与すると、同じよう",
@@ -81,6 +99,24 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "Docker compose でお手軽に PXE boot サーバを構築する",
+      "link": "https://zenn.dev/h4y4bus4/articles/dd8a13296a420b",
+      "summary": "概要\n手元の古い一体型PCに Linux を入れようとしたところ、BIOS が古すぎるのか USB Boot ができず、PXE Boot によるネットワークブートを試すことに。\nなるべく環境を汚さずやりたかったので、作業用Linux機にささっと Docker compose で dnsmasq の PXE Boot サーバを立てました。\n\n 必要な環境\n\nDebian 13\n\n作業用マシン、Lin",
+      "published": "2026-05-07T14:45:29+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "GitHub Actions x Cloud Run x Artifact Registry - docker buildx",
+      "link": "https://zenn.dev/yknsd/articles/e141b086ab2c79",
+      "summary": "GitHub Actions上でDockerイメージをビルド・プッシュし、Cloud Run Service にデプロイする際に使用するdocker buildxの仕組みと Artifact Registry のイメージ管理についてまとめます。\n\n docker/setup-buildx-action の概要\n\nGitHub Actionsでdocker buildxを使用するためのセットアップを",
+      "published": "2026-05-07T14:34:38+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "同じプロンプトなのに毎回答えが変わる——LLMの非決定性という落とし穴",
@@ -108,6 +144,15 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "「ETL がいらなくなる」と聞いて Spanner Columnar Engine を実機で検証してみた",
+      "link": "https://zenn.dev/seachickenkatsu/articles/28c834bf00b77c",
+      "summary": "はじめに\nこんにちは、とりうみです。\n2025年9月から Preview として提供されていた Spanner Columnar Engine が、2026年4月17日にリージョン制限なしで GA（一般提供）になりました。公式には「分析クエリを最大 200 倍高速化」と謳われており、OLTP と OLAP を同じ DB で処理できる HTAP の実現が期待されています。\nhttps://docs.",
+      "published": "2026-05-07T14:03:04+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "AIエージェントの用語まとめ",
@@ -488,15 +533,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "ローカルLLM｜Minecraft自律｜踏んだバグ7種",
-      "link": "https://zenn.dev/toki_mwc/articles/minecraft-hermes-3role-mineflayer-bugs",
-      "summary": "2026年5月時点の検証内容です。Paper 1.20.1 build 196, mineflayer 4.25, llama.cpp v8870, gemma-4-E4B-it-Q4_K_M, Windows 11 + WSL2 Ubuntu 24.04 環境で検証しています。\nローカル LLM Agent を Minecraft 操作タスクに持ち込むと、推論性能ではなく物理層の状態同期で壊れる",
-      "published": "2026-05-07T03:00:09+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Google、「Gemma 4」のテキスト生成を最大3倍高速化する「MTP」をリリース",
       "link": "https://www.itmedia.co.jp/aiplus/articles/2605/07/news062.html",
       "summary": "Googleは、オープンモデル「Gemma 4」向けにテキスト生成を最大3倍高速化するマルチトークン予測ドラフター（MTP）をリリースした。投機的デコーディングを採用し、生成品質を保ちながら推論を並列化する。主要な推論フレームワークに対応し、エッジからクラウドまで多様な環境で実用性を高める技術だ。",
@@ -686,15 +722,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "Dockerとは何か？",
-      "link": "https://zenn.dev/marmot/articles/827b079cfd46d0",
-      "summary": "はじめに\nDockerを知らない人(エンジニアでない人を想定)に向けてDockerについて説明するにあたって、順序立ててうまく説明できるように備忘録としてこの記事を書いています。\n\n この記事を書こうと思ったきっかけ\n同僚のQAメンバーと会話をしていた時に、「Dockerって何？」といったような質問を受け、うまく説明することができなかったので、スムーズにわかりやすい説明ができるように記事にまとめよ",
-      "published": "2026-05-06T10:52:50+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "CVE-2026-31431(copy.fail)：ProxmoxでCTを使わせているなら今すぐ確認した方がよいこと",
       "link": "https://qiita.com/masa-555/items/2b08e7c2810c5c4982e3",
       "summary": "TL;DR\nProxmox VEでLXCコンテナ（CT）を外部ユーザーや非信頼ユーザーに使わせている場合、CVE-2026-31431(copy.fail)の対策状況を確認してください。\nCTはVMと違い、ProxmoxホストのLinuxカーネルを共有します。\n未修正ke...",
@@ -758,15 +785,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "Claude Codeに寝てる間に働いてもらう。\"bypass permissions\" を事故らせない5つのポイント",
-      "link": "https://zenn.dev/yamato_snow/articles/a8fd6f4e0fa39c",
-      "summary": "はじめに\nClaude Code を使っていると、ふと我に返る瞬間があります。\n\n「今日、何回 Yes を押したんだろう……」\n\nファイルを編集するたび Edit file?、コマンドを実行するたび Run this command?、ちょっとリファクタリングを頼んだだけで何十回も承認を求められる。深夜にテスト修正を一括で投げたいのに、結局その場に張り付いて承認連打する羽目になる。\nそんな悩みを解",
-      "published": "2026-05-06T06:34:02+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "量子・重力・古典相互作用を単一の作用から扱う物理モデル　Thickness Structure Hypothesis（TSH）の実装メモ",
       "link": "https://zenn.dev/ab_ab/articles/af0d348134755b",
       "summary": "Thickness Structure Hypothesis (TSH)厚み構造仮説\nTSH（Thickness Structure Hypothesis）は、量子・古典・重力を\n単一の内部構造モデルで統合する、量子重力（Quantum Gravity）系の\n構造力学フレームワークです。\nZenodo DOI（論文・証明・方程式）\nhttps://doi.org/10.5281/zenodo.20",
@@ -801,15 +819,6 @@
       "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "コンテナのセキュリティを高めるDHI - node/python/ruby/goでの比較",
-      "link": "https://zenn.dev/okamyuji/articles/docker-hardened-images-dockerfile-migration",
-      "summary": "はじめに\nDockerが提供するDocker Hardened Images（DHI）は、最小構成かつ署名付きの本番向けベースイメージです。FROMを置き換えるだけで使えるよう設計されている一方、ランタイムイメージにはshellもパッケージマネージャも入っていないので、既存のDockerfileをそのままコピーしてもうまくいかない箇所が出てきます。\nこの記事ではnode 24、python 3.1",
-      "published": "2026-05-06T01:28:43+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "検証環境のNAT Gatewayをfck-natのNATインスタンスに置き換えた話",
@@ -864,15 +873,6 @@
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "【2026年版・初学者向け】GCP コンピュート5サービスの選び方：1枚のデシジョンツリーで迷わない",
-      "link": "https://zenn.dev/yujmatsu/articles/20260505_gcp_compute_overview",
-      "summary": "はじめに\n\n この記事の位置づけ\n先日、Google Cloud ACE（Associate Cloud Engineer）を1週間で取得した記事 を公開しました。資格勉強でサービス名は覚えたものの、「実際の業務でどれを選べばいいか分からない」というのはよくあることかなと思います。\n本記事はその続編として、GCP コンピュート系サービス5種の選び方 を、1枚のデシジョンツリー（判断フロー図）で解説",
-      "published": "2026-05-05T13:00:05+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "ExPing代替ツール5選｜ネットワーク監視ツール比較【2026年版】",
