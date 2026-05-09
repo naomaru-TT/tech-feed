@@ -1,6 +1,33 @@
 {
-  "updated": "2026-05-09T18:47:23.318440+00:00",
+  "updated": "2026-05-09T21:35:53.326534+00:00",
   "items": [
+    {
+      "title": "自律性と厳密性を両立するAI Agent基盤としてのA2A Protocol、そしてWeb3の役割",
+      "link": "https://zenn.dev/cancan007/articles/b9acae584c33ae",
+      "summary": "!\nこの記事はA2A公式仕様の解説と、筆者独自のアーキテクチャ的解釈を含む。セクション4・5の三層インフラモデルおよびExtensions / Metadataの「厳密性レイヤー」解釈は筆者自身の読み方に基づく。\n\n\nAI Agentは、より自律的になりつつある。\n外部ツールを呼び出し、他のAgentに作業を委任し、Artifactとして成果物を生成し、必要に応じて追加確認を行い、長時間のTask",
+      "published": "2026-05-09T19:47:38+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "グラフDB・GraphRAG・GNN ローカル環境ハンズオン",
+      "link": "https://zenn.dev/ppgm/books/graphdb-graphrag-gnn-hands-on",
+      "summary": "Neo4j（Docker）、LlamaIndex + OpenAI による GraphRAG、PyTorch Geometric による GNN を、映画レコメンドという一貫したテーマで体験する実践ガイドです。グラフ技術・機械学習の経験ゼロから、3つの技術を手を動かしながら学べます。",
+      "published": "2026-05-09T19:22:54+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "\"壊れない\"は間違い？高可用性システムの設計を分解してみた",
+      "link": "https://qiita.com/100hundred/items/58047b96ef9270443d47",
+      "summary": "はじめに\n「壊れないシステムを作ろう」としていませんか？　その設計、多くの場合うまくいきません。\n壊れないことを目指すと、単一障害点をなくすために冗長化を重ね、その冗長化自体が新たな複雑性を生み、結果として運用が難しくなる――そんな罠にはまりがちです。\nミッションクリティ...",
+      "published": "2026-05-09T18:49:31+00:00",
+      "source": "Qiita - インフラ",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
     {
       "title": "EventBridge＋Lambda＋S3でデートプラン通知システムを作成してみた",
       "link": "https://qiita.com/skrgcldengprc/items/7dc0f8fc9d33aafc70b1",
@@ -83,6 +110,15 @@
       "color": "#326CE5"
     },
     {
+      "title": "ISUNARABE合同演習2026とかいう最高のイベントに参加してきた",
+      "link": "https://zenn.dev/rail44/articles/932a22e70ef98d",
+      "summary": "@KOBA789さん主催のもと、ISUNARABE合同演習2026が開催されるというのを前日深夜に知り、面白そうだし勉強にもなりそうなんでシュッと参加してきました。\nパフォーマンスチューニング大会であるISUCONを、参加者全員AIエージェント無制限で行うと何がおきるのか、という趣旨のやつです。\n今、これを書きながら過去の自分のブログを調べてみたところ、非公式とはいえ ISUCON 2015 予選",
+      "published": "2026-05-09T14:29:17+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "「実装はAIに任せた。でも精度は出なかった」",
       "link": "https://zenn.dev/beckento/articles/a000216f224e53",
       "summary": "「実装はAIに任せた。でも精度は出なかった」\n\n 衛星×政府統計で八幡浜みかん出荷量予測を試みた全記録\n\n\n はじめに\nコードはほとんど書いていない。設計だけした。それでも精度は出なかった。\n「設計は人間、実装はClaudeCode」という分業体制で、衛星データと政府統計を組み合わせた農業収量予測パイプラインを構築した。コーディング工数はほぼゼロで動くものができた。しかし完成したモデルは、「毎年平",
@@ -142,6 +178,33 @@
       "summary": "はじめに\nAI系のMacアプリが爆発的に増え、もはや何をどうインストールすればいいのか分からない…という状況になっていませんか？\nこの記事では、2026年5月時点で Homebrew で入る主要な AI 関連 Mac アプリ・CLI を一気にまとめます。\n\n対話型AIアプ...",
       "published": "2026-05-09T12:28:22+00:00",
       "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "LLMエージェントはなぜ壊れるのか ——モデル性能に依存しない自律型ワークフローの構築",
+      "link": "https://zenn.dev/naoyoshinori/books/6856a81987ccb0",
+      "summary": "LLMエージェントが不安定になる根本原因は、推論能力の不足ではなく「状態管理」と「世界構造」の欠如にある。本書では、モデル性能に依存せず自律型ワークフローを構築する手法を解説する。LLMをステートレスな推論器と見なし、プロジェクトの前提や制約を示す「コンテキスト設計」で推論空間を圧縮。さらに、タスクの進捗や検証条件を外部ファイルで管理し、安全で安定した状態機械として稼働させる重要性を説く。",
+      "published": "2026-05-09T12:10:13+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "APIUserAbortError extends APIError を知らずに CI を 1 件落とした話",
+      "link": "https://zenn.dev/iori_001/articles/openai-apierror-instanceof-trap",
+      "summary": "TL;DR\n\nOpenAI SDK の APIUserAbortError は APIError の サブクラス\n\n\nif (err instanceof APIError) {} else if (err instanceof APIUserAbortError) {} の順で書くと、abort 系のエラーが APIError 側に先に捕まり、後続の分岐に到達しない\n\ninstanceof チェ",
+      "published": "2026-05-09T12:00:07+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "今日からできるAIワークフロー設計シリーズ：LLMアプリを本番業務に入れるための設計パターン集",
+      "link": "https://zenn.dev/kanaria007/articles/c74aae44ba99fb",
+      "summary": "このシリーズについて\nこのシリーズは、LLM / AI エージェントを本番業務に入れるときに必要になる設計パターンを整理したものです。\nどれも今日から部分的に実装可能な粒度でパターン化しています。\n中心にあるのは、モデルを賢くする話ではなく、AI の出力が、どの入力に基づき、どの境界を越え、誰に承認され、どの effect を起こし、あとからどう説明・停止・修復できるか、というワークフロー設計です",
+      "published": "2026-05-09T10:35:01+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -220,7 +283,7 @@
     {
       "title": "Claude Code・Codex CLI・Copilot CLI を QCD で比較する（オトナの自由研究 #16）",
       "link": "https://zenn.dev/nnakapa/articles/lab-16-rpi4-qcd",
-      "summary": "はじめに\n3者ほぼ互角。本当の差は「コードレビュー」に出た\nClaude Code・Codex CLI・GitHub Copilot CLI にタスクを 90回解かせ、品質・コスト・速度（QCD）の 3 軸で比較したところ、3者の品質はほぼ並び、用途で「迷ったら Claude Code、コスト優先なら Copilot CLI」と選び分けられる範囲に収まりました。\nむしろ 90 試行で最大の発見は、",
+      "summary": "はじめに\n3者ほぼ互角。スコアに出ない差は「コードレビュー」に出た\nClaude Code・Codex CLI・GitHub Copilot CLI にタスクを 90回解かせ、品質・コスト・速度（QCD）の 3 軸で比較したところ、3者の品質はほぼ並び、用途で「迷ったら Claude Code、コスト優先なら Copilot CLI」と選び分けられる範囲に収まりました。\nむしろ 90 試行で最大の",
       "published": "2026-05-09T06:32:56+00:00",
       "source": "Zenn - LLM",
       "tag": "AI",
@@ -254,15 +317,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "【エンジニアの類推思考】鍛冶屋・守破離・CMMI──「叩いて不純物を出す」最適化の本質",
-      "link": "https://zenn.dev/tsukitsukiss/articles/forging-cmmi-shuhari-entropy",
-      "summary": "1. 鍛冶屋のようにプロセスを「叩く」\nかつてCMMIやISO9001といった品質管理の現場にいたとき、私は一つの真理に気づきました。プロセスとは、重たい書類仕事ではありません。それは「叩いて不純物を出し、最適化する」鍛冶屋の仕事そのものなのです。\n鉄を叩いて密度を高め、強靭な一振りを仕上げるように、冗長なルールを叩き直して「再現性のある最小の仕組み」へと凝縮します。それが本来のエンジニアリングで",
-      "published": "2026-05-09T05:46:52+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "terraform-ls の補完確定で Neovim がフリーズする問題の原因と回避策",
       "link": "https://zenn.dev/samemaru07/articles/20260509-nvim-terraformls",
       "summary": "TL;DR\n\n\nmain.tf で var.&lt;パラメータ名&gt; を補完確定した瞬間に Neovim がフリーズする。\n原因は terraformls が返す semantic tokens のデルタ値に符号なし 32bit 整数のオーバーフローによる不正な値 (4294967266) が含まれている terraformls 側のバグ。\n\non_attach 時に semanticToke",
@@ -279,15 +333,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "マルチエージェント設計の7原則：Factory「Missions」が16日間自律稼働を実現",
-      "link": "https://zenn.dev/aerign/articles/916513f6e96e7e",
-      "summary": "出典: 本記事は YouTube で公開されている講演「Missions: Multi-Agent Systems That Ship for Days — Luke Alvoeiro, Factory」（AI Engineer、2026-05-06 公開、https://www.youtube.com/watch?v=ow1we5PzK-o）をもとに構成しています。引用はリテラチャノートを通じた",
-      "published": "2026-05-09T04:13:10+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "Crossplane の Composition 実装：Patch & Transform、Functions を使い分ける",
@@ -308,24 +353,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "ローカルLLMの評価について",
-      "link": "https://zenn.dev/sea_yassan_dev/books/01-local-llm-assessment",
-      "summary": "CallbackeHandlerを使用してLLMの呼び出し管理やトークン管理の実装方法について紹介します。またLLMの生成物に対して評価方法について紹介します。",
-      "published": "2026-05-09T03:10:32+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AI活用はQCDのどこに効くのか",
-      "link": "https://zenn.dev/commander/articles/c6d4d605d561fd",
-      "summary": "個人利用からチーム利用へ進むと、問題はC・DからQへ移る\nAI活用の入口はさまざまである。\n目ざとい人が個人で使い始める場合もあれば、組織からの方針として導入される場合もある。あるいは、現場で「使えるなら使ってみよう」という形で始まることもある。\n導入経路は違っても、運用が始まると多くの現場で似たことが起きる。\nうまくいったプロンプトを共有する。\nAI活用のテンプレートを作る。\n調査、要約、資料作",
-      "published": "2026-05-09T03:07:16+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "AWS DevOps AgentのインシデントをSlackプライベートチャンネルに自動通知してみた【第4回：Slack連携編】",
       "link": "https://zenn.dev/sunaaaap/articles/68b49a156b9622",
       "summary": "はじめに\n本記事はAWS DevOps AgentのPoCを4回に分けて解説するシリーズの**最終回（第4回）**です。\n前回（第3回）まではCloudWatch Alarm → Webhook経由でAgentの調査を自動トリガーする構成を構築しました。今回はDevOps AgentをSlackのプライベートチャンネルと連携させ、調査結果・根本原因・緩和策がSlackに自動投稿されるところまで完成",
@@ -333,15 +360,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "AIエージェントに不確実性を探索させるためにやること",
-      "link": "https://zenn.dev/kinzal/articles/6e789454354cfc",
-      "summary": "AIエージェントにコードの品質を上げてとプロンプトを入力すると品質改善を行います。\nコードを調査し、問題を発見し、修正計画を立て問題の解決までAIエージェントが全て行なってくれます。\nしかし、これでコードの品質が期待値を満たすかというとそんなことはありません。\nあくまでも、AIエージェントが発見した問題を解決したのであって、コードの品質を期待したラインまで引き上げたわけではありません。\n昨今のAI",
-      "published": "2026-05-09T02:51:46+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "Crossplane の抽象 API：XRD、XR、Composition で Platform API を組み立てる",
@@ -360,15 +378,6 @@
       "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "LINE連携AIアプリをフルスタックで開発してみた（LINEチャットボット・LINEミニアプリ・LLM連携",
-      "link": "https://zenn.dev/satoshi_tech/articles/20260510-line-ai-app-with-template",
-      "summary": "はじめに\nこの記事は、LINEミニアプリのフロント経験を出発点に、個人開発でLINEチャットボット・バックエンド・LLM連携まで拡張して「ゴルフAI日記」を開発した実践記録です。\nフロントエンド起点で開発領域を広げたい方に向けて、どのように全体設計し、どこを実装していったかを共有します。\n元になった統合アプリテンプレートは、「CookForYou」のコアを抽出した以下の記事で紹介されているものです",
-      "published": "2026-05-09T01:54:56+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "線形回帰で「何がタイムに効くか」を読む — Ridge・Lassoで変数を9個に絞る",
@@ -961,15 +970,6 @@
       "summary": "Pod Security Admissionとは\nPSAは、Pod作成時に特定のPodセキュリティ標準を適用させるための仕組みです。\n適用できるPodセキュリティ標準の「レベル」と、セキュリティ標準に準拠しないPodの作成を検知した際にどのような挙動をするかを指定する「モード」を指定することで、非準拠のPodを検知した時にセキュリティ通知を行ったり、Pod作成を禁止させるなどの実行制御を行うことが",
       "published": "2026-05-06T06:52:32+00:00",
       "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "【Terraform】remote state使ってみた",
-      "link": "https://qiita.com/jyas-protein/items/cd97eae8b2db95e6bde7",
-      "summary": "はじめに\n今回は、以下の記事で作成した「単一の.tfファイル」のTerraformプロジェクトを、「remote state」を使用して、クロススタック化してみました。\n少しでも参考になれば幸いです。\n\nremote stateとは\nremote stateとは、別...",
-      "published": "2026-05-06T04:05:15+00:00",
-      "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
     },
