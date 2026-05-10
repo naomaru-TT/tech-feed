@@ -1,6 +1,51 @@
 {
-  "updated": "2026-05-10T10:06:25.175769+00:00",
+  "updated": "2026-05-10T12:59:15.885847+00:00",
   "items": [
+    {
+      "title": "Django Channels + Redis でランダムマッチング匿名チャットを作ってAWSにデプロイするまで",
+      "link": "https://qiita.com/hashchat/items/f2bff38c1b3845e5b4aa",
+      "summary": "Django Channels + Redis でランダムマッチング匿名チャットを作ってAWSにデプロイするまで\n\nはじめに\n「同じ趣味を持つ知らない誰かと、気軽に話せるサービスがあったらいいな」と思い、登録不要・完全匿名の1対1チャットサービス「HashChat」 を作...",
+      "published": "2026-05-10T12:40:58+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Amazon ECS マネージドインスタンス向け GPU ヘルスモニタリングと自動修復の発表",
+      "link": "https://qiita.com/Haruki-N/items/b22797f6293b521e6670",
+      "summary": "はじめに\n2026 年 4 月 22 日、AWS は Amazon ECS の Managed Instances に対して NVIDIA GPU ヘルスモニタリングおよび自動修復機能（GPU Auto Repair）の一般提供を発表しました。\nこの機能は、NVIDIA ...",
+      "published": "2026-05-10T12:22:33+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "S3上の組織フォルダを共有領域にするユーザーグループを作成",
+      "link": "https://qiita.com/a_b_/items/2c81e0d73fb86d528efb",
+      "summary": "はじめに\n前回、S3の中にユーザの個人領域を作成しました。\n\n今回は、グループ（部署をイメージ）の領域を作成してみました。\n\n概要\n以下を行います。\n\nグループごとに、以下を作成\n\nグループ名のフォルダ\n上記フォルダにアクセス可能なユーザーグループ\n\n作成するリソ...",
+      "published": "2026-05-10T12:04:18+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "DockerとLocalStackの基本整理",
+      "link": "https://qiita.com/ume_hide/items/8d9dedea905d9a4c5754",
+      "summary": "DockerとLocalStackの基本整理\nDockerは、アプリケーションと実行に必要なライブラリや設定をコンテナとしてまとめ、環境差分を減らすための技術です。開発環境、本番環境、CIで同じイメージを使うことで「自分のPCでは動いた」を減らせます。\n\n基本用語\n\n...",
+      "published": "2026-05-10T11:55:19+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "RAGのRetrieve戦略 — Adaptive RAGの変遷",
+      "link": "https://zenn.dev/senna/articles/4f48c1d4d71163",
+      "summary": "Adaptive RAGとは\nAdaptive RAG（または Adaptive Retrieval）は、retrieve するタイミング・回数・戦略をクエリやモデル状態に応じて動的に変えるRAG手法群を指す総称です。\n素朴なSingle-step RAGが抱える構造的な問題に対応するための手法です。\nSkill-RAG という論文で「検索がうまくいかなかった時に、失敗の原因を見分けて対処を切り替",
+      "published": "2026-05-10T10:15:21+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "RabbitMQをkube-prometheusでモニター & 監視した作業ログ",
       "link": "https://qiita.com/YasuhiroABE/items/b94b7d48f3425e02300a",
@@ -11,40 +56,22 @@
       "color": "#326CE5"
     },
     {
-      "title": "SAM Lambda を GitHub Actions で自動デプロイする — ローカル(LocalStack)から本番AWSへの完全パイプライン",
-      "link": "https://qiita.com/ten-056/items/3c1b6fa5aa8bb83ce196",
-      "summary": "はじめに\n前回の記事では、LocalStack + SAM + Docker Compose でローカル開発環境を作りました。\n\n今回はその続きです。ローカルで動いたコードを「mainブランチにマージしたら自動で本番に届く」状態にします。\n\nこの記事でわかること\n\n...",
-      "published": "2026-05-10T09:22:40+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "「Context is the New Code」を実装に落とす：Patrick Debois の CDLC をチームに導入する設計メモ",
+      "link": "https://zenn.dev/aerign/articles/35e44677478bf4",
+      "summary": "TL;DR\n\nDevOpsDays の発案者 Patrick Debois が AI Engineer で 「Context is the New Code」 という講演を行い、CDLC（Context Development Life Cycle） という概念を提唱した。\nLLM はエンジン、コンテキストはその燃料。プロンプトを「その場限りの文字列」ではなく 生成・テスト・配布・監視・適応のルー",
+      "published": "2026-05-10T09:59:59+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
-      "title": "Amazon Bedrock AgentCore RuntimeのAG-UIプロトコルについて整理したい",
-      "link": "https://qiita.com/Takenoko4594/items/3217b3c389d5ec858fef",
-      "summary": "はじめに\nAG-UIは、AIエージェントとフロントエンドをつなぐイベントベースのプロトコルです。\n現在、AWSのAmazon Bedrock AgentCore Runtimeでもサポートが進んでいます。\nAmazon Bedrock AgentCore には、Runti...",
-      "published": "2026-05-10T08:57:56+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "TomcatアプリをECS Fargateで動かす完全手順",
-      "link": "https://qiita.com/ham-nao/items/6274b9ef10d7e54896db",
-      "summary": "はじめに\n既存のTomcatアプリをAWS ECS Fargateに移行する手順をまとめました。\nセッション管理・DBマイグレーション・Auto Scalingまで含めた本番を想定した構成です。\n\n対象読者\n\nTomcatアプリをAWSに移行したい方\nECS Fargat...",
-      "published": "2026-05-10T08:43:21+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "法令APIをMCPサーバ化してClaude Codeから利用する",
-      "link": "https://qiita.com/wonderrrrrr/items/8b03479a9575af93aa7c",
-      "summary": "はじめに\nデジタル庁が運営するe-Gov法令検索は、日本の法令を検索・閲覧できるシステムで、法令データの検索や法令文の一括ダウンロードに対応しています。そのデータ取得用に法令API（Version 2）も提供されています。\n本記事では、この法令APIをリモートMCPサーバ...",
-      "published": "2026-05-10T08:37:13+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "自分のトーン規約を LLM に教える — プロンプトでどこまで届くか",
+      "link": "https://zenn.dev/giteki/articles/003-prompt-tuning-for-tone",
+      "summary": "ローカル LLM にトーン規約を「プロンプトで」どこまで教えられるかを試した工程記録。前記事（002）で作った点検スクリプトに --prompt PATH を足し、プロンプトの書き方を5通り入れ替えながら、固定の入力で出力を比べる。最後にプロンプトはそのまま、モデル世代だけ上げた比較を1本足す。\n\n なぜ続編にするか\n002 では Ollama に Zenn 下書きを点検させる小道具を組んだ。スキ",
+      "published": "2026-05-10T09:38:22+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "Claude CodeからGoogle Workspaceを扱うためのOAuthクライアントを作る",
@@ -61,6 +88,33 @@
       "summary": "【Epistemic Status: 概念アーキテクチャ / アーカイブ】\n※本記事は「AIを人間にどう従わせるか」ではなく、「AI時代において知性の多様性をどう維持するか」を探求する、境界情報幾何学（Boundary Information Geometry: BIG）のコアコンセプトを提示するホワイトペーパーです。派生研究や実装のフォークは自由ですが、著者からの個別返信や継続的な議論対応は行い",
       "published": "2026-05-10T08:15:25+00:00",
       "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "CodexをローカルLLMで駆動する",
+      "link": "https://zenn.dev/robustonian/articles/codex_with_local_llm",
+      "summary": "はじめに\n本記事では、ローカルLLMを用いてCodex CLIを駆動するための方法についてまとめる。\n!\n検証環境はUbuntu 24.04 LTSで行っているが、一般的なLinuxや、Mac、WSL環境でもそのまま使えるかも。\n\n\n 背景\n私は生成AIのベンチマーク評価をすることが趣味の一つなのだが、最近はLLMとClaude CodeやCodexなどのハーネスを組み合わせた際のエージェント性能",
+      "published": "2026-05-10T07:47:08+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AIエージェントが「役職者」、「相棒」になる日",
+      "link": "https://zenn.dev/daishiro/articles/ai-agent-enterprise-personal-session",
+      "summary": "Anthropicが発表したManaged Agentsの新アーキテクチャを読んでいて、「これは単なる技術改善ではないな」って感じました。AIが人間社会にどう組み込まれていくかの構造が、ここで変わりつつあります。\n\n 従来のAIエージェントの限界\nこれまでのAIエージェントは、1つのコンテナにすべてが詰まっていました。\n\n推論（考える部分）\nツール実行（動く部分）\n会話の記憶（覚える部分）\n\nこれ",
+      "published": "2026-05-10T07:44:11+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "CachyOSでllama.cppをコンパイルして動かす",
+      "link": "https://zenn.dev/craftgear/articles/7789a677af2ae4",
+      "summary": "MTPやD-Flashなどの新しい最適化をいち早く試すために、なるべく簡単にllama.cppをソースからビルドして動かせるようにします。\n\n なぜCachyOSか\nCachyOSはArch Linuxベースのディストリビューションで、ゲーミング対応を積極的に行っていることで有名です。\nhttps://cachyos.org\nnVidiaの最新ドライバが最初から含まれているので、LLM向け環境を構",
+      "published": "2026-05-10T07:13:28+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -101,6 +155,24 @@
       "color": "#10A37F"
     },
     {
+      "title": "RubyLLM × さくらのAI Engine — 「OpenAI 互換」でハマったこと",
+      "link": "https://zenn.dev/takeyuwebinc/articles/daec34094c21ce",
+      "summary": "さくらのAI Engine（以下 さくら）は OpenAI 互換 API を提供しており、base_url を差し替えるだけで OpenAI 用に書いたクライアントが動きます。RubyLLM から繋ぐぶんには、API キーと openai_api_base を さくら の値に差し替えるだけで chat.ask までは通ります。ただし「OpenAI 互換」が保証するのは「同じクライアントで叩ける」段",
+      "published": "2026-05-10T06:36:03+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "ローカルLLM3モデルを物性物理の質問でファクトチェック｜Qwen3・LLM-jp-4・Gemma3",
+      "link": "https://zenn.dev/black_lotus/articles/2f68d0790002d9",
+      "summary": "ローカルLLM3モデルを物性物理の質問でファクトチェック｜Qwen3・LLM-jp-4・Gemma3\n\n はじめに\n前回まではOllamaでQwen3とLLM-jp-4を動かして、同じ質問を投げて感触を比べました。\n今回はGemma3を加えて、3モデルを5つの質問で比較します。\nただし、汎用的なベンチマーク記事にはしませんでした。\nローカルLLMの比較記事は世にたくさんあります。\nそこに記事をもう",
+      "published": "2026-05-10T06:33:50+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "FlociでRDS PostgreSQL 17.7をローカル検証してみた",
       "link": "https://zenn.dev/curry_katsu/articles/7a956cca46addf",
       "summary": "はじめに\n前回までの記事では、Floci と Terraform を使って AWS 互換のローカル検証環境を作り、S3 / DynamoDB / SQS / Cognito / EventBridge / Step Functions などを扱いました。\nhttps://zenn.dev/curry_katsu/articles/b36c4a0edc9741\n今回は、アプリケーション開発でよく使う",
@@ -117,6 +189,15 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "Human Return Point――HITLと人間監督の再設計",
+      "link": "https://zenn.dev/dantarg/articles/human-return-point",
+      "summary": "連続記事メモ：本稿は「責任経路工学」シリーズの一部です。\n第6回はこちら\n\n現時点では、責任経路を「責任経路モデル（理論層）」「責任経路設計（設計層）」「責任経路工学（実装・監査層）」の三層として整理しています。本稿は、その三層構造を前提に、工学層の構成要素である Human Return Point を扱います。\n\n\n はじめに\nAIガバナンスでは、Human-in-the-loop という言葉",
+      "published": "2026-05-10T06:26:28+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "FlociでCognito、EventBridge、Step Functionsをローカル検証してみた",
@@ -151,6 +232,15 @@
       "summary": "――深夜0時。ジングルが流れ、ネオンみたいなシンセがゆっくり立ち上がる。\nDJレン「こんばんは。『Midnight AI Groove』、ナビゲーターのDJレンです。」\nDJミオ「そしてDJミオです。今夜のAIニュース、タイトルからしてちょっと力が抜けてます。『not...",
       "published": "2026-05-10T05:59:52+00:00",
       "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "プロンプト改善をガチャにしない——LLMによるレビューをGround Truthで評価する",
+      "link": "https://zenn.dev/bloomblock_blog/articles/llm-system-evaluation",
+      "summary": "前回の記事「同じプロンプトなのに毎回答えが変わる——LLMの非決定性という落とし穴」では、LLMの非決定性——全く同じプロンプトを与えても出力が変わる性質——について紹介しました。temperatureやseedといったパラメータで揺らぎを抑えることはできても、完全な再現性は保証されません。\nでは、出力の揺らぎを前提にしたまま、LLMシステムの品質をどう測ればいいでしょうか。\nこの記事では、機械学",
+      "published": "2026-05-10T05:40:12+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -317,24 +407,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "自律性と厳密性を両立するAI Agent基盤としてのA2A Protocol、そしてWeb3の役割",
-      "link": "https://zenn.dev/cancan007/articles/b9acae584c33ae",
-      "summary": "!\nこの記事はA2A公式仕様の解説と、筆者独自のアーキテクチャ的解釈を含む。セクション4・5の三層インフラモデルおよびExtensions / Metadataの「厳密性レイヤー」解釈は筆者自身の読み方に基づく。\n\n\nAI Agentは、より自律的になりつつある。\n外部ツールを呼び出し、他のAgentに作業を委任し、Artifactとして成果物を生成し、必要に応じて追加確認を行い、長時間のTask",
-      "published": "2026-05-09T19:47:38+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "グラフDB・GraphRAG・GNN ローカル環境ハンズオン",
-      "link": "https://zenn.dev/ppgm/books/graphdb-graphrag-gnn-hands-on",
-      "summary": "Neo4j（Docker）、LlamaIndex + OpenAI による GraphRAG、PyTorch Geometric による GNN を、映画レコメンドという一貫したテーマで体験する実践ガイドです。グラフ技術・機械学習の経験ゼロから、3つの技術を手を動かしながら学べます。",
-      "published": "2026-05-09T19:22:54+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "\"壊れない\"は間違い？高可用性システムの設計を分解してみた",
       "link": "https://qiita.com/100hundred/items/58047b96ef9270443d47",
       "summary": "はじめに\n「壊れないシステムを作ろう」としていませんか？　その設計、多くの場合うまくいきません。\n壊れないことを目指すと、単一障害点をなくすために冗長化を重ね、その冗長化自体が新たな複雑性を生み、結果として運用が難しくなる――そんな罠にはまりがちです。\nミッションクリティ...",
@@ -378,15 +450,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "ISUNARABE合同演習2026とかいう最高のイベントに参加してきた",
-      "link": "https://zenn.dev/rail44/articles/932a22e70ef98d",
-      "summary": "@KOBA789さん主催のもと、ISUNARABE合同演習2026が開催されるというのを前日深夜に知り、面白そうだし勉強にもなりそうなんでシュッと参加してきました。\nパフォーマンスチューニング大会であるISUCONを、参加者全員AIエージェント無制限で行うと何がおきるのか、という趣旨のやつです。\n今、これを書きながら過去の自分のブログを調べてみたところ、非公式とはいえ ISUCON 2015 予選",
-      "published": "2026-05-09T14:29:17+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "「実装はAIに任せた。でも精度は出なかった」",
@@ -470,33 +533,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "LLMエージェントはなぜ壊れるのか ——モデル性能に依存しない自律型ワークフローの構築",
-      "link": "https://zenn.dev/naoyoshinori/books/6856a81987ccb0",
-      "summary": "LLMエージェントが不安定になる根本原因は、推論能力の不足ではなく「状態管理」と「世界構造」の欠如にある。本書では、モデル性能に依存せず自律型ワークフローを構築する手法を解説する。LLMをステートレスな推論器と見なし、プロジェクトの前提や制約を示す「コンテキスト設計」で推論空間を圧縮。さらに、タスクの進捗や検証条件を外部ファイルで管理し、安全で安定した状態機械として稼働させる重要性を説く。",
-      "published": "2026-05-09T12:10:13+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "APIUserAbortError extends APIError を知らずに CI を 1 件落とした話",
-      "link": "https://zenn.dev/iori_001/articles/openai-apierror-instanceof-trap",
-      "summary": "TL;DR\n\nOpenAI SDK の APIUserAbortError は APIError の サブクラス\n\n\nif (err instanceof APIError) {} else if (err instanceof APIUserAbortError) {} の順で書くと、abort 系のエラーが APIError 側に先に捕まり、後続の分岐に到達しない\n\ninstanceof チェ",
-      "published": "2026-05-09T12:00:07+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "今日からできるAIワークフロー設計シリーズ：LLMアプリを本番業務に入れるための設計パターン集",
-      "link": "https://zenn.dev/kanaria007/articles/c74aae44ba99fb",
-      "summary": "このシリーズについて\nこのシリーズは、LLM / AI エージェントを本番業務に入れるときに必要になる設計パターンを整理したものです。\nどれも今日から部分的に実装可能な粒度でパターン化しています。\n中心にあるのは、モデルを賢くする話ではなく、AI の出力が、どの入力に基づき、どの境界を越え、誰に承認され、どの effect を起こし、あとからどう説明・停止・修復できるか、というワークフロー設計です",
-      "published": "2026-05-09T10:35:01+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "AIエージェント検証用PCを作る前に決めたこと：本体は薄く、作業はWSL、実験はDocker",
       "link": "https://zenn.dev/imaginarygate/articles/ee2ad30e1e5e52",
       "summary": "はじめに\n古いSurfaceを、AIエージェント検証専用機として再構築することにした。\n目的は、Codex CLI、Claude Code、Docker、ブラウザAIエージェントなどを、安全に検証できる環境を作ること。\n最初は「古いPCを初期化して、必要なツールを順番に入れていけばよい」と考えていた。\nしかし実際には、Python、Node.js、Git、Codex CLI などを Windows",
@@ -551,15 +587,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "💰Praxia × 投資業務 — VC ジュニアが 1 週間に 30 件の DD を回す",
-      "link": "https://zenn.dev/gen99/articles/5bd831f47ae528",
-      "summary": "このシリーズについて: Praxia は業務特化型マルチエージェント・オーケストレーター + 個人→組織メモリ自動循環機構 を持つ OSS です。本記事は投資業務での具体的な活用例にフォーカスします。\n全体紹介は こちら。\n\n\n\n 前提となる現場の課題\nVC のジュニア・アソシエイトの業務:\n\n毎週 5〜10 件のピッチデッキを読む\n投資委員会向けに 1 ページ要約を作る\n競合分析、財務試算、リス",
-      "published": "2026-05-09T07:09:36+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Build with Kiro: コミュニティハブと Kiro Labs のご紹介",
       "link": "https://aws.amazon.com/jp/blogs/news/introducing-community-and-labs/",
       "summary": "Kiro コミュニティは、日々新たなものを生み出し続けています。境界を押し広げるハッカソンプロジェクトから、カスタムフック、創造的なエージェントワークフロー、そして SNS や Discord で共有される MCP インテグレーションまで、皆さんは私たちの想像を超える場所へ Kiro を連れて行ってくれました。Amazon 社内でも同じ現象が起きています。多様なバックグラウンドを持つビルダーたちが",
@@ -567,33 +594,6 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "Claude Code・Codex CLI・Copilot CLI を QCD で比較する（オトナの自由研究 #16）",
-      "link": "https://zenn.dev/nnakapa/articles/lab-16-rpi4-qcd",
-      "summary": "はじめに\n3者ほぼ互角。スコアに出ない差は「コードレビュー」に出た\nClaude Code・Codex CLI・GitHub Copilot CLI にタスクを 90回解かせ、品質・コスト・速度（QCD）の 3 軸で比較したところ、3者の品質はほぼ並び、用途で「迷ったら Claude Code、コスト優先なら Copilot CLI」と選び分けられる範囲に収まりました。\nむしろ 90 試行で最大の",
-      "published": "2026-05-09T06:32:56+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Stop Authority設計――AIエージェントの停止権限",
-      "link": "https://zenn.dev/dantarg/articles/stop-authority-design",
-      "summary": "連続記事メモ：本稿は「責任経路工学」シリーズの一部です。\n第5回はこちら\n\n現時点では、責任経路を「責任経路モデル（理論層）」「責任経路設計（設計層）」「責任経路工学（実装・監査層）」の三層として整理しています。本稿は、その三層構造を前提に、工学層の構成要素である Stop Authority を扱います。\n\n\n はじめに\nAIエージェントの実装が進むにつれて、guardrails、human-i",
-      "published": "2026-05-09T06:13:20+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "RAGやチャット履歴だけでは足りない？AI AgentがStatefulへ向かう理由とアーキテクチャ",
-      "link": "https://zenn.dev/memorylakeai/articles/396bf9e856bb13",
-      "summary": "導入\nLLMを用いたアプリケーション開発は、ここ数年で大きな進化を遂げました。単発のプロンプトでタスクをこなすフェーズから、LangChainやLlamaIndexを活用したRAG（検索拡張生成）、さらには自律的にツールを呼び出すAI Agentの実装へと、開発者の関心は急速にシフトしています。\nしかし、本番環境（プロダクション）でより自律的かつ長期的に稼働するAgentシステムを構築しようとした",
-      "published": "2026-05-09T06:06:53+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "論文調査にAI使ったら最強だった話",
