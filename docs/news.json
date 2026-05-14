@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14T16:55:57.217258+00:00",
+  "updated": "2026-05-14T19:28:35.600593+00:00",
   "items": [
     {
       "title": "VS Code、複数AIエージェントでの開発を容易にする新機能「Agent window」プレビュー公開",
@@ -56,6 +56,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "SAP学習の「苦行」が終わる？NotebookLM 統合で実現する 爆速キャッチアップ術",
+      "link": "https://zenn.dev/hokanco28/articles/850ae9006f7432",
+      "summary": "はじめに\nSAPの学習といえば、数千ページに及ぶ膨大な公式ドキュメントや、複雑怪奇な BTP（Business Technology Platform）の仕様との格闘でした。しかし、2026年5月13日、Google CloudとSAPから歴史的な発表がありました。「SAP Learning Hub」への NotebookLM のネイティブ統合 です。\n私たちが、この「AI家庭教師」をどう使い倒す",
+      "published": "2026-05-14T12:12:13+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
       "title": "【AWS Lore #SAA-34】境界に立つ者（Chosen at the Threshold）",
       "link": "https://qiita.com/Nika_Rulie/items/eb7b4417752999bba1f5",
       "summary": "--第33話はこちら\n\n■帰還\nネリアお姉様の研究室を出ると、\n通路の空気は外界とは違い、\n温度も匂いも“変化”という概念そのものが薄かった。\nただ、胸の奥に残った“揺れの余韻”だけが、\nまだ私の中で静かに脈動していた。\nネリアお姉様が振り返り、\n柔らかい光の中で静かに言う...",
@@ -70,15 +79,6 @@
       "summary": "はじめに\nRoomは、Frank and Herby try again.....、Difficulty（難易度）はMediumです。\nこのRoomでは、Kubernetes環境における攻撃手法やkubectlを利用した探索、コンテナ脱獄について学ぶことができます。\n\nR...",
       "published": "2026-05-14T11:10:42+00:00",
       "source": "Qiita - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "AKS と Azure Container Apps、結局どっちを使うべきか？使い分けを整理してみた",
-      "link": "https://zenn.dev/madaozaku/articles/ac04d92c2b2560",
-      "summary": "こんにちは、久しぶりの投稿です\n最近は、いままでと全く違う仕事をする事になり、覚えることも増えてきたりしている事と、PhysicalAIやAgenticAIの社会実装に向けての実証実験や課題解決など、バタバタしていることもあり、何よりも念願のPS5proとドグマ2をゲットして眠れない日々も続いていたりと忙しい毎日です\n\n はじめに\n「Azure Container Apps（ACA）が出たし、AK",
-      "published": "2026-05-14T10:30:06+00:00",
-      "source": "Zenn - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
     },
@@ -229,7 +229,7 @@
     {
       "title": "May 14, 2026",
       "link": "https://docs.cloud.google.com/release-notes#May_14_2026",
-      "summary": "Spanner\nAnnouncement\nThe Spanner change streams default retention period has been increased from 1 day to 7 days.\nThis change affects both new and existing change streams that don't have a retention p",
+      "summary": "Cloud Composer\nIssue\nThe google-api-core preinstalled package versions from 2.28.0 to 2.30.2 might\ncause degraded environment performance, which can result in longer times to\nexecute a task and longer",
       "published": "2026-05-14T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
@@ -243,6 +243,15 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "【Google Cloud Next '26 レポート】企業の AI 活用における「コンテキスト」の重要性",
+      "link": "https://zenn.dev/softbank/articles/a04d7a8d138b6d",
+      "summary": "!\n本記事は、Google Cloud Next ’26 現地でのセッション聴講内容をもとにした速報レポートです。発表内容の速報性を重視しているため、今後の詳細情報の公開や更なる検証結果に基づき、内容の修正や追記を行う可能性があります。あらかじめご了承ください。\n\nGoogle Cloud Next '26 で頻繁に耳にし、かつ今後の AI 活用の鍵になると感じたキーワードは、「コンテキスト（文脈",
+      "published": "2026-05-14T06:21:45+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "ソフトバンクG、日本最高益5兆円突破　OpenAI投資益6兆円超えも「一本足打法ではない」　その根拠は？",
@@ -929,24 +938,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "Cloud Run GPU で  Ollama / vLLM bf16 / NVFP4 を試した記録",
-      "link": "https://zenn.dev/chikato/articles/18b6ebcad3a221",
-      "summary": "はじめに\nオープン LLM をプロダクションで動かすにあたって、推論エンジンと量子化方式をいくつか試した検証録です。\n題材は Google の Gemma 4 31B-it、ホスティング先は Cloud Run GPU（RTX Pro 6000）。\n最終的に NVFP4 量子化 + vLLM の組み合わせで、本番ピーク負荷をクリアできたところまでをまとめます。\n検証の過程で「並列を上げると逆に遅く",
-      "published": "2026-05-11T12:36:16+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "MCP・A2A・Function Calling：3つを混同していませんか？【Google Cloud ADK視点で整理】",
-      "link": "https://zenn.dev/seachickenkatsu/articles/fa13fb7b2b5f68",
-      "summary": "はじめに\nこんにちは、とりうみです。\n2026年4月の Google Cloud Next '26 を機に、エージェント開発の勉強を少しだけ始めました。\nしかしADKのドキュメントを読み始めてすぐ、壁にぶつかりました。\n「MCPとA2Aって何が違うの？Function Callingとは別物なの？」\nドキュメントを読めば読むほど3つの用語が混在し、どれが何を解決しているのかがわからなくなりました。",
-      "published": "2026-05-11T12:29:01+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "シンプルな LaTeX 環境を Docker で構築 | LaTeX + Docker",
       "link": "https://zenn.dev/bbsfish/articles/e092211ee2aa2e",
       "summary": "概要\n無料の Overleaf で LaTeX をコンパイルするのに限界を感じてきたので、Docker で PC の環境を汚さずに、VSCode で LaTeX が編集できる環境を構築しました。\n\n 構成\nroot/\n  ├  .vscode/\n  │    └ extensions.json\n  ├  src/\n  │    └  project/\n  │        ├  .latexmkr",
@@ -1239,6 +1230,15 @@
       "link": "https://zenn.dev/cnative_tkb/articles/6eb4e44d67864c",
       "summary": "はじめに\n\n\nなぜこれを書くか: Kubernetes 4 冠を取る過程で「順序を間違えた」「教材を買いすぎた」遠回りを共有し、これから始める人が同じ失敗を踏まずに着実に取得を積み上げられるよう整理する\n\n読者にどんな価値があるか: 4 認定の特徴・順序判断の根拠・各段階で効くリソースを 1 本でまとめて把握できる。実務で K8s に触れる人の基礎力の証明として、また、技術的な裏付けとして、確実に",
       "published": "2026-05-05T21:33:22+00:00",
+      "source": "Zenn - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "Fluentd + copy プラグインで OOMKilled が連鎖する問題の調査と対策",
+      "link": "https://zenn.dev/msekine/articles/26d26c86a2d4a2",
+      "summary": "TL;DR\n\nFluentd が OOMKilled を繰り返し、ログパイプラインが全停止した\n原因は copy プラグインで1つのログを4経路に複製していたこと\n通常のログサイズなら問題ないが、巨大なペイロード（40MB 超）が流入すると 40MB × 4 = 160MB が一瞬でメモリに乗る\nFluentd のバッファリングはチャンク単位なので、1レコードが巨大だとバッファの制御が効かない\n対",
+      "published": "2026-05-05T17:04:43+00:00",
       "source": "Zenn - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
