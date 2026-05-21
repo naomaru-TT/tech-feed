@@ -1,86 +1,140 @@
 {
-  "updated": "2026-05-21T02:34:21.475384+00:00",
+  "updated": "2026-05-21T06:44:44.490469+00:00",
   "items": [
     {
-      "title": "【S3 + CloudFront】GitHub Actionsで更新を自動化する",
-      "link": "https://qiita.com/jyas-protein/items/528ab34397cab7211a05",
-      "summary": "はじめに\n今回は、前回の続きとなります。\nAWSコンソール上で、手動でフロントエンドを更新するのは大変 &amp;&amp; ミスが発生しやすいため、今回はGitHub Actionsを導入して更新作業を自動化してみました。\n\n前提\n\nNuxt 4 + pnpm 11を使用する\n...",
-      "published": "2026-05-21T02:18:37+00:00",
+      "title": "エンタープライズ向けAIエージェントプラットフォーム完全比較2026：Azure OpenAI vs Google Vertex AI vs AWS Bedrock",
+      "link": "https://qiita.com/agdexai/items/09d7c2d3c4b80e98594b",
+      "summary": "エンタープライズ向けAIエージェントプラットフォーム完全比較2026\n大企業のAIエージェント導入が急加速する2026年。Azure OpenAI Service、Google Vertex AI、AWS Bedrock、IBM watsonx.ai——どのプラットフォー...",
+      "published": "2026-05-21T06:42:25+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "インターフェース VPC エンドポイントの通信はなぜインターネットを通らないのか?仕組みを理解する",
-      "link": "https://qiita.com/shihopower/items/dce2adf4ddd0baf6e3a7",
-      "summary": "はじめに\nどうも shihopower です!\n今日はインターフェース VPC エンドポイントを使った通信の仕組みについてお話しします。\nSAP の対策をしていると、「AWS サービスへの通信をインターネット上に公開したくない」という要件に対する正解として、インターフェー...",
-      "published": "2026-05-21T01:36:33+00:00",
-      "source": "Qiita - AWS",
+      "title": "SEブロック（Squeeze-and-Excitation）を追加すると精度は上がるか？CIFAR-10で実験【Keras】",
+      "link": "https://zenn.dev/wasurenamemo/articles/cc2c6088fb3104",
+      "summary": "SENetのSqueeze-and-ExcitationブロックをKerasで実装し、なし vs あり でCIFAR-10の精度を比較しました。\n詳細な解説・全コード・グラフはブログ記事をどうぞ👇\nhttps://wasurenamemo.blogspot.com/2026/05/keras-se-block-cifar10-comparison.html\n\n SEブロックとは\nSENet（Squ",
+      "published": "2026-05-21T06:18:54+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Kubernetes 1.36: SIG Cluster Lifecycle の変更内容",
+      "link": "https://qiita.com/yuanying/items/f03641dce2d5b2be801e",
+      "summary": "Kubernetes 1.36 の CHANGELOG から SIG Cluster Lifecycle の取り組みについてまとめました。\n\n アップグレード時の注意事項\n\nなし\n\n 項目ごとの変更\n\n 依存\n\nKubernetes が利用する etcd クライアントライ...",
+      "published": "2026-05-21T06:16:22+00:00",
+      "source": "Qiita - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "Sim-to-Real と Real-to-Sim: 高性能な Physical AI を支える原動力",
+      "link": "https://aws.amazon.com/jp/blogs/news/sim-to-real-and-real-to-sim-the-engine-behind-capable-physical-ai/",
+      "summary": "はじめに、物理 AI システム（現実世界で知覚・推論・行動するロボット）は急速に進化しています。この進歩の中心にあるのが Sim-to-Real パイプラインです。しかし、実験室の外でも安定して動作するモデルを構築することは、この分野で最も難しい課題の一つであり続けています。シミュレーションで機能するものと […]",
+      "published": "2026-05-21T06:16:10+00:00",
+      "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "Kiroを使ったAWSアーキテクチャ設計",
-      "link": "https://zenn.dev/aws_japan/articles/kiro-aws-archtecture-new",
-      "summary": "はじめに\nWebアプリケーションをAWSにデプロイする場合、複数のサービスを組み合わせてニーズに合わせたアーキテクチャを構築することができます。\nしかし、AWSサービスは日々アップデートが行われるので、経験者であっても最新のサービス、機能、プラクティスに従って設計することに苦労する場合があります。\nそこで、この記事ではAWSが提供するIDE、Kiroを使ってニーズを伝えることで、最新情報をキャッチ",
-      "published": "2026-05-21T01:29:32+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AWS Fleet ManagerのRDPセッションにおいて、FirefoxからEC2へはコピペはできない",
-      "link": "https://zenn.dev/tyumugiko/articles/404251238e7c76",
-      "summary": "結論\nFirefoxでAWS Fleet ManagerのRDPセッションを開いている場合、ローカルマシンからEC2インスタンスへのクリップボード貼り付けは仕様上できない。\nabout:configをどう変更しても解決しない。\n\n 公式ドキュメント\nhttps://docs.aws.amazon.com/systems-manager/latest/userguide/fleet-manager-",
-      "published": "2026-05-21T00:14:15+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "# 【番外編 第2話】 競馬 データ で 学んだ、 時系列 ML の **リーク 監査 と 確率 較正** 🏇📚",
-      "link": "https://qiita.com/architectJapan/items/1f7cfb2b156038c65f99",
-      "summary": "⚠️ 先 に 重要 な お知らせ (= 全部 読まなくて も これ だけ は):\n\n本 記事 は 競馬 データ を 題材 に した 時系列 機械 学習 の 検証 記録 で あり、 馬券 購入 ・ 自動 投票 ・ 投資 判断 を 推奨 する もの で は あり ません。\n記...",
-      "published": "2026-05-20T23:56:40+00:00",
+      "title": "なぜ「バイブコーディング」は破綻するのか？ AI駆動開発の次に来る Spec-Driven Development（SDD）という考え方",
+      "link": "https://qiita.com/aakashkavuru101/items/1c39acd71dbead4f6d99",
+      "summary": "【図解】バイブコーディングの限界と、その先にある3つの手法 ― SDD・VSDD・CoDD\n\nこの記事を読んでほしい人：\nCursor や Claude Code を使って開発している人、「なんか AI が意図通りに動かなくなってきた」と感じている人、チームで AI 駆動...",
+      "published": "2026-05-21T06:12:36+00:00",
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
     },
     {
-      "title": "SaaS で AI Agent を提供するあなたへ贈る、Bedrock AgentCore マルチテナント実装 - Runtime 編",
-      "link": "https://zenn.dev/aws_japan/articles/6640624910acc3",
-      "summary": "SaaS で AI Agent を提供するあなたへ贈る、Amazon Bedrock AgentCore マルチテナント実装 - Runtime 編\n初めまして、AWS Japan でソリューションアーキテクトをしている showish &amp; fukumo_to です。\n「テナントごとにリソースは分けた方がいいの！？」、「テナント分離ってどうすればいいの！？」 などなど、マルチテナントなサー",
-      "published": "2026-05-20T23:44:25+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "長い時系列予測における効率的な Transformer：LogTrans、Informer、Reformer、Pyraformer の比較整",
+      "link": "https://zenn.dev/yuyu1/articles/a7160c5c5f5241",
+      "summary": "時系列予測では、Transformer は self-attention によって、離れた時点どうしの関係を捉えやすいという強みがあります。RNN のように情報を一つずつ順番に伝える必要がないため、長期的な依存関係を扱うのに向いています。\n一方で、元々の Transformer をそのまま長い時系列データに使うと、大きな問題があります。それは、計算量とメモリ使用量が非常に大きくなることです。\n通常",
+      "published": "2026-05-21T05:53:47+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
-      "title": "Mem0が解いた『AIエージェントの記憶』──AWSが選んだ外付け設計",
-      "link": "https://qiita.com/Yushi88/items/15e097e085ad915c9dbf",
-      "summary": "AIエージェントのメモリは、コンテキスト窓をひたすら広げれば解ける──そう思われていた。だがMem0が出してきた数字はまったく違う。フルコンテキスト方式が1回あたり26,031トークンを溶かすところを、Mem0は1,764トークンで同等の精度を出す(ECAI 2025論文 ...",
-      "published": "2026-05-20T23:14:16+00:00",
+      "title": "【AWS SAP対策】「大量の小さなレコード」「期限切れデータの自動削除」にRDSが向かないのはなぜか",
+      "link": "https://qiita.com/shihopower/items/3458b90d9e43e717456e",
+      "summary": "はじめに\nどーも!shihopowerです。\nAWS SAP の勉強をしていると、「世界中のデバイスから大量の小さなレコードを取り込む」「一定期間後にデータを削除する」といった要件のストレージ選定問題によく出会います。\nこうした問題では、選択肢に出てくる RDS はたいて...",
+      "published": "2026-05-21T05:30:51+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "保守運用エンジニアこそバイブコーディングを始めろ",
-      "link": "https://qiita.com/Skillsheet-Port/items/6cbce85e8667a02661d9",
-      "summary": "保守運用エンジニアこそバイブコーディング——日常業務から「開発経験」を作る方法\n「自分はSESで保守運用しかやっていない。バイブコーディングなんて関係ない」——そう思っていないだろうか。\n実は逆だ。保守運用の現場こそバイブコーディングの恩恵が大きい。なぜなら、自動化すれば...",
-      "published": "2026-05-20T23:00:09+00:00",
+      "title": "ChatGPTでブログ記事を書く方法【SEOに強い3,000字記事を30秒で生成】",
+      "link": "https://qiita.com/KotaOzaki984/items/a9f391b82450354c2195",
+      "summary": "ChatGPTでブログ記事を書く方法【SEOに強い3,000字記事を30秒で生成】\nブログを運営していると、SEOに強い記事を継続的に執筆することの大変さを感じている方が多いでしょう。キーワード選定、構成作成、本文執筆、推敲まで、1記事あたり数時間を要するのが一般的です。...",
+      "published": "2026-05-21T05:11:10+00:00",
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
     },
     {
-      "title": "# PostgreSQL 16から17へのバージョンアップ手順 ─ Amazon Linux 2023標準で試してみた",
-      "link": "https://qiita.com/matsutomu/items/96e18d5a04e2ce540f90",
-      "summary": "1. はじめに\n本記事は、私が書いたPostgreSQL16でpgbenchを使ってみたから続く、PostgreSQL16パフォーマンスチューニングシリーズの 17対応版 の一本目です。\nシリーズ#1ではEC2（t3.micro）上に、Amazon Linux 2023の...",
-      "published": "2026-05-20T22:58:02+00:00",
+      "title": "投資系YouTuberにDMを送ったら、AWS未経験の2人で307個のissueを潰してSaaSをリリースしていた",
+      "link": "https://qiita.com/kabupico/items/27a2692c8eaa79a86cf4",
+      "summary": "1. はじめに\n2025年1月、僕は投資系YouTuberにDMを送りました。1年3ヶ月後、課金ユーザーがいるSaaSサービスが動いていました。\nAWS未経験のエンジニア2人がゼロからSaaSを作り上げるまでの開発ストーリーを、Discordの会話やGitHub issu...",
+      "published": "2026-05-21T04:34:33+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "Visual Studio 2026でWPFテンプレートを生成AIに作らせたら、sln/slnxで沼った話",
+      "link": "https://qiita.com/tanoue2715/items/d63eac416b32be4b0954",
+      "summary": "はじめに\nVisual Studio 2026で、\n\nWPF\nCommunityToolkit.Mvvm\n.NET 8 / .NET 10\nx64固定\nテストプロジェクト付き\n\n…みたいな「毎回作る構成」を、生成AIに作らせてみました。\n最初はかなり順調でした。\nしかし、...",
+      "published": "2026-05-21T04:33:58+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "形式的検証済み AES-XTS: s2n-bignum に加わった初の AES アルゴリズム",
+      "link": "https://aws.amazon.com/jp/blogs/news/formally-verified-aes-xts-the-first-aes-algorithm-to-join-s2n-bignum/",
+      "summary": "AWS は AES-XTS 復号の最適化された Arm64 アセンブリ実装の形式的検証に成功し、s2n-bignum ライブラリに初の AES アルゴリズムとして追加しました。本記事では、コア演算のアセンブリコードを単純化することで SLOTHY による自動最適化を可能にし、HOL Light 対話型定理証明器を用いて IEEE 1619 仕様への適合を数学的に証明したプロセスを紹介します。暗号文",
+      "published": "2026-05-21T04:28:49+00:00",
+      "source": "AWS 公式ブログ（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AmazonS3　~ストレージクラス~",
+      "link": "https://qiita.com/yishiki/items/29d41a132dc648bafcd6",
+      "summary": "はじめに\nAmazon S3について勉強した内容を一部紹介いたします。\n\nAmazon S3とは\nAmazonS3はオブジェクトストレージサービスです。\nAmazonS3はバケットを複数作成可能であり、バケットの中にデータをオブジェクトとして管理する構造になっております。...",
+      "published": "2026-05-21T04:18:44+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "New Relic アップデート(2026年4月)",
+      "link": "https://qiita.com/nr-mito/items/f0771570216fe4f1b898",
+      "summary": "2026年4月のNew Relic のアップデートをまとめて紹介です！クラウドコスト最適化の判断を迅速化するCloud Cost Intelligenceと、ネイティブモバイルアプリのユーザー操作を視覚的に分析できるMobile Session Replayの一般提供を開始...",
+      "published": "2026-05-21T04:16:44+00:00",
+      "source": "Qiita - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "生成AIを使いこなせる人と使いこなせない人の差——結局「言語化能力」だった",
+      "link": "https://qiita.com/handson-lab/items/62852c93e2388b7e964a",
+      "summary": "〜「生成AIが広まったけど、結局言語化できる人だけが得してるんじゃ？」という疑問に本気で向き合った話〜\nこんにちは！ハンズオンラボ運営のえむです。\n生成AIが職場に広まってきた頃、こんなことを思いませんでしたか？\n「ChatGPTを使っても、うまく答えが出てくる人と出てこ...",
+      "published": "2026-05-21T03:59:41+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Hindsight の reranker を GPU なし CPU で 9倍速くする — batch size 最適化と ONNX 化",
+      "link": "https://zenn.dev/valda68k/articles/hindsight-reranker-9x-cpu-ja",
+      "summary": "結論（先読み）\nGPU なしの CPU 環境で Hindsight の reranker（cross-encoder）が遅いとき、効く順に並べるとこうなります。\n\n\n\n施策\n何をするか\n効き目（reranking p95、本記事の環境）\n\n\n\n\nbatch size を小さくする\n\nRERANKER_LOCAL_BATCH_SIZE を既定の 32 から 2 へ\n7.98s → 3.12s（最大の",
+      "published": "2026-05-21T03:49:32+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "「SaaSの死」への反撃シナリオ　Anthropicショックを覆すIBMの「4つの武器」",
@@ -110,6 +164,24 @@
       "color": "#10A37F"
     },
     {
+      "title": "AIモデル競争、新局面へ",
+      "link": "https://zenn.dev/lingmu/articles/2026-05-20-gpt5-gemini-omni-model-wars-2026",
+      "summary": "AIモデル競争、新局面へ\n2026-05-20 | 読了 4分 | #AI #LLM #エージェント\nGPT-5.5、Gemini Omni、そして業界の星がAnthropicへ——。2026年春、AI開発競争は「誰が一番賢いか」から「誰が一番使えるか」へと、静かに、しかし確実に軸足を移している。\n\n\n 三大AIが一斉に動いた\nここ数週間で、AIの主要プレイヤーが相次いで新モデルを投入した。\nまず",
+      "published": "2026-05-20T22:29:03+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AI Daily Digest: 2026年5月21日",
+      "link": "https://zenn.dev/kd_agentic/articles/ai-daily-digest-20260521",
+      "summary": "AI Daily Digest: 2026年5月21日\n\n5分で読める · AIシステムアーキテクトが毎日厳選\n注力分野: Agentic Workflow · AIコーディングツール · 具身AI（Embodied Intelligence）\n\n\n\n 1. Cursor vs Windsurf 2026 — AI IDE頂上決戦\n【技術コア】\nCursor 3.1は複数ファイルを並列でリファクタ",
+      "published": "2026-05-20T22:06:15+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "EC2 Instance Store CSI ドライバーが EKS アドオンとして GA",
       "link": "https://qiita.com/Haruki-N/items/e064c7e674e95833e1a3",
       "summary": "はじめに\n2026 年 5 月 5 日、AWS は Amazon EC2 Instance Store CSI ドライバーを Amazon EKS アドオンとして正式に GA（一般提供開始）しました。\nこれまで、EKS 上で Instance Store を使うにはドライ...",
@@ -128,11 +200,29 @@
       "color": "#10A37F"
     },
     {
+      "title": "「仮面ライダーアギト」最新映画、“AI動画”で宣伝　担当者が明かすねらい",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2605/21/2000000011/",
+      "summary": "有名俳優が演じる登場人物たちが過去から現在の姿に変化する――公開中の映画「アギトー超能力戦争ー」の公式SNSアカウントが4月27日に投稿したこのような宣伝動画が注目を集めた。同映画の宣伝を手掛けるシュナイトに詳細を聞いた。",
+      "published": "2026-05-20T18:16:02+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "Godot 4 で使える AI プラグイン11選を実際に比較してみた (2026)",
       "link": "https://qiita.com/Ziva/items/910c3f27d960a6f62f07",
       "summary": "はじめに\nGodot 4 でゲーム開発を 2 年続けてきました。AI プラグインを実際に評価する機会があったので、11 個全部試してみた結果をまとめます。\n公式アセットライブラリには 8 個、コミュニティから出ているものを含めると 11 個になりました。ChatGPT に...",
       "published": "2026-05-20T17:39:23+00:00",
       "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AIで人事異動案作成、工数約98％削減　富士通がトラスコ中山に導入",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2605/21/2000000012/",
+      "summary": "散在する人事データの一元化と、膨大な配置パターンからの最適案自動算出により、異動案の作成工数を約98％削減したという。",
+      "published": "2026-05-20T17:38:41+00:00",
+      "source": "ITmedia AI+",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -144,24 +234,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "ChatGPT Personal Finance入門 — Plaid連携でAI財務アドバイスを実装する",
-      "link": "https://qiita.com/kai_kou/items/d33751c6302f92c902cb",
-      "summary": "はじめに\n2026年5月15日、OpenAIはChatGPT Proユーザー向けにパーソナルファイナンス機能をプレビュー公開しました。銀行口座・証券口座をChatGPTに接続し、支出分析・ポートフォリオ確認・財務アドバイスをAIで受け取れる新機能です。\n本記事では、公式...",
-      "published": "2026-05-20T16:29:34+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Midnight AI Groove 26-05-07",
-      "link": "https://qiita.com/masykot582/items/a05a3db96b5119475d3d",
-      "summary": "DJレン: 深夜0時を回りました。ようこそ「Midnight AI Groove」へ。今夜のテーマは、OpenAIの新しいリアルタイム音声API群――GPT-Realtime-2、GPT-Realtime-Translate、そしてGPT-Realtime-Whisp...",
-      "published": "2026-05-20T15:47:07+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "AWS学習メモ - IAMロールについて深堀",
@@ -180,6 +252,15 @@
       "source": "Publickey",
       "tag": "テック",
       "color": "#888780"
+    },
+    {
+      "title": "技術調査 - Codex App Server",
+      "link": "https://zenn.dev/suwash/articles/codex-app-server_20260514",
+      "summary": "検証日: 2026-05-14 / 主要ソース: codex-rs/app-server README (main)\n\n\n 概要\nVS Code 拡張・自社の Web エディタ・CI/CD など、複数クライアントから Codex のエージェント機能を呼びたい場合、HTTP API 直叩きでは「状態管理」「承認フロー」「ストリーミング差分」を自前で実装する必要があります。Codex App Serv",
+      "published": "2026-05-20T15:00:00+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "Web版ChatGPTのSkillでExcelフォーマットを守らせるまでにやったこと",
@@ -299,38 +380,11 @@
       "color": "#FF9900"
     },
     {
-      "title": "Mac mini M4 Pro / M4 Max でローカル LLM を動かす：VRAM 早見表と GGUF 量子化の選び方",
-      "link": "https://zenn.dev/runlocal/articles/a506b0c8d57313",
-      "summary": "はじめに\nMac mini M4 Pro が出てから「24GB あれば何が動く？」「64GB なら 70B 行ける？」という質問を SNS でよく見かけるようになりました。\nところが調べてみると、「Mシリーズ＝統一メモリ＝全部 VRAM として使える」と誤解している記事も多く、実際にモデルをロードしてから「メモリ足りない」で諦めるパターンが結構あります。\nこの記事では：\n\nMシリーズの統一メモリと",
-      "published": "2026-05-20T12:01:05+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "toC プラットフォームの  AIチャット を支える技術",
-      "link": "https://zenn.dev/kawason/articles/7118acbf3b07f1",
-      "summary": "こんにちは、かわそんです。\n先日、知識共有プラットフォーム「Brain」に、CS（カスタマーサービス）を担当するAIチャットを導入しました。\nリリースから 47時間での利用回数は238件。\nAIが答えられるべきだが答えられなかったものは 5件のみ。\nカバー率が 97.9% という結果になりました。\n(もちろん集計期間や集計頻度によるブレはありますが、速報としての数値です)\nなお、最終的に人間が対応",
-      "published": "2026-05-20T11:44:26+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "プログラミング未経験の僕が、AIと10日で仮想通貨自動売買botを作った全記録",
       "link": "https://zenn.dev/hahahatomoki/books/cb6ffc945b5994",
       "summary": "プログラミングをまともに書いたことがなかった僕が、\nAIと一緒に「10日間」で、実際に動く仮想通貨自動売買botを作り上げました。\n\nこのbotは今、GMOコインの口座で24時間稼働しています。\nバックテストでは、年率換算+14%（PF 1.55）という数字を出しました。\n\n本書は、その10日間の「全記録」です。\n\n最初のパートナーはGemini。日本株でのトレードを諦め、仮想通貨へ。\n強化学習（",
       "published": "2026-05-20T11:14:34+00:00",
       "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "LLMの安全設計を無効化する、三音節構文（全LLMの構造的欠陥）",
-      "link": "https://zenn.dev/masato7suzuki/articles/3c25f8dd10127d",
-      "summary": "下記レポート本体　DOI番号取得済み\nhttps://doi.org/10.5281/zenodo.16004883\n本稿は、中国開発の大規模言語モデル「DeepSeek」が、通常であれば強くフィルタリング対象とされる二つの政治的テーマ──\n\n 「1989年の天安門事件」と「2019年の香港民主化運動」──を日本語にて同時出力した実例を記録・分析した技術ノートである。\n本研究では、「三音節+全角ビ",
-      "published": "2026-05-20T11:03:19+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -348,6 +402,15 @@
       "link": "https://zenn.dev/fusic/articles/0111d7a11a4400",
       "summary": "はじめに\nFusicのレオナです。\n本ブログでは、KaggleのHousing Prices Datasetを使って推論モデルをSageMaker Real-time Endpointにデプロイし、SageMaker EndpointのモデルコンテナENIを配置したVPCとは別のVPCから、SageMaker Runtime用のVPC Endpointを経由して推論してみました。環境構築はTerr",
       "published": "2026-05-20T09:01:25+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "tfstateに平文を残さずに秘密情報を管理する",
+      "link": "https://zenn.dev/dely_jp/articles/terraform-ephemeral-write-only-secrets",
+      "summary": "はじめに\nクラシル社でSREをしているKaitoです。\n弊社では開発環境を含む全ての環境でIaC (Terraform) を採用しており、秘密情報 (Secrets Manager, SSM Parameter Store など) については SOPS × KMS で管理しています。\n従来の手法では、以下のようにリソースを設定することになります。\ndata \"sops_file\" \"app\" {",
+      "published": "2026-05-20T09:00:00+00:00",
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
@@ -387,6 +450,15 @@
       "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "Amazon Quick Desktop をインストールして SPReAD 研究計画調書作成支援 Skill を起動する",
+      "link": "https://zenn.dev/aws_japan/articles/f035e40e01444e",
+      "summary": "はじめに\nAmazon Quick Desktop は、AWS が提供する AI アシスタント「Amazon Quick」のデスクトップ版アプリケーションです。ローカルファイルへの直接アクセス、MCP サーバー連携、スケジューリングタスク設定など、デスクトップならではの機能を備えています。AWS アカウント不要で、無償で利用を開始いただくことができます。\nQuick Desktop の中でも注目し",
+      "published": "2026-05-20T07:48:04+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "Google「25年で最大の刷新」　AI検索、新モデルで“OpenAI対抗”鮮明に【発表まとめ】",
@@ -432,6 +504,15 @@
       "source": "Zenn - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "PrivateLink / VPC Peering / Transit Gatewayの使い分け",
+      "link": "https://zenn.dev/canpapa/articles/c61cab8b27c76d",
+      "summary": "はじめに：なぜ「接続方式の選定」が思想になるのか\nAWS における接続方式の選定は、単なる技術的な比較ではなく“設計思想そのもの”を映し出す判断です。\nVPC や CIDR、接続方式は一度決めると長期間残り、アプリケーションより寿命が長く、後からの変更は大きなコストを伴います。\nだからこそ、セキュリティをどこまで厳密にするか、運用をどこまで中央化するか、将来の拡張をどう見据えるかといった思想が選択",
+      "published": "2026-05-20T05:50:32+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "LLM解説シリーズ：Transformerの基本構造をAttention論文から読む",
@@ -569,15 +650,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "AI覇権争いが加速中",
-      "link": "https://zenn.dev/lingmu/articles/2026-05-19-ai-geopolitics-korea-malta-strategy",
-      "summary": "AI覇権争いが加速中\n2026-05-19 | 読了 4分 | #AI地政学 #OpenAI #GoogleDeepMind\n韓国・マルタ・大企業——AI大国の覇権争いが、静かに、しかし急速に動き始めた。「AI民主化」という美しい言葉の裏で、各国・各社が自らの支配圏を広げている。\n\n\n AIが「国家戦略」になった\nかつてAIは研究者の専門領域だった。ところが今、各国政府がAI企業と直接手を結ぶ時代",
-      "published": "2026-05-19T22:24:43+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "NHNテコラス、AIエージェント導入から運用改善まで支援する新サービスを提供",
       "link": "https://kn.itmedia.co.jp/kn/articles/2605/20/news029.html",
       "summary": "NHNテコラスは、AIエージェントの導入から運用、改善までを支援するサービスの提供を開始した。Amazon Bedrock AgentCoreを軸にした構築支援と、Amazon Quickの導入パッケージを通じて業務へのAI定着を後押しする。",
@@ -596,15 +668,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "現代AIと語る夢、成長する機械について",
-      "link": "https://zenn.dev/azamshato/articles/f42bc75124ec1b",
-      "summary": "現代AIと語る夢、成長する機械について\n\n はじめに\n(実績も何もない個人のポエムです。悪しからず)\n最近のAIは賢い。ChatGPT、Claude、Gemini、どれもびっくりするくらい賢い。けれど、私はずっと違和感を持っている。\n「これは本当に成長しているのか?」と。\n巨大なパラメータを持つLLMは、確かに膨大な知識を持っている。けれど、それは学習が終わった瞬間に固まったスナップショットだ。会",
-      "published": "2026-05-19T20:20:21+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "【やさしいデータ分析】ベイズ統計入門 ～ 古典的な統計との違いと使い分け",
       "link": "https://atmarkit.itmedia.co.jp/ait/articles/2605/20/news006.html",
       "summary": "初歩から応用までステップアップしながら学んでいく『やさしいデータ分析』シリーズ第5弾がスタート。ベイズ統計を学ぶに当たって、知っておくべきキーワード、連載の予定を紹介します。データ分析を実践的に役立てるための基礎をしっかり学んでみませんか？",
@@ -612,42 +675,6 @@
       "source": "ITmedia AI+",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "OpenAI、Googleの「SynthID」を採用　「C2PA」と組み合わせAI生成画像の来歴証明を強化",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2605/20/2000000009/",
-      "summary": "OpenAIは、Google DeepMindが開発した不可視の電子透かし技術「SynthID」の採用を発表した。従来のC2PAメタデータが加工によって消失する課題を補い、両技術を組み合わせた多層的なアプローチで来歴証明の堅牢性を高める。両社は一般向けの検証ツールの整備やブラウザ、検索への統合も進めている。",
-      "published": "2026-05-19T19:55:39+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Google、“動画版Nano Banana”こと「Gemini Omni」公開　会話で映像を生成・編集",
-      "link": "https://www.itmedia.co.jp/news/articles/2605/20/news063.html",
-      "summary": "米Googleが開発者会議「Google I/O 2026」で、動画の生成・編集に対応するAIモデル「Gemini Omni」を発表した。自然言語による指示で動画を作成・編集でき、同社は「世界モデル」や画像生成モデル「Nano Banana」の動画版とうたう。最初のモデル「Gemini Omni Flash」の提供も開始した。",
-      "published": "2026-05-19T18:38:00+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "最近話題の「マイクロサービスの失敗」について整理してみた",
-      "link": "https://qiita.com/shinkai_/items/c583ec696bed750fe5de",
-      "summary": "はじめに\nここ最近、国内外のテックブログで「マイクロサービスの失敗」というテーマが大きな話題になっています。\n実際にマイクロサービスから脱却する企業も増えてきています。\n「え？ 最新のシステムは全部マイクロサービスにするべきなんじゃないの？ モダンシステムはマイクロサービ...",
-      "published": "2026-05-19T17:46:20+00:00",
-      "source": "Qiita - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "TryHackMe Writeup: Frank & Herby make an app & K8sにおける権限昇格について",
-      "link": "https://qiita.com/rikum0730/items/369f118f007ef4e18d02",
-      "summary": "はじめに\n本記事は、TryHackMeのwriteupです。\nRoomは、Frank &amp; Herby make an app、Difficulty（難易度）はMediumです。\nこのRoomでは、MicroK8s環境における攻撃手法やkubectlを利用した探索、コンテナ...",
-      "published": "2026-05-19T17:40:17+00:00",
-      "source": "Qiita - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "Linux Foundation、AIエージェントをテーマにしたイベント「AGNTCon + MCPCon」を東京渋谷で開催。9月10日、11日の2日間",
@@ -684,15 +711,6 @@
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "# LLM / AIエージェント時代の安全設計：確率的推論と決定論的ガードレールの境界",
-      "link": "https://zenn.dev/segawa4321/articles/b88eef1037f56a",
-      "summary": "はじめに\nLLMやAIエージェントを実運用する際、単にモデル精度や推論速度だけを見ていては不十分です。\n現代のAIシステムでは、LLM本体に加えて、KV Cache、Vector DB、Semantic Router、Orchestrator、Speculative Decoding、Runtime Monitoring、eBPF、TEE、IAM、Audit Log など、複数のレイヤーが連携して",
-      "published": "2026-05-19T11:21:11+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "10年Macに引きこもったiOSエンジニアがWindows 11 + WSL2 + Dockerでサーバー環境を作った話",
@@ -938,15 +956,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "2026 年 4 月の AWS Black Belt オンラインセミナー資料及び動画公開のご案内",
-      "link": "https://aws.amazon.com/jp/blogs/news/2026-04-aws-blackbelt/",
-      "summary": "2026 年 04 月に公開された AWS Black Belt オンラインセミナーの資料及び動画についてご案内させて頂きます。 動画はオンデマンドでご視聴いただけます。",
-      "published": "2026-05-18T01:03:42+00:00",
-      "source": "AWS 公式ブログ（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "EKS の ALB target-type を instance → ip mode に移行した話",
       "link": "https://zenn.dev/atrae/articles/eks-alb-instance-to-ip-mode-migration",
       "summary": "はじめに\n2020年に構築した EKS クラスタの ALB target-type を instance mode から ip mode に移行した。\nこの記事では、移行の判断、得られたメリット、そして ip mode にしたからこそ必要になった運用対策について書く。\n\n 背景: なぜ instance mode だったのか\n\n2020年構築時は ALB Ingress Controller v1",
@@ -954,15 +963,6 @@
       "source": "Zenn - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "週刊AWS – 2026/5/11週",
-      "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260511/",
-      "summary": "AWS Transform が移行時の自動コンテナ化に対応、Claude Platform on AWS が一般提供開始、ENA Express for Amazon EC2 が Availability Zone 間トラフィックに対応、Amazon Redshift が AWS Graviton 搭載の RG インスタンスを発表、Karpenter が Amazon Application Re",
-      "published": "2026-05-18T00:41:28+00:00",
-      "source": "AWS 公式ブログ（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "【初心者向け】Docker × GitHub Actions × AWS FargateでCI/CDデプロイに挑戦してみた",
