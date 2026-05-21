@@ -1,14 +1,113 @@
 {
-  "updated": "2026-05-20T22:19:47.080234+00:00",
+  "updated": "2026-05-21T02:34:21.475384+00:00",
   "items": [
     {
-      "title": "EC2 Instance Store CSI ドライバーが EKS アドオンとして GA",
-      "link": "https://qiita.com/Haruki-N/items/e064c7e674e95833e1a3",
-      "summary": "はじめに\n2026 年 5 月 5 日、AWS は Amazon EC2 Instance Store CSI ドライバーを Amazon EKS アドオンとして正式に GA（一般提供開始）しました。\nこれまで、EKS 上で Instance Store を使うにはドライ...",
-      "published": "2026-05-20T21:47:47+00:00",
+      "title": "【S3 + CloudFront】GitHub Actionsで更新を自動化する",
+      "link": "https://qiita.com/jyas-protein/items/528ab34397cab7211a05",
+      "summary": "はじめに\n今回は、前回の続きとなります。\nAWSコンソール上で、手動でフロントエンドを更新するのは大変 &amp;&amp; ミスが発生しやすいため、今回はGitHub Actionsを導入して更新作業を自動化してみました。\n\n前提\n\nNuxt 4 + pnpm 11を使用する\n...",
+      "published": "2026-05-21T02:18:37+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "インターフェース VPC エンドポイントの通信はなぜインターネットを通らないのか?仕組みを理解する",
+      "link": "https://qiita.com/shihopower/items/dce2adf4ddd0baf6e3a7",
+      "summary": "はじめに\nどうも shihopower です!\n今日はインターフェース VPC エンドポイントを使った通信の仕組みについてお話しします。\nSAP の対策をしていると、「AWS サービスへの通信をインターネット上に公開したくない」という要件に対する正解として、インターフェー...",
+      "published": "2026-05-21T01:36:33+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Kiroを使ったAWSアーキテクチャ設計",
+      "link": "https://zenn.dev/aws_japan/articles/kiro-aws-archtecture-new",
+      "summary": "はじめに\nWebアプリケーションをAWSにデプロイする場合、複数のサービスを組み合わせてニーズに合わせたアーキテクチャを構築することができます。\nしかし、AWSサービスは日々アップデートが行われるので、経験者であっても最新のサービス、機能、プラクティスに従って設計することに苦労する場合があります。\nそこで、この記事ではAWSが提供するIDE、Kiroを使ってニーズを伝えることで、最新情報をキャッチ",
+      "published": "2026-05-21T01:29:32+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AWS Fleet ManagerのRDPセッションにおいて、FirefoxからEC2へはコピペはできない",
+      "link": "https://zenn.dev/tyumugiko/articles/404251238e7c76",
+      "summary": "結論\nFirefoxでAWS Fleet ManagerのRDPセッションを開いている場合、ローカルマシンからEC2インスタンスへのクリップボード貼り付けは仕様上できない。\nabout:configをどう変更しても解決しない。\n\n 公式ドキュメント\nhttps://docs.aws.amazon.com/systems-manager/latest/userguide/fleet-manager-",
+      "published": "2026-05-21T00:14:15+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "# 【番外編 第2話】 競馬 データ で 学んだ、 時系列 ML の **リーク 監査 と 確率 較正** 🏇📚",
+      "link": "https://qiita.com/architectJapan/items/1f7cfb2b156038c65f99",
+      "summary": "⚠️ 先 に 重要 な お知らせ (= 全部 読まなくて も これ だけ は):\n\n本 記事 は 競馬 データ を 題材 に した 時系列 機械 学習 の 検証 記録 で あり、 馬券 購入 ・ 自動 投票 ・ 投資 判断 を 推奨 する もの で は あり ません。\n記...",
+      "published": "2026-05-20T23:56:40+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "SaaS で AI Agent を提供するあなたへ贈る、Bedrock AgentCore マルチテナント実装 - Runtime 編",
+      "link": "https://zenn.dev/aws_japan/articles/6640624910acc3",
+      "summary": "SaaS で AI Agent を提供するあなたへ贈る、Amazon Bedrock AgentCore マルチテナント実装 - Runtime 編\n初めまして、AWS Japan でソリューションアーキテクトをしている showish &amp; fukumo_to です。\n「テナントごとにリソースは分けた方がいいの！？」、「テナント分離ってどうすればいいの！？」 などなど、マルチテナントなサー",
+      "published": "2026-05-20T23:44:25+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Mem0が解いた『AIエージェントの記憶』──AWSが選んだ外付け設計",
+      "link": "https://qiita.com/Yushi88/items/15e097e085ad915c9dbf",
+      "summary": "AIエージェントのメモリは、コンテキスト窓をひたすら広げれば解ける──そう思われていた。だがMem0が出してきた数字はまったく違う。フルコンテキスト方式が1回あたり26,031トークンを溶かすところを、Mem0は1,764トークンで同等の精度を出す(ECAI 2025論文 ...",
+      "published": "2026-05-20T23:14:16+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "保守運用エンジニアこそバイブコーディングを始めろ",
+      "link": "https://qiita.com/Skillsheet-Port/items/6cbce85e8667a02661d9",
+      "summary": "保守運用エンジニアこそバイブコーディング——日常業務から「開発経験」を作る方法\n「自分はSESで保守運用しかやっていない。バイブコーディングなんて関係ない」——そう思っていないだろうか。\n実は逆だ。保守運用の現場こそバイブコーディングの恩恵が大きい。なぜなら、自動化すれば...",
+      "published": "2026-05-20T23:00:09+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "# PostgreSQL 16から17へのバージョンアップ手順 ─ Amazon Linux 2023標準で試してみた",
+      "link": "https://qiita.com/matsutomu/items/96e18d5a04e2ce540f90",
+      "summary": "1. はじめに\n本記事は、私が書いたPostgreSQL16でpgbenchを使ってみたから続く、PostgreSQL16パフォーマンスチューニングシリーズの 17対応版 の一本目です。\nシリーズ#1ではEC2（t3.micro）上に、Amazon Linux 2023の...",
+      "published": "2026-05-20T22:58:02+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "「SaaSの死」への反撃シナリオ　Anthropicショックを覆すIBMの「4つの武器」",
+      "link": "https://www.itmedia.co.jp/business/articles/2605/21/news026.html",
+      "summary": "ボストンで開催されたIBMの顧客イベント「Think Boston 2026」。会場の熱気とは裏腹に、同社はかつてない逆風にさらされていた。米Anthropic「Claude Mythos」は、メインフレームの脆弱性を容易に特定し、IBMの牙城を根底から揺るがす。「SaaSの死」という言葉が飛び交い、IBMの株価は30％近く急落した。この「Anthropicショック」に対し、IBMはどう立ち向かう",
+      "published": "2026-05-20T22:45:00+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "SSMautomation補足",
+      "link": "https://zenn.dev/technical_memo/articles/e318c74cb46065",
+      "summary": "https://qiita.com/mkydk/items/115c027a6022f592ae4f\nAutomationの大きな特徴は、aws:executeAwsApiアクションを使えば任意のAWS APIを実行できる点です。これにより、Runbookが用意されていないサービスでも、API経由で制御できるリソースであれば自動化が可能です。\nターゲットにSSM Automationを指定し、ドキ",
+      "published": "2026-05-20T22:43:30+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AIモデル競争、新局面へ",
+      "link": "https://zenn.dev/lingmu/articles/2026-05-20-gpt5-gemini-omni-model-wars-2026",
+      "summary": "AIモデル競争、新局面へ\n2026-05-20 | 読了 4分 | #AI #LLM #エージェント\nGPT-5.5、Gemini Omni、そして業界の星がAnthropicへ——。2026年春、AI開発競争は「誰が一番賢いか」から「誰が一番使えるか」へと、静かに、しかし確実に軸足を移している。\n\n\n 三大AIが一斉に動いた\nここ数週間で、AIの主要プレイヤーが相次いで新モデルを投入した。\nまず",
+      "published": "2026-05-20T22:29:03+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "EC2 Instance Store CSI ドライバーが EKS アドオンとして GA",
@@ -56,15 +155,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "AWS Private CA を基礎から学び、CloudFormationで組んでみる",
-      "link": "https://qiita.com/nemunavi/items/57064c368883acf833d6",
-      "summary": "■PrivateCA（プライベート認証局）とは🤔？\n企業や組織が社内システムや特定の用途のために、自社で独自に構築・運用する認証局（CA）のこと\nパブリックCA（SSL/TLS証明書など）が不特定多数のWebサイトの証明書を発行するのに対し、\nプライベートCAは社内ネット...",
-      "published": "2026-05-20T15:50:40+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "Midnight AI Groove 26-05-07",
       "link": "https://qiita.com/masykot582/items/a05a3db96b5119475d3d",
       "summary": "DJレン: 深夜0時を回りました。ようこそ「Midnight AI Groove」へ。今夜のテーマは、OpenAIの新しいリアルタイム音声API群――GPT-Realtime-2、GPT-Realtime-Translate、そしてGPT-Realtime-Whisp...",
@@ -74,7 +164,7 @@
       "color": "#10A37F"
     },
     {
-      "title": "AWS学習メモ - IAMポリシーについて深堀",
+      "title": "AWS学習メモ - IAMロールについて深堀",
       "link": "https://zenn.dev/yashiki_tatama/articles/df77c9af311254",
       "summary": "前回につづき、今回はIAMロールについて深堀っていこうと思います。\nAWSサービスやIAMユーザが、一時的に権限を利用するための仕組みと説明しましたが\n具体的にどのように利用されていくのかを整理していきます。\n\nIAMポリシーと何が違うの？\n一時認証情報とは何ぞや？\n\nなど、最初はかなり混乱した箇所でした。\n今回は、\n「IAM ロールが実際どのように利用されるのか」\nを自分なりに整理してみます。",
       "published": "2026-05-20T15:34:38+00:00",
@@ -90,42 +180,6 @@
       "source": "Publickey",
       "tag": "テック",
       "color": "#888780"
-    },
-    {
-      "title": "Kiro CLI中級 — steeringとスキルでAIを自分仕様に育てる",
-      "link": "https://qiita.com/ishi_bg/items/f5158103efe0489d9fcf",
-      "summary": "はじめに\n前回の入門編記事では、Kiro CLIの全体像とsteeringファイルの基本的な使い方を紹介しました。\n今回は中級編として、steeringをより実践的に活用するテクニックと、繰り返し業務を自動化する「スキル」の使い方を紹介します。コーディングに限らず、資料作...",
-      "published": "2026-05-20T15:14:33+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AWS構築を想定したMLOPsパイプラインの全体像と考え方",
-      "link": "https://qiita.com/tactac1238/items/9ab3feab0cb8515c12ce",
-      "summary": "はじめに\n前回の記事ではMLOPsで活用される技術スタックをミニマムなハンズオン形式で投稿しました。今回は私が直近で学んだ内容として「AWSリソースも用いたMLOPsパイプラインの全体像、MLOPsにおける重要な考え方、カンコツ」を読者の皆さんが体系的に学べるよう(+自分...",
-      "published": "2026-05-20T15:13:22+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "相続税は本当に格差是正になるのか？― 資産循環・成長・中間層をシミュレーションで考える : Pythonで学ぶ マクロ経済学入門 (82)",
-      "link": "https://qiita.com/maskot1977/items/d95b55e78e1258dabdd5",
-      "summary": "user:\n「Pythonで学ぶマクロ経済学入門」、第82回を始めましょう。まず\n「“税は財源”ではないなら、なぜ税金は必要なのか？ ― 富裕層課税とインフレの本当の関係 : Pythonで学ぶ マクロ経済学入門 (81)」 \nhttps://qiita.com/mask...",
-      "published": "2026-05-20T15:02:03+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Web版ChatGPTのSkillでExcelフォーマットを守らせるまでにやったこと",
-      "link": "https://qiita.com/taroh_7/items/20e44bc1e61c2ff1066d",
-      "summary": "この記事は Zenn でも公開しています。\n\nはじめに\nWeb版ChatGPTのSkillで、複数サイトを比較し、決まったフォーマットのExcel評価表を出力する仕組みを作っていました。\n要件だけ見ると、そこまで難しくなさそうに見えます。\n\nURLをいくつか入力する\nサ...",
-      "published": "2026-05-20T14:54:24+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "Web版ChatGPTのSkillでExcelフォーマットを守らせるまでにやったこと",
@@ -303,15 +357,6 @@
       "link": "https://zenn.dev/dely_jp/articles/terraform-ephemeral-write-only-secrets",
       "summary": "はじめに\nクラシル社でSREをしているKaitoです。\n弊社では開発環境を含む全ての環境でIaC (Terraform) を採用しており、秘密情報 (Secrets Manager, SSM Parameter Store など) については SOPS × KMS で管理しています。\n従来の手法では、以下のようにリソースを設定することになります。\ndata \"sops_file\" \"app\" {",
       "published": "2026-05-20T09:00:00+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "tfstateに平文を残さずに秘密情報を管理する",
-      "link": "https://zenn.dev/dely_jp/articles/terraform-ephemeral-write-only-secrets",
-      "summary": "はじめに\nクラシル社でSREをしているKaitoです。\n弊社では開発環境を含む全ての環境でIaC (Terraform) を採用しており、秘密情報 (Secrets Manager, SSM Parameter Store など) については SOPS × KMS で管理しています。\n従来の手法では、以下のようにリソースを設定することになります。\ndata \"sops_file\" \"app\" {",
-      "published": "2026-05-20T09:00:00+00:00",
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
@@ -342,15 +387,6 @@
       "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "Amazon Quick Desktop をインストールして SPReAD 研究計画調書作成支援 Skill を起動する",
-      "link": "https://zenn.dev/aws_japan/articles/f035e40e01444e",
-      "summary": "はじめに\nAmazon Quick Desktop は、AWS が提供する AI アシスタント「Amazon Quick」のデスクトップ版アプリケーションです。ローカルファイルへの直接アクセス、MCP サーバー連携、スケジューリングタスク設定など、デスクトップならではの機能を備えています。AWS アカウント不要で、無償で利用を開始いただくことができます。\nQuick Desktop の中でも注目し",
-      "published": "2026-05-20T07:48:04+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "Google「25年で最大の刷新」　AI検索、新モデルで“OpenAI対抗”鮮明に【発表まとめ】",
@@ -398,15 +434,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "PrivateLink / VPC Peering / Transit Gatewayの使い分け",
-      "link": "https://zenn.dev/canpapa/articles/c61cab8b27c76d",
-      "summary": "はじめに：なぜ「接続方式の選定」が思想になるのか\nAWS における接続方式の選定は、単なる技術的な比較ではなく“設計思想そのもの”を映し出す判断です。\nVPC や CIDR、接続方式は一度決めると長期間残り、アプリケーションより寿命が長く、後からの変更は大きなコストを伴います。\nだからこそ、セキュリティをどこまで厳密にするか、運用をどこまで中央化するか、将来の拡張をどう見据えるかといった思想が選択",
-      "published": "2026-05-20T05:50:32+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "LLM解説シリーズ：Transformerの基本構造をAttention論文から読む",
       "link": "https://zenn.dev/kas_blog/articles/20260509-llm-05-transformer",
       "summary": "はじめに\nこの記事は、以下の論文を読んだ技術メモです。\n\n論文タイトル: Attention Is All You Need\n論文リンク: https://arxiv.org/abs/1706.03762\n\n著者: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Luk",
@@ -414,15 +441,6 @@
       "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "AIコーディングエージェントの能力を拡張する「Agent Plugins for AWS」を試してみた",
-      "link": "https://zenn.dev/kameoncloud/articles/34545379bf785c",
-      "summary": "https://serverless.co.jp/blog/v31ikmkbr/\nに投稿した記事の微修正版です。\n今日は Agent Plugins for AWS をやっていきます。\n\n Agent Plugins for AWS とは\nAWSが2026年2月、AIコーディングエージェントの能力を拡張する新しいオープンソースツールとして発表したのが「Agent Plugins for AWS」で",
-      "published": "2026-05-20T05:31:00+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "Linuxコマンド基礎〜インフラ知識０からAWSデプロイ学習記録〜",
@@ -486,6 +504,15 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "GCPで始めるデータエンジニアリング入門①：生データをGCSで受け取ってプロファイリングする",
+      "link": "https://zenn.dev/gixo/articles/gcp-de-intro-01-gcs-profiling",
+      "summary": "はじめに\n「データエンジニアって、実際何をしてるんですか？」\n面接でよく聞かれる質問です。「データ処理基盤を構築しています」とか「データパイプラインを作っています」など色々説明させていただくのですが、具体的にどういう作業なのかはなかなかイメージしにくいと思います。\nこのシリーズでは、Google Cloud（GCP）を使って、公開情報である実際の小売業の売上データを処理するパイプラインを非常に単純",
+      "published": "2026-05-20T00:30:00+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "「Gemini 3.5」登場　軽量モデルは一部3.1 Pro超え、高性能モデルは6月公開予定",
@@ -659,15 +686,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "日立、Anthropicと提携　グループ29万人に「Claude」などAI導入　社会インフラ分野にも展開へ",
-      "link": "https://www.itmedia.co.jp/news/articles/2605/19/news120.html",
-      "summary": "日立製作所と米Anthropicが戦略的パートナーシップを締結した。Anthropicの生成AIサービス「Claude」など先進AIを日立グループ約29万人の全ビジネスプロセスに導入するほか、同社の社会インフラ向けソリューション群「HMAX by Hitachi」（HMAX）にも展開する。Anthropicを巡っては、4月にNECとの協業を発表。国内ITとの提携を進めている。",
-      "published": "2026-05-19T12:30:00+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "# LLM / AIエージェント時代の安全設計：確率的推論と決定論的ガードレールの境界",
       "link": "https://zenn.dev/segawa4321/articles/b88eef1037f56a",
       "summary": "はじめに\nLLMやAIエージェントを実運用する際、単にモデル精度や推論速度だけを見ていては不十分です。\n現代のAIシステムでは、LLM本体に加えて、KV Cache、Vector DB、Semantic Router、Orchestrator、Speculative Decoding、Runtime Monitoring、eBPF、TEE、IAM、Audit Log など、複数のレイヤーが連携して",
@@ -702,15 +720,6 @@
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "表形式データ拡張手法：ADASYN",
-      "link": "https://zenn.dev/haruto_big6/articles/eedc65b02b2c96",
-      "summary": "基本情報\nSMOTEの記事で説明した通り，幅広い分野で使われる表形式データにはクラス不均衡という大きな課題があります．それを解決するために使用されるのが表形式データ拡張であり，その代表格がSMOTEです．\nしかし，SMOTEには多数クラスデータ分布を無視しているなどの欠点があるため，それを改善するために様々な手法が提案されています．その1つでSMOTE変種の代表格である手法が今回紹介するAdapt",
-      "published": "2026-05-19T08:18:14+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "May 19, 2026",
@@ -888,15 +897,6 @@
       "link": "https://zenn.dev/pyanoki/articles/a922e2296fa6e5",
       "summary": "Flask × Firestore × Cloud Run を使って、\n実際に本番環境へデプロイするところまで進めた記録です。\n汎用AI（Claude、Gemini）を使いながら開発した中で、\nSDK差異・本番503・ローカルエラーなど、\nいくつかの問題をどう突破したかを書いています。\nお見苦しい点がありましたらご容赦くださいm(__)m　何かの参考になればうれしいです。\n\n\n 今回やったこと",
       "published": "2026-05-18T04:49:05+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "BigQuery Data Clean Rooms：セキュアな企業間データ連携と活用",
-      "link": "https://zenn.dev/e_agency/articles/05b8cdcd0fc5ca",
-      "summary": "はじめに\n近年、「自社データと他社データを掛け合わせて顧客の解像度を上げたい」というニーズを持つ企業が増加しています。しかし、これまでのデータ連携には以下のような高いハードルがありました。\n\n顧客の個人情報（生データ）を外部企業にそのまま渡すことはできない。\nデータの受け渡し（ファイル転送など）による情報漏洩や管理の形骸化リスクがある。\n安全に「集計結果」だけを共有したいが、独自のシステム開発に膨",
-      "published": "2026-05-18T04:34:49+00:00",
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
