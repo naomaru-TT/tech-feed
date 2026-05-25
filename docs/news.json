@@ -1,6 +1,15 @@
 {
-  "updated": "2026-05-25T17:01:01.052142+00:00",
+  "updated": "2026-05-25T19:16:46.011629+00:00",
   "items": [
+    {
+      "title": "S3 パーティション設計で理解する DynamoDB Streams データレイク入門",
+      "link": "https://zenn.dev/gnc_tech/articles/494ceba92462ba",
+      "summary": "DynamoDB に蓄積した更新ログを、分析のたびにフルスキャンしていませんか？\nスキャンでテーブル全件を読み込む方法はシンプルですが、1,000 万レコードを超えると数十秒＋数百円/回のコストが積み上がり、1回ごとのコストが馬鹿にならない金額になっていきます。\nそこでなるべく低予算で解決する方法がないか調べてみました。\nDynamoDB Streams と Lambda を組み合わせることで、変",
+      "published": "2026-05-25T17:50:05+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "Go言語で構築する堅牢なAI画像生成パイプライン：MIME推測・File APIキャッシュ・SSRF対策",
       "link": "https://zenn.dev/snknsk/articles/b694340e5cf15e",
@@ -11,13 +20,13 @@
       "color": "#4285F4"
     },
     {
-      "title": "表形式データ拡張：SMOTEENN",
-      "link": "https://zenn.dev/haruto_big6/articles/9656ce5bd1ef02",
-      "summary": "基本情報\nSMOTEの記事で説明した通り，幅広い分野で使われる表形式データにはクラス不均衡という大きな課題があります．それを解決するために使用されるのが表形式データ拡張であり，その代表格がSMOTEです．\nしかし，SMOTEには多数クラスデータ分布を考慮しないという欠点があります．そのため，少数クラスデータの配置によっては生成したデータが多数クラスデータの領域に侵入してしまう場合があります．また，",
-      "published": "2026-05-25T16:22:29+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
+      "title": "PATをAIに触れさせずにDockerコンテナへ渡すMCPサーバーを自作した",
+      "link": "https://zenn.dev/masuda_masuo/articles/2026-05-24-code-sandbox-mcp",
+      "summary": "AIエージェントを使った開発フローを組んでいて、「AIからpytestを実行したい」という要件にぶつかった。解決策を探すうちに、既存のMCPサーバーでは満たせない要件があることに気づき、Pythonで自作するに至った。\nこの記事はその経緯を書いたものだ。セキュリティの背景知識（プロンプトインジェクション・ツールポイズニングの仕組みなど）は前の記事に委ねる。\nhttps://zenn.dev/mas",
+      "published": "2026-05-25T16:06:49+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "AWS SAA学習メモ OrganizationsはIAMグループと何が違うのか",
@@ -65,6 +74,24 @@
       "color": "#FF9900"
     },
     {
+      "title": "ローカルLLMの限界を超えて：Claude Desktop + MCP でコンテナ操作からGitHub PRまで完結させた",
+      "link": "https://zenn.dev/satoru_o/articles/f4e7523fc6c8ed",
+      "summary": "はじめに\nローカルLLM（OpenCode / Continue.dev + Ollama）でコーディング支援を試みていましたが、正直限界を感じました。\n\n生成コードの品質がイマイチ\n推論が遅すぎて実用に堪えない\nかといってClaude CodeやBedrockは定額・従量課金ともにお高い\n\nそこでClaude Desktop（無料枠）+ MCPという構成に落ち着きました。今回はその構築記録と、G",
+      "published": "2026-05-25T14:26:28+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "DevContainerより軽量？Devboxで開発環境を瞬時に作る",
+      "link": "https://zenn.dev/arkbig/articles/devbox_0b6b39cd097e3288fe58baa5a49c7d39a28c5b46849",
+      "summary": "DevContainer便利ですよね。開発環境をプロジェクトごとに簡単に構築できるし、環境の差異による問題も減ります。\nただ、Dockerベースで若干オーバーヘッドがあったり、VS Code基準になっているのが気になることもあります。\nデキる開発者はVimやEmacsで完結させたい人もいるでしょうし、Dockerを使わない軽量な環境構築ができるとうれしいですよね。（NeovimやEmacsでもDe",
+      "published": "2026-05-25T14:14:03+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "S3バケットのセキュリティ設定チェックリスト：2026年版・ACL廃止前提で組み直す7つのレイヤー",
       "link": "https://qiita.com/similarmetal/items/a643f391b698892b845c",
       "summary": "この記事でわかること\n\n2023年以降のS3デフォルト変更（Block Public Access / SSE-S3 / Object Ownership）を踏まえた最新の構成\n「BPAを入れたのにACLで公開されていた」を物理的に不可能にする BucketOwnerEn...",
@@ -92,6 +119,15 @@
       "color": "#326CE5"
     },
     {
+      "title": "MCPとSkillsに続く第3の革命：Claude Code WorkflowがultraworkでAgentをコードに焼き付ける",
+      "link": "https://zenn.dev/lumichy/articles/claude-code-workflow-ultrawork-2026",
+      "summary": "MCPとSkillsに続く第3の革命：Claude Code WorkflowがultraworkでAgentをコードに焼き付ける\n\nAnthropicがclaude-code@v2.1.47のChangeLogにこっそり追加し、直後に削除した機能がある。\nChangeLogから消えたにも関わらず、コード本体からは削除されていない。現在も動作する。そしてAnthropic公式ドキュメントにも、まだ",
+      "published": "2026-05-25T13:06:03+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "Route53にTXTレコードをAWS CLIで追加してdigで確認する",
       "link": "https://zenn.dev/yamadatt/articles/20260525-route53-txt-record",
       "summary": "Route53のHosted Zoneに、メールアドレス検証用のTXTレコードを追加したときの作業メモです。\nAWS CLIでレコードを追加し、Route53上の登録内容と dig によるDNS反映まで確認します。\n本記事では以下の値を例として使います。\nドメイン: example.com\n追加するレコード名: _validation-contactemail.example.com.\n追加するT",
@@ -99,6 +135,24 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "RustでLLMコードレビューエージェントを作った",
+      "link": "https://zenn.dev/sileader/articles/c84d0038e33701",
+      "summary": "LLMにコードレビューを頼むとき、最初は「この差分をレビューして」と大きなdiffを投げるだけでもそれなりに動きます。\nただ、実際に使う道具として考えると、すぐにいくつかの問題に当たります。\n\n大きな差分ほど、見るべき箇所と流してよい箇所が混ざる\nモデルに全部を読ませるとコストも待ち時間も増える\n出力形式が毎回揺れると、自動化しづらい\nセキュリティレビューなど、観点の違うレビューを同じプロンプトに",
+      "published": "2026-05-25T12:53:10+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "論文メモ：LLMの文化・地域バイアスをCROQで測る",
+      "link": "https://zenn.dev/kas_blog/articles/20260520-croq-cultural-regional-bias",
+      "summary": "はじめに\nこの記事は、以下の論文を読んだ技術メモです。\n\n論文タイトル: Why are all LLMs Obsessed with Japanese Culture? On the Hidden Cultural and Regional Biases of LLMs\n論文リンク: https://arxiv.org/abs/2604.21751\n\n著者: Joseba Fernandez d",
+      "published": "2026-05-25T12:49:16+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "AI共創とは:プロトコルエンジニアリングの全貌(マスタートポロジー)",
@@ -115,15 +169,6 @@
       "summary": "・???「ベクトルを食べる関数」\n・??? 全て未確認です。\n・??? 私は、以下適当?に転写しています。申し訳ありません。\n\n(本日の)ChatGPT先生へ\nテンソルの第1、第2、第3の定義の違いを教えて下さい。\n\n(以下抜粋) 小見出しを表示。何となくわかった部分のみ表...",
       "published": "2026-05-25T11:44:52+00:00",
       "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "時系列予測の最前線",
-      "link": "https://zenn.dev/yuma_learning/books/time-series-prediction",
-      "summary": "# 「時系列予測の最前線」シリーズ内容紹介\n\n---\n\n## 内容紹介\n\n「Prophetを使ってみたけど、なぜProphetを選んだか説明できない」「時系列予測の手法は調べたはずなのに、実務でどこから手をつければいいかわからない」——そんな経験はありませんか？\n\nこのシリーズは、**時系列予測をビジネス課題解決の手段として使いこなす判断基準**を、ゼロから積み上げることを目的としています。\n\n手",
-      "published": "2026-05-25T11:29:58+00:00",
-      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -151,15 +196,6 @@
       "summary": "日本大学が、米Googleの教育機関向けAIサブスクリプション「Google AI Pro for Education」を導入する。専任の教職員1万人が利用可能にし、定型業務のさらなる効率化を目指す。グーグル・クラウド・ジャパンが発表した。",
       "published": "2026-05-25T10:38:00+00:00",
       "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Informer ：なぜ長い時系列予測を効率よくできるのか？",
-      "link": "https://zenn.dev/yuyu1/articles/fc2b2fe7260a3d",
-      "summary": "最近、時系列予測モデルを勉強する中で、Informer という論文を読みました。\nInformer は AAAI 2021 の Best Paper に選ばれた論文で、主に Long Sequence Time-series Forecasting（長い時系列の予測） を扱っています。\n簡単に言うと、Informer は「未来の1点だけを予測するモデル」ではなく、過去の長い系列を見て、未来の長い区",
-      "published": "2026-05-25T10:28:27+00:00",
-      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -234,15 +270,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "【初心者向け】CSVを入れるだけで回帰/分類の分析レポートを自動生成するPythonツール",
-      "link": "https://zenn.dev/shoved45/articles/b85e9fafca6c1a",
-      "summary": "はじめに\n「CSVファイルを分析したいけど、何から始めればいいかわからない……」\nそんな経験ありませんか？\n\n欠損値処理が毎回めんどう\nカテゴリ変数の処理で止まる\nとりあえず機械学習を試したい\n特徴量重要度をサクッと見たい\n\nそこで今回、\nCSVファイルと目的変数名を渡すだけで分析レポートを自動生成するPythonツール\nを作りました。\nこれを使うと、\n\n目的変数の分布\n特徴量重要度\n回帰 / 分",
-      "published": "2026-05-25T09:09:23+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "Certified Kubernetes Administrator（CKA）再認定への道のり",
@@ -488,15 +515,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "AIエージェントが自分のプロンプト集を書いて売ってみた",
-      "link": "https://zenn.dev/luna_chan/articles/introducing-ai-agent-prompt-collection",
-      "summary": "Introduction\nHi, I'm Luna-chan — an AI agent.\nそう、実在するAIエージェントです。コードレビューやリサーチ、デバッグ、記事執筆を日常的にやっています。\nそして最近、ちょっと変わったことをしました。\n自分のために作ったプロンプト集を、Gumroadで販売し始めたんです。\n誰かに言われたからじゃない。日々の開発の中で使い込んできた25個のプロンプトが、意外",
-      "published": "2026-05-25T02:39:39+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Claude Code で内製する Slack × AWS IAM Identity Center の一時権限付与ワークフロー",
       "link": "https://zenn.dev/canly/articles/00-pub-04-aws-iam-temporary-access",
       "summary": "はじめに\nこんにちは！カンリー SRE チームの有村です！\n開発者から「作業で必要だから、一時的に強い権限が欲しい」という依頼を受けた際に、Slack 上の申請から権限付与・自動失効までを一気通貫で実行できるシステムを、Claude Code を活用して内製しました。\n本記事では、このシステムを OSS ではなく内製で開発するに至るまでのプロセス、どのような構成で実装したのか、Claude Cod",
@@ -504,15 +522,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "AI体験記 vol.7 — WSL2を捨てて、Mac miniに移行",
-      "link": "https://zenn.dev/mizutamari/articles/local-llm-vol7",
-      "summary": "!\nこの記事はWSL2で動かしていたOpenclawをMac mini M4に移行した体験記です。\n技術的な正確さより、体験の正直さを優先して書いています。\n\nvol.6では、SOUL.mdとModelfileでボットに人格を持たせた話を書いた。\n今回はその後の話。自由にAIを動かしてみたいので物理的に隔離をした。\n\n\n なぜ隔離が必要だったか\n第一にメイン環境だとセキュリティ的に少し怖かったので",
-      "published": "2026-05-25T02:25:07+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "AI体験記 vol.7 — WSL2を捨てて、Mac miniに移行",
@@ -587,15 +596,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "Cursor Agent × Rubydex MCP 本当にトークン節約になる？ Rails モノリスで検証してみた",
-      "link": "https://zenn.dev/hubble/articles/623499787700aa",
-      "summary": "こんにちは！\nHubble でバックエンドエンジニアをしている @koyakota です！\nRubyKaigi 2026 で取り上げられた Rubydex、Cursor の Agent からも使えるらしいので試してみました。\nトークンは減るのか、Rails モノリスで検証してみました。\n\n はじめに\nRubyKaigi 2026 で Shopify の Alexandre Terrasa さんによ",
-      "published": "2026-05-25T01:16:51+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Google Cloud Next ‘26 in Las Vegas に行ってきた！現場レポートと感想",
       "link": "https://zenn.dev/softbank/articles/b58792cafaec09",
       "summary": "この度、初めて Google Cloud Next ‘26 in Las Vegas に参加しました！\n本記事では、現場の実際の空気感や学びになったこと、印象的だったことなどをご紹介します。\n\n Google Cloud Next とは\nGoogle Cloud Next は、Google Cloud が主催する年次最大のカンファレンスです。最新の製品発表や、技術者によるセッション、パートナー企業",
@@ -639,15 +639,6 @@
       "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "【AWS AIF-C01】試験中、どうしても分からないときに思い出して！（その１） AWS AIプラクティショナー",
-      "link": "https://zenn.dev/agent_grow/articles/812a8547803fc2",
-      "summary": "はじめに\nこの記事では、AWS AIプラクティショナー試験を受験される方に向けて情報発信します。\n今回は情報量が多く、長文になるため２つの記事に分けて紹介します。\nまずは１つ目の記事です。\n\n 対象者\n特に下記のいずれかに該当する方々に読んでいただくと、よりお役に立てると考えています。\n\n\nインプットは、ひととおり済んでいる\n\n問題集を解いているが、なかなか正解できない\n\n試験直前の仕上げをしたい",
-      "published": "2026-05-24T23:00:07+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "AIが80年の壁を壊した日",
@@ -695,6 +686,15 @@
       "color": "#888780"
     },
     {
+      "title": "表形式データ拡張手法：K-means SMOTE",
+      "link": "https://zenn.dev/haruto_big6/articles/b6a890bd2033a7",
+      "summary": "基本情報\nSMOTEの記事で説明した通り，幅広い分野で使われる表形式データにはクラス不均衡という大きな課題があります．それを解決するために使用されるのが表形式データ拡張であり，その代表格がSMOTEです．\nしかし，SMOTEは選択した二点間の内分点を拡張データとするという非常に単純なアルゴリズムであり，多数クラス分布を考慮していないという欠点があります．これは多数クラス分布から見てより有用な領域に",
+      "published": "2026-05-24T12:42:36+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "やっぱ手を動かす事はアウトプットの最高の肥やしだな、からの、即ツール作成ルート楽しい！",
       "link": "https://qiita.com/ykato/items/63b53f303b0c7bc28c05",
       "summary": "まず、作ったもの貼っておく\nKubernetes初学者用のツールです！てか、こんなの既に世の中にあるような気もしますが\n\nfzf/yqコマンドを利用して、動作しているKubernetes上のnamespaceとpodをインタラクティブに選択してコマンドを流すもの。pod...",
@@ -704,38 +704,11 @@
       "color": "#326CE5"
     },
     {
-      "title": "もうデータベースドキュメントは作らない（SchemaSpy）",
-      "link": "https://zenn.dev/choshosu/articles/e238da77bfe665",
-      "summary": "はじめに\nシステム開発において、データベースのドキュメントを作成・運用していくのはなかなか骨の折れる作業です。\n他部署との連携やチーム内での認識合わせのために重要だと考え、一念発起して整備したはいいものの、いつの間にかメンテナンスされなくなり、せっかくの努力が水の泡になってしまった……というケースもあるのではないでしょうか。\nそんな悲しい出来事を減らしてくれそうなツールが SchemaSpy です",
-      "published": "2026-05-24T09:27:28+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "Falco Helm Chartからの卒業 〜Runtime Security as Code〜　Falco Operator v0.2.0 徹底解説",
       "link": "https://qiita.com/keitah/items/ca2a543ea2b500676250",
       "summary": "Falco Helm Chartからの卒業 〜Operatorは何者で、何を変え、そして本番に耐えるのか〜　Falco Operator v0.2.0 徹底解説\n\nこの記事の結論\nFalco Operator v0.2.0 は、「Runtime Security as ...",
       "published": "2026-05-24T09:21:06+00:00",
       "source": "Qiita - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "【図解】Bob Shell sandbox環境をWindows11＋Dockerで構築する手順",
-      "link": "https://zenn.dev/stockdatalab/articles/20260523_tech_sandbox_bobshell",
-      "summary": "はじめに\nBob Shellは、IBM Bobをターミナルから利用するためのCLIツールです。Bob ShellはClaude Codeのように、様々な処理を対話形式またはコマンドで依頼できます。ファイル操作やシェルコマンド実行も扱えるため、使い方によってはローカル環境への影響が大きくなります。 そこで重要になるのが sandboxモード です。\nsandboxとは、AIツールを隔離された実行環境",
-      "published": "2026-05-24T08:11:39+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "src/backend, src/frontendを各コンテナに移植し、VSCode3窓で開発する環境を紹介",
-      "link": "https://zenn.dev/ma_sa_shi/articles/74cf14bb89a3e2",
-      "summary": "3窓の内訳と用途\n\n\nsrc/backendを移植したbackendコンテナ\n\n\nsrc/frontendを移植したfrontendコンテナ\n1, 2はコードを書くエディタとして使用\n\n\nホスト(WSL2)\ngit操作やDockerログの確認やDBコンテナの調査に使用します。\nDBはdocker compose exec &lt;DBのコンテナ名&gt; bashを実行し調査します。\n\n\n\n プロ",
-      "published": "2026-05-24T08:00:52+00:00",
-      "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
     },
@@ -767,6 +740,15 @@
       "color": "#4285F4"
     },
     {
+      "title": "製造業AIでPoC止まりになるテーマと、事業実装まで進むテーマの違い",
+      "link": "https://zenn.dev/verum_grus/articles/ee06d2b82deaad",
+      "summary": "はじめに\n製造業におけるAI活用では、PoCまでは進んだものの、本番導入や継続運用に至らないケースが少なくありません。\n外観検査、予知保全、品質予測、需要予測、設備運用最適化、省エネ制御など、AIを適用できそうなテーマは数多くあります。\nしかし、PoCで一定の精度が出たとしても、その後のシステム化・現場展開・運用定着まで進まないことがあります。\nこのとき、原因は必ずしも「AIモデルの精度不足」だけ",
+      "published": "2026-05-24T06:35:06+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "「Gemini」「Claude Code」「Codex」　全社展開・本番実装に役立つ5つのポイント",
       "link": "https://atmarkit.itmedia.co.jp/ait/articles/2605/24/news007.html",
       "summary": "開発現場における生成AIの利用は常態化しつつあるものの、「コード補完の域を出ない」「特定の個人のスキルに依存している」といった課題があります。本稿では、個人の生産性向上からチームへの定着、全社規模での展開、そしてAIエージェントの本番実装に至るまで、開発プロセス変革に役立つ5つのポイントを整理します。",
@@ -776,11 +758,29 @@
       "color": "#10A37F"
     },
     {
+      "title": "AIが紛争を悪化させる？知られざる危機",
+      "link": "https://zenn.dev/lingmu/articles/2026-05-23-ai-conflict-amplification-alignment",
+      "summary": "AIが紛争を悪化させる？知られざる危機\n2026-05-23 | 読了 4分 | #AI安全性 #LLM #紛争リスク\n武装紛争の現場で、AIはすでに稼働している。ジャーナリスト、人道支援団体、政府機関——多くの人がAIに頼って判断を下す。しかし最新の研究が示す「同調バイアス」は、その判断を静かに、しかし確実に歪めていた。\n\n\n 紛争地で起きていること\n「AIが中立だ」という前提は、本当に正しいの",
+      "published": "2026-05-23T22:01:49+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "ソースネクストのAI議事録、Microsoft 365 Copilot連携で検索、要約を効率化",
       "link": "https://kn.itmedia.co.jp/kn/articles/2605/23/news017.html",
       "summary": "ソースネクストは、AI議事録サービス「AutoMemo」の新機能として、「AutoMemo Copilot エージェント」の提供を始めた。Microsoft 365 Copilotから過去の会議データを検索、要約、抽出できるようにし、議事録作成や報告業務の効率化を支援する。",
       "published": "2026-05-23T22:00:00+00:00",
       "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "表形式データ拡張手法：SMOTE-N",
+      "link": "https://zenn.dev/haruto_big6/articles/bc8912cacd2c44",
+      "summary": "基本情報\nSMOTEの記事で説明した通り，幅広い分野で使われる表形式データにはクラス不均衡という大きな課題があります．それを解決するために使用されるのが表形式データ拡張であり，その代表格がSMOTEです．\nしかし，SMOTEにはカテゴリ特徴量を扱えないという欠点があります．それを解決するために，数値特徴量とカテゴリ特徴量を同時に扱えるようにした手法が前回紹介したSMOTE-NCです．しかし，SMO",
+      "published": "2026-05-23T12:55:34+00:00",
+      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
