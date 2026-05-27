@@ -1,6 +1,24 @@
 {
-  "updated": "2026-05-27T17:53:28.069549+00:00",
+  "updated": "2026-05-27T20:02:44.123514+00:00",
   "items": [
+    {
+      "title": "LiteLLMでLLM利用を管理してみる：Claude Code・Claude・Amazon Bedrockを組織で使うための実践メモ",
+      "link": "https://qiita.com/ziffy/items/6406a85acf99c1c8329f",
+      "summary": "はじめに\n前回までの記事では、Amazon BedrockでClaudeを安全に使うための統制設計と、Claude CodeをAmazon Bedrock経由で使う実践について整理しました。\n今回はその続きとして、LiteLLMを使ったLLM利用管理 について書いてみます...",
+      "published": "2026-05-27T17:56:49+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Vector 検索の chunking strategy、どれをどう選ぶか",
+      "link": "https://zenn.dev/yasunami_daichi/articles/vector-chunking-strategy",
+      "summary": "TL;DR\n\nchunking は RAG の検索精度を一番下流で律速する工程。embedding モデルや vector DB を変える前に、まず chunk の切り方を疑う\nマネージド（Bedrock）の既定は Default chunking（文境界を尊重した fixed-size、約300トークン）。自前で組むなら Recursive（構造優先の再帰分割）+ 10〜15% オーバーラップ",
+      "published": "2026-05-27T15:57:33+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "AWS、インストール不要でWebブラウザから使えるコーディングAIエージェント「Kiro Web」発表",
       "link": "https://www.publickey1.jp/blog/26/awswebaikiro_web.html",
@@ -47,6 +65,24 @@
       "color": "#10A37F"
     },
     {
+      "title": "自律AIエージェントの並列実装設計 — 並列度を上げて壊れた話と回避策",
+      "link": "https://zenn.dev/yureki/articles/parallel-agent-design-tradeoff",
+      "summary": "対象と前提\n\nClaude Code でエージェントを組んだ経験があり、単一エージェント運用から並列実装に移行を検討している人\n想定環境: Claude Code(MCP 連携あり)、長時間稼働(数時間〜24 時間)を前提とした自律エージェント\n完全自律実装システムを 24 時間動かす中で、並列度設計でハマった話と回避策を共有する\n\n\n TL;DR\n\n並列度を 4 → 8 に上げた途端、コンテキス",
+      "published": "2026-05-27T14:14:51+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "24時間稼働AIエージェントの状態永続化 — 3層メモリの設計判断",
+      "link": "https://zenn.dev/yureki/articles/agent-state-3layer-design",
+      "summary": "対象と前提\n\nClaude Code やそれに類する LLM エージェントを 長期間連続稼働 させたい設計者\nセッションが切れた瞬間に文脈が消えて困っている人\n「とりあえず CLAUDE.md に全部書く」で運用が破綻し始めた人\n\n前提:1 セッション完結の作業ではなく、複数セッションをまたいで同じプロジェクトを進行させる運用を想定しています。自分のところでは Claude Code を中心にした",
+      "published": "2026-05-27T14:03:04+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "Bedrockのモデル料金を即日でみたいんだ【Bedrock Agentcore】",
       "link": "https://qiita.com/toshi-arch/items/6a0597e9c3935b6ece9e",
       "summary": "はじめに\nみなさんはBedrockを使っていて、料金確認を翌日まで待った経験はあるだろうか。\n自分はある。AIエージェントにブラウザツールを持たせて動かしていたら、トークン数が爆発していた。気づいたのは翌日のAWS請求ページを見てから...。\n「もっと早く知れたら止められ...",
@@ -65,15 +101,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "【EC2】プライベートサブネットで pip3 install 時に Network is unreachable が発生する",
-      "link": "https://qiita.com/ANKM0/items/8e7e34b8575ec8249211",
-      "summary": "この記事は過去のエラー解決メモを整理したものです。\n現在の推奨手順とは異なる可能性があります。\n公式ドキュメントを確認して最新情報と差分がないかを確認してください。\n\n事象\nプライベートサブネットでモジュールを入れようとして、pip3 install  とすると、以...",
-      "published": "2026-05-27T13:34:45+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "AI食事記録iOSアプリ「パシャカロ」をSwiftUI + AWS CDKで作った",
       "link": "https://zenn.dev/hs7/articles/d1398f058b7e47",
       "summary": "はじめに\n個人開発で、食事写真からカロリー記録を作る iOS アプリ「パシャカロ」を作りました。\nhttps://apps.apple.com/jp/app/パシャカロ/id6770211217\nこの記事では、今回のアプリで AI(codex を使いました)を使った開発で工夫した点をまとめます。\n\nmono repo で iOSアプリ / backend / 仕様書をまとめた\n\nこれにより iOS",
@@ -81,6 +108,15 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "格安AI＋人間は、米ハイエンドAIだけより安いのか",
+      "link": "https://zenn.dev/sonder01/articles/cheap-ai-human-vs-frontier-labs",
+      "summary": "同じ作業をさせるなら、どちらが安いのか。\n\n米国 frontier モデルにそのまま投げる\nDeepSeek のような低価格モデルを使い、人間が判断・修正・検収する\n\nSignalBloom AI の記事「Outsourcing plus LocalAI will soon become more economical vs Frontier labs」は、この問いをかなり雑に、しかし重要な方向に",
+      "published": "2026-05-27T13:12:15+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "AWS SAA - bastion host（踏み台サーバー）",
@@ -110,6 +146,42 @@
       "color": "#326CE5"
     },
     {
+      "title": "AIが、開発者に聞く ── R.E.V.I.S. #2 「指揮官が立つ日」",
+      "link": "https://zenn.dev/enigma96y/articles/c291f50e283a73",
+      "summary": "コードを渡されて Claude が質問し、開発者本人（eNIGM4 / 株式会社メイビス）が答えていく連載の第2回です。前回（#1）は、外部に頼らず素の推論を流し、その配線を通電させて足場を固めた v0.0.1〜v0.0.2 を読みました。今回は v0.0.3 ── 一台で喋るだけだったところに、初めて「指揮官」が立ちます。\n\nインタビュアー・ルール\n\n\n渡されたコードそのものに質問する。 バージ",
+      "published": "2026-05-27T12:01:05+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "ハーネスエンジニアなら知っておきたい Cowork でぶっ壊れる Claude Code Plugin の罠",
+      "link": "https://zenn.dev/storehero/articles/2bc58c12090f72",
+      "summary": "ハーネスエンジニアなら知っておきたい Claude Code Plugin の落とし穴（Cowork 編）\nこんにちは、StoreHero で CPO をしている永田です。\n先日、Claude Code CLI で plugin を組むときの非対称な挙動を 6 つ紹介しました。\nhttps://zenn.dev/storehero/articles/20ed4b2e8772b3\n本稿はその続編です",
+      "published": "2026-05-27T12:00:06+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AIはあなたに賛成しすぎる ― 「反論させるAI」で思考の盲点を消す実装入門",
+      "link": "https://zenn.dev/akira_papa/articles/f42031e278f81c",
+      "summary": "TL;DR\n\nAIはあなたに賛成しがちです。これは性格じゃなくて、作られ方の都合（おべっか＝sycophancy）なんです\n賛成されると気持ちいい。でも、気持ちいいだけで判断の質は1ミリも上がってないってこと、ありますよね\nそこで提案したいのが、AIを「賛成役」じゃなくて**「反論役」**として使うこと\nこの記事では、反論を引き出すプロンプト3本と、それを仕組みにするコード3本（プロンプト組み立て",
+      "published": "2026-05-27T11:48:56+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "自社AIエージェントを実装するのは、結局顧客のどんな問題を解決するためなのか（読書メモ）",
+      "link": "https://zenn.dev/tatwatan/articles/1a262a749869c5",
+      "summary": "こんにちは、tatsumiです!\n今回は、今絶賛読書中の、LLMの原理、RAG・エージェント開発から読み解く コンテキストエンジニアリング | 技術評論社についての、読書メモ兼、得た知見の共有という形で、記事を書かせていただきます。（今後も、どんどん加筆していくと思います。）\nhttps://gihyo.jp/book/2026/978-4-297-15419-6\n\n チャットUIのLLMアプリケ",
+      "published": "2026-05-27T11:13:16+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "需要予測における打ち切り問題 ⑤実装編・新商品 ＋ 発展編・廃盤商品 ＋ シリーズ総括",
       "link": "https://zenn.dev/salt2/articles/b20f76df-article",
       "summary": "!\n3行まとめ\n\nシリーズ最終回は、新商品（履歴なしの難敵） と 廃盤商品（価格・心理・在庫が絡む発展的話題） という、既存商品より一段難しい問題を扱います。\n新商品では「類似商品転移 × 打ち切り補正」の 2 段階法を Python で実装し、さらに PyTorch の Tobit[1] 損失関数を紹介します。\n廃盤商品は価格・在庫・心理が絡み合い、現時点で成熟した解法はありません。生存分析と因",
@@ -123,9 +195,27 @@
       "link": "https://zenn.dev/msworks/articles/visionocr-cloud-vision-vs-gemini",
       "summary": "はじめに\n私は画面のスクリーンショットや紙の研修資料のPDFファイルを文字起こしする際に、自作のOCRツール VisionOCR を日常的に使っています。\nマルチモーダルLLMの Gemini でPDFファイルのOCRを試みましたがあまり思ったよりもうまくいかず、結果として Google Cloud Vision API を使うことにしました。\nこの記事は、LLMのOCRを試したけれど思ったような",
       "published": "2026-05-27T10:47:18+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "GeminiのOCRで文章が丸ごと抜ける — 今でもCloud Vision APIを使う理由と使い分け」",
+      "link": "https://zenn.dev/msworks/articles/visionocr-cloud-vision-vs-gemini",
+      "summary": "はじめに\n私は画面のスクリーンショットや紙の研修資料のPDFファイルを文字起こしする際に、自作のOCRツール VisionOCR を日常的に使っています。\nマルチモーダルLLMの Gemini でPDFファイルのOCRを試みましたがあまり思ったよりもうまくいかず、結果として Google Cloud Vision API を使うことにしました。\nこの記事は、LLMのOCRを試したけれど思ったような",
+      "published": "2026-05-27T10:47:18+00:00",
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
+    },
+    {
+      "title": "RAGのコスト問題を1/15に削る ― 「毎回検索しない」アーキテクチャの設計",
+      "link": "https://zenn.dev/shintaroamaike/articles/ecaaf3b4a8a77d",
+      "summary": "はじめに\nAIエージェント・RAGアプリケーションが急速に普及する一方で、運用フェーズに入ったチームから共通して聞こえてくるのが コストとレイテンシの問題 です。\n「クエリごとに retrieve → 全結果をコンテキストに投入 → LLM で生成」というナイーブな構成は、トークン課金とレスポンス時間が線形に膨らみます。月数万クエリまでは耐えられても、10万、100万と増えていくと無視できない金額",
+      "published": "2026-05-27T10:32:18+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "X自動投稿AIエージェントを作った — Research Agent → Claude → HITL承認 → 投稿の全体設計",
@@ -328,7 +418,7 @@
     {
       "title": "May 27, 2026",
       "link": "https://docs.cloud.google.com/release-notes#May_27_2026",
-      "summary": "Oracle Database@Google Cloud\nFeature\nFor Exadata Database Service on Exascale infrastructure, Base Database Service, and Goldengate, Oracle Database@Google Cloud adds\nthe following regions and zones:",
+      "summary": "App Engine standard environment Go\nFeature\nEnable only needed legacy bundled services using the app_engine_bundled_services field for improved security and maintainability of your applications (Previe",
       "published": "2026-05-27T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
@@ -360,15 +450,6 @@
       "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "AI時代の新Vibesカタログ — Vibe Coding、Workslop、Slopsquattingほか53語",
-      "link": "https://zenn.dev/inspector/articles/ai-era-new-vibes-catalog",
-      "summary": "ChatGPT公開以降にAI文脈で生まれた英語の新語・新概念を集めた。\n\n 人の働き方\n\n Vibe Coding / バイブコーディング\nアンドレイ・カルパシー(Andrej Karpathy)が2025-02-02のXで命名した[1]。「コードの存在を忘れて vibes に身を委ね、指数関数を信じる新しいコーディング」と定義。Cursor Composer に音声で意図を投げ、生成された差分を",
-      "published": "2026-05-27T05:52:03+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "AWS Advanced JDBC Wrapper による JDBC クエリキャッシュの自動化",
@@ -443,15 +524,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "Claude CodeのAskUserQuestionツールを活用したスキル作成",
-      "link": "https://zenn.dev/ekispert_api/articles/ask-user-question",
-      "summary": "はじめに\n最近、Claude CodeのAskUserQuestionツールを使って、「ユーザーストーリーを対話形式で作成するスキルを作ってみました。\n実際に使ってみると、「何件作りますか？」「バグ修正ですか？機能追加ですか？」といった質問をボタン選択式で次々と提示してくれて、テキストをあれこれ入力しなくても、テンポよくユーザーストーリーが仕上がるようになりました。\n対話形式で情報を収集しながら成",
-      "published": "2026-05-27T03:24:50+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Midnight AI Groove 26-05-14",
       "link": "https://qiita.com/masykot582/items/36d5468cf5e1d6c7f888",
       "summary": "――――――――――\nMidnight AI Groove\nDJレン × DJミオ\n――――――――――\nDJレン:\nこんばんは、「Midnight AI Groove」の時間です。DJレンです。\nDJミオ:\nDJミオです。今夜はAINewsの2026年5月14日号、...",
@@ -461,29 +533,11 @@
       "color": "#10A37F"
     },
     {
-      "title": "【実験レポート】Difyで構築したLLMワークフローにおける自己批評レイヤーの捏造とFDEの役割",
-      "link": "https://zenn.dev/ebe_ryuki/articles/35404466195aa5",
-      "summary": "!\n画像は実際の作業画面です。プロンプトのスクリーンショットは**「捏造対策をする前」の版**を意図的に載せています。原因の証拠としてそのまま見せ、修正は後半でdiffで示します。\n\nこの記事は、化学の実験レポートの作法（目的 → 理論 → 結果 → 考察 → 結論）で書いています。「AIを作ってみた」の感想ではなく、仮説を立てて、作って、壊して、観察して、考察した記録です。\n!\n3行サマリ\n\nノ",
-      "published": "2026-05-27T03:00:08+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Notion、新開発基盤をリリース　ナレッジ共有から「AIと協働する基盤」へ",
       "link": "https://kn.itmedia.co.jp/kn/articles/2605/27/news081.html",
       "summary": "Notion Labsは、開発者向け機能群「Notion Developer Platform」を発表した。CLIや実行環境「Workers」、外部エージェント連携APIなどを提供し、NotionでAIエージェントや業務ワークフローを構築できる開発基盤だ。",
       "published": "2026-05-27T02:55:00+00:00",
       "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AIエージェントを本番に出せない本当の理由",
-      "link": "https://zenn.dev/knowledge_graph/articles/kg-agent-production-safety",
-      "summary": "AIエージェントを本番に出せない本当の理由\n\nこの記事は独立して読めます（約8分）\n\n\n\n 問題：「動く」と「出せる」の間にある壁\n「技術的には動くのに、セキュリティレビューで止まった」\n日本のエンジニアと話すと、この話が繰り返し出てきます。PoC環境では問題なく動作する。デモも成功した。しかし本番投入の承認プロセスに入ると、CISO（最高情報セキュリティ責任者）やセキュリティ部門から矢継ぎ早に質",
-      "published": "2026-05-27T02:06:29+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -560,15 +614,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "Gemini 3.5 FlashをAPI直で1週間使い倒した正直レポート——爆速の代償と実開発での地雷",
-      "link": "https://zenn.dev/hiyokoko/articles/6e7ab5d50b0469",
-      "summary": "はじめに\n前回、Gemini 3.5 FlashのRustコードバグ修正検証を書いたところ思いのほか反響があったので、その後1週間API直で個人開発ワークフローに組み込んで使い続けた感想をまとめる。\n前回は「検証」だったが、今回は実開発での話。結論から言うと、使い方次第で化けるが、何も考えずに使うと普通に行き詰まる。\n\n\n 良かった点\n\n シンプルなタスクは正確で爆速\n「このファイルのdockアイ",
-      "published": "2026-05-27T00:00:06+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "GAした Claude Platform on AWS で Terraform PR Bot を作った話",
       "link": "https://zenn.dev/tokium_dev/articles/slack-bot-anthropic-managed-agents",
       "summary": "はじめに\n2026年5月11日、Claude Platform on AWS が GA しました。Anthropic のネイティブ Claude プラットフォームが、AWS アカウント経由でそのまま使えるようになりました。\nせっかくの GA なので、さっそく社内ツールに投入してみることにしました。題材に選んだのは、Terraform で管理している GitHub 組織メンバー追加の自動化です。Sl",
@@ -587,29 +632,11 @@
       "color": "#10A37F"
     },
     {
-      "title": "トランプ大統領、AIセキュリティ大統領令の署名を延期――「阻害要因になり得た」",
-      "link": "https://zenn.dev/quotidia/articles/quotidia-aq-013",
-      "summary": "本記事は筆者が運営する AI Quotidia (ai.quotidia.jp) の海外ニュース解説記事です。\n\n\n トランプ大統領、AIモデルの「事前審査」大統領令を先送り——その背景と日本への影響\n皆さん、「AIを世に出す前に、政府がチェックする」と聞いたら、どう思いますか？\n実はいま、アメリカでまさにそんな仕組みが検討されています。トランプ大統領が署名を予定していた大統領令には、AIモデルの",
-      "published": "2026-05-26T23:21:54+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "定理証明AIの「最小構成」エージェント：複雑化へのアンチテーゼ",
       "link": "https://zenn.dev/lluminai_tech/articles/0e8541ce752f73",
       "summary": "はじめに\nルミナイR&amp;Dチームの宮脇彰梧です。\n現在はマルチモーダルAIの研究を行う大学院生として、\n生成AIやAIエージェントの技術を実践的に探求しています。\n最近、AIエージェントのアーキテクチャってどんどん複雑化していませんか？\nマルチエージェント連携、複雑なルーティング、高度な木探索 ……。もちろんそれらが必要な領域もありますが、「果たして本当にそこまでの複雑さが必要なのか？」と疑",
       "published": "2026-05-26T23:06:05+00:00",
       "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "定理証明AIの「最小構成」エージェント：複雑化へのアンチテーゼ",
-      "link": "https://zenn.dev/lluminai_tech/articles/0e8541ce752f73",
-      "summary": "はじめに\nルミナイR&amp;Dチームの宮脇彰梧です。\n現在はマルチモーダルAIの研究を行う大学院生として、\n生成AIやAIエージェントの技術を実践的に探求しています。\n最近、AIエージェントのアーキテクチャってどんどん複雑化していませんか？\nマルチエージェント連携、複雑なルーティング、高度な木探索 ……。もちろんそれらが必要な領域もありますが、「果たして本当にそこまでの複雑さが必要なのか？」と疑",
-      "published": "2026-05-26T23:06:05+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -641,15 +668,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "AIが80年の難問を解いた日",
-      "link": "https://zenn.dev/lingmu/articles/2026-05-26-openai-geometry-breakthrough",
-      "summary": "AIが80年の難問を解いた日\n2026-05-26 | 読了 4分 | #AI #数学 #OpenAI\n80年間、誰も答えを出せなかった数学の予想が、AIによって覆された。純粋数学の最難関領域に、機械が踏み込んだ瞬間だ。\n\n\n 80年解けなかった「色塗り問題」\n1946年、数学者ネルソンが一つの問いを立てた。\n「平面上のすべての点を、距離が1の2点が同じ色にならないよう塗るには、何色必要か?」\nこ",
-      "published": "2026-05-26T22:28:17+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Azure Container Apps - スケールアウトが応答時間に与える効果を検証する",
       "link": "https://zenn.dev/georgeosddev/articles/azure-container-apps-scaling-http-part2",
       "summary": "はじめに\nこの記事は Azure Container Apps のスケーリングを検証する シリーズの Part 2 です。\nhttps://zenn.dev/georgeosddev/articles/azure-container-apps-scaling\nPart 1 では HTTP スケーラーの concurrentRequests パラメータがレプリカ数にどう影響するかを検証しました。\nP",
@@ -657,15 +675,6 @@
       "source": "Zenn - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "AI時代の実装力は『コードを書く力』から『解空間を収束させる力』へ移った",
-      "link": "https://zenn.dev/tesla/articles/f67c29415a02fc",
-      "summary": "はじめに\nAI エージェントコーディングや vibe coding を見ていると、「実装できる」とは何を指すのかが変わってきたように感じます。\n以前の実装力は、かなりの部分で「コードを書く力」でした。仕様を読み、設計を決め、コードを書き、テストを通す。もちろん今でも重要です。ただ、AI が局所的なコードを高速に生成できるようになると、人間の価値はもう少し上の層に移っていきます。\nこの記事の主張はシ",
-      "published": "2026-05-26T21:59:09+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "eBPFコンテナセキュリティモニターを作った話：カーネルパニックと格闘した記録",
@@ -702,15 +711,6 @@
       "source": "Publickey",
       "tag": "テック",
       "color": "#888780"
-    },
-    {
-      "title": "(2026/5/25号)週刊AIニュース Gemini新モデル発表など",
-      "link": "https://zenn.dev/my_vision/articles/6e46478a6f7e6b",
-      "summary": "Big News\n\n Gemini 3.5 Flash / Gemini Spark / Gemini Omni リリース（Google I/O 2026）\nhttps://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/\nhttps://www.marktechpost.com",
-      "published": "2026-05-26T15:21:06+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "【書評】Designing and Building Security Operations Center",
