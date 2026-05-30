@@ -1,6 +1,42 @@
 {
-  "updated": "2026-05-30T10:44:29.360423+00:00",
+  "updated": "2026-05-30T13:07:04.746005+00:00",
   "items": [
+    {
+      "title": "Kubernetesのリソース管理：request/limitの概念理解",
+      "link": "https://qiita.com/Horiiii/items/a91f53fac4362ad85f21",
+      "summary": "はじめに\nKubernetesのリソース管理について、その基本であるrequestとlimitの概念を初めて知ったのでまとめます。\n\nリソース管理が必要な理由\nKubernetesでは、複数のpodが同じnode（サーバ）上で動きます。\nもし1つのpodが独占すると他のp...",
+      "published": "2026-05-30T12:53:01+00:00",
+      "source": "Qiita - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "【SAP/SAA対策】〇〇エンドポイントって何が違うの？Aurora・API Gateway・VPCエンドポイントを整理してみた",
+      "link": "https://qiita.com/shihopower/items/3d488c16e0765eb88a83",
+      "summary": "どーも！shihopowerです！\nSAP/SAAの勉強をしていると、こんな状況になりませんか？\n\nリーダーエンドポイント、クラスターエンドポイント、エッジ最適化エンドポイント、プライベートエンドポイント…　〇〇エンドポイントって多すぎん？？🤯\n\nわたしもそうでした！「エン...",
+      "published": "2026-05-30T12:08:50+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "「εテンソルは、どうしてテンソルですか。テンソルの第1、第2、第3の定義で教えて下さい。」をAI先生へ。sympyで教えて下さい。",
+      "link": "https://qiita.com/mrrclb48z/items/2dbb5c43e168cd3e1d00",
+      "summary": "・??? 以下、わかる方にはわかるでしょうか。\n\n(本日の)ChatGPT先生へ\nεテンソルは、どうしてテンソルですか。テンソルの第1、第2、第3の定義で教えて下さい。\n\n(以下抜粋)\n\nεテンソル（Levi-Civita記号）\n(表示省略)\nは、テンソル論では少し微妙な存...",
+      "published": "2026-05-30T11:24:40+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "「cannot execute INSERT in a read-only transaction」— Aurora Global Database で踏んだセカンダリ書込みのワナ",
+      "link": "https://qiita.com/kazu_techlog/items/8c0765f04ffacaf1d132",
+      "summary": "TL;DR\n\nマルチリージョン構成の EKS アプリを大阪リージョンへデプロイしたら、Pod が cannot execute INSERT in a read-only transaction で落ちてデプロイ失敗。\n原因は 大阪リージョンの Aurora が Auro...",
+      "published": "2026-05-30T11:24:35+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "「 Pythonで素数定理を可視化する：π(n)/n の収束を確かめよう」様を、 sympyでAI先生に教えてもらいました。",
       "link": "https://qiita.com/mrrclb48z/items/1958377194cc31043f39",
@@ -38,13 +74,31 @@
       "color": "#FF9900"
     },
     {
-      "title": "2025 Japan AWS Jr. Champions 任期を振り返って",
-      "link": "https://qiita.com/hirota_kodai/items/e1bed8b95626b94fa968",
-      "summary": "はじめに\nこんにちは！廣田です。\n2025 Japan AWS Jr. Champions（以下、JC）としての1年間の任期が、もうすぐ終わろうとしています。早いですね〜...\n\n正直に言うと、入社当初の自分は、かなり内向的なタイプだったと思います。未経験でITの世界に飛...",
-      "published": "2026-05-30T09:10:10+00:00",
-      "source": "Qiita - AWS",
+      "title": "Amazon CloudWatch RUM のセッションリプレイ機能を試してみた",
+      "link": "https://zenn.dev/acntechjp/articles/d4719fca446824",
+      "summary": "導入\n\n 背景\n\n2026年5月1日のアップデートにより、Amazon CloudWatch RUM でセッションリプレイ（Session Replay）がサポートされるようになりました。\nこの機能により、ユーザーがブラウザ上で行ったクリック・スクロール・ページ遷移・エラーを動画のように再現でき、問題を自ら再現しなくてもフロントエンドの不具合を視覚的に診断できます。\n本ブログでは、Session",
+      "published": "2026-05-30T09:50:02+00:00",
+      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "シーダンス 2 完全ガイド：ByteDanceのAI動画生成モデルを使ってみた",
+      "link": "https://zenn.dev/ohan/articles/cc01132c157fed",
+      "summary": "シーダンス 2を触ってみた感想\nByteDanceが2026年2月にリリースした**シーダンス 2（Seedance 2）**を実際に使ってみました。結論から言うと、音声同期の精度とマルチモーダル入力の柔軟性が想像以上でした。\n\n\n 何がすごいのか\n\n 1. 入力の自由度が高い\n他のモデルだと「テキスト+画像1枚」みたいな制約が多いですが、シーダンス 2は：\n\n画像9枚\n動画クリップ3本\n音声クリ",
+      "published": "2026-05-30T09:40:05+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Web開発を勉強するために、OCRツールを作成する(2)",
+      "link": "https://zenn.dev/noayasu/articles/1251bc9fa88daa",
+      "summary": "レシートOCRツール開発 — Docker構成編\n前回考えた構成をもとに、Dockerファイルを作っていきます。\n勉強のアウトプットなので、間違えていたら教えてください。\n\n\n そもそもDockerとは\nDockerは簡単にいうと、仮想コンテナをローカルで立ち上げることができる技術です。\nローカルで立ち上げなくても、イメージがあればクラウド上でも立ち上げることができます。\n\n\n Dockerfil",
+      "published": "2026-05-30T09:36:53+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "PyTorchで顔キーポイント座標回帰モデルにBrightness / Contrast Augmentationを試した",
@@ -52,6 +106,15 @@
       "summary": "はじめに\n前回は、顔キーポイント座標回帰モデルに対して、\n\nprediction可視化\nworst sample分析\n部位別誤差分析\n左右反転augmentation\n\nを行い、モデルがどのような画像・部位で失敗しやすいのかを確認しました。\nその結果、\n\n口周り\n眉外側\n...",
       "published": "2026-05-30T08:42:47+00:00",
       "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "表形式データ拡張 part13：AHC",
+      "link": "https://zenn.dev/haruto_big6/articles/c6f0fb56725e0e",
+      "summary": "基本情報\nSMOTEの記事で説明した通り，幅広い分野で使われる表形式データにはクラス不均衡という大きな課題があります．それを解決するために使用されるのが表形式データ拡張であり，その代表格がSMOTEです．\nSMOTEは強力ではあるものの，様々な欠点があり，それを解決するために設計された様々な変種が存在します．その中でも一大勢力がクラスターベースの手法で，これまでに説明してきた手法でもK-means",
+      "published": "2026-05-30T08:39:04+00:00",
+      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -74,22 +137,40 @@
       "color": "#10A37F"
     },
     {
-      "title": "AWSセキュリティーアーキテクトの直感（継続更新中）",
-      "link": "https://qiita.com/mooreyxia/items/44b98ee86b2a4762456f",
-      "summary": "#01：リソースポリシーの制限とロール活用\n\n1. リソースベースポリシーは「指名制」\nS3バケットポリシー、KMSキーポリシー、SQSキューポリシーなどのリソースベースポリシーにおいて、Principalに IAMグループを指定することはできません。\nもし「グループ」単...",
-      "published": "2026-05-30T06:40:05+00:00",
-      "source": "Qiita - AWS",
+      "title": "【AWS】CFnデプロイで躓かない！SQS×Lambdaのタイムアウト設定における「6倍ルール」と本番環境ベストプラクティス",
+      "link": "https://zenn.dev/ishikura_tech/articles/2127b4c4bc1eb2",
+      "summary": "はじめに\nAWS環境において、Amazon SQSをトリガーにしてAWS Lambdaを発火させる非同期処理アーキテクチャは王道のパターンです。しかし、CloudFormation（CFn）などでIaC（Infrastructure as Code）としてデプロイする際、設定値の不整合によって以下のようなエラーに遭遇したことはありませんか？\n\nAn error occurred (InvalidP",
+      "published": "2026-05-30T07:09:34+00:00",
+      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "業務開発でAIを使う前に整理したいチェック観点",
-      "link": "https://qiita.com/hiro92196/items/fea50a26338738afdde9",
-      "summary": "はじめに\n業務開発でAIを使う場面は増えています。\nコードのたたき台を作る。\nエラーの原因を調べる。\n設計案を整理する。\nドキュメントを要約する。\nテスト観点を洗い出す。\nこうした用途では、AIはかなり便利です。\n一方で、業務開発で使う場合は、個人学習や個人開発とは違う注...",
-      "published": "2026-05-30T06:22:30+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
+      "title": "May 30, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#May_30_2026",
+      "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.86 is now available for all regions.",
+      "published": "2026-05-30T07:00:00+00:00",
+      "source": "Google Cloud リリースノート",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
+      "title": "CircleCI上でCypress起動時に `Missing X server or $DISPLAY` で落ちる原因と回避策",
+      "link": "https://zenn.dev/inoway46/articles/74bce7fac0a96e",
+      "summary": "CircleCIで、CypressによるE2Eテストを実行しようとした時に、5~10%の頻度でMissing X server or $DISPLAY というエラーでflakyに落ちる問題に悩んでいました。\n同様のエラーに悩んでいる方がこの記事を読んでいると仮定して、結論からお伝えします。\nもし、Dockerイメージとして、cimg/node:*-browsers を利用し、Cypress Cir",
+      "published": "2026-05-30T06:16:09+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "CDKをやめてTerraformに移行しようか迷っている話 vol.1",
+      "link": "https://zenn.dev/rrrraaaaa6/articles/5a8a540a864d83",
+      "summary": "これはなに\nどうもかわごえです。\nわたし、めっちゃCDKが好きです。Cfnも大好きです。\nAWSの中で好きなサービスは？と聞かれたら、間違いなくこれらのIaCのサービスを真っ先に挙げると思います。\nいままでCDKでいろんなシステムを構築し、運用してきました。\nその中でも、やはりCDKで楽になった反面、どうしても超えられない障壁があり。\nこれを機に、一度terraformに移行しようと考えているとき",
+      "published": "2026-05-30T06:01:15+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "CDKをやめてTerraformに移行しようか迷っている話 vol.1",
@@ -110,6 +191,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "セルフホストDifyの管理者パスワードを再設定した作業メモ",
+      "link": "https://zenn.dev/imaginarygate/articles/408dc142367335",
+      "summary": "セルフホストDifyの管理者パスワードを再設定した作業メモ\n\n はじめに\nローカル環境でセルフホストしているDifyの管理者パスワードを、Dockerコンテナから再設定した作業メモ。\nDifyのログイン画面にあるパスワード再発行を試したものの、メールが届かなかった。\nセルフホスト環境では、メール送信設定が未設定だと再発行メールが届かない場合がある。\n今回は、メール経由ではなく、Dockerコンテナ",
+      "published": "2026-05-30T05:15:33+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "Gemini API の 429 エラー：無料枠クォータ枯渇と解決策",
       "link": "https://zenn.dev/errorlog/articles/el-gemini-api-429-resource-exhausted-free-tier",
       "summary": "Gemini API を自動化スクリプトやバックグラウンドジョブに組み込んだ際、無料枠のクォータを短時間で使い切り 429 RESOURCE_EXHAUSTED が連続発生するケースがあります。特に複数リクエストを並列・連続で投げる処理では、1回のバッチ実行で当日分のクォータが尽きることがあります。\n\n エラーの全文\n429 RESOURCE_EXHAUSTED. {\n  'error': {",
@@ -119,6 +209,15 @@
       "color": "#4285F4"
     },
     {
+      "title": "Docker Compose の .env 読み込みエラー：UTF-16 BOM問題と解決策",
+      "link": "https://zenn.dev/errorlog/articles/el-docker-compose-env-utf16-bom-windows",
+      "summary": "Windows環境でDocker Composeを使う際、PowerShellで作成した.envファイルが原因でコンテナが起動できないケースがあります。エラーメッセージに\\xff\\xfeやunexpected characterが含まれている場合、ファイルのエンコードが原因です。\n\n エラーの全文\nfailed to read C:\\Users\\user\\project\\.env: line 1:",
+      "published": "2026-05-30T04:10:05+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "Aurora Global Database のDRは「DBだけ」では完成しない",
       "link": "https://zenn.dev/santassn1224/articles/d2d28d85bed7b3",
       "summary": "はじめに\nマルチリージョンでDR（災害復旧）構成を考えるとき、データベース層に Amazon Aurora Global Database を選ぶことはよくあります。リージョンをまたいだ非同期レプリケーション、秒オーダーのRPO、数分のRTO。スペックを並べてみると、「これでDRはばっちりだな」と思えてきますよね。\n私も以前、東京・大阪の2リージョンで Aurora Global Database",
@@ -126,6 +225,15 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "LangSmithによるエージェント/RAG評価入門",
+      "link": "https://zenn.dev/highthreee/articles/d323f4dcfdc493",
+      "summary": "はじめに\nAIエージェントやRAG開発においては、精度をどう評価するか、実験管理をどう行うかという観点も重要です。プロンプトエンジニアリングや使用するLLMの変更などで出力がどう変化するかを、トレースや指標として記録し、パフォーマンス改善に役立てます。\nLangSmithはそのためのフレームワークの一つであり、トレース、データセット管理、評価フレームワークなどを備えています。LangChainエコ",
+      "published": "2026-05-30T01:52:37+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "自動運転ミニカーバトル参加体験記",
@@ -335,15 +443,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "マルチエージェントを 10 時間動かし続けると何が起きるか — Anthropic 訓練手法と Stanford 観察論",
-      "link": "https://zenn.dev/znet/articles/2026-multiagent-long-running-safety",
-      "summary": "以前 Claude Code Agent Teams のバグレポート で、複数エージェントを tmux で束ねて動かす運用の不具合を扱いました。本稿はその運用を続けるなかで繰り返しぶつかってきたテーマ、マルチエージェント基盤を 10 時間以上連続稼働させたとき、現実問題として何が起きるか を扱います。\n直接の触発元は最近の二つの動きです。Anthropic が公開した「エージェント型 AI の不適",
-      "published": "2026-05-29T14:08:09+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "LLMのハルシネーションは減ったのか？【後編：Reasoning Modelで増えたもの・評価設計の根本問題】",
       "link": "https://zenn.dev/snow_rabbit/articles/9ef21e60ae3e95",
       "summary": "はじめに（後編）\n前編では、RAGやCoVeなどの対策によって「知識の穴に起因するハルシネーション」は改善された一方、Reversal CurseやSycophancyといった「構造的な問題」はほとんど残ったことを整理した。\n後編ではさらに踏み込んで、**「賢くなるほどハルシネーションが増えるケースがある」**という逆説を扱う。\nそしてその根本に何があるかを、評価設計の問題として整理する。",
@@ -488,42 +587,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "Docker の 500 エラー：原因と解決策",
-      "link": "https://zenn.dev/errorlog/articles/el-docker-500",
-      "summary": "Docker の 500 とは何か？（公式の定義）\n500 は、HTTP 標準仕様（RFC 9110）で定められているステータスコードの一つです。\nDocker の文脈では、このコードは次のことを意味します。\n\nDocker デーモン（バックグラウンドプロセス）で予期しない問題が起きた。\n\nこのエラーが出たときは、以下の「原因」の節を確認してください。\n多くの場合、設定の見直しや手順の確認だけで解",
-      "published": "2026-05-29T13:03:59+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "Docker の 429 エラー：原因と解決策",
-      "link": "https://zenn.dev/errorlog/articles/el-docker-429",
-      "summary": "エラーの概要\nDocker の 429 エラーは、HTTP ステータスコード 429（Too Many Requests）を意味し、短時間に送信されたリクエスト数が上限を超えたことを示します。Docker Hub やプライベートレジストリに対して過度なアクセスが集中した場合、レート制限により一時的にリクエストが拒否されます。特に CI/CD パイプラインや複数マシンからの並行アクセスで頻繁に発生し",
-      "published": "2026-05-29T13:03:58+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "Docker の 422 エラー：原因と解決策",
-      "link": "https://zenn.dev/errorlog/articles/el-docker-422",
-      "summary": "エラーの概要\nDocker で 422 エラーが発生するのは、Docker API またはコンテナレジストリへのリクエストが構文的には正しいものの、含まれるデータが処理要件を満たしていない場合です。Docker Daemon、Docker Compose、レジストリ API との通信時にこのエラーが返される典型的なシナリオは、不正なイメージタグ指定、設定値の型違反、あるいは API スキーマの検証",
-      "published": "2026-05-29T13:03:57+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "Docker の 409 エラー：原因と解決策",
-      "link": "https://zenn.dev/errorlog/articles/el-docker-409",
-      "summary": "エラーの概要\nDockerの409エラーは、HTTP標準仕様で「Conflict（競合）」を示すステータスコードです。Docker Daemon がコンテナやイメージの操作を受け付けられない状態を表します。通常、リソースの重複、ポートの競合、不正なコンテナの状態遷移などが原因となります。このエラーが発生した場合、現在のシステム状態と実行しようとしている操作に矛盾があることを意味しています。\n\n 実",
-      "published": "2026-05-29T13:03:57+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "AWS の 504 エラー：原因と解決策",
       "link": "https://zenn.dev/errorlog/articles/el-aws-504-x",
       "summary": "エラーの概要\nAWS で 504 Gateway Timeout が発生するのは、API Gateway、Application Load Balancer（ALB）、Network Load Balancer（NLB）といったエッジサービスが、バックエンドのリソース（Lambda、EC2、ECS等）からの応答を一定時間待っても返ってこないときです。つまり、リクエストは正しく転送されているものの、",
@@ -546,33 +609,6 @@
       "link": "https://zenn.dev/errorlog/articles/el-aws-502-x",
       "summary": "エラーの概要\n502 Bad Gateway は、API Gateway や Application Load Balancer（ALB）がバックエンド（EC2、Lambda、ECS など）から不正な応答を受け取った、あるいは応答を得られなかったことを示すエラーです。AWS 環境では、バックエンドサービスの一時的な障害やタイムアウト、リソース不足など複数の原因で発生しやすいステータスコードです。",
       "published": "2026-05-29T13:03:53+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AWS の 500 エラー：原因と解決策",
-      "link": "https://zenn.dev/errorlog/articles/el-aws-500-x",
-      "summary": "AWS の 500 エラーとは何か？（公式の定義）\n500 は、HTTP標準仕様（RFC 9110）で定められているステータスコードの一つです。\nAWS の文脈では、このコードは次のことを意味します。\n\nAWS側で予期しない問題が発生した。通常はサーバー側の処理に失敗したことを示します。\n\nこのエラーが出たときは、慌てずに次の「原因」の節を確認してください。\n多くの場合、設定の見直しや手順の確認だ",
-      "published": "2026-05-29T13:03:52+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AWS の 429 エラー：原因と解決策",
-      "link": "https://zenn.dev/errorlog/articles/el-aws-429-x",
-      "summary": "エラーの概要\n429 Too Many Requests は、AWS API への呼び出し頻度が一定期間内の上限を超えた場合に返されるステータスコードです。AWS の各サービスには呼び出し回数の制限（レート制限）が設定されており、これを超えるとクライアント側の問題として 429 エラーで応答が拒否されます。このエラーは一時的なものが多いため、適切な対応により解決可能です。\n\n 実際のエラーメッセー",
-      "published": "2026-05-29T13:03:52+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AWS の 422 エラー：原因と解決策",
-      "link": "https://zenn.dev/errorlog/articles/el-aws-422-x",
-      "summary": "エラーの概要\nAWS における 422 Unprocessable Entity は、HTTP リクエストの形式は正しいが、含まれるデータが処理不可能または検証に失敗したことを示します。CloudFormation、API Gateway、Lambda、EventBridge、DynamoDB など複数のAWSサービスで発生する可能性があります。このエラーが返されるのは、リクエストの構文は val",
-      "published": "2026-05-29T13:03:51+00:00",
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
@@ -740,15 +776,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "画像処理における自己教師あり学習入門",
-      "link": "https://zenn.dev/fairydevices/articles/5234d518fc2de1",
-      "summary": "画像処理における自己教師あり学習入門\n\n 1. はじめに\n自己教師あり学習（self-supervised learning, 以下 SSL）は、外部の教師ラベルを用いずにデータ自身の構造や相互関係から有用な特徴表現を学習させる枠組みです。近年は画像・音声・言語など多様な領域で成果が報告され、産業でも導入事例が増えています。\n本稿では画像分野に焦点を当てます。公開済みの事前学習済み SSL モデル",
-      "published": "2026-05-29T04:04:20+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Amazon RDS ブルー/グリーン デプロイを使用した Amazon Aurora PostgreSQL アップグレードのロールバック戦略の実装",
       "link": "https://aws.amazon.com/jp/blogs/news/implement-a-rollback-strategy-for-amazon-aurora-postgresql-upgrades-using-amazon-rds-blue-green-deployments/",
       "summary": "本記事は、2025 年 6 月 20 日に公開された Implement a rollback strateg […]",
@@ -902,15 +929,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "エンジニアが最低限押さえたいLLMの基礎知識",
-      "link": "https://zenn.dev/nagi_dev/articles/llm-basics-you-should-know",
-      "summary": "はじめに\nこの記事は、以下のような方を対象にしています。\n\n\nChatGPT や Claude を使っているが、裏側の仕組みはよく知らない\n「LLMって何？」と聞かれたときにうまく説明できない\nエンジニアとしてAI関連の基礎知識を押さえておきたい\n\nこの記事を読むと、以下が分かるようになります。\n\n\nLLM の基本的な仕組み\nなぜコードや文章を生成できるのか\n\nLLM の今後の課題\n\n\n LLMと",
-      "published": "2026-05-28T12:47:14+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Lambda バージョン・エイリアスをTerraform + GitHub ActionsでGitOps化してカナリアデプロイを実装しました",
       "link": "https://zenn.dev/satoru_o/articles/8fbe5b73cc37a9",
       "summary": "はじめに\nAWS DVA-C02の試験勉強をしていて、Lambda のバージョン・エイリアスの問題を軒並み間違えました。「なんとなくわかる」と「体で覚えている」の差は大きいです。ということで、実際にTerraformで構築して、GitHub Actionsでカナリアデプロイまで動かした話をまとめます。\n\n\n そもそも「バージョン」と「エイリアス」とは何か\n構成の話に入る前に、今回の主役である2つの",
@@ -997,15 +1015,6 @@
       "summary": "ポイント\n\nLangfuse v3 を Azure Container Apps + ACI で構築。公式モジュールは AKS 前提のため自前設計が必要\nTerraform provider の複数ポート未対応、Azure Blob の S3 非互換、Job の内部 DNS 不安定など、6 つの落とし穴がある\n5 日分で約 $25（AKS の最小構成と比較してノード常駐コストが不要）\n\n!\n本記事",
       "published": "2026-05-27T08:42:04+00:00",
       "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "【Rancher Desktopのエラー】Error Starting Rancher Desktop. 〜limactl exited with code 255",
-      "link": "https://qiita.com/Ryuki4648/items/d64d97bd63f537714eab",
-      "summary": "はじめに\nMacでRancher Desktopを起動すると、次のようなエラーが発生しました。\n\n目次\n\nエラー内容\n\nRancher Desktop Error\n\nError Starting Rancher Desktop\nLast command run:\nSo...",
-      "published": "2026-05-27T08:38:03+00:00",
-      "source": "Qiita - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
     },
@@ -1233,15 +1242,6 @@
       "source": "Publickey",
       "tag": "テック",
       "color": "#888780"
-    },
-    {
-      "title": "May 20, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#May_20_2026",
-      "summary": "Apigee X\nSecurity\nOn May 20, 2026, we published a security bulletin for Apigee.\nA vulnerability was found in Apigee\n(CVE-2026-2264)\nwhere the IntegrationRegion\nparameter in the SetIntegrationRequest p",
-      "published": "2026-05-20T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "Google Antigravity、Androidアプリ開発に正式対応。AIエージェントのための「Android Knowledge Base」「Android Skills」も公開",
