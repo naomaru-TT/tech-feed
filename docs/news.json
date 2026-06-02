@@ -1,23 +1,140 @@
 {
-  "updated": "2026-06-02T07:18:06.260382+00:00",
+  "updated": "2026-06-02T12:34:49.075963+00:00",
   "items": [
     {
-      "title": "[AWS] ALB・Auto Scaling Group・RDS・WAF構成を構築してみた",
-      "link": "https://qiita.com/seenew01/items/6a2e3a71039a737c81f1",
-      "summary": "1. 初めに\n本学習では以下の黒川さんのロードマップを参考に、AWS上で構成を構築してみました。\n\nALB、Auto Scaling Group、RDS、WAFなど、これまであまり触ったことのなかったサービスを利用しているため、勉強になると思い、この構成を選びました。...",
-      "published": "2026-06-02T07:17:00+00:00",
+      "title": "ChatGPTでメアドを再利用はできない?!",
+      "link": "https://qiita.com/lapan/items/78c8c4b94edd51e57bd1",
+      "summary": "最初から結論\n一度使ったメールアドレスを再度利用しようとすると使えない。\nしかも使えないというメッセージは出ずに、ひたすら「セッションの有効期限が切れました」しか出なく、2週間ちょいとのサポートのやり取りの結果、メールアドレスの再利用は無理と言われました。\n\nなんで再利用...",
+      "published": "2026-06-02T11:38:08+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "ALB配下のターゲットが全て Unhealthy なのに ALB 経由で通信できるのはなぜか？",
+      "link": "https://qiita.com/AWS11/items/5e902f7a370ee0b9fefc",
+      "summary": "回答\nApplication Load Balancer (ALB) は、ターゲットグループ内の全てのターゲットが Unhealthy と判定された場合、フェールオープン (Fail Open) 動作となります。\nフェールオープン時は、ヘルスステータスに関係なく、登録され...",
+      "published": "2026-06-02T11:15:10+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "GitHub Actions が鍵なしで AWS を触れる理由 ― OIDC と AssumeRole の中身",
-      "link": "https://qiita.com/Kazy_engineer/items/20c41101dcb3588831cf",
-      "summary": "はじめに\nGitHub Actions から AWS を操作するパイプラインを組んだことがある人は多い。最近は Pulumi や Terraform で IaC（Infrastructure as Code、インフラをコードで定義する手法）を回し、CI のジョブからインフ...",
-      "published": "2026-06-02T07:06:33+00:00",
+      "title": "IoTを支える無線通信「LPWA」とは？ 特徴とメリットをわかりやすく解説",
+      "link": "https://qiita.com/msoft_1987/items/3c3f8c262cce183619e8",
+      "summary": "1. はじめに\nこんにちは！\n今月はネットワーク関連業務を担当しているチームより、IoTを支える無線通信技術「LPWA」についてご紹介いたします。\n近年、次世代のIT産業として注目されている技術の一つに「IoT（Internet of Things：モノのインターネット...",
+      "published": "2026-06-02T10:26:31+00:00",
+      "source": "Qiita - インフラ",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "AWS Summit Tokyo 2026 における Database 関連の注目セッションのご紹介",
+      "link": "https://aws.amazon.com/jp/blogs/news/aws-summit-tokyo-2026-database-sessions/",
+      "summary": "日本最大の「AWS を学ぶイベント」、AWS Summit Tokyo が 2026年6月25日(木)、26日 […]",
+      "published": "2026-06-02T09:51:39+00:00",
+      "source": "AWS 公式ブログ（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Codexのリミットを、ChatGPTに頼ったら案外なんとかなった",
+      "link": "https://qiita.com/tmaru-eng/items/0e3c7183e22921d74d0c",
+      "summary": "はじめに\nこんにちは、@tmaru-engです。\nここ最近、個人開発はずっとCodexやClaude Codeに頼り切っており、何をやるにも思いついたら一旦Codexに相談してみるような状態が続いております。\n4月頃にレート制限の計算方法がリクエスト数ベースからトークン使...",
+      "published": "2026-06-02T09:24:57+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AWSでOpenAIモデルを使おう！（Bedrock APIとStrands編）",
+      "link": "https://qiita.com/minorun365/items/f83b3cf2df904ead28dd",
+      "summary": "ついにBedrockでOpenAIの最新モデルがGAしました！\n\nBedrockのAPIは何種類かあり、最もよく使われるClaudeなどを呼ぶ際には Converse API を使うのですが、GPT-5.5はConverseに非対応。\n代わりにOpenAI側のRespo...",
+      "published": "2026-06-02T09:10:36+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "kubectl describe hpa だけではつらいHPA調査を kubectl-hpa-status で短くする",
+      "link": "https://zenn.dev/mattsu2020/articles/ef8aaab702add6",
+      "summary": "この記事は、HorizontalPodAutoscaler (HPA) の調査で kubectl describe hpa\nを読み解く時間を減らすための kubectl plugin、kubectl-hpa-status の紹介です。\n\n 何が分かるか\nkubectl-hpa-status は、既存の Kubernetes API に見えている HPA status、\nconditions、cur",
+      "published": "2026-06-02T08:56:59+00:00",
+      "source": "Zenn - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "nginxのlocationディレクティブの書き方と優先順位",
+      "link": "https://qiita.com/sasukkun/items/88dca0ab352cc407aa8e",
+      "summary": "やりたかったこと\nnginxの設定でURLごとに別々の処理をしたかった。\n/api/ のパスだけバックエンドに転送して、それ以外は静的ファイルを返す設定を書こうとしたらlocationの書き方で詰まった。\n\nlocationディレクティブの種類\n\n完全一致（= 修飾子）\n...",
+      "published": "2026-06-02T08:55:21+00:00",
+      "source": "Qiita - インフラ",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "9 社合同 AI-DLC Unicorn Gym 大阪 ── AI と開発した 3 日間で見えた、人間の仕事",
+      "link": "https://aws.amazon.com/jp/blogs/news/joint-ai-dlc-unicorn-gym-osaka-202605/",
+      "summary": "みなさん、こんにちは。ソリューションアーキテクトの池田、ポール、佐山です。 2026 年 5 月 18 日〜2 […]",
+      "published": "2026-06-02T08:47:43+00:00",
+      "source": "AWS 公式ブログ（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "ExtendDB のご紹介: プラガブルなストレージバックエンドを備えたオープンソースの DynamoDB 互換アダプター",
+      "link": "https://aws.amazon.com/jp/blogs/news/introducing-extenddb-an-open-source-dynamodb-compatible-adapter-with-pluggable-storage-backends/",
+      "summary": "本記事は 2026 年 05 月 20 日に公開された “Introducing ExtendDB […]",
+      "published": "2026-06-02T08:27:28+00:00",
+      "source": "AWS 公式ブログ（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "GPT-4.1でアンケート自由記述を自動分類してみたら、制約違反が発生した話",
+      "link": "https://qiita.com/h-yoshimoto/items/2fcb0653678ba8c79055",
+      "summary": "はじめに\nあるプロジェクトで大量ドキュメントの分析のためにLLMによるテキストの分類・集計の検証を行いました。\nプロンプトエンジニアリングガイドのWEBサイトでは、\"テキスト分類\"という例で紹介されているケースを少し応用した形式になります。参考:Prompt Engine...",
+      "published": "2026-06-02T08:16:35+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AI課金を解約したい人へ。ローカルLLMでAI課金をゼロ円にするのは本当に得なのか調べてみた",
+      "link": "https://qiita.com/nolanlover0527/items/841e5292f4fc154a6f22",
+      "summary": "AI課金、ローカルLLMが解決してくれる説\n初めは無料プランで文句なしに使えていたAIですが、仕事や趣味で本気で使い始めると、使用制限を使い切るまでが一瞬になります。\n当然課金に手を出したわけですが、円安も相まってかなり高額...\nしばらく経ったころ、ローカルLLMの性能...",
+      "published": "2026-06-02T08:14:41+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Route53のエイリアスレコードのTTLは何秒ですか？",
+      "link": "https://qiita.com/AWS11/items/8627c9c42bc5fdf2b8cb",
+      "summary": "公式ドキュメント\n\nエイリアスレコードが AWS リソースを指す場合、有効期限 (TTL) を設定することはできません。Route 53 はリソースのデフォルト TTL を使用します。エイリアスレコードが同じホストゾーン内の別のレコードをポイントする場合、Route...",
+      "published": "2026-06-02T07:43:23+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "【qiitaで多分最速】OpenAI on AWS試してみた",
+      "link": "https://qiita.com/kei1-dev/items/d7f3698139763d38b0d0",
+      "summary": "はじめに\nついにAWSでOpenAIがつかえるようになったぞ！ということで\n呼び出しできるのかだけ試してみました。\n\n検証\n以下の記事にサンプルコードが載っていたので、それに準じています。\n\n利用可能リージョン\n\nモデル\nリージョン\n\nGPT-5.5...",
+      "published": "2026-06-02T07:39:55+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "June 02, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#June_02_2026",
+      "summary": "Cloud Load Balancing\nFeature\nTLS post-quantum key exchange support is now available for\nApplication Load Balancers and external proxy Network Load Balancers.\nPost-quantum key exchange is\nessential for",
+      "published": "2026-06-02T07:00:00+00:00",
+      "source": "Google Cloud リリースノート",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "【macOS】コマンドラインだけでUbuntu ServerのインストールUSBを作る（curl + shasum + dd）",
@@ -29,24 +146,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "AWS東京リージョンのRDSで無償利用枠構成でインスタンスタイプが選べない",
-      "link": "https://qiita.com/tsukamoto/items/6ca7aeb2fcdcb4050018",
-      "summary": "概要\n東京を含む一部リージョンで、RDSのテンプレート「無料利用枠」を指定すると、インスタンスタイプが選択できず、データベースを作成できなくなっている。\n暫定策としては、別リージョンを試すか、RDSのテンプレートを「開発/テスト」に変更する。たぶん、後者の方が、本来使いた...",
-      "published": "2026-06-02T05:05:36+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AI駆動開発時代におけるMVCモデル・ルネッサンス",
-      "link": "https://qiita.com/HankSato/items/8f2db7a6fb92d06e4a87",
-      "summary": "はじめに\n本サイト記事 『AI駆動開発の手法は分岐するが、本質は一点に収束する』は、大変に示唆に富み、有効な指針を与えてくれます。（https://qiita.com/ko1-ino/items/ccc64ce6504c77100cfb)\n本稿では、上記記事で言及されてい...",
-      "published": "2026-06-02T04:42:11+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "学生たちが8週間で築いた確かな成長──大学生プログラミングコミュニティ 「POSSE」2026年チーム開発決勝レポート",
       "link": "https://aws.amazon.com/jp/blogs/news/posse-final-competition-2026/",
       "summary": "大学生向けのプログラミング学習コミュニティ「POSSE」では、実践的な開発スキルやチームワークの向上を目指して […]",
@@ -54,6 +153,15 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "【開催報告】「クラウドネイティブ会議」実践 AI SRE — AIワークロードの自律的パフォーマンスエンジニアリング",
+      "link": "https://zenn.dev/fixstars/articles/cloud-native-conference-report",
+      "summary": "2026年5月14日〜15日、名古屋・中日ホール＆カンファレンスにてハイブリッド開催された「クラウドネイティブ会議」に、株式会社フィックスターズも参加しました。本イベントは、Kubernetesをはじめとするクラウドネイティブ技術の最前線を共有する場として、国内のエンジニアや企業から広く注目を集めました。\n本記事では、5月15日に行われたフィックスターズ CTO 飯塚 拓郎によるセッション「実践A",
+      "published": "2026-06-02T04:00:05+00:00",
+      "source": "Zenn - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "バイブコーディングの“プロトタイプで止まりがち”問題に「バイブ清書」が切り込む",
@@ -65,28 +173,10 @@
       "color": "#10A37F"
     },
     {
-      "title": "初心者の壁⑪ dynamicは何でも出し入れ可能な便利な箱だと思っていたらFlutterとケンカになった話",
-      "link": "https://qiita.com/KyokoCow/items/3e98dbd05325b6a510b2",
-      "summary": "私：この100をdynamicに入れといて。後でスライドバーが取りに来るからよろしく。\nFlutter：わかりました。\nスライドバー：doubleくださいな。\nFlutter：ちょっと見てきますね…そんなものはありません。\n私：さっき100渡したでしょ。\nFlutter：...",
-      "published": "2026-06-02T03:55:34+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "LinuxカーネルにおけるWritebackと動的スロットリングの観測、およびシステム閉塞のメカニズム（後編）",
       "link": "https://qiita.com/hanakata/items/c8e81ed82439ff6014eb",
       "summary": "はじめに\n続いて後編です。\n前編でやった、Buffered I/Oがメモリ空間への即時コピーからシステム凍結（ストール）へと至る「破綻のメカニズム」についてcgroupによる隔離空間においてはどのように変化するのかを掘り下げます。\n基本的にコードは同じ\nclass Dir...",
       "published": "2026-06-02T03:55:07+00:00",
-      "source": "Qiita - インフラ",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "LinuxカーネルにおけるWritebackと動的スロットリングの観測、およびシステム閉塞のメカニズム（前編）",
-      "link": "https://qiita.com/hanakata/items/f0f03a5fbd61196f247b",
-      "summary": "はじめに\nLinuxカーネルにおいて、Buffered I/OはディスクI/Oのレイテンシを隠蔽する強力な機構です。\n本稿では、VFSから物理メモリのアロケーション（バディシステム）、ファイルシステムのメタデータロック、そしてDirect Reclaimに至るフルレイヤー...",
-      "published": "2026-06-02T03:53:14+00:00",
       "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
@@ -200,29 +290,11 @@
       "color": "#10A37F"
     },
     {
-      "title": "本番環境で震えないためのシェルスクリプト術：${VAR:?}による防壁とSSH/SCPの権限エラー解消",
-      "link": "https://qiita.com/kane_ryu/items/bb3d1da5c231e4dc3c47",
-      "summary": "はじめに\nデータ移行という「ミスが許されない現場」でシェルスクリプトと向き合い続けて気づいたことがあります。\n\nスクリプトの問題は「書いたコマンドが間違っていること」より、「意図しない状態で実行されること」の方が圧倒的に多い。\n\n典型的な「意図しない実行」のパターンは2つ...",
-      "published": "2026-06-02T02:57:13+00:00",
-      "source": "Qiita - インフラ",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "AIは会話の流れで点数を上げる——欠点を知って使うこと",
       "link": "https://qiita.com/himajisan/items/cd16badb827941124152",
       "summary": "今日、一つの実験をした。\n自分の記事をAIに採点させ、磨かせた。88点の素材が、対話を重ねるうちに97点になった。\nしかし最後に問い直した。「本来何点になったんだ」と。\nAIは正直に答えた。91〜92点だと。\n88点から97点への上昇には、二つのものが混じっていた。本物の...",
       "published": "2026-06-02T02:34:35+00:00",
       "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AIは会話の流れで点数を上げる——欠点を知って使うこと",
-      "link": "https://qiita.com/himajisan/items/cd16badb827941124152",
-      "summary": "今日、一つの実験をした。\n自分の記事をAIに採点させ、磨かせた。88点の素材が、対話を重ねるうちに97点になった。\nしかし最後に問い直した。「本来何点になったんだ」と。\nAIは正直に答えた。91〜92点だと。\n88点から97点への上昇には、二つのものが混じっていた。本物の...",
-      "published": "2026-06-02T02:34:35+00:00",
-      "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -254,13 +326,13 @@
       "color": "#326CE5"
     },
     {
-      "title": "【2026年6月期限】AWS Storage Gateway（S3 File Gateway）をAL2→AL2023に移行してみた",
-      "link": "https://qiita.com/kai1013/items/993c43a256f30a9773c9",
-      "summary": "はじめに\nAWSは、Storage Gatewayアプライアンスの基盤OSを**Amazon Linux 2（AL2）からAmazon Linux 2023（AL2023）**へ移行するキャンペーンを実施しています。\n2026年6月30日を過ぎると、AL2ベースのゲートウ...",
-      "published": "2026-06-02T02:07:49+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "三菱重工とPFNが「国産AI技術」共同開発、安全保障などで活用　年度内に資本業務提携へ",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/02/2000000047/",
+      "summary": "Preferred Networksは、三菱重工業と国産AI技術の共同開発で業務提携すると発表した。国家安全保障分野などにおける機械やシステムの高度化を図る。",
+      "published": "2026-06-02T02:14:04+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "AWS Lambda Web AdaptorがGAしたので触ってみる",
@@ -270,15 +342,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "バッチファイルの妄執から「おかんのWebアプリ」へ：AIとの対話で気づいた、非エンジニアによる目的主導型要件定義",
-      "link": "https://qiita.com/Azarashi_struct/items/fc281590c0e549cd0e65",
-      "summary": "「最近、少しボケてきたかもしれない」とオカンが言いました。\n元々オカンは天然でしたが、心配になりました。\nこういう時、息子にできることは少なく……。\n何かできることないかなぁ……と検討した結果、私は自分が実践しているトランプ記憶術（メモリーパレス）を、おかんの脳内トレーニン...",
-      "published": "2026-06-02T01:43:36+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "Claude Code × Redshift Serverless 4-RPU で始めるコスト最適化データ基盤",
@@ -380,6 +443,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "「生成AIの回答、口コミより信頼できる」　買い物の情報源として……博報堂調査",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/02/2000000046/",
+      "summary": "買い物で生成AIを活用する人は全体の24.6％と、約4人に1人まで広がっている。",
+      "published": "2026-06-01T22:14:30+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "製造現場の「AIアレルギー」をどう払拭？　日立・新卒デジタル人材「3カ月奮闘記」",
       "link": "https://www.itmedia.co.jp/business/articles/2606/02/news023.html",
       "summary": "日立製作所は、AIやデータ解析の専門スキルを持つ新人データサイエンティストを、製造現場へと送り込んでいる。いかにして現場の「AIアレルギー」を払拭し、現場とのコミュニケーションを通じて業務時間を短縮する生成AIツールを定着させたのか。実習に参加した若手女性データサイエンティストの禹周賢（ウ・ジュヒョン）さん（デジタルアナリティクス推進部）と、受け入れ先の現場担当者にインタビューした。",
@@ -447,15 +519,6 @@
       "link": "https://www.itmedia.co.jp/aiplus/article/2606/02/2000000043/",
       "summary": "AnthropicがIPOに向け、SECに登録書類「S-1」のドラフトを非公開で提出した。直近のシリーズH資金調達での評価額は約9650億ドル（約154兆円）に達している。",
       "published": "2026-06-01T17:27:23+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Claudeのレート制限を“詫びリセット”、ProとMaxプラン向け　一部で「想定より速く使用量消費」",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/02/2000000042/",
-      "summary": "米Anthropicは、チャットAI「Claude」の有料プラン「Pro」「Max」のユーザーを対象に、5時間および週次のレート制限をリセットしたと発表した。",
-      "published": "2026-06-01T17:07:19+00:00",
       "source": "ITmedia AI+",
       "tag": "AI",
       "color": "#10A37F"
@@ -540,15 +603,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "「FDE」って結局、客先常駐SEのリブランディングじゃないの？　アクセンチュアに聞いてみた",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/01/2000000039/",
-      "summary": "AIプラットフォーム企業が掲げる新職業「FDE」（フォワード・デプロイド・エンジニア）は、客先常駐SEの焼き直しなのか。Microsoftと共同でFDE組織を立ち上げ、独自の「RDE」も打ち出すアクセンチュアの保科学世氏と片岡俊行氏に疑問をぶつけてみた。",
-      "published": "2026-06-01T14:27:17+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "Amazon Bedrock 経由で使える LLM の日本語ベンチマーク性能",
@@ -726,15 +780,6 @@
       "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260525/",
       "summary": "Amazon OpenSearch Serverless 次世代版が GA、Amazon WorkSpaces Applications が Windows Desktop OS をサポート、Claude Opus 4.8 が Amazon Bedrock および Claude Platform on AWS で利用可能に、AWS Organizations がアカウントメンバーシップ変更の Cl",
       "published": "2026-06-01T01:39:32+00:00",
-      "source": "AWS 公式ブログ（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AWS Transform と MGN レプリケーションエージェントインストール自動化による VMware マイグレーションの加速",
-      "link": "https://aws.amazon.com/jp/blogs/news/accelerating-vmware-migrations-with-aws-transform-and-mgn-replication-agent-installation-automation/",
-      "summary": "オンプレミスの VMware 環境から AWS への数百台のサーバー移行には、チーム、アカウント、ツール間の調整が必要です。ターゲット環境のセットアップ、ウェーブの計画、レプリケーションエージェントのデプロイ、進捗の監視、テストの実行、カットオーバーの実施が必要であり、多くの場合、複数の AWS アカウントにまたがります。各ステップはそれ自体が困難であり、マイグレーションを成功させるためには全体を",
-      "published": "2026-06-01T01:05:07+00:00",
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
@@ -1019,33 +1064,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "Kubernetes の 401 エラー：原因と解決策",
-      "link": "https://zenn.dev/errorlog/articles/el-kubernetes-401",
-      "summary": "エラーの概要\nKubernetesで401エラーが発生するのは、APIサーバーへのリクエストに対して認証に失敗した状態を示します。認証トークンの有効期限切れ、認証情報の不足、または権限がないServiceAccountの使用が典型的な原因です。このエラーが出ると、kubectlコマンドの実行やPodからAPIサーバーへのアクセスが拒否されます。\n\n 実際のエラーメッセージ例\nerror: You",
-      "published": "2026-05-29T13:04:16+00:00",
-      "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "Kubernetes の 400 エラー：原因と解決策",
-      "link": "https://zenn.dev/errorlog/articles/el-kubernetes-400",
-      "summary": "エラーの概要\nKubernetes APIサーバーへのリクエストが不正な形式や内容であることを示すHTTP 400エラーです。マニフェストファイルの構文エラー、API仕様に違反するフィールド値、または不完全なリクエストボディが原因となります。このエラーはクラスタとの通信に成功した後、サーバー側でリクエストの妥当性検証に失敗したときに発生する重要な診断シグナルです。\n\n 実際のエラーメッセージ例\n{",
-      "published": "2026-05-29T13:04:16+00:00",
-      "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "満員御礼！ Claude Code による開発体験ワークショップ【イベントレポート】",
-      "link": "https://aws.amazon.com/jp/blogs/news/claude-code-hands-on-workshop-with-nhn-techorus-2026/",
-      "summary": "アマゾン ウェブ サービス ジャパンのソリューションアーキテクト、齋藤です。 NHN テコラス様が主催する「は […]",
-      "published": "2026-05-29T12:17:28+00:00",
-      "source": "AWS 公式ブログ（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "May 29, 2026",
       "link": "https://docs.cloud.google.com/release-notes#May_29_2026",
       "summary": "Apigee X\nAnnouncement\nOn May 29, 2026, we released an updated version of the Apigee UI.\nFeature\nManage Spaces in the Apigee UI\nYou can now create, view, update, and delete spaces, and manage their Ide",
@@ -1053,15 +1071,6 @@
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "AWS上でSustainability Insights Framework (SIF) を使う方法",
-      "link": "https://aws.amazon.com/jp/blogs/news/howtouse-sif/",
-      "summary": "AWS Sustainability Insights Framework（SIF）は、組織がAWS上で炭素排出量を自動的に追跡し、気候関連レポートを作成するためのスケーラブルなソフトウェアプラットフォームです。従来の手動プロセスに代わり、モジュラーアーキテクチャを通じてデータ収集・計算・報告を自動化します。人的エラーの削減、動的なスケーリング、進化する規制への適応という3つの利点を提供し、あらゆ",
-      "published": "2026-05-29T06:07:50+00:00",
-      "source": "AWS 公式ブログ（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "May 28, 2026",
@@ -1158,15 +1167,6 @@
       "link": "https://docs.cloud.google.com/release-notes#May_24_2026",
       "summary": "Google SecOps\nFeature\n[Spotlight Feature] Create and manage calculated fields\nThe Calculated Fields feature is now available in Preview. With Calculated Fields, you can dynamically derive new data poi",
       "published": "2026-05-24T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "May 23, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#May_23_2026",
-      "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.85 is now available for all regions.",
-      "published": "2026-05-23T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
