@@ -1,6 +1,51 @@
 {
-  "updated": "2026-06-05T22:10:15.965997+00:00",
+  "updated": "2026-06-06T02:26:41.980356+00:00",
   "items": [
+    {
+      "title": "AWSのアーキテクチャ図を書くときのポイント",
+      "link": "https://qiita.com/Saba3/items/f3e2897b4b7ab6b80949",
+      "summary": "AWSのアーキテクチャ図を書くときのポイント\n\nアーキテクチャ図に正解はないので、基本的に自由に描いていい。\n「何を伝えるか」で、アイコンやサービスを省略したり追加したりする。\nまずは紙とペンで手を動かして書くことが上達の秘訣\n体裁は最終でいい（全体図をまずは完了させるこ...",
+      "published": "2026-06-06T01:50:02+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "【Route53 x ACM x CloudFront】構成をAWS CDKでコード化する",
+      "link": "https://qiita.com/jyas-protein/items/13c7a6777414af3ba1ce",
+      "summary": "はじめに\n今回は、前回の記事でAWSコンソール上で手動で設定した、\n独自ドメイン使用時のデプロイフロー（Route53 x ACM x CloudFront）構成を、\nAWS CDKを使ってコード化してみました（既存のCDKコードを編集しています）\n実装順に関連記事を公開...",
+      "published": "2026-06-06T01:24:18+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "ClickHouse Managed Postgres の CDC はどれくらい速い? Postgres→ClickHouse の増分レプリ遅延を実測してみた",
+      "link": "https://qiita.com/asahide/items/e9d930c90e8f893b8a42",
+      "summary": "1. はじめに\nClickHouse が公開ベータとして出している Postgres managed by ClickHouse（以下 Managed Postgres）には、Postgres の変更を ClickHouse のネイティブテーブルへ継続的に複製する CDC...",
+      "published": "2026-06-05T23:34:02+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AWS IAM Identity Center をオンプレミス AD と連携させる — Organizations 全機能有効化から AD Connector 設定まで",
+      "link": "https://qiita.com/shihopower/items/df05ed6336189ad749e7",
+      "summary": "はじめに\nどーも！shihopowerです！今回は AWS IAM Identity Center をオンプレミス AD と連携させる方法についてお話します。SAP 対策でこの辺の練習問題に出くわしたのですが、AD Connector やら AWS Managed Mic...",
+      "published": "2026-06-05T23:33:42+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "長い ChatGPT 会話を3秒で引き継ぐ蒸留テンプレ ── 全部覚えさせると AI は鈍る",
+      "link": "https://qiita.com/dosanko_tousan/items/af69341044e2ee642d3f",
+      "summary": "長い ChatGPT 会話を3秒で引き継ぐ蒸留テンプレ ── 全部覚えさせると AI は鈍る\n\nはじめに\nChatGPT の会話が長くなると、良い決定も設計も、その中に埋もれます。新しいスレッドに移ると文脈は切れる。かといって会話を全文コピーして次に渡すと、今度はノイズだ...",
+      "published": "2026-06-05T23:10:13+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "自動でブログを更新し続けるシステムを作る",
       "link": "https://qiita.com/EasyCording/items/a61151eaa73f9d5d1730",
@@ -20,13 +65,22 @@
       "color": "#10A37F"
     },
     {
-      "title": "Amazon VPC Lattice で CIDR 重複・ピアリングなしの 3 VPC 構成を試してみた",
-      "link": "https://qiita.com/s_moriyama/items/98eae899e5292efff695",
-      "summary": "はじめに\n最近、AWS Application Networking Demonstrated の microcredential を取得しました。\n\nその中で、Amazon VPC Lattice についての出題があったのですが、実際に触ったことがなかったので少し動...",
-      "published": "2026-06-05T19:48:53+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "ECA(Emacs)を導入した",
+      "link": "https://zenn.dev/wakamenod/articles/ae8a4ab4b625bb",
+      "summary": "ECA をEmacsに導入した。\n\n 設定\n(leaf eca\n  :pre-setq ((package-vc-selected-packages\n              . '((eca :url \"https://github.com/editor-code-assistant/eca-emacs\"))))\n  :ensure t\n  )\n\n M-x eca\n\nECAを起動したいプロジェ",
+      "published": "2026-06-05T17:57:07+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "DGX Spark + SGLang + Qwen3.6-35B-A3B-FP8 環境構築 その2: LiteLLM Proxy 活用",
+      "link": "https://zenn.dev/supertaro/articles/4744c929c8981c",
+      "summary": "DGX Spark 上の Docker 環境で、SGLang と Qwen/Qwen3.6-35B-A3B-FP8 を動かす構成についての続編です。\n前編はこちらです。\nDGX Spark + Docker + SGLang + Qwen3.6-35B-A3B-FP8 環境構築\n前編では、DGX Spark 上で SGLang の OpenAI-compatible API server を起動し",
+      "published": "2026-06-05T17:26:23+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "ArgoCD 101",
@@ -38,15 +92,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "ACM証明書をエクスポートしてオンプレミスのnginxに設置する",
-      "link": "https://qiita.com/yuri_snowwhite/items/cefeab7038a7849fb787",
-      "summary": "ご挨拶\n皆様、証明書管理ちゃんとしてますか？\n今回は、AWS Certificate Manager（ACM）で発行したワイルドカード証明書をエクスポートして、オンプレミスのnginxに設置した話です。\n\nやりたかったこと\n自前で管理しているサーバ（AlmaLinux 9...",
-      "published": "2026-06-05T15:45:26+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "Laravel/PDO を無改造のまま WebSocket トンネル越しに MySQL へ繋ぐ",
       "link": "https://zenn.dev/nogu_d626/articles/8a0549934bb683",
       "summary": "はじめに\n前回、mysql2 を無改造のまま WebSocket 越しに MySQL へ繋ぐ というのをやりました。mysql2 には stream オプションがあるので、ドライバの足元の socket を WebSocket 製の Duplex にすげ替えるだけで、ドライバ自身に WebSocket を喋らせられました。\nでは Laravel（PDO）でも同じことができるのか？ というのが今回で",
@@ -54,15 +99,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "AWS MLA",
-      "link": "https://qiita.com/yuippe/items/8d949c723256d33c0dd5",
-      "summary": "AWS Certified Machine Learning Engineer - Associate (MLA-C01) 完全まとめシート\n\n📘 AWS Certified Machine Learning Engineer - Associate (MLA...",
-      "published": "2026-06-05T14:34:24+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "OpenAI障害: Codex API・VS Code拡張など6サービスでパフォーマンス低下",
@@ -90,15 +126,6 @@
       "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "「AIエージェントは作る人の話」と思っていたインフラ屋が、この本(Amazon Bedrock AgentCore 実践入門)を読んだら",
-      "link": "https://qiita.com/asahide/items/1e7966040e74476b0bba",
-      "summary": "著者のみのるんさん（@minorun365）から『Amazon Bedrock AgentCore 実践入門 — Strands Agents で構築する AI エージェント [AWS深掘りガイド]』を頂いたので、書評を書きます。\n私は、自分の立ち位置——「エージェントを作...",
-      "published": "2026-06-05T14:08:39+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "M2のcompose.ymlをM1で動かした話",
@@ -133,6 +160,15 @@
       "summary": "!\n最先端AIを技術の中身まで日本語で読み解く「AIウォッチ」の記事です。題材は、RAG と Karpathy の LLM Wiki 構想です。一次情報（設計文書・インタビュー・元記事）の全文を当たって書いています。\n\nAI に資料を渡して質問する。その体験はこの一年でずいぶん便利になりました。ただ、半年ほど使った個人用の AI が、なぜか「初日と同じ」に感じることがあります。前に読ませたはずの論",
       "published": "2026-06-05T13:48:31+00:00",
       "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "英ケンブリッジ大学、AIが設計したワクチンの臨床試験に成功　未知の変異株にも備える“万能型”",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/06/2000000065/",
+      "summary": "ケンブリッジ大学は、AIが設計した抗原を用いる“ユニバーサルワクチン”の初の臨床試験に成功したと発表した。サルベコウイルス群のゲノム配列を機械学習で解析し、グループ共通の“スーパー抗原”を設計した。健康な39人に投与し、安全性と免疫応答を確認した。",
+      "published": "2026-06-05T13:27:33+00:00",
+      "source": "ITmedia AI+",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -200,15 +236,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "大人用「筑波大附属高校 AD=?」計算はsympyで、作図は手抜きです。",
-      "link": "https://qiita.com/mrrclb48z/items/d7903343abc31ad73c2f",
-      "summary": "・久しぶりに高校入試数学です。\n・いつもの方法です。②省略　FreeCAD作図を忘れてしまいました。ChatGPT先生へ。です。\n・web上のsympy Liveで。??? ＞ぜひともやってみて下さい。それでは。\n\nオリジナル\nYUUU0123 様 (0:00〜5:26) ...",
-      "published": "2026-06-05T11:09:03+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "OIDC ≠ 最小権限 — 短期認証情報が S3 にアクセスできることをデモで確認する",
       "link": "https://zenn.dev/hisa_tech_2973/articles/ae8a6bec53c1a4",
       "summary": "はじめに\n前回の記事では、GitHub Actions Secrets に AWS キーを保存する方式のリスクと、OIDC による根本的な改善方法を解説しました。\nhttps://zenn.dev/hisa_tech_2973/articles/9f41f231827ec4\n前回のデモでは OIDC で認証後に aws sts get-caller-identity を実行し、「Secrets な",
@@ -267,24 +294,6 @@
       "link": "https://zenn.dev/kamuidash/articles/444c138283e0c9",
       "summary": "デプロイ&amp;ホストという手間を解消したい\n長年ソフトウェアエンジニアをやってきて、本業や副業での受託開発、個人開発含め様々なアプリやシステム開発をしてきました。その時にいつも困る、どこでホストするか問題。\nAWSを使うのは少し手間、HerokuやRenderのようなPaaSでサクッとホストしたいのが本音。でも値上がり、リージョンの問題、コールドスタート問題など微妙にしっくりこない感じ。\nそこ",
       "published": "2026-06-05T10:10:05+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "システムプロンプト3万トークンのLLMに作業をさせてはいけない",
-      "link": "https://zenn.dev/echosphere/articles/dont-make-heavy-prompt-llm-work",
-      "summary": "長い会話の途中で書かせたコードは、雑になる。\nClaude Codeでもcursorでも、50往復したセッションでの出力と、/clearした直後の出力を比べれば誰でも分かる。何が起きているかは直感的には「モデルが疲れた」で片付けられがちだが、実際にはそうじゃない。\nEMNLP 2025の論文[1]が示した結論はシンプルで、少し怖い。 コンテキストが長いと、それだけで性能が落ちる。検索精度を完璧にし",
-      "published": "2026-06-05T10:03:39+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "LLMの挙動を「認知・出力・対話」に分割して制御するプロンプト設計ログ",
-      "link": "https://zenn.dev/hinaena/articles/6819bcb27c1bcd",
-      "summary": "はじめに\n本記事は、LLMの出力挙動を安定させるために設計・調整してきたプロンプトの構造と、その思想的背景を整理したものである。\n目的は単なる性能向上ではなく、\n\n会話としての自然さの維持\n内部思考の構造化\n不確実性と誤推論の抑制\n長期対話における文脈安定化\n\nを同時に成立させる制御設計を作ることである。\n\n\n プロンプト本体（実運用版）\n以下が実際に使用しているプロンプト構造である\n[PURPO",
-      "published": "2026-06-05T10:00:07+00:00",
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
@@ -612,15 +621,6 @@
       "source": "Qiita - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "AIがAIを作る時代の到来か──Anthropicが示す「再帰的自己改善」の実態とリスク",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2606/05/2000000061/",
-      "summary": "Anthropicは、AIが自ら開発を担う「再帰的自己改善」に関する考察を公開した。社内コードの8割以上をClaudeが執筆するなど自動化が進む現状を明かす一方、制御不能に陥るリスクを警告。他社と検証可能な形で開発を減速・一時停止できる国際協調体制の構築と、選択肢を持つべきだと提唱している。",
-      "published": "2026-06-04T13:05:15+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "Terraform × GitHub Actions でサーバーレス構成を「モジュール単位」で管理する——大改造の実装編",
