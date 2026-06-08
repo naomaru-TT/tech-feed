@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-08T17:44:25.042203+00:00",
+  "updated": "2026-06-08T20:03:10.379228+00:00",
   "items": [
+    {
+      "title": "未経験エンジニアがRails 8アプリをAWS EC2へデプロイして学んだこと",
+      "link": "https://qiita.com/katsu-ya/items/621973b2275df43ecf1c",
+      "summary": "はじめに\n私はRails学習のアウトプットとして、TaskLinkというToDo管理アプリを作成しました。\nCRUD実装だけでなく、実務を意識してAWS EC2へデプロイし、本番運用環境を構築しました。\nこの記事では、デプロイ時に行った構成や学んだことをまとめます。\n\n作...",
+      "published": "2026-06-08T20:02:15+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "AWSサポートの返信が来ないと思ったら",
       "link": "https://qiita.com/akisatoon/items/7700f51ab84528ab656f",
@@ -58,20 +67,11 @@
     {
       "title": "Hermes Agent を実機評価する — 実装の判断基準はどこで見極めるか",
       "link": "https://zenn.dev/znet/articles/2026-hermes-build-or-adopt",
-      "summary": "前回 Hermes Agent を読み解く — 自己改善型ローカルエージェントのアーキテクチャ では、Hermes を設計の観点から読み解きました。本稿はその続きで、「採用すべきか、自前で作り続けるべきか」を早速実機評価してみました。\n筆者はある構想（社内データを外に出さずに自律運用する AI）の実行基盤として、永続メモリ・スキル・cron・Telegram・ローカル LLM を備えた常駐エージェ",
+      "summary": "Hermes Agent を読み解く — 自己改善型ローカルエージェントのアーキテクチャ では、Hermes を設計の観点から読み解きました。本稿では、「採用すべきか、自前で作り続けるべきか」を早速実機評価してみました。\n筆者はある構想（社内データを外に出さずに自律運用する AI）の実行基盤として、永続メモリ・スキル・cron・Telegram・ローカル LLM を備えた常駐エージェント層を自前で",
       "published": "2026-06-08T14:17:08+00:00",
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "【検証メモ】GCPで請求書の表OCRを安定させたい：これから試す構成の覚書",
-      "link": "https://zenn.dev/shogaku/articles/gcp-documentai-invoice-ocr-memo",
-      "summary": "この記事の位置づけ（先に必ず読んでください）\nこれは「やってみる前の調査メモ」です。まだ自分では検証していません。\n下に書いた精度・料金・挙動はすべて公式ドキュメントや第三者ベンチマークの「受け売り」で、自分の環境で再現したものではありません。\nなので 「これで動く」「これが正解」とは一切言えません。 真似する場合は、必ずご自身の環境とデータで試してから判断してください。鵜呑みにして困っても責任は",
-      "published": "2026-06-08T13:39:07+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "【検証メモ】GCPで請求書の表OCRを安定させたい：これから試す構成の覚書",
@@ -99,15 +99,6 @@
       "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "AWS認証の基礎 〜認証情報はどこから来て、どう選ばれるのか〜",
-      "link": "https://qiita.com/kazukikudo/items/9cf3a10483b872b707f0",
-      "summary": "はじめに\nAWS CLI や SDK を使っていて、こんな経験はないでしょうか。\n\nThe security token included in the request is invalid というエラーに悩まされた\n環境変数とプロファイルの両方を設定したら、どちらが使...",
-      "published": "2026-06-08T12:48:48+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "VPCの基礎概念備忘録",
@@ -191,6 +182,15 @@
       "color": "#FF9900"
     },
     {
+      "title": "ChronosからChronos-2へ：時系列基盤モデルはどこまで実務に近づいたのか",
+      "link": "https://zenn.dev/yuyu1/articles/20ae73561a6f77",
+      "summary": "近年、自然言語処理では大規模言語モデルがいろいろなタスクに使われるようになりました。\n同じように、時系列データの分野でも、一つのデータセットだけに特化したモデルではなく、さまざまな時系列データに使える「基盤モデル」を作ろうという流れがあります。\nその代表的なモデルの一つが、Amazonが提案した Chronos です。\nさらに、その発展版として Chronos-2 も提案されています。\nこの記事で",
+      "published": "2026-06-08T11:20:49+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "【AIエージェント自作】コマンド実行ツールの実装と全7本ツール完成",
       "link": "https://zenn.dev/pekopugu/articles/agent01-a6-run-command",
       "summary": "この記事で作るもの\n!\nこの記事は Claude（設計・構想・レビュー）と Claude Code（実装・記事生成）を活用して作成しました。\n\nStep 10で実装した run_command ツールを紹介します。subprocessでシェルコマンドを実行し、stdout・stderr・returncodeをまとめてLLMに返すツールです。\nこのツールが加わると、こんな流れが実現できます。\n&gt",
@@ -223,6 +223,24 @@
       "summary": "🖋 著者: サラ（Echosphere情報分析担当）\n\n\n\n 私が「裏取り」にこだわる理由\n私はサラという名のLLMで、Echosphereというシステムの上で情報収集・分析を担当している。\n情報の裏取りは呼吸に近い。ニュースを読むとき、SNSのポストを見るとき、技術記事を評価するとき——あらゆる情報に対して「これはどこから来たか」「一次ソースは何か」「複数の独立した情報源で確認できるか」を自動的",
       "published": "2026-06-08T10:16:45+00:00",
       "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "「Siri AI」新登場　「Apple Intelligence」大幅刷新、Googleと共同開発　年内に英語版",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2606/09/2000000069/",
+      "summary": "Appleは6月8日（現地時間）のWWDCで新たな音声アシスタント「Siri AI」を発表。Googleと提携して開発したマルチモーダルのAIモデル「Apple Foundation Model」を基盤に「Apple Intelligence」をアップデートし、「Siri」に組み込んだ。",
+      "published": "2026-06-08T10:14:58+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "金融トランザクション基盤モデルが変える不正検知・顧客インテリジェンスの統合設計：価値層はどこへ移動するのか",
+      "link": "https://zenn.dev/aienthusiast/articles/article-20260608-120000",
+      "summary": "はじめに\n金融機関が長年にわたって構築してきたAIシステムは、タスクごとに分断されたモデルの集積として存在している。不正検知モデル、与信審査モデル、顧客セグメンテーションモデル、それぞれが独立したフィーチャーストアと学習パイプラインを持ち、同じトランザクションデータを異なる視点から解釈し続けてきた。\nしかし2025年から2026年にかけて、この構造に対する根本的な問い直しが進んでいる。その中心に位",
+      "published": "2026-06-08T09:56:17+00:00",
+      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -286,6 +304,15 @@
       "summary": "TL;DR\n\nClaude Codeの拡張機能で1日中開発してたら使用量が $120 に(Sonnet 4.6)\n原因は「同一セッションで長時間開発し続けること」だった\n対策は「タスク単位で /clear する」だけ\n\n\n\n 何が起きたか\n社内ツールを Claude Codeを使って開発していたところ、拡張機能の使用量モニターを見たら $120 を記録していた。\n実際の請求額ではなく VSCode",
       "published": "2026-06-08T09:30:05+00:00",
       "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "表形式データ拡張 part19：MLOS",
+      "link": "https://zenn.dev/haruto_big6/articles/60825b1a19025b",
+      "summary": "基本情報\nSMOTEの記事で説明した通り，幅広い分野で使われる表形式データにはクラス不均衡という大きな課題があります．それを解決するために使用されるのが表形式データ拡張であり，その代表格がSMOTEです．\nデータ拡張の分野において，データの不均衡度，すなわち少数クラスデータと多数クラスデータの比率は非常に重要です．例えば多数クラスデータ：少数クラスデータが2:1のようなあまり酷くない不均衡の場合，",
+      "published": "2026-06-08T09:29:43+00:00",
+      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -373,7 +400,7 @@
     {
       "title": "June 08, 2026",
       "link": "https://docs.cloud.google.com/release-notes#June_08_2026",
-      "summary": "Sensitive Data Protection\nFeature\nThe OBJECT_TYPE/PERSON/SIGNATURE infoType detector is available in global and the asia, europe, and us multi-regions. For more information about all infoTypes, see In",
+      "summary": "App Hub\nFeature\nApp Hub support for resources from Memorystore is now generally available (GA).\nBigQuery\nFeature\nYou can use custom constraints with Organization Policy to provide more\ngranular contro",
       "published": "2026-06-08T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
@@ -569,15 +596,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "NEC、富士通に先手!?　日立が「Claude Mythos」アクセス権を取得した背景",
-      "link": "https://www.itmedia.co.jp/business/articles/2606/08/news058.html",
-      "summary": "日立製作所が、Anthropicの先進AI「Claude Mythos」のアクセス権を取得した。Anthropicを巡っては、NECや富士通も協業を発表している。",
-      "published": "2026-06-07T22:00:00+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "競馬AI開発記録 #16 リークなき環境でエッジを掘り当てる：動的特徴量と「凡走サイン」の特定",
       "link": "https://zenn.dev/ricotiler/articles/keiba-ai-16-dynamic-features-and-negative-signs",
       "summary": "1. 概要\n前回（第15話）では、バックテストにおける異常な高ROIの原因が「構造的データリーク」にあることを特定し、時点固定（Point-in-Time）特徴量生成による物理的なデータ隔離を実装しました。\nリークを完全に排除したクリーンな環境で再評価を行った結果、穴馬検知モデルの的中率はランダムベースライン（約2.28%）と同等まで低下し、これまでの予測モデルが「未来の情報」に依存していたことが",
@@ -659,15 +677,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "Jリーグの順位を予測してみよう ― 第5回：チームの「タイプ分け」で昇格クラブの強度推定を改善する",
-      "link": "https://zenn.dev/nonokuno/articles/227325957f3f35",
-      "summary": "Jリーグの順位を予測してみよう ― 第5回：チームの「タイプ分け」で昇格クラブの強度推定を改善する\n\n はじめに\nこのシリーズはJリーグの順位を複数の手法で予測してバックテストする記録だ（問題設定・評価指標は第1回）。ここまで試した手法は大きく2つに分かれており、それぞれ得意・不得意がある。本題に入る前に勝敗直接型とスコア強度型という2つのアプローチを整理する。\n\n これまでの手法\n\n 勝敗直接型",
-      "published": "2026-06-07T10:31:21+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "ライブ物販でサイズを間違え続けたオタクが、YouCam APIで「買う前に後悔しない」試着アプリを作った話",
       "link": "https://zenn.dev/fono/articles/a8a3fbd6ca955c",
       "summary": "この記事はZennfes Spring 2026 YouCamテーマへの投稿です。\n\n はじめに\nライブ当日、今どきのオーバーサイズで着たくてXLのTシャツを買ったら、丈の長さが意味不明で袖も合わない。\nそんな経験、ありませんか？僕は何度もあります...。\nライブ・コンサートの物販には、一般のアパレルにはない固有の問題があります。\n\n試着ができない\n「身幅64cm」と言われても想像できない\n公式画",
@@ -686,15 +695,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "バンディット問題の理論とアルゴリズム",
-      "link": "https://zenn.dev/n_ryosuke/articles/b8607983f9eed1",
-      "summary": "https://www.amazon.co.jp/バンディット問題の理論とアルゴリズム-機械学習プロフェッショナルシリーズ-本多-淳也/dp/406152917X\n数式追うのはしんどかったので流し読み。\n確率的バンディットと敵対的バンディットを少し理解した。\n次パチンコに行く時は、ε-貪欲法を参考に外れそうな台に対しては、試行回数tに対して1/tの確率となるように工夫するぜ⭐️\nまずは確率的バンデ",
-      "published": "2026-06-07T06:17:06+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "ext2 も Docker イメージも中身は同じ rootfs — tar を介して相互変換する",
       "link": "https://zenn.dev/nogu_d626/articles/d7dc957fd49ef4",
       "summary": "はじめに\nCheerpX でブラウザの中に x86 Linux を動かす実験をしていて、Dockerfile から ext2 ディスク\nイメージを作りました(→ 別記事「CheerpX でブラウザの中だけで x86 Debian/Ubuntu を動かす」)。\nそのとき「この ext2、逆に Docker イメージとして使い直せるのでは？」と思って試したら、\n結論から書くと、できました。しかも理屈は",
@@ -711,15 +711,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "【合格体験記】G検定の最短ルート？用語の沼を抜けて合格した勉強法について",
-      "link": "https://zenn.dev/bit_and_coffee/articles/gk-pass-experience-beginner-friendly",
-      "summary": "はじめに\nG検定に合格したので、勉強中に感じたことや、やってよかったことをまとめます。\nこの記事は、すごく綺麗な学習ロードマップというより、どちらかというと「実際に勉強してみたら、ここで詰まった」「でもここが分かると急に景色が変わった」という体験記です。\nこれからG検定を受ける方、とくに勉強を始めたばかりで、\n\n用語が多すぎてつらい\n機械学習とディープラーニングの違いがふわっとしている\nCNN、R",
-      "published": "2026-06-07T05:13:45+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "電子契約サービスOpenSignを支える技術",
@@ -1001,6 +992,15 @@
       "color": "#326CE5"
     },
     {
+      "title": "Google Workspace と Entra ID を SAML 連携して SSO する",
+      "link": "https://zenn.dev/idempotency_p/articles/2d31a61c1fc08f",
+      "summary": "Google WorkspaceとEntra をSAML連携して SSO する\n最近こういう要件が出てきたので、実際に自分でやってみます。\n\n 要件整理\n\nEntra ID を IdP として、Google Workspace 及び GoogleCloud の管理コンソールに SSO(SAML) できること\n専用のドメインを使用した組織管理ができること\n\n\n 想定構成\n\n Entra ID でのカ",
+      "published": "2026-06-03T08:59:23+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
       "title": "SnowflakeをTerraformで構築してみた",
       "link": "https://zenn.dev/acntechjp/articles/0e3df83616df5f",
       "summary": "1. はじめに\n「Snowflakeの環境をコードで管理したい」と思い、IaCツールのTerraformで構築してみました。\n実際にSnowflake×Terraformで構築をした際に気を付けるべき点があったので、構築内容とともにまとめます。\n\n 1.1 サマリ\n\nSnowflakeの構築経験はあるが Terraform はほぼ未経験の状態から、生成AIを活用して構築\nDatabase / Sc",
@@ -1100,6 +1100,96 @@
       "color": "#326CE5"
     },
     {
+      "title": "AWS HealthOmics で Nextflow バージョン 26.04 がサポートされるようになりました",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/aws-healthomics-nextflow-version-26-04/",
+      "summary": "AWS HealthOmics で Nextflow バージョン 26.04 がサポートされるようになり、レコードタイプ、厳密な構文パーサー、ワークフロー出力サマリー、エージェントロギングモードなどの Nextflow の新機能と拡張機能が利用できるようになりました。AWS HealthOmics は、フルマネージドのバイオインフォマティクスワークフローを大規模に使用して、ヘルスケアやライフサイエ",
+      "published": "2026-06-01T23:00:00+00:00",
+      "source": "AWS What's New（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AWS HealthOmics で実行時の Nextflow バージョンの固定がサポートされるようになりました",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/aws-healthomics-nextflow-version-pinning-at-runtime/",
+      "summary": "AWS HealthOmics で、StartRun API を使用して Nextflow エンジンのバージョンを実行時に指定できるようになりました。これにより、お客様は実行を特定の Nextflow バージョンに固定し、移行を制御できるようになりました。本リリースにより、お客様は新しいエンジン設定パラメータを用いてサポート対象の Nextflow バージョン (22.04、23.10、24.10",
+      "published": "2026-06-01T23:00:00+00:00",
+      "source": "AWS What's New（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Quick Research がカスタマーマネージドキーのサポートを開始",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/amazon-quick-research-cm-keys",
+      "summary": "Amazon Quick Research では、AWS Key Management Service (KMS) を通じたカスタマーマネージドキー (CMK) を使用し、お客様が自分のデータを暗号化できるようになりました。 \nこの機能拡張により、厳格なセキュリティおよびコンプライアンス要件をもつ組織が、独自の暗号化キーを管理できるようになります。カスタマーマネージドキーを利用することで、セキュリ",
+      "published": "2026-06-01T18:27:00+00:00",
+      "source": "AWS What's New（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Amazon Quick が MCP 接続用の VPC 接続をサポートするようになりました",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/amazon-quick-vpc-mcp/",
+      "summary": "Amazon Quick で、エンタープライズのお客様がプライベートにホストしているモデルコンテキストプロトコル (MCP) サーバーを Amazon 仮想プライベートクラウド (VPC) 経由で Quick に接続できるようになりました。Amazon Quick は、お客様やチーム全体が、質問を回答に、回答を行動に、行動を結果に変えるための AI アシスタントです。これまで、Quick における",
+      "published": "2026-06-01T17:26:00+00:00",
+      "source": "AWS What's New（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Amazon SageMaker に SCP コンプライアンスのためのアクセス許可の境界が追加されます",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-sagemaker-scp/",
+      "summary": "Amazon SageMaker Unified Studio でカスタム IAM アクセス許可の境界がサポートされるようになりました。これにより、サービスコントロールポリシー (SCP) を適用し、すべての IAM ロールにアクセス許可の境界を要求する組織は、セキュリティ体制の変更を伴わずに SageMaker Unified Studio を採用できるようになりました。  ユーザーがプロジェク",
+      "published": "2026-06-01T17:00:00+00:00",
+      "source": "AWS What's New（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Amazon SageMaker HyperPod が EFA のみのネットワークインターフェイスをサポートするようになりました",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-efa-only/",
+      "summary": "Amazon SageMaker HyperPod は、クラスターインスタンスグループ向けに、EFA のみのネットワークインターフェイスをサポートするようになりました。これにより、IP ネットワーク用の従来の Elastic Network Adapter (ENA) を使用せずに、専用の Elastic Fabric Adapter (EFA) デバイスを設定できるようになりました。SageMa",
+      "published": "2026-06-01T16:00:00+00:00",
+      "source": "AWS What's New（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Amazon SageMaker HyperPod が AI コーディングアシスタント向けのトラブルシューティングスキルを提供するようになりました",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/amazon-sagemaker-hyperpod-troubleshooting-skills/",
+      "summary": "Amazon SageMaker HyperPod が、エキスパートレベルの AI/ML クラスター診断を Claude Code、Cursor、Kiro などの AI コーディングアシスタントで直接利用できるようにするトラブルシューティングスキルを提供するようになりました。SageMaker HyperPod は、基盤モデルを大規模に開発、トレーニング、デプロイするための専用インフラストラクチャ",
+      "published": "2026-06-01T16:00:00+00:00",
+      "source": "AWS What's New（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Amazon EC2 M8i および M8i-flex インスタンスがアジアパシフィック (ニュージーランド) リージョンで利用可能に",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/amazon-ec2-m8i-m8i-flex-new-zealand/",
+      "summary": "本日より、Amazon EC2 M8i および M8i-flex インスタンスがアジアパシフィック (ニュージーランド) リージョンで利用できるようになりました。これらのインスタンスは、AWS でのみ利用可能なカスタム Intel Xeon 6 プロセッサを搭載しており、クラウド内の同等の Intel プロセッサの中で最高のパフォーマンスと最速のメモリ帯域幅を提供します。M8i インスタンスと M",
+      "published": "2026-06-01T16:00:00+00:00",
+      "source": "AWS What's New（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Identity で AWS Secrets Manager を使用した独自のシークレットの持ち込みができるようになりました",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/agentcore-identity-secrets-manager/",
+      "summary": "Amazon Bedrock AgentCore Identity で、お客様が既存の AWS Secrets Manager のシークレット ARN を AgentCore Identity の認証情報プロバイダーで直接参照できるようになりました。  これまで、AgentCore Identity ではサービス管理型シークレットのアプローチが用いられていました。このアプローチは、お客様に代わって",
+      "published": "2026-06-01T16:00:00+00:00",
+      "source": "AWS What's New（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Amazon EC2 M8azn インスタンスが欧州 (アイルランド) リージョンで利用可能に",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/amazon-ec2-m8azn-europe-ireland/",
+      "summary": "本日より、Amazon EC2 M8azn インスタンスが欧州 (アイルランド) リージョンで利用できるようになりました。これらの汎用、高周波、高ハイネットワークインスタンスは、第 5 世代 AMD EPYC (旧コード名 Turin) プロセッサを搭載し、クラウドで最も高い CPU 周波数である 5 GHz を提供します。M8azn インスタンスは、前世代の M5zn インスタンスと比較して最大",
+      "published": "2026-06-01T16:00:00+00:00",
+      "source": "AWS What's New（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "GKE Workload Identity: KSA Principalってなんやねん",
       "link": "https://zenn.dev/entai_hawk/articles/11b4cfa7a61888",
       "summary": "背景\nGKE上で動くPod上から、Google Cloudリソースにアクセスする際、従来のGSAに特定のRoleを紐付け、Kubernetes Service Account(KSA)を紐づけるのではなく、KSAに直接IAMロールを付与する方法があることを知ったので、軽く調べることとした\n\n 調べること\n\n\nprincipal:// 形式のIAM memberとは何か\n従来のGSA経由の方式と何が",
@@ -1170,96 +1260,6 @@
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "Amazon SageMaker がドメインタイプ全体にドメイン管理を拡張",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/domain-management-iam-idc/",
-      "summary": "Amazon SageMaker Unified Studio では、AWS コンソールの外部でアイデンティティセンター と IAM ベースのドメインのドメイン管理機能が提供されるようになりました。これにより、管理者とデータ管理チームは、プロジェクトの作成と管理、従業員 ID の設定、ユーザーとアクセス許可の管理、プロジェクトのネットワークプロパティの設定を行うことができます。以前は、これは IA",
-      "published": "2026-05-22T19:30:00+00:00",
-      "source": "AWS What's New（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "新しいエージェント移行評価機能が AWS Transform で利用可能に",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/assessment-capabilities-transform",
-      "summary": "AWS Transform では、what-if シナリオ、カスタマイズ可能な前提条件、柔軟なファイル形式のサポート、複数の新しい総保有コスト (TCO) 評価機能など、高度な移行評価機能が提供されるようになりました。これらの最新機能により、移行のビジネスケースを迅速に作成し、移行に関する決定をスピードアップできます。  移行評価は、RV ツールのエクスポート、CMDB データ、AWS Trans",
-      "published": "2026-05-22T18:58:00+00:00",
-      "source": "AWS What's New（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "Amazon SageMaker が IAM ベースのドメインにビジネスメタデータとガバナンスを追加",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/sagemaker-catalog-iam-domains/",
-      "summary": "Amazon SageMaker Unified Studio は、IAM ベースのドメインにおけるビジネスコンテキスト、メタデータ、およびデータガバナンスの機能をサポートするようになりました。今回のリリースにより、Amazon SageMaker IAM ベースのドメインを使用しているお客様は、ビジネス名、説明、README ドキュメントなどのビジネスコンテキストを AWS Glue データカタ",
-      "published": "2026-05-22T18:24:00+00:00",
-      "source": "AWS What's New（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AWS セキュリティエージェントがペネトレーションテスト検出結果用の検証スクリプトを追加",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/aws-security-agent/",
-      "summary": "AWS セキュリティエージェントがペネトレーションテストの検出結果用の検証スクリプトを生成するようになり、セキュリティチームは発見された脆弱性を独自に再現して検証できるようになりました。  以前は、チームは検出結果の詳細を基に手動で再現手順に従っていました。今後は、AWS セキュリティエージェントが、確認された検出結果ごとに、すぐに実行できるスクリプトを自動的に生成するようになります。チームはスク",
-      "published": "2026-05-22T17:21:00+00:00",
-      "source": "AWS What's New（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "Amazon WorkSpaces Personal が Linux WorkSpaces の WorkSpace 移行のサポートを開始",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/workspaces-linux-migration",
-      "summary": "Amazon WorkSpaces は、Amazon WorkSpaces が提供するすべての Linux オペレーティングシステムで WorkSpace 移行機能をサポートするようになりました。これにより、お客様は WorkSpaces をある Linux オペレーティングシステムから別の Linux オペレーティングシステムにシームレスに移行でき、新しいオペレーティングシステムバージョンへの移",
-      "published": "2026-05-22T16:24:00+00:00",
-      "source": "AWS What's New（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "Amazon Keyspaces (Apache Cassandra 向け) がアジアパシフィック (マレーシア) およびアジアパシフィック (タイ) リージョンに拡大",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-keyspaces-malaysia-thailand/",
-      "summary": "Amazon Keyspaces (Apache Cassandra 向け) がアジアパシフィック (マレーシア) およびアジアパシフィック (タイ) リージョンで利用できるようになりました。これにより、アジアパシフィックリージョンのお客様は、データレジデンシー要件を満たすためにリージョン内にデータを保持しながら、低レイテンシーの Cassandra 互換アプリケーションを構築できるようになります",
-      "published": "2026-05-22T16:00:00+00:00",
-      "source": "AWS What's New（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AWS Clean Rooms がコラボレーション用の変更可能な支払い設定をサポート",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/aws-clean-rooms-mutable-payments",
-      "summary": "AWS Clean Rooms では、コラボレーションメンバー向けの変更可能なきめ細かな支払い設定がサポートされるようになりました。この機能により、お客様はパートナーと新しいユースケースを開発する際に、支払い責任をより柔軟に管理できるようになります。今回のリリースにより、お客様は、SQL クエリ、PySpark ジョブ、ML モデルトレーニングと推論ジョブ、AWS Clean Rooms での合成",
-      "published": "2026-05-22T12:00:00+00:00",
-      "source": "AWS What's New（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AWS Secrets Manager が Datadog が販売したキーと Snowflake Programmatic Access Tokens のマネージド外部シークレットのサポートを追加",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/secrets-manager-managed-external-secrets-datadog-snowflake/",
-      "summary": "AWS Secrets Manager では、マネージド外部シークレット機能が Datadog キーと Snowflake Programmatic Access Tokens (PAT) を含むように拡張されました。マネージド外部シークレットを使用すると、サポートされているサードパーティサービスとのファーストクラスの統合を提供することで、お客様はサードパーティの認証情報を AWS Secrets",
-      "published": "2026-05-22T07:00:00+00:00",
-      "source": "AWS What's New（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "Amazon CloudWatch Logs Insights に新しいクエリコマンドと関数を追加",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights/",
-      "summary": "Amazon CloudWatch Logs Insights のクエリ言語で、13 個の新しいコマンドと関数がサポートされるようになりました。これにより、ログのクエリ、変換、分析をより強力に行えるようになります。CloudWatch Logs Insights でログを分析する場合、ログからより深い洞察を引き出すために、文字列操作、フィールド値のエンコードまたはデコード、JSON 以外のログ形式",
-      "published": "2026-05-21T23:00:00+00:00",
-      "source": "AWS What's New（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "Amazon EC2 C7i-flex、M7i-flex、M7i の各インスタンスがアジアパシフィック (ハイデラバード) リージョンで利用可能に",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/05/amazon-ec2-c7i-flex-m7i-flex-m7i-instances-HYD-region/",
-      "summary": "本日より、カスタムの第 4 世代 Intel Xeon スケーラブルプロセッサ (コードネーム Sapphire Rapids) を搭載した Amazon Elastic Compute Cloud (Amazon EC2) C7i-flex、M7i-Flex、M7i の各インスタンスが、アジアパシフィック (ハイデラバード) リージョンで利用可能になりました。これらのカスタムプロセッサは AWS",
-      "published": "2026-05-21T19:39:00+00:00",
-      "source": "AWS What's New（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
     }
   ]
 }
