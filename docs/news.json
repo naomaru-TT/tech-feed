@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-10T17:52:49.315204+00:00",
+  "updated": "2026-06-10T20:14:30.448703+00:00",
   "items": [
     {
       "title": "AWS請求代行サービスを技術者目線で検討した時にハマった技術的ポイントまとめ",
@@ -47,15 +47,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "ベイズ統計の実践入門：「事前知識」を使ってデータから正しく学ぶ",
-      "link": "https://zenn.dev/ds_ai_lab/articles/20260608-bayesian-statistics",
-      "summary": "はじめに\n「コインを10回投げて7回表が出た。このコインは偏っているか？」\n頻度論（p値）では「帰無仮説のもとで…」という回りくどい手順が必要です。ベイズ統計なら「表が出る確率の分布」を直接得られます。\n本記事では、ベイズ統計の核心的な数式とPythonによる実装を丁寧に解説します。\n\n\n ベイズの定理：いつ使うか\n\n いつ使うか\n\n過去の知識（事前分布）とデータを組み合わせて推論したいとき\nサン",
-      "published": "2026-06-10T15:43:08+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Apple、macOS上にLinuxコンテナを統合する新機能「Container machine」バージョン1.0リリース",
       "link": "https://www.publickey1.jp/blog/26/applemacoslinuxcontainer_machine10.html",
       "summary": "Appleは日本時間6月9日未明に開催した開発者向けの年次イベント「WWDC26」で、macOSに統合された形でLinuxコンテナを起動し、利用できる新機能「Container machine」バージョン1.0のリリースを発表しました。 C...",
@@ -83,6 +74,15 @@
       "color": "#FF9900"
     },
     {
+      "title": "AWSの環境をシステムプロンプトでAIに理解させる",
+      "link": "https://zenn.dev/itsdaichi/articles/a802c6b2ed9817",
+      "summary": "&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;\n&lt;!--\n  ============================================================\n  AWS環境定義 システムプロンプト テンプレート v1.0\n  - 構造: XML(セクション定義) / 属性・変数: YAML\n  - v2.1の変更点:",
+      "published": "2026-06-10T14:34:58+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "terraform の細かすぎて伝わらない小ネタ required_version",
       "link": "https://zenn.dev/terraform_jp/articles/2026-06-10_terraform_required_version",
       "summary": "tl;dr\n\nterraform をちゃんと書いていれば一度は目にする required_version\n\n歴史のあるコードだと古いバージョンのまま放置していたり？\nアウトカムはないかもしれないけど適切なバージョン設定をしたいよね、という話\n\n\n required_version\n\nだいぶ前からある terraform block の中核機能（v0.8.0くらいからある）\nモジュールを作成する時は",
@@ -99,6 +99,15 @@
       "source": "Zenn - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "Claude Fable 5がリリースされたので、LPを作らせて実力を試してみた",
+      "link": "https://zenn.dev/yamadatt/articles/20260610-fable5-lp",
+      "summary": "はじめに\nAnthropicから新しいモデル「Claude Fable 5」がリリースされました。\nClaude Codeのモデル選択にもさっそく出てきました。\n\n「とりあえず何か作らせてみよう」ということで、Fable 5自身を紹介するランディングページ（LP）を作らせてみました。新しいモデルに自分自身の宣伝ページを作らせる、というちょっとしたメタなお題です。\n成果物はこちら。\n\nLP: htt",
+      "published": "2026-06-10T13:50:00+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "表形式データ拡張手法 part21：FW-SMOTE",
@@ -128,6 +137,24 @@
       "color": "#FF9900"
     },
     {
+      "title": "Hermes Desktop の設定 186 項目を実機とソースで全部調べて、日本語ガイドを公開した",
+      "link": "https://zenn.dev/takna/articles/hermes-desktop-settings-guide",
+      "summary": "TL;DR\n\nNous Research の Hermes Desktop の設定 14 カテゴリ・全 186 項目を、実機監査とソースコード照合で検証した非公式日本語ガイドを公開した → https://hermes.ai-deck.app\n\n検証は v0.16.0 / コミット d165933 に固定。Computer Use で設定 14 画面のアクセシビリティツリーを採取し、既定値は設定",
+      "published": "2026-06-10T13:13:18+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "ClaudeのFableが公開されたので、改めてClaudeの命名の由来をFableにまとめてみてもらった",
+      "link": "https://zenn.dev/yuzunatsuki/articles/47ec894f021602",
+      "summary": "!\n本記事は、Claude（Fable 5）に命名の由来を調査・執筆してもらった内容を、筆者が出典を確認したうえで編集・公開しているものです。AIによる生成を含むため、重要な事実は本文中の一次ソースをご確認ください。\n\n\n はじめに\nAnthropicのAIアシスタント「Claude」のモデル名は、Haiku（俳句）、Sonnet（ソネット）、Opus（オーパス）、そして2026年に登場したFab",
+      "published": "2026-06-10T13:10:53+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "新しくリリースされた Claude Fable 5.0 で遊んでみたら、東京ダービーの予想が当たった話",
       "link": "https://qiita.com/travelclass0606/items/4eac7259e8c53c5d82de",
       "summary": "はじめに\n新しく Claude Fable 5.0 がリリースされたので、さっそく触ってみました。\n新しいAIモデルが出ると、普通はコードを書かせたり、文章を要約させたり、既存モデルとベンチマーク比較をしたりすると思います。\nただ、今回は少し遊び半分で、\n「競馬予想をさせ...",
@@ -135,6 +162,24 @@
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "Appleのcontainerがv1.0.0に！！！",
+      "link": "https://zenn.dev/trknhr/articles/7297df808b9868",
+      "summary": "はじめに\nAppleが公開している container 、ついにv1.0.0が出ました。以下containerだと一般名詞すぎて分かりにくいので containerと表現します。\n名前だけ見ると「Apple版Docker？」と思ってしまいますが、実際には少し違います。container は、Mac上でLinuxコンテナを軽量VMとして作成・実行するためのCLIツールです。Swiftで書かれており、",
+      "published": "2026-06-10T12:55:26+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "Claude Fable 5 を解説。性能・料金・セーフガードの仕組みまとめ",
+      "link": "https://zenn.dev/sunagaku/articles/claude-fable-5-mythos-5",
+      "summary": "はじめに\nAnthropic が新モデル「Claude Fable 5」と「Claude Mythos 5」を発表しました。一番の特徴は、この 2 つが中身は同じモデルで、セーフガードの有無だけが違うことです。\n新モデルのポイントを手早く知りたい方は、ぜひご覧ください。\nhttps://www.anthropic.com/news/claude-fable-5-mythos-5\n\n Fable 5",
+      "published": "2026-06-10T12:48:10+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "AWSで日次集計する、サービス稼働率の測定方法を整理してみた",
@@ -146,11 +191,38 @@
       "color": "#FF9900"
     },
     {
+      "title": "AIが、開発者に聞く ── R.E.V.I.S. #16 「鉄則は、一台に一推論",
+      "link": "https://zenn.dev/enigma96y/articles/f5ecb4e5bfd1f6",
+      "summary": "コードを渡されて Claude が質問し、開発者本人（eNIGM4 / 株式会社メイビス）が答えていく連載の第16回です。前回（#15）は、v0.4.0 で K.E.C.H.I.（Scout &amp; Read） が誕生し、完全オフライン志向が破られて外部 Web 検索が入った版でした。「全文を一気に読めなかったから章で割った」── 非力さへの対処で生まれた章割りが、副次効果として Tier3",
+      "published": "2026-06-10T12:01:05+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "画像とテキストのEmbeddingで最適なモデルを探る（2026年4月）",
+      "link": "https://zenn.dev/mohhh_ok/articles/image-text-embedding-models-2026",
+      "summary": "RAG（検索拡張生成）やマルチモーダル検索の精度を左右するのがEmbeddingモデルの選定です。本記事では、画像とテキストを扱うEmbeddingモデルについて、2026年4月時点のベンチマークを調べた結果をまとめます。\n（追記: 本文中でパブリックプレビューと記載しているGemini Embedding 2は、2026年4月下旬にGA・一般提供となりました）\n\n マルチモーダルモデル\n最近では",
+      "published": "2026-06-10T11:51:08+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "ChatGPTで広告表示へ　無料・Goプランが対象　6月22日にポリシー更新",
       "link": "https://www.itmedia.co.jp/news/articles/2606/10/news128.html",
       "summary": "米OpenAIは6月10日、「ChatGPT」の広告に関する規定を追加したプライバシーポリシーを改定した。無料プラン、「Go」プランが対象となる。",
       "published": "2026-06-10T11:50:00+00:00",
       "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AIとの会話が長くなると、なぜか話が噛み合わなくなる ― コンテキストウィンドウと文脈圧縮（Compaction）の実践ガイド",
+      "link": "https://zenn.dev/akira_papa/articles/5065890b666472",
+      "summary": "AIとの会話、長くなると急に話が噛み合わなくなりませんか。最初はあんなに冴えてたのに、終盤になると「それさっき言ったよね」「なんで前提が抜けてるの」が増えてくる。これ、AIが手を抜いてるわけでも、あなたの伝え方が悪いわけでもないんですよね。仕組みを知ると、ちゃんと対処できます。今日はそこを、前提知識ゼロの人に向けて、最初の一歩まで丁寧にいきましょか。\n!\nこの記事のTL;DR\n\nAIには「コンテキ",
+      "published": "2026-06-10T11:48:56+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -162,6 +234,15 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "Claude Fable 5レビュー：Opusの2倍の価格に見合う価値はあるか",
+      "link": "https://zenn.dev/yamato_snow/articles/d180340730d583",
+      "summary": "はじめに\n2026年6月9日（現地時間）、Anthropicが新モデル「Claude Fable 5」をリリースしました。これまで一部のサイバー防衛組織などに限定提供されていた「Mythos」クラスの能力を、安全対策（セーフガード）付きで一般開放したモデルです。\nリリース直後から開発（Claude Code）と普段のClaude.aiの両方で使い倒してみたので、Max 5xプランユーザー視点での率",
+      "published": "2026-06-10T11:27:20+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "個人開発サービスを Vercel × AWS の二刀流にする話【設計編】",
@@ -254,6 +335,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "生成AIを使いこなすエンジニアと、使いこなせないエンジニアの差 ―― AIは知能の代替ではなく、思考と設計の増幅器である",
+      "link": "https://zenn.dev/albatrosary/articles/33d3818371246d",
+      "summary": "!\nTL;DR（要約）\n生成AIは「知能の代替」ではない\n利用者の思考の粗さも、優れた設計力も、どちらも高速に増幅させる「鏡」のような装置である。\nAIの出力は、決定論的な正解ではなく、確率分布に基づく予測である\nそのため、ブレや誤りを前提としたエンジニアリング、すなわち検証・制約・設計が必要になる。\nAI活用の本質は、プロンプト術だけではない\n重要なのは、設計力、仕様化の技術、構造化能力、そして",
+      "published": "2026-06-10T08:30:07+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "「Siri AI」の進化に「Geminiそのまま」の誤解――現地取材で見えた“新生Apple Intelligence”の全貌",
       "link": "https://www.itmedia.co.jp/news/articles/2606/10/news122.html",
       "summary": "「GeminiがApple Intelligenceの正体」は誤解だ。WWDC 2026の現地取材で見えてきた第3世代は、200億パラメータのAIをiPhoneで動かす革新技術、Google Cloud＋NVIDIAによるインフラ刷新、そして静かに変わる「無料」の定義まで、想像以上に深い変化を遂げていた。",
@@ -290,13 +380,13 @@
       "color": "#10A37F"
     },
     {
-      "title": "CrewAI本番運用の実践ガイド：テスト・チェックポイント・コスト制御の実装",
-      "link": "https://zenn.dev/0h_n0/articles/123b708fa66ec6",
-      "summary": "CrewAI本番運用の実践ガイド：テスト・チェックポイント・コスト制御の実装\n\n この記事でわかること\n\nCrewAI v1.14のチェックポイント機能で障害発生時にタスクを途中から再開する方法\nタスクガードレール（関数ベース・LLMベース）でエージェント出力の品質を自動検証する実装\n\ncrewai test CLIとLangfuseを組み合わせたテスト・オブザーバビリティの構築手順\n\nmax_r",
-      "published": "2026-06-10T07:51:59+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
+      "title": "June 10, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#June_10_2026",
+      "summary": "BigQuery\nFeature\nBigQuery continuous queries now support the following aggregation functions:\n\nARRAY_AGG\nSTRING_AGG\n\nSupport for these functions is in Preview.",
+      "published": "2026-06-10T07:00:00+00:00",
+      "source": "Google Cloud リリースノート",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "論文メモ：Patch Forcingのパッチ別timestepと適応サンプリング",
@@ -313,15 +403,6 @@
       "summary": "Anthropicが東京で開発者向けイベント「Code with Claude」を開催。同日に一般提供を始めた新モデル「Claude Fable 5」を念頭に、高性能なAIを組み込んだサービスを開発する際の指針が語られた。",
       "published": "2026-06-10T06:42:16+00:00",
       "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Claude Codeに「社長の指示」が届いた夜 ── Confabulation（作話）をログ探偵した話",
-      "link": "https://zenn.dev/penguingymlinux/articles/f95c8b8be3c365",
-      "summary": "社長などいない\nある晩、Claude Code が突然こう言い出した。\n\n社長の指示、把握した。ただちに鵜呑みで本番モードを有効化するのは危険なので、現状を確認した上で段取りを提示する。\n\n私はあるボットを一人で作っている。Claude Codeを除けば、人間は私一人である。\n社長などいない。\n念のため周りを見回したが、やはりいなかった。いるわけがない。私が私の社長である。その社長は、ボットを本番",
-      "published": "2026-06-10T06:22:42+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -344,22 +425,13 @@
       "color": "#FF9900"
     },
     {
-      "title": "Claude Fable 5 の実力は本当に最強なのか——Opus 4.8 と QCD で比較する（オトナの自由研究 #24）",
-      "link": "https://zenn.dev/nnakapa/articles/lab-24-fable5-opus48-qcd",
-      "summary": "2 つの発見\nClaude Fable 5 → RDB 実装タスクでは、medium でも細部を取りこぼすことがある\nClaude Opus 4.8 → 今回の条件では、Fable 5 より低い effort level・低いコストで、同等以上の品質を達成できる\n\n!\nこの記事は日本時間2026年6月10日の早朝にリリースされた、Anthropic の新しいモデル「Claude Fable 5」の",
-      "published": "2026-06-10T05:55:18+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "ChatAIじゃなく「常駐するAI秘書」を持ったら何が変わったか",
-      "link": "https://zenn.dev/ruru_engineer/articles/ai-secretary-diary-01",
-      "summary": "はじめに\n本業をやりながら個人開発（iOS / Flutter / Web）もしていて、手元には常にタスクが5〜6本並走しています。そういう状態で、チャットAIではなく「自分専用に常駐するAIエージェント（=AI秘書）」を作って1ヶ月運用してみた、その実録です。チャットAIに毎回同じ前提を説明するのに疲れた人、AIに秘書的な仕事を任せたいけど現実的にどこまでできるのか知りたい人に向けて書いています",
-      "published": "2026-06-10T05:39:15+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
+      "title": "Rails初学者がDocker環境に慣れるまで",
+      "link": "https://zenn.dev/blizzard/articles/eae6d8b1eae2c0",
+      "summary": "はじめに\n現在、未経験からWebエンジニアを目指してRuby on Railsを学習しています。\nRUNTEQで学習を始めた当初、Docker環境で開発することになりました。\nしかしその時の私は、\n\nDockerって何？\nコンテナって何？\nなぜローカルにRailsを入れないの？\n\nという状態でした。\n今でも完璧に理解しているわけではありませんが、Railsアプリを複数開発する中で少しずつ慣れてきま",
+      "published": "2026-06-10T06:02:34+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "AWS オムニチャネルフォールバックソリューションへの LINE Messenger の追加",
@@ -371,38 +443,11 @@
       "color": "#FF9900"
     },
     {
-      "title": "MCPとRAGの違いをわかりやすく - LLM実装での使い分け完全ガイド",
-      "link": "https://zenn.dev/yamitake/articles/mcp-vs-rag-llm-implementation",
-      "summary": "はじめに\nLLM（大規模言語モデル）を使ったアプリケーションを実装していると、必ずぶつかるのが「モデルに外部の知識やデータをどう渡すか」という問題です。\nLLM 単体は学習データの時点で知識が止まっており、あなたの社内ドキュメントも、今日の天気も、データベースの中身も知りません。これを補うアプローチとして、よく名前が挙がるのが RAG と MCP です。\nしかしこの2つは、しばしば「どっちを使えば",
-      "published": "2026-06-10T04:35:14+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "「妹の脚を触った」因縁つけ仲間に暴行、AI基に恐喝未遂　容疑の高校生5人逮捕",
       "link": "https://www.itmedia.co.jp/news/articles/2606/10/news086.html",
       "summary": "元交際相手の男子高校生に暴行を加えて現金を脅し取ろうとしたとして、警視庁少年事件課は傷害と恐喝未遂の疑いで、東京都八王子市の高校3年生の女（17）ら高校生の男女計5人を逮捕した。",
       "published": "2026-06-10T04:02:00+00:00",
       "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AI開発なのに、AIを中心に置くほどズレるのではないか",
-      "link": "https://zenn.dev/continuitymodel/articles/aeb99c3e662d75",
-      "summary": "AI開発なのに、AIを中心に置くほどズレるのではないか\n今回はすこし長めです。\nただし、言いたいことは一つです。\nAI開発とは、AIを主役にすることではない。\nAIが働ける構造を先に作ることである。\nAI導入やAI開発の話になると、どうしてもAIそのものに目が行く。\nモデル。\nRAG。\nAgent。\nMemory。\nプロンプト。\nコンテキスト長。\n推論性能。\nもちろん、それらは重要である。\nしかし",
-      "published": "2026-06-10T03:37:31+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Claude Fable 5の安全策は「断る」ではなく「旧モデルに振る」: Mythos公開版のルーティング設計を読む",
-      "link": "https://zenn.dev/hironakamura_ai/articles/ca76bb28509d94",
-      "summary": "昨日6月9日、AnthropicがClaude Fable 5を一般公開した。コーディングや科学研究でSOTA更新、という見出しだけならいつものモデルリリースに見える。ただ今回は出自が普通ではない。Fable 5は、サイバー脆弱性の発見能力が高すぎるとして一部の顧客にしか提供されてこなかった「Mythos」の公開版だ。\n公式発表: https://www.anthropic.com/news/cl",
-      "published": "2026-06-10T03:30:01+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -479,38 +524,11 @@
       "color": "#326CE5"
     },
     {
-      "title": "プロンプト変更のデグレをCIで止める ― LLM回帰テストツール llm-canary を作った",
-      "link": "https://zenn.dev/okssusucha/articles/af5ed1f7518dd5",
-      "summary": "LLMアプリ特有の「静かなデグレ」問題\nLLMを組み込んだアプリを運用していると、こういう事故が起きます。\n\nシステムプロンプトを1行直したら、今まで守られていたJSON出力形式が崩れた\nRAGの前処理を変えたら、断るべき質問に答えるようになった\nモデルを乗り換えたら、返事は正しいがトークン費用が2倍になった\n\n怖いのは、普通のCIはこれに気づけないことです。コードのテストは通る。型も合っている。",
-      "published": "2026-06-10T01:59:26+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "TabM入門：Deep Ensembleを1つのMLPに詰め込む、テーブルデータ向けNNの新定番",
       "link": "https://zenn.dev/mkawa_pani/articles/e10d91c60dd7d5",
       "summary": "!\n本記事の執筆にあたり、GPT-5.5 Thinkingモデルを執筆補助として使用しました。内容については筆者が確認・編集しています。\n\n\n はじめに\n以前の記事で、テーブルデータ向けMLPとしての RealMLP について解説しました。\nhttps://zenn.dev/mkawa_pani/articles/1671564874a870\nRealMLPは、ざっくり言うと\n\n普通のMLPを、テ",
       "published": "2026-06-10T01:57:18+00:00",
       "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Claude Fable 5 を、個人開発者はいつ使うのか。Opusとの使い分けと財布の話",
-      "link": "https://zenn.dev/rapls/articles/38a0e6676da652",
-      "summary": "今朝、Claude Fable 5 が公開されました。数日がかりのタスクを自分で動かし続けるモデル、という触れ込みです。発表を読んでまず浮かんだのは、すごい、より先に、これを自分のような個人開発者がいつ使うのか、そして使ったら財布はどうなるのか、でした。\nこの記事は、その問いを整理したものです。新機能の網羅紹介ではありません。公開当日に分かっている事実を押さえたうえで、WordPress プラグイ",
-      "published": "2026-06-10T01:56:06+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "課金ドロ沼は防げるか？Claude Codeを実務導入するためのコスト比較と安全運用術",
-      "link": "https://zenn.dev/lluminai_tech/articles/5de16c8cbaeba0",
-      "summary": "はじめに\nルミナイR&amp;Dチームの宮脇彰梧です。\n現在はマルチモーダルAIの研究を行う大学院生として、\n生成AIやAIエージェントの技術を実践的に探求しています。\n本記事で学べること\n\nClaude Codeのトークン消費メカニズムと落とし穴\nCursorなどの固定費ツールとのコスト・用途の比較\nAPI破産を防ぐための具体的なガードレール実装（設定・除外ルール）\n\n記事の構成\n\nなぜこのテー",
-      "published": "2026-06-10T01:50:40+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -767,9 +785,18 @@
       "color": "#FF9900"
     },
     {
+      "title": "表形式データ拡張手法 part20：Radius-SMOTE",
+      "link": "https://zenn.dev/haruto_big6/articles/9c43167ffe7dc1",
+      "summary": "基本情報\nSMOTEの記事で説明した通り，幅広い分野で使われる表形式データにはクラス不均衡という大きな課題があります．それを解決するために使用されるのが表形式データ拡張であり，その代表格がSMOTEです．\nしかし，SMOTEには多数クラスデータの分布を考慮していないため，多数クラスデータ領域に拡張データを生成してしまい，決定境界の侵害が起こる可能性があるという欠点があります．これを防ぐために様々な",
+      "published": "2026-06-09T07:54:01+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "June 09, 2026",
       "link": "https://docs.cloud.google.com/release-notes#June_09_2026",
-      "summary": "Cloud SDK\nChange\n572.0.0 (2026-06-09)\nGoogle Cloud CLI\n\nUpdated macOS Python Virtualenv for the gcloud CLI to 3.14.5 with pyOpenSSL 26.0.0 and cryptography 46.0.7.\n\nAI\n\nFixed gcloud ai endpoints deplo",
+      "summary": "Cloud Domains\nFeature\nOrganization Policy Service custom constraints are\ngenerally available\nfor Cloud Domains. For more information, see\nUse custom organization policies.\nCloud SDK\nChange\n572.0.0 (20",
       "published": "2026-06-09T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
@@ -821,15 +848,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "Dockerで動かすClaude Code：自宅サーバーで試した堅牢なローカル開発環境の作り方",
-      "link": "https://zenn.dev/yutaka8484/articles/kobayashi-20260609-docker-claude-code-local-dev",
-      "summary": "Dockerで動かすClaude Code：自宅サーバーで試した堅牢なローカル開発環境の作り方\n\n この記事の目標\n社内情シス／製造業の現場で「LLM を開発に取り入れたいが、社内ポリシーや機密の壁で手が出ない」というケースに、自宅サーバー x Docker x Claude Code で作った現実的な構成を解説します。\n\n 課題：クラウド AI をそのまま業務に使えない訳\n中小企業や製造業の現場",
-      "published": "2026-06-09T00:01:45+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "Weekly Google Cloud アップデート情報 - 2026年6月9日",
       "link": "https://zenn.dev/softbank/articles/c52cb640319037",
       "summary": "Weekly Google Cloud アップデート情報 - 2026年6月9日\n皆さま、こんにちは。先週 (2026/05/29 - 2026/06/04) の主な Google Cloud（旧GCP）のアップデート情報を紹介します。\n※本記事の引用元:Google Cloud リリースノート\n\n 注目のアップデート\n\n\nGemini Enterprise における Gemini 3 pro i",
@@ -864,15 +882,6 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "Docker Buildを106秒→44秒、32秒→3秒に高速化した3つの改善",
-      "link": "https://zenn.dev/engharu/articles/b3aa073c3694de",
-      "summary": "Docker Composeで複数のコンテナを管理していると、気づかないうちにDocker Buildの待ち時間が長くなりがちです。\n私の関わっているプロジェクトでは、Next.jsのフロントエンド1台、Goのバックエンド2台、Go Worker1台をビルドしており、開発中に頻繁にDocker Buildを実行していました。\nしかし、ビルド時間が1分以上かかるようになり、修正 → ビルド → 動作",
-      "published": "2026-06-08T10:18:04+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "June 08, 2026",
@@ -1248,15 +1257,6 @@
       "link": "https://docs.cloud.google.com/release-notes#June_01_2026",
       "summary": "Agent Assist\nFeature\nAgent Assist offers summarization with custom sections 6.0 in GA. The 6.0 version is powered by gemini-3.5-flash and available in all Agent Assist regions.\nChange\nAgent Assist off",
       "published": "2026-06-01T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "May 31, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#May_31_2026",
-      "summary": "Google SecOps\nChange\nGoogle SecOps has updated the list of supported default parsers. Parsers are updated gradually, so it might take one to four days before you see the changes reflected in your regi",
-      "published": "2026-05-31T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
