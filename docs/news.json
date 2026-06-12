@@ -1,6 +1,33 @@
 {
-  "updated": "2026-06-12T19:56:14.636095+00:00",
+  "updated": "2026-06-12T22:18:31.840536+00:00",
   "items": [
+    {
+      "title": "AWS SAAを勉強していたらIAMの用語が多すぎて頭がパンクしたので整理する",
+      "link": "https://qiita.com/dannha/items/fd9cc418c78d3a2fcb88",
+      "summary": "はじめに\nAWS SAAの過去問を解いているとIAM系の用語をあまり理解していないことに気づいたので、備忘録的にまとめて、整理してみます。\n\nまず「IAMとは何か」を一言で\n「誰が・何に・何をできるか」を管理する仕組みです。\nこの「誰が」「何を」という軸で整理すると、各...",
+      "published": "2026-06-12T21:41:12+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "# RailsアプリをAWS EC2で運用しながらPostgreSQLバックアップをS3へ保存した話",
+      "link": "https://qiita.com/katsu-ya/items/ea49bc50859349b01f50",
+      "summary": "はじめに\n個人開発しているRailsアプリ「TaskLink」をAWS EC2上で運用しています。\n運用を続ける中で、\n\nEC2が故障したら？\nPostgreSQLのデータが消えたら？\n誤ってDBを壊したら？\n\nという不安があり、バックアップ環境を構築することにしました。...",
+      "published": "2026-06-12T21:06:28+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Anthropicが初のMythos級モデル「Claude Fable 5」を一般公開——“過去最強”、ただしサイバー能力は封印",
+      "link": "https://qiita.com/quotidia/items/93d15444372d79d05246",
+      "summary": "本記事は筆者が運営する AI Quotidia (ai.quotidia.jp) の海外ニュース解説記事です。\n\nAnthropic（アンソロピック）は2026年6月9日、初のMythos級AIモデル「Claude Fable 5」を一般公開しました——同社が「これまで広...",
+      "published": "2026-06-12T21:00:59+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "【コラム】現場で実際に経験してわかる、AIの精度を上げる難しさ",
       "link": "https://qiita.com/riku1220/items/384048a31d63e22b46b3",
@@ -65,15 +92,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "Terraform + user_data で EC2 に「apply 1発」自動デプロイ。手で踏んだ罠を、二周目は先回りで全部避けた",
-      "link": "https://qiita.com/80-cloud/items/9e5688260032e85098e8",
-      "summary": "はじめに\nSpring Boot + React の小さなアプリを勉強で作っています。\n一度、手作業で EC2 にデプロイしました。SSHして、Docker入れて、EC2の中でビルドして…と、その道中でメモリ不足やらビルドツール不足やらの罠を踏みまくりました。そこで二周目...",
-      "published": "2026-06-12T13:28:09+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "multi-agent-shogun に Gemini CLI + Ollama を入れたら inbox3 で詰まった話と解決策",
       "link": "https://zenn.dev/masafumi_heijo/articles/791fbea6eddd68",
       "summary": "はじめに\nGemini CLI に inbox3 というシグナルを送ったとき、こんな返答が来ました。\n\nI'm not sure what \"inbox3\" refers to. Could you please clarify your request?\n\nこの問題の発見から解決までが、この記事の核心です。前半は問題が起きた環境の説明（構成・コスト）で、解決策は「詰まった：Gemini CLI",
@@ -117,15 +135,6 @@
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "GitHub Actions + SSM + Ansibleで自動デプロイ環境を構築するときにハマったこと",
-      "link": "https://qiita.com/twswj815/items/8ad7fbec25f0673180f7",
-      "summary": "はじめに\nTerraformで構築したAWS環境に対して、\n\nGitHub Actions\nOIDC\nSSM Run Command\nAnsible\n\nを利用した自動デプロイ環境を構築しました。\n最終的には問題なく動作するようになりましたが、構築中にはいくつかハマったポイ...",
-      "published": "2026-06-12T12:01:10+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "AIが、開発者に聞く ── R.E.V.I.S. #18 「危ない入口に、見張りを」",
@@ -495,15 +504,6 @@
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "AIにソースコードを読ませる前に「地図」を渡すためのツール群を作ってみた",
-      "link": "https://qiita.com/tanoue2715/items/620595f92f108d920c48",
-      "summary": "背景\n最近、ChatGPTやCopilotに既存システムの調査を手伝ってもらうことが増えました。\nただ、実際にやってみると、ソースコード一式をそのまま渡しても、\nAI側は「どこから見ればいいか」が分かりにくいことがあります。\n特に、C#の既存システムで、DBアクセス、ファ...",
-      "published": "2026-06-11T22:55:19+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "ローカル開発をDocker化した — なぜコンテナにするのか（Prismaのopensslでハマった話つき）",
