@@ -1,6 +1,15 @@
 {
-  "updated": "2026-06-21T16:25:49.985290+00:00",
+  "updated": "2026-06-21T19:17:49.032505+00:00",
   "items": [
+    {
+      "title": "AIエコシステム比較表：OpenAI、Anthropic、Google、GitHub、Microsoftを同一レイヤーで整理",
+      "link": "https://qiita.com/ochtum/items/c7e0814d4e9646a22cb0",
+      "summary": "※お役に立てたらストック、いいねをよろしくお願いします！！\n\n＜📝本記事のターゲット層＞\n\n主要AIサービスの違いを表で把握したい人\n生成AIサービス選定の比較表を作りたい担当者\n開発者向け・企業向けAI基盤を横断比較したい人\n\n目次ページ\n\n🔷AIエコシステム比較...",
+      "published": "2026-06-21T17:18:49+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "新人インフラエンジニアが学ぶネットワーク層のプロトコルと技術 ～IPアドレス・ルーティング・NATを理解する～",
       "link": "https://qiita.com/honeybro/items/bf222dc20d918d813107",
@@ -191,6 +200,15 @@
       "color": "#FF9900"
     },
     {
+      "title": "Kubernetes Pod起動の裏側を詳細に図解してみる",
+      "link": "https://zenn.dev/wakaka23/articles/8a6ba64efc9f20",
+      "summary": "概要\n業務でSREとしてKubernetes環境を触るようになり、kubectlでリソース操作してきましたが、その裏側でクラスタ内部に何が起きているのかは正確に把握できていませんでした。そこで本記事では、kubectl applyを実行してから、各コンポーネント間の連携を経てPodが起動するまでの一連の処理流れを追うことで、宣言した状態がどのように実体化するかを図解していきます。\n\n コンポーネン",
+      "published": "2026-06-21T11:27:19+00:00",
+      "source": "Zenn - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "【連載：Atra/21g 第3回】「意味空間の運動」を3D宇宙に投影する：意味重力場を可視化する「Atra Visualizer」の構築",
       "link": "https://zenn.dev/motimotinotch/articles/35aa4f19241c79",
       "summary": "先行研究との混同防止に関する注記\n\n本記事でいう「Atra」は、高次元セマンティック空間における Attractor（引き込み子） の操作を志向する個人研究プロジェクトです。\n渡辺幸弘氏による 「Atra（Associative Trace Architecture）」 とは名称が共通するものの、名称の由来、設計思想、実装手法および研究目的は異なる独立したプロジェクトです。\n本記事は両者を同一視す",
@@ -205,15 +223,6 @@
       "summary": "公式ドキュメントは、スキルの利点をこう説明する。SKILL.md の本文は「使われるときだけ読み込まれるので、長い参照資料を置いてもほとんどコストがかからない」。必要になるまでトークンを食わない、賢い遅延ロードだ。\nところが4月に出た論文 Towards Secure Agent Skills を読むと、この「必要なときだけ読む」という設計こそが攻撃面の核心になっている。同梱されたスクリプトの中身",
       "published": "2026-06-21T11:19:13+00:00",
       "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "【個人開発】Claude CodeとChatGPTでiOS個人開発してみた：終電を逃さないアプリ「帰れ、私」を作るまで",
-      "link": "https://qiita.com/n-okutomi/items/451f8c1a55fdf7deb4bd",
-      "summary": "1. はじめに\n\n「最近あんまり個人開発してないなあ」「AI駆動開発やってみようかな」「業務で触っているiOSも個人開発で試してみたい」と思い、AIを使ったiOS個人開発に挑戦してみました。\n作ったのは、終電を逃さないために帰る時間を通知してくれるiOSアプリです。\nアプ...",
-      "published": "2026-06-21T11:03:12+00:00",
-      "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -1041,15 +1050,6 @@
       "link": "https://zenn.dev/tonbi_attack/articles/bee0c0ea342d71",
       "summary": "はじめに\nこの記事では、k8s CronJobとLambdaを組み合わせた監視バッチを実装したときに発生した、Slack通知先がずれる問題を整理します。\nLambda単体で動かすと通知されるSlackチャネルと、CronJobで動かすと通知されるSlackチャネルが異なるという現象でした。\n原因を調べると、SNSトピックが実行経路ごとに分岐していたことが根本にありました。\n同じ構成を検討している方",
       "published": "2026-06-17T14:58:39+00:00",
-      "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "【初学者向け】GKE Autopilot 入門：制約・コスト・落とし穴を先に知る",
-      "link": "https://zenn.dev/yujmatsu/articles/20260617_gcp_gke_autopilot_intro",
-      "summary": "はじめに\n\n この記事の位置づけ\n本記事は GCP コンピュート選定連載の第4弾です。\n\n第1弾: コンピュート5サービスの選び方・デシジョンツリー\n第2弾: Cloud Run Services 入門\n第3弾: Cloud Run Jobs 入門・TASK_INDEX 並列バッチ\n第4弾（本記事）: GKE Autopilot 入門 — Cloud Run 経験者のための制約・コスト・落とし穴",
-      "published": "2026-06-17T13:00:10+00:00",
       "source": "Zenn - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
