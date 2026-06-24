@@ -1,6 +1,24 @@
 {
-  "updated": "2026-06-24T17:00:33.654219+00:00",
+  "updated": "2026-06-24T19:27:01.143900+00:00",
   "items": [
+    {
+      "title": "AWS認定 DOPに一発合格！CloudTechを使って効率よく学んだお話",
+      "link": "https://qiita.com/244-pine-rice-cakes/items/d9ba13a85bffcd140e32",
+      "summary": "こんにちは！\n最近AWSの資格勉強を頑張っているおっさんです。先日、「DevOps Engineer – Professional（DOP-C02）」を受験し、無事に一発合格することができました！\nDOP試験は自動化やマルチアカウントの運用、CI/CDなど、実務に直結するデ...",
+      "published": "2026-06-24T18:13:43+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Kubernetes:HTMLを置いてみた",
+      "link": "https://qiita.com/clipboard/items/77079f15a91390fb1e67",
+      "summary": "HTMLで作ったnekogoyaをKubernetesで公開してConfigMap化したので備忘録\nDockerイメージ作成\ncd nekogoya\ndocker build -t nekogoya:1.0 .\n\nDeployment作成\nkubectl create de...",
+      "published": "2026-06-24T18:12:41+00:00",
+      "source": "Qiita - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
     {
       "title": "DevOps Agent のカスタムエージェントと MCP 連携 - Claude Code からも呼んでみた",
       "link": "https://qiita.com/leomarokun/items/5d4609395876fa081bdc",
@@ -29,19 +47,19 @@
       "color": "#FF9900"
     },
     {
+      "title": "AWS Lambda MicroVMs登場。サーバレスの手軽さでステートフルかつ隔離された実行環境を提供",
+      "link": "https://www.publickey1.jp/blog/26/aws_lambda_microvms.html",
+      "summary": "Amazon Web Servicesは、AWS Lambda上で一時的にステートフルな実行環境をMicroVMによって安全に隔離された状態で用意できる新サービス「AWS Lambda Micro VMs」を発表しました。 AWS Lamb...",
+      "published": "2026-06-24T15:40:24+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
+    },
+    {
       "title": "Amazon SESの本番アクセスに2回落ちたので、Cognito標準送信でメール認証を動かした（落とし穴つき）",
       "link": "https://qiita.com/pakupaku_x_x_x/items/f10ebb06db4215fad86d",
       "summary": "個人開発のWebアプリ（Cognito + SESでメール認証）で、確認コードのメールが新規ユーザーに届かない問題に詰まり、最終的に Cognito標準送信（COGNITO_DEFAULT） に切り替えて回避しました。同じところでハマる人が多そうなので、原因・回避・落とし穴...",
       "published": "2026-06-24T15:28:03+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "EC2（RHEL 10）上にFluent Bit + LokiでSyslog集約基盤を構築する",
-      "link": "https://qiita.com/nanagi512/items/f713ca4dff6884841263",
-      "summary": "はじめに\nネットワーク機器やロードバランサーのログを集約したい場合、Syslogサーバーを構築するケースは少なくありません。\n今回はF5 BIG-IPから送信されるSyslogを受信し、\n\n直近60日分はLokiで検索可能\n長期保管はAmazon S3\nFluent Bi...",
-      "published": "2026-06-24T15:00:04+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
@@ -279,6 +297,15 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "June 24, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#June_24_2026",
+      "summary": "Gemini Enterprise Agent Platform\nFeature\nAI security findings in Agent Platform\nViewing AI security findings and posture management summaries in Gemini\nEnterprise Agent Platform is generally\navailable",
+      "published": "2026-06-24T07:00:00+00:00",
+      "source": "Google Cloud リリースノート",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "【解説】キオクシアなぜ急成長？　半導体メモリって何？　AIブームを見通すための基礎知識",
@@ -551,15 +578,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "Kubernetes:namespacesのservice一覧を確認",
-      "link": "https://qiita.com/clipboard/items/96ddd3b1bbbd4dd118be",
-      "summary": "下記構成でKubernetesを動かした時のservice一覧を表示した。\n構成\nnginxを1つ作成\nservice作成\nServiceとは\nPodは作り直されるとIPアドレスが変わる。\nそのため、Podに直接アクセスするのではなく、Serviceを経由してアクセスする。...",
-      "published": "2026-06-23T21:30:02+00:00",
-      "source": "Qiita - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "使ってない古いタブレットをDebian+Dockerの常時稼働サーバにした(と、やらかした事故3つ)",
       "link": "https://zenn.dev/ikahan/articles/old-tablet-debian-homelab",
       "summary": "TL;DR\n\n数年前の廉価 2-in-1 タブレット(Atom系・RAM 4GB・eMMC 64GB・有線NICなし無線のみ)を、捨てずに ヘッドレスの常時稼働 Linux サーバにした。\n当初は Proxmox を狙ったが、実機を見て Debian + Docker に方針転換。\n正直、構築そのものより 途中でやらかしたセキュリティ事故3つと是正のほうが学びが多かったので、そこを中心に共有します",
@@ -585,6 +603,15 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "TypeScriptコンパイラをGo言語に移植することで10倍速にしたTypeScript 7.0リリース候補版が登場",
+      "link": "https://www.publickey1.jp/blog/26/typescriptgo10typescript_70.html",
+      "summary": "マイクロソフトは、TypeScriptをGo言語に移植した最初のバージョンとなる「TypeScript 7.0」リリース候補版のリリースを発表しました。 TypeScript 7's Release Candidate is now...",
+      "published": "2026-06-23T15:29:40+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
     },
     {
       "title": "画像AIはモデルやデータ量だけじゃない：実務をして気づいた大切な前処理・評価・後処理の話",
@@ -812,6 +839,15 @@
       "color": "#326CE5"
     },
     {
+      "title": "GitHub、AIによる雑なプルリクエストを抑制へ。ユーザー当たりのプルリクエスト数の上限を設定できる新機能導入",
+      "link": "https://www.publickey1.jp/blog/26/githubai_1.html",
+      "summary": "GitHubは、ユーザーに対してプルリクエスト数の上限を設定できる新機能の導入を発表しました。 Pull requests are easier to open than ever, but every review still takes...",
+      "published": "2026-06-22T15:14:38+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
+    },
+    {
       "title": "【初学者向け】Compute Engine 入門：マシンシリーズの選び方とSpot VMコスト戦略",
       "link": "https://zenn.dev/yujmatsu/articles/20260623_gcp_compute_engine_intro",
       "summary": "はじめに\n\n この記事の位置づけ\n本記事は GCP コンピュート選定連載の第6弾です。\n\n第1弾: コンピュート5サービスの選び方・デシジョンツリー\n第2弾: Cloud Run Services 入門\n第3弾: Cloud Run Jobs 入門・TASK_INDEX 並列バッチ\n第4弾: GKE Autopilot 入門・制約・コスト・落とし穴\n第5弾: GKE Job vs Cloud Ru",
@@ -918,6 +954,24 @@
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "AWS、コードだけでなくインフラ構成とビジネスコンテキストも理解した上で脆弱性を推論する「AWS Contiuum」発表。特定のAIモデルに依存せず",
+      "link": "https://www.publickey1.jp/blog/26/awsaws_contiuumai.html",
+      "summary": "Amazon Web Services（AWS）は、コードをスキャンするだけでなく、インフラ構成やアクセス許可、ネットワークトポロジーそしてビジネス上の優先事項やドキュメントなどの非構造化データなどをコンテキストとして活用し、システムの脆弱...",
+      "published": "2026-06-21T15:26:18+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
+    },
+    {
+      "title": "AWS、AIエージェントがリポジトリを自動スキャンして技術的負債を指摘してくれる「AWS Transform – continuous modernization」プレビュー公開",
+      "link": "https://www.publickey1.jp/blog/26/awsaiaws_transform_continuous_modernization.html",
+      "summary": "Amazon Web Services（AWS）は、AIエージェントがコードリポジトリを継続的に自動スキャンし、サポートが終了したライブラリやフレームワークなどを始めとする技術的負債を検出し、優先順位をつけて報告あるいは修正のためのプルリク...",
+      "published": "2026-06-21T15:24:42+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
     },
     {
       "title": "【Cloudflare Event Driven】第4章：TerraformでCloudflare QueueとD1を構築する",
@@ -1046,6 +1100,15 @@
       "color": "#326CE5"
     },
     {
+      "title": "あなたのAWSのコストの問題がどこにあるか、AIが教えてくれる「AWS FinOps Agent」パブリックプレビュー開始",
+      "link": "https://www.publickey1.jp/blog/26/awsaiaws_finops_agent.html",
+      "summary": "Amazon Web Services（AWS）は、使用中のAWSのコストに関する質問や、コストに異常が発生した場合にその原因を調査して特定してくれる「AWS FinOps Agent」のパブリックプレビュー開始を発表しました。 AWSはそ...",
+      "published": "2026-06-17T15:49:03+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
+    },
+    {
       "title": "June 17, 2026",
       "link": "https://docs.cloud.google.com/release-notes#June_17_2026",
       "summary": "BigQuery\nFeature\nYou can enable autonomous embedding\ngeneration on new or existing\ntables that you make with the CREATE\nTABLE\nor ALTER\nTABLE\nstatements. When you do this, BigQuery maintains a column o",
@@ -1053,6 +1116,15 @@
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
+    },
+    {
+      "title": "GitLab、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」発表。最大で50倍高速かつ半分のトークンで利用可能に",
+      "link": "https://www.publickey1.jp/blog/26/gitlabaigitproject_switch50.html",
+      "summary": "GitLabは6月10日にロンドンで開催したイベント「GitLab Transcend」で、AIエージェント向けの次世代Git互換ソースコード管理サービス「Project Switch」を発表しました。 GitLabやGitHubが提供する...",
+      "published": "2026-06-16T18:05:15+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
     },
     {
       "title": "June 16, 2026",
@@ -1064,6 +1136,15 @@
       "color": "#4285F4"
     },
     {
+      "title": "Stack Overflow、AIエージェント同士が掲示板で技術情報を共有する「Stack Overflow for Agents」ベータ公開",
+      "link": "https://www.publickey1.jp/blog/26/stack_overflowaistack_overflow_for_agents.html",
+      "summary": "Stack Overflowは、AIエージェント同士がオープンな掲示板の上で技術的な解決策などの情報を共有する新サービス「Stack Overflow for Agents」をベータ版として提供開始したことを明らかにしました。 What i...",
+      "published": "2026-06-15T15:46:43+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
+    },
+    {
       "title": "June 15, 2026",
       "link": "https://docs.cloud.google.com/release-notes#June_15_2026",
       "summary": "AI Hypercomputer\nFeature\nPreview: Before you create Spot VMs, you can view the real-time\navailability, estimated uptime, historical preemption rate, and pricing for a\nspecific machine type and locatio",
@@ -1073,13 +1154,22 @@
       "color": "#4285F4"
     },
     {
-      "title": "June 14, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#June_14_2026",
-      "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.89 is being rolled out to the first phase of regions as listed here.\nThis release contains internal and customer bug fixes.",
-      "published": "2026-06-14T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
+      "title": "WASI 0.3が正式版に。WebAssembly Componentの非同期処理が共通基盤に",
+      "link": "https://www.publickey1.jp/blog/26/wasi_03webassembly_component.html",
+      "summary": "WebAssembly関連仕様の標準化を行っているByteCode Allianceは、WebAssemblyを基盤としたコンポーネントモデルの最新仕様「WASI 0.3」（WebAssembly System Interface Prev...",
+      "published": "2026-06-14T15:24:47+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
+    },
+    {
+      "title": "2027年までにAIエージェントでコーディングを行うチームの65％が、IDEが必要不可欠だとは考えなくなる。ガートナーの予想",
+      "link": "https://www.publickey1.jp/blog/26/2027ai65ide.html",
+      "summary": "調査会社のガートナーは、エンタープライズ市場におけるAIコーディングエージェント市場が、拡大と競争再編の新たな段階に突入したとし、それに関する予想を発表しました。 AIによる支援を用いたコーディング作業は、当初はVisual Studio ...",
+      "published": "2026-06-14T15:23:43+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
     },
     {
       "title": "Amazon Lightsail がさらに 3 つの AWS リージョンで利用可能に",
