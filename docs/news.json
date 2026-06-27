@@ -1,6 +1,24 @@
 {
-  "updated": "2026-06-27T19:05:50.441753+00:00",
+  "updated": "2026-06-27T21:56:14.499086+00:00",
   "items": [
+    {
+      "title": "AWS DevOps Agentの設計ベストプラクティスから考えるガバメントクラウドでの活用",
+      "link": "https://qiita.com/infra365/items/b0417a9a18c8a0983657",
+      "summary": "概要\n最近注目しているサービスの一つがAWS DevOps Agentです。先日のAWS SummitでもDevOps Agentについてディスカッションさせていただいたり、下記のセッションを聞きました。\nセッションの中で設計のベストプラクティスの話がありましたので、ガバ...",
+      "published": "2026-06-27T20:17:23+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Bedrock マネージドナレッジベースをCloudFormationでデプロイして詰んだ話",
+      "link": "https://zenn.dev/taketaka1986/articles/2026-06-28-bedrock-managed-kb-cloudformation",
+      "summary": "はじめに\n2026年6月、Amazon Bedrock に**マネージドナレッジベース（Managed Knowledge Base）**という新機能が登場しました。ベクトルストアの構築・インデックス・埋め込み・再ランキングといった RAG パイプラインの面倒をすべて AWS が引き受けてくれる、というものです。\n「これは社内ナレッジ検索に使えそうだ」と思い、東京リージョン（ap-northeas",
+      "published": "2026-06-27T18:05:03+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "AWS Summit Japan 2日目潜入レポート！",
       "link": "https://qiita.com/mitsuki-swimmer/items/3650e8a189f08d2eecef",
@@ -56,6 +74,15 @@
       "color": "#FF9900"
     },
     {
+      "title": "「自分のPCでは動くのに」をゼロにしたい — Docker Composeで3層環境を繋いだ【Nami開発日記 #1】",
+      "link": "https://zenn.dev/ogazon/articles/0002-nami-dev",
+      "summary": "はじめに\nローカルに3層環境が立ち上がりました！\nフロントエンド（Next.js）・バックエンド（Laravel）・データベース（MySQL）の3つが、Docker Composeで繋がった状態です。\n正直に言うと、今回の個人開発は自分のPCオンリーなので、\n環境差異の恩恵をいますぐ受けるわけじゃないです。\nでも、次のAWSデプロイで、このDockerfileをそのまま持っていける。\n例えばあなた",
+      "published": "2026-06-27T15:35:51+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "Claude Memoryに全部入れたら破綻した──AIの知識にもアーキテクチャが必要だった",
       "link": "https://zenn.dev/ichikawa_y/articles/knowledge-layer-audit",
       "summary": "はじめに\nClaude Memory が使えるようになったとき、迷わず全部入れました。プロジェクトの設計判断、ツールの癖、コーディング規約、運用ルール、「次回は確認しよう」という教訓――思いついたものをすべて memory/ へ書き込みました。\n数週間後、破綻しました。\n問題は Memory ではありませんでした。知識のライフサイクルを設計していなかったのです。Memory という「ストレージ」を",
@@ -78,15 +105,6 @@
       "link": "https://qiita.com/honeybro/items/a53eda58ad594953ca3c",
       "summary": "🍯【はちみつと学ぶIT #9】インスタンスタイプとは？EC2の性能の違いをやさしく解説\n\nはじめに\n前回は、EC2について学びました。\nEC2は「必要なときだけ借りられる仮想サーバー」でしたね。\nでは、そのサーバーの性能はどうやって決めるのでしょうか？\nそこで登場するのが...",
       "published": "2026-06-27T15:19:43+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "🍯【はちみつと学ぶIT #9】インスタンスタイプとは？EC2の性能の違いをやさしく解説",
-      "link": "https://qiita.com/honeybro/items/a53eda58ad594953ca3c",
-      "summary": "🍯【はちみつと学ぶIT #9】インスタンスタイプとは？EC2の性能の違いをやさしく解説\n\nはじめに\n前回は、EC2について学びました。\nEC2は「必要なときだけ借りられる仮想サーバー」でしたね。\nでは、そのサーバーの性能はどうやって決めるのでしょうか？\nそこで登場するのが...",
-      "published": "2026-06-27T15:19:43+00:00",
       "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
@@ -99,6 +117,15 @@
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "GitHub Actions実践入門",
+      "link": "https://zenn.dev/soranijimame/books/soraxiom-github-actions-guide",
+      "summary": "本書は、GitHub Actionsを使ってテスト、ビルド、Zenn原稿チェック、Dockerイメージ作成、自宅サーバーへのデプロイまでを自動化する実践入門です。\nworkflow、event、job、step、runner、secrets、permissions、cache、artifact、matrix、reusable workflowを、実際の運用で迷いやすい判断と一緒に整理します。\n「な",
+      "published": "2026-06-27T15:09:03+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "【書評】Cloud Native Infrastructure",
@@ -137,6 +164,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "OCIの無料VM1台に個人の自動収集を集約して24時間無人化した",
+      "link": "https://zenn.dev/ikahan/articles/oci-free-vm-personal-automation",
+      "summary": "TL;DR\n\nノートPCで動かしていた自動収集(公開PDFの定期取得、脆弱性情報のDiscord通知)を、OCIのAlways Free VM 1台に集約した。\n構成は、1GB RAM + 2GB swap の無料VM、Dockerのn8n(localhost限定)、Pythonスクレイパー + cron(JST)、rcloneでクラウドストレージへ同期、Discord webhookで通知。\n外",
+      "published": "2026-06-27T14:22:11+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "Sakana FuguをCodex CLIから触ってみた",
       "link": "https://zenn.dev/snowwshiro/articles/sakana-fugu-first-look",
       "summary": "はじめに\nSakana AI から Sakana Fugu が出ていたので、Codex CLI から既存リポジトリの調査・課題抽出・改修実装の流れで触ってみました。\n今回は API を直接叩いたのではなく、公式のインストールコマンドで環境構築して codex-fugu から使いました。導入はかなりスムーズでした。\nこの記事は 2026-06-27 時点の公式情報をもとにしています。価格、モデル名、",
@@ -146,6 +182,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "Mermaidを含むMarkdownをPandocで日本語PDFに変換する",
+      "link": "https://zenn.dev/onozaty/articles/pandoc-mermaid-ja",
+      "summary": "設計書や仕様書をMarkdownで書いておき、配布用にPDFにしたい、ということがよくあります。\nPandocを使えばMarkdownをPDFに変換できますが、日本語のMarkdownやMermaid図を含む場合は、いくつか設定が必要になります。\nこの記事では、その必要なものを整理したうえで、それらをまとめて同梱したDockerイメージ pandoc-mermaid-ja を使って一発で変換する方",
+      "published": "2026-06-27T13:57:48+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "Claude Code に機密ファイルを読ませないための permissions.deny と sandbox の設定",
       "link": "https://zenn.dev/satoru_o/articles/8d9fde4a5ed94c",
       "summary": "はじめに\nTerraform と AWS CLI を使うリポジトリに Claude Code を Devcontainer 経由で導入しました。導入にあたって、*.tfvars や *.tfstate、~/.aws/ 配下の認証情報を Claude Code 自身に読まれないよう制限する設定を行いました。\nClaude Code には permissions.deny と sandbox という2",
@@ -153,6 +198,15 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "Claude Code に機密ファイルを読ませないための permissions.deny と sandbox の設定",
+      "link": "https://zenn.dev/satoru_o/articles/8d9fde4a5ed94c",
+      "summary": "はじめに\nTerraform と AWS CLI を使うリポジトリに Claude Code を Devcontainer 経由で導入しました。導入にあたって、*.tfvars や *.tfstate、~/.aws/ 配下の認証情報を Claude Code 自身に読まれないよう制限する設定を行いました。\nClaude Code には permissions.deny と sandbox という2",
+      "published": "2026-06-27T13:55:53+00:00",
+      "source": "Zenn - Terraform",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "Cloud9でAWS CDK CLIの最新バージョンを使いたい",
@@ -171,6 +225,15 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "Terraform でマルチ AZ 環境の ALB + ECS を構築してみた",
+      "link": "https://zenn.dev/sawa_tech/articles/34bb5869f6279e",
+      "summary": "はじめに\n今回は Terraform を使用してマルチAZ で ALB + ECS の環境を構築してみます。\n過去のブログでは AWS マネジメントコンソールから GUI で構築したのですが、今回は似たような構成を IaC で構築をしてみます。\n（前回記事）\nhttps://zenn.dev/sawa_tech/articles/cc13a6b11f52b6\nまた、今回はアプリをデプロイしてネット",
+      "published": "2026-06-27T13:27:32+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "🍯【はちみつと学ぶIT #6】責任共有モデルとは？AWSと利用者、それぞれの役割を理解しよう！",
@@ -265,9 +328,18 @@
     {
       "title": "「ベクトル解析の基本恒等式を教えて下さい。」をsympyでAI先生に教えてもらいました。",
       "link": "https://qiita.com/mrrclb48z/items/3f1735c90748311a3db0",
-      "summary": "(本日の)ChatGPT先生へ\nベクトル解析の基本恒等式を教えて下さい。\n\n(表示を省略)\n\ngrad の curl は 0...rot(gradf)=∇×(∇f)=0\ncurl の div は 0...div(rotA)=∇⋅(∇×A)=0\ncurl の curl......",
+      "summary": "・2022'年にChatGPTは無かったのかしら。です。次行は私の、\n\n(本日の)ChatGPT先生へ\nベクトル解析の基本恒等式を教えて下さい。\n\n(表示を省略)\n\ngrad の curl は 0...rot(gradf)=∇×(∇f)=0\ncurl の div は ...",
       "published": "2026-06-27T11:50:59+00:00",
       "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "材料・化学の実験データをMLに使う前にやること——欠損・外れ値・単位不統一の実践的対処法",
+      "link": "https://zenn.dev/efta1989/articles/e53a7b8fcd5ec6",
+      "summary": "はじめに：研究データが「そのまま使えない」理由\nマテリアルズ・インフォマティクス（MI）に取り組む人が最初につまずく場所は、モデルの選定でも精度チューニングでもなく、たいてい「データの前処理」である。\n材料・化学分野の実験データには、他の分野のデータにはない難しさがある。\n\n\n小データ：実験コストの制約から、データが数十〜数百行しかない\n\n高次元：組成・構造・合成条件など、影響因子が多い\n\nノイズ",
+      "published": "2026-06-27T11:37:20+00:00",
+      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -308,19 +380,19 @@
       "color": "#FF9900"
     },
     {
+      "title": "ランダムフォレストのお気持ちを理解しよう",
+      "link": "https://zenn.dev/litms/articles/random-forest-from-basics",
+      "summary": "Kaggleなどのチュートリアルなどみると高い頻度でランダムフォレストが紹介されると思うのですが、今一度ランダムフォレストとは何なのかをみていこうと思います。\nここではこのような流れでランダムフォレストを理解していこうと思います\n\n決定木について\n三人寄れば文殊の知恵というお気持ち\nランダムフォレストを使ってみよう\n\n\n 決定木について\nそもそも決定木ってなんでしょう。\n以下のテーブルを考えてみま",
+      "published": "2026-06-27T11:11:13+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "CDK で AWS Alarm を Slack と連携する",
       "link": "https://zenn.dev/kazuki_inoue/articles/d458e8cd87ab27",
       "summary": "概要\nCDKを使ってAWSのリソースを監視するリソースを作るにあたり自分のメモとして主題のことをまとめました。\n以下はCDKを使ってAWSリソース監視をSlack連携させるためにやったことです\n\n\nChatbotにSlack送信設定の作成\n\nCloudwatch Alarm, Cloudwatch Metricの作成\n\nリポジトリ: https://github.com/kazuki-inoue2",
       "published": "2026-06-27T10:41:18+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "DBをサーバレスにすれば安くなる、は意外とそうでもなかった話",
-      "link": "https://zenn.dev/tomoki33/articles/4ad745c4a26b7c",
-      "summary": "きっかけ\n使用頻度が低いDBをサーバレスにすれば安くなるはず——そう思って試算したら、逆に高くなった。\n担当しているサービスで DocumentDB を運用している。すでに最小スペック（db.t4g.medium）で稼働していたが、監視データを眺めていてあることに気づいた。\n\nCPU使用率：平均は低いが、最大は平均の数倍に達するスパイクが存在\n接続数：ゼロになる時間帯がある\n稼働パターン：土日はほ",
-      "published": "2026-06-27T10:28:24+00:00",
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
@@ -434,15 +506,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "製造業の図面PDF・帳票を検索可能にするOCRとDockerでの構築例",
-      "link": "https://zenn.dev/yutaka8484/articles/kobayashi-20260628-pdf-ocr-search",
-      "summary": "製造業の図面PDF・帳票を検索可能にするOCRとDockerでの構築例\n\n 1. 背景：製造業の“紙の山”がDXを阻む\n製造業では、設計図面、検査成績表、見積書、納品書など、PDF帳票が年々増え続ける。ファイル名で管理している場合、必要な図面を探すために毎回フォルダを開き、目視で確認する——そんな \"ファイル探し\" の工数が、現場のDXを阻む理由の1つだ。\n本稿では、Docker + Python",
-      "published": "2026-06-27T00:02:05+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "東電出資に意欲　孫正義氏が「国内データセンター誘致」で狙うインフラ戦略",
       "link": "https://www.itmedia.co.jp/business/articles/2606/27/news024.html",
       "summary": "ソフトバンクグループ株主総会で、会長兼社長の孫正義氏が、将来的な目標として「純資産価値1000兆円」の展望を語った。AIインフラの最大のボトルネックである「電力確保」を巡り、子会社のソフトバンクが東京電力の次期オーナー候補に名乗りを上げている事実にも言及した。最先端データセンターを日本へ呼び戻そうとするインフラ戦略に迫る。",
@@ -495,15 +558,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "AI人材育成勉強 part4：Dockerを初学者向けに整理してみた",
-      "link": "https://zenn.dev/believe/articles/0e096bd2e49315",
-      "summary": "AI人材育成勉強 part4：Dockerを初学者向けに整理してみた\n\n 誰向けか\nDockerという言葉は聞いたことあるけど、\n何をしているのかよく分からない人向け。\n閲覧時間：5分くらい\n\n\n 背景\nAI人材育成として、Dockerについて学ぶ機会があったので、自分なりにまとめます。\n\n\n Dockerとは\nDockerは、アプリとその実行環境をまとめて扱える仕組みです。\nざっくり言うと、",
-      "published": "2026-06-26T14:52:13+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "決定木とアンサンブル学習——バギング・ランダムフォレスト・ブースティングの理論とコード【輪読会 section12 予習ノート】",
@@ -677,15 +731,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "ものすごいやさしいkubanetesの話",
-      "link": "https://zenn.dev/riel_hosiduki/articles/43a314e24482b37eda3b",
-      "summary": "1.初めに。\nこの記事の趣旨。\n\nインフラってなんだろう\nサーバーサイドの処理を学ぼう\n技術をつけてより高度なシステムを作ろう\nという観点で進めます。\n\n\n 2.Kubernetesってなに？\nそもそもKubanetes(クーバネティス)・k8sとは、\n一つのノード(箱のようなもの)の中で、\n複数のアプリを動かすことでリソースを削減しつつ、\n耐障害性を高めたものになります。(ざっくり言うと)\nサー",
-      "published": "2026-06-26T03:58:30+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "【フィジカルAI】ロボットに「前頭前野」を。世界モデル実現に向けた学習データ作成方法や手順について解説",
       "link": "https://zenn.dev/nexdataai/articles/c78aa2df9b41de",
       "summary": "フィジカルAIと世界モデル：実装を左右する「データ」の壁をどう超えるか\n2026年に入って、AI業界において「世界モデル」は最大のキーワードとなりました。現在、AIのパラダイムは「次のトークンを予測する」段階から「次の物理状態を予測する」段階へと移行しています。自動運転、ゲームAI、気象予測など、世界モデルの応用は多岐にわたりますが、その根底にあるロジックは共通しています。それは、「実際のアクショ",
@@ -749,24 +794,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "Hermes AgentとMemantoで実現するAIエージェントの永続メモリ導入",
-      "link": "https://zenn.dev/yutaka8484/articles/kobayashi-20260626-memanto-hermes-agent-memory",
-      "summary": "Hermes AgentとMemantoで実現するAIエージェントの永続メモリ導入\nAIエージェントは便利ですが、大きな弱点があります。セッションごとに記憶がリセットされる点です。Claude CodeやCursor、Hermes AgentなどのAI支援ツールは、コンテキストウィンドウの範囲でしか過去の会話や決定を保持できません。長時間の開発や継続的なDX推進の場面では、毎回同じ説明を繰り返した",
-      "published": "2026-06-26T00:01:53+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "最初の構成：なぜ Next.js + Sandpack + Docker だったか",
-      "link": "https://zenn.dev/eurekalabo/articles/why-euthopia-04-architecture",
-      "summary": "この記事は eurekalabo.com の連載「なぜ Euthopia を作ったのか」（全10回）の転載です。連載トップ → https://eurekalabo.com/blog\n\n\n前回までで「生成じゃなくて、その後が面倒」という話をした。今回は技術寄りの回。その「その後」を、最初にどう組んだかを書く。\nざっくり、Euthopia の中身はこんな流れになっている。\nユーザーの一言\n  → A",
-      "published": "2026-06-25T23:27:52+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "日本の“眠れるデータ”を競争力へ、日本発のプラットフォーム「xIPF」が始動",
       "link": "https://monoist.itmedia.co.jp/mn/articles/2606/19/news005.html",
       "summary": "欧州を中心に進むデータ共有圏の動向やその日本へのインパクトについて解説してきた本連載だが、第9回は日本独自のデータ連携エコシステムを創出することを目指す「xIPFコンソーシアム」を取り上げる。",
@@ -803,15 +830,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "金融データサイエンス基礎Part 3. ディープラーニングが効かないデータ：スコアリングのための機械学習",
-      "link": "https://zenn.dev/han901104/articles/a90d8f6266f83c",
-      "summary": "原文: han-co.com ·「金融データサイエンス基礎」連載のPart 3です。(原文には手描きの図も載せています。)\nPart 2で統計を固めたので、いよいよ機械学習に入る番です。信用でも、モデルは結局のところ性能を見て選びます。ただ信用には、性能を分ける固有の事情と、性能のほかにもう一つ検討すべき軸があります。\n性能を分ける最大の要因はデータの形です。信用データはテーブル形式です。一行に一",
-      "published": "2026-06-25T13:04:13+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Container RuntimeやCRIについて",
       "link": "https://zenn.dev/th_tech/articles/d73dc98e93c708",
       "summary": "モチベーション\nKubernetesを学び始めるときって、\n\nContainer Runtime　=　コンテナの動作環境\nCRI = Kubernetes の Container Runtimeが満たすべき要件\n\nぐらいの粒度で理解してたんですが、それだと理解が浅すぎて実務で困ったんですよね、、、\nこの辺りの整理って意外にないがしろにされている気がして、どこかの誰かの役に立つかもしれないと思って記",
@@ -821,28 +839,10 @@
       "color": "#326CE5"
     },
     {
-      "title": "AIエージェントは「解釈」を手がかりにモデル探索を改善できるのか？",
-      "link": "https://zenn.dev/sunyeul89/articles/739889b6638739",
-      "summary": "はじめに\n最近、AIエージェントにコードを書かせたり、実験を回させたりすることはかなり現実的になってきました。一方で、エージェントが「次にどんな実験をすべきか」を判断するとき、何を手がかりにしているのかはまだ曖昧です。\nこの記事では、AGENTIC-IMODELS という論文を軽く紹介しつつ、そのアイデアに触発されて作った小さな Kaggle 風の実験ハーネスについて書きます。\n特に試したかったの",
-      "published": "2026-06-25T10:34:58+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "DMARCモニタリング基盤を自前で構築した",
       "link": "https://zenn.dev/komachan333/articles/471f3ad824c9db",
       "summary": "parsedmarc + ECS Fargate + OpenSearch + Grafana による複数ドメイン対応構成\n\n はじめに\n自社で管理するドメインが増えるにつれ、DMARCのレポートをまったく収集・分析できていないことがリスクになっていた。各ドメインには DMARC レコードが設定済みだったが、rua（レポート送付先）は未設定のままで、認証の成功・失敗状況がブラックボックスだった。",
       "published": "2026-06-25T09:51:07+00:00",
-      "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "Terraform stateを4分割した：module数ではなく責務で境界を引く",
-      "link": "https://zenn.dev/kmryst/articles/terraform-state-split-by-responsibility",
-      "summary": "Terraform の root module / state をどこで分けるかは、単純そうで難しい判断です。\n小さいうちは 1 state で十分です。ところが VPC、RDS、ECS、ALB、CodeDeploy、CloudFront まで同じ state に入ってくると、ECS の task definition を触りたいだけなのに、環境全体を毎回 plan / apply の文脈に乗せる",
-      "published": "2026-06-25T09:40:17+00:00",
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
