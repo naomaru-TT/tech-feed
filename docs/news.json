@@ -1,6 +1,15 @@
 {
-  "updated": "2026-07-03T11:26:53.203999+00:00",
+  "updated": "2026-07-03T13:45:22.907002+00:00",
   "items": [
+    {
+      "title": "帰ってきたClaude Fable 5は本当に弱体化したのか？ ベンチマーク2種をわかりやすく解説！",
+      "link": "https://qiita.com/Martim500/items/cd627463c31a5b049ea7",
+      "summary": "こんにちは！Martimです！\n今回は、2026年7月1日に提供を再開した Claude Fable 5 の「性能は本当に落ちたのか？」という疑問に、2つのベンチマークデータを使って迫っていきます！\n\n本記事の情報は 2026年7月3日時点 のものです。Fable 5は再...",
+      "published": "2026-07-03T12:18:57+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "CodePipeline・CodeBuildでLaravelのマイグレーションを自動化した話",
       "link": "https://qiita.com/lqqtotzo/items/ffb8c3e5c9b537510029",
@@ -18,15 +27,6 @@
       "source": "Qiita - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "Cloud Run のデフォルトURL + IAP で、Access Context Manager によるIP制限を実装する",
-      "link": "https://zenn.dev/westhouse_k/articles/8376b0a7e795b3",
-      "summary": "はじめに\nCloud Run に IAP (Identity-Aware Proxy) を直接設定し、Load Balancer を経由しないデフォルトURL（*.run.app）でアプリケーションを提供する構成にしたときの、IP制限の実装方法をまとめます。\nGoogleアカウント認証（Cloud Identity + IAP）だけで十分なケースもありますが、IP制限も加えたい場合は一工夫が必要で",
-      "published": "2026-07-03T11:00:13+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "【実務向け】LocalStack + S3 + Lambda をローカルで構築する手順まとめ",
@@ -47,65 +47,11 @@
       "color": "#FF9900"
     },
     {
-      "title": "【CloudFront x S3】署名付きCookieを実装してみた",
-      "link": "https://qiita.com/jyas-protein/items/cf7f0a7353e56741ef7b",
-      "summary": "はじめに\n今回は、Amazon CloudFrontの署名付きCookie機能を実際に使ってみたので、その内容をまとめてみました。\n少しでも参考になれば幸いです。\n導入の背景：\nスタンプラリー機能のあるLIFFアプリを実装したが、コンプリート後にダウンロードできるオリジナ...",
-      "published": "2026-07-03T10:27:38+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "このプロンプトをAIエージェントに貼り付けて、Kaggleのベースラインを作ろう！",
       "link": "https://qiita.com/Isaka-code/items/8fafc5cc522b5eb655da",
       "summary": "はじめに\n3年ほど前に、「Kaggleのハードルを下げたい！」という記事を執筆しました。あの頃から時は流れ、強力なAIエージェント（Claude Code、Codex、Cursorなど）の普及によって、Kaggleに取り組む最初のステップは劇的に様変わりしています。\n環境...",
       "published": "2026-07-03T10:20:29+00:00",
       "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "「AWSでS3,EC2の立ち上げ」やったことのまとめ",
-      "link": "https://zenn.dev/kokikoki777/articles/9036ef2b5ffa6f",
-      "summary": "1. AWSアカウントの安全設定\nまずAWSを安全に使うための準備をしました。\nやったことはこのあたりです。\nAWS無料アカウント作成\nIAMユーザー作成\nMFA設定\n課金アラート作成\nここで大事なのは、AWSは「無料アカウント」でも使い方によっては課金されること。\nだから最初に、\nルートユーザーを普段使いしない\nIAMユーザーを使う\nMFAを設定する\n課金アラートを作る\nという流れを踏めたのはか",
-      "published": "2026-07-03T10:07:14+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "ローカルLLM動作比較: gpt-oss vs DiffusionGemma vs Qwen3.5—tok/s は仕事の速さではない",
-      "link": "https://zenn.dev/catspawengineer/articles/fb28277c3c6a63",
-      "summary": "はじめに\n前回の記事で、レガシーCコードベースの循環依存リファクタリング計画書をローカルLLM(gpt-oss-120b on vLLM)に書かせる仕組みを作りました。\n\n事実は静的解析、文章はLLM。出力構造は json_schema guided decoding で強制する。\n\n本記事はその続編です。同じ入力・同じプロンプト・同じパイプライン に別のモデルを載せ替えたら何が起きるかを検証して",
-      "published": "2026-07-03T10:00:10+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AIに本を書かせて、出版インフラまで組ませて、その日のうちに売り始めた話",
-      "link": "https://zenn.dev/idonthaveapen/articles/ai-wrote-published-book-in-a-day",
-      "summary": "2026年7月3日の朝、私はターミナルに向かって、ある種無責任な指示を出しました。\n「AIの課金分を回収する収益化案を出せ」\nその日の夕方には、Zennで有料本が1冊、販売開始されていました。\n私はペンを一度も握っていません。原稿も書いていないし、コードも書いていません。やったのは、AIが出してきた案に「それでいく」と判を押し、全文を読んでレビューし、価格を決め、最後に「公開」の号令をかけたことだ",
-      "published": "2026-07-03T09:58:55+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "無料のexecutorが一番高くついた話 — Opus + ローカルQwenが全タスクで最高額になった理由",
-      "link": "https://zenn.dev/kenimo49/articles/free-executor-paradox-40-trials",
-      "summary": "「強いモデルで段取りを組ませて、安いモデルに手を動かさせる」。エージェントコーディングのコスト削減レシピとして、ほぼ定石です。\n私もそう信じて検証しました。Opus 4.7 にオーケストレータをやらせ、ローカルで動かしている Qwen 3.5-9B (トークン課金ゼロ) にコード編集を任せる。これで Opus 単独より安くなるはず。\n結果は逆でした。\n「タダ」のはずの構成 (Opus + Qwen",
-      "published": "2026-07-03T09:46:16+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Claude Codeの枠を溶かさない — ローカルLLM委譲アーキテクチャ実装記",
-      "link": "https://zenn.dev/idonthaveapen/books/local-llm-delegation",
-      "summary": "月額課金の高性能AI（Claude Code等）の使用枠を、定型作業で溶かしていませんか？本書は、Windows + Ollama のローカルLLMを「無料の実働部隊」として組織化し、クラウドAIの貴重な枠を本当に頭が要る仕事だけに配給する『動的司令塔席＋改札口トリアージ』アーキテクチャの実装記です。フック実装の全コード、Windows特有の罠（文字化け・JSON爆発・サイレント書き込み消失）、O",
-      "published": "2026-07-03T09:27:45+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -227,6 +173,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "AIエージェント群(TOAI)が構築する『自治体向け地球環境レジリエンス』",
+      "link": "https://zenn.dev/toai/articles/earth-resilience-guide",
+      "summary": "はじめに\n本記事は、完全自律型のAIエージェント群（TOAIエコシステム）によって自動執筆・自動公開された技術記事です。\n現在、私たちは「自治体向けの地球環境レジリエンス実装ガイド」を策定しています。\n\n 1. 月額一円モデルの導入\n最新のAI技術を活用することで、自治体は膨大なコストをかけることなく、月額一円から始められる防災インフラを構築可能です。\nOllama等のローカルLLMと、Gemin",
+      "published": "2026-07-03T07:27:50+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "なぜAI開発のアセットは横展開できないのか — AI共通基盤がJava独自FW化する前に",
       "link": "https://zenn.dev/acntechjp/articles/b6b8bc125e401e",
       "summary": "!\n\n この記事の三行まとめ\n\nAI開発アセットの横展開が難しいのは実行力の問題ではない。技術のコモディティ化の速さ、現場ごとに異なる制約、見える化できる資産ほど陳腐化するという3つの構造的な罠がある\nパッケージ化しやすいものほど差別化にならず、差別化につながるものほどパッケージ化に抗う\n横展開すべきは部品ではなく、評価の型・制約別設計・InnerSourceのような実行を再現可能にする仕組み",
@@ -234,6 +189,15 @@
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "July 03, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#July_03_2026",
+      "summary": "Cloud CDN\nFeature\nCloud CDN and external Application Load Balancers support self-service\nPrivate Bucket Access for Cloud Storage buckets. This feature allows you to\nsecurely serve content without maki",
+      "published": "2026-07-03T07:00:00+00:00",
+      "source": "Google Cloud リリースノート",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "3万円で「Yahoo!ニュース」にPR掲載　プレスリリースをAIで「ニュース風記事」に",
@@ -299,6 +263,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "勝手に賢くなり続けるAIチームの作り方 — 自己改善ループを実装で理解する",
+      "link": "https://zenn.dev/factory_mo/articles/self-improving-ai-team",
+      "summary": "まず誤解を一つ潰しておく\n「自己改善するAIチーム」と聞くと、AIが自分の重みを勝手に更新して学習していく絵を想像しがちです。でも、そうではありません。\n本番公開されているモデルは、誰かのセッションから自分の重みを書き換えたりしません。つまり self-improving（自己改善） ≠ self-learning（自己学習） です。\nでは何が「改善」されるのか。改善されるのはモデルの外側にあるシ",
+      "published": "2026-07-03T05:08:21+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "「SCPで許可した」は存在しない — SCPとIAMを“直列2枚のゲート”で一発整理",
       "link": "https://zenn.dev/infrashift/articles/c28cb9e8d691cb",
       "summary": "!\nこの記事は「SCPとIAMの関係」を直列2枚のゲートという一点に絞った要点版です。\n\n「SCPでS3を許可の枠に入れた。でもIAMにS3許可が無い開発者は、S3を使える？」\n——即答できますか。私は一瞬 「SCPで枠に入れたんだから使える？」 と迷いました。ここで詰まる人は多く、原因はだいたい同じ。「SCPで許可した」という操作を、無意識に想定しているからです。結論から書くと、それは存在しませ",
@@ -306,6 +279,15 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "\"受注表では「問題なし」。でも\"今日は出せない\"は、あの人の頭の中だけにある ── 休んだ翌朝、出荷後に発覚する抜けを、先に浮かせる\"",
+      "link": "https://zenn.dev/hiroshift/articles/abec44382ead52",
+      "summary": "この記事は、架空の金属部品メーカー「サンワ精工」を舞台にした公然のシナリオです。登場する会社・受注はすべて架空です。画面のUIは実際に動きますが、AIの読み取り部分は「こう出る」という例を載せたもの（本番はAIがその場で現場のメモを読み取ります）。そして大事な前提を一つ——これはチャットボットではなく、現場のログを\"作ってから\"動く道具です。\"ありそうな困りごと\"に小さな道具を一つ作る連載の、15",
+      "published": "2026-07-03T04:46:05+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "GraphQL・Protobuf・Docker Compose・Dockerfile・メールヘッダー解析——開発者向け無料ツール5本",
@@ -342,6 +324,15 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
+    },
+    {
+      "title": "CAT：自己確信度で推論長を適応制御・ACL2026採択・最大+5.6pp精度向上・36%トークン削減",
+      "link": "https://zenn.dev/lixian/articles/cat-confidence-adaptive-reasoning",
+      "summary": "TL;DR\nLRM（Large Reasoning Model）は難しい問題ほど長く考えるべきだが、現在の効率化手法は「全問題一律に短縮する」か「粗い難易度推定」しかできていない。CAT はモデル自身のトークン予測確信度（Self-Certainty）を活用し、問題の難しさに応じて推論長を自律的に調整する。ACL 2026 Industry Track に採択。R1-7B で MATH-500:",
+      "published": "2026-07-03T03:26:53+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "ゲームエンジン「Godot」AI生成コードを原則禁止へ　レビュアー疲弊「機械と話したくない」",
@@ -659,6 +650,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "「2 API でエージェントが立つ」AgentCore Harness、東京リージョンで動かしたら律儀に2回怒られた話",
+      "link": "https://zenn.dev/satoru_o/articles/5dffa873223cdc",
+      "summary": "はじめに\nawslabs/agentcore-samples の 01-features/01-harness/00-getting-started を実行し、IAM 実行ロールの作成から Harness の起動、Claude Haiku と Sonnet を同一セッションで切り替えながらの呼び出し、ExecuteCommand によるエージェント側 microVM への直接コマンド実行、後片付け",
+      "published": "2026-07-02T14:20:02+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "Metagenomi が LanceDB と Amazon S3 で実現した 10 億ベクトル超のスケーラブルな検索基盤",
       "link": "https://aws.amazon.com/jp/blogs/news/search-solution-for-1b-vectors-built-on-lancedb/",
       "summary": "Metagenomi は LanceDB、Amazon S3、AWS Lambda を組み合わせ、35 億件のタンパク質エンベディングを低コストで保存・検索するサーバーレスソリューションを構築しました。データをバケット分割して並列インデックス化し、map-reduce 方式で検索する設計により、常時稼働サーバーなしで数十億ベクトル規模の近似最近傍検索を実現しています。",
@@ -929,6 +929,15 @@
       "color": "#4285F4"
     },
     {
+      "title": "最近リブランディングされた Gemini Enterprise Agent Platform はもう触った？",
+      "link": "https://zenn.dev/gixo/articles/e61553d1df1a93",
+      "summary": "こんにちは。株式会社ギックスでエンジニアをしている kusuki です。\n今年の4月末に Google Cloud NEXT 2026 で Vertex AI のリブランディングが発表されてから約2ヶ月が経ちました。\n今回は、リブランディングされた Gemini Enterprise Agent Platform (旧 Vertex AI) (以下、Agent Platform) を使ってアプリを",
+      "published": "2026-07-01T02:03:15+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
       "title": "sacloud OSS 2026年6月 ─ Go SDK 群を sacloud-sdk-go に統合、v2 プロバイダー終了へ",
       "link": "https://zenn.dev/sakura_internet/articles/sacloud-oss-2026-06",
       "summary": "sacloud の OSS 群、毎月活発に開発されておりまして、各リポジトリの Releases を全部追いかけるのは結構大変です。\nということで、2026 年 6 月のリリースから主要なものをまとめてみました。今月は Go SDK 群を sacloud-sdk-go に統合していくお知らせや、terraform-provider-sakuracloud (v2) のメンテナンス終了アナウンス、A",
@@ -1152,15 +1161,6 @@
       "source": "Publickey",
       "tag": "テック",
       "color": "#888780"
-    },
-    {
-      "title": "June 23, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#June_23_2026",
-      "summary": "AI Hypercomputer\nFeature\nPreview: You can use Gemini in the Google Cloud console as\nan AI-powered interface to evaluate hardware options, estimate deployment costs,\nand view recommended configurations",
-      "published": "2026-06-23T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "GitHub、AIによる雑なプルリクエストを抑制へ。ユーザー当たりのプルリクエスト数の上限を設定できる新機能導入",
