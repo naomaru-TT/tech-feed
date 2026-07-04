@@ -1,23 +1,68 @@
 {
-  "updated": "2026-07-04T02:04:30.334607+00:00",
+  "updated": "2026-07-04T06:11:40.752769+00:00",
   "items": [
     {
-      "title": "2026/07/04 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-      "link": "https://qiita.com/ennagara128/items/c24cd6bba782482e01e7",
-      "summary": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。\n通勤中などにながら聴きしよう！\n（Qiita投稿は通勤には間に合わないと思われますが）\nフィードバックとか助かりますのでください\n↓こちらから\n\n出典\nエンジニアがいつのまにか知っている知識・常識・...",
-      "published": "2026-07-04T01:30:48+00:00",
+      "title": "dera AI Weekly Vol.31 — 2026/5/18",
+      "link": "https://qiita.com/dera_news_/items/39fd579660ac1a2138c0",
+      "summary": "今週のAI業界を一言で表すなら？\nAnthropicが年換算売上300億ドルという驚異的な80倍成長を達成しAIエージェントの企業導入が現実のものとなりました。\nこれは主にAIコーディングツール「Claude Code」の急速な普及によるもので、わずか3年足らずでSales...",
+      "published": "2026-07-04T05:00:41+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Stripe Webhook二重付与を封じる — 署名検証と冪等ログの単一入口",
+      "link": "https://qiita.com/zdna/items/1fabd3ed8f333f4cb282",
+      "summary": "症状 — 本番で権限が2倍になる夜\nStripe Checkout 完了後、ユーザーから「決済は1回なのにアクセス権が2つある」と連絡が来た。Dashboard の Events には checkout.session.completed が 同一 event.id で2...",
+      "published": "2026-07-04T04:54:36+00:00",
+      "source": "Qiita - インフラ",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "[イラスト図解で学ぶAWS] プライベートサブネットのアクセス手段をすっきり整理",
+      "link": "https://qiita.com/cloudc0il/items/3f54490b6cecce01fc31",
+      "summary": "はじめに\nS3 へアクセスするときは Gateway Endpoint を無料で利用できる一方で、Parameter Store へアクセスする場合は Interface Endpoint の料金が発生します。また、外部サービスへ通信する場合は NAT Gateway が...",
+      "published": "2026-07-04T04:50:22+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "Terraformのbackendだけ、変数(var.)が使えなかった話",
-      "link": "https://qiita.com/80-cloud/items/a9983125359905a30124",
-      "summary": "はじめに\nTerraform で、リモート state の置き場（S3 バケット名やリージョン）も 変数（var.）でまとめたいと思いました。ほかの場所は変数にしているので、backend も同じノリで…と書いてみたところ。\n\nbackend ブロックだけは、変数（var...",
-      "published": "2026-07-04T00:36:52+00:00",
+      "title": "【Cloudflare】Route 53 からネームサーバーを移行する",
+      "link": "https://qiita.com/ryu-ki/items/0566e27e6c50b9fb399a",
+      "summary": "はじめに\n個人ブログを Cloudflare Workers で公開しようとしたところ、Workers のカスタムドメインには Cloudflare の DNS ゾーンが必要だと分かりました。\n\n私のドメイン ryu-ki-learn.com は Route 53 で...",
+      "published": "2026-07-04T04:22:17+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "AWSのGPU1枚で300MパラメータLLM「OpenMythos」をゼロから事前学習してみた（FineWeb-Edu / FSDP / MoE+MLA+再帰ブロック）",
+      "link": "https://qiita.com/hahait/items/17aa49ca2dd711222fac",
+      "summary": "TL;DR\n\nAWS g6e.8xlarge（NVIDIA L40S 48GB × 1枚）で、独自アーキテクチャ LLM OpenMythos の 300Mパラメータ / 3Bトークン 事前学習をゼロから回した記録です。\nClaude と対話しながら学習プランを立て、Fi...",
+      "published": "2026-07-04T03:32:58+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AWS Transfer Family (SFTP) の断続的な接続断を追う ── TCP \"piggy-back\" ACK 問題・ポート2223・SSH.NET クライアントの裏付け",
+      "link": "https://qiita.com/k2_naka/items/631597547ddf5e513ad2",
+      "summary": "TL;DR\n\nAWS Transfer Family の SFTP で、TCP 接続は張れるのに直後に切られ、クライアント側に kex_exchange_identification: read: Connection reset by peer が出ることがある。\n原...",
+      "published": "2026-07-04T03:14:29+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "過学習は「特徴量を減らせば直る」——それ、嘘でした",
+      "link": "https://qiita.com/Morimiso_pyt/items/e0c0d5829eaafd2b949a",
+      "summary": "この記事は Zenn に投稿したものの再掲です。初出: 過学習は「特徴量を減らせば直る」——それ、嘘でした\n系列トレードの検証で踏む罠を扱う連載の第4回（山場）です。第1回（未来参照バグ）・第2回（特徴量リーク）・第3回(ライブ/BT乖離）の続きです。\n\n前回までの3回で...",
+      "published": "2026-07-04T03:00:45+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "エージェントが自分で文脈を要約する頃合いを計るSelfCompact",
@@ -29,15 +74,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "【Terraform】Terraformを初めて触ってみた",
-      "link": "https://zenn.dev/tas9/articles/c5b13fbefad014",
-      "summary": "はじめに\nAWSの資格取得を通じて、インフラエンジニアとしてのスキルを本格的に身につけたいと考えるようになりました。\nそこでまず、概念としては知っていたものの実際に触ったことはなかったIaC (Infrastructure as Code) を体験してみることにしました。\n本記事では、IaCツールとしてTerraformを選択し、インストールから基本コマンド、実際にAWSリソースを構築するところま",
-      "published": "2026-07-03T23:00:08+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "米トランプ大統領、AI規制は「できるだけ介入少なく」　中国に対して開発競争「大幅リード」を強調",
       "link": "https://www.itmedia.co.jp/aiplus/article/2607/04/2000000159/",
       "summary": "トランプ米大統領がCNBCのインタビューで、AI規制について「ガードレールは必要だが、介入はできるだけ少なくしたい」と述べ、規制最小限の路線を改めて示した。",
@@ -47,15 +83,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "【AWS Summit】ECS Managed InstancesとFargateの仕組みと違い",
-      "link": "https://qiita.com/infra365/items/ff46cbe93afe59581d5d",
-      "summary": "概要\nAWS Summit Japan 2026で下記のセッションを聞きました。ECS Managed Instancesは2025年9月にGAしたサービスで、FargateとEC2起動タイプの良いとこ取りができる第3の選択肢として注目していたので、忘れないうちに聞いた内...",
-      "published": "2026-07-03T22:47:37+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "マーガレット・アトウッドが語ったAIの「ゴミを入れればゴミが出る」：Claudeの誤答から考える生成AIの確かめ方",
       "link": "https://qiita.com/quotidia/items/ca9348ac6cacf3ae91f1",
       "summary": "本記事は筆者が運営する AI Quotidia の海外ニュース解説記事です。\n\n作家のマーガレット・アトウッドが、AIをこう評しました。\n完全版はこちら。\n\n一次ソース\n\nhttps://www.theverge.com/ai-artificial-intelligenc...",
@@ -63,24 +90,6 @@
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "AWS PrivateLink完全ガイド：Interface型VPCエンドポイントとEndpoint Serviceの違い、そして他社へのプライベート公開",
-      "link": "https://qiita.com/mkydk/items/e9b061e8b06d8a992327",
-      "summary": "概要\nAWS PrivateLinkにおけるInterface型VPCエンドポイントの「名前」の誤解を解消し、VPC Endpoint Serviceを使った他社・他アカウントへのプライベート公開方法を実践的に解説します。オンプレミス接続の代替手段についても紹介します。\n...",
-      "published": "2026-07-03T22:19:17+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "【RDS】CPU は正常なのに I/O 詰まりでアプリが遅くなった話",
-      "link": "https://zenn.dev/linkedge/articles/e281674de04c97",
-      "summary": "はじめに\n先日、個人開発で運用しているアプリの動作が遅くなる障害が発生しました。\nアプリにアクセスしても、なかなか画面が表示されない状況でした。\n調査の結果、原因はアプリのコードやアーキテクチャの致命的なミスではなく、単純な RDS のスペック不足でした。\n本記事では、今回の障害対応を通じて、改めて RDS について学んだことを整理してみます。\n少しでも皆様の参考になりますと幸いです。\n\n\n 前提",
-      "published": "2026-07-03T22:00:36+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "フィジカルAIに挑む日の丸連合、「Noetra」とは何か",
@@ -97,15 +106,6 @@
       "summary": "はじめに\nサポートベクターマシーン（SVM）は、分類問題で使用される。ニューラルネットワークと比較すると単純なアルゴリズムな上に、かなりの精度が得られる。しかし、アルゴリズム上、データの標準化が必須となる。そこで、今回は、最急降下法を用いたSVMにより2値分類を行う。\n\n...",
       "published": "2026-07-03T21:44:07+00:00",
       "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "LoRA・QLoRAを図解する",
-      "link": "https://zenn.dev/hkame/articles/lora-qlora-finetuning",
-      "summary": "はじめに\n2026年現在、AIシステム構築のトレンドはRAGとFine-tuningのハイブリッドに移行しています。\n\nRAG keeps your system truthful today; fine-tuning makes it consistent tomorrow.\n（RAGは今日システムを誠実に保つ。Fine-tuningは明日システムを一貫させる）\n\n本記事では、Fine-tuni",
-      "published": "2026-07-03T21:24:55+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -146,20 +146,20 @@
       "color": "#10A37F"
     },
     {
+      "title": "Cloudflareの530を追ったら真犯人はWSLの sleep infinity だった｜多層障害デバッグ全記録",
+      "link": "https://zenn.dev/secure_auto_lab/articles/cloudflare-530-wsl-keepalive",
+      "summary": "Cloudflareの530を追ったら、真犯人はWSLの sleep infinity だった\n\n\n 😰 あなたもこんな「多層障害」に溺れたことはありませんか？\n\n「エラーメッセージを直しても直しても、別の場所から次のエラーが出てくる…」\n「ログでは『正常に接続しました』と出ているのに、ユーザーには繋がらない…」\n「原因を1つ潰すたびに、実はその下にもう1つ原因が隠れていた…」\n\n私はこの日、まさ",
+      "published": "2026-07-03T16:43:01+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "Why this machine structured text format",
       "link": "https://zenn.dev/wagahai_nekojit/articles/e17fb1d1ec35ed",
       "summary": "record_id=article-006-why-this-format\nformat_id=fbr/article/v1\nsurface_syntax=line_oriented_key_value_v1\ncarrier=text/plain\nprose_policy=not_primary\nauthority=position_record\nsnapshot_at=2026-06-29T21",
       "published": "2026-07-03T15:30:06+00:00",
       "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "【書評】 Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition",
-      "link": "https://qiita.com/io0323/items/0a5d06e68398bb7182ef",
-      "summary": "はじめに\n本書は、機械学習の基礎概念から深層学習の実装まで、Aurélien Gérón氏が体系的にまとめた実践書です。\nscikit-learn・Keras・TensorFlowという業界標準ツールを軸に、理論と実装の両輪で学べる構成になっています。\n第I部でクラシック...",
-      "published": "2026-07-03T15:15:20+00:00",
-      "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -272,15 +272,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "このプロンプトをAIエージェントに貼り付けて、Kaggleのベースラインを作ろう！",
-      "link": "https://qiita.com/Isaka-code/items/8fafc5cc522b5eb655da",
-      "summary": "はじめに\n3年ほど前に、「Kaggleのハードルを下げたい！」という記事を執筆しました。あの頃から時は流れ、強力なAIエージェント（Claude Code、Codex、Cursorなど）の普及によって、Kaggleに取り組む最初のステップは劇的に様変わりしています。\n環境...",
-      "published": "2026-07-03T10:20:29+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "「AWSでS3,EC2の立ち上げ」やったことのまとめ",
       "link": "https://zenn.dev/kokikoki777/articles/9036ef2b5ffa6f",
       "summary": "1. AWSアカウントの安全設定\nまずAWSを安全に使うための準備をしました。\nやったことはこのあたりです。\nAWS無料アカウント作成\nIAMユーザー作成\nMFA設定\n課金アラート作成\nここで大事なのは、AWSは「無料アカウント」でも使い方によっては課金されること。\nだから最初に、\nルートユーザーを普段使いしない\nIAMユーザーを使う\nMFAを設定する\n課金アラートを作る\nという流れを踏めたのはか",
@@ -288,6 +279,15 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "ローカルLLM動作比較: gpt-oss vs DiffusionGemma vs Qwen3.5—tok/s は仕事の速さではない",
+      "link": "https://zenn.dev/catspawengineer/articles/fb28277c3c6a63",
+      "summary": "はじめに\n前回の記事で、レガシーCコードベースの循環依存リファクタリング計画書をローカルLLM(gpt-oss-120b on vLLM)に書かせる仕組みを作りました。\n\n事実は静的解析、文章はLLM。出力構造は json_schema guided decoding で強制する。\n\n本記事はその続編です。同じ入力・同じプロンプト・同じパイプライン に別のモデルを載せ替えたら何が起きるかを検証して",
+      "published": "2026-07-03T10:00:10+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "【2026年最新式】CloudRunからBigQueryに分析ログを流す、安くて楽な構成",
@@ -632,13 +632,13 @@
       "color": "#FF9900"
     },
     {
-      "title": "キャッシュの仕組みを丁寧に解説 — ブラウザキャッシュ・CDN・Redisを例に「速さの理由」を理解する",
-      "link": "https://qiita.com/gts/items/9df471e9ca7bd5bbd28e",
-      "summary": "この記事で伝えること\n「キャッシュを効かせると速くなる」とはよく聞くけれど、なぜ速くなるのか、どこに何を保存しているのか、意外と曖昧なまま使っている人も多いのではないでしょうか。\nこの記事では、キャッシュの基本的な仕組みから始まり、Webで登場する代表的なキャッシュ（ブラ...",
-      "published": "2026-07-02T22:10:01+00:00",
-      "source": "Qiita - インフラ",
-      "tag": "インフラ",
-      "color": "#326CE5"
+      "title": "AgentCore で Agent をプロダクション利用する際の実装ノウハウ (AWS Summit Japan 2026)",
+      "link": "https://zenn.dev/aws_japan/articles/006-aws-specialist-agent",
+      "summary": "はじめに\nAWS Japan AI/ML Specialist Solutions Architect の Kujirada です。\nAWS Summit Japan 2026 にて、「Bedrock AgentCore で実現するAIエージェントの最前線」というタイトルでブース (A105) を出展させていただき、ブース展示用に AWS Specialist Agent を開発しました。これは、",
+      "published": "2026-07-02T22:21:57+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "Spring BootをRenderへデプロイした時にハマったポイント5選",
@@ -648,6 +648,15 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "GrafanaでCloudWatchとAzure Monitorを統合 — メトリクスの粒度は「低い方」に引きずられる",
+      "link": "https://zenn.dev/ogazon/articles/0009-cloudwatch-azuremonitor",
+      "summary": "はじめに\nきっかけはふと、とある動画で見かけた情報でした。\n可視化プラットフォームGrafanaの基本と活用方法の全て\n「どうやらGrafanaを使えばAWSやMySQL、Kubernetesはじめ宇宙科学探知機までメトリクスを可視化できる」という内容です。\n読んでいるうちに、ふと欲が出てきました。\n調べれば様々なメトリクスを1画面にまとめられるすごいサービスらしい。\nだったらAWSやAzureも",
+      "published": "2026-07-02T16:10:19+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "RTX 4070でQwen 35Bを2.8倍速くする",
@@ -970,15 +979,6 @@
       "summary": "K3s・KubeEdge・Wasmで構築するエッジコンピューティング基盤の設計実践\n\nこの記事でわかること\n\nエッジコンピューティングの3層アーキテクチャ（デバイス・エッジ・クラウド）の設計指針と各層の責務分離\nK3s・KubeEdge・OpenYurtの特性比較と、ユー...",
       "published": "2026-07-01T01:32:45+00:00",
       "source": "Qiita - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "CodeGraphでAI開発コストを削減：トークン16%減のしくみ",
-      "link": "https://zenn.dev/yutaka8484/articles/kobayashi-20260701-codegraph-cost-reduction",
-      "summary": "Claude Code、Cursor、Codex などのAIコーディングエージェントを使うとき、「どのファイルを読めばいいか」 を探る過程でトークンを大量消費していないだろうか。私も個人事業「コバヤシWEBシステム」として製造業のDX案件に携わり、基幹システムの改修では数千ファイルのリポジトリをAIに探索させている。\nこの「探索コスト」を削減するツールが CodeGraph だ。本記事では導入方法",
-      "published": "2026-07-01T00:03:52+00:00",
-      "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
     },
