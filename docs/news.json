@@ -1,6 +1,42 @@
 {
-  "updated": "2026-07-04T13:03:32.838969+00:00",
+  "updated": "2026-07-04T15:55:32.502215+00:00",
   "items": [
+    {
+      "title": "【書評】PythonによるAIプログラミング入門 ―ディープラーニングを始める前に身につけておくべき15の基礎技術",
+      "link": "https://qiita.com/io0323/items/8a02e72401c666d66f07",
+      "summary": "本書の概要\n「ディープラーニングを始める前に」というサブタイトルが示すとおり、本書はAIの基礎技術を幅広くカバーした一冊です。教師あり学習・教師なし学習・推薦システム・論理プログラミング・ヒューリスティック探索・遺伝的アルゴリズム・NLP・音声認識・物体検出・強化学習・ニ...",
+      "published": "2026-07-04T15:01:35+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "IAM パーミッションバウンダリについて調べてみる",
+      "link": "https://qiita.com/keitakei777/items/a31c2752fa8257780bfc",
+      "summary": "こんばんは。\n今回は、パーミッションバウンダリについて整理していきます。\n\nパーミッションバウンダリとは\nパーミッションバウンダリとは、IAM ユーザーまたは IAM ロールが持てる権限の上限を定義する仕組みです。\nIAM ポリシーでアクセスを許可していても、パーミッション...",
+      "published": "2026-07-04T14:35:20+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "CloudFormationデプロイ手順",
+      "link": "https://qiita.com/suzunari900261/items/a179ad570b98e193a85f",
+      "summary": "はじめに\nCloudFormation を学び始めると、最初に次のような流れを理解する必要があります。\n\nCloudFormation テンプレートを書く\nAWS にテンプレートをアップロードする\nスタックを作成する\n作成された AWS リソースを確認する\n\nCloudF...",
+      "published": "2026-07-04T14:13:48+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Terraform 管理の API Gateway Lambda 統合で 429 THROTTLED と出るとき",
+      "link": "https://qiita.com/take_me/items/849af01398498cb156eb",
+      "summary": "事象\nterraform plan / apply で API Gateway Lambda 統合を作ってた時、なんか動作確認で応答してくれない・エラーになった。原因をマネコンで探していると、下記のようにスロットリングの設定が 0 になっていた。\n\n原因と対処\n\n公式 ...",
+      "published": "2026-07-04T14:09:21+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "【2026年版】LPIC101・102を合計6時間で取得した勉強法（Ping-t未使用・参考書0冊）",
       "link": "https://qiita.com/Acro_oo/items/5d24e94db74d66caeeeb",
@@ -29,69 +65,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "AWS CLIの認証をIAMユーザーからIAM Identity Centerへ移行して感じたこと",
-      "link": "https://qiita.com/lqqtotzo/items/c7c0521f2c9b948622b1",
-      "summary": "以前はAWS CLIを使うたびに、IAMユーザーのアクセスキーを発行して利用していました。\n動作には問題ありませんでしたが、\n\nアクセスキーの管理が面倒\n定期的なローテーションが必要\n誤って漏洩しないか不安\n\nといった課題がありました。\nそこで、AWS IAM Identi...",
-      "published": "2026-07-04T12:05:10+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "Amazon EBS ボリュームタイプまとめ",
-      "link": "https://qiita.com/keitakei777/items/8cf0a2dcd4eabd71a265",
-      "summary": "こんばんは。\nAmazon EC2 を利用する際に必ずと言っていいほど登場するのが Amazon EBS（Elastic Block Store） です。\n今回は、Amazon EBS のボリュームタイプについて整理していきます。\n\nAmazon EBSとは\nAmazon ...",
-      "published": "2026-07-04T11:51:04+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "EC2の感覚で解いていたら詰まったCompute Engineの立ち上げでややこしいところメモ",
-      "link": "https://qiita.com/hikaru0506/items/cf606fb5efccda34c9c3",
-      "summary": "GCP VM の IP アドレス設定 — EC2 との差分ガイド\n\n対象： AWS SAA 保有者向け。\n結論（先出し）： 名前は似てるが、「停止時にIPが消えるか」「グローバルIPの意味」「サブネットのスコープ」で挙動が違う。\n\nEC2の感覚で解いていたら詰まったCom...",
-      "published": "2026-07-04T10:59:26+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "モデルは壊れる前提で設計する — 個人開発でLLM APIを使うときの3つの防御パターン",
-      "link": "https://zenn.dev/mediiiiium/articles/llm-provider-resilience-design",
-      "summary": "TL;DR\n個人開発で複数のLLM API・CLIツールを使い倒していたら、性質の異なる4つの障害に同じ時期に立て続けに当たりました。\n\n\n無料枠が予告なく削減される（Gemini CLI → Antigravity CLIで1日1,500req→20reqへ）\n\n依存先のモデルが無料枠対象からひっそり外れる（Vauban運用中、gemini-2.0-flashがlimit: 0に）\n\n高性能モデ",
-      "published": "2026-07-04T10:51:56+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Claude Code (Opus 4.8) が数分固まる問題、188セッション実測したら原因はAPIでもネットワークでもなかった",
-      "link": "https://zenn.dev/yuki_fujisawa/articles/a155d388e61acc",
-      "summary": "はじめに\nClaude Code を使っていると、応答が数分間「無音」になる停滞に遭遇することがあります。特に Opus 4.8 で頻発していたため、体感や推測ではなくセッションログの実測で原因を特定しました。\nこの記事で分かること\n\nClaude Code の停滞を定量調査する方法(ログの場所と集計の考え方)\n「固まって見える」現象の意外な正体\n停滞を減らすための、標準機能ベースの実装(コード付",
-      "published": "2026-07-04T10:26:56+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "RTX 4060(VRAM 8GB)でローカルLLMはどこまで使える? Ollama + qwen3:8b を25問実測",
-      "link": "https://zenn.dev/monteranakamu/articles/local-llm-8b-benchmark",
-      "summary": "結論(忙しい人向け)\nRTX 4060(VRAM 8GB)+ Ollama + qwen3:8b で、実利用を想定した25問を条件を変えながら解かせた結果:\n\n\n\n条件\n正解率\n実行時間(25問)\n\n\n\n\nプロンプト無し\n17/22 (77%)\n87秒\n\n\nプロンプト調整のみ\n18/22 (82%)\n67秒\n\n\nプロンプト + 思考モード\n21/22 (95%)\n175秒\n\n\n同上 + LLM採点",
-      "published": "2026-07-04T10:04:21+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Claude Fable 5 を9Bモデルに蒸留？ 100万トークンの超長文推理モデル「Qwythos-9B」を4GBのVRAMで動かす",
-      "link": "https://zenn.dev/lumichy/articles/qwythos-9b-fable-5-2026",
-      "summary": "Claude Fable 5 を9Bモデルに蒸留？ 100万トークンの超長文推理モデル「Qwythos-9B」を4GBのVRAMで動かす\nオープンソースAI（ローカルLLM）の進化スピードには目を見張るものがあります。2026年6月、Empero AIから「Qwythos-9B-Claude-Mythos-5-1M」（以下、Qwythos-9B）という新たなオープンウェイト推理モデルが発表され、ロ",
-      "published": "2026-07-04T09:31:21+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "GeminiとClaudeを行き来したらJSが死んだ｜自作ツールを安全にVPS公開するまでの失敗全部",
       "link": "https://zenn.dev/miki_mini/articles/5c75a71b7f9ce8",
       "summary": "美容系勤務独学初心者マリー・アントワネット系エンジニア目指してます！\n今回は安全なメモ帳への道なら失敗を全部晒せばいいじゃない👸🍰です。\n\n読了時間の目安：約 9〜11分\n\n!\n3行まとめ\n\nVPN接続だけでmikitoolを制限しようとしたら wg-easyコンテナの技術的な壁 に跳ね返されて、最終的にCaddy + Basic認証に落ち着いた\nGeminiとClaudeの回答を混在させて実装し",
@@ -108,6 +81,15 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "IaC と IfC を実際に動かして比較してみた【2026】",
+      "link": "https://zenn.dev/sbk0716/articles/753ffaa23be30a",
+      "summary": "1. はじめに\n\n この記事を書いた背景\nAI（コーディングエージェント）が、アプリだけでなく インフラ（IaC）も書くようになりました。すると、新しい問いが出てきます。\n\n「AI が書いた IaC、動きはするが 意図どおり・安全か はどう担保する？」\nとくに 非機能要件（Public アクセス禁止・暗号化・バージョニング・ログ …）は、機能要件と違って「動いた」だけでは満たされたか分かりません。",
+      "published": "2026-07-04T08:54:27+00:00",
+      "source": "Zenn - Terraform",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "AIに障害対応させたら、ありもしないハッキングを“自分で”でっち上げて錯乱した話",
@@ -290,6 +272,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "AISIのtest-time computeを使う：AIエージェント評価を3予算で作る",
+      "link": "https://zenn.dev/hironakamura_ai/articles/fc964f9050c0eb",
+      "summary": "結論から言うと、エージェント評価は「何点だったか」だけで見ると危ない。AISI が 2026年7月2日に出した記事は、そこを突いている。モデルの能力は固定スコアではなく、トークン予算に対する曲線として見るべき話だ。\n手元の評価ログを小さいスクリプトで見直していて、ここで詰まった。1M tokens で失敗した run を「このモデルは無理」と切っていたけど、10M tokens まで許すと再試行と",
+      "published": "2026-07-04T04:15:26+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "課金処理の異常をEventBridgeとLambdaで定期監視する仕組みを作った",
       "link": "https://zenn.dev/hknote/articles/billing-monitoring-lambda",
       "summary": "課金処理を実装したときに、不具合のある課金処理がそのまま残っていないかを確認する仕組みを作りました。\nその時の備忘録です。\n課金処理は、失敗や中途半端な状態に気づくのが遅れると影響が大きくなります。\nそのため、DynamoDBに保存している課金処理の状態を定期的に確認し、エラー系のステータスがあれば通知するようにしました。\n\n 作ったもの\n構成はシンプルです。\nEventBridge\n→ 1時間ご",
@@ -306,6 +297,15 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "AWS BedrockをCLIで試す入門：まずはこのコマンドだけ覚えればOK",
+      "link": "https://zenn.dev/abc_yoko/articles/4f885983851c25",
+      "summary": "はじめに\nAWS Bedrockを触り始めたとき、最初に悩んだのが「どうやって気軽に試せばいいのか」でした。\nコンソールからも操作はできますが、実際に使うことを考えると、\n\nどのモデルが使えるのか知りたい\nAIの挙動をすぐ試したい\nAPI実装前に動作確認したい\n\nといった場面が多く出てきます。\nそんなときに便利だったのが、AWS CLIから実行できるBedrockのコマンドです。\n!\n記事では、A",
+      "published": "2026-07-04T03:38:01+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "GitHub Actions × OIDC で実現するセキュアなCI/CDパイプラインの作成",
@@ -333,6 +333,15 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "Claude Codeの挙動が変わった時、原因をどう切り分けるか",
+      "link": "https://zenn.dev/acntechjp/articles/5ce26627f4b8ff",
+      "summary": "TL;DR;\n\nハーネス(CLAUDE.md・memory・lessons.mdなど)は書きっぱなしにせず、定期的なメンテが必要\n挙動がおかしくなったら、まずモデルやCC本体ではなく自分のハーネスを疑う\n「記録」と「ルール」は分けて管理する。ルールファイルには結論だけを書く\n\nさまざまな情報を集めてカスタマイズするのは、ちょっとした罠かもしれない。\n\n 課題感\nClaude Code はIssue",
+      "published": "2026-07-04T03:23:47+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "「体験」でゲームを薦めるレコメンドを作った",
@@ -380,20 +389,20 @@
       "color": "#10A37F"
     },
     {
+      "title": "【全文無料】生成AI「15分野の全地図」を一冊の本にしました ─ Claude Fable 5の知識を限界まで引き出した執筆",
+      "link": "https://zenn.dev/ykishimotoy/articles/e8578d141b41c4",
+      "summary": "はじめに：毎朝のタイムライン、しんどくないですか？\n「Soraが終了した」「Gemini CLIがなくなった」「また新しいモデルが出た」──2026年上半期だけでも、生成AIの世界ではこれだけの地殻変動が起きました。\nX（Twitter）を開けば毎日新しいツールの話題が流れてきて、「追いかけなきゃ」という焦りだけが積もっていく。でも実際に自分の仕事や創作にどれを使えばいいのかは、いつまで経ってもわ",
+      "published": "2026-07-04T01:29:14+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "自分のバックテストに『これは間違いだと証明しろ』とAIをけしかけたら、結論が半分ひっくり返った",
       "link": "https://zenn.dev/ikahan/articles/backtest-self-deception",
       "summary": "!\nこの記事はトレードの記事ではありません。「自分で作った検証が、自分に都合よく嘘をつく」仕組みの記事です。題材はたまたま相場データですが、出てくる4つの罠は A/Bテスト・機械学習・KPI分析など、数字で何かを判断するすべての場面に効きます。トレード用語は最小限に抑え、都度説明します。\n\n\n TL;DR\n\n相場監視ボードを自作したついでに、有名な2つの「勝ちパターン」をブローカーのデモ口座データ",
       "published": "2026-07-04T01:18:03+00:00",
       "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "エージェントが自分で文脈を要約する頃合いを計るSelfCompact",
-      "link": "https://qiita.com/okssusucha/items/33520707621478d2cc82",
-      "summary": "長時間動くAIエージェントを一度でも運用したことがあれば、この壁にぶつかっているはずだ。ツール呼び出しと思考ログが延々と積み上がり、やがてコンテキストウィンドウが溢れる。数十ステップ前に一度だけ見たディレクトリ一覧や、とっくに解決済みのサブ課題のデバッグ出力が、いつまでも文...",
-      "published": "2026-07-04T00:31:08+00:00",
-      "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -943,15 +952,6 @@
       "summary": "自宅やオフィスの回線は、たいていグローバル IP が固定されていません。\nセルフホストしたサービス（Zabbix・SonarQube・Jenkins…）を Cloudflare の WAF で\n「自分の IP だけ許可」しても、回線の IP が変わった瞬間に自分が締め出され...",
       "published": "2026-07-01T07:14:47+00:00",
       "source": "Qiita - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "固定費ゼロ × durable な非同期のバックエンド：2日で完成度を取るための事前設計",
-      "link": "https://zenn.dev/shvalin/articles/d851ba852662f9",
-      "summary": "はじめに\n学生ハッカソン「ハックツハッカソン 〜アロカップ〜 2026」に、2人チームで参加してきました。就活の面接動画をアップロードすると、話し方・自信・内容・構成の4つをスコア化し、話速やフィラー率、無音の割合といった音声の内訳と、改善コメントまで返すツールです。名付けて SpeakScore。開発に使えたのは、実質2日間でした。\n\nGitHub: https://github.com/shv",
-      "published": "2026-07-01T07:03:34+00:00",
-      "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
     },
