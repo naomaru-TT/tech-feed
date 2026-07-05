@@ -1,6 +1,42 @@
 {
-  "updated": "2026-07-05T19:03:55.612836+00:00",
+  "updated": "2026-07-05T21:53:34.896086+00:00",
   "items": [
+    {
+      "title": "閉域モード版源内のデプロイ手順とオンプレミスと接続する時の注意点",
+      "link": "https://qiita.com/takeda_h/items/058536359a54ab3c6bab",
+      "summary": "ガバメント AI 源内（genai-web）を閉域ネットワークでも動作するように、源内のフロントエンドを CloudFront から ALB + ECS Fargate に変更し、Lambda を VPC 内へ配置するようにした上で AWS サービスにはインターフェース V...",
+      "published": "2026-07-05T21:35:36+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "PyhonのPyTorchについて検証",
+      "link": "https://qiita.com/Tomomitsu_Keruma/items/16d0737701f8d2daeaf4",
+      "summary": "🔥 PyTorch とは？\nPyTorch（パイトーチ）は Python で書けるディープラーニング（深層学習）用ライブラリです。\nMeta（旧Facebook）AI Research が開発しており、現在は 研究〜実用まで最も広く使われるフレームワークになっています。\n...",
+      "published": "2026-07-05T21:14:45+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Anthropic「Claude Science」を整理:新モデルではなくワークフロー製品、自社創薬は前臨床から",
+      "link": "https://qiita.com/quotidia/items/6e62fb1bc294572bdc08",
+      "summary": "本記事は筆者が運営する AI Quotidia の海外ニュース解説記事です。\n\n「AIが研究者になる」。\n完全版はこちら。\n\n一次ソース\n\nhttps://www.technologyreview.com/2026/06/30/1139987/claude-science...",
+      "published": "2026-07-05T21:01:40+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "長文要約で数字が消える原因は「Lost in the Middle」、3分割プロンプトで対処する",
+      "link": "https://zenn.dev/every_ai_recipe/articles/pdf-summary-3-step-prompt",
+      "summary": "TL;DR\n\n長い資料をLLMに一発で要約させると、途中に埋もれた数値や条件が抜け落ちやすい。原因は「Lost in the Middle」と呼ばれる、入力中盤の情報を軽視しやすいLLMの構造的傾向\n対策として、1回の要約依頼を「全体構造把握」「数値の逐語抽出」「リスク抽出」の3クエリに分割し、それぞれ出力形式を固定すると見落としが減る\n分割してもモデルの読み取りミス自体はゼロにならないため、金額",
+      "published": "2026-07-05T20:06:34+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "Dockerfileは分けない〜本番用とローカル用を1つに保つ方法🐳",
       "link": "https://qiita.com/H-Hoshihara/items/82798a46964718f6bdb0",
@@ -9,6 +45,33 @@
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "Claude Fable 5の挙動をOpus 4.8で再現する — 「賢さ」を検証ループの工程に置き換える",
+      "link": "https://zenn.dev/ait/articles/fable-emu-opus-harness",
+      "summary": "はじめに\nClaude Fable 5 のプロンプトガイドを読むと、繰り返し出てくる主張があります。旧世代モデル向けに細かく書き込んだ指示は、Fable 5 にはむしろ規定的すぎて出力品質を下げうるから、消すことを検討せよ——要するに「賢くなった分、こちらの管理を引き算せよ」です。\n読みながら、逆のことを考えていました。引き算で上位モデルが伸びるなら、足し算で手持ちのモデルはどこまで上位に寄せられ",
+      "published": "2026-07-05T17:27:47+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AI に脆弱性を探させて「見つけた」と言う前に —— 照準を変え、そして自分の発見を捨てた話",
+      "link": "https://zenn.dev/dkamehat/articles/authz-ai-harness-cve-rediscovery",
+      "summary": "AI 支援の脆弱性リサーチには、派手な \"0-day を見つけた\" の前に、地味だが決定的な工程がある。「本当にそれは新規で、実在する欠陥なのか」を確かめる工程だ。この記事は、認可（authorization）だけに土俵を絞った検査ハーネスを成熟 OSS 3つに当て、非自明な面で実在の CVE 級バグを黒箱再発見し、そして——それが既に修正済みの公開 CVE だと分かって報告を見送った、その一部始",
+      "published": "2026-07-05T16:27:50+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "異世界召喚された後方腕組みオタクが驚き投稿を横目にFable5で遊んでみた件",
+      "link": "https://zenn.dev/puriy/articles/fable5-first-impression",
+      "summary": "はじめに\n正直、LLMの性能がサチってきた感覚と共に、コスト面から見てもOpusモデルで十分では？という感覚がありました。\nTwitterでは、「こんなアプリを作れるようになった！」という驚き投稿で溢れていましたが、Enterpriseの開発現場においてはそういったバイブ寄りの活用はほとんどありません。\nLLM利用コストの高騰を背景に、企業ではコスト管理の締め付けが日に日に強くなり、ここまで高コス",
+      "published": "2026-07-05T15:57:49+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "プログラミングのためのBGMや環境音など。仕事や勉強の邪魔にならない無料で使えそうな音源集。2026年版",
@@ -34,6 +97,15 @@
       "summary": "S3バケット削除\nAWSコンソールを操作し始めて\n間もないころ\nS3バケットを試しに\n作成したことがありました。\n適当なファイルをアップロードして\n操作を確かめたりした後で\nもういらないからバケット消しとこう！\nそう思って削除画面に遷移した時のこと\n\nこんな表示が出ました...",
       "published": "2026-07-05T15:28:17+00:00",
       "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Amazon CloudWatchの新機能「Log Analytics」を触ってみた",
+      "link": "https://zenn.dev/takuyousou/articles/amazon-cloudwatch-log-analytics",
+      "summary": "CloudWatch Logs Insightsを利用している方は、最近ログ分析画面が新しくなったことに気付いたのではないでしょうか。\nAWSでは、新しいログ分析画面 Amazon CloudWatch Log Analytics の提供が開始されました。\n従来よりも操作性が向上し、AIによるクエリ生成やサンプルクエリなど、ログ分析を始めやすい機能が追加されています。\n本記事では、新しい Log",
+      "published": "2026-07-05T15:24:44+00:00",
+      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -65,6 +137,15 @@
       "color": "#888780"
     },
     {
+      "title": "[AWS Batch × Claude Code] YouTube動画 as Code",
+      "link": "https://zenn.dev/yamachan_gogo/articles/07385c4ea7d9f8",
+      "summary": "どうも！山ちゃんです。\n私はデザインセンス皆無な人間です。動画編集ソフトは開いた瞬間にそっと閉じるレベルです。\nそれでも毎週、AWSアップデートの解説動画をYouTubeに配信しています。\n動画を作っているのは私ではなく、AWS Batchの上で動く自作パイプラインです。\n!\nこの記事の結論\n\n動画編集ができなくても、動画はコードで作れる（Remotion + ffmpeg + Python）\nL",
+      "published": "2026-07-05T15:06:04+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "【書評】Designing and Building Security Operations Center",
       "link": "https://qiita.com/io0323/items/87faf5d6f8110370175c",
       "summary": "はじめに\n本書はAmazon/O'Reillyで出版された、SOC（Security Operations Center）の設計から運用、組織構造、人材育成、アウトソーシングに至るまでを網羅した実務書です。著者はSOC構築の現場で培った経験を体系化しており、抽象論ではなく...",
@@ -78,18 +159,18 @@
       "link": "https://zenn.dev/tsukulink/articles/2026-07-rds-bigquery-sync",
       "summary": "はじめに\nこんにちは、ツクリンクでSREエンジニアをやってるida.です。\nツクリンクではAmazon AuroraのデータをBigQueryに連携して分析基盤として活用しています。現在はdigdagを使ったパイプラインで連携しているのですが、自前で運用するパイプラインをよりマネージドでコスト最適化された構成にできないかを検討する中で、今回の検証に至りました。\nそこで目をつけたのが、Auroraの",
       "published": "2026-07-05T15:00:08+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Amazon AuroraからBigQueryにデータ連携するときにGCSは必要なのか",
+      "link": "https://zenn.dev/tsukulink/articles/2026-07-rds-bigquery-sync",
+      "summary": "はじめに\nこんにちは、ツクリンクでSREエンジニアをやってるida.です。\nツクリンクではAmazon AuroraのデータをBigQueryに連携して分析基盤として活用しています。現在はdigdagを使ったパイプラインで連携しているのですが、自前で運用するパイプラインをよりマネージドでコスト最適化された構成にできないかを検討する中で、今回の検証に至りました。\nそこで目をつけたのが、Auroraの",
+      "published": "2026-07-05T15:00:08+00:00",
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "ALBのアクセスログ用S3バケットポリシーがアカウントID不要で設定できるようになってた",
-      "link": "https://qiita.com/sagochiko/items/cf80aea1ee753d8a8d1b",
-      "summary": "ALBのアクセスログを有効化するときにS3で必要なS3バケットポリシーが自分の知ってた書き方から変わっていたので振り返りとして記載します。\n\n結論\nALBのアクセスログを有効化するとき、S3に設定するS3バケットポリシーのPrincipalにはlogdelivery.ela...",
-      "published": "2026-07-05T14:57:33+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "【Ollama +LLM+ Style-Bert-VITS2】完全ローカルでWeb小説を多言語翻訳＆フルボイス化するパイプライン",
@@ -105,6 +186,15 @@
       "link": "https://zenn.dev/fusic/articles/522e5d7553fde7",
       "summary": "はじめに\nFusicのレオナです。\n今回は、SageMaker HyperPodを最小構成で触ってみました。\nSageMaker HyperPodというと、数千GPUを使って基盤モデルを学習するための大規模な基盤、という印象が強いと思います。GPUクラスタをSageMaker管理の学習基盤として扱いながら、EKS上ではKubernetesに近い感覚でジョブを実行できる点が特徴です。ノード障害時の復",
       "published": "2026-07-05T14:28:28+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Amazon SageMaker HyperPodで学習から推論までやってみた",
+      "link": "https://zenn.dev/fusic/articles/522e5d7553fde7",
+      "summary": "はじめに\nFusicのレオナです。\n今回は、SageMaker HyperPodを最小構成で触ってみました。\nSageMaker HyperPodというと、数千GPUを使って基盤モデルを学習するための大規模な基盤、という印象が強いと思います。GPUクラスタをSageMaker管理の学習基盤として扱いながら、EKS上ではKubernetesに近い感覚でジョブを実行できる点が特徴です。ノード障害時の復",
+      "published": "2026-07-05T14:28:28+00:00",
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
@@ -114,9 +204,36 @@
       "link": "https://zenn.dev/frru_mooooor/articles/f48861e86466cb",
       "summary": "こんにちは。\nつい先日、いろいろな技術を調べる中で\n「近頃のインフラ構築はIaCで自動化が主流なのかな？」と思いました。\nオンプレにてサーバーをOS導入から構築した経験がありますが、当時それなりに苦労した記憶があります。\n今回は、IaCの素晴らしさを是非体験してみたいと考え、Terraformを使用してAWS上にEC2インスタンスを作成してみます。\n「AWS CDK（AWS Cloud Devel",
       "published": "2026-07-05T14:17:44+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Terraformを使ってEC2インスタンスを作成する",
+      "link": "https://zenn.dev/frru_mooooor/articles/f48861e86466cb",
+      "summary": "こんにちは。\nつい先日、いろいろな技術を調べる中で\n「近頃のインフラ構築はIaCで自動化が主流なのかな？」と思いました。\nオンプレにてサーバーをOS導入から構築した経験がありますが、当時それなりに苦労した記憶があります。\n今回は、IaCの素晴らしさを是非体験してみたいと考え、Terraformを使用してAWS上にEC2インスタンスを作成してみます。\n「AWS CDK（AWS Cloud Devel",
+      "published": "2026-07-05T14:17:44+00:00",
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "【SAA対策】現役インフラエンジニアがEC2の基礎を解説してみた",
+      "link": "https://zenn.dev/infra_note/articles/a88e7bd974061a",
+      "summary": "はじめに\n現在AWS SAA取得に向けて勉強中のインフラエンジニアです。\nこの記事ではSAAの学習内容をアウトプットしながら、EC2の基礎をわかりやすく解説していきます。\n\n EC2とは何か\nEC2（Elastic Compute Cloud）とは、AWSが提供する仮想サーバーサービスです。\n物理サーバーを自分で用意することなく、クラウド上に仮想サーバーを立てて利用できます。\n\n オンプレミスとの",
+      "published": "2026-07-05T14:04:00+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AI使用OKのAWS GameDayで優勝した話",
+      "link": "https://zenn.dev/23reiji/articles/a036c6c7b9e0f0",
+      "summary": "!\nこの記事は、競技の具体的な内容（出題シナリオ・問題・解法）には一切触れません。GameDayは別の機会でも同じ問題が使われることがあり、ネタバレは他の参加者の体験を損なうためです。この記事で書くのは「競技内容を知らなくても再現できる、勝てるチームの立ち回り」です。\n\n\n はじめに\n先日開催された AWS Summit の GameDay に参加し、ありがたいことに優勝することができました。",
+      "published": "2026-07-05T13:58:10+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "【IT業界25年目】ADHDポンコツエンジニアが推すAI時代も生き残れる開発言語ランキング Top５",
@@ -182,13 +299,13 @@
       "color": "#10A37F"
     },
     {
-      "title": "ChatGPTにlibreofficeインストール方法を聞いてみた",
-      "link": "https://qiita.com/soldierboy/items/37e374e809d9aa35f9b5",
-      "summary": "libreofficeインストール方法\nChatGPTにlibreofficeインストール方法を聞いてみました．\n最初からインストールされていない場合の参考に以下まとめ．\n\nflatpakのインストール\ndnf install flatpak\n\nFlathubを登録\nf...",
-      "published": "2026-07-05T10:44:03+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
+      "title": "Lambda MicroVMsで「再開可能なPython実行カーネル」を作る — fleet管理まで実装してLambdaの実行モデルを越える",
+      "link": "https://zenn.dev/yoshit0oo/articles/lambda-microvms-resumable-kernel",
+      "summary": "はじめに\n作業していたサーバーを一旦止めて、次に開いたときに「起動していたプロセスも、メモリ上の変数も、さっきのまま」で再開できたら——と思ったことはないだろうか。通常のサーバーレス（Lambda関数）は1回の呼び出しごとに実行環境がまっさらに戻るため、こうした「状態を持ったまま中断・再開する」使い方はできない。\nこの「中断・再開できる隔離環境」が欲しくなる場面は意外と多い。たとえば、\n\nユーザー",
+      "published": "2026-07-05T10:41:26+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "Kaggleコードを読む #1 - 脳卒中データのクリーニング・前処理",
@@ -200,6 +317,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "【AWS】ノンインフラ出身者がインフラの深淵に挑む：今週の地雷と復盤（DB, Network）",
+      "link": "https://zenn.dev/leo_zhou_cloud/articles/aws-saa-mixed-004",
+      "summary": "インフラ初心者が今週踏み抜いたAWSの地雷まとめ\n今週は、AWS SAAの設計シナリオにおいて、「アーキテクチャの解耦（Decoupling）」と「適材適所」というクラウドの根本思想に反する致命的な地雷を多数踏み抜きました。エンジニアとしての「振り返り」を兼ねて、アーキテクチャの解説と共に資産としてここに記録します。\n\n\n 🚨 地雷ログ：分析トラフィックによる本番DBの崩壊とスケールアップの罠",
+      "published": "2026-07-05T10:37:25+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "「とりあえずLLMで工数削減して」の罠。既存プロジェクトのバイブコーディングで吐きそうになった話",
       "link": "https://zenn.dev/nice713/articles/llm-vibe-6ea745f1534fea",
       "summary": "トップダウンで「とりあえずLLM（バイブコーディング）を使って工数を削減しろ」というお達しが出たことはありませんか？\n私のいる組織でも同じような流れがあり、見切り発車で各々が好き勝手にLLMを使ったコーディングを始めました。私もそれに倣って意気揚々と開発を進めたのですが……結果として、吐きそうになるくらい苦労することになりました。\nこの記事では、私が本業でLLMを活用しようともがき苦しんだリアルな",
@@ -209,13 +335,13 @@
       "color": "#10A37F"
     },
     {
-      "title": "猫でもわかるループエンジニアリング",
-      "link": "https://zenn.dev/karamage/articles/5b7fbabcb04da6",
-      "summary": "最近、「ループエンジニアリング」という言葉をよく聞くようになりました。\n気になったので、自分の個人プロジェクトでも始めてみました。\n参考にしたのは以下のloop-engineeringリポジトリです。\nhttps://github.com/cobusgreyling/loop-engineering\nただ、いかんせんコレが何なのかイマイチわかりにくい。。。\n初心者向けのわかりやすい記事もなさそうだ",
-      "published": "2026-07-05T10:02:01+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
+      "title": "AWS Summit Japan 2026で見えた生成AIの現在地 〜「使う」から「一緒に働く」時代へ〜",
+      "link": "https://zenn.dev/takuyousou/articles/aws-summit-japan-2026-report",
+      "summary": "こんにちは、宋です。\n先日開催された AWS Summit Japan 2026 に参加してきました。\n\n\n\n今年は 2026 Japan AWS Jr. Champions として参加する機会にも恵まれ、多くのセッションを聴講し、さまざまな方と交流することができました。\n今年のSummitでは、生成AIに関するセッションが数多く開催されていました。\nもちろん新しいサービスや機能の紹介もありました",
+      "published": "2026-07-05T10:13:52+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "「ノートブックでは動く」を卒業する ― 半導体不良予測モデルをAPI化・コンテナ化するまで",
@@ -245,42 +371,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "S3 Annotation を使って S3 Files によるエージェンティックサーチ基盤を改良する",
-      "link": "https://zenn.dev/aws_japan/articles/bde726c3cd575b",
-      "summary": "S3 Annotations が公開されました\n2026年6月、S3 Annotations が GA しました。\nhttps://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-annotations-business-context/\nS3 Annotations は、S3 オブジェクトに対してリッチなメタデータ（JSON、XML、YA",
-      "published": "2026-07-05T07:49:38+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "【予言】今後、IT業界はどう変わるか？",
-      "link": "https://zenn.dev/pdfractal/articles/fe38d1b47cf7e6",
-      "summary": "はじめに\n今後のIT業界を考えるうえで、もっとも誤解を生みやすい言葉は「SaaS is dead.」です。この言葉は刺激的で、見出しとしては強いものです。しかし、産業構造を冷静に見るなら、SaaSが死ぬという理解は粗すぎます。死ぬのはSaaSそのものではありません。SaaS企業の中にある過剰な人員、過剰な導入支援、過剰な手作業、過剰なカスタマーサクセス、過剰な画面操作前提の業務です。\nより正確に言",
-      "published": "2026-07-05T07:42:07+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "SIerで培った「仕事の仕方」が、個人開発で初めて活きた話",
-      "link": "https://zenn.dev/ten056/articles/2544d036e2ad46",
-      "summary": "大企業で働きながら、こっそり個人でサービスを作っている人がいる。\n私もその一人だ。\n平日はレビューを通し、承認を取り、設計書を更新する。週末になると、ひとりでPCに向かって、旅行しおり管理サービスの開発を続ける。\n最初の1年は、ずっと「足りない」と感じていた。\n時間が足りない。手が足りない。視点が足りない。SIerの現場では当たり前のように存在していた「チーム」が、個人開発にはない。設計するのも自",
-      "published": "2026-07-05T07:15:44+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "壊れ方には家系がある — 6 モデル×修復器 3 世代の実測で tool call 修復の限界に触れた話",
-      "link": "https://zenn.dev/zephel01/articles/a0eedde75cbf64",
-      "summary": "壊れ方には家系がある — 6 モデル×修復器 3 世代の実測で tool call 修復の限界に触れた話\n\nTL;DR: 前話（zenn-09）で作った tool call 修復ベンチを、今度は「壊れやすい」と評判のモデル群に横断適用した。6 モデル × 直結/経由 × 100 リクエスト。結果、0%→100% がさらに 2 例（qwen2.5-coder:1.5b、mistral:7b）、phi",
-      "published": "2026-07-05T07:12:41+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "権限設計から考えるマルチ環境CI/CD ― dev/stg/prdで「同じパイプライン」を使い回してはいけない理由",
       "link": "https://zenn.dev/tk_nomura/articles/2026-07-multienv-permission-design",
       "summary": "はじめに\n前回の記事で、モノレポ内の複数プロジェクトに対してTerraform/アプリのCI/CDをproject/environmentを入力に持つreusable workflowで共通化する構成を紹介しました。この仕組みにより、新規プロジェクトを追加する際に必要なのは数行の呼び出しワークフローだけ、という状態を作れました。\n「複製せずに使い回せる」という仕組みが整うと、次に頭をよぎるのが**",
@@ -297,15 +387,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "【敗北記録】農学部大学生がAIでアプリを作ろうとしたら、Googleの靴を舐めることになりました。",
-      "link": "https://zenn.dev/hirose_suguru/articles/89ddb4a0ebb980",
-      "summary": "1. はじめに\nみなさんこんにちは、猪突猛進な広瀬・アーサー・傑です。東京農工大学の農学部に通っています。\n久々の記事になってしまいました。というのも、ここ1～2か月くらい、親の職場のための、通帳やクレカの明細をOCR（Optical Character Recognition, 光学文字認識）で読み取って編集できるアプリを一人で作っていました。\nその開発がひと段落したのでその話を書いていきます。",
-      "published": "2026-07-05T07:03:50+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "【敗北記録】農学部大学生がAIでアプリを作ろうとしたら、Googleの靴を舐めることになりました。",
@@ -335,15 +416,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "LLMの基礎をまとめていこう",
-      "link": "https://qiita.com/viuk/items/8852e2293353fc13e812",
-      "summary": "はじめに\n最近、ChatGPT、Claude、Gemini、ローカルLLMなど、さまざまな生成AIが使われるようになりました。\nその中心にある技術が LLM です。\nLLMは Large Language Model の略で、日本語では 大規模言語モデル と呼ばれます。\n...",
-      "published": "2026-07-05T06:51:26+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "生成AIに「GFPGAN（顔復元）」を聞いてみた（なぜ一度かたむけてから直すのか）",
       "link": "https://zenn.dev/tkpurine/articles/gfpgan-face-restoration",
       "summary": "はじめに\n超解像（Real-ESRGAN）は「どんな画像でも拡大」する汎用モデルでした。でも顔は人が誤りに敏感で、汎用拡大だと目や歯がボケがち。そこで劣化した顔を専用に復元する GFPGAN を調べ、デモも作りました。触るうちに「なぜ復元前に顔が\"傾く\"のか」まで腑に落ちたので、その記録です。\n\n GFPGANとは（まず全体像）\nTencent ARC（Real-ESRGANと同チーム）によるブラ",
@@ -351,24 +423,6 @@
       "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "インフラをTypeScriptで管理する - はじめてのAWS CDK",
-      "link": "https://zenn.dev/smartcamp/articles/c5ef03f249c3d4",
-      "summary": "TsKaigi 2026以下のセッションでAWS CDKをはじめて知りました。\nhttps://2026.tskaigi.org/talks/20\n\nAWS Cloud Development Kit (AWS CDK) は、コードでクラウドインフラストラクチャを定義し、AWS CloudFormation を通じてプロビジョニングするための、オープンソースのソフトウェア開発フレームワークです。",
-      "published": "2026-07-05T06:05:50+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AWS Bedrockを使用したレストラン検索LINE Bot作ってみた",
-      "link": "https://zenn.dev/shimiharu/articles/b680e455cbcb21",
-      "summary": "はじめに\nレストラン検索LINE Bot 「美食会」 を作りました！！\n\n\n なぜ作ったか\nご飯や飲み会の計画をする際に、以下の作業がめんどくさいです。\n\n食べたいものや場所をLINEで聞く\nネットで店を探す\n条件（予算、キャパ、喫煙席の有無etc...）を確認する\nリンクをLINEで共有した上で最終決定\n必要であればネット予約する\n\nレストラン検索用のLINE BotをLINEグループに招待し、",
-      "published": "2026-07-05T05:03:21+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "dera AI Weekly Vol.32 — 2026/5/25",
@@ -407,15 +461,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "AWS SAA ― 学習ログ⑤：アウトプットの強化Ⅱ",
-      "link": "https://zenn.dev/hitakaha/articles/bd880f95975d3c",
-      "summary": "はじめに\nAWS SAAの学習を継続中です。直近1週間の学習時間は13時間ほどでした。\nSAAの受験日は 7/30〜31、または8/6〜7 を予定日として見据えています。\n最短の場合、残りはおよそ25日です。\n学習自体は継続できているものの、受験日を仮決めしたことで「まずはとにかく合格基準に達しなければ」という焦りが少し出てきました。\nとはいえ、締め切りがあるからこそ生まれる良い緊張感だと捉えてい",
-      "published": "2026-07-05T04:10:58+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "定期実行、まだ cron だけ？ systemd timer のすすめ",
       "link": "https://qiita.com/j_mori/items/5baa1796d991c6c7ba5d",
       "summary": "はじめに\nこんにちは、mori (@morimori) です。\n突然ですが、systemd timer って知っていますか？ お恥ずかしながら、私は最近まで知りませんでした。\nもともと Unix / Linux を中心にサーバエンジニアをやってきたのですが、定期実行といえ...",
@@ -423,15 +468,6 @@
       "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "複式簿記の家計簿SaaSを React + AWS SAM で作る — シングルテーブル・借貸一致検証・テナント分離",
-      "link": "https://zenn.dev/pakupaku_x/articles/66602c77740b91",
-      "summary": "はじめに\n個人開発で「複式簿記ベースの家計簿」をSaaS化しています。もともとは1枚の kakeibo.html（localStorage、約980行）で動くローカルアプリでしたが、これを React + Vite（フロント）／ AWS SAM（Lambda + DynamoDB + Cognito） に載せ替えました。\nhttps://kurofukubo.com/?utm_source=zen",
-      "published": "2026-07-05T03:24:33+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "Supabaseローカル開発をはじめる — CLI 導入から最初のスキーマ適用まで",
@@ -488,15 +524,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "S3 のメタデータ地獄から卒業する：新機能 S3 annotations をやってみた",
-      "link": "https://zenn.dev/yoshit0oo/articles/s3-annotations-athena-handson",
-      "summary": "はじめに\nS3 オブジェクトに「もう少しリッチな情報」を付けたいと思って、user metadata の2KB上限や object tags の10個・256文字上限にぶつかったことはないだろうか。AI エージェントやデータ発見の文脈では、画像やドキュメントに構造化されたコンテキスト（分類・スコア・要約など）を持たせ、それを検索対象にしたい場面が増えている。\n2026年6月16日、AWS Summ",
-      "published": "2026-07-04T18:58:32+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "Dev Container による uv 環境構築",
       "link": "https://zenn.dev/fjktkm/articles/89ab66c1433678",
       "summary": "1. はじめに\nこの記事では Dev Container を用いて，Python のパッケージマネージャーである uv の環境を構築する方法を解説します．できるだけオフィシャルなツールだけに依存することを重要視し，uv の公式イメージと Dev Container の機能だけを使って構成する手法を提案します．\n本記事で紹介する構成は以下のリポジトリで公開しています．\nhttps://github.",
@@ -522,15 +549,6 @@
       "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "【DynamoDB】なぜGSIは強整合性をサポートしていないのか？なぜLSIは後から追加できないのか？",
-      "link": "https://zenn.dev/yukimurakami/articles/6b67079192ffc5",
-      "summary": "はじめに\nDynamoDB を触っていると、色々な制限（仕様）に出会います。\n本記事では私が気になった以下2つの仕様について書いたものです。\n\nなぜ GSI（グローバルセカンダリインデックス）は強整合性をサポートしていないのか？\n\nなぜ LSI（ローカルセカンダリインデックス）は後から追加できないのか？\n一見すると別々の話に見えますが、調べていくうちになんとなく繋がりが見えてきて面白かったです。",
-      "published": "2026-07-04T14:18:47+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "意味は境界でなく「程度」で揺らぐ — LLMで中観の無自性を測る",
@@ -564,27 +582,9 @@
       "link": "https://zenn.dev/sbk0716/articles/753ffaa23be30a",
       "summary": "1. はじめに\n\n この記事を書いた背景\nAI（コーディングエージェント）が、アプリだけでなく インフラ（IaC）も書くようになりました。すると、新しい問いが出てきます。\n\n「AI が書いた IaC、動きはするが 意図どおり・安全か はどう担保する？」\nとくに 非機能要件（Public アクセス禁止・暗号化・バージョニング・ログ …）は、機能要件と違って「動いた」だけでは満たされたか分かりません。",
       "published": "2026-07-04T08:54:27+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "IaC と IfC を実際に動かして比較してみた【2026】",
-      "link": "https://zenn.dev/sbk0716/articles/753ffaa23be30a",
-      "summary": "1. はじめに\n\n この記事を書いた背景\nAI（コーディングエージェント）が、アプリだけでなく インフラ（IaC）も書くようになりました。すると、新しい問いが出てきます。\n\n「AI が書いた IaC、動きはするが 意図どおり・安全か はどう担保する？」\nとくに 非機能要件（Public アクセス禁止・暗号化・バージョニング・ログ …）は、機能要件と違って「動いた」だけでは満たされたか分かりません。",
-      "published": "2026-07-04T08:54:27+00:00",
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "CDK と AWS Blocks を実コードで読み解いてみた【2026】",
-      "link": "https://zenn.dev/sbk0716/articles/fa2a1898213a65",
-      "summary": "1. はじめに — なぜ「実体は CloudFormation」を確かめるのか\n\n この記事を書いた背景\nAWS CDK は「TypeScript でインフラを書ける」、AWS Blocks（2026-06 の新しい IfC）は「機能ブロックを import するだけ」——どちらも 抽象化で楽をさせてくれるツールです。\nしかし抽象化の裏側では、両方とも最終的に CloudFormation（CFN",
-      "published": "2026-07-04T07:39:47+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "July 04, 2026",
