@@ -1,23 +1,131 @@
 {
-  "updated": "2026-07-05T02:12:53.183190+00:00",
+  "updated": "2026-07-05T06:32:02.549591+00:00",
   "items": [
     {
-      "title": "Google の MCP Toolbox for Databases から Aurora PostgreSQL につないでみた",
-      "link": "https://qiita.com/asahide/items/5b753dacd25abc2fe94e",
-      "summary": "1. はじめに\nAI エージェントからデータベースを使う「MCP でつなぐ」やり方を、いろいろな組み合わせで試してきました。少し前に Google の MCP Toolbox for Databases（以下 MCP Toolbox）を Oracle Autonomous...",
-      "published": "2026-07-05T02:11:19+00:00",
+      "title": "AWSの暗号化・鍵管理サービスまとめ",
+      "link": "https://qiita.com/keitakei777/items/ee34ec3e245bd5dd0968",
+      "summary": "こんにちは。\n今回は、AWSの暗号化・鍵管理サービスについて、それぞれの役割や違いを整理してみます。\n\nまず整理\nAWSには暗号化や認証情報を管理するサービスが複数ありますが、管理する対象は大きく3種類に分けられます。\n                AWSの暗号化・鍵管理...",
+      "published": "2026-07-05T06:16:30+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "AI-DLCって何？を知らなかった文系エンジニアが、社内ハッカソンで試してみた",
-      "link": "https://qiita.com/Koki_portra400/items/08863b90ae72c26d11d4",
-      "summary": "目次\n\nはじめに\nAI-DLCとは何か\n従来のAI活用との違い\nなぜハッカソンでAI-DLCを選んだか\nハッカソン実況：AI-DLCで実際に開発してみた\n成果\n今後の展望\nおわりに\n\nはじめに\nこんにちは。\nアプリケーションエンジニア3年目のKokiです。\nAWSやA...",
-      "published": "2026-07-05T01:09:58+00:00",
+      "title": "生成AIに「GFPGAN（顔復元）」を聞いてみた（なぜ一度かたむけてから直すのか）",
+      "link": "https://zenn.dev/tkpurine/articles/gfpgan-face-restoration",
+      "summary": "はじめに\n超解像（Real-ESRGAN）は「どんな画像でも拡大」する汎用モデルでした。でも顔は人が誤りに敏感で、汎用拡大だと目や歯がボケがち。そこで劣化した顔を専用に復元する GFPGAN を調べ、デモも作りました。触るうちに「なぜ復元前に顔が\"傾く\"のか」まで腑に落ちたので、その記録です。\n\n GFPGANとは（まず全体像）\nTencent ARC（Real-ESRGANと同チーム）によるブラ",
+      "published": "2026-07-05T06:15:12+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "CloudFormationで既存リソースを別リソースとして管理できる？Import・Clone・新規作成の違いを解説",
+      "link": "https://qiita.com/volbe/items/686f86d09405da98dd2f",
+      "summary": "概要\n手動で作った S3 バケットや DynamoDB テーブルを CloudFormation でも管理したい——このときの選択肢は「既存の実体をそのまま取り込む Import」「同構成の別実体を作る Clone（複製）」「ゼロから作る 新規作成」の3つです。この記事で...",
+      "published": "2026-07-05T05:34:03+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "VPC が消せない。原因は中に残っていたものだった話【AWS / 片付け】",
+      "link": "https://qiita.com/80-cloud/items/d257b0b18ff91cd18318",
+      "summary": "はじめに\n学習で作った AWS リソースを片付けようとしていました。EC2・RDS・ロードバランサー（ALB）など、いろいろあるので、「VPC をまとめて消せば、中のものも一緒に消えるだろう」と考えて、VPC の削除から手をつけました。\nところが、削除しようとするとエラー...",
+      "published": "2026-07-05T05:21:51+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "dera AI Weekly Vol.32 — 2026/5/25",
+      "link": "https://qiita.com/dera_news_/items/913354641395182dff1b",
+      "summary": "2026-05-25号\n今週のAI業界を一言で表すなら？\nAI業界は人材の流動とエージェント技術の進化が加速し、競争が激化しています。\nOpenAI共同創業者アンドレイ・カルパシー氏のAnthropic移籍は、この動きを象徴する出来事です。Google I/Oでの新発表や大...",
+      "published": "2026-07-05T05:01:30+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "OSSのIoTプラットフォーム「ThingsBoard」をKubernetesにデプロイする",
+      "link": "https://qiita.com/takumiida1/items/4933c770afe60d92ab82",
+      "summary": "Summary\n\nThingsBoard は OSS の IoT プラットフォームであり、SaaS とセルフホストの両方で利用できる。今回は既存の Kubernetes クラスターにセルフホストした\n\nDB 初期化は initContainer としてマニフェストに...",
+      "published": "2026-07-05T04:56:01+00:00",
+      "source": "Qiita - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "Lambda@Edgeについて調べてみた",
+      "link": "https://qiita.com/keitakei777/items/0934d229bfb91b03f23b",
+      "summary": "こんにちは。\n今回は、Lambda@Edgeについて整理してみます。\n\nLambda@Edgeとは\nLambda@Edgeは、Amazon CloudFrontのエッジロケーションでAWS Lambda関数を実行できるサービスです。\n通常のLambdaはAWSリージョンで実...",
+      "published": "2026-07-05T04:51:30+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "実務で触ってきたAWSのサービスについて",
+      "link": "https://qiita.com/fudo-ge/items/5d494a26a4616615accf",
+      "summary": "目的\nこれまで業務上で使用してきたAWSのサービスについて、それぞれのサービスについての再理解と個人的な使用感についてまとめました。\n\n1. 開発・CI/CD\nコードの管理からビルド、本番・検証環境への自動デプロイを支えるパイプラインの構築に使用したサービス群について。\n...",
+      "published": "2026-07-05T04:43:55+00:00",
+      "source": "Qiita - インフラ",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "圏論はラングランズプログラムの基盤たりうるか？ ── 集合論から関数的圏論世界観へ、ブルバキ・シリーズの停止が示すもの",
+      "link": "https://qiita.com/etale_cohomology/items/36534c4a04557aa62fbb",
+      "summary": "TL;DR（３行要約） \n\nラングランズ・プログラムとは、数論・幾何・物理という別々の世界を翻訳しあう、数学の大統一の試み です。\n本記事は、圏論がなぜ、ラングランズ・プログラムの基盤となるのか？ を対話篇で辿ります。\n\n数式は読み飛ばしてOK です。物語として楽しめます...",
+      "published": "2026-07-05T04:29:10+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "猫でもわかるFlow(正規化フロー) ― VITSを支える\"F\"(Flow)を図で理解する",
+      "link": "https://zenn.dev/nnn112358/articles/flow-for-cats",
+      "summary": "この記事について\nVITSは「VAE + Flow + GAN」の合わせ技だ、と系譜の記事で書きました。今回はその真ん中、Flow(正規化フロー / Normalizing Flow) の話です。\n!\n用語の注意:「VAE + Flow + GAN」はVITSを構成する3つの技術のこと。VITSの正式名称は Variational Inference with adversarial learni",
+      "published": "2026-07-05T04:22:42+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "猫でもわかる音響モデル ― 音素をメルスペクトログラムに変える",
+      "link": "https://zenn.dev/nnn112358/articles/acoustic-model-for-cats",
+      "summary": "この記事について\nこれまでの「猫でもわかる」シリーズで、TTSの入口(G2P)と出口(HiFi-GANなどのボコーダ)、その間のメルスペクトログラムを見てきました。\n今回はいよいよ、そのど真ん中にいる 音響モデル(Acoustic Model) です。「音響モデルがテキストからメルを作る」と何度も書いてきましたが、その正体を明かします。音素の列を、メルスペクトログラムに変換する——言い換えれば「文",
+      "published": "2026-07-05T04:22:41+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "定期実行、まだ cron だけ？ systemd timer のすすめ",
+      "link": "https://qiita.com/j_mori/items/5baa1796d991c6c7ba5d",
+      "summary": "はじめに\nこんにちは、mori (@morimori) です。\n突然ですが、systemd timer って知っていますか？ お恥ずかしながら、私は最近まで知りませんでした。\nもともと Unix / Linux を中心にサーバエンジニアをやってきたのですが、定期実行といえ...",
+      "published": "2026-07-05T03:30:09+00:00",
+      "source": "Qiita - インフラ",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "マイクロン、AI需要で広島工場増強へ起工式　1.5兆円投資",
+      "link": "https://eetimes.itmedia.co.jp/ee/articles/2607/06/news047.html",
+      "summary": "マイクロンメモリ ジャパンは2026年7月、広島工場の生産能力増強に向けた新クリーンルーム建設の起工式を開催した。AI技術の進展に伴うメモリ需要の増加に対応するもので、2028年後半に製造装置の搬入を開始する予定だ。広島工場には今後、この新クリーンルーム建設を含めて1兆5000億円を投じる。",
+      "published": "2026-07-05T02:00:00+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "サーバーレスVPCアクセスによるApp Engineからオンプレミスデータベースへのセキュア接続パターン",
+      "link": "https://zenn.dev/kat/articles/ef6f2ad07916c8",
+      "summary": "1. 対象ワークロードと最適化のシチュエーション\n対象となるのは、「パブリックなインターネットから隔離されたマネージドサーバーレス環境（App Engine Standardなど）から、プライベートな閉域網（VPC）およびハイブリッド接続（Cloud VPN / Cloud Interconnect）を経由し、オンプレミス環境のデータベースや内部リソースへ、データをパブリックに公開することなく安全",
+      "published": "2026-07-05T01:00:09+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "時系列データの異常値検知を5ステップで考えてみる",
@@ -29,13 +137,22 @@
       "color": "#10A37F"
     },
     {
-      "title": "【AWS Summit Japan 2026】「Amazon Connect Customerで実現する進化したコンタクトセンター －エージェンティックAIが変える顧客体験－」セッションレポート",
-      "link": "https://qiita.com/yosuke-suzuki/items/70c5ef416480b084386d",
-      "summary": "はじめに\n2026年6月25日・26日の2日間で開催された AWS Summit Japan 2026で聴講したセッション「Amazon Connect Customerで実現する進化したコンタクトセンター －エージェンティックAIが変える顧客体験－」(BIZ326)のレ...",
-      "published": "2026-07-04T23:46:25+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "回帰で「小さく写る対象」だけ精度が出ない ― scale-imbalanced loss を log-radius で直す",
+      "link": "https://zenn.dev/kiribako_dev/articles/coin-radius-scale-invariant-loss",
+      "summary": "個人開発の釣果記録アプリ「KIRIBAKO」では、写真に写した硬貨を基準に魚を採寸しています。コインの直径（1 円玉 = 20mm）が既知なので、検出した円の半径から「1px = 何 mm か」を割り出す仕組みです。\n前の記事（ドメインギャップだと思ったら自分のデータの画角だった）では、白い机などの背景でコイン検出が緩む症状を「学習データ不足」と疑い、3 回の fine-tune を試して全部外し",
+      "published": "2026-07-05T00:01:19+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "ドメインギャップだと思ったら自分のデータの画角だった ― fine-tune 3回の記録",
+      "link": "https://zenn.dev/kiribako_dev/articles/coin-detection-domain-gap",
+      "summary": "個人開発の釣果記録アプリ「KIRIBAKO」では、写真に写した硬貨を基準に魚を採寸しています。\n前の記事（コイン検出【後編】）では、OpenCV の HoughCircles に CoreML の学習ベース検出（CenterNet 風の中心+半径回帰）を組み合わせ、木目・反射・偽円問題を構造的に解決した話を書きました。ハイブリッド判定を実装し、「精度の OpenCV、頑健性の ML」で両取りできた",
+      "published": "2026-07-05T00:01:18+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "IndexNowをNodeスクリプト1本で実装する ― 記事公開を検索エンジンに即時通知（ChatGPT検索対策にも）",
@@ -45,15 +162,6 @@
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "MCPサーバーを7000台調査したら、36.7%が同じSSRFの穴を持っていた",
-      "link": "https://qiita.com/kai_kou/items/c8d7dc2664f9c372e776",
-      "summary": "はじめに\nMicrosoft製のドキュメント変換ツール「MarkItDown」（GitHub★15万超1・MCPサーバーとしても提供）に、SSRF（Server-Side Request Forgery）につながる脆弱性が報告されました。セキュリティ企業BlueRockの...",
-      "published": "2026-07-04T23:05:04+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "GPU付きPCの納品を待つ間に、CPUでできることを全部やってみた ― 歩行進化・LLMマージ・性格ダイヤルの記録",
@@ -146,15 +254,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "【書評】PythonによるAIプログラミング入門 ―ディープラーニングを始める前に身につけておくべき15の基礎技術",
-      "link": "https://qiita.com/io0323/items/8a02e72401c666d66f07",
-      "summary": "本書の概要\n「ディープラーニングを始める前に」というサブタイトルが示すとおり、本書はAIの基礎技術を幅広くカバーした一冊です。教師あり学習・教師なし学習・推薦システム・論理プログラミング・ヒューリスティック探索・遺伝的アルゴリズム・NLP・音声認識・物体検出・強化学習・ニ...",
-      "published": "2026-07-04T15:01:35+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "AIに外部脳を持たせて1ヶ月運用した全記録",
       "link": "https://zenn.dev/nobu666/articles/ai-external-brain-digest",
       "summary": "AIにコードや文章を書かせている人なら、一度は感じたことがあると思う。セッションが変わると、前回の続きが話せない。前に指摘したことも、決めた前提も、好みも、全部リセットされて最初から説明し直しになる。優秀なのに、毎回初対面の担当者に電話しているような感覚だ。\n公式のメモリ機能もあるにはあるが、使っていて不満が4つ溜まった。\n\n何を覚えているか中身が見えない\n記憶する基準がAI任せで、自分でルールを",
@@ -232,15 +331,6 @@
       "summary": "!\n📝 前回の記事は以下のリンクからどうぞ！\n\nhttps://zenn.dev/kinotex/articles/373397d9dff9ed\n\n はじめに\nここまででスマホ単体でのVOICEVOXによる高品質な音声チャットや、APIサーバーに音声を組み込む機能が完成しました。しかし、ここで大きな現実的問題に直面します。\n「モデルファイルの容量が大きすぎて、アプリを作るたびにダウンロードしていた",
       "published": "2026-07-04T12:51:22+00:00",
       "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "ドラフトを1回で出すDFlash、EAGLE-3の逐次を捨てて6倍高速化",
-      "link": "https://qiita.com/okssusucha/items/f8ae61f112e2be4b0980",
-      "summary": "投機的デコード(speculative decoding)は、この2年ですっかり定番の高速化テクになった。小さな「ドラフトモデル」に先の数トークンを予想させ、本命の大きなモデルにまとめて答え合わせさせる。当たっていた分だけ一気に進むので、出力品質を一切変えずに生成が速くなる...",
-      "published": "2026-07-04T12:05:31+00:00",
-      "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -371,15 +461,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "話者分離で本当に効くのは「モデルの精度」ではなく「ASRの発話粒度」だった（SpeechAnalyzerの日本語では発話の71%が複数話",
-      "link": "https://zenn.dev/tsukihi/articles/d6fdbd9a7909be",
-      "summary": "結論\n多くの人は、話者分離の精度は「モデルの性能」で決まると思っています。実際に日本語の会議音声で測ってみると、それ以上に効いていた要因が別にありました。音声認識（ASR）が返してくる発話の粒度です。\nASRが話者交代をまたいで複数の発言を1つの発話にまとめてしまうと、話者分離モデルがどれだけ優秀でも、その発話の少数派話者は構造的に誤帰属されます。実測したところ、この記事のオンデバイスASR（Ap",
-      "published": "2026-07-04T05:47:33+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Cloud Run + Cloud Tasks の非同期処理を Go と Python で比較する",
       "link": "https://zenn.dev/snknsk/articles/cloudrun-cloudtasks-go-python",
       "summary": "はじめに\nこの記事では、自分が作った 2 つの Cloud Run + Cloud Tasks 構成を題材に、Go と Python で非同期処理基盤を実装したときの設計差を整理します。\nGo と Python のどちらが優れているかではなく、同じアーキテクチャを異なる言語で実装したときに何が変わるかを観察し、\n適材適所を考察することを目的にまとめました。\nこの記事でわかること\n\nCloud Ru",
@@ -396,15 +477,6 @@
       "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "AISIのtest-time computeを使う：AIエージェント評価を3予算で作る",
-      "link": "https://zenn.dev/hironakamura_ai/articles/fc964f9050c0eb",
-      "summary": "結論から言うと、エージェント評価は「何点だったか」だけで見ると危ない。AISI が 2026年7月2日に出した記事は、そこを突いている。モデルの能力は固定スコアではなく、トークン予算に対する曲線として見るべき話だ。\n手元の評価ログを小さいスクリプトで見直していて、ここで詰まった。1M tokens で失敗した run を「このモデルは無理」と切っていたけど、10M tokens まで許すと再試行と",
-      "published": "2026-07-04T04:15:26+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "課金処理の異常をEventBridgeとLambdaで定期監視する仕組みを作った",
@@ -441,33 +513,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "「体験」でゲームを薦めるレコメンドを作った",
-      "link": "https://zenn.dev/koizumiiiii/articles/09b7a629ee5d14",
-      "summary": "「あのゲームが好き」なのであって、「あのゲームみたいなもの」がやりたいわけではない。\n好きなゲームを通して味わった、あの興奮や感動。欲しいのは、似た見た目や似たシステムの別物ではなく、その\"体験\"をもう一度くれる一本です。ところが既存のレコメンドはどれも「タグが同じ」「よく一緒に買われている」で薦めてきます。表面のカテゴリが一致しているだけで、手触りが近いかどうかは見ていません。\nそういうレコメン",
-      "published": "2026-07-04T03:08:01+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "過学習は「特徴量を減らせば直る」——それ、嘘でした",
-      "link": "https://zenn.dev/morimiso/articles/d811bd6cd5b11c",
-      "summary": "このフロントマターはZenn用です。noteやQiitaに出す場合は削除してください。\n系列トレードの検証で踏む罠を扱う連載の第4回（山場）です。第1〜3回の続きです。\n\n前回までの3回で、検証は信用できるものになりました。時間の漏れ（第1回・未来参照）も情報の漏れ（第2回・特徴量リーク）もなく、ライブとの差も説明できる（第3回）。武器は揃った。\nその正しい検証ハーネスで、いよいよパラメータ探索を",
-      "published": "2026-07-04T02:56:20+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "TTS学習向けのGPUの選び方",
-      "link": "https://zenn.dev/nnn112358/articles/gpu-for-tts-training",
-      "summary": "結論(先に)\nTTS(音声合成)モデルの学習用GPUは、カタログのピークTFLOPS(演算性能)ではなく、「メモリ帯域」と「VRAM容量」で選ぶのが正解です。\nなぜなら、TTSモデルは画像・言語モデルに比べて小さく、学習がメモリ帯域律速(memory-bandwidth-bound)になりやすいからです。この特性を知らないと、「AI向け」を謳う高価な製品を買ったのに大して速くならない、という失敗を",
-      "published": "2026-07-04T02:02:09+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "【Terraform】Terraformを初めて触ってみた",
@@ -565,24 +610,6 @@
       "summary": "自己紹介\nこんにちは。SESとして株式会社Scalarに常駐しているインフラエンジニアの岩﨑です。実務経歴7ヶ月目で、最近はKubernetes上でのcert-manager設計に取り組んでいます。\n\n\n 概要\nこの記事では、cert-managerの設計を進める中で「なぜIPではなくFQDNで通信するのか」を理解するまでの過程を書いています。\n証明書設計でdnsNamesという項目を書く必要があ",
       "published": "2026-07-03T08:30:07+00:00",
       "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "🍯【はちみつと学ぶIT】Nutanixとは？HCI・Prism・AHVをやさしく解説！",
-      "link": "https://qiita.com/honeybro/items/b68a76bf5d6860e39bb3",
-      "summary": "🍯【はちみつと学ぶIT】Nutanixとは？HCI・Prism・AHVをやさしく解説！\n\nはじめに\n前回は「Hypervisor（ハイパーバイザー）」について学びました。\n今回は企業や自治体のサーバ環境でよく利用されている\nNutanix（ニュータニックス）\nについて学び...",
-      "published": "2026-07-03T07:43:36+00:00",
-      "source": "Qiita - インフラ",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "🍯【はちみつと学ぶIT】Hypervisor（ハイパーバイザー）とは？仮想マシンを動かす仕組みを学ぼう！",
-      "link": "https://qiita.com/honeybro/items/d3c571626729ed560c3f",
-      "summary": "🍯【はちみつと学ぶIT】Hypervisor（ハイパーバイザー）とは？仮想マシンを動かす仕組みを学ぼう！\n\nはじめに\n前回は「サーバ仮想化」について学びました。\nその中で登場した\nHypervisor（ハイパーバイザー）\nという言葉。\n「仮想マシンを動かすソフトウェアらし...",
-      "published": "2026-07-03T07:42:56+00:00",
-      "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
     },
@@ -740,15 +767,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "AIで実機との形状差を学習するプレス成形シミュレーションソフトウェア",
-      "link": "https://monoist.itmedia.co.jp/mn/articles/2607/03/news006.html",
-      "summary": "JSOLは、プレス成形シミュレーションソフトウェア「JSTAMP」にAI機能を搭載した。実機トライとシミュレーションの形状差を学習して補正し、高強度鋼板のスプリングバック予測精度を向上させる。",
-      "published": "2026-07-03T00:00:00+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Spring BootをRenderへデプロイした時にハマったポイント5選",
       "link": "https://zenn.dev/akihide/articles/7b49f86106b168",
       "summary": "はじめに\nSpring Boot + PostgreSQL のAPIをRenderへデプロイしました。\n最終的には\n\n/health\n/users\n\nまで無事に動作しました。\nしかし、そこまでたどり着くまでには想像以上に苦戦しました。\nRenderを触るのは初めてだったので、\n\nデータベースは作ったけど次に何をすればいいのか分からない\nDockerの設定はどこまで必要なのか分からない\nエラーログが",
@@ -774,15 +792,6 @@
       "source": "Publickey",
       "tag": "テック",
       "color": "#888780"
-    },
-    {
-      "title": "閉鎖環境の Mac Studio GPU を外から安全に使う — kiapi-relay / kiapi-proxy をリリース",
-      "link": "https://zenn.dev/kiarina/articles/2026-07-02-kiapi-relay-proxy-release",
-      "summary": "こんにちは、皆さん。\n外出先から、自宅に置いてある Mac Studio の GPU を使いたいと思ったことはありませんか？\n私はあります。\n前回の記事では、kiapi と Codex を使って、Mac Studio で画像、音楽、動画を作りました。\nでも、生成するたびに Mac Studio の前へ戻るわけにもいきません。\nかといって、kiapi のポートをそのままインターネットへ公開するのも避",
-      "published": "2026-07-02T14:51:50+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "Metagenomi が LanceDB と Amazon S3 で実現した 10 億ベクトル超のスケーラブルな検索基盤",
@@ -979,15 +988,6 @@
       "summary": "〜ラズパイ5とミニPCで作る自宅サーバ環境〜\n「GCP / Azureの経験はあるけどオンプレはわからない」そんなインフラエンジニアが自宅にサーバを構築した記録です。\nラズパイ5とミニPC（GMKtec K8 Plus）を使って、VPN・DNS・監視・Kubernetesまで構築していきます。失敗しながら学んだトラブルシューティングも全部書いてます。現在進行形で更新中。\n当たり前のことをやらかして",
       "published": "2026-07-01T04:16:33+00:00",
       "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "K3s・KubeEdge・Wasmで構築するエッジコンピューティング基盤の設計実践",
-      "link": "https://qiita.com/0h-n0/items/8b9708115ee3a2803106",
-      "summary": "K3s・KubeEdge・Wasmで構築するエッジコンピューティング基盤の設計実践\n\nこの記事でわかること\n\nエッジコンピューティングの3層アーキテクチャ（デバイス・エッジ・クラウド）の設計指針と各層の責務分離\nK3s・KubeEdge・OpenYurtの特性比較と、ユー...",
-      "published": "2026-07-01T01:32:45+00:00",
-      "source": "Qiita - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
     },
