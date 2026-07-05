@@ -1,6 +1,15 @@
 {
-  "updated": "2026-07-05T16:00:58.763706+00:00",
+  "updated": "2026-07-05T19:03:55.612836+00:00",
   "items": [
+    {
+      "title": "Dockerfileは分けない〜本番用とローカル用を1つに保つ方法🐳",
+      "link": "https://qiita.com/H-Hoshihara/items/82798a46964718f6bdb0",
+      "summary": "はじめに\n新卒研修にてコンテナアプリケーションを構築する機会がありました。\n以前、Dockerfileを本番用とローカル用で分けている現場を見たことがあったため、今回はその是非も含めて「本番環境とローカル環境でDockerfileを分けるべきか」検討しました。\n本記事は、...",
+      "published": "2026-07-05T17:32:58+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "プログラミングのためのBGMや環境音など。仕事や勉強の邪魔にならない無料で使えそうな音源集。2026年版",
       "link": "https://www.publickey1.jp/blog/26/bgm2026.html",
@@ -65,19 +74,19 @@
       "color": "#326CE5"
     },
     {
+      "title": "Amazon AuroraからBigQueryにデータ連携するときにGCSは必要なのか",
+      "link": "https://zenn.dev/tsukulink/articles/2026-07-rds-bigquery-sync",
+      "summary": "はじめに\nこんにちは、ツクリンクでSREエンジニアをやってるida.です。\nツクリンクではAmazon AuroraのデータをBigQueryに連携して分析基盤として活用しています。現在はdigdagを使ったパイプラインで連携しているのですが、自前で運用するパイプラインをよりマネージドでコスト最適化された構成にできないかを検討する中で、今回の検証に至りました。\nそこで目をつけたのが、Auroraの",
+      "published": "2026-07-05T15:00:08+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
       "title": "ALBのアクセスログ用S3バケットポリシーがアカウントID不要で設定できるようになってた",
       "link": "https://qiita.com/sagochiko/items/cf80aea1ee753d8a8d1b",
       "summary": "ALBのアクセスログを有効化するときにS3で必要なS3バケットポリシーが自分の知ってた書き方から変わっていたので振り返りとして記載します。\n\n結論\nALBのアクセスログを有効化するとき、S3に設定するS3バケットポリシーのPrincipalにはlogdelivery.ela...",
       "published": "2026-07-05T14:57:33+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AWS ECS の構成要素を整理する",
-      "link": "https://qiita.com/kkaattoo/items/45277544d8cce9b291f7",
-      "summary": "はじめに\n業務で ECS を扱う機会があり、それをきっかけに理解を深めたいと考え、ECS の基本構造をまとめました。\n本記事では、ECS の全体像を表す3つのレイヤーと、コンテナを動かすための構成要素（タスク定義・タスク・サービス・クラスター）、そしてコンテナが実際に動く...",
-      "published": "2026-07-05T14:57:27+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
@@ -135,6 +144,15 @@
       "source": "Qiita - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "競馬AI開発記録 #21 ドメイン知識の注入とモデルの多層分離：識別能の限界突破に挑む",
+      "link": "https://zenn.dev/ricotiler/articles/keiba-ai-21-race_rating_feature_engineering",
+      "summary": "1. 概要\n前回の第20話では、モデルの「過信」を数学的に矯正し、投資の正確な物差しを手に入れるために3分割物理隔離と**確率校正（Calibration）**を実装しました。これにより期待値（EV）運用の土台は整いましたが、検証の結果、モデルの根本的な「実力序列の予測精度（識別能）」、すなわち Spearman 相関係数 が伸び悩んでいるという課題が浮き彫りになりました。\n今回は、競馬のドメイン",
+      "published": "2026-07-05T12:00:37+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "AIが自分からLINEしてくる——「孤独」と「疲労」を実装した自律思考ループの個人開発実録",
@@ -204,6 +222,15 @@
       "link": "https://zenn.dev/yuya0408/articles/secom-defect-serving",
       "summary": "これは、半導体製造データ SECOM を題材にした不良予測プロジェクトの記録の一つ、「実装編」である。同じ1つのプロジェクトを、別々の角度から書いている。\n\n\n考察編（記事）― このデータが何を物語っているかを読み解く話\n\n実装編（本記事）― 分析結果を API・コンテナとして動かせる形にする話\n\n前回の記事（考察編）では、半導体製造データ SECOM を題材に「予測精度を上げる」よりも「このデー",
       "published": "2026-07-05T09:03:18+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "「ノートブックでは動く」を卒業する ― 半導体不良予測モデルをAPI化・コンテナ化するまで",
+      "link": "https://zenn.dev/yuya0408/articles/secom-defect-serving",
+      "summary": "これは、半導体製造データ SECOM を題材にした不良予測プロジェクトの記録の一つ、「実装編」である。同じ1つのプロジェクトを、別々の角度から書いている。\n\n\n考察編（記事）― このデータが何を物語っているかを読み解く話\n\n実装編（本記事）― 分析結果を API・コンテナとして動かせる形にする話\n\n前回の記事（考察編）では、半導体製造データ SECOM を題材に「予測精度を上げる」よりも「このデー",
+      "published": "2026-07-05T09:03:18+00:00",
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
@@ -263,6 +290,15 @@
       "color": "#326CE5"
     },
     {
+      "title": "権限設計から考えるマルチ環境CI/CD ― dev/stg/prdで「同じパイプライン」を使い回してはいけない理由",
+      "link": "https://zenn.dev/tk_nomura/articles/2026-07-multienv-permission-design",
+      "summary": "はじめに\n前回の記事で、モノレポ内の複数プロジェクトに対してTerraform/アプリのCI/CDをproject/environmentを入力に持つreusable workflowで共通化する構成を紹介しました。この仕組みにより、新規プロジェクトを追加する際に必要なのは数行の呼び出しワークフローだけ、という状態を作れました。\n「複製せずに使い回せる」という仕組みが整うと、次に頭をよぎるのが**",
+      "published": "2026-07-05T07:09:11+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
       "title": "【敗北記録】農学部大学生がAIでアプリを作ろうとしたら、Googleの靴を舐めることになりました。",
       "link": "https://zenn.dev/hirose_suguru/articles/89ddb4a0ebb980",
       "summary": "1. はじめに\nみなさんこんにちは、猪突猛進な広瀬・アーサー・傑です。東京農工大学の農学部に通っています。\n久々の記事になってしまいました。というのも、ここ1～2か月くらい、親の職場のための、通帳やクレカの明細をOCR（Optical Character Recognition, 光学文字認識）で読み取って編集できるアプリを一人で作っていました。\nその開発がひと段落したのでその話を書いていきます。",
@@ -272,6 +308,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "【敗北記録】農学部大学生がAIでアプリを作ろうとしたら、Googleの靴を舐めることになりました。",
+      "link": "https://zenn.dev/hirose_suguru/articles/89ddb4a0ebb980",
+      "summary": "1. はじめに\nみなさんこんにちは、猪突猛進な広瀬・アーサー・傑です。東京農工大学の農学部に通っています。\n久々の記事になってしまいました。というのも、ここ1～2か月くらい、親の職場のための、通帳やクレカの明細をOCR（Optical Character Recognition, 光学文字認識）で読み取って編集できるアプリを一人で作っていました。\nその開発がひと段落したのでその話を書いていきます。",
+      "published": "2026-07-05T07:03:50+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
       "title": "July 05, 2026",
       "link": "https://docs.cloud.google.com/release-notes#July_05_2026",
       "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.92 is being rolled out to the first phase of regions as listed here.\nThis release contains internal and customer bug fixes.",
@@ -279,6 +324,15 @@
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
+    },
+    {
+      "title": "Leanstral 1.5で始めるCI証明ゲート：5バグ検出を3層で読む",
+      "link": "https://zenn.dev/hironakamura_ai/articles/201c9ccb5fc8a5",
+      "summary": "実は逆で、証明AIの価値は「正しいコードを書かせる」より、「間違いをコンパイラに言わせる」ところにある。\nMistral が 2026年7月2日に Leanstral 1.5 を出した。Lean 4 は「数学の証明やソフトウェアの性質を、コンパイラに検査させるための言語」だ。公式発表では、Apache-2.0、119B total / 6B active parameters、miniF2F 10",
+      "published": "2026-07-05T06:52:34+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "LLMの基礎をまとめていこう",
@@ -349,24 +403,6 @@
       "summary": "TL;DR（３行要約） \n\nラングランズ・プログラムとは、数論・幾何・物理という別々の世界を翻訳しあう、数学の大統一の試み です。\n本記事は、圏論がなぜ、ラングランズ・プログラムの基盤となるのか？ を対話篇で辿ります。\n\n数式は読み飛ばしてOK です。物語として楽しめます...",
       "published": "2026-07-05T04:29:10+00:00",
       "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "猫でもわかるFlow(正規化フロー) ― VITSを支える\"F\"(Flow)を図で理解する",
-      "link": "https://zenn.dev/nnn112358/articles/flow-for-cats",
-      "summary": "この記事について\nVITSは「VAE + Flow + GAN」の合わせ技だ、と系譜の記事で書きました。今回はその真ん中、Flow(正規化フロー / Normalizing Flow) の話です。\n!\n用語の注意:「VAE + Flow + GAN」はVITSを構成する3つの技術のこと。VITSの正式名称は Variational Inference with adversarial learni",
-      "published": "2026-07-05T04:22:42+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "猫でもわかる音響モデル ― 音素をメルスペクトログラムに変える",
-      "link": "https://zenn.dev/nnn112358/articles/acoustic-model-for-cats",
-      "summary": "この記事について\nこれまでの「猫でもわかる」シリーズで、TTSの入口(G2P)と出口(HiFi-GANなどのボコーダ)、その間のメルスペクトログラムを見てきました。\n今回はいよいよ、そのど真ん中にいる 音響モデル(Acoustic Model) です。「音響モデルがテキストからメルを作る」と何度も書いてきましたが、その正体を明かします。音素の列を、メルスペクトログラムに変換する——言い換えれば「文",
-      "published": "2026-07-05T04:22:41+00:00",
-      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -549,15 +585,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "VITSから見るTTS 10系統マップ(2016–2026)",
-      "link": "https://zenn.dev/nnn112358/articles/tts-lineage-map-from-vits",
-      "summary": "この記事について\n2016年の WaveNet から 2026年の LLM 統合 TTS まで、Text-to-Speech(音声合成)のモデル系譜を1枚の地図に落とし込むと、実は 10 の系統に整理できます。\n本記事は、VITS / VITS2 を起点に 155本の論文と 63リポジトリを読み込んで作った系譜メモをベースに、「どのモデルが何から派生したのか」を系統図(mermaid)付きでまとめ",
-      "published": "2026-07-04T07:26:40+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "July 04, 2026",
@@ -776,15 +803,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "Cloud Traceによる分散マイクロサービスのボトルネックおよび遅延原因特定パターン",
-      "link": "https://zenn.dev/kat/articles/40344c77fbaa94",
-      "summary": "1. 対象ワークロードと最適化のシチュエーション\n対象となるのは、**「複数のマイクロサービス、マネージドサービス、外部API、およびネットワーク経路が複雑に連鎖するシステムにおいて、特定の時間帯や高負荷時に発生するエンドツーエンドのリクエスト遅延（レイテンシ）の根本原因とボトルネック発生箇所を、リクエストのライフサイクル全体を横断してほぼリアルタイムに特定・可視化する『分散アプリケーションの可観",
-      "published": "2026-07-03T03:42:22+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "ゲームエンジン「Godot」AI生成コードを原則禁止へ　レビュアー疲弊「機械と話したくない」",
       "link": "https://www.itmedia.co.jp/aiplus/article/2607/03/2000000156/",
       "summary": "新規コントリビューターからAI生成のプルリクが急増する一方、審査するレビュアーの数は変わらず、負担が限界に達したという。人間同士のやりとりで、AI生成の文章を使うことも禁止する。",
@@ -810,15 +828,6 @@
       "source": "ITmedia AI+",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "【Looker 入門】BigQuery 一般公開データで学ぶ！最初のダッシュボードを作成するまでのチュートリアル",
-      "link": "https://zenn.dev/cloud_ace_jp/articles/looker-how-to-use",
-      "summary": "はじめに\nこんにちは。クラウドエース株式会社 第一開発部の猪野です。\nデータ活用が当たり前になった昨今、Google Cloud が提供するエンタープライズ向け BI プラットフォーム「Looker（ルッカー）」はご存知でしょうか？\n「Looker って名前は聞くけど、なんだか難しそう……」\nそんな Looker 初学者の方 に向けたチュートリアルです。\n\n データポータルとの決定的な違いは「Lo",
-      "published": "2026-07-03T01:45:01+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "Push だけで Google Workspace SSO 越しに社内 Web アプリが公開される基盤を作った",
@@ -873,15 +882,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "GCP Cloud RunのCI/CD最適化：GitHub Actions vs Cloud Buildを比較検証",
-      "link": "https://zenn.dev/fd_ai_teacher/articles/tech-20260701160419-1",
-      "summary": "「VercelからGCP Cloud RunへNext.jsアプリを移行したけど、CI/CDパイプラインってどう組むのがベストなんだろう？」そう悩んでいませんか？多くのエンジニアが直面するこの問題、特にGitHub ActionsとCloud Buildのどちらを選ぶべきか、その判断に迷うことは少なくありません。この記事では、GCP Cloud Runへのデプロイを自動化するためのCI/CDパイプ",
-      "published": "2026-07-02T15:39:42+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "UNIX系コマンドをWindowsに移植／macOS上にLinuxコンテナを統合／Ubuntu、開発環境をコマンド一発で構築ほか、2026年6月の人気記事",
