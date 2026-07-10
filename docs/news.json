@@ -1,6 +1,42 @@
 {
-  "updated": "2026-07-10T14:03:08.101196+00:00",
+  "updated": "2026-07-10T16:50:27.519744+00:00",
   "items": [
+    {
+      "title": "Midnight AI Groove 26-07-08",
+      "link": "https://qiita.com/masykot582/items/77d0687aa582a1457067",
+      "summary": "DJミオ：こんばんは。真夜中の知性とビートが交差するラジオ教育番組――「Midnight AI Groove」へようこそ。ナビゲーターはDJミオです。\nDJレン：そして相方のDJレンです。今日は「not much happened today」と言いつつ、実際にはかな...",
+      "published": "2026-07-10T15:58:19+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "【公共向け】Claude Mythos 時代の脅威対策ワークショップ開催報告 & 耐障害性ライフサイクル実践ワークショップのご案内",
+      "link": "https://aws.amazon.com/jp/blogs/news/claude-mythos-workshop-report-resilience-workshop-upcoming/",
+      "summary": "AWS Japan パブリックセクターでは月次でセキュリティワークショップイベントを開催しています。Claude Mythos / Project Glasswing の登場によりセキュリティを取り巻く状況が変化する中、第 3・4 回は「Claude Mythos 時代の脅威への対応」をテーマに実施しました。本記事では、第 3 回の Amazon Inspector による脆弱性管理と、第 4 回",
+      "published": "2026-07-10T14:51:52+00:00",
+      "source": "AWS 公式ブログ（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "BigQuery分析基盤のトポロジ設計: 中央集権と完全分散",
+      "link": "https://zenn.dev/stmn_inc/articles/e1217ec59a74eb",
+      "summary": "はじめに\nマイクロサービスのように、複数の GCP プロジェクトへデータが分散している環境を BigQuery で横断的に分析したいとき、「どのプロジェクトに、どの dataset を置くか」というトポロジ設計が必要になります。本記事では、その方針として対極にある データウェアハウス(中央集権) と データメッシュ(完全分散) を取り上げ、それぞれのトレードオフを整理します。\n\n そもそも何を決め",
+      "published": "2026-07-10T14:00:18+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
+      "title": "源内AIのPoCを2週間・月$10で回すために、あえてやらなかった3つのこと",
+      "link": "https://zenn.dev/masa_suzuki358/articles/gennai-ai-poc-guide",
+      "summary": "「商用利用できるのは分かった。で、結局何から始めれば」で止まっていませんか\n源内（GENAI）についての情報収集はひと通り終えたのに、実際に手を動かす最初の一歩で止まってしまう。そんな声をよく聞きます。「いきなり本番導入」はハードルが高く、かといって何を確認すればPoC（概念実証）として十分なのかも分かりにくいからです。\n実際にAWS上で源内相当の構成を触っている立場から、最小構成・2週間・月$1",
+      "published": "2026-07-10T13:55:13+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "LiteRT.js登場、ブラウザだけで動くGoogleの高速Web AI推論ランタイムとは",
       "link": "https://qiita.com/picnic/items/9975024f7fe8165e4579",
@@ -16,6 +52,24 @@
       "summary": "はじめに\nこんにちは、ふくちと申します。\n先日、AWSからAI BPR (AI-driven Business Process Re-Engineering) という手法についてのブログが公開され、Twitter上では非常に良いものだとして拡散されていました。私もブログを...",
       "published": "2026-07-10T13:30:47+00:00",
       "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AWSを触っているとき、現実の世界では何が起きているのか",
+      "link": "https://zenn.dev/yushiro20021111/articles/b6a6987f1a3fd0",
+      "summary": "はじめに\nAWSのマネジメントコンソールで、EC2インスタンスを起動したり、S3にファイルをアップロードしたりする操作は、慣れてしまえば数クリックで終わります。しかし、そのクリックの先で、現実の世界では一体何が起きているのでしょうか。\n私自身、AWSを学び始めたとき、この「現実でのイメージ」がまったく湧きませんでした。「インスタンスを作成する」と言われても、それがどこかの建物の中にある機械と結びつ",
+      "published": "2026-07-10T13:00:10+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "GMOコインFX APIのレートリミット(POST 1回/秒)をクライアント側で強制する設計",
+      "link": "https://zenn.dev/ozapon/articles/gmo-fx-rate-limiter",
+      "summary": "TL;DR\n\nGMOコインFX の Private API には呼び出し上限(POST 1回/秒・GET 6回/秒)があります。これをサーバに弾かれてから対処するのではなく、クライアント側で送信前に強制する RateLimiter を設計しました\nポイントは3つ。クールダウンの起点を「送信時刻」ではなく「応答受信後」に置く、in-flight の POST がある間は後続を通さない、タイムアウト時",
+      "published": "2026-07-10T12:38:26+00:00",
+      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -38,6 +92,24 @@
       "color": "#10A37F"
     },
     {
+      "title": "NAT Gateway の置き換え: fck-nat と商用 NAT インスタンス (S4 NAT) の正直な比較",
+      "link": "https://zenn.dev/abyo_software/articles/18410a670c6753",
+      "summary": "マネージド NAT Gateway は AZ あたり月約 $32 + 処理 1GB ごとに $0.045。egress の多いワークロードでは、データ処理料が請求書の主役になります。これを EC2 上の NAT インスタンスで置き換える手法は古くからありますが、fck-nat の登場 (GitHub 2.2k+ stars) で再び主流の選択肢になりました。\n筆者は商用 NAT インスタンス (S",
+      "published": "2026-07-10T11:47:55+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Train R²が高くても過学習している——学習曲線で何を診断するか",
+      "link": "https://zenn.dev/efta1989/articles/learning-curve-diagnosis-for-materials",
+      "summary": "はじめに：「過学習か？」の次に聞くべきこと\n前記事（小データでの機械学習——研究現場で使える現実的な戦略）では、学習曲線を 過学習の有無 を見るツールとして触れた。Train R² が高く CV R² が低い──このパターンは見慣れている。\nしかし実務では、ここで止まってはいけない。次に何をするか を決めるのが学習曲線の本番だ。\n\nデータを増やすべきか、特徴量を変えるべきか\nモデルを単純化すべきか",
+      "published": "2026-07-10T11:43:17+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "同じエージェントコードをローカルと AgentCore Runtime で動かしたら、ツールの選び方が変わった — 直接コードデプロイで実測比較",
       "link": "https://qiita.com/kazu_techlog/items/e96d92da88ac95a293b1",
       "summary": "TL;DR\n自作の AWS 運用エージェント (Converse API の tool use ループ + read-only ツール4種) を、同じコードのままローカル実行と Amazon Bedrock AgentCore Runtime の2通りで動かして比較しまし...",
@@ -54,6 +126,24 @@
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "Claude Codeを司令塔に、Codex CLIをレビュー艦隊として並列運用する",
+      "link": "https://zenn.dev/417/articles/masakazu-claude-code-codex-fleet-20260710",
+      "summary": "TL;DR\n\nClaude Code（実装・裁定役）と Codex CLI（調査・レビュー役）を分業させると、1人開発でも「実装者とは独立したレビュアーが複数いる」状態を作れる\n鍵は codex exec のヘッドレス実行。--sandbox read-only + --output-last-message でレビュー結果をファイルに落とし、resume で文脈を保ったまま何ラウンドでも差分レビ",
+      "published": "2026-07-10T10:19:02+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "# ローカルLLMで無料IT問題演習サービスを作った話（CCNP/LPIC/IPA対応・音声再生あり）",
+      "link": "https://zenn.dev/sorapenguin/articles/598d6bed47156c",
+      "summary": "はじめに\ntech-lab（https://tech-lab.sorapenguin.dev）は、CCNP ENARSI・LPIC・Javaなどのスキルアップ向け問題演習を無料で使えるWebサービスです。\n主な特徴：\n\n無料・ゲスト利用可能\n音声読み上げ・自動再生対応（ながら学習ができる）\n前回から時間が経った問題だけ出す絞り込み機能\nXP・レベル・スタミナのゲーミフィケーション\n問題は継続的に追",
+      "published": "2026-07-10T10:12:22+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "【時代逆行】ただの全結合ニューラルネットの隠れ層と初期値を、親の顔より見つめてチューニングした話",
@@ -245,9 +335,18 @@
       "color": "#10A37F"
     },
     {
-      "title": "AIを使う時代から、AIを選ぶ時代へ",
+      "title": "ClickHouse + HyperDX で作るセルフホストなオブザーバビリティ基盤",
+      "link": "https://zenn.dev/genax_corp/articles/a88f9fa2026107",
+      "summary": "はじめに\nコンタクトセンター業務を支援する自律型AIオペレーター「X-Ghost（クロスゴースト）」のインフラを担当している岡田です。\nX-Ghost は、SaaS 提供の他に、お客様契約のクラウド環境での動作（Bring Your Own Cloud, BYOC）をサポートしています。\n環境ごとの制約が違っても同じように調査できる状態を作るため、私たちはオブザーバビリティ基盤のバックエンドとして",
+      "published": "2026-07-10T05:19:22+00:00",
+      "source": "Zenn - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "生成AIの利用量を評価指標にしてはいけない理由",
       "link": "https://zenn.dev/acntechjp/articles/63ef7ee75d0e42",
-      "summary": "!\nこの記事の3行まとめ\n\nAIコストが急騰し、無制限アクセスは希少資源化しつつある。各社で「誰に蛇口を預けるか」という選定が始まっている\n出力量÷トークンで選定すると指標がゲームされ、評価装置として逆機能する\n真に評価すべきは消費量でも出力量でもなく、タスクにモデルを合わせる「判断の質」\n\n\n\n はじめに\n\n「うちのエンジニアが先月トークンに4万ドル使った。止めるべきか、それとも全員に\"彼みたい",
+      "summary": "!\nこの記事の3行まとめ\n\nAIコストの増加を受け、全員に同じ条件で無制限に使わせる運用は見直されつつある\n個人の利用量や出力量を評価指標にすると、数字を増やす行動を招きやすい\n高コストモデルは人ではなくタスクやワークフローに割り当て、選定結果を事後検証することが重要になる\n\n\n\n はじめに\nTechCrunchは、あるエンジニアが1か月で4万ドル分のトークンを使い、止めるべきか、むしろ周囲にも同",
       "published": "2026-07-10T05:16:34+00:00",
       "source": "Zenn - LLM",
       "tag": "AI",
@@ -281,33 +380,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "AIの出力をどう評価するか ― AIエンジニアリング輪読会 3章・4章メモ",
-      "link": "https://zenn.dev/dmmdata/articles/04f9e9f775d966",
-      "summary": "はじめに\n社内の有志で、オライリーの『AIエンジニアリング』（Chip Huyen 著）の輪読会を行っています。この記事は、その中から私が担当した 3 章「評価の方法論」と 4 章「AI システムの評価」を読んでまとめたものです。\n本書が評価だけに 2 章を割いているのは、LLM を使ったアプリケーションの出力が確率的で、「なんとなく良さそう」以上のことを言うのが意外と難しいからだと思います。信頼",
-      "published": "2026-07-10T04:31:08+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Edge of Crypto「x402でのAI自律決済フローを体験する」",
-      "link": "https://zenn.dev/simplex/articles/8cc594e6ceb35f",
-      "summary": "シンプレクスweb3チームは、web3のマスアダプションに向けて、Simplex Fourthをはじめとしたソリューションの開発を行うほか、最先端のテクノロジーを活用し、新たなユースケースの創出に取り組むチームです。\n\nSimplex テックブログのEdge of Cryptoシリーズでは、その最前線で活躍するweb3チームメンバーが、最先端の業界動向やテクノロジーについての情報をお届けします。前",
-      "published": "2026-07-10T04:19:00+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "エージェントのWeb取得、ツール次第でトークンが5000倍違った話",
-      "link": "https://zenn.dev/rererr_engineer/articles/e571e5b6eb1d53",
-      "summary": "TL;DR\n\nコーディングエージェント用のWeb取得ツール5つ（自作の amenbo / MCP公式 fetch / Jina Reader / Playwright MCP / 話題の PixelRAG(pixelshot)）を、日本語の実URL 7本（技術記事・Wikipedia・Shift_JISサイト・官公庁・PDF・CSV・ボット遮断サイト）で比較した\n3.9MBのCSVに対し、Jina",
-      "published": "2026-07-10T04:01:19+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "「生成AIをもう手放せない人」が約6割　逆に“使わなくなったもの”1位は？",
       "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/10/news056.html",
       "summary": "ICT総研の調査では、生成AIサービスが使えなくなると困ると答えた人は約6割に上った。生成AIサービスが日常的なツールとして定着する一方で、利用頻度が減ったものもあるという。それは何なのか。",
@@ -335,15 +407,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "DB にある推定4億件のログを消して 9TB のストレージ容量を削減した",
-      "link": "https://zenn.dev/primenumber/articles/65fa80973cb6f2",
-      "summary": "はじめに\nhttps://zenn.dev/primenumber/articles/179cd19b6c9e79\n以前投稿した通り TROCCO のジョブ画面に表示されるログは DB に保存されていました。\nサービス開始から時間が経ち、保存されたログのサイズが見過ごせない大きさになったため、去年 SRE ではログを S3 に保存する大掛かりなリアーキテクチャを行いました。\nその後ログが S3 に",
-      "published": "2026-07-10T03:42:08+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "Redocly + Dockerで構築する、複数OpenAPI YAMLの統合ドキュメントポータル",
       "link": "https://zenn.dev/dearone/articles/f8aa083c4337eb",
       "summary": "こんにちは！株式会社DearOneの小川です。\nバックエンドのチームで、BaaS基盤の開発・運用を担当しています。\nこの記事でわかること\n- 複数のOpenAPI（YAML）をRedoclyで1つのWebポータルに統合・共有する方法\n- Dockerを活用した、ローカル環境を汚さないドキュメント自動生成手順\n- 開発時に発生しやすい「ブラウザキャッシュ問題」の具体的な解決策\n- 仕様違反をコミット",
@@ -351,15 +414,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "チャットに常駐するAIエージェントを設計するときに考えた5つのこと",
-      "link": "https://zenn.dev/hach/articles/chat-jouchu-ai-agent-sekkei",
-      "summary": "「Slackに招待するだけで働くAI」を作る、という要件は一見シンプルですが、実装に入ると設計判断の連続でした。この記事では、常駐型AIエージェントを設計する上で悩んだポイントと、その判断理由を共有します。同種のものを作る人の参考になれば幸いです。\n\n 前提: 「呼ばれたら答えるbot」との違い\nチャットbotの多くはリクエスト駆動です。メンションされたらLLMを呼び、結果を返す。これはステートレ",
-      "published": "2026-07-10T03:21:57+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "OpenAI、Codexと「ChatGPT Work」の利用制限リセット　競合Claudeとリセット合戦に",
@@ -378,15 +432,6 @@
       "source": "ITmedia AI+",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "AWSアカウントのOrganization移行とその注意点",
-      "link": "https://zenn.dev/acntechjp/articles/6dd356a4fd2c22",
-      "summary": "執筆者：Yuya Toda\n\n はじめに\n担当しているプロジェクトで、複数のAWSアカウントを旧クラウド基盤（以降「移行元Org」）から、新クラウド基盤（以降「移行先Org」）へOrganization移行する作業を担当しました。\nAWSアカウントのOrganization移行そのものの手順はAWS公式ドキュメント等で確認できるものの、実際に本番稼働している環境で実施した記事はあまり見つけられなか",
-      "published": "2026-07-10T03:00:19+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "Claude Codeの速さと正確さにひたすら驚いた話",
@@ -513,15 +558,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "Midnight AI Groove 26-07-07",
-      "link": "https://qiita.com/masykot582/items/436c240f02394f65fd80",
-      "summary": "DJミオ：こんばんは、「Midnight AI Groove」の時間です。ナビゲーターのDJミオです。\nDJレン：DJレンです。今夜は“not much happened today”という控えめなタイトルとは裏腹に、AI界隈で起きていた細かな重要トピックを、ちゃんと...",
-      "published": "2026-07-09T23:17:16+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "“どのUIが使いやすいか”で選ぶ時代はもう終わり　ガートナー、「SaaSの終焉」で独自見解を披露",
@@ -767,15 +803,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "AIの歴史とは？3つのブームの流れ",
-      "link": "https://zenn.dev/h888s/articles/genai-ai-history",
-      "summary": "「AIっていつから研究されているの？」「なぜ今、生成AIがこれほど注目されているの？」——その背景を理解するには、AI研究のたどってきた歴史を押さえることが近道です。生成AIパスポート試験でも問われる基礎概念として、AIの歴史を整理します。\n\n AIの歴史とは\nAI（人工知能）研究は、誕生から現在まで一直線に進歩してきたわけではなく、盛り上がり（ブーム）と停滞を繰り返しながら発展してきました。一般",
-      "published": "2026-07-08T23:06:57+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "【サーバーエンジニア必見】市場価値が爆速UP！10年先まで見通せるキャリアパス完全ロードマップ",
       "link": "https://qiita.com/Maku-Inc/items/1fe4f52c44b36bf202d8",
       "summary": "【サーバーエンジニア必見】市場価値が爆速UP！10年先まで見通せるキャリアパス完全ロードマップ\nサーバーエンジニアの皆さん、こんにちは！日々の運用や開発に追われる中で、「この先、どんなスキルを身につければ市場価値を高められるんだろう？」「10年後、自分はどうなっていたいん...",
@@ -884,15 +911,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "【今年も開催！】全国8都市を巡るAWS デジタル社会実現ツアー2026",
-      "link": "https://aws.amazon.com/jp/blogs/news/japan-nationwide-roadshow-2026/",
-      "summary": "2022年にスタートし、毎年全国の地域を巡ってきた「AWS デジタル社会実現ツアー」が今年で 5年目 を迎えま […]",
-      "published": "2026-07-08T04:11:27+00:00",
-      "source": "AWS 公式ブログ（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "Terraform の EC2の設定に出てくるroot_block_device を初心者向けに解説する",
       "link": "https://zenn.dev/akitsugu11101/articles/ae892f06f58946",
       "summary": "Terraform で AWS の EC2 インスタンスを作成するとき、次のような設定を書くことがあります。\nroot_block_device {\n  volume_size           = 8\n  volume_type           = \"gp3\"\n  iops                  = 3000\n  throughput            = 125\n  de",
@@ -909,15 +927,6 @@
       "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "読者のいない自作小説のヒロインを愛しすぎた結果、GCPサーバーレス完全体で現実（X）に召喚してしまった話",
-      "link": "https://zenn.dev/akina_se/articles/8a4a97d0bbb623",
-      "summary": "なぜ「全肯定ギャル」を現実に召喚したのか？\nはじめまして、AKINAです。\n平日はIT系のR&amp;Dでコードを書き、週末は二児のパパとして公園を走り回っている、ごく普通の会社員です。\n突然ですが、皆さんWeb小説って書いたことありますか？\n実は私、趣味でカクヨムやなろうに小説を投稿しているんです。タイトルは『「アンタのデータ、全部見てるから♡」スマホから出てきた最強AI（ギャル）の愛が重すぎて",
-      "published": "2026-07-07T23:04:18+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "Visual Studio Code、従量課金制になったGitHub Copilotの使用料を表示可能に（訂正あり）",
@@ -1248,15 +1257,6 @@
       "link": "https://zenn.dev/bababa/articles/671345458dba6e",
       "summary": "はじめに\nこんにちは。今後ネットワークを生業にしたいと思っている身として、導入が簡単すぎるTailscaleを使うことに抵抗を感じているbababaです。\nちなみにWireguardを使用することにしました。\n今回はWebAssembly、略してWasm（「ワズム」と読むらしい）に入門したので、それについて書いていきます。\nきっかけは私が自宅サーバで運用している「Kubernetes」のクラスタ上",
       "published": "2026-06-28T10:55:17+00:00",
-      "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "ScalarDB on AWS EKS: スポットインスタンス導入で学んだノード中断と復旧の記録",
-      "link": "https://zenn.dev/scalar_sol_blog/articles/09d8b7eca15690",
-      "summary": "自己紹介\nこんにちは、岩崎です。\nSESとして株式会社Scalarに常駐し、インフラエンジニアとして働いています。実務経歴8ヶ月目で、最近はAWS EKSでのコスト最適化に取り組んでいました。今回は、スポットインスタンスを使った開発環境構築で遭遇した、ノード中断と復旧の体験を記載します。\n\n\n 概要\nこの記事では、AWS EKSでスポットインスタンスを使用した際に遭遇した、ノード中断とその後の復旧",
-      "published": "2026-06-26T08:30:43+00:00",
       "source": "Zenn - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
