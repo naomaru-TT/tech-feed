@@ -1,6 +1,150 @@
 {
-  "updated": "2026-07-09T22:14:47.062459+00:00",
+  "updated": "2026-07-10T02:05:53.639878+00:00",
   "items": [
+    {
+      "title": "【アーキテクチャ考察】「更新はAgent」パターンの落とし穴：git blameが全部Agentになる問題と「帰属」の設計",
+      "link": "https://qiita.com/memorylakeai/items/40222f67aee9bc9b6db4",
+      "summary": "最近、LLM Agentの運用やシステム設計において、非常にエレガントなパラダイムをよく目にするようになりました。\nそれは、「判断は人間が、更新はAgentが、計算はスクリプトが行う」というアプローチです。\n状態変更のエントリポイントを単一のSub-Agentに集約し、決定...",
+      "published": "2026-07-10T02:04:26+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "【技術解説】VIXをトリガーにした動的ヘッジ戦略でオプション取引のリスク管理を強化する方法",
+      "link": "https://qiita.com/sugarfree/items/30eb55f6e550dc8c3a12",
+      "summary": "市場のボラティリティは予測困難であり、トレーダーにとって適切なヘッジ戦略を設計することは難題です。しかし、VIX（恐怖指数）を利用することで、より効果的なオプション取引モデルを実装することが可能です。本記事では、VIXをトリガーにした動的ヘッジ戦略をPythonで実装する方...",
+      "published": "2026-07-10T02:00:30+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AWS Cloud WAN Routing Policy：実運用におけるグローバルネットワークのシナリオ集 (Part 2)",
+      "link": "https://aws.amazon.com/jp/blogs/news/networking-and-content-delivery-aws-cloud-wan-routing-policy-real-world-global-network-scenarios-part-2/",
+      "summary": "本記事では、AWS Cloud WAN のルーティングポリシーを使い、ハイブリッド環境やマルチサイト環境で一般的に見られる3つの実運用シナリオを取り上げます。Transit Gateway 環境からの移行中のルート伝播制御、複数の Direct Connect ロケーション間のパス選択の改善、そして同一 ASN を持つネットワーク間の接続の許可という課題を、集中型のポリシー適用ポイントとしての A",
+      "published": "2026-07-10T01:43:38+00:00",
+      "source": "AWS 公式ブログ（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "【お金は大事】AWSアカウントを新規作成した直後にやったこと",
+      "link": "https://qiita.com/puchanko/items/1b4e864b08bb29e2be93",
+      "summary": "はじめに\nn番煎じの記事であることは重々承知の上ですが、今さらながらAWSアカウントを新規作成するタイミングがあったので、備忘もかねて書きます。\n尚、本記事で対象にしているのは個人開発用途で利用される方向けなので、実務で商用利用される方はAWS公式ガイドやベストプラクティ...",
+      "published": "2026-07-10T01:22:50+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Kiro の超過利用の上限設定と前払い機能のご紹介",
+      "link": "https://aws.amazon.com/jp/blogs/news/cap-prepay-overage/",
+      "summary": "Kiro の超過利用に関する 2 つの新機能をご紹介します。チーム向けには、AWS Service Quotas コンソールからアカウント単位で超過利用の上限を設定できるようになりました。個人開発者向けには、有料プラン利用者が前払いで購入できるアドオンクレジットパック (最小 5 ドルから) を追加しました。後から届く想定外の請求書に驚かされることなく、支出をコントロールしながら Kiro を使い",
+      "published": "2026-07-10T01:21:11+00:00",
+      "source": "AWS 公式ブログ（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "OpenAI、Codexと「ChatGPT Work」の利用制限リセット　競合Claudeとリセット合戦に",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2607/10/2000000181/",
+      "summary": "Anthropicは同日、OpenAIの制限リセットに先立ち、Claudeの利用制限をリセットしていた。",
+      "published": "2026-07-10T01:19:26+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "最近のDynamoDB設計事情：single-table偏重の見直しとGSIマルチ属性キー",
+      "link": "https://qiita.com/Suemura/items/ce4cb4290e4e711fdc98",
+      "summary": "はじめに\nDynamoDBには長らく「できるだけ1つのテーブルにまとめろ（single-table design）」という強いベストプラクティスがありました。\nしかしここ最近、現場では「本当にそうか？」という揺り戻しが起きています。\nさらに昨年末（2025年11月）、AW...",
+      "published": "2026-07-10T00:58:58+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "744BのGLM-5.2を25GBのRAMで動かすcolibri、エキスパートをディスクから流す",
+      "link": "https://qiita.com/okssusucha/items/1b2fd1a897bbd6a5f63b",
+      "summary": "744Bのフロンティア級モデルを、GPUなしで、しかもRAMが25GBしかないノートPCで動かす。しかもちゃんと正しい答えを返す。そんな話をHacker NewsのShow HNで見かけて、最初は誇張だろうと思った。実際にリポジトリを読むと、誇張ではなかった。ただし正直な但...",
+      "published": "2026-07-10T00:41:39+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Claude、利用制限を全リセット　競合「GPT-5.6」公開と同日……OpenAI幹部「ビビってるね」",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2607/10/2000000179/",
+      "summary": "OpenAIが「GPT-5.6」を一般公開した同日、AnthropicがClaude全ユーザーの利用制限を一斉リセット。OpenAI幹部の「ビビってるね」という煽り返信も話題だ。",
+      "published": "2026-07-10T00:38:35+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "G検定（JDLA）対策問題集をUdemyで公開しています｜全450問・2026年試験対応",
+      "link": "https://qiita.com/reiji-takeuchi/items/f439f5e203b97848e73d",
+      "summary": "はじめに\nG検定（JDLA Deep Learning for GENERAL）の対策教材として、Udemyにて模擬問題集コースを公開しています。\n本記事では講座の内容をご紹介します。記事の末尾に期間限定の受講クーポンを掲載していますので、興味のある方はぜひご覧ください。...",
+      "published": "2026-07-10T00:09:16+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "生成的推薦:推薦を\"特徴量設計\"から\"次の商品を当てる言語モデル\"へ",
+      "link": "https://qiita.com/Yushi88/items/7175268db0cb6124561c",
+      "summary": "「あなたへのおすすめ」に代表される推薦システムは、EC から動画・音声アプリのフィードまで、ほぼすべてのプロダクトに入っている。その推薦を「特徴量を人手で設計する」やり方から「行動履歴を見て次の商品を当てる言語モデル」へ作り替える動きが、海外の大手で相次いで本番投入されてい...",
+      "published": "2026-07-09T23:20:34+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Midnight AI Groove 26-07-07",
+      "link": "https://qiita.com/masykot582/items/436c240f02394f65fd80",
+      "summary": "DJミオ：こんばんは、「Midnight AI Groove」の時間です。ナビゲーターのDJミオです。\nDJレン：DJレンです。今夜は“not much happened today”という控えめなタイトルとは裏腹に、AI界隈で起きていた細かな重要トピックを、ちゃんと...",
+      "published": "2026-07-09T23:17:16+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "NECが3年で100億円狙うAnthropic協業の初ソリューション、AIが販売戦略立案",
+      "link": "https://monoist.itmedia.co.jp/mn/articles/2607/10/news052.html",
+      "summary": "NECは、Anthropicとの協業第1弾として、購買データからの商品企画や販促プラン作成を完全自動化する新サービスを開始した。専門人材なしで迅速な施策立案を可能にし、3年間で100億円の売上を目指す。",
+      "published": "2026-07-09T22:45:00+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Innovation Sandbox on AWSを使ってみた ~CDKデプロイ~",
+      "link": "https://qiita.com/hi_carbo/items/483c418b0eec103c098f",
+      "summary": "はじめに\n先日6/25-26に幕張メッセで行われたAWS Summit Japan 2026に参加してきました。\nAWSさんの展示にて『Innovation Sandbox on AWS』というソリューションの存在を知りました。\n今回のサミット参加で個人的に最も気になった...",
+      "published": "2026-07-09T22:32:02+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "FastAPI + Dockerでエモい「サイバーパンク風メモ帳」を作ったら、CPU温度が70度に爆熱した話と、その極限軽量化の軌跡",
+      "link": "https://zenn.dev/settembre21/articles/571696e180795b",
+      "summary": "こんにちは！普段はハードウェア寄りの技術が好きなソフトウェアエンジニアです。\n今回は、自分専用のメモ帳を自宅の Raspberry Pi 4 で安全にセルフホストするために、SFのコックピットのような「ネオン発光・グリッチ・走査線」を詰め込んだエモいメモ帳 「NEON KEEP」 を作りました。\n\nしかし、完成して喜びブラウザで開いて放置したところ、PCのファンがうなりを上げ、CPU温度が70度前",
+      "published": "2026-07-09T22:31:48+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "Meta、マルチモーダル推論モデル「Muse Spark 1.1」公開　低価格の「Meta Model API」も提供へ",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2607/10/2000000180/",
+      "summary": "Metaは、AIモデル「Muse Spark 1.1」を発表した。初代モデルを強化したマルチモーダル推論モデルで、ツール操作や複雑なコーディングなどのエージェント能力が向上している。新設の「Meta Model API」を通じてパブリックプレビューとして外部向けに提供され、競合モデルを下回る低価格な料金体系が特徴だ。",
+      "published": "2026-07-09T22:20:30+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "RDS入門 — クラウドのデータベース設定と接続方法",
       "link": "https://qiita.com/hitobussi/items/3458f638861f60156867",
@@ -15,18 +159,54 @@
       "link": "https://qiita.com/daitak/items/09faf2c025dbba9871b6",
       "summary": "こんにちは、タカサオです！\nEKSクラスタ上のアプリケーションPodが使うシークレットをAWS Secret Managerで管理したい場合、ASCP (AWS Secrets and Config Provider) が使えます。\nASCPを用いる場合、AWS Secre...",
       "published": "2026-07-09T22:00:10+00:00",
-      "source": "Qiita - AWS",
+      "source": "Qiita - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "Inspector の新しい EC2 スキャンエンジン「VM Scanner」によってエージェントベーススキャンが強化されました！",
+      "link": "https://zenn.dev/cscloud_blog/articles/inspector-vm-scanner-release",
+      "summary": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！\n皆さんは Inspector を使用してAWSの脆弱性管理をしていますか？\nふと Amazon Inspector の画面を見たところ以下のような表示が出ている事に気づきました。\n\nなんのアップデートか確認してみたところ、EC2 スキャンに、新しいスキャンエンジン「Amazon In",
+      "published": "2026-07-09T22:00:08+00:00",
+      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "EKS Capabilities（Kro + ACK）と ASCP でシークレット管理を効率化してみた",
-      "link": "https://qiita.com/daitak/items/09faf2c025dbba9871b6",
-      "summary": "こんにちは、タカサオです！\nEKSクラスタ上のアプリケーションPodが使うシークレットをAWS Secret Managerで管理したい場合、ASCP (AWS Secrets and Config Provider) が使えます。\nASCPを用いる場合、AWS Secre...",
-      "published": "2026-07-09T22:00:10+00:00",
-      "source": "Qiita - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
+      "title": "AIに企業理念を宿せるか？　スポーツ小売り・ヒマラヤ、接客ノウハウまで学習した「AI副店長」開発の舞台裏",
+      "link": "https://www.itmedia.co.jp/business/articles/2607/10/news046.html",
+      "summary": "スポーツ用品店をチェーン展開するヒマラヤ（岐阜市）は「アイダ つなぐ」と名付けた“AI副店長”を6月から全99店舗に導入した。同社店舗運営部の金丸智功氏（部室長代理）とヒマラヤスポーツ本館店長の高島雅央氏に、AI副店長開発の舞台裏を聞いた。",
+      "published": "2026-07-09T22:00:00+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "「Notion」でAI利用量が4倍に　スター精密が全社にAIを定着させた業務基盤の作り方",
+      "link": "https://kn.itmedia.co.jp/kn/articles/2607/09/news171.html",
+      "summary": "スター精密は、国内約550人を対象に「Notion」と「Notion AI」を導入し、情報基盤を刷新した。情報を一元化するとともにAIを業務へ組み込むことで、利用率約90％、AI利用量は従来のチャット型AIツール比で約4倍を達成した。",
+      "published": "2026-07-09T22:00:00+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "コスト削減にAIは効果なし？　利益が変わらない企業が過半、手直しも課題に",
+      "link": "https://kn.itmedia.co.jp/kn/articles/2607/10/news065.html",
+      "summary": "AI活用企業507人調査で、売上高拡大を目的にAIを導入した企業の約7割が営業利益増を実感した。一方、コスト削減を目的とした導入では利益不変が過半となり、プロンプト格差や手直し、データ連携制約などの課題も浮かび上がった。",
+      "published": "2026-07-09T22:00:00+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "「誰にも会わずに帰る店」の寂しさ　すかいらーくがロボット配膳の先に挑むAI接客",
+      "link": "https://www.itmedia.co.jp/business/articles/2607/10/news022.html",
+      "summary": "デジタル化が進み、人と接することなく食事を終えられる飲食店が増えている。その利便性の裏で失われつつある「人ならではの価値」をどう取り戻すのか。すかいらーくホールディングスは、AIを人の代替ではなく、人の価値を引き出す道具として活用し始めている。",
+      "published": "2026-07-09T22:00:00+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "「AIに仕事を奪われた」、実際にAIを理由に挙げた大手は3社だけ",
@@ -34,6 +214,15 @@
       "summary": "本記事は筆者が運営する AI Quotidia の海外ニュース解説記事です。\n\n「AIに仕事を奪われた」。\n完全版はこちら。\n\n一次ソース\n\nhttps://techcrunch.com/2026/07/06/the-running-list-major-tech-lay...",
       "published": "2026-07-09T21:01:52+00:00",
       "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "LLMの下書きレビューで自己申告が効く範囲と、外部文脈の欠落だけは検出できない理由",
+      "link": "https://zenn.dev/every_ai_recipe/articles/ai-draft-review-3-checkpoints",
+      "summary": "TL;DR\n\nLLMに「自分の出力のうちどこが推測・断定過多か」を自己申告させる自己監査（self-critique）は、モデル自身のパラメトリック知識に起因する誤り（数字の誤記、根拠の弱い断定）の検出には一定の効果がある\n一方、会話相手との過去のやり取りや社内限定の暗黙の前提など、モデルのコンテキストウィンドウに一度も入っていない情報（外部文脈）の欠落は、同じモデルに何度聞き直しても原理的に検出",
+      "published": "2026-07-09T20:06:21+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -65,28 +254,10 @@
       "color": "#10A37F"
     },
     {
-      "title": "クラウドの仮想ネットワークは、どのように「成立」しているのか ── VPC・セキュリティグループ・PrivateLink・VPCピアリングの内部機構を、AWS・GCP・Azure の一次資料でたどる",
-      "link": "https://qiita.com/etale_cohomology/items/a5db27c311650b6b9c6b",
-      "summary": "この記事をお読みの皆様は、日々、AWSやGoogle Cloud、Azureなどのクラウド上で、VPCを作ったり、VPCピアリングでVPCどうしを通信経路でつないだり、PrivateLinkでセキュアな通信経路を確立させて、日々の仕事をなさっているのではないでしょうか？\n...",
-      "published": "2026-07-09T18:23:01+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "GPT-5.6 とは？OpenAI公式発表を3分で速報解説（Sol/Terra/Luna）",
       "link": "https://qiita.com/kinamocchi_tech/items/342a0039a3517df9da3a",
       "summary": ":::message\n🐹🦜 この記事に登場する2匹\n\n🐹 もっちー （ハムスター）… AI はまだ勉強中。「それどういうこと？」と素朴に質問する生徒役\n🦜 きなこ （セキセイインコ）… AI で調べものをこなす解説役。やさしく深掘りして教える先生役\n\nこの記事は2匹の掛け...",
       "published": "2026-07-09T18:22:37+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AIに聞く前に猫を吸え：ChatGPT時代のエラー調査術",
-      "link": "https://qiita.com/ochtum/items/574f0436e72212bdaf42",
-      "summary": "※お役に立てる可能性は皆無ですがストック、いいねをしてけれ！！\n\n＜📝本記事のターゲット層＞\n\nエラーが出るたびにAIへ「直して」と投げてしまう初心者エンジニア\nChatGPTやCopilotの回答精度を上げたい開発者\nバグ調査の進め方を、固すぎない記事で学びたい人\n...",
-      "published": "2026-07-09T17:19:48+00:00",
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
@@ -110,15 +281,6 @@
       "color": "#888780"
     },
     {
-      "title": "「EC2止めたのに請求が来た」── AWSの\"無料のフリして課金してくるやつ\"図鑑",
-      "link": "https://qiita.com/wasyokusatoshi/items/d68a9d8c58d25e1aa2b6",
-      "summary": "「EC2止めたのに請求が来た」── AWSの\"無料のフリして課金してくるやつ\"図鑑\n\n前提\nこの記事は執筆時点（2026年7月）の公開情報をもとにまとめています。料金はおおよその目安（東京リージョン基準）なので、正確な金額は公式料金ページでご確認ください。\nそして本記事...",
-      "published": "2026-07-09T15:18:38+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "「AIに丸投げすれば副業で勝てる」系の話をFableに聞いてみたら、一蹴されたあと一応考えてくれた",
       "link": "https://zenn.dev/mskbhd/articles/fable-dismisses-sidehustle-hype",
       "summary": "3行まとめ\n\n「自分で考えるのをやめてAIに戦略を丸投げすれば副業で勝てる」という趣旨の記事を見かけたので、当のAI (Claude Fable 5) 本人に見せてみた\n「典型的な情報商材です」と一蹴された。ただしそのあと「手順の骨格だけは妥当」と、一応まじめに考えてくれた\nAIは「信じる対象」ではなく「疑わせる相手」として使うほうが強い、という話\n\n\n 見かけた話\n具体的な引用は避けるが、だいた",
@@ -137,11 +299,11 @@
       "color": "#10A37F"
     },
     {
-      "title": "データが信頼をつくる ― 多文化共生と政策評価を経済学で考える : Pythonで学ぶ マクロ経済学入門 (97)",
-      "link": "https://qiita.com/maskot1977/items/9c524b0a7dbfb2581103",
-      "summary": "user:\n「Pythonで学ぶマクロ経済学入門」、第97回を始めましょう。まず前回の復習として、\n「『秩序ある共生』は実現できるのか？ ― 制度設計・財源幻想・社会統合を考える : Pythonで学ぶ マクロ経済学入門 (96)」 \nhttps://qiita.com/...",
-      "published": "2026-07-09T15:00:36+00:00",
-      "source": "Qiita - ChatGPT",
+      "title": "15-⑧[AI][Kaggle]Kaggle実践1(最終回): 過学習と戦ってみた！",
+      "link": "https://zenn.dev/rg687076/articles/zenn_20260708_2055_strong_regularization_ensemble",
+      "summary": "もうここら辺が限界かな～。いろいろやってもスコアアップしないや。\n\n Abstract\n\nCVスコアは高い(0.868超え)のに本番(Public Score)が下がる過学習の問題へ対応を頑張ってみた。\nグループ生存特徴量ば完全排除したアプローチで、Public Score が 0.77033 へ急落。グループ情報の重要性(遭難時に運命ば共にする物理的事実)が逆説的に実証された。\nなので、グループ",
+      "published": "2026-07-09T14:56:07+00:00",
+      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -209,13 +371,13 @@
       "color": "#10A37F"
     },
     {
-      "title": "nvidia-smiは正常なのにGPUが16時間ハング：進捗監視がなかった話",
-      "link": "https://zenn.dev/chemy_pvl/articles/gpu-hang-progress-monitoring",
-      "summary": "プロセスは生きている。GPUも見えている。APIも応答する。それでも16時間、成果物は1件も増えていませんでした。\nラボのGPUノード(RTX 4090クラス)で動かしていたローカルLLM実行系がハングし、状態系の監視はほぼすべて正常を返し続けていた、という話です。損害は16時間の停止と、およそ2,500処理分の機会損失でした。\n\n 起きたこと：正常に見えるGPU停止\n観測された症状はシンプルでし",
-      "published": "2026-07-09T12:03:38+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
+      "title": "Claude Desktop on Amazon Bedrock から Amazon Redshift に MCP 接続してみた",
+      "link": "https://zenn.dev/aws_japan/articles/claude-desktop-bedrock-redshift-mcp",
+      "summary": "はじめに\nこんにちは！AWS でソリューションアーキテクトをしている町田です。\n今回は、Claude Desktop (Cowork) から Amazon Redshift のデータにアクセスするために、Amazon Redshift MCP Server をローカル MCP サーバーとして Windows 環境でセットアップしてみました。\nRedshift へアクセスするにあたって、IAMユーザ",
+      "published": "2026-07-09T12:15:49+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "AWSサーバーレスで“毎日1問”の設計判断ドリルLINE botを作った ― SDKなし・依存ゼロ設計の全判断とつまづき",
@@ -227,15 +389,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "三菱自動車が「国産人型ロボ」量産へ　2027年に「月1000台の製造体制」　東大発スタートアップと協業",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2607/09/2000000177/",
-      "summary": "三菱自動車工業は、東京大学発のロボット開発スタートアップHighlandersと「国産人型ロボット」の開発に関して協業すると発表した。",
-      "published": "2026-07-09T11:22:14+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "【AWS】作って終わりにしない、リアルな運用設計書を公開（上流工程シリーズ④）",
       "link": "https://zenn.dev/noobaimo/books/b2d2c3542dcc68",
       "summary": "AWSインフラの上流工程を実際の設計書つきで完全理解する全4回シリーズの最終回・運用設計編。\n監視・障害対応・バックアップ・リリース・コスト管理を「誰が・いつ・どう動くか」まで定義します。“作って終わりにしない”運用設計を実物で公開。運用を学ぶ機会が少ない若手エンジニアにこそ届けたい締めの一本です。",
@@ -243,15 +396,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "GenesisをWSL2で動かす:『Cannot find matching vulkan UUID for GPU』の原因と回避策",
-      "link": "https://qiita.com/t_tanno/items/14a1c1757e7ab7c1fc2f",
-      "summary": "はじめに\n本記事はWSL2を介してGenesisのロボットアームの学習(manipulation)を試す時に発生した「Cannot find matching vulkan UUID for GPU」というエラーとその対処を紹介する記事になります。\nGenesisとは、ロ...",
-      "published": "2026-07-09T10:39:20+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "ハンズオン + 模擬演習でSAA合格",
@@ -326,31 +470,13 @@
       "color": "#4285F4"
     },
     {
-      "title": "AI活用、最大のボトルネックは「経営層」か　トップ不使用の企業、85.7％が「方針・体制なし」",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2607/09/2000000176/",
-      "summary": "ラクスルが中小企業を対象に実施したAI活用の実態調査で、経営層がAIを全く使わない企業の85.7％は活用の方針も推進体制もないと分かった。経営層の姿勢がAI格差を左右する構図が浮かんだ。",
-      "published": "2026-07-09T07:18:06+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "July 09, 2026",
       "link": "https://docs.cloud.google.com/release-notes#July_09_2026",
-      "summary": "Bigtable\nFeature\nYou can use the Bigtable client library for Go\nto execute read jobs and queries using Data Boost.\nCompute Engine\nFeature\nPreview: Advanced Compute Images provide high-performance imag",
+      "summary": "BigQuery\nFeature\nYou can use the BigQuery Data Transfer Service to transfer metadata from the\nfollowing data sources into Knowledge Catalog:\n\nPostgreSQL\nMicrosoft SQL Server\n\nThis feature is in\nPrevie",
       "published": "2026-07-09T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "NEC、Claudeを活用した「全自動」マーケティングサービス開始　3年で売上100億円目指す",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2607/09/2000000175/",
-      "summary": "NECは、消費者の購買データから商品企画や販促プラン作成の「完全自動化」をうたうサービスの提供を開始した。AnthropicのAI「Claude」などを活用した。3年間で累計100億円の売り上げを目指す。",
-      "published": "2026-07-09T06:11:35+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "Amazon Pinpointからのメール配信基盤移行 Vol.2 データ移行後の安定した大量配信",
@@ -378,24 +504,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "dera AI Weekly Vol.36 — 2026/6/22",
-      "link": "https://qiita.com/dera_news_/items/682d5a522ab5c6a51fb7",
-      "summary": "2026-06-22号\n今週のAI業界を一言で表すなら？\nSpaceXによるAI開発ツールCursorの巨額買収が、AI開発の新たな局面を切り開き、業界の資金と規制の動きを加速させました。\n600億ドル規模と報じられたこの買収に加え、AnthropicとOpenAIのIPO...",
-      "published": "2026-07-09T05:00:41+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "D-FINE ONNX で机上の物体検出を試す",
-      "link": "https://qiita.com/kiarina/items/1a92bd72df6f87a9ddc5",
-      "summary": "D-FINE ONNX で机上の物体検出を試す\nこんにちは、皆さん。\n机の上にあるものを、AI がどこまで自然に見分けられるのか気になりませんか？わたしは、視覚を持つエージェントを作るなら、まずこういう日常的なシーンを扱えるかが大事だと思っています。\nさて、今日は D-F...",
-      "published": "2026-07-09T04:47:18+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "AWS WAFのログをS3に転送すると、裏でCloudWatch Logs Vended Log Deliveryが課金される話",
@@ -434,15 +542,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "社内のWindows環境で「数百のAIエージェント」を隔離実行　NVIDIAとMicrosoftが共同開発したデスクサイドマシンの全容",
-      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/09/news037.html",
-      "summary": "NVIDIAは、Windows環境でAIエージェントを開発・実行するデスクサイドAIスーパーコンピュータ「NVIDIA DGX Station for Windows」を発表した。NVIDIA GB300 Grace Blackwell Ultra Desktop Superchipを搭載し、最大1兆パラメーターの最先端AIモデルをローカルで実行できるという。",
-      "published": "2026-07-09T04:00:00+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Amazon Bedrock のゼロデータ保持の強制方法",
       "link": "https://aws.amazon.com/jp/blogs/news/enforce-zero-data-retention-on-amazon-bedrock-with-bedrock-projects-and-service-control-policies/",
       "summary": "本記事では、Amazon Bedrock のデータ保持モード (none、default、inherit、provider_data_share) の仕組みと、設定したモードが保持の上限として機能する動作を解説します。Amazon Bedrock Projects による保持要件が異なるワークロードの分離、サービスコントロールポリシー (SCP) を使用して組織全体でモデルプロバイダーとのデータ共",
@@ -457,15 +556,6 @@
       "summary": "量子投資アルゴリズムの構築：Pythonでのセンチメント分析\n投資の世界では、データ分析の重要性が増しています。市場のトレンド予測が利益を生む鍵となる中、量子コンピュータやアルゴリズムを用いた戦略が注目されています。本記事では、Pythonを使用したセンチメント分析の具体的な実装方法を解説します。\n\n センチメント分析とは\nセンチメント分析は、人々の感情や意見を数値化する技術です。特にニュースやS",
       "published": "2026-07-09T02:00:30+00:00",
       "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "【技術解説】量子投資 アルゴリズム Pythonでセンチメント分析を活用した投資戦略の構築",
-      "link": "https://qiita.com/sugarfree/items/c27c8029a9982139abeb",
-      "summary": "量子投資アルゴリズムの構築：Pythonでのセンチメント分析\n投資の世界では、データ分析の重要性が増しています。市場のトレンド予測が利益を生む鍵となる中、量子コンピュータやアルゴリズムを用いた戦略が注目されています。本記事では、Pythonを使用したセンチメント分析の具体...",
-      "published": "2026-07-09T02:00:21+00:00",
-      "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -486,15 +576,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "参加者それぞれのAWSアカウントに問題環境を配るクロスアカウント設計",
-      "link": "https://zenn.dev/bull/articles/tenkacloud-cross-account-deploy",
-      "summary": "TenkaCloudという、実際のAWSアカウント上でクラウド競技を開催するOSSを作っています（susumutomita/TenkaCloud、Apache-2.0）。参加者は運営が用意した共有環境ではなく、自分たちの隔離されたAWSアカウントで本物のAWSシナリオを解きます。\nこの「参加者ごとの自前アカウントに問題環境を配る」部分は、実装していて一番神経を使ったところです。他人のAWSアカウン",
-      "published": "2026-07-09T00:46:43+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "Amazon EVS への VCF 9.1 エンドツーエンド自動化デプロイ",
@@ -560,24 +641,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "「万年3位」から脱却なるか？　Google Cloudに吹く\"追い風\"の正体を考察",
-      "link": "https://www.itmedia.co.jp/enterprise/articles/2607/10/news015.html",
-      "summary": "エンタープライズ市場でAWSやMicrosoftに水をあけられてきたGoogle Cloudに、追い風が吹いている。国内SIer大手4社が同社との協業に動く理由と、これまでの経緯、AIエージェントでの連携戦略を読み解く。",
-      "published": "2026-07-08T23:00:00+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Anthropic、「Claude Code」のシステムプロンプトを80％削減　「モデルの創造性を解放するため」",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2607/09/2000000173/",
-      "summary": "米Anthropicのタリク氏は、「Claude Fable 5」など最近リリースされたAIモデルへの禁止指示がモデルの創造性を制限すると指摘した。",
-      "published": "2026-07-08T23:00:00+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "【サーバーエンジニア必見】市場価値が爆速UP！10年先まで見通せるキャリアパス完全ロードマップ",
       "link": "https://qiita.com/Maku-Inc/items/1fe4f52c44b36bf202d8",
       "summary": "【サーバーエンジニア必見】市場価値が爆速UP！10年先まで見通せるキャリアパス完全ロードマップ\nサーバーエンジニアの皆さん、こんにちは！日々の運用や開発に追われる中で、「この先、どんなスキルを身につければ市場価値を高められるんだろう？」「10年後、自分はどうなっていたいん...",
@@ -592,33 +655,6 @@
       "summary": "Claude Codeで開発が変わる\n2026-07-08 | 読了 4分 | #AIコーディング #Claude #エージェント\n「コードを書いてもらう」から「一緒に考える」へ。Anthropicが仕掛けた新しい開発体験は、単なる補完ツールを超えている。あなたの開発スタイルは、もう古くなっているかもしれない。\n\n\n コード補完とは全然違う\nClaude Codeとは何か。一言で言えば「考えて動く",
       "published": "2026-07-08T22:15:38+00:00",
       "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AWS Security HubでAzureの環境も監視できるようになったので連携の構造や何が嬉しいのかをまとめてみた",
-      "link": "https://zenn.dev/cscloud_blog/articles/aws-azure-config-integration",
-      "summary": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！\n皆さんはマルチクラウドで運用していますか？\n昨日、「AWS Security Hub は、統合セキュリティ管理を Microsoft Azure に拡張します。」というアップデートが発表されました。\nhttps://aws.amazon.com/jp/about-aws/whats-",
-      "published": "2026-07-08T22:00:07+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "CEOの利用額も「全社員に丸見え」　LayerXがAI予算を「第二の人件費」にした真意",
-      "link": "https://www.itmedia.co.jp/business/articles/2607/09/news022.html",
-      "summary": "「社長のAI利用額まで全社に生中継する」という透明性でコスト管理に挑むLayerX。利用額が予算の10倍を超過しても経営陣が現場を叱らなかった背景には、AI予算を「第二の人件費」として組織の資産に変える計算があった。単なる経費の締め付けを排し、外注費をAI費に切り替える基準から、上司1人で部下20人を見る「未来の組織図」まで。現場を萎縮させずにAI活用を進めるマネジメントの極意に迫る。",
-      "published": "2026-07-08T22:00:00+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "現場に聞いた「IT関連50製品」のぶっちゃけ理解度　“浸透するツール”の共通点とは？",
-      "link": "https://kn.itmedia.co.jp/kn/articles/2607/09/news053.html",
-      "summary": "似た機能を持つITツールが増える中、「なぜ定着する製品とそうでない製品が生まれるのか」。IT関連の主要50製品を対象に、利用イメージや認知度の違いから、企業が選ぶツールの条件を探った。",
-      "published": "2026-07-08T22:00:00+00:00",
-      "source": "ITmedia AI+",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -803,15 +839,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "【技術解説】株式投資 データ分析 pandasで高頻度取引の低レイテンシ技術をマスターしよう！",
-      "link": "https://zenn.dev/sugarfree/articles/e6a0aae5bc8fe68a95e8b387-e38387e383bce382bfe5",
-      "summary": "株式投資におけるデータ分析とpandasを用いた低レイテンシ技術\n株式投資や高頻度取引（HFT）では、データ分析のスピードが成功の鍵です。データを迅速に分析し、取引のタイミングを見極めるための具体的なアプローチやコード例を紹介します。\n\n HFTにおけるデータ取得の重要性\n高頻度取引では、リアルタイムでのデータ取得が不可欠です。yfinanceライブラリを使って、株価データをリアルタイムで取得する",
-      "published": "2026-07-08T02:00:30+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Flask + Gunicorn + Nginx構成メモを見返して、Web公開の責任境界を考える",
       "link": "https://qiita.com/skrtk98/items/ebdf49442492998ee3ad",
       "summary": "昔のメモを整理していたら、特殊な要件1のもとでFlask + Gunicorn + Nginx + OpenSSLを使ってWebアプリを動かしていたときのメモを発掘しました。\n構成要素だけを見ると、Linux上でPython Webアプリを動かし、アプリケーションサーバーの...",
@@ -819,15 +846,6 @@
       "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "Amazon Redshift のモダナイゼーション: RA3 から RG への移行ベストプラクティス",
-      "link": "https://aws.amazon.com/jp/blogs/news/modernize-amazon-redshift-ra3-to-rg-migration-best-practices/",
-      "summary": "Amazon Redshift RA3 クラスターを Graviton ベースの RG インスタンスに移行する方法を解説します。Elastic Resize、Classic Resize、Snapshot/Restore の 3 つの移行戦略を比較し、スムーズな移行のための考慮事項とベストプラクティスを紹介します。",
-      "published": "2026-07-07T23:27:04+00:00",
-      "source": "AWS 公式ブログ（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "読者のいない自作小説のヒロインを愛しすぎた結果、GCPサーバーレス完全体で現実（X）に召喚してしまった話",
@@ -855,15 +873,6 @@
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "エムシーディースリー株式会社様：AI-DLC Unicorn Gym による3日間の開発変革",
-      "link": "https://aws.amazon.com/jp/blogs/news/mcd3-aidlc/",
-      "summary": "エムシーディースリー株式会社様とAI-DLC Unicorn Gym を実施し、Kiroを使った3日間のプロダクト開発に挑戦しました。AI-DLCで要件定義からアーキテクチャ設計、実装、テスト、デプロイまでの開発ライフサイクル全体でAIを活用し、従来数か月かかっていた開発を3日間で実現可能なレベルまで圧縮できることを実証しました。",
-      "published": "2026-07-07T11:37:44+00:00",
-      "source": "AWS 公式ブログ（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "GCP IaC、Terraform vs Pulumi徹底比較！使い分けと実践",
@@ -979,15 +988,6 @@
       "summary": "TL;DR\n\n大規模SpringBootの構成設計は「モノレポ vs マルチレポ」ではなく、ほぼ独立した4つの軸に分解すると迷わない。\n\nリポジトリ構成（コードをどう置くか）\n\nビルド構成（どう成果物化するか）\n\nCI/CD構成（どう配布・昇格するか）\n\nマニフェスト構...",
       "published": "2026-07-06T12:55:09+00:00",
       "source": "Qiita - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "⑦【Ubuntu】EPGStation+Mirakurun導入",
-      "link": "https://zenn.dev/kya12/articles/af05fd6c4a602c",
-      "summary": "※この記事は自分用のUbuntu初期設定マニュアル（備忘録）です。\nUbuntu Server 24.04で実行\n\n EPGStation+Mirakurun（Docker + NVEncC構成）\nDocker・NVIDIA Container Toolkit の導入を参考にDocker・NVIDIA Container Toolkitを事前にインストールしておく。\ncd /opt\ncurl -s",
-      "published": "2026-07-06T11:45:30+00:00",
-      "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
     },
