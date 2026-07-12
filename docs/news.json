@@ -1,6 +1,24 @@
 {
-  "updated": "2026-07-12T15:51:22.368372+00:00",
+  "updated": "2026-07-12T18:53:15.894390+00:00",
   "items": [
+    {
+      "title": "Amazon Bedrock AgentCoreからDatabricks Genie MCPを呼び出す",
+      "link": "https://zenn.dev/yu_tkr/articles/agentcore-databricks-genie-mcp",
+      "summary": "はじめに\nAmazon Bedrock AgentCore の Harness から、AgentCore Gateway を経由して Databricks の Managed MCP サーバー（Genie）を呼び出す構成を検証しました。本記事では、その構築手順を解説します。\n!\nDatabricks Managed MCP サーバーは執筆時点（2026年7月）で Public Preview です",
+      "published": "2026-07-12T17:51:48+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Claude CodeからAgentCore GatewayにEntra ID × CognitoでSSO接続するついでに認証認可の勉強をする",
+      "link": "https://qiita.com/har1101/items/bfc2701ff74d89ec9dd2",
+      "summary": "調査・下書きにClaude Codeを使用し、最終的に人間がすべて確認しました。\n問題等あればご指摘ください。\n\nはじめに\nこんにちは、ふくちと申します。\n皆様AgentCore Gateway使ってらっしゃいますでしょうか。\n私は最近、組織向けMCPサーバーをAg...",
+      "published": "2026-07-12T17:22:06+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "人間だけのAWS運用に、AIエージェント用ロールを後から払い出す手順",
       "link": "https://zenn.dev/nenene01/articles/aws-ai-agent-role-provisioning",
@@ -74,13 +92,22 @@
       "color": "#FF9900"
     },
     {
-      "title": "CLIで操作したいくせに、認証情報設定してなかった話",
-      "link": "https://qiita.com/LierFort/items/ffa12f8d908e2c2a2c29",
-      "summary": "Q. CLIからアクセスしたいなら？\nA. AWSが認証できる認証情報が必要！！\n（若干の進次郎構文）\n今回の話題はこれです。\n\nことの経緯\nAWSコンソールの操作をし始めて\n少し経ったころ、\nPMからこんな指示が出ました。\n「手動でリソース作成、削除するんじゃなくて\nス...",
-      "published": "2026-07-12T14:40:00+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "TypeScript 初心者が作るツリー構造 TODO アプリ ~設計からデプロイまで~",
+      "link": "https://zenn.dev/yuito2742/books/df9c30ebe7bf94",
+      "summary": "TypeScript初心者の大学生が、タスクを木構造で管理できるTODOアプリを個人開発した記録です。フロントエンドもバックエンドもTypeScriptで実装したフルスタックTS構成。設計からデプロイまでの過程を、つまずいたポイントも含めてまとめています。\n「親タスクを分解して子タスクにする」というツリー構造ならではのデータ設計や、GitHub Actions を使用した CI/CD など、普通の",
+      "published": "2026-07-12T14:35:44+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "Claude Code時代のAIエージェント専用「サンドボックス」設計論：ローカル破壊防止・Egress Proxy・LLM向けAXのすべて",
+      "link": "https://zenn.dev/masuda_masuo/articles/2026-07-11-sunaba-evolution",
+      "summary": "はじめに：なぜローカルでAIに開発させてはいけないのか？\n自分自身では一切プログラムを書かず、設計・実装・テスト・レビューのすべてをLLM（AIエージェント）に実行させるスタイルで開発を行っている。\n近年、Claude Codeを筆頭に、ローカル環境で直接コマンドを実行してコードを書き換える強力なAIエージェントツールが登場している。しかし、AIにローカルマシン（ホストOS）上で直接作業をさせるこ",
+      "published": "2026-07-12T14:33:47+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "異次元のコスパのクラウドサービス【Cloudflare】",
@@ -119,15 +146,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "GCP Private Service Connect を使用したプライベート接続の検証メモ",
-      "link": "https://zenn.dev/idempotency_p/articles/8a319b42c398d1",
-      "summary": "GCP Private Service Connect を構成してプライベート接続させる\n\n やりたいこと\nGCP VPC のサブネット内に配置した VM から別の Cloud Storage にプライベート接続をしたい。\nAzure でいうところのプライベートエンドポイント接続的なことをやりたい。\nGCP ではどうやらプライベート接続をするのにいくつか手法があるが、Private Service",
-      "published": "2026-07-12T13:23:03+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "Chrome拡張：Tech Index PickerをAPI Gateway+Lambda+Google ID Token認証構成で個人開発",
       "link": "https://zenn.dev/tad1310/articles/70d14c20263f6f",
       "summary": "前段\n以前「Tech Index」という技術情報のインデックス用サイトを Rails で開発しました。\nこのサイトは管理者である自分しか記事を登録・編集できないようにしていますが、「サイトを開いてログインして登録フォームに入力する」という一手間が面倒で、ついつい更新をサボってしまいがちで、活かし切れていませんでした。\nそこで、閲覧中のページをその場で Tech Index に登録できる自分専用の",
@@ -155,49 +173,13 @@
       "color": "#10A37F"
     },
     {
-      "title": "顧客のアプリを絶対に壊さないSDKラッパーの作り方",
-      "link": "https://zenn.dev/argosvix/articles/5d4d6a80e4cb26",
-      "summary": "LLMのコストや品質を記録するSDKを作っていて、一番神経を使ったのが「記録処理が顧客のアプリを壊さない」ことでした。observabilityツールが観測対象を落とすのは本末転倒なので。\nこの記事は、wrap()した瞬間に既存コードを壊さないための実装の話です。他人のクライアントライブラリを包む人なら、LLM関係なく刺さる部分があると思います。\n\n 前提: wrap-once の形\nこういうAP",
-      "published": "2026-07-12T11:55:47+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Google Cloudのローカルエミュレータまとめ",
       "link": "https://zenn.dev/o2wsu9/articles/c69f5ee6abcc6d",
       "summary": "Google Cloud のサービスをローカル環境でエミュレートするツールを、公式・非公式に分けてまとめました。コマンドは手元の macOS で実行して確かめながら書いており、実行して初めて気づいた注意点（Datastore の --project 必須など）も反映しています。\n\n なぜローカルエミュレータが必要か\nGoogle Cloud のサービスを使った開発では、動作確認のたびにクラウド上の",
       "published": "2026-07-12T11:45:22+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "TerraformでGCPとVercelをIaC管理！複数環境デプロイでハマった権限問題と解決策",
-      "link": "https://zenn.dev/fd_ai_teacher/articles/tech-20260712040509-1",
-      "summary": "「TerraformでGCPとVercelのリソースをIaC管理したいのに、複数環境デプロイでいつも権限問題にハマる…」\n「開発環境への変更が誤って本番に適用されてしまうリスクをなくしたい」\nこの記事は、そんな悩みを抱えるあなたのために書かれました。TerraformでGCPとVercelのリソースをIaC（Infrastructure as Code）で一元管理し、開発・ステージング・本番といっ",
-      "published": "2026-07-12T11:36:17+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "推しラジオ過去音源をナレッジグラフ的なWikiサイトにしてみた。",
-      "link": "https://zenn.dev/arita/articles/2b14c666e6aa99",
-      "summary": "やりたかったこと\n好きなバンドのメンバーがパーソナリティのラジオ音源が、文字起こしで数百回分手元にある。ここから「メンバーに関する発言・出来事・人間関係」を抽出して、トピックからトピックへ芋づる式に辿れるWikiにしたかった。\n\n「ラーメンの話」を開いたら、関連する放送回や人物のページ、ソバの話へ飛べる\nすべての記述に出典（番組名・放送日）が付き、元の発言位置まで遡れる\n「歌詞 × 特定メンバー」",
-      "published": "2026-07-12T11:25:07+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "LiteRT.jsで始める、Web AIの往復コピーを減らす2つの設計",
-      "link": "https://zenn.dev/hironakamura_ai/articles/160877f457ef43",
-      "summary": "ブラウザAIで先に疑うべきは、モデルの推論時間じゃない。GPUで出たテンソルを、毎回CPUへ戻していないかだ。\n7月9日公開のLiteRT.jsは、.tfliteモデルをブラウザで動かすJavaScriptランタイムだ。発表では既存のWebランタイム比で最大3倍、標準CPU比でGPU/NPUが5〜60倍速いケースを示した。測定は2024年のM4 MacBook Pro。数字はそのまま使えない。\n出",
-      "published": "2026-07-12T11:09:51+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "LiteRT.jsで始める、Web AIの往復コピーを減らす2つの設計",
@@ -216,6 +198,15 @@
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "Docker Desktop なしで Zed の Dev Containers を動かす",
+      "link": "https://zenn.dev/tnayuki/articles/zed-devcontainers-apple-container",
+      "summary": "Zed 使ってますか？ 軽くて速くて、最近すっかり気に入っています。\nその Zed で Dev Containers を使ったプロジェクトを開発したいのですが、コンテナランタイムには Docker Desktop ではなく Apple の container を使いたい。そういう人向けの話です。\nDocker Desktop を避けたい理由は人それぞれですが、たとえば:\n\n一定規模以上の企業では有",
+      "published": "2026-07-12T10:55:31+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "コードが書けない私が、AIとの対話から開発手法「CGP」を作った話",
@@ -317,15 +308,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "その「回収率120%」、前処理の正規化定数がリークしていませんか——20行でできる点検",
-      "link": "https://zenn.dev/kensho_ya/articles/keiba-backtest-leak-check",
-      "summary": "競馬の予想モデルを作って、バックテストで回収率が100%を超えた。特徴量を増やしたら、さらに改善した。時系列分割もした。特徴量はすべて「そのレースより前の情報」だけで作った——。\n私は7年、それをやってきました。そして2026年7月、自分の看板の数字が3日で消えました。\nこの記事は、そのとき踏んだ地雷の話です。ネットの「機械学習で回収率120%達成」記事の大半が踏んでいるのは、たぶんこれです。悪意",
-      "published": "2026-07-12T09:01:21+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "AIに丸投げで9〜13分、判断だけ任せて4分24秒 — 分業設計の3原則",
       "link": "https://zenn.dev/ai_worklab/articles/ai-agent-division-3-principles",
       "summary": "2026年7月上旬、「AIエージェントに任せたら壊れた」という趣旨の記事が、Zennとはてなブックマークで同時多発的に伸びた。扱う規模は、個人のタスク管理から53.5万行のコード書き換えまでバラバラなのに、5本を読み比べると行き着く結論がほぼ同じだった。\nこの記事は、Claude Code などのAIエージェントを仕事で使っている人向けに、その共通の結論を1枚の比較表と3つの原則に整理する。読み終",
@@ -353,6 +335,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "July 12, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#July_12_2026",
+      "summary": "Google SecOps\nFeature\nPublisher Agent Version 2.7.0\nPublisher Agent Version 2.7.0 is now available for all regions.\nThis release includes the following updates for the remote agent:\n\nHigh Availability",
+      "published": "2026-07-12T07:00:00+00:00",
+      "source": "Google Cloud リリースノート",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
       "title": "GPT-Liveのすごさは「会話体験の自然さ」ではない—本命は推論の外部化という話",
       "link": "https://zenn.dev/nwn/articles/aa1d97af33bcc6",
       "summary": "!\n本記事はAIを活用しつつ、自分の理解をもとにまとめたものです。誤りがあればご指摘いただけると助かります。\n\n2026年7月8日にOpenAIが発表したGPT-Live[1]、話題になっていますね。「聞きながら話せる」フルデュプレックスの会話体験がとにかく注目されていますが、実はフルデュプレックス自体はGPT-Liveの発明ではなく、オープンソースで2年前から存在していました。本質は、軽量な会話",
@@ -362,13 +353,22 @@
       "color": "#10A37F"
     },
     {
-      "title": "curlでIAM認証付きのLambda関数URLを呼び出す",
-      "link": "https://zenn.dev/netai/articles/20260712_curl-aws-sigv4",
-      "summary": "やりたいこと\nLambda関数URLに、ローカル環境からcurlでリクエストしたい\nせっかくAWS Lambda Web Adapter（LWA）がGAし、APIサーバーとして使いやすくなったので試してみる\nただ、念のため関数URLにはIAM認証をかけておきたい\n実はcurlはAWS Signature Version 4（SigV4）認証を直接サポートしており、--aws-sigv4という、その",
-      "published": "2026-07-12T06:42:21+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "複数AIエージェントを並列で走らせる時代の、プロンプトインジェクション的事故の防ぎ方",
+      "link": "https://zenn.dev/dstudylab/articles/multi-agent-safety-design",
+      "summary": "AIが「ページの中の命令文」を実行してしまう時代\nAIエージェントに調査や作業を任せるのが当たり前になってきました。同時に、エージェントが読み込んだWebページや文書の中に書かれた「指示のような文章」を、本物の指示として実行してしまう——いわゆるプロンプトインジェクション系の事故も、よく話題に上がるようになっています。\n私は個人の作業環境で、複数のAIエージェント（調査担当・実装担当・レビュー担当",
+      "published": "2026-07-12T06:30:18+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Token管理から考えるSkill構築の設計原則",
+      "link": "https://zenn.dev/lockie2022/articles/token-efficient-skill-design",
+      "summary": "概要\n今回の改修は、「Skillによりよい文章を書かせるにはどうすればよいか」から始まったのではない。もっと根本的な問いから始まった。役割分担が明確に見えるSkillが、なぜ大量のTokenを消費し、使うほど保守しにくくなるのか。\n当初は、アウトライン、レビュー、タイトル調査、タイトル選択、草稿、校閲、最終稿、タグ、公開と、工程を細かく分けていた。工程を細かくし、ファイルを増やし、Agentを独立",
+      "published": "2026-07-12T06:08:33+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "反省文を書くことで強化するエージェント",
@@ -578,11 +578,29 @@
       "color": "#4285F4"
     },
     {
+      "title": "Claude CodeとKaggle(Spaceship Titanic)を2日間解いてみた話",
+      "link": "https://zenn.dev/ce_zakki/articles/8b0433a4a19ff8",
+      "summary": "!\nこの記事自体のドラフトも、Claude Codeを使って書いています。実際の作業ログ（gitのコミット履歴・実験記録）をもとに生成した上で、数値や経緯に誤りがないか自分で確認し、感想部分は自分の言葉に直して公開しています。\n\n\n 概要\nClaude Codeを使って、Kaggleの練習用コンペ「Spaceship Titanic」を丸2日間ほぼ自律的に進めてみました。まず、評価指標・CV戦略・",
+      "published": "2026-07-10T13:15:07+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "テスラ車内で「Grok」と会話、日本でも展開へ　ナビ設定やルート確認を音声で",
       "link": "https://www.itmedia.co.jp/news/articles/2607/10/news157.html",
       "summary": "対話型AI「Grok」を日本のテスラ車で利用できるようになった。Tesla Japanが7月10日、X公式アカウントで発表した。利用には、ソフトウェアバージョン2026.20以降、「プレミアムコネクティビティ」（有料の車内通信プラン）の契約が必要になる。",
       "published": "2026-07-10T12:15:00+00:00",
       "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Train R²が高くても過学習している——学習曲線で何を診断するか",
+      "link": "https://zenn.dev/efta1989/articles/learning-curve-diagnosis-for-materials",
+      "summary": "はじめに：「過学習か？」の次に聞くべきこと\n前記事（小データでの機械学習——研究現場で使える現実的な戦略）では、学習曲線を 過学習の有無 を見るツールとして触れた。Train R² が高く CV R² が低い──このパターンは見慣れている。\nしかし実務では、ここで止まってはいけない。次に何をするか を決めるのが学習曲線の本番だ。\n\nデータを増やすべきか、特徴量を変えるべきか\nモデルを単純化すべきか",
+      "published": "2026-07-10T11:43:17+00:00",
+      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -749,6 +767,15 @@
       "color": "#4285F4"
     },
     {
+      "title": "GCP IAM最小権限設計 ─ SA・Workload Identity・条件付きバインディング",
+      "link": "https://zenn.dev/correlate_dev/articles/gcp-iam-best-practices",
+      "summary": "はじめに\nGCP プロジェクトで最も多く発生するセキュリティインシデントの原因の一つが、IAM の設定ミスです。「とりあえず Editor ロールを付与した」「サービスアカウントキーを Git リポジトリに含めていた」といったケースが、実際の情報漏洩事故につながっています。\n本記事では、GCP IAM の最小権限設計を実践するための具体的なパターンを紹介します。サービスアカウントの粒度設計、Wor",
+      "published": "2026-07-10T01:27:22+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
       "title": "Kiro の超過利用の上限設定と前払い機能のご紹介",
       "link": "https://aws.amazon.com/jp/blogs/news/cap-prepay-overage/",
       "summary": "Kiro の超過利用に関する 2 つの新機能をご紹介します。チーム向けには、AWS Service Quotas コンソールからアカウント単位で超過利用の上限を設定できるようになりました。個人開発者向けには、有料プラン利用者が前払いで購入できるアドオンクレジットパック (最小 5 ドルから) を追加しました。後から届く想定外の請求書に驚かされることなく、支出をコントロールしながら Kiro を使い",
@@ -848,6 +875,24 @@
       "color": "#326CE5"
     },
     {
+      "title": "Claude Codeと挑む技術的負債の返済 — 止められない本番データ基盤を、一人で載せ替えた話",
+      "link": "https://zenn.dev/rehabforjapan/articles/composer-to-cloud-run-jobs",
+      "summary": "はじめに\nRehab for JAPANでCTOを務めている@rkyuragiです！\n「問題は分かっている。でも、動いているものを触るリスクと工数を考えると割に合わない」——そんな理由で返済が後回しにされ続ける技術的負債が、どの会社にもあると思います。弊社の場合、それはデータ基盤のオーケストレータでした。\nRehabでは、各プロダクトのデータをBigQueryに集約するData Platformを",
+      "published": "2026-07-09T08:23:46+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
+      "title": "OKF（Open Knowledge Format）とは？AIに組織の知識を渡す新しい標準を分かりやすく解説",
+      "link": "https://zenn.dev/yamitake/articles/open-knowledge-format-okf-guide",
+      "summary": "はじめに\n「社内のデータやナレッジを、AIエージェントにどう渡すか？」——これは、生成AIを業務に組み込もうとするすべてのチームがぶつかる壁です。\n2025年、Google Cloud がこの課題に対する一つの答えとして OKF（Open Knowledge Format） という仕様を発表しました。この記事では、OKFとは何か、どう読み、どう活用するのかを、初心者にも分かりやすく解説します。",
+      "published": "2026-07-09T08:03:39+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
       "title": "July 09, 2026",
       "link": "https://docs.cloud.google.com/release-notes#July_09_2026",
       "summary": "BigQuery\nFeature\nYou can use the BigQuery Data Transfer Service to transfer metadata from the\nfollowing data sources into Knowledge Catalog:\n\nPostgreSQL\nMicrosoft SQL Server\n\nThis feature is in\nPrevie",
@@ -902,33 +947,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "CI/CD入門第3回：GitHub Actionsを利用したCIワークフローの構築～パイプラインの全体像～",
-      "link": "https://zenn.dev/oasys/articles/ci-cd-intro-4-github-actions-workflow",
-      "summary": "はじめに\n皆さん、こんにちは。オアシステクノロジーズの古本です。DevOps基礎シリーズの第3回へようこそ。\nこれまでの話を振り返ってみましょう。\n\n\n第1回: なぜDevOpsが重要で、その中核をなすCI/CDがどのような概念なのかを学びました。\n\n第2回: CI/CDパイプラインを流れる「信頼できる成果物」として、Dockerイメージがいかに強力であるかを理解しました。\n\nそして今回は、いよい",
-      "published": "2026-07-08T23:55:36+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "CI/CD入門第4回：GitHub Actionsを利用したCIワークフローの構築～ジョブ一覧と詳細～",
-      "link": "https://zenn.dev/oasys/articles/ci-cd-intro-3-github-actions-overview",
-      "summary": "はじめに\n皆さん、こんにちは。オアシステクノロジーズの古本です。DevOps基礎シリーズの第4回へようこそ。\n前回の第3回では、GitHub Actionsを使って「Dockerイメージをビルドし、プッシュする」というシンプルなCIワークフローを構築しました。\nたった数十行のYAMLファイルで、自動化の第一歩が踏み出せることに感動した方も多いのではないでしょうか。\nしかし、実際の開発現場では、ただ",
-      "published": "2026-07-08T23:55:36+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "CI/CD入門第2回：Dockerで変わる開発環境とデプロイ戦略",
-      "link": "https://zenn.dev/oasys/articles/ci-cd-intro-2-docker-strategy",
-      "summary": "はじめに\n皆さん、こんにちは。オアシステクノロジーズの古本です。\n前回の「[CI/CD入門第1回：なぜ今DevOpsが重要なのか？〜CI/CDの全体像〜]」に続き、DevOps基礎シリーズの第2回を始めます。\n今回のテーマはDockerです。\nおそらく多くのエンジニアが「docker-compose upは使ったことがある」というレベルだと思います。しかし、0→1でアーキテクチャを検討する上では、",
-      "published": "2026-07-08T23:55:35+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "PostgreSQLをクラスタ化した分散DBでスケーリングと高可用性を実現する「Multigres v0.1」アルファ版が登場",
       "link": "https://www.publickey1.jp/blog/26/postgresqldbmultigres_v01.html",
       "summary": "PostgreSQLをベースにしたBaaS（Backend as a Service）の「Supabase」を開発し提供しているSupabase社は、複数のPostgreSQLをクラスタ化することでデータベースの水平スケールと高可用性などを...",
@@ -961,15 +979,6 @@
       "summary": "AWS Lambda MicroVMsは、リクエストのたびに使い捨てるLambda関数とは違い、起動したまま中断(Suspend)・再開(Resume)ができ、状態を保ったまま止めて戻せる隔離実行環境だ。この特性は「受講者ごとに隔離された、状態を持つ研修環境を人数分立ち上げて配る」用途に向いている。\n以前の2本の記事(前々作・前作)で、MicroVMsを使ったPython実行カーネルとWebコンソ",
       "published": "2026-07-08T12:53:48+00:00",
       "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "セキュリティ・キャンプ2026 プロダクトセキュリティクラス 課題晒し",
-      "link": "https://zenn.dev/rw_sec/articles/seccamp_exposure",
-      "summary": "はじめに\nセキュリティ・キャンプ全国大会2026の専門コースB「プロダクトセキュリティクラス」に合格しました。本記事では、応募課題に対する考え方と実装を整理します。\n背景：電気電子工学科3年生で、大学の専攻と実際の関心領域（Webセキュリティ）に大きなギャップがあります。このギャップを埋めるため、PortSwigger Web Security Academyでの実践的な学習、CTF、そして独自の",
-      "published": "2026-07-08T11:47:11+00:00",
-      "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
     },
@@ -1122,15 +1131,6 @@
       "link": "https://docs.cloud.google.com/release-notes#July_03_2026",
       "summary": "Apigee hybrid\nAnnouncement\nv1.15.5\nOn July 3, 2026 we released an updated version of the Apigee hybrid software, v1.15.5.\n\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.15.5.",
       "published": "2026-07-03T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "July 02, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#July_02_2026",
-      "summary": "Audit Manager\nFeature\nAudit Manager now supports built-in frameworks and custom\nframeworks that you define\nusing Compliance Manager or Assured Workloads frameworks (preview).\nCloud Database Migration",
-      "published": "2026-07-02T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
