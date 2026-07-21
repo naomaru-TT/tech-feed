@@ -1,6 +1,51 @@
 {
-  "updated": "2026-07-21T13:19:43.504215+00:00",
+  "updated": "2026-07-21T16:16:38.679937+00:00",
   "items": [
+    {
+      "title": "[AWS]Managed KB 消しても消えないゾンビナレッジ",
+      "link": "https://qiita.com/kikuziro/items/edc1b19a4d37070524dd",
+      "summary": "📌 TL;DR\n\nS3登録→同期→直後削除→同期で再同期しても消えることのないゾンビナレッジ誕生\nセルフマネージド型のナレッジベースでは再現しない\nゾンビは DeleteKnowledgeBaseDocuments API で個別に削除すれば完全に消せる\n\nなお、この挙動...",
+      "published": "2026-07-21T15:31:50+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "【IT業界25年目】ADHDポンコツエンジニアが人生賭けて運営中のIT求人サービス『ヴェテラン』で使ってるデータベース『postgreSQL』のスキル習得方法について",
+      "link": "https://qiita.com/Veteran/items/964ef8158664fa4b3400",
+      "summary": "皆さんこんばんは！\n屋外は猛暑日！\n屋内は炎上プロジェクト！\nどこに行っても逃げ場がなくて鬱気味なADHDポンコツエンジニアのGONです！\n前回まで『PHP』『postgreSQL』『AWS』で求人サービスを立ち上げた理由や、\nサービス名の由来、求職者様向け＆企業様向け機能...",
+      "published": "2026-07-21T15:26:59+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "企業向けでAIツールで成長率トップはAnthropic、アカウント数が最も多いのはMicrosoft 365。Oktaが調査結果を発表",
+      "link": "https://www.publickey1.jp/blog/26/aianthropicmicrosoft_365okta.html",
+      "summary": "アイデンティティ管理サービスを提供するOktaは、同社のサービスを用いている2万社以上の匿名化されたアクセスデータに基づく、企業でのAIツール利用実態について調査結果を発表しました。 成長率トップはAnthropic 1つ目の調査結果は、2...",
+      "published": "2026-07-21T13:51:42+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
+    },
+    {
+      "title": "AWS、デプロイ速度が最大4倍になる「AWS CloudFormation Expressモード」を提供開始",
+      "link": "https://www.publickey1.jp/blog/26/aws4aws_cloudformation_express.html",
+      "summary": "Amazon Web Services（AWS）は、デプロイ速度が最大で4倍速になるAWS CloudFormationの新機能「AWS CloudFormation Expressモード」の提供を開始しました。 AWS CloudForm...",
+      "published": "2026-07-21T13:50:39+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
+    },
+    {
+      "title": "Claude が生成した資料にスクショを追加しNotion に貼る方法",
+      "link": "https://qiita.com/rikuto125/items/64d39d506dab8420d1fc",
+      "summary": "はじめに\nClaude Code や Claude Artifacts で社内向けの資料（検討資料・ADR・議事録）を作ると、テキストは綺麗に出る。\nところがスクショや図を1枚入れた瞬間に破綻する。\nNotion の HTML埋め込みブロックに貼ると、画像だけリンク切れに...",
+      "published": "2026-07-21T13:24:26+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "【AWS解説 基本編 #4】責任共有モデル入門　AWS側と利用者側の管理範囲",
       "link": "https://qiita.com/suzunari900261/items/0dc4266004451b0a9831",
@@ -38,15 +83,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "AWSテンプレートを使用してインフラ環境構築",
-      "link": "https://qiita.com/sand-lance/items/4a22cc3008ba5520e32a",
-      "summary": "今回使用するAWSサービス\n1.CloudFormation ​\n3.CloudWatch\n4.SNS\n\n今回の構成\n検証環境\nVPC\n2つのAZ\n各AZに1つずつパブリックサブネット\n各パブリックサブネットにApache入りEC2を1台ずつ\nインターネットゲートウェイ\n...",
-      "published": "2026-07-21T11:45:24+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "Harborにコンテナイメージを登録し、Kubernetesから利用する",
       "link": "https://qiita.com/hana_shin/items/2921a35d44190cdc2b44",
       "summary": "1 はじめに\n本記事では、Docker Hub から取得した nginx イメージを Harbor に push して登録し、Harbor から pull できることを確認します。\nHarbor のインストール手順については、以下の記事をご参照ください。\n\n2 検証...",
@@ -81,15 +117,6 @@
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "AWS Nitro環境で /etc/fstab をデバイス名で書くと、再起動でマウントが入れ替わった",
-      "link": "https://qiita.com/num-bx77/items/a35cce16c3a14626d7bf",
-      "summary": "概要\nEBSを複数アタッチしたEC2で、/etc/fstab を /dev/nvme1n1 のようなデバイス名で書いていると、再起動でマウント先が入れ替わることがあります。対策はタイトルどおり、fstabをデバイス名ではなくUUID（かラベル）で書くこと。それだけの話です...",
-      "published": "2026-07-21T09:04:09+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "週刊AWS – 2026/7/13週",
@@ -141,15 +168,6 @@
       "link": "https://qiita.com/gptmelo/items/0785636ee35742bd116c",
       "summary": "「AIチャットボットでブログやマーケティング記事を作るなら、どれが本当に役立つのか？」——この問いに即答できる人は多くない。私たちがgptmeloを開発してきた2年半で、数百本のサイト記事と実際のSEOデータを見て、ようやく答えの輪郭が見えてきた。\nAIチャットは「何でも...",
       "published": "2026-07-21T06:35:17+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Midnight AI Groove 26-07-20",
-      "link": "https://qiita.com/masykot582/items/35bd05f3117838302083",
-      "summary": "――深夜0時。ネオンが滲むスタジオ。\n低くうねるシンセベース。ジングルが流れる。\nDJミオ「こんばんは。『Midnight AI Groove』へようこそ。ナビゲーターのDJミオです。」\nDJレン「そして相方のDJレンです。今夜は“not much happened ...",
-      "published": "2026-07-21T05:49:37+00:00",
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
@@ -1143,24 +1161,6 @@
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "IT系上場企業の平均年収を業種別にみてみた 2026年版［後編］ ～ ソフトウェア／サービス系、SI／システム開発系、クラウド／通信キャリア系企業",
-      "link": "https://www.publickey1.jp/blog/26/it_2026_si.html",
-      "summary": "IT系企業で平均年収が高いのは、勢いのあるネットベンチャー系企業なのか、それとも伝統的なSIerなのでしょうか。毎年恒例の記事を今年も公開します。 上場企業は毎年「有価証券報告書」の発行を義務づけられており、そこには従業員の人数や平均年齢...",
-      "published": "2026-07-12T15:17:12+00:00",
-      "source": "Publickey",
-      "tag": "テック",
-      "color": "#888780"
-    },
-    {
-      "title": "IT系上場企業の平均年収を業種別にみてみた 2026年版［前編］ ～ ネットベンチャー、ゲーム、メディア系",
-      "link": "https://www.publickey1.jp/blog/26/it_2026_1.html",
-      "summary": "IT系企業で平均年収が高いのは、勢いのあるネットベンチャー系企業なのか、それとも伝統的なSIerなのでしょうか。毎年恒例の記事を今年も公開します。 上場企業は毎年「有価証券報告書」の発行を義務づけられており、そこには従業員の人数や平均年齢...",
-      "published": "2026-07-12T15:02:28+00:00",
-      "source": "Publickey",
-      "tag": "テック",
-      "color": "#888780"
     },
     {
       "title": "July 12, 2026",
