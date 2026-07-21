@@ -1,21 +1,39 @@
 {
-  "updated": "2026-07-21T08:10:16.141535+00:00",
+  "updated": "2026-07-21T10:58:07.577284+00:00",
   "items": [
     {
-      "title": "AIコーディングエージェントCLIを実測で比較する：agent-cost-benchをAWS上で試す(cli-compare)",
-      "link": "https://zenn.dev/nttdata_tech/articles/6f9f7b64baef6a",
-      "summary": "1. はじめに\n前回の記事では、AWS（Amazon Web Services） Samplesで公開されている sample-agent-cost-bench を使い、Kiro CLI上で複数モデルを比較しました。\nhttps://zenn.dev/nttdata_tech/articles/130bd43f48e425\n前回利用したのは model-compare です。これは、同じCLI上で",
-      "published": "2026-07-21T08:00:08+00:00",
-      "source": "Zenn - AWS",
+      "title": "タイトル：AIが生成するテストは「実装の鏡」になる——カバレッジ100%でもバグが消えない理由",
+      "link": "https://qiita.com/memorylakeai/items/67d770cca9f6ed01c282",
+      "summary": "カバレッジが測れるのは「書かれたコード」だけ\n結論から言うと、カバレッジという指標は「すでに書かれたコードが実行されたかどうか」しか計測できません。\nバグの大部分は「書き間違えたコード」から生まれるのではなく、「本来書かれるべきだったのに、書かれなかったコード」に潜んで...",
+      "published": "2026-07-21T09:53:49+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AWS Nitro環境で /etc/fstab をデバイス名で書くと、再起動でマウントが入れ替わった",
+      "link": "https://qiita.com/num-bx77/items/a35cce16c3a14626d7bf",
+      "summary": "概要\nEBSを複数アタッチしたEC2で、/etc/fstab を /dev/nvme1n1 のようなデバイス名で書いていると、再起動でマウント先が入れ替わることがあります。対策はタイトルどおり、fstabをデバイス名ではなくUUID（かラベル）で書くこと。それだけの話です...",
+      "published": "2026-07-21T09:04:09+00:00",
+      "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "tokenmaxingはsuccessmaxingではない — 自作プロキシで測った「AIコストの本当の変数」",
-      "link": "https://zenn.dev/ryok/articles/tokenmaxing-vs-successmaxing",
-      "summary": "結論\n先日、「オープンモデルは価格を殴る棍棒だ」という記事を書いた。中国のオープンウェイトがクローズド勢のAPI単価を押し下げる、という話だ。だが最後にひとつ処方を置いた——「単価が下がっても、トークンの使い方がザルなら値下げは机上の数字で終わる」。\nこの記事は、その処方だけを取り出して掘る。\n主張はシンプルだ。あなたのAIコストの過半は、\"どのモデルを選ぶか\"ではなく、\"送っていることに気づいて",
-      "published": "2026-07-21T07:02:13+00:00",
-      "source": "Zenn - LLM",
+      "title": "週刊AWS – 2026/7/13週",
+      "link": "https://aws.amazon.com/jp/blogs/news/aws-weekly-20260713/",
+      "summary": "Amazon SageMaker HyperPod が Slurm クラスターでカスタム AMI をサポート、Voxtral-Mini-4B-Realtime をリアルタイム音声文字起こし向けに Amazon SageMaker JumpStart で提供開始、OpenAI GPT-5.6 Sol, Terra, Luna が Amazon Bedrock で一般提供開始、AWS Security",
+      "published": "2026-07-21T09:03:14+00:00",
+      "source": "AWS 公式ブログ（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "タイトル: AIのAPIはいくらかかるのか——2026年版、25以上のプロバイダー料金を比較して見えてきたこと",
+      "link": "https://qiita.com/snair4321/items/ee7f81aeecf9ab5d80a0",
+      "summary": "はじめに\n「AIをプロダクトに組み込もうとしたら、思っていた10倍のコストがかかった」\nこういう話を最近よく聞きます。\n原因のほとんどは、APIの料金体系を「1トークンいくら」という\n表面的な数字だけで見てしまっていることにあります。\nG2が25以上のプロバイダーを対象に...",
+      "published": "2026-07-21T08:31:36+00:00",
+      "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -25,15 +43,6 @@
       "summary": "Shieldは「黙って全員を守る標準装備の盾」🛡️⚡\n\nShieldは「DDoS攻撃」専門の守り手\nWAFが「怪しいリクエストの中身」を見るのに対して、\nShieldは DDoS攻撃 という物量攻撃に特化した対策サービス。\n\nStandardは「気づいたら守られている」...",
       "published": "2026-07-21T06:53:16+00:00",
       "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "RDS for MySQLでFreeableMemoryが減り続けたときの切り分け方",
-      "link": "https://zenn.dev/linkedge/articles/a02c047bab12b4",
-      "summary": "はじめに\nRDSの空きメモリが減り続け、余裕がなくなってくると、このままで大丈夫なのか、何を見れば判断できるのか不安になります。\nこの記事では、RDS for MySQLを想定し、MySQLの起動、集計クエリ、接続数の増加をDocker上で試し、空きメモリが減る理由を確かめます。\n!\n\n この記事でわかること\n\nMySQLの起動やクエリ、接続数によって、メモリ使用量がどう変わるか\nクエリが終わって",
-      "published": "2026-07-21T06:52:24+00:00",
-      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -110,15 +119,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "仮説検定チートシート：どの検定をいつ使うか完全ガイド",
-      "link": "https://zenn.dev/ds_ai_lab/articles/20260608-hypothesis-testing-cheatsheet",
-      "summary": "このチートシートの使い方\n「2群の平均を比べたい→正規分布に従う？→t検定 or Mann-Whitney検定」のように、データの種類と知りたいことを答えるだけで検定を選べる構成にしています。数式・使用条件・Pythonコードをセットで掲載します。\n\n\n 検定の選び方フローチャート\nデータの種類は？\n├─ 連続値・量的データ\n│   └─ 群の数は？\n│       ├─ 1群：母平均の検定\n│",
-      "published": "2026-07-21T04:58:24+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "ドラクエと「Gemini」がコラボ　画像生成の“特別なテンプレ”提供、リアルイベント開催へ",
       "link": "https://www.itmedia.co.jp/aiplus/article/2607/21/2000000209/",
       "summary": "米Googleの日本法人は、AIサービス「Gemini」と「ドラゴンクエスト」のコラボキャンペーンを始めると発表した。Geminiの画像生成機能を活用するイベント「ジェミニクエスト」を開催するほか、アプリでは同イベントに連動したテンプレートも展開する。",
@@ -191,29 +191,11 @@
       "color": "#10A37F"
     },
     {
-      "title": "間取り図生成で「外周の形」をAIに守らせるには、テキストではなく画像で渡す",
-      "link": "https://zenn.dev/archybase/articles/5c1123f62c6d92",
-      "summary": "生成AIで間取り図を作らせたことがある人なら、一度は同じ壁にぶつかったことがあるはずです。「この外周の形を守って」と頼んでも、出てくるのはだいたい普通の長方形。「延床90㎡で」と指定しても、各部屋の面積を足し合わせるとまったく違う数字になる。\nこれはプロンプトの書き方が下手だから起きているわけではありません。表現方法の選び方が間違っている、というのが今回書きたい話です。ArchyBaseで間取り図",
-      "published": "2026-07-21T03:50:27+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "AWS Summit Japan 2026 に見る Resilience at AWS",
       "link": "https://aws.amazon.com/jp/blogs/news/aws-summit-japan-2026-resilience/",
       "summary": "2026 年 6 月 25 日、26 日に AWS Summit Japan が開催され、多数のセッションとブ […]",
       "published": "2026-07-21T03:47:42+00:00",
       "source": "AWS 公式ブログ（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "2026年7月17日付GCASアップデート",
-      "link": "https://qiita.com/Seria_GovCloud/items/734ea903cac9b50a0663",
-      "summary": "2026年7月17日付GCASアップデートです。\nなおMicrosoftAzureとGoogleCloudについては利用実績が少ないため割愛します。\n\n【地方】GCASアカウント棚卸し機能リリースについて\n地方公共団体向け説明会で以前から予告されていた機能です。この機能のリ...",
-      "published": "2026-07-21T03:02:11+00:00",
-      "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -240,34 +222,7 @@
       "link": "https://zenn.dev/mshirakawa/articles/brandcheck-osint-self-check",
       "summary": "採用の場では、応募者の名前は高い確率で検索されます。問題は、本人が「検索される側の視界」を一度も見ないまま選考に入ることです。消したつもりの投稿、同姓同名の別人、学生時代のハンドルネームに紐づく発言。これらは本人には見えず、検索する側にだけ見えます。\nセキュリティ診断で使うOSINT（公開情報調査）の手法を自分自身に向ける、というのがこのサービスの発想です。申告されたSNS・ブログを収集し、LLM",
       "published": "2026-07-21T02:22:53+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "就活・転職の前に自分をOSINTする ― AI診断サービスを一人で作って公開するまで",
-      "link": "https://zenn.dev/mshirakawa/articles/brandcheck-osint-self-check",
-      "summary": "採用の場では、応募者の名前は高い確率で検索されます。問題は、本人が「検索される側の視界」を一度も見ないまま選考に入ることです。消したつもりの投稿、同姓同名の別人、学生時代のハンドルネームに紐づく発言。これらは本人には見えず、検索する側にだけ見えます。\nセキュリティ診断で使うOSINT（公開情報調査）の手法を自分自身に向ける、というのがこのサービスの発想です。申告されたSNS・ブログを収集し、LLM",
-      "published": "2026-07-21T02:22:53+00:00",
       "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "【技術解説】アルゴリズム取引 戦略 コードで資産運用を加速！RSIとMACDの組み合わせ手法",
-      "link": "https://qiita.com/sugarfree/items/9100866c6f39b9bb42b9",
-      "summary": "アルゴリズム取引におけるRSIとMACDの組み合わせ手法\nこの記事では、株式市場や暗号資産市場において、RSI（相対力指数）とMACD（移動平均収束拡散法）を用いた取引戦略の実装方法を解説します。Pythonを使用し、必要なライブラリや実装手順に加え、売買シグナルの生成や...",
-      "published": "2026-07-21T02:04:52+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "【技術解説】アルゴリズム取引 戦略 コードで資産運用を加速！RSIとMACDの組み合わせ手法",
-      "link": "https://zenn.dev/sugarfree/articles/e382a2e383abe382b4e383aae382bae383a0e58f96e5b",
-      "summary": "株式市場や暗号資産市場での利益を最大化するためには、戦略が不可欠です。本記事では、RSI（相対力指数）とMACD（移動平均収束拡散法）を組み合わせたアルゴリズム取引戦略を、Pythonを用いて実装する方法を解説します。この戦略は、テクニカル指標を駆使し、エントリーポイントの信頼性を高めることを目的としています。\n\n RSIとMACDの基本概念\n\n RSI（Relative Strength Ind",
-      "published": "2026-07-21T02:04:27+00:00",
-      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -317,15 +272,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "競馬AI開発記録 #25 予測空間の「統治」と統合：マルチモデル・ポートフォリオへの覚醒",
-      "link": "https://zenn.dev/ricotiler/articles/keiba-ai-25-multi_model_integration_strategy",
-      "summary": "概要\n前話（第24話）では、単勝特化の限界を打破するために**複勝専用モデル（TOP3モデル）**を導入し、モデル間の特徴量空間を論理的に分離する試みについて触れました。しかし、場当たり的な分離だけでは、モデルが増えるたびに「データの汚染」や「パイプラインの不整合」が発生する脆さが露呈しました。\n第25話では、これらの課題を根本から解決するためのアーキテクチャ刷新と、複数のモデルを最適に組み合わせ",
-      "published": "2026-07-21T01:09:23+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Project Aegisとは？——ゼロトラストを「構成・証拠・復旧」に変えるローカル検証プロジェクト",
       "link": "https://zenn.dev/sec_decode/articles/08663d6fb19841",
       "summary": "📝 この記事は、下書きと図解にAIを活用しつつ、実装状態はリポジトリ、ADR、検証台帳、保存済み証跡を私自身が確認しています。誤りや補足があれば、確認したうえで修正します。\n\nProject Aegisは、ゼロトラストを用語や製品名だけで理解するのではなく、構成、通信経路、許可・拒否試験、ログ、証跡、復旧へ落とし込んで学ぶための個人検証プロジェクトです。\n現在は、ローカルAIへの通信経路制御とGP",
@@ -362,24 +308,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "Amazon S3 TablesとSnowflakeを連携する",
-      "link": "https://zenn.dev/penginpenguin/articles/d9c916abc833f2",
-      "summary": "はじめに\nAWS Community Builderのぺんぎん（@jitepengin）です。\n以前の記事で、汎用S3バケットに構築したIcebergテーブルとSnowflakeを連携する方法を紹介しました。\nhttps://zenn.dev/penginpenguin/articles/97f30cc1ac8377\n今回は、最近使う機会も増えてきたS3 Tables上のIcebergテーブルをS",
-      "published": "2026-07-21T00:06:16+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "アプリの検知をエッジの遮断につなぐ — Amazon CloudFront KVS で作るフィードバックループ！",
-      "link": "https://zenn.dev/cscloud_blog/articles/b238cd891ae0c3",
-      "summary": "どうもセキュリティ大好きおじさんの西川です。そろそろ浸透してきた頃でしょうか。\nBot 対策には非対称な構造があります。検知が一番しやすいのはアプリです。\n「このアカウントに5分で30回ログイン失敗している」\n「この順番で API を叩くのは人間の導線ではない」\nといったコンテキストはアプリしか知らないからです。\n一方で遮断が一番簡単なのはエッジです。オリジンに到達する前に不正なリクエストを打ち落",
-      "published": "2026-07-21T00:00:17+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "いかにして問いを立てるか──未解決問題までAIが解く時代のPdM",
       "link": "https://zenn.dev/tokium_dev/articles/how-to-pose-questions",
       "summary": "また数学の未解決問題が、AIに解かれたらしいです。\nある朝、社内のSlackにそんな話題が流れてきました。新しいモデルが出るたびに誰かが「また解けたらしいですよ」と持ってくる、ちょっとした風物詩になりつつあります。ただ今回は少し事情が違いました。証明の中身をよく読むと、私が大学院時代に研究していた領域と、かなり近い。点と線のつながりを扱う、グラフ理論という数学の一分野です。数学科でこれを専攻して修",
@@ -396,15 +324,6 @@
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "MWAA Serverless × AFT の OU 移動再適用で考える通知設計パターン",
-      "link": "https://zenn.dev/geneg/articles/2026-07-20-aws-control-tower-account-factory",
-      "summary": "はじめに\n以前書いた「MWAA Serverless × EventBridge 通知で変わるサーバーレス設計パターン」は、Amazon MWAA のサーバーレスオプションと EventBridge を組み合わせて Airflow のタスク状態をイベント駆動で通知する設計を扱いました。この記事の反応が良かったので、今回は視点を変えて 「マルチアカウント環境でその通知パターンをどう安全に運用し続ける",
-      "published": "2026-07-20T23:29:22+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "MWAA Serverless × AFT の OU 移動再適用で考える通知設計パターン",
@@ -429,6 +348,15 @@
       "link": "https://zenn.dev/itdevnote/articles/ollama-num-ctx-silent-truncation",
       "summary": "ollama に num_ctx を超える入力を渡すと、超えた分が削られる——のではない。先頭のわずかなトークンと末尾を残して、真ん中がまとめて捨てられる。 残る量はコンテキストのおよそ半分までで、元の入力が長いほど失う量は大きくなる。\nそして捨てられても HTTP 200 が返り、done_reason は stop、出力の体裁も整っている。\nこの記事では、切り捨てが起きる条件・捨てられる場所と",
       "published": "2026-07-20T23:00:06+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "一体いつから-Github Copilot  Appの能力がコーディングだけだと錯覚していた？",
+      "link": "https://zenn.dev/hirayuki/articles/6bafab06767cab",
+      "summary": "あまり強いタイトルを使うなよ\n弱く見えるぞ\n\n はじめに\n本記事はGithub Copilot Appをより活用し、時代の変換を考察する記事です。\n!\n本記事は個人の見解です。\nGithub Copilotの公式ドキュメントの定義は「エージェント駆動型開発用のデスクトップ アプリケーション」です。\nそれに対し若干の無理をさせる構成ではあります。\nそのため完璧ではない点もありますが、後述します。",
+      "published": "2026-07-20T22:49:04+00:00",
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
@@ -475,15 +403,6 @@
       "summary": "NTTやソフトバンク、サカナAIなどの「AI開発に成功した企業」には“ある共通点”がある。彼らはどのような技術を活用し、AI開発を成し遂げたのか。",
       "published": "2026-07-20T22:00:00+00:00",
       "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Kimi K3の数値の帰属を整理。自社ベンチ・独立指標・市場反応・weights公開予定",
-      "link": "https://qiita.com/quotidia/items/c67ab4c203070cb49e10",
-      "summary": "本記事は筆者が運営する AI Quotidia の海外ニュース解説記事です。\n\n中国のAI企業Moonshot AI (北京) は現地2026年7月16日、2.8兆パラメータの新型AIモデル「Kimi K3」を発表した (同社公式サイト・Fortune)。\n\n要点\n\nMo...",
-      "published": "2026-07-20T21:02:14+00:00",
-      "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -587,6 +506,24 @@
       "color": "#FF9900"
     },
     {
+      "title": "Claude Desktop の利用上限設定がどこに効いているのか確認する",
+      "link": "https://zenn.dev/aws_japan/articles/aws-bedrock-claudedesktop-usagelimit",
+      "summary": "Claude Desktop の利用上限設定がどこに効いているのか確認する\nこんにちは！ AWS でソリューションアーキテクトをしている杉山です。\nClaude Desktop を Amazon Bedrock (third-party inference) で利用する場合、managed config を通じて User ごとの Token 利用上限を設定できます。上限は設定画面 (Config",
+      "published": "2026-07-20T12:00:09+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AWS学習メモ - VPCエンドポイント（VPC Endpoint）について整理してみる",
+      "link": "https://zenn.dev/yashiki_tatama/articles/71fc29c9110ffd",
+      "summary": "前回は、NACL（Network Access Control List）について整理しましたね。\nNACLは、サブネット単位で通信を制御する仕組みであり、許可（Allow）だけでなく\n拒否（Deny）ルールも設定できることや、ステートレスな通信制御を行うことが特徴でした。\nここまでの記事では、VPC内で通信を制御する仕組みについて整理してきました。\nまた、AWSではVPC単体で利用するだけでなく",
+      "published": "2026-07-20T11:41:37+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "【OT/ICS】Dockerで学ぶ施設警備システム構築③－2",
       "link": "https://zenn.dev/schutzz/articles/64050464553bea",
       "summary": "【OT/ICS】Dockerで学ぶ施設警備システム構築（第3回：Modbus/TCPセンサーエミュレータ開発編）♯2\n前回作成したRust製センサーエミュレータには「メモリ（状態）の保持がない」「書き込み系コマンドが未実装である」という致命的な不備がありました。\n今回は、OTシステムの本質である「状態管理（RAM）」と「メモリ汚染の土台」を実装するため、エミュレータのアーキテクチャを大幅に修正・ア",
@@ -659,6 +596,24 @@
       "color": "#FF9900"
     },
     {
+      "title": "GoでLambdaを書いたら、外部APIのレート制限との戦いが一気に楽になった",
+      "link": "https://zenn.dev/calmpm_takahiro/articles/go-lambda-ratelimit",
+      "summary": "以前、Lambdaから外部APIを大量に呼び出す処理を書いたことがあります。相手のAPIにコールレート制限があり、そのコントロールにひどく苦労した記憶が残っています。並列度を上げれば429が返る、下げれば終わらない。その調整に何日も溶かしました。\n当時の対処法は記事にも書きました。SQSを挟む構成と、固定ディレイで並べる方法の2本です。この記事は、その2本への自分なりのアンサーでもあります。\nGo",
+      "published": "2026-07-20T08:42:18+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AI Slackbot を簡単に開発・運用したいなら、AgentCore と Welt の組み合わせがおすすめ",
+      "link": "https://zenn.dev/iwamot/articles/deebe40124cfb4",
+      "summary": "AI Slackbot を簡単に開発・運用したいなら、Amazon Bedrock AgentCore と Welt の組み合わせがおすすめです。AgentCore は AI エージェントの実行基盤となる AWS のマネージドサービス群で、Welt はぼくが作った、エージェントを Slack につなぐ OSS です。\nこの組み合わせなら、AI Slackbot の開発・運用にかかる労力を大きく省け",
+      "published": "2026-07-20T08:38:43+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "【OT/ICS】Dockerで学ぶ施設警備システム構築②",
       "link": "https://zenn.dev/schutzz/articles/c6aae877fef285",
       "summary": "【OT/ICS】Dockerで学ぶ施設警備システム構築（第2回：Docker ComposeとHMI起動編）\n前回は、OT/ICSの基本概念とPurdueモデルに基づいたネットワーク設計（全体像）について整理しました。\n今回は、実際に docker-compose.yml を書いて「L2ネットワーク分離基盤の構築」と、統合監視盤（HMI）となる 「Node-REDコンテナの起動」（Phase 1）",
@@ -666,6 +621,24 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "AWS WAFでSQLインジェクション対策を検証",
+      "link": "https://zenn.dev/saito_aws/articles/c0a73329765115",
+      "summary": "はじめに\n!\nこの記事はSQLインジェクションからWebサーバーを守る方法を自身が管理しているシステムで検証しているものです。SQLインジェクションは、他者のサーバーに攻撃目的で実施した場合、不正アクセス禁止法などに抵触する犯罪行為です。最大で3年以下の懲役、または100万円以下の罰金が科されることになります。\n\n\n AWS WAFの概要\nAWS WAFは、AWSのサービスであり、アプリケーション",
+      "published": "2026-07-20T08:30:41+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Terraformで電話網に通話分析AIの土台を建てる ― Amazon Connect+KVSと「CodecID詐称事件」",
+      "link": "https://zenn.dev/halhalhal1/articles/amazon-connect-kvs-terraform",
+      "summary": "通話相手の心理状態をAIがリアルタイムに読むプロダクト(crossbar_telepath)を作り始めた。設計思想として、接続時に録音・解析をアナウンスで宣言することを最初から要件にしている(ステルス型の耳打ちAIが炎上した例の轍は踏まない)。\nPH1のゴールは「架電すると同意アナウンスが流れ、通話音声がKinesis Video Streamsに積まれる」まで。その過程で踏んだ罠が面白かったので",
+      "published": "2026-07-20T08:15:34+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "Terraformで電話網に通話分析AIの土台を建てる ― Amazon Connect+KVSと「CodecID詐称事件」",
@@ -695,19 +668,28 @@
       "color": "#4285F4"
     },
     {
-      "title": "July 20, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#July_20_2026",
-      "summary": "Batch\nBreaking\nStarting on the following dates, you can no longer create a job that locates\nits Compute Engine resources outside of the job's location.\n\nFor projects that have successfully submitted b",
-      "published": "2026-07-20T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "平均も分散も相関も同じまま、恐竜をサーモンに変えてみた。焼きなまし法でDatasaurusを再現する",
       "link": "https://zenn.dev/shakeailab/articles/datasaurus-simulated-annealing",
       "summary": "「平均・分散・相関係数がすべて同じなのに、散布図を描くと恐竜や星や円になる」——Datasaurus dozenという有名なデータセット群がある。「要約統計量だけ見て可視化をサボるな」という教訓として、データ分析の入門でよく紹介される。\n\n手元で全13データセットの統計量を計算してみると、確かに平均x・平均y・標準偏差x・y・相関係数の5つが小数2桁まで一致していた。\nところでこのデータ群、どうや",
       "published": "2026-07-20T06:33:02+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "RAGの「関連度が高い文書」は本当に役立つ？検索エージェントで因果検証",
+      "link": "https://zenn.dev/sonder01/articles/rag-bridge-evidence-causal-utility",
+      "summary": "検索質問とほとんど似ておらず、答えそのものも書いていない。それでも、その文書を消すとAIエージェントは正解へたどり着けなくなる。\n2026年7月、次の論文が公開された。\nBridge Evidence: Static Retrieval Utility Does Not Predict Causal Utility in Multi-Step Agentic Search\nこの研究は、そんな「橋渡",
+      "published": "2026-07-20T04:05:06+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Gemini Enterprise Agent PlatformのCustom Training試してみた",
+      "link": "https://zenn.dev/fusic/articles/ae40058329f595",
+      "summary": "はじめに\nFusicのレオナです。\n今回は、Gemini Enterprise Agent PlatformのCustom Trainingを利用し、scikit-learnでモデルを学習しました。\nGemini Enterprise Agent Platformは、旧Vertex AI Platformから名称変更されたサービスです。[1]ローカル環境で学習コードを実行する場合、実行環境の構築や",
+      "published": "2026-07-20T03:06:52+00:00",
       "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
@@ -738,6 +720,24 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "【技術解説】クオンツ分析をPythonで！センチメント分析を利用した金融データ予測の新アプローチ",
+      "link": "https://zenn.dev/sugarfree/articles/e382afe382aae383b3e38384e58886e69e90e38292pyt",
+      "summary": "センチメント分析を利用したクオンツ分析は、金融市場におけるデータサイエンスと機械学習の新たなアプローチを提供します。本記事では、Pythonを用いて金融データを予測するための基本的な手法や使用するライブラリについて解説します。具体的には、yfinanceを用いた金融データの取得、requestsを用いたニュースデータの取得、そしてnltkを用いたセンチメント分析の実装を行います。\n\n ニュースとS",
+      "published": "2026-07-20T02:01:00+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "機械学習を本気で極めるための欧米技術書5選",
+      "link": "https://zenn.dev/koukyo/articles/20260716_ml_advanced_western_books_5",
+      "summary": "はじめに\n前回の記事では、機械学習を正しく始めるための5冊を紹介した。\n今回は、その先の話をする。\nモデルを動かせるようになった。精度もそこそこ出る。だけど、論文を読んでも数式が追えない。新しいアルゴリズムが出ても「なぜそれが効くのか」が直感的にわからない。面接でベイズ推論の話を振られて固まった——。\n「実装はできるけど理論が弱い」という壁にぶつかるタイミングは必ず来る。そこを突破するために必要な",
+      "published": "2026-07-20T00:25:05+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "認証を突破されても越えられない壁を作る ― VPC Service Controlsによる境界設計",
@@ -848,15 +848,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "July 19, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#July_19_2026",
-      "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.94 is being rolled out to the first phase of regions as listed \nhere.\nThis release contains internal and customer bug fixes.",
-      "published": "2026-07-19T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "2026年から始めるKubernetes実践入門",
       "link": "https://zenn.dev/kosments/books/kubernetes-practical-2026",
       "summary": "プロダクトエンジニアしかいないレガシー環境のスタートアップで、突然インフラ・DevOps・SRE・プラットフォーム相当を任されたインターンが、モノリスの段階的な切り出しを通じてKubernetesの設計・運用を学ぶ物語形式の実践入門です。",
@@ -929,15 +920,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "July 18, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#July_18_2026",
-      "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.93 is now\navailable for all regions.",
-      "published": "2026-07-18T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "AWS→GCPをキーレス化する ― Workload Identity Federationの実践",
       "link": "https://zenn.dev/tk_nomura/articles/2026-07-wif-aws-to-gcp",
       "summary": "はじめに\n前回の記事で、GitHub ActionsからGCPへの認証をWorkload Identity Federation(以下WIF)でキーレス化する構成を整理しました。今回はその応用として、AWS上で動くワークロード(EC2、Lambda、ECSなど)から、サービスアカウントキーを発行せずにGCPへアクセスする構成を扱います。\nマルチクラウド構成では、AWS側で動いているアプリケーション",
@@ -983,15 +965,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "July 17, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#July_17_2026",
-      "summary": "Batch\nFeature\nInstance flexibility is available in\nPreview.\nInstance flexibility lets you allow a job to run on multiple machine types that\nyou specify and can optionally rank. Use instance flexibilit",
-      "published": "2026-07-17T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "エブリーが、Aurora DSQL の採用でデータベースコストを 90% 以上削減とメンテナンス運用からの解放も実現",
       "link": "https://aws.amazon.com/jp/blogs/news/db-customercase-every-dsql/",
       "summary": "&nbsp; &nbsp; 株式会社エブリーは、「前向きなきっかけを、ひとりひとりの日常にとどける。」というミッションのもと、デリ […]",
@@ -1005,15 +978,6 @@
       "link": "https://aws.amazon.com/jp/blogs/news/fail-back-from-amazon-rds-for-db2-to-on-premises-aix-db2-using-dms/",
       "summary": "AWS Database Migration Service (AWS DMS) を使い、Amazon RDS for Db2 からオンプレミスの AIX Db2 インスタンスへ CDC のみのリバースレプリケーションを構成する方法を説明します。プライベートのみのネットワーク上で検証済みのフェイルバック経路を用意し、移行カットオーバー後の検証期間に問題が発生してもデータの整合性を保ったまま迅速にロ",
       "published": "2026-07-17T05:25:03+00:00",
-      "source": "AWS 公式ブログ（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "Amazon RDS for Db2 でセルフマネージド AD の Kerberos 認証を有効にする",
-      "link": "https://aws.amazon.com/jp/blogs/news/enable-self-managed-ad-kerberos-authentication-with-amazon-rds-for-db2/",
-      "summary": "Amazon RDS for Db2 は、お客様自身の Active Directory を利用した Kerberos 認証をサポートしており、データベースユーザーの認証を一元化してシングルサインオンを実現できます。本記事では、専用の OU とサービスアカウントの作成、必要な AD 権限の委任、KMS で暗号化したシークレットへの認証情報の保存、そしてドメイン参加済みクライアントからの接続検証まで",
-      "published": "2026-07-17T04:50:28+00:00",
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
@@ -1035,15 +999,6 @@
       "source": "Zenn - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "July 16, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#July_16_2026",
-      "summary": "Apigee X\nAnnouncement\nOn July 16th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows.\nIf you set a preferred window for maintenance for your instance, and your",
-      "published": "2026-07-16T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "フロントエンド開発に必要なツールをまとめて統合した「Vite+」、ベータ公開",
@@ -1082,15 +1037,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "July 15, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#July_15_2026",
-      "summary": "Apigee UI\nFixed\nApigee UI\nFixed an issue where editing a legacy API Product with a selected API Proxy\ncould cause the Apigee UI to become unresponsive.\nApigee X\nAnnouncement\nOn July 15th, 2026, we rel",
-      "published": "2026-07-15T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "より小さなソフトウェアエンジニアリングチームを、2029年までに60％の組織が本格展開するとの予測、ガートナー",
       "link": "https://www.publickey1.jp/blog/26/202960.html",
       "summary": "調査会社のガートナーは、2029年までに60％の組織がより小さなソフトウェアエンジニアリングチームを本格的に展開するだろうとの予測を発表しました。 人間とAIの強みを活かすためのチームの再編成 この背景には、AIの発達によって人間に代わって...",
@@ -1098,15 +1044,6 @@
       "source": "Publickey",
       "tag": "テック",
       "color": "#888780"
-    },
-    {
-      "title": "July 14, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#July_14_2026",
-      "summary": "BigQuery\nFeature\nConversational analytics\nnow supports the\nAI.AGG function.\nThis function is in\nPreview.\nAnnouncement\nAs part of\nGemini in BigQuery,\nconversational analytics\nnow supports HIPAA\ncomplia",
-      "published": "2026-07-14T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "Google Cloud、生成AIのコードを瞬時に隔離して安全に実行できる「Cloud Runサンドボックス」パブリックプレビュー",
@@ -1127,15 +1064,6 @@
       "color": "#888780"
     },
     {
-      "title": "July 13, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#July_13_2026",
-      "summary": "Agent Platform Workbench\nFeature\nAgent Platform Workbench image release\nThe following Agent Platform Workbench instances image releases are available:\n\n20260712-2130-rc0 (workbench-instances-2603 - De",
-      "published": "2026-07-13T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "IT系上場企業の平均年収を業種別にみてみた 2026年版［後編］ ～ ソフトウェア／サービス系、SI／システム開発系、クラウド／通信キャリア系企業",
       "link": "https://www.publickey1.jp/blog/26/it_2026_si.html",
       "summary": "IT系企業で平均年収が高いのは、勢いのあるネットベンチャー系企業なのか、それとも伝統的なSIerなのでしょうか。毎年恒例の記事を今年も公開します。 上場企業は毎年「有価証券報告書」の発行を義務づけられており、そこには従業員の人数や平均年齢...",
@@ -1152,24 +1080,6 @@
       "source": "Publickey",
       "tag": "テック",
       "color": "#888780"
-    },
-    {
-      "title": "July 12, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#July_12_2026",
-      "summary": "Google SecOps\nFeature\nPublisher Agent Version 2.7.0\nPublisher Agent Version 2.7.0 is now available for all regions.\nThis release includes the following updates for the remote agent:\n\nHigh Availability",
-      "published": "2026-07-12T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "July 11, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#July_11_2026",
-      "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.92 is now\navailable for all regions.",
-      "published": "2026-07-11T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "Amazon Timestream for InfluxDB が Amazon EventBridge へのデータベース状態変更イベントの公開を開始",
