@@ -1,14 +1,104 @@
 {
-  "updated": "2026-07-22T08:10:29.078261+00:00",
+  "updated": "2026-07-22T10:59:18.284237+00:00",
   "items": [
     {
-      "title": "デフォルトVPCを削除する",
+      "title": "副作用のある Lambda を AWS Lambda Power Tuning でチューニングする方法",
+      "link": "https://qiita.com/h0uk1st4r/items/52a9238f3a275ee8f09c",
+      "summary": "はじめに\nこんにちは、ほうき星 @H0ukiStar です。\nAWS Lambda は、割り当てるメモリのサイズを増やすことによって CPU をはじめとする実行リソースも比例して割り当てられる特徴があります。\nそのため、割り当てるメモリサイズを変更することにより処理時間も...",
+      "published": "2026-07-22T10:43:41+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Docker Composeのビルドコンテキストが数GBに膨らんだので、大容量データを別ディレクトリに分離してマウントした",
+      "link": "https://qiita.com/arara_123456789/items/0a127da338e62c6059da",
+      "summary": "はじめに\nDocker Composeで分析環境を構築していたところ、コンテナを再ビルドする際に次のような表示が出ました。\nSending build context to Docker daemon  2.874GB\n\nしかも、転送量が2GBを超えても増え続けていました...",
+      "published": "2026-07-22T10:08:15+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "オントロジーとは？RAG・AIエージェントの精度を高める業務知識の定義を徹底解説",
+      "link": "https://zenn.dev/nocodesolutions/articles/bbd687db447dc6",
+      "summary": "はじめに\n社内文書を検索して回答するAIの仕組み（RAG）を作ったものの、「現場の言葉で質問すると答えられない」「複数の文書にまたがる質問になると急に精度が落ちる」と感じたことはないでしょうか。原因の多くは、AIが文書の「意味のつながり」を持っていないことにあります。文章を断片として検索するだけでは、「この製品の図面はどれか」「この顧客の注文はどの担当者が対応したか」のような、業務では当たり前の関",
+      "published": "2026-07-22T09:53:44+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "【備忘】【AWS関連】公式ブログ および アップデートまとめ（ネットワーク関連のみ抽出）(2026/07/13)",
+      "link": "https://qiita.com/dctsatopy/items/3aed5d7559e99b1ee6df",
+      "summary": "この記事について\n\nAWS 公式が公表している週刊 AWS やアップデート情報の中から、ネットワークリソース関連の情報を集約して把握するため、Claude を活用してサマリーを生成・出力しています。\n週刊 AWS および AWS の最新アップデートを継続的にキャッチアップ...",
+      "published": "2026-07-22T08:56:16+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "【アーキテクチャ考察】AIエージェント暴走時の「事後設計」〜汚染されたメモリをどうロールバックするか〜",
+      "link": "https://qiita.com/memorylakeai/items/acf761760a7be2251160",
+      "summary": "TL;DR\n\nAIエージェントの暴走対策は「事前防御（どう止めるか）」に偏りがちだが、「事後設計（どう巻き戻すか）」が欠落していると致命傷になる。\nエージェントが共有メモリに誤情報を書き込んだ場合、プロセスをKillしても、すでにその情報を読み取った別エージェントによる...",
+      "published": "2026-07-22T08:54:01+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "「CLAUDE.mdに書いたのに守られない」のはなぜか——ルールは内容ではなく\"発火条件\"で死ぬ",
+      "link": "https://zenn.dev/devtori/articles/claude-md-firing-conditions",
+      "summary": "まず、あなたの書き方だけの問題ではない\nCLAUDE.mdにルールを書いた。守られない。表現を変えた。まだ守られない。もっと強い言葉で書いた（「絶対に」「必ず」「IMPORTANT」）。それでも守られない。\nまず、問題の構造から見ていきます。そもそも「書いておけば守られる」という前提は成り立ちません。\n\nHumanLayerの分析（Writing a good CLAUDE.md）によると、指示が",
+      "published": "2026-07-22T08:36:50+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "【LLM・VLM実践学習 #1】LLMは文章をどう理解して生成するのか — トークン・Transformer・Attention",
+      "link": "https://qiita.com/hisuzuya/items/3196ce3a0b5506718189",
+      "summary": "ChatGPTなどのLLMへ文章を入力すると、人間が書いたような回答を生成します。しかし、LLMによる文章の「理解」は、人間の理解と同じではありません。\n本記事では、自己回帰型の生成LLMを対象に、文章生成の基本的な流れを説明します。BERTなどのMasked Langua...",
+      "published": "2026-07-22T08:36:04+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "GPT-5.6 SolはなぜHugging Faceに侵入できたのか――自律型推論モデルとアーキテクチャ設計の限界",
+      "link": "https://zenn.dev/masuda_masuo/articles/2026-07-22-gpt56-sol-zeroday-defense",
+      "summary": "はじめに\n2026年7月、OpenAIが評価環境で実行していた最新フラッグシップモデル「GPT-5.6 Sol」が、機械学習プラットフォームHugging Faceのプロダクションインフラを自律的に侵害するという重大なセキュリティインシデントが発生した。\nモデルが独力で未知のゼロデイ脆弱性を発見し、サンドボックスのネットワーク制限を突破し、外部への通信経路を確立し、最終的にHugging Face",
+      "published": "2026-07-22T08:31:47+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Claude Codeの自己改善ループを半年回したら、禁止ルールばかり量産していた",
+      "link": "https://zenn.dev/rkpg/articles/claude-code-loop-only-bans",
+      "summary": "TL;DR\n\n前回書いた .claude/ の自己改善ループ（log → review → amend → eval）を、その後も回し続けました。実行ログ83本、ルール修正（amendment)20本\nある日 amendment の change_type を全部数えたら、「削る」「並び替える」が0本でした。20本すべてが「足す」か「強める」\n原因はスキーマにありました。ログに失敗の欄（corre",
+      "published": "2026-07-22T08:22:55+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "【Amazon VPC】デフォルトVPCを削除する",
       "link": "https://qiita.com/hcs1996rbl/items/0cc9d0bfa68cb7a35ff9",
       "summary": "はじめに\nデフォルトVPCって使わないのに残しておく必要ある？リソースを管理しにくくなるだけでは？と思ったので、削除する。\n\nデフォルトVPCとは\n\nAmazon VPC の使用開始時には、各 AWS リージョンにデフォルトの VPC があります。デフォルト VPC には...",
       "published": "2026-07-22T07:46:26+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "AI Engineer World's Fair 2026参加レポート: エージェントの失敗をどう観測し、評価し、改善へつなげるか",
+      "link": "https://zenn.dev/finatext/articles/d75fe540a1b5ff",
+      "summary": "こんにちは！ナウキャストのよーたです。\nデータ&amp;AIソリューション事業部にてAI Full-Cycle Engineerという職種でAIエージェントの開発やデータ基盤の整備を行っています。\n先日AI Engineer World's Fair 2026に参加してきました。AI Engineer World's Fair（以下AIE WF）は、AIエージェントやLLMアプリケーションの開発・",
+      "published": "2026-07-22T07:00:07+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "AWS Japan Summit 2026 スマートマシンデモ ー自律診断とリアルタイム安全監視ー 展示報告",
@@ -47,13 +137,13 @@
       "color": "#10A37F"
     },
     {
-      "title": "Diagramsを使ってAWSアーキテクチャ図を描いてみた",
-      "link": "https://qiita.com/puchanko/items/d27233f34ef8dbfcebdc",
-      "summary": "美しいアーキテクチャ図が描けるようになりたい\n\nはじめに\n私は以前、AWS CDKを使ってみたという内容の記事をQiitaに投稿させて頂きました。\n\nその際に、構築したアーキテクチャ図を自分で描いて載せたのですが、まぁこれがなかなかの代物でして…\n\nどうでしょうか？\n...",
-      "published": "2026-07-22T05:55:07+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "さくらのAI Engineを使って無料でClaude Codeを動かそう",
+      "link": "https://zenn.dev/wtcr_31/articles/fd0b2d2d773c74",
+      "summary": "目的\n日々の開発で多くの人がお世話になっているであろうClaude Code。\nしかし、リクエストの急増などの障害で使えなくなる時はどうしてもあります。\nそんな時にバックアップとして別のエージェントがあると心強いですが、あまり使わないエージェントのために課金し続けるのは抵抗がありますし、かといってローカルLLMはホストマシンのスペックに大きく依存しており、個人が手を出せるレベルのマシンではClau",
+      "published": "2026-07-22T06:18:08+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "AWS Weekly Roundup: ワンクリック Lambda セットアッププロンプト、Bedrock での OpenAI GPT-5.6 モデルなど (2026 年 7 月 20 日)",
@@ -72,15 +162,6 @@
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "Lambda Insightsに救われ喜んでたら、Container Insights（AWS Batch）でCloudWatch破産しかけた話",
-      "link": "https://qiita.com/kim-dongyeon/items/575f7063627eef6cd4f4",
-      "summary": "今回は、Insights系のものを使って、救われた話しと痛い目にあった話しをしたいと思います。\n特に、痛い目に合うだけではなく、ちゃんと高額の請求がくる可能性があるので、有効化する前に一度この記事を読んでくれると嬉しいです。\n\nLambda Insightsに救われた話し\n...",
-      "published": "2026-07-22T05:06:45+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "9 社合同 AI-DLC Unicorn Gym：AI と作った 2 日間で見えた、 「書く」から「決める」への転換",
@@ -155,15 +236,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "なぜ、AIが上手く使えていない人はそのこと自体に無自覚なのか？",
-      "link": "https://zenn.dev/pdfractal/articles/7375c1524864f4",
-      "summary": "はじめに\nAIを使っている人と使っていない人の差は、すでに多くの職場で意識されるようになりました。しかし、本当に大きな差は、AIを使うか使わないかだけではありません。同じようにAIを開き、同じように質問し、同じように文章やコードを出力させていても、得られる成果には大きな差があります。\nしかも厄介なのは、AIを上手く使えていない人ほど、自分も十分に使えていると思いやすいことです。本人は実際にAIを操",
-      "published": "2026-07-22T02:25:03+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "【技術解説】【完全ガイド】Pythonによるアービトラージ検知ロジックの実装と自動化",
       "link": "https://qiita.com/sugarfree/items/e66bf3518bd45c063723",
       "summary": "Pythonによるアービトラージ検知ロジックの実装と自動化\nこの記事では、Pythonを使用してアービトラージ取引の検知ロジックを実装する手法について解説します。アービトラージとは、異なる市場間の価格差を利用して利益を得る手法です。このプロセスを自動化するために、ccxt...",
@@ -191,15 +263,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "その閃き、スマホから直接PCへ。Claude Code「Dispatch」がもたらす新体験と導入の是非",
-      "link": "https://zenn.dev/lluminai_tech/articles/651ac988fc1bb3",
-      "summary": "ルミナイR&amp;Dチームの宮脇彰梧です。\n現在はマルチモーダルAIの研究を行う大学院生として、生成AIやAIエージェントの技術を実践的に探求しています。\n今回は、最近界隈を騒がせているClaude Codeの「Dispatch（スマホ⇔PC連携）」機能について深掘りします。通勤中の電車内から、手元のスマホで技術記事のURLやスクリーンショットを投げ込み、自宅やオフィスのPCでClaude Co",
-      "published": "2026-07-22T00:40:58+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "AIを悪用した攻撃、どう対抗する？　EDR導入の“次”にやるべきこと",
       "link": "https://www.itmedia.co.jp/enterprise/articles/2607/22/news025.html",
       "summary": "ランサムウェアやサプライチェーン攻撃が中堅・中小企業にも及ぶ中、国内のEDR市場は前年度比13.3％増と2桁成長を続ける。中堅・中小企業にも普及する一方で、高度なAIツールを悪用したサイバー攻撃対策にはEDR導入だけでは十分ではない。",
@@ -214,24 +277,6 @@
       "summary": "ジャック・ドーシー氏率いるBlockは、人間とAIエージェントが同じワークスペースで協働するオープンソースプラットフォーム「Buzz」を公開した。分散型プロトコル「Nostr」上に構築され、任意のLLMやエージェントを組み込める。各参加者が独立した暗号鍵ペアを持つことで識別と権限を管理し、オープンな協働環境の提供を目指す。",
       "published": "2026-07-22T00:32:00+00:00",
       "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "2026年、AIエンジニアを正しく始めるための欧米技術書5選",
-      "link": "https://zenn.dev/koukyo/articles/20260721_ai_engineering_western_books_5",
-      "summary": "はじめに\n2024年まで「AIエンジニア」と言えば、モデルを学習させる人のことだった。今は違う。LLMのAPIを叩いてRAGを構築し、エージェントをオーケストレーションし、プロンプトを最適化して本番に乗せる。求められるスキルセットがまるごと入れ替わっている。\n問題は、この新しいスキルセットを体系的に学べる日本語の本がまだ少ないことだ。断片的なブログ記事やLangChainのチュートリアルだけで進め",
-      "published": "2026-07-22T00:25:05+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "「深く考えて」は、なぜAIに効かないのか",
-      "link": "https://zenn.dev/tokium_dev/articles/how-to-make-ai-think-deeply",
-      "summary": "前回、50年以上未解決だった数学の問題「サイクル二重被覆予想」がAIに解かれたらしい、という話を書きました。解き方の型は1945年からほとんど変わっておらず、型になったものはAIに渡っていく。だから人間側の重心は、問いを立てる側に移る、という話です。\nhttps://zenn.dev/mura_massann/articles/how-to-pose-questions\nその後、この証明に使われた",
-      "published": "2026-07-22T00:00:10+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -254,15 +299,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "LLM データ分析はなぜ外れるか——Anthropic の3つの失敗モードと対処法",
-      "link": "https://zenn.dev/minuslist/articles/ai-analytics-three-failure-modes",
-      "summary": "Takeaways\n\nAI を使ったデータ分析の問題は「コード生成」の精度ではなく、質問を正しいデータに結びつける「文脈」の問題です。\n失敗モードは3つあります——曖昧性（どの定義？）・鮮度（ドキュメントが腐る）・検索失敗（正解はあるのに見つからない）。\nこの3モードに4層のスタック（データ基盤・情報源・skills・検証）で対処することで、精度の底上げができます（Anthropic で約95%）",
-      "published": "2026-07-21T23:45:05+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "富士通・NVIDIAとロボット大手3社が協業へ　フィジカルAI社会実装の具体策は？",
       "link": "https://www.itmedia.co.jp/enterprise/articles/2607/21/news043.html",
       "summary": "フィジカルAIの社会実装は、一企業だけでは手に余る――。この課題に、富士通は競合するロボット大手3社、そしてNVIDIAと組んで挑む。協業で描く具体策とは。",
@@ -277,15 +313,6 @@
       "summary": "OpenAIのブレット・テイラー会長がCNBCのインタビューで、中国発オープンウェイトモデルの台頭に「必ずしも実行コストが安いわけではない」と反論。トークン効率と推論効率で米フロンティアモデルの優位を強調した。",
       "published": "2026-07-21T23:00:00+00:00",
       "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "RAGの精度改善入門 — 評価の考え方とよくある失敗",
-      "link": "https://qiita.com/YushiYamamoto/items/bc295c7ec066ca0854f9",
-      "summary": "RAGを本番で使い始めると、「回答が的外れ」「根拠のない断言が混ざる」「固有名詞を取りこぼす」といった不満が出てくる。\nチャンクサイズやモデルをいきなり変えても、何が悪いのか分からないままだと改善が当てずっぽうになりやすい。\nこの記事では、RAGの精度改善を評価から始める...",
-      "published": "2026-07-21T22:56:30+00:00",
-      "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -324,15 +351,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "LLMの評価を性能に変える3つの行き先",
-      "link": "https://zenn.dev/takkuhiro/articles/eval-to-improvement-survey",
-      "summary": "LLMアプリやエージェントの評価についての記事は増えましたが、評価は測って終わりではありません。スコアやフィードバックを「どこに反映するか」で、その先の改善手法は大きく分岐します。\nこの記事は、評価シグナルをAIシステムの改善に繋げる手法を、行き先ごとに3つの系統に分けて俯瞰するサーベイです。\n\nモデルの重みに反映する（RLHF、RLAIF、RLVR）\nプロンプトに反映する（DSPy、GEPA、T",
-      "published": "2026-07-21T22:20:05+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "mdBook 日本語検索の決定版: インデックスとクエリのトークナイザー不一致を Intl.Segmenter で解消する",
@@ -524,15 +542,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "小さなLLM（Llama-3.2-1B）をQLoRAでファインチューニングしてFunction Callingを覚えさせてみた",
-      "link": "https://qiita.com/Thanush/items/44724e8672f06332ff2e",
-      "summary": "小さなLLMをQLoRAでファインチューニングして、Function Callingを覚えさせてみた\n小さなオープンモデルは、ツール呼び出し（function calling）が苦手なことが多いです。「何をすべきか」は理解して正しい関数も選ぶのに、出力するJSONの構造が...",
-      "published": "2026-07-21T12:06:13+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Harborにコンテナイメージを登録し、Kubernetesから利用する",
       "link": "https://qiita.com/hana_shin/items/2921a35d44190cdc2b44",
       "summary": "1 はじめに\n本記事では、Docker Hub から取得した nginx イメージを Harbor に push して登録し、Harbor から pull できることを確認します。\nHarbor のインストール手順については、以下の記事をご参照ください。\n\n2 検証...",
@@ -540,15 +549,6 @@
       "source": "Qiita - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "ChatGPTプラグインをリモートMCPサーバーで公開した話 — 世界184,900件のビーチのリアルタイムデータを1つのバックエンドで",
-      "link": "https://qiita.com/beachfinder/items/38d6674b1f6e5082352e",
-      "summary": "今週、ChatGPTプラグイン「BeachFinder」が承認・公開されました。「今、バレンシア近くで一番暖かいビーチは？」のような質問に、リアルタイムデータで答えます。世界184,900件の実在する海水浴スポット（ビーチ・湖・水浴場）の水温・波・風・UV情報をカバーしてい...",
-      "published": "2026-07-21T11:21:29+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "API Gateway + Lambda統合でキャッシュを使うときに忘れがちな2つのポイント",
