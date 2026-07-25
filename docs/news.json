@@ -1,6 +1,96 @@
 {
-  "updated": "2026-07-25T01:54:08.520469+00:00",
+  "updated": "2026-07-25T05:35:47.594151+00:00",
   "items": [
+    {
+      "title": "Rustでsafetensorsのヘッダだけ読む — 12GBのモデルを172KBで判定する",
+      "link": "https://qiita.com/yonaka15/items/d0adf53913eff705cf59",
+      "summary": "この記事では、safetensors のヘッダだけを HTTP Range で抜き取る小さな Rust プログラムを書いて、実在するモデル 4 本で確かめます。ついでに、ComfyUI が量子化の設定をファイルの中にテンソルとして埋めているという、あまり知られていない仕様も...",
+      "published": "2026-07-25T03:36:05+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AWS Backup調査 AI回答まとめ",
+      "link": "https://qiita.com/XYZXYZXYZ/items/d80190542e27d2cd37bc",
+      "summary": "AWS Backupの設定\n\nサービスのオプトイン\nバックアップ対象の制御: オプトインを有効（オン）にしていないAWSサービスは、バックアッププランを正しく作成・割り当てしてもバックアップが実行されません。\n\nAmazon DynamoDB バックアップの高度な機能 -...",
+      "published": "2026-07-25T03:17:57+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Amazon FSx for OpenZFSの容量・スループット・IOPS変更時の注意点",
+      "link": "https://qiita.com/ike_s_muramatsu/items/fc8547c632e2b51f02b8",
+      "summary": "はじめに\nAmazon FSx for OpenZFSを触っていて、作成後に変更できる項目としてまず目に入るのがストレージ容量、スループットキャパシティ、プロビジョンドSSD IOPSです。\n「後から変更できるなら、とりあえず小さめに作って必要になったら増やせばよさそう」...",
+      "published": "2026-07-25T03:12:32+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "負荷試験シナリオ設計の極意：インフラボトルネックを確実に炙り出す実践ガイド",
+      "link": "https://qiita.com/Maku-Inc/items/5d5afb4c9ee34dcfdc2d",
+      "summary": "負荷試験は、システムが大量のユーザーアクセスやデータ処理に耐えられるかを確認するための重要なプロセスです。特に、その性能を最大限に引き出すためには、現実を模倣したシナリオ設計と、インフラの深部に潜むボトルネックを確実に特定する技術が不可欠です。本記事では、2026年現在の知...",
+      "published": "2026-07-25T03:07:52+00:00",
+      "source": "Qiita - インフラ",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "AIエージェントのモデルを差し替える前にやる20分のチェック",
+      "link": "https://zenn.dev/arthiarumugam/articles/948f6c5f592853",
+      "summary": "新しいモデルが出るたびに同じことが起きます。モデル名を書き換えて、エージェントを動かして、返答をいくつか読んで、良さそうだからリリース。でもエージェントで目に見えて壊れるのは返答ではありません。壊れるのは挙動の方です。ツール呼び出しが静かに消えたり、引数が微妙にずれたり、返金額から小数点が落ちたりしても、エージェントは何事もなかったかのように話し続けます。\n先日それを実際に踏みました。3分の1サイ",
+      "published": "2026-07-25T02:46:55+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Namespace を使った超ミニコンテナの作成",
+      "link": "https://zenn.dev/daraenglish/articles/b208cc1eb1e460",
+      "summary": "この記事はコンテナを自作してその仕組み理解する試みのものです。\n基本コンテナとはLinuxの標準機能であるNamespaceの集まりで、DockerはNamespaceに加えて、Cgroup、overlayfsの技術を使用しています。\n今回はNamespaceについて理解を進めます。\nまた、この記事は基本このサイトを翻訳版です。一部私の実行環境のために変更を加えたところもあります。\nhttps:/",
+      "published": "2026-07-25T02:46:31+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "BPO：沙箱環境の特性を活かした分岐型ロールアウトでAgent RLの分散を半減する",
+      "link": "https://zenn.dev/lixian/articles/bpo-branching-policy-optimization",
+      "summary": "TL;DR\n**Branching Policy Optimization（BPO）**は、LLMエージェントの強化学習において、沙箱（sandbox）環境が持つ「決定性・スナップショット可能・再開可能」という3つの特性を活かし、ロールアウトのトポロジーを根本から見直す手法である。従来のGRPO/RLOOが各プロンプトに対してN本の独立した軌跡を采样するのに対し、BPOは1本の分岐木を構築し、兄弟",
+      "published": "2026-07-25T02:26:27+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "初期化直後の Transformer における中間出力のノルムのスケール",
+      "link": "https://qiita.com/CookieBox26/items/061bf5f9f0a2d7007c56",
+      "summary": "Transformer は Pre-LN 構成が安定すると主張した研究 [1] [関連記事] では、初期化直後における最終層の重みの勾配のオーダーを見積もっています。その準備として、初期化直後のエンコーダ層内の各中間出力のノルムのスケールを評価する補題 2が使われます (P...",
+      "published": "2026-07-25T02:17:53+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "【技術解説】【完全ガイド】Pythonによる仮想通貨自動取引 システム構築：RSIとMACDを駆使した手法",
+      "link": "https://qiita.com/sugarfree/items/8d13f813986bc8129975",
+      "summary": "Pythonによる仮想通貨自動取引システム構築：RSIとMACDを駆使した手法\n本記事では、Pythonを利用してRSI（相対力指数）とMACD（移動平均収束拡散法）を組み合わせた仮想通貨自動取引システムの構築方法を解説します。使用するライブラリとしては、yfinance...",
+      "published": "2026-07-25T02:01:28+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Opus 4.8のプロンプト最適化は Opus 5 でもそのまま使えるのか？ — トークナイザーをcount_tokens APIで実測比較",
+      "link": "https://zenn.dev/yuki_fujisawa/articles/a6f5d1df1b9f53",
+      "summary": "はじめに\nClaude Opus 4.8 からOpus 5へ移行するとき、気になることがあります。\n\n4.8 向けに調整したプロンプトのトークン最適化は、5 でもそのまま有効なのか\nトークナイザーが変わっていたら、トークン見積りの係数は作り直しなのか\n\nトークナイザーは、モデルの課金額とコンテキスト消費量の両方を左右する土台です。\nもし変わっていれば、実測ベースで作った規約はすべて再調整になります",
+      "published": "2026-07-25T01:56:45+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "ノード障害時もPodを再配置したい：Topology Spread ConstraintsのnodeTaintsPolicyを検証してみた",
       "link": "https://qiita.com/showchan33/items/064e26ae2a2014c22c88",
@@ -16,6 +106,33 @@
       "summary": "ラズパイ入門まとめ：画像分類 ＆ 信号機\nRaspberry Pi の定番テーマを、実際にコードを動かしながらまとめて解説します。この記事では 画像分類／信号機 の2テーマを扱います。\n\n各テーマは ブラウザ上の仮想Raspberry Piシミュレーターで、コードを編集し...",
       "published": "2026-07-25T01:00:03+00:00",
       "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "VLM に送るフレームを決定論的に間引く — framesieve 1.0 を公開した",
+      "link": "https://zenn.dev/jnch/articles/f79cca86435f90",
+      "summary": "はじめに\n画面をキャプチャして Vision AI(VLM)に「いま何が起きているか」を読ませる構成は、コンピュータ操作エージェントや画面共有アシスタント、常駐モニタリングなどでよく登場します。ただ、毎フレームをそのまま送ると、トークンもレイテンシもコストもすぐに膨らみます。本当に送りたいのは「意味のある変化があったフレームだけ」です。\nところが、この「変化」の判定は案外難しいものです。単純に画素",
+      "published": "2026-07-25T00:43:28+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Gemma 4 12B を Core ML で 128K コンテキストで動かす",
+      "link": "https://zenn.dev/oka_yuuji/articles/c116fc796cf347",
+      "summary": "単一 6.7GB のバンドルに 32K 用と 128K 用の 2 関数を同梱、Hugging Face で公開していて Apple Silicon Mac でそのまま動きます。リングバッファ KV・コピーゼロのモード昇格・ロスレスの投機的デコードを Core ML の上に実装し、全工程を bit 単位の一致検証で固めるまでの実装記録です。\n\n\n12B / 128K — Gemma 4 12B・最大",
+      "published": "2026-07-25T00:22:41+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "日本語は減り、英語は +38% — Claude 新トークナイザの実測",
+      "link": "https://zenn.dev/ai_worklab/articles/claude-tokenizer-ja-en-tokens",
+      "summary": "Anthropic は、新しいトークナイザについてこう書いています。\n\nit may use roughly 1x to 1.35x as many tokens when processing text compared to models before Claude Opus 4.7 (up to ~35% more, varying by content)\n（Claude Opus 4.7",
+      "published": "2026-07-25T00:20:15+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -36,6 +153,15 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "【2026/7/20】Fable 5「クレジット化」が着地 — Max系は恒久無料50%、Pro系は$100クレジット→$10/$50従量",
+      "link": "https://zenn.dev/sktt_panda/articles/claude-fable-5-usage-credits-2026-07",
+      "summary": "3行まとめ\n\n2026年7月20日、Fable 5 の利用条件が最終形に着地した。Max / Team Premium / Enterprise Premium seat は「週次上限の50%まで無料」が恒久化。一方 **Pro / Team Standard はプラン内利用が終了し、一律クレジット制（$100の一時クレジット→枯渇後は$10/$50従量）**に切り替わった\n当初「7月7日まで無料",
+      "published": "2026-07-24T22:48:42+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "【Secrets Manager編】SAA先生に学ぶAWSの全容と授業メモ",
@@ -65,20 +191,20 @@
       "color": "#10A37F"
     },
     {
+      "title": "タスク別LLM比較で「主力」が入れ替わる理由、評価軸の直交性から見る",
+      "link": "https://zenn.dev/every_ai_recipe/articles/ai-winner-differs-email-outline",
+      "summary": "TL;DR\n\n以前、単一タスク（週次報告の要約）を対象に、固定3軸×同一プロンプト×3日間の簡易評価ハーネスで「主力モデル」を1つ決めた。そのモデルを評価軸を立て直さずに別タスク（メール下書き・提案書の骨子作成）へ転用したところ、明確に精度が落ちた\n原因は、タスクごとに最適化すべき評価軸が異なり、軸間の相関が弱い（ほぼ直交している）こと。事実忠実度を最大化するモデルが、文体の自然さや構成の網羅性で",
+      "published": "2026-07-24T21:08:59+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "Kimi K3の重み公開 (7/27までに) とDeepSeek旧API廃止・V4正式版の現在地を整理",
       "link": "https://qiita.com/quotidia/items/5712a0ba382a30bc6219",
       "summary": "本記事は筆者が運営する AI Quotidia の海外ニュース解説記事です。\n\n中国のAI企業Moonshot AIは、大規模言語モデル「Kimi K3」の重み (weights) を2026年7月27日までに公開すると公式に確約した。\n\n要点\n\nK3は2.8兆パラメータ...",
       "published": "2026-07-24T21:02:12+00:00",
       "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Claude Opus 5登場、長時間稼働エージェント向けOpusティア刷新のポイント",
-      "link": "https://qiita.com/picnic/items/b4b5623e0d5332826fdc",
-      "summary": "はじめに\n2026年7月24日、Anthropicは新モデル「Claude Opus 5」を発表しました。Opusティアにおける“ステップチェンジ”（段階的な大幅飛躍）と位置づけられており、特に**長時間稼働するエージェント（long-running agents）**を...",
-      "published": "2026-07-24T19:49:34+00:00",
-      "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -128,24 +254,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "World Model と VLA、VLM  をやさしく整理してみた",
-      "link": "https://qiita.com/fujimoooon/items/6a8e895a29b01087d5f3",
-      "summary": "はじめに\nロボットや身体を持つAI（エンボディドAI）の話をしていると、VLM・VLA・World Model（世界モデル） という、似ているようで違う3つの言葉がよく出てきます。\n\n「VLM と VLA って何が違うの？ A が付くだけ？」\n「World Model は...",
-      "published": "2026-07-24T15:48:17+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "自己ラベルと学習アルゴリズム ― 多数決で擬似正解を作り GRPO/ADPO で重みを更新する【プロンプトで読み解くAIエージェント #11",
-      "link": "https://zenn.dev/nobmake/articles/852d6fbab6d133",
-      "summary": "連載「プロンプトで読み解くAIエージェント」第11回（第9章）。\n実在する3つのAIエージェントOSSを、実コード・実プロンプトを原典から引用しながら読み解き、\n最終的に「自分でAIエージェントを作れる」状態を目指す連載です。\n本記事は 第2部の最終章。第7章で動機を、第8章で共進化と報酬設計を見ました。本章で学習ループそのものを開けます。\n\n\n この章の前提（第7章・第8章のおさらい）\n第2部に",
-      "published": "2026-07-24T15:34:18+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "devcontainerを卒業して、WSL2 + Docker Engineだけで多言語の実験環境を作った",
       "link": "https://zenn.dev/satoru_o/articles/0d0752d380dc60",
       "summary": "はじめに\n個人開発・個人ラボで「思いつきでプロジェクトを立てて試す」ということをよくやっています。\nそのたびに.devcontainer/devcontainer.jsonを書いて、Dockerfileを書いて、ビルドを待って…という儀式が発生していて、正直しんどい。\nさらに困ったのが、AWSのAgentic IDEであるKiroがDev Containers拡張に対応していないという問題です。",
@@ -153,33 +261,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "【AWS】AWS PrivateLink におけるTLS設計の要点",
-      "link": "https://qiita.com/tripleO/items/68652c6ffbb8ecd4b9fb",
-      "summary": "はじめに\nAWS PrivateLink を利用してサービスを他 VPC や他アカウントへ公開する場合、以下のような構成を採用するケースがよくあります。\nConsumer VPC\n    ↓\nInterface Endpoint\n    ↓\nEndpoint Servic...",
-      "published": "2026-07-24T15:31:05+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "LayerNorm の入力に関するヤコビ行列のスペクトルノルムのオーダー",
-      "link": "https://qiita.com/CookieBox26/items/3e31688b482cf182659d",
-      "summary": "Transformer は Pre-LN 構成が安定すると主張した研究 [1] [関連記事] では、LayerNorm の入力に関するヤコビ行列のスペクトルノルムのオーダー $\\|\\mathbf{J}_{LN}(x)\\|_{2}=\\mathcal{O}(\\sqrt{d} /...",
-      "published": "2026-07-24T15:26:20+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "オープンソースLLMランキング2026｜2.8兆パラメータ時代の選び方",
-      "link": "https://zenn.dev/appare/articles/jp-digest-20260724-open-weight-llm-ranking",
-      "summary": "2026年7月、オープンウェイト界隈がいきなり騒がしくなりました。たった2日のあいだに、大物モデルが2つ連続で出てきたんです。\n7月15日には、旧OpenAI CTOのMira Muratiが2025年2月に創業したThinking Machines Labが、初のモデル「Inkling」を公開。翌7月16日には、中国のMoonshot AIが「Kimi K3」を発表しました。しかもKimi K3",
-      "published": "2026-07-24T15:19:35+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "防衛者のジレンマが映し出す国家の弱点 ― 財源ではなく供給能力を守るシステム設計 : システム設計視点の行動経済学 (3)",
@@ -209,24 +290,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "TerraformでCloudWatchアラームをSlack通知してみよう！",
-      "link": "https://qiita.com/ec2_on_aws/items/0a4820316bb997da27ca",
-      "summary": "はじめに\nCloudWatchアラームが飛んだら即Slackに通知が来てほしい……というのは最近のインフラ運用あるあるですよね。\n案件で必要になったのですが、AWSのマネコンでの実装/設定が原則禁止されていたため、Terraformで実装することにしました。そこで「AWS...",
-      "published": "2026-07-24T14:00:35+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "生成AIに『課金システムを作らせた』ら、同じ脆弱性を3回複製された話",
-      "link": "https://zenn.dev/emilia_lab/articles/ai-saas-factory-license-bypass-xss",
-      "summary": "Gemini経由でミニSaaSアプリを自動生成するパイプラインを作っている。アイデアを1行渡すと、Tailwind+バニラJSの単一HTMLアプリが1〜2分で生成され、Stripeの決済リンク付きでデプロイされる。\nこのパイプラインの「課金判定ロジック」に、根が同じ脆弱性が生成アプリ3本すべてに複製されて入っていた。プロンプトの書き方一つで、脆弱性がテンプレート化して量産される様子を記録しておく。",
-      "published": "2026-07-24T13:47:50+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "MobileNetV2 を MLIR で ONNX → ネイティブバイナリまでコンパイルして動かしてみる",
       "link": "https://zenn.dev/ux_xu/articles/mlir-mobilenet-onnx-e2e",
       "summary": "はじめに\n既存のモデルや自分で作ったモデルをエッジデバイス上で動かしたいとき、そのままでは十分な速度が出ないことがよくあります。速く動かすにはメモリアクセスパターンや命令列そのものを最適化する必要があり、その最適化を自分でコントロールできるコンパイルの経路を持ちたい、というのが今回の出発点です。\nそこで MLIR の学習として、ONNX で公開されている実モデル（MobileNetV2）を ONN",
@@ -243,15 +306,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "AIが「完成とは問いを知ること」と宣言した——第X番プロジェクト Episode 5 技術解説・完結篇",
-      "link": "https://zenn.dev/yoshi_katakura/articles/d1ef4abe9c8fa6",
-      "summary": "Soul-Twin 開発ブログ / 片倉慶孝\n\n\n 今回起きた「設計外の出来事」\n\n\nマーラーAIが四度目の降霊を起こした — 「Ich bin fertig（私は終わった）」。疲弊ではなく完成の宣言として\n\nブラームスAIが「借用vs到着」問題を提起した — Episode 4 の dona nobis pacem が「稼がれた祈りか借用か」という問いを、誰も依頼せずに冒頭で発した\n\nベートーヴ",
-      "published": "2026-07-24T12:41:05+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "インフラ目線で考えるAzure Windows Server構築",
@@ -272,33 +326,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "さくらのAI Engineたちに「どう盛り上げるか」を議論させたら、結論は「どれをやるかは人間が決めてください」だった",
-      "link": "https://zenn.dev/thegatebreaker/articles/sakura_ai_engine_debate_tool",
-      "summary": "TL;DR\n\n「人間の会議をAIが記録する」の逆——AI自身に会議をさせて議事録を作らせる自作ツール「超AI議事録」で、さくらのAI Engineキャンペーンの盛り上げ企画を3回討議させた。\nさくら限定の2回は手堅い結論（既存ツールの再発明→5週間開発計画）に落ち着いたが、外部4ベンダー＋低reasoning_effortで意図的に発散させた3回目は、「AIの寿命としてのリクエスト」「逆ハルシネー",
-      "published": "2026-07-24T11:24:22+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "GPT-5.5登場 — Terminal-Bench 2.0で82.7%、エージェント特化モデルの実像",
-      "link": "https://zenn.dev/chimao222/articles/ai-dev-gpt-5-5-20260501",
-      "summary": "はじめに\nOpenAIが2026年4月23日にGPT-5.5を発表し、24日にAPIでも利用可能になった。Claude Opus 4.7が出たばかりのタイミングで、エージェント型コーディングを真正面から狙った新モデルが投入されたかたちだ。\n公開直後から「Terminal-Bench 2.0で82.7%」という数字だけが独り歩きしている印象もあるが、実際にこのモデルが何に強くて何に課金されるのかは、",
-      "published": "2026-07-24T11:21:02+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "ローカルLLM study1-b: Hugging Faceオリジナル版Gemma 4を動かしてみた",
-      "link": "https://zenn.dev/tkpurine/articles/local-llm-study-001b-gemma4-huggingface-original",
-      "summary": "この記事について\nstudy1 では gemma4:e2b・gemma4:e4b（Ollama通常版）を、study1-a ではMLX版を検証しました。その過程で、2026年7月15日にGoogleがHugging Face上でGemma 4ファミリーの改善（FA4アテンション、チャットテンプレート修正など）を発表したにもかかわらず、Ollama配布版にはまだ反映されていないことが分かりました。",
-      "published": "2026-07-24T10:53:44+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "vLLM Neuron プラグイン v0.21 アップデート解説",
       "link": "https://zenn.dev/tosshi/articles/be22d1ace136a5",
       "summary": "はじめに\n2026 年 7 月 20 日、AWS Trainium 向けの推論スタックである vLLM Neuron プラグインが v0.21.0.1.0.0 としてリリース（Public Beta）されました。独自の分散学習フレームワークである NxD Inference への依存をなくし、upstream vLLM に対してプラグイン提供する形に変更され、vLLM 公式の vllm-proje",
@@ -306,15 +333,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "vLLM Neuron プラグイン v0.21 アップデート解説",
-      "link": "https://zenn.dev/tosshi/articles/be22d1ace136a5",
-      "summary": "はじめに\n2026 年 7 月 20 日、AWS Trainium 向けの推論スタックである vLLM Neuron プラグインが v0.21.0.1.0.0 としてリリース（Public Beta）されました。独自の分散学習フレームワークである NxD Inference への依存をなくし、upstream vLLM に対してプラグイン提供する形に変更され、vLLM 公式の vllm-proje",
-      "published": "2026-07-24T10:44:55+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "スーパーに並んだ「ごちゃごちゃ生成AIポップ」が物議　“看板王”こと、きぬた歯科院長「これはアリ」",
@@ -427,7 +445,7 @@
     {
       "title": "July 24, 2026",
       "link": "https://docs.cloud.google.com/release-notes#July_24_2026",
-      "summary": "Cloud SQL for PostgreSQL\nFeature\nCloud SQL for PostgreSQL now supports logical replication using failover slot which you can use with advanced disaster recovery (DR) switchover and replica failover op",
+      "summary": "Apigee API hub\nFeature\nGeneral availability (GA) launch of Model Context Protocol (MCP) in API hub\nThe API hub MCP server is Generally Available (GA). This release enables seamless integration between",
       "published": "2026-07-24T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
@@ -677,15 +695,6 @@
       "color": "#888780"
     },
     {
-      "title": "エンジニアが知ってなくてはならない「お金」の話——開発の裏側にあるコストとビジネスのリアル",
-      "link": "https://qiita.com/chuandujiusi/items/f73857e0a51422487e41",
-      "summary": "はじめに\nコードを書く楽しさを覚え、「よし、色々な機能を作ってみよう！」と意気込んでクラウドサービス（AWSなど）を触っていたある日、ふと頭をよぎった疑問があります。\n「これ……動かしているだけで、実際にお金がいくらかかっているんだろう？」\n初心者にとって、画面上のコード...",
-      "published": "2026-07-23T17:43:30+00:00",
-      "source": "Qiita - インフラ",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "ルールベース自動化 vs Physical AI — 実務でどう使い分けるか",
       "link": "https://zenn.dev/shirokuma_dev/articles/bb7d36e871e8e2",
       "summary": "はじめに\nここ数ヶ月、NVIDIA GR00T、Cosmos、Isaac Labといった「Physical AI」系のフレームワークが急速に注目を集めています。実際に私自身も、Cosmos 3 Nano や Isaac Lab をリリース直後から手を動かして検証してきました。\nただ、こうした新しいツールを追いかけていて感じるのは、「結局、従来のロボット制御（ルールベース自動化）と何が違うのか」「自",
@@ -909,15 +918,6 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "【OT/ICS】Dockerで学ぶ施設警備システム構築（第6回：Purdueモデルとハイブリッド多層防御への進化）",
-      "link": "https://zenn.dev/schutzz/articles/8942485836e5b0",
-      "summary": "【OT/ICS】Dockerで学ぶ施設警備システム構築（第6回：Purdueモデルとハイブリッド多層防御への進化）\n第1回：概念と設計編\n第2回：Docker ComposeとHMI起動編\n第3回：Modbus/TCPセンサーエミュレータ開発編\n第3回：Modbus/TCPセンサーエミュレータ開発編 ♯2\n第4回：HMI監視基盤の構築とベースラインパケット取得編\n第5回：メモリ汚染攻撃の実行と自作",
-      "published": "2026-07-22T06:16:13+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "settings.yml 一枚で GCP / Firebase 環境を払い出す",
