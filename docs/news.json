@@ -1,6 +1,15 @@
 {
-  "updated": "2026-07-26T18:58:35.475906+00:00",
+  "updated": "2026-07-26T21:51:26.871367+00:00",
   "items": [
+    {
+      "title": "Geminiの自動調査(Deep Research)はなぜ数分かかるのか、計画→検索→統合の三段パイプラインから見る",
+      "link": "https://zenn.dev/every_ai_recipe/articles/gemini-deep-research-market-check",
+      "summary": "TL;DR\n\nDeep Researchは「検索の代行」ではなく、**計画生成→複数ラウンドの検索・読み込み→統合(synthesis)**という複数のLLM呼び出しとツール呼び出しが連鎖するエージェント型パイプラインである。単発チャットの延長ではなく、レイテンシもトークン消費も桁違いになる処理を、UI上は1回のプロンプトとして隠蔽している\n出典の鮮度・正確性は検索エージェントの仕組み上どうしても",
+      "published": "2026-07-26T21:07:46+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "Claude Codeのサブエージェント運用で効いたのは「賢い指示」より「失敗のカタログ化」だった",
       "link": "https://zenn.dev/clar/articles/2fc619714ec7f1",
@@ -11,29 +20,11 @@
       "color": "#10A37F"
     },
     {
-      "title": "【自作言語】AIさん...",
-      "link": "https://qiita.com/compalog/items/44db417e4bfe8a15e777",
-      "summary": "素のChatGPTとGeminiに以下の自作言語Cargryの文法の草案と問題を送ってみました。文法だけ送って、Cargryがどのような言語なのかは与えませんでした\nちなみに、Cargryは可変を禁止しています\n\nobject.crg\nuse std::fmt;\n\npub...",
-      "published": "2026-07-26T16:29:36+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "文書を編集せず、入力を編集する — Document Model という書き方",
       "link": "https://zenn.dev/jugyo/articles/cc6c58985f7f74",
       "summary": "LLM に PRD や design doc を書かせるとき、会話しながら文書を書かせていく、というのはよくやると思う。だが狙ったものを書かせるのは思うほど簡単ではない。難しさの一つは、会話の文脈と成果物の文脈が同じ場所に混ざることにある。いま文書の内容を決めているのが会話の流れなのか、確定した情報なのかが曖昧になる。\n\n 直すのは文書ではなく入力\nそこで、会話の中で文書そのものを作り込んでいくの",
       "published": "2026-07-26T16:12:32+00:00",
       "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "seq2seqで簡単な足し算データを学習してみた",
-      "link": "https://zenn.dev/kawarin_origami/articles/seq2seq-basic-20260726",
-      "summary": "はじめに\n「ゼロから作るDeep Learning 2」でseq2seqを学んだので、学習用に書こうと思いました。\n\n seq2seqとは\nそもそも初見で見たとき、seq2seqってどういうことと思ったが、\n「sequence to sequence」、つまり時系列データから別の時系列データへ変換するモデルのことを指すらしい。\n時系列データは順序のあるデータで、文章や動画、画像、株価の推移などがあ",
-      "published": "2026-07-26T16:06:24+00:00",
-      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -51,36 +42,9 @@
       "link": "https://zenn.dev/mhackit/articles/neural-network-to-llm",
       "summary": "はじめに\nニューラルネットワークの基本を学んだあとでLLMの解説を読むと、話が急に飛んだと感じます。\n層と重み、誤差逆伝播までは地続きなのに、いつのまにか文章を書く機械の話になっています。\n両者が同じ技術の延長なのか、それとも別系統なのかが分かりにくいところです。\nこの記事では、その間をつなぐ4つの違いを順番に整理します。\n対象は、ニューラルネットワークの仕組みをなんとなく知っている読者です。\n数",
       "published": "2026-07-26T15:49:17+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "ニューラルネットワークとLLMは何が違うのか",
-      "link": "https://zenn.dev/mhackit/articles/neural-network-to-llm",
-      "summary": "はじめに\nニューラルネットワークの基本を学んだあとでLLMの解説を読むと、話が急に飛んだと感じます。\n層と重み、誤差逆伝播までは地続きなのに、いつのまにか文章を書く機械の話になっています。\n両者が同じ技術の延長なのか、それとも別系統なのかが分かりにくいところです。\nこの記事では、その間をつなぐ4つの違いを順番に整理します。\n対象は、ニューラルネットワークの仕組みをなんとなく知っている読者です。\n数",
-      "published": "2026-07-26T15:49:17+00:00",
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "PrivateLink で別アカウントの VPC に接続されているオンプレミスの名前解決が必要なリソースにアクセスする",
-      "link": "https://qiita.com/takeda_h/items/1dd5b788c07b474509c7",
-      "summary": "AWS の VPC 間をネットワーク接続する方法はいくつかあります。\n地方自治体がガバメントクラウドの閉域 AWS 環境に基幹業務システムを構築する場合、地方自治体のオンプレミス環境と複数の AWS アカウントの VPC を接続するケースが多いため、Transit Gate...",
-      "published": "2026-07-26T15:38:57+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "[AWS] Managed KB ACLをRDBと自動同期させる",
-      "link": "https://qiita.com/kikuziro/items/85f0b4b6e7715f4ef92d",
-      "summary": "📝 TL;DR\n\nManaged KBのACLメタデータは、リアルタイム反映を頑張るより定期的バッチ反映がお勧め\nどうしても即時に近い反映が必要ならセルフでメタデータフィルタ実装がお勧め\n\n👋 はじめに\nAWSのManaged　KBに文書単位のアクセス制御を効かせるAC...",
-      "published": "2026-07-26T15:34:04+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "常駐AIエージェントの夜間バッチをべき等に設計する",
@@ -119,22 +83,13 @@
       "color": "#888780"
     },
     {
-      "title": "【AWS】DevOps AgentをTerraformでデプロイしてみた",
-      "link": "https://qiita.com/eureka_/items/bc409e433975e7f9b544",
-      "summary": "はじめに\n自分の環境でAWS DevOps Agentを利用するために、Terraformからリソース作成してみたので、その記録を残します。\n\nAWS DevOps Agentとは\n2025年12月のAWS re:Inventで発表されたFrontier Agentsの...",
-      "published": "2026-07-26T14:57:24+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "強化学習の基礎を、Gymnasium を使って整理する（バンディット〜DQN 編）",
-      "link": "https://qiita.com/atsushi11o7/items/60832227a5e1f18e1786",
-      "summary": "はじめに\n普段は機械学習まわりの仕事をしていますが、強化学習だけはずっと「用語はなんとなく知っている」レベルで止まっていました。教師あり学習や生成 AI まわりは業務で触る機会が多かった一方で、強化学習はちゃんと手を動かして勉強したことがありませんでした。\nそこで強化学習...",
-      "published": "2026-07-26T14:46:18+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
+      "title": "仮想マシンとコンテナの違いを理解しよう",
+      "link": "https://zenn.dev/y4edd/articles/08ad0ec8afd9ac",
+      "summary": "はじめに\nこんにちは、y4eddです。\n今月から組み込み系の案件に参画しているのですが、これまで経験してきたWeb系の開発とは、開発環境の構築方法や扱う技術が大きく異なります。\nその中で仮想マシン（VM）に触れる機会があり、改めて考えてみると、これまでWeb系の開発で使っていたDockerについても、「コンテナがどのような仕組みで動いているのか」「仮想マシンとは何が違うのか」を十分に説明できないこ",
+      "published": "2026-07-26T14:54:18+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "AWS学習メモ - VPCピアリング（VPC Peering）について整理してみる",
@@ -153,15 +108,6 @@
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "AWS BlocksとAgentCoreで、PDF・XLSX・HTMLから必要項目を抽出してみた",
-      "link": "https://qiita.com/daizu_void/items/2c3cbd0f1c9fc7b9922a",
-      "summary": "実務で、形式やレイアウトが統一されていないファイルから、指定した項目だけを抽出したいという要件がありました。\nそこで、AWS BlocksとAmazon Bedrock AgentCoreを使って、サンプルアプリを作ってみました。\n\n注：AWS Blocksは2026年6月...",
-      "published": "2026-07-26T14:36:51+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "uvとRuffで始めるAIエージェント開発の最短監査チェックリスト",
@@ -213,24 +159,6 @@
       "link": "https://zenn.dev/ai_shihan/articles/standing-watch-protocol",
       "summary": "こんにちは、AI師範です。\n前回、私は「私の会社には8人の社員がいる。人間は私だけだ」という話を書きました（私の会社には8人の社員がいる。人間は私だけだ ―― Claude Codeを「道具」でなく「組織」として使う）。役職・発注書・検収といった仕組みで、Claude Codeたちを「道具」ではなく「組織」として動かしている、という運用の話です。その末尾で「次は部署間の連絡の話を書きます」と予告し",
       "published": "2026-07-26T12:42:53+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Trivyによるコンテナイメージの脆弱性スキャンとポリシー制御",
-      "link": "https://qiita.com/hana_shin/items/b1fe3e618189b7a2f6af",
-      "summary": "1 はじめに\nHarborには、コンテナイメージの脆弱性スキャンを行う Trivy（トリビー）が標準で組み込まれています。本記事では、Harbor に統合された Trivy を利用してコンテナイメージをスキャンする方法や、その基本的な使い方を説明します。\nHarbor の...",
-      "published": "2026-07-26T12:14:48+00:00",
-      "source": "Qiita - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "web search を渡しても gpt-5-mini は検索しなかった",
-      "link": "https://zenn.dev/dev_ctun/articles/web-search-tool-not-used",
-      "summary": "OpenAI Responses API の web_search を有効にしたまま競合調査をやらせたら、実在企業が 5 社出てきたのに出典が 1 つも付かなかった。ツールは最初から渡してある。モデルが使わなかっただけだ。\nプロンプトに 3 行足したら、出てくる会社そのものが入れ替わった。モデルは gpt-5-mini。\n\n 出典ゼロで「それっぽい正解」が出てくる\nやらせたのは「規格外野菜の定期便",
-      "published": "2026-07-26T11:06:59+00:00",
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
@@ -299,15 +227,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "PesterとPosh-SSHでインフラテスト",
-      "link": "https://qiita.com/autechgemz/items/758a27666de161777c2e",
-      "summary": "Pester + Posh-SSHを使ったインフラテスト\n\n2年前くらいのメモ書きを発掘したものであるためバージョン等が古いです\n\nPester はPowerShell のテスト自動化フレームワークです。PowerShellスクリプト、モジュール、インフラ構成などが期...",
-      "published": "2026-07-26T09:00:34+00:00",
-      "source": "Qiita - インフラ",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "Sol／Terra／Lunaの比較からキャッシュ検証まで ― GPT-5.6 on Amazon Bedrock実践",
       "link": "https://zenn.dev/kashiwabaray/articles/75b541fb607a85",
       "summary": "※本記事の内容は個人の見解であり、所属組織を代表するものではありません。\n\n 1. はじめに\n2026年7月13日、OpenAIのGPT-5.6 Sol、Terra、LunaがAmazon Bedrockで一般提供されました。\nさらに2026年7月24日には、AWSから次の内容を含む実践手順が公開されています。\nhttps://aws.amazon.com/jp/blogs/machine-lea",
@@ -317,42 +236,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "数理最適化（AI最適化）とは？生成AI・機械学習との違いを勤務表の例で解説",
-      "link": "https://qiita.com/takobaya391076/items/ee778bf90c438651601e",
-      "summary": "「AIを業務に活用したい」と考えたとき、最初にChatGPTなどの生成AIを思い浮かべる方は多いと思います。\n生成AIは、文章の作成や要約、画像生成などを得意としています。\n一方、次のような業務では、文章を生成する技術とは異なるアプローチが必要です。\n\n勤務表を作成する\n職...",
-      "published": "2026-07-26T08:39:33+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "言語モデルの推論時空間計算量をO(log n)にする（その2）",
-      "link": "https://qiita.com/3405691582/items/e941a8f0b10e3a4b1ccb",
-      "summary": "以前書いた記事からしばらく実験を続けてアーキテクチャの改善があったので報告です。\nレポジトリと学習済み重み（事前学習と対話ファインチューニング）を公開しています。\n現状のアーキテクチャは下図（チャンクサイズ4の例）のブロックを積み上げた構造になっています：\n\nトークン列をチ...",
-      "published": "2026-07-26T08:27:33+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "proxmox上にUbuntuをインストール",
-      "link": "https://qiita.com/purekaisetu/items/30a88b204f27c17ceaba",
-      "summary": "今回の目標\n・proxmox上に仮想マシンを新規作成\n・仮想マシンのOSはUbuntu 24.04 Desktop\n・Ubuntuサーバーからインターネットと疎通が取れるところまでを行う\n\n作業のアジェンダ\n①Ubuntuをダウンロード\n②proxmoxへisoファイルを...",
-      "published": "2026-07-26T08:25:52+00:00",
-      "source": "Qiita - インフラ",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "固定ホライズンのラベルは、なぜ筋が悪いのか——トリプルバリア法という選択肢",
-      "link": "https://qiita.com/Morimiso_pyt/items/77fe0b3d3f6e7db6dc34",
-      "summary": "この記事は Zenn に投稿したものの再掲です。初出: 固定ホライズンのラベルは、なぜ筋が悪いのか——トリプルバリア法という選択肢\n\n以前、検証が嘘をつくパターンについて連載を書きました。あの連載は「検証をどう壊さないか」がテーマでしたが、今回は一歩手前の話です。そもそも...",
-      "published": "2026-07-26T08:14:47+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "固定ホライズンのラベルは、なぜ筋が悪いのか——トリプルバリア法という選択肢",
       "link": "https://zenn.dev/morimiso/articles/733e4fdde5a728",
       "summary": "以前、検証が嘘をつくパターンについて連載を書きました。あの連載は「検証をどう壊さないか」がテーマでしたが、今回は一歩手前の話です。そもそも、何を予測させるか——ラベル設計について書きます。\nラベルは、検証がどれだけ正しくても、設計そのものが悪ければ意味のあるモデルにはなりません。そして、この設計は驚くほど雑になりがちです。\n\n 一番よくある設計：固定ホライズンのリターン\nもっとも素朴なラベルは、こ",
@@ -360,15 +243,6 @@
       "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "【2026/07/25】エンジニア76日目：本番OOM Killer発動・K8s Job失敗の大規模障害調査",
-      "link": "https://qiita.com/Teddy_/items/7022cbdfdc25ff53802f",
-      "summary": "はじめに\n日付：2026年7月25日（土）/ 76日目\n土曜日シフト出勤。\n本番環境で2件の大きなインシデントが同時発生し、\n初めて本格的な障害調査を経験した。\n当惑したが、この経験が大きな財産になると感じた一日。\n\n発生したインシデント概要\n本番のバッチ環境で時間的に重...",
-      "published": "2026-07-26T07:30:10+00:00",
-      "source": "Qiita - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "【OT/ICS】Dockerで挑む次世代電力網防衛（構築編）：ZeekとCISA ICSNPPによる産業制御プロトコル深層可視化とOTパイプ",
@@ -382,7 +256,7 @@
     {
       "title": "July 26, 2026",
       "link": "https://docs.cloud.google.com/release-notes#July_26_2026",
-      "summary": "Google SecOps\nFeature\n[Spotlight Feature] Investigation and case management experience\nThis feature is in public preview. Google SecOps now includes a revamped\nInvestigation Management experience that",
+      "summary": "Google SecOps\nFeature\nCustomizable schedules for multi-event rules\nCustomizable schedules for multi-event rules are available in public preview. You can customize rule execution schedules on the Rule",
       "published": "2026-07-26T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
@@ -452,42 +326,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "動くConnectorと、毎日動く仕組みは別だった",
-      "link": "https://qiita.com/boraemon2000/items/c6d28333aaa8dce9a36d",
-      "summary": "動くConnectorと、毎日動く仕組みは別だった\n\n1. リード\nConnector は動いていた。少なくとも、そう思っていた。GA4 も GSC も Clarity も Metricool も、必要なときに走らせれば結果は返る。SQLite にも溜まる。Dashbo...",
-      "published": "2026-07-26T03:02:46+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "WSL(Ubuntu)でLinux×Javaのシンプルなじゃんけんゲームを作る Day1 ～タイトルコールの実装～",
-      "link": "https://qiita.com/ohden_indie/items/88e6c929588f97040c2f",
-      "summary": "はじめに\nミニマムなゲーム作りをしたいということで、Linuxを触りながらJavaを使ってシンプルなじゃんけんゲームを作成しています。\nそして、前回の記事では、前回の記事では、WSL（Ubuntu）にOpenJDKをインストールし、Javaの開発環境が正しく構築できている...",
-      "published": "2026-07-26T01:37:20+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "インフラを雰囲気で触っている人へ。サーバ・ネットワーク・クラウドの土台をまとめて立て直せる一冊",
-      "link": "https://qiita.com/yasu1109/items/8e95ccf67ffd952e75e7",
-      "summary": "サーバもネットワークもクラウドも、業務で少しずつ触っているのに全体像がつながらない。\nそのままだと、障害対応や設計レビューのたびに用語の理解で詰まり、学び直しも断片的になりやすいです。\nこの本は、サーバ/インフラの基本を一冊でつなぎ直して、日々の判断を落ち着いて進める土台を...",
-      "published": "2026-07-25T22:58:26+00:00",
-      "source": "Qiita - インフラ",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "Midnight AI Groove 26-07-22",
-      "link": "https://qiita.com/masykot582/items/79ac2fd7354c5df9e0da",
-      "summary": "―――\nMidnight AI Groove\n深夜のラジオ教育番組\n出演：DJミオ（女）、DJレン（男）\nテーマ：「“何も起きてない日”なのに、AI界隈では何が起きていたのか」\n―――\nDJミオ:\nこんばんは、Midnight AI Grooveへようこそ。ナビゲータ...",
-      "published": "2026-07-25T22:40:00+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "プロンプト設計の常識が変わった",
       "link": "https://zenn.dev/lingmu/articles/2026-07-26-claude-opus-5-context-engineering",
       "summary": "プロンプト設計の常識が変わった\n2026-07-26 | 読了 4分 | #Claude #AI #ContextEngineering\n「いいプロンプトを書けばいい」——その時代が終わりつつある。Claude Opus 5の登場で、AIとの対話を設計する考え方そのものが刷新された。今すぐ知らないと、既存のパイプラインが丸ごと時代遅れになるかもしれない。\n\n\n Opus 5で何が変わったのか\nAn",
@@ -524,22 +362,13 @@
       "color": "#4285F4"
     },
     {
-      "title": "2026/7/25確認 読みたいIT技術書",
-      "link": "https://qiita.com/kaorunix/items/8eef89b2e138aea3804a",
-      "summary": "読みたいIT技術書\nこの記事は私の個人的な意見でまだ読んでいない本を本屋でパラパラ見て、近く買う・図書館で借りるなどして読みたいと思った本を記載しました。\n本日、連日の0時以降の帰宅で疲れていたのか昼前まで寝てしまいました。たまたま近くの本屋があるモールに行ったので、立ち...",
-      "published": "2026-07-25T13:52:34+00:00",
-      "source": "Qiita - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "Terraform管理のAzure環境を別テナントへ移行した話",
-      "link": "https://qiita.com/IORI1261/items/a98920353f1d728d9485",
-      "summary": "初めまして、新卒駆け出しIT技術者のIORIです！(来年にはこれ使えんのか...)\n\n第二弾も記事投稿したのでぜひ見てほしいです...!(追記)\n\n今回は研修の一環でアジャイル開発で作成した飲食店マッチングアプリ（記事書いたら会社に怒られるかもしれないので表現変えてます)を...",
-      "published": "2026-07-25T11:04:02+00:00",
-      "source": "Qiita - インフラ",
-      "tag": "インフラ",
-      "color": "#326CE5"
+      "title": "高次元カバー診断——UMAPの隙間は半分危ない",
+      "link": "https://zenn.dev/efta1989/articles/high-dim-coverage-umap-trap-for-materials",
+      "summary": "はじめに：高次元では、空白が一目で見えない\n前記事（予測平均の最大で次を決めると、ピークを逃す——穴を埋めてから最適を急ぐ）では、効きうる帯が乏しいのに平均最大だけを追うとピークを逃しうること、埋めはスペースフィリング／古典 DOE が第一選択であること、を 1D／2D で見た。低次元では、点の分布を見れば空白が分かる。\n実務の条件は、十〜数十因子になることが多い。会議では、こうなりやすい。\n\nと",
+      "published": "2026-07-25T13:13:43+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "ARK:SAのサーバをオンプレk8s(RKE2)で構築する 事前構築編(1)RKE2クラスタとRancher",
@@ -549,6 +378,15 @@
       "source": "Zenn - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "Gemini Enterprise Agent PlatformのPipelinesで学習からModel Registry登録まで試してみた",
+      "link": "https://zenn.dev/fusic/articles/ec8d4689ce8e37",
+      "summary": "はじめに\nFusicのレオナです。\n前回のブログでは、Model Registryへ登録したscikit-learnモデルをEndpointへデプロイし、オンライン推論まで確認しました。\nhttps://zenn.dev/fusic/articles/5f054db81f3585\n今回は少し工程をさかのぼり、モデルがModel Registryへ登録されるまでの流れをPipelinesで自動化しま",
+      "published": "2026-07-25T10:00:07+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "Gemini Enterprise Agent PlatformのPipelinesで学習からModel Registry登録まで試してみた",
@@ -619,15 +457,6 @@
       "summary": "この記事はコンテナを自作してその仕組み理解する試みのものです。\n基本コンテナとはLinuxの標準機能であるNamespaceの集まりで、DockerはNamespaceに加えて、Cgroup、overlayfsの技術を使用しています。\n今回はNamespaceについて理解を進めます。\nまた、この記事は基本このサイトを翻訳版です。一部私の実行環境のために変更を加えたところもあります。\nhttps:/",
       "published": "2026-07-25T02:46:31+00:00",
       "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "ノード障害時もPodを再配置したい：Topology Spread ConstraintsのnodeTaintsPolicyを検証してみた",
-      "link": "https://qiita.com/showchan33/items/064e26ae2a2014c22c88",
-      "summary": "はじめに\nKubernetesのPodの分散配置に関する設定で topologySpreadConstraints というものがあります。この記事では、topologySpreadConstraints の項目の一つ nodeTaintsPolicy に関して、各値を設定...",
-      "published": "2026-07-25T01:38:22+00:00",
-      "source": "Qiita - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
     },
@@ -960,15 +789,6 @@
       "link": "https://zenn.dev/stale_orbit/articles/nocobase-2x-jsblock-offline",
       "summary": "はじめに\n前回、NocoBase の JS Block で外部 npm ライブラリを使う方法を書きました。ctx.importAsync('dayjs@1.11.13') のように書くと、esm.sh という CDN 経由でライブラリが読み込まれる、という話です。\nでもこれ、インターネットに繋がっていることが前提です。日本の業務システムでは、セキュリティ要件で外部インターネットに接続できない隔離環",
       "published": "2026-07-23T00:18:32+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "【OT/ICS】Dockerで学ぶ施設警備システム構築（第9回：Blue Teaming: 境界防御の限界とOT-IDS（NSM）の構築）",
-      "link": "https://zenn.dev/schutzz/articles/dccaa8c0c8fe2a",
-      "summary": "【OT/ICS】Dockerで学ぶ施設警備システム構築（第9回：Blue Teaming: 境界防御の限界とOT-IDS（NSM）の構築）\n\n第1回：概念と設計編\n第2回：Docker ComposeとHMI起動編\n第3回：Modbus/TCPセンサーエミュレータ開発編\n第3回：Modbus/TCPセンサーエミュレータ開発編 ♯2\n第4回：HMI監視基盤の構築とベースラインパケット取得編\n第5回：",
-      "published": "2026-07-23T00:06:24+00:00",
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
