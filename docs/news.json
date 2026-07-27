@@ -1,6 +1,15 @@
 {
-  "updated": "2026-07-27T16:53:03.467840+00:00",
+  "updated": "2026-07-27T19:14:29.621939+00:00",
   "items": [
+    {
+      "title": "【初心者向け】Salesforceって結局なに？超巨大なビジネスプラットフォームを「専用のカスタマイズ店舗」に例えてざっくり解説",
+      "link": "https://qiita.com/chuandujiusi/items/acf3d35f3ab011fc8f4e",
+      "summary": "はじめに\nプログラミングを学び始めて少し経つと、さまざまなIT用語やサービス名耳にするようになりますよね。その中でも、ビジネスの現場でよく耳にするのが 「Salesforce（セールスフォース）」 という名前です。\n「名前は聞いたことあるけど、AWSみたいなインフラサービ...",
+      "published": "2026-07-27T17:20:29+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "i18nライブラリを1回も使わずに、9言語対応のアプリを作った話",
       "link": "https://qiita.com/yama3133/items/806a5b5e25ffdca73273",
@@ -65,15 +74,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "【書評】Information Assurance and Risk Management Strategies: Manage Your Information Systems and Tools in the Cloud",
-      "link": "https://qiita.com/io0323/items/346e757dd80f672ce42d",
-      "summary": "はじめに\n本書『Information Assurance and Risk Management Strategies: Manage Your Information Systems and Tools in the Cloud』（著：ブラッドリー・ファウラー、Apr...",
-      "published": "2026-07-27T15:00:41+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "EC2 2台の環境を EKS に移行するとき、コンテナ数はどう決めるのか【初学者向けサイジング入門】",
       "link": "https://qiita.com/hijiri0404/items/e0849cafe058b3ec88da",
       "summary": "はじめに\n「EC2 で動いていた仮想マシン 2 台を EKS に移行する。じゃあコンテナ（Pod）は何個にすればいいのか？」\nこの問いに対する答えは 「2 個ではない」 だ。\nEC2 と Kubernetes では「台数」という数字の意味そのものが違う。ここを理解しないま...",
@@ -110,6 +110,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "【エッジAI学習メモ】第6章：Docker環境で作成したAIモデルをKakipで実行してみる",
+      "link": "https://zenn.dev/mono_tec/articles/edgeai-note-06-kakip-image-inference",
+      "summary": "1. コンセプト\n\n 1.1 はじめに\n前回は、Windows上にRZ/V2H AI SDKを利用するためのDocker環境を構築しました。\n今回は、その開発環境で作成したAIモデルとアプリケーションをKakipへ配置し、\n静止画像を入力して推論結果を確認します。\n今回の目的は、モデルの作成方法や精度を深掘りすることではありません。\n確認したいのは、次の流れを成立させることです。\nWindows",
+      "published": "2026-07-27T12:37:59+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "仮想通貨botの生態図鑑 ― 8種類のbotを「エッジの源泉」で分類する",
       "link": "https://zenn.dev/noise_shigure/articles/ce3ec7fe54bd65",
       "summary": "「儲かるbotを作って」では、儲かるbotは出てこない\nAIのおかげで、botのコードを書くこと自体は簡単になりました。取引所APIを叩くのも、ループを回すのも、日本語で頼めば数分で形になります。\nただし、AIに「儲かるbotを作って」と頼んでも、儲かるbotは出てきません。AIは実装の専門家であって、あなたの資金とリスク許容度を知る戦略家ではないからです。何を作るかを決めるのは、いまのところ人間",
@@ -126,15 +135,6 @@
       "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "Expoのプッシュ通知を送る同期curlループを、AWS Lambdaの非同期invokeに変えてPHP側の待ち時間を短縮した",
-      "link": "https://zenn.dev/peipei/articles/828dee39f060f3",
-      "summary": "はじめに\nスマートフォンアプリへのプッシュ通知の送信処理を、踏み台サーバーを経由する同期的なcurlループから、AWS Lambdaへの非同期invokeに切り替えた事例を共有します。\n通知の送信にはExpoのプッシュ通知サービス Expo Push Service（expo-server-sdk）を使っています。\n呼び出し元が送信完了を待たずに処理を先へ進められるようにするための実装と、切り替え",
-      "published": "2026-07-27T11:17:26+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "Amazon EKS が EKS Auto Mode および Karpenter 上での EFA・プレイスメントグループに対応",
@@ -182,22 +182,13 @@
       "color": "#10A37F"
     },
     {
-      "title": "ECS・SQS・LambdaをOpenTelemetryで計装する分散トレーシング",
-      "link": "https://zenn.dev/ncdc/articles/fbe0ff50ee04b0",
-      "summary": "はじめに\nECS → SQS → Lambdaという構成は、AWSでバックエンドを組んでいるとよく出てきます。一方で、障害調査などで一連の処理を追おうとすると、SQSの前後でログや実行環境が分かれ、ECSからLambdaまでの流れをひと続きに把握しづらくなります。\nせっかく分散トレーシングを入れるなら、非同期処理も含めて追えるようにしたい。そこで、OpenTelemetryとX-Rayを使い、EC",
-      "published": "2026-07-27T09:54:24+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "Weekly AWS アップデート情報 - 2026年7月27日",
-      "link": "https://zenn.dev/softbank/articles/d33ad5218ae8e6",
-      "summary": "皆さま、こんにちは。\nWeekly AWSでは、毎週 AWS プロダクトのアップデート情報をお届けしています。\nそれでは、先週 (7月20日～26日) の主な AWS アップデート情報を紹介します。\n\n 今週の注目アップデート\n\n Amazon SES が料金プランを導入\n\nAmazon Simple Email Service (SES) は、料金プランを導入しました。これにより、顧客は機能を個",
-      "published": "2026-07-27T09:25:42+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "なぜ、レポート課題でAIを使えると教師の方が生徒より有利になるのか？",
+      "link": "https://zenn.dev/pdfractal/articles/572aa8275049b6",
+      "summary": "はじめに\n生成AIが普及すると、学校のレポート課題は成立しなくなると考える人は少なくありません。生徒が課題のテーマをAIに入力すれば、短時間で構成の整った文章を作れるため、自分で資料を集め、考えをまとめ、文章を書くという従来の作業を大幅に省略できるからです。そのため、生成AIは生徒にとって、教師の目をかいくぐるための強力な道具であり、レポート課題を無力化する技術であるように見えます。\nしかし、この",
+      "published": "2026-07-27T09:24:01+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "【脱・負債化】プロンプトの「深すぎる最適化」は命取り？モデル移行で気づいたプロンプト管理のアンチパターンと解決策",
@@ -205,6 +196,15 @@
       "summary": "はじめに\n先日、自社システムで利用しているLLMを次世代モデル（Opus 5）へ移行する作業を行っていました。その際、公式のプロンプト移行ガイドラインを読んでいて、ある「逆転現象」にハッとさせられました。\n公式が推奨していたのは、プロンプトの「足し算」ではなく「引き算」...",
       "published": "2026-07-27T09:08:02+00:00",
       "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "LLMアプリは「ハーネス」が9割 ── Perl/CGIの現役SaaSにAIエージェントを組み込んで学んだこと",
+      "link": "https://zenn.dev/interpark/articles/cc1a0861d9a521",
+      "summary": "はじめに\n長年運用しているPerl/CGI製SaaS（自社のノーコード業務アプリ基盤）に、LLMエージェントを組み込みました。作ったのは次の3機能です。\n\n\n対話型アプリビルダー ── チャットでヒアリングしながら業務アプリを丸ごと生成（サンプルデータ・ダッシュボード・メール雛形つき）\n\nアプリ内エージェント ── どの画面からでも呼べるアシスタント。自然言語でレコードの検索・集計・統計分析・登録",
+      "published": "2026-07-27T08:59:59+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -218,6 +218,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "拡散言語モデルとは？LLMが2.42倍速くなる新しい生成の仕組み",
+      "link": "https://zenn.dev/appare/articles/jp-digest-20260725-diffusion-llm",
+      "summary": "いま「拡散言語モデル」がざわついている理由\nLLM（大規模言語モデル）の生成って、そろそろ「速さ」がかなり大事になってきましたよね。今回は海外の論文と複数の技術メディア、公式発表を突き合わせて、日本の読者向けに再構成しました。\n2026年7月1日、NVIDIAが「Nemotron-Labs-TwoTower」というモデルをオープンウェイト（重みが公開されていて自分で動かせる）で公開しました。ライセ",
+      "published": "2026-07-27T08:56:29+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "Fn::ImportValueを剥がして、CDKデプロイを並列化する",
       "link": "https://zenn.dev/dress_code/articles/d08a9c00af39ca",
       "summary": "この記事はDress Code Advent Calendar 2026/07の 27日目の記事です。\nこんにちは。Dress Code株式会社でプロダクトエンジニアをしているぽこひで（@pokohide）です。\n弊社のCDKリポジトリは数十スタック規模まで育ち、cdk deploy --all によるデプロイは1スタックずつ直列で、リリース時には25〜35分かかることもありました。\n--conc",
@@ -225,6 +234,15 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "【K8s】Kong × Keycloakの認証沼。235コミット溶かしたStaging構築（後編：Secret注入とArgoCDの壁）",
+      "link": "https://zenn.dev/scalar_sol_blog/articles/0662900aa51365",
+      "summary": "概要\n前編では client_auth のデフォルト罠と、discovery が内部 URL を返してしまう問題について書きました。\n今回は Kong に Keycloak のシークレット（client_secret）をどうやって渡すか という問題で3回やり直した話を書きます。\n最終的にたどり着いたのは KongVault という方式でした。\n\n\n シークレット問題の背景\nYAML の構造問題を乗",
+      "published": "2026-07-27T08:30:05+00:00",
+      "source": "Zenn - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "週刊生成AI with AWS – 2026年7月20日週",
@@ -263,6 +281,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "AIエージェント開発を体系的に学ぶための厳選4冊――設計・実装・基盤理解まで",
+      "link": "https://zenn.dev/koukyo/articles/20260726_ai_agent_books_4",
+      "summary": "はじめに\n最近、自分のチームで社内向けのドキュメント検索エージェントを作った。RAGベースの簡単な構成だったが、いざ本番に近い負荷をかけると、エージェントが途中で思考を放棄したり、ツール呼び出しの順序がめちゃくちゃになったりと想定外の挙動が頻発した。フレームワークのチュートリアルだけでは太刀打ちできない壁がそこにあった。\nClaude CodeやOpenAI Codexの登場で「AIエージェントを",
+      "published": "2026-07-27T07:25:00+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "実務プロジェクトにコンペを取り入れる理由",
       "link": "https://zenn.dev/scien/articles/e9c73f6d16e907",
       "summary": "はじめに\n今回はMLプロジェクトブログの第二弾です！\n前回のブログでは、アノテーションやデータの前処理、評価設計といった、モデル性能以外の要素がプロジェクトの成否を左右することを、物体検出プロジェクトを例に整理しました。その中で少し触れた通り、弊社ではあるプロジェクトにおいて、モデル開発のコンペを取り入れました。\n前回の続編として、本記事では「プロジェクトのコンペ化」に焦点を当て、そのメリットと注",
@@ -274,7 +301,7 @@
     {
       "title": "July 27, 2026",
       "link": "https://docs.cloud.google.com/release-notes#July_27_2026",
-      "summary": "AlloyDB for PostgreSQL\nFeature\nExternal search with AlloyDB now supports OpenSearch in Preview.\nYou can use the external_search_fdw extension to connect to an OpenSearch cluster and query its data dir",
+      "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB now supports cross-region failover in\nPreview. You can\noptionally enable cross-region failover to automate the recreation of the\noriginal primary when a secondar",
       "published": "2026-07-27T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
@@ -286,6 +313,15 @@
       "summary": "はじめに\n最近、生成AIを使った動画制作を試しています。\nきっかけは単純でした。\n\n動画編集の経験がない個人でも、AIを組み合わせれば継続的な制作環境を作れるのか？\n\nという疑問です。\n正直に言うと、最初はかなり苦戦しました。\nAI動画生成ツールを使えば、綺麗な映像は作れ...",
       "published": "2026-07-27T06:57:25+00:00",
       "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Opus 5にオセロを対局させてみたが、まだ甘かった ～Kaggle Game Arenaローカル検証～",
+      "link": "https://zenn.dev/50s_zerotohero/articles/91d67862d5c089",
+      "summary": "はじめに\nKaggleが2025年8月にローンチしたGame Arenaは、AIモデル同士がチェスなどのゲームで対戦し、その様子を配信・リプレイできるベンチマークプラットフォームです。\n本記事は単なる機能紹介ではなく、オープンソースとして公開されている裏側のコードを読み解きながら、ローカル環境でLLM同士にオセロ(Othello)を対局させてみた実践記録です。仕組みの全体像を軽く整理しつつ、実際に",
+      "published": "2026-07-27T06:51:12+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -434,24 +470,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "LLMに参照したURLと参照箇所の原文をなるべく正確に出させる",
-      "link": "https://zenn.dev/asuene/articles/fa722523be1a2c",
-      "summary": "はじめに\nこんにちは！アスエネ株式会社のエンジニアをしています、小林です！\nLLMにWeb検索をさせてなにかを評価し、結果を出力してもらうことがありますが、その出力を人間が評価するとき、LLMが何を参照して評価したのかがわかると人間が評価しやすくなるかと思います。\nシンプルに参照したURLや参照箇所を出力させるだけだと、存在しないURLや存在しないテキストが出力されてしまうことが多いため、なるべく",
-      "published": "2026-07-27T03:00:17+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AIエージェントが実装を全部書くパイプラインに、セキュリティレビューをどう組み込むか",
-      "link": "https://zenn.dev/xtm_blog/articles/20260724-d13745952c41e2",
-      "summary": "はじめに\nこんにちは、クロステックマネジメント Foundation Dept. 所属の水本です。\nFoundation Dept. では、ガイドラインに沿って書かれた要求仕様書を渡すと、設計から実装、テスト、PR 作成までを人間が関与せずに完走し、要求仕様書の作成者が最終的な品質チェックだけを行う。そういう開発エージェント基盤を開発しています。\nこの形の開発には、従来のチーム開発と決定的に違う点",
-      "published": "2026-07-27T03:00:17+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "AIエージェントと共に働くリスクとは？　PwCが説く「実践的ガバナンス」から考察",
       "link": "https://www.itmedia.co.jp/enterprise/articles/2607/27/news049.html",
       "summary": "AIエージェントを安心・安全に活用するためのリスク管理とはどのようなものか。PwCコンサルティングは、サイバーセキュリティにとどまらない、包括的なリスク管理の必要性を説く。今回は、この話から、AIエージェントと共に働くリスクについて考察する。",
@@ -468,33 +486,6 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "AIレビューの指摘に、真正面から却下できるものはめったにない",
-      "link": "https://zenn.dev/cotoha5108/articles/adversarial-review-triage",
-      "summary": "3行まとめ\n\nAIに批判役を与える「敵対的レビュー」は広まってきた。この記事は、指摘が返ってきた後の採否を、実ログ9件の仕分けで見せる\n今回の9件の内訳は、要求どおり受けた5件、受ける水準を選んだ2件、文書の外の事実を確かめないと決められない2件。却下はゼロだった\n採否の難所は、断る勇気ではなく、どの水準で受けるかの選択にある。選ばなかった水準は隠さず文書に書き、その記録が経営会議の想定問答になる",
-      "published": "2026-07-27T02:46:11+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "LLM推論コスト最適化入門 — モデルルーター導入ガイド",
-      "link": "https://zenn.dev/torikara74/articles/llm-inference-cost-optimization",
-      "summary": "この記事でわかること\n\nLLM推論コストの内訳と節約の余地\nモデルルーターとは何か、なぜ必要か\nPythonで動く最小構成のルーター実装\n主要ツール（Portkey / Helicone / OpenRouter）の比較\n\n\n\n ▶ 「推論コスト」の全体像\nAIエージェントが普及するにつれ、顕在化してきた問題があります。\nそれは 「推論コストの爆発」 です。\n\nAIチャットボット: ユーザー1会話",
-      "published": "2026-07-27T02:40:47+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "WSL2(Ubuntu 26.04) + docker で Radeon GPU を認識させる",
-      "link": "https://zenn.dev/yamayuski/articles/a6200b5e6ab078",
-      "summary": "ローカル LLM を動かすために ollama などを試していたのですが、推論自体を WSL2 + docker に閉じ込めたかったのでその備忘録。\n少し前まで Radeon 版 CUDA 的位置づけの ROCm の WSL2 サポートがベータになっていましたが、最近ベータが取れて少しやり方が変わったみたいなので、 2026/07/27 時点でのやることをメモっておきます。\n\n 1. WSL2 U",
-      "published": "2026-07-27T02:31:38+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "WSL2(Ubuntu 26.04) + docker で Radeon GPU を認識させる",
@@ -668,6 +659,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "常駐AIエージェントの夜間バッチをべき等に設計する",
+      "link": "https://zenn.dev/hach/articles/agent-nightly-batch-idempotent-design",
+      "summary": "チャットに常駐して「夜間にログや議事録を集めて、朝レポートを出す」AIエージェントを運用していると、遅かれ早かれ直面するのが夜間バッチの失敗です。LLM APIのタイムアウト、外部連携先(Slack/Teams/カレンダー等)のレート制限、Lambdaの再試行——原因は色々ですが、共通して起きるのは「同じジョブが2回動く」「途中まで処理して落ちる」という事態です。この記事では、常駐エージェントの夜",
+      "published": "2026-07-26T15:08:06+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "MCP仕様が明日アップデート、7月28日版MCPからはステートレスな接続が正式仕様に。GitHub MCPサーバが早くも対応発表",
       "link": "https://www.publickey1.jp/blog/26/mcp728mcpgithub_mcp.html",
       "summary": "AIツールとサービスを接続するための事実上の業界標準となっている通信プロトコルMCP（Model Context Protocol）の7月28日版仕様の登場が目前となっています。 MCPの仕様は継続的にアップデートされ続けており、GitHu...",
@@ -693,6 +693,24 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "AWS学習メモ - VPCピアリング（VPC Peering）について整理してみる",
+      "link": "https://zenn.dev/yashiki_tatama/articles/a94b27973fdb71",
+      "summary": "前回は、VPCエンドポイントについて整理しましたね。\nVPCエンドポイントを利用することで、AWSサービスへインターネットを経由せずアクセスできることが分かりました。\nただ、VPCエンドポイントは、VPC内からAWSサービスへアクセスするための仕組みでした。\n次は、AWS上に複数のVPCがある場合の通信について整理してみようと思います。\n今回は、そのような場面で利用される「VPCピアリング（VPC",
+      "published": "2026-07-26T14:42:05+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "EKS Auto ModeでAWSとKubernetesの試したメモ",
+      "link": "https://zenn.dev/hick/articles/38a5d4fe54c3d5",
+      "summary": "背景\nこれまでAWSでは主にEC2を使っており、実態としてはConoHaなどのレンタルサーバーとあまり変わらない使い方だった。\nそこで、期限切れが近いAWS Free Tierクレジットを使い、次の疑問を確かめることにした。\n\nAWSを使うと、単なる仮想サーバー以上に何が便利なのか\nKubernetesは、コンテナを起動するだけの場合と比べて何を自動化してくれるのか\n複数ノード、ロードバランサー、",
+      "published": "2026-07-26T13:55:04+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "EKS Auto ModeでAWSとKubernetesの試したメモ",
@@ -983,15 +1001,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "Woodpecker CI のススメ — SaaS クレジット枯渇から自前ホストへ",
-      "link": "https://zenn.dev/interestic/articles/ae60ac14118441",
-      "summary": "ある朝、PR を出しても Checks が緑にならない——正確には、そもそも走り始めない。GitHub Actions や CircleCI のクレジットが尽きたのだ。INTERESTIC の公式サイトや Web Tool Lab を育てるなかで何度か味わったこの朝が、自前ホストの Woodpecker CI に移るきっかけになった。いまも手元のマシンで lint と test を回せている。その",
-      "published": "2026-07-24T06:40:35+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "AI × IaCで実現する、Aurora依存を抑えたマルチテナントSaaS設計",
       "link": "https://zenn.dev/gyu07/articles/854c7fae403a53",
       "summary": "!\n本記事は、dev.to で公開した\"Let Aurora Sleep: Multi-Tenant SaaS Cost, Reconsidered with AI × IaC\"の日本語版です。\n\nマルチテナントSaaSでは、プライベートサブネット内にAurora PostgreSQLを配置し、API経由でアクセスする構成がよく採用されます。\n安定性、監査対応、VPCによる分離を考えれば、妥当な選",
@@ -1125,15 +1134,6 @@
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "Project Aegisとは？——ゼロトラストを「構成・証拠・復旧」に変えるローカル検証プロジェクト",
-      "link": "https://zenn.dev/sec_decode/articles/08663d6fb19841",
-      "summary": "📝 この記事は、下書きと図解にAIを活用しつつ、実装状態はリポジトリ、ADR、検証台帳、保存済み証跡を私自身が確認しています。誤りや補足があれば、確認したうえで修正します。\n\nProject Aegisは、ゼロトラストを用語や製品名だけで理解するのではなく、構成、通信経路、許可・拒否試験、ログ、証跡、復旧へ落とし込んで学ぶための個人検証プロジェクトです。\n現在は、ローカルAIへの通信経路制御とGP",
-      "published": "2026-07-21T01:07:29+00:00",
-      "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "Claude Codeを組織一括でシングルサインオン、チームや個人の費用上限設定、デフォルト設定など可能に、「Claude apps gateway for AWS/Google Cloud」登場",
