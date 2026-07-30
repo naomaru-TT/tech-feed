@@ -1,6 +1,42 @@
 {
-  "updated": "2026-07-30T08:09:26.065772+00:00",
+  "updated": "2026-07-30T10:59:05.254598+00:00",
   "items": [
+    {
+      "title": "CloudFront + S3で接続が頻繁にリセットされる原因がIPv6だった",
+      "link": "https://qiita.com/cress_cc/items/e34bf02da666381d707f",
+      "summary": "CloudFront + S3で静的サイトを配信していたところ、通信中に接続がリセットされるという現象が頻発した。\nブラウザ上では、HTTPステータスコードが返るのではなく、単純に「接続がリセットされました」と表示される状態だった。\nまた、サイト自体にはアクセスできるにもか...",
+      "published": "2026-07-30T10:33:39+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "2026/07/30 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "link": "https://qiita.com/ennagara128/items/816a567f02dd9953801a",
+      "summary": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。\n通勤中などにながら聴きしよう！\n（Qiita投稿は通勤には間に合わないと思われますが）\nフィードバックとか助かりますのでください\n↓こちらから\n\n出典\nやる気を信じず、学習習慣を仕組み化して固定せよ...",
+      "published": "2026-07-30T10:24:26+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "【Bedrock/Claude】ハイライト出力に「思考過程」を混ぜない方法：構造化出力（JSON）の活用",
+      "link": "https://qiita.com/nishikawa/items/88c741818a936d9a2f3c",
+      "summary": "こちらの投稿はJ.B.Goode Inc.のWebサイトで掲載している技術記事です。\nhttps://www.jbgoode.jp/other/ai/bedrock_claude_json_output/\n\nAmazon BedrockのClaude APIを用いて...",
+      "published": "2026-07-30T10:09:13+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "# 【続編】# AWS BedrockでYouTubeライブ配信コメントをリアルタイム判定してみた話",
+      "link": "https://qiita.com/watanuki_for_Qiita/items/e462f227e66e07a6af08",
+      "summary": "はじめに\n本記事では、YouTubeライブ配信のコメント自動判定で、Bedrockの誤検知をルールとプロンプトで改善した結果を解説します。あわせて、YouTube Data API v3のクォータ枯渇でコメント取得が止まっていた問題を、liveChatMessages.s...",
+      "published": "2026-07-30T10:02:20+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "記憶が消えるAIエージェントを「自律継続稼働」させる3つのファイルパターン",
       "link": "https://zenn.dev/ykwlab/articles/agent-continuity-file-patterns",
@@ -74,15 +110,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "【AWS Lambda】ランタイムが EOL になる通知が来たので、IaC の1行で移行した話",
-      "link": "https://qiita.com/80-cloud/items/3192f29b58e75240bddf",
-      "summary": "はじめに\nある日、AWS Health から「利用中の Lambda ランタイムについてサポート終了（EOL）予定」を知らせる通知が、自分の環境に届きました。\n最初は「関数が急に止まるの！？」と焦りましたが、調べるとすぐ止まるわけではないこと、そして自分の構成は Terr...",
-      "published": "2026-07-30T06:18:26+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "日本発のLLM API Gateway「teai.io」のアーキテクチャを全公開",
       "link": "https://zenn.dev/yukibjj/articles/teai-llm-api-gateway-architecture",
       "summary": "はじめに\nteai.io は、日本のAI開発者向けに設計されたLLM API Gatewayだ。45以上のモデルをOpenAI互換のAPIで提供し、東京リージョンで低レイテンシを実現している。\nこの記事では、teai.ioの技術的アーキテクチャを公開する。LLM Gatewayを自分で構築したい方や、似たようなサービスのアーキテクチャに興味がある方の参考になれば嬉しい。\n\n なぜ作ったか\nLLMア",
@@ -146,15 +173,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "【cli】s3 cpではなく、s3api get-objectをすると403エラーの原因をつかみやすい",
-      "link": "https://qiita.com/alwaysdwysd/items/8a1c6ca58c0a426627cc",
-      "summary": "TL;DR\ncliコマンドで、\ns3 cpなら403としか出ないが、\ns3api get-objectで、\n\nIAMの権限不足なら\n\nno identity-based policy allows the s3:GetObject action\n\nBacket pol...",
-      "published": "2026-07-30T04:23:54+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "因果推薦システムの入り口──ベイジアンネットワーク推薦の実験的試み",
       "link": "https://zenn.dev/gixo/articles/causal-recommendation-bayesian-network",
       "summary": "はじめに\nいまの推薦システムの主役は、協調フィルタリング、Deep Learning、Graph Neural Network、LLM 活用あたりだと思います。また最近は、因果リコメンド（causal recommendation） も注目されつつあります。\n\n\nCausal Inference in Recommender Systems: A Survey and Future Directi",
@@ -173,15 +191,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "READMEの問い合わせ窓口をS3で公開する：GitHub ActionsからAWSアクセスキーをなくす",
-      "link": "https://qiita.com/susie000720/items/7adfd35f1c81c9bc8570",
-      "summary": "個人開発の問い合わせ窓口は、静的HTMLを1枚置くだけでも作れます。ところが、その1枚を自動デプロイするために長期間有効なAWSアクセスキーをGitHubへ登録すると、窓口より重い認証情報を抱えることになります。\nここで感じる「小さな個人開発なのに、IAMまで設計するのは大...",
-      "published": "2026-07-30T04:10:59+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "Excel作業を自動化する「Copilot in Excel」がスキルに対応　何ができる？",
       "link": "https://atmarkit.itmedia.co.jp/ait/articles/2607/30/news049.html",
       "summary": "Microsoftは「Copilot in Excel」の財務部門向け機能を強化した。Microsoftの財務部門が実運用で利用・評価し、財務業務で求められる信頼性を重視して開発された。",
@@ -196,15 +205,6 @@
       "summary": "「ブラウザからPush-to-Talkで話しかけたら、AIがリアルタイムに声で返してくる」——そんなアプリを、Claude Codeと一緒に1日で作った。予算はOpenAIの無料クレジット**$5**。使い切るまでにWeb検索RAG・ペルソナ切り替え・Cognito認証・Terraformコード化まで辿り着いた記録のダイジェスト。\n\n 構成\nブラウザとOpenAI Realtime APIの間にF",
       "published": "2026-07-30T03:47:41+00:00",
       "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "トヨタ関連会社やCircleCIの事例から考える。GitHub経由での「アクセスキー流出」と、AWS OIDCによる完全脱却手順",
-      "link": "https://qiita.com/suzukengo/items/0694f3d905b8ce0b3b6c",
-      "summary": "要旨\n「開発委託先が誤ってソースコードをパブリックリポジトリに公開してしまった。そのコードにはデータベースのアクセスキーが含まれていた」——これはトヨタのT-Connect事案（2022年）の概要です。GitHubに公開されたソースコード内のアクセスキーが、2017年12...",
-      "published": "2026-07-30T03:44:42+00:00",
-      "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
