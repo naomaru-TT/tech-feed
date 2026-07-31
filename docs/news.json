@@ -1,38 +1,47 @@
 {
-  "updated": "2026-07-31T13:43:56.639063+00:00",
+  "updated": "2026-07-31T16:39:46.270406+00:00",
   "items": [
     {
-      "title": "生成は雑でいい、検証器が全部拾う：採択率0.26%で成立する『生成→検証』ループ",
-      "link": "https://zenn.dev/hidetzu/articles/verigen-generate-verify-loop",
-      "summary": "🎯 はじめに\nLLMを実務に組み込むほど、「たぶん合ってる」出力をどう扱うかに悩まされる。\nコード生成にせよ、SQL生成にせよ、構造化データにせよ、\n「モデルが確信を持って返してくる誤り」を人間側で拾い切るのは現実的ではない。\nこのとき効くパターンが、生成と検証を分離するという考え方だ。\n\n\n生成側は正しさを一切保証しなくてよい\n\n検証器が「正しい」と言い切る責任を全部持つ\n生成が安いなら、雑に量",
-      "published": "2026-07-31T13:23:25+00:00",
-      "source": "Zenn - LLM",
+      "title": "Redshift Data API の3つのアップデートを試してみた",
+      "link": "https://qiita.com/zumax/items/fb46b8f6f50e365c75ff",
+      "summary": "背景・目的\nAmazon Redshift Data API は、ドライバ・接続・ネットワーク設定・認証情報を自前で管理せずに SQL を実行できる非同期 API です。永続接続を持たず、セキュアな HTTP エンドポイントと AWS SDK 経由で SQL を投げられる...",
+      "published": "2026-07-31T16:22:03+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "最近、Codexの週間クォータがおかしい",
+      "link": "https://qiita.com/volcane/items/2bd7f2f5937634e589b3",
+      "summary": "最近のCodexのクレジット消費の仕様が不明瞭\nCodexは各プラン、1週間で使用できるクレジットが決まっており、使い切ったら次のリセットまで待つか、クレジットを追加購入する必要があります。\n私はPlusプランで、週間クレジットを使い切ったら追加クレジットを購入しつつ、...",
+      "published": "2026-07-31T15:13:53+00:00",
+      "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "【書評】Practical Cloud Security",
+      "link": "https://qiita.com/io0323/items/a2320858184985e549ef",
+      "summary": "はじめに\nクラウドを前提としたシステム設計が当たり前になった一方で、「クラウドのセキュリティを体系的にどう考えればいいのか」を整理できている人は意外と多くありません。今回は、クラウドセキュリティの考え方を一冊で俯瞰できる技術書として知られる『Practical Cloud...",
+      "published": "2026-07-31T15:02:54+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AWS Network Firewallを触ったことがなかったので、$1で修行してきた",
+      "link": "https://qiita.com/news_it_enj/items/8f3c9866c033006092a9",
+      "summary": "JAWS-UG東京支部のLT会「AWS新オフィスでやっていき宣言LT会！」で、「Network Firewallやっていき！」というタイトルで登壇してきました。\n\nサービスの概要やコスト、TGWネイティブ統合といった話はスライドを見ていただくとして、この記事では検証部...",
+      "published": "2026-07-31T13:45:49+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "ECS Execを対話形式でラクに使うシェルスクリプト「ecs-gangway」を作った",
       "link": "https://qiita.com/st-man-hori/items/04717e40fbf9637178b5",
       "summary": "はじめに\nECS Execは、稼働中のECSタスクのコンテナに直接入れる便利な機能だが、実際に使うときのコマンドは以下のように長い。\naws ecs execute-command \\\n    --cluster my-cluster \\\n    --task 12345...",
       "published": "2026-07-31T12:43:33+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "GMOコインFX自動売買の非常停止(Kill Switch) — ロックではなく冪等性で二重決済を防ぐ設計",
-      "link": "https://zenn.dev/ozapon/articles/gmo-fx-kill-switch-idempotency",
-      "summary": "TL;DR\n\n自動売買システムの非常停止(Kill Switch)は手動起動のため、定時バッチと同時に走り得ます。この重なりを排他ロックではなく冪等性で吸収する設計にしました\n柱は3つ。毎回サーバから建玉・注文を再取得してから動く(2回目の実行は自然に no-op になる)、「建玉なし」エラーの no-op 吸収は実測確認済みコードの完全一致のみ(確認できるまで許可リストは空 = すべて失敗扱い)",
-      "published": "2026-07-31T12:01:57+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "CodePipelineのマルチアカウント設計 ― Toolsアカウント・クロスアカウント・環境判別",
-      "link": "https://qiita.com/ham-nao/items/e4b2b245e65842be45a8",
-      "summary": "前回はAWS Configによる「非準拠の検知と自動修復」を扱いました。今回は視点をパイプライン側に移し、CodePipelineを複数のAWSアカウントにまたがって設計する際の考え方を整理します。dev/stg/prodを分離する組織であれば、ほぼ必ず向き合うことになるテ...",
-      "published": "2026-07-31T12:01:37+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
@@ -200,15 +209,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "2026 Japan All AWS Certifications Engineers に 選出されました",
-      "link": "https://qiita.com/dctsatopy/items/2057e0568c5af953c874",
-      "summary": "Japan All AWS Certifications Engineers とは\n下記、AWSブログの記事から抜粋\n2026 Japan All AWS Certifications Engineers の発表\n\n「Japan All AWS Certification...",
-      "published": "2026-07-31T08:48:07+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "LLM-jp-Moshi-v1 を AWS EC2 と SSM ポートフォワードで安全に検証してみる",
       "link": "https://zenn.dev/aiforall/articles/62033499230934",
       "summary": "はじめに\n従来の音声対話システムでは、ユーザーの発話を受け取ってから応答を生成・読み上げる構成が多く、会話中の割り込みや相槌のような自然なやり取りが難しいという課題があります。そこで LLM-jp-Moshi-v1  を AWS の GPU EC2 上で起動し、手元のブラウザから full-duplex 音声対話 (送信と受信を同時に行える音声対話) を試してみました。\n本記事では、次の 2 点を",
@@ -227,15 +227,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "AWS CDK と CI/CD を ゼロから理解する資料",
-      "link": "https://qiita.com/enegoro/items/8ae7face61588ea0e81d",
-      "summary": "第0章 この資料のゴール\nあなたが最終的に「なるほど！」と言えるようにしたいのは、次の1文です。\n\n「TypeScript で書いたコードを cdk deploy すると、AWS 上にサーバーやデータベースが自動で建ち、\nその後はコードを Git に push するだけ...",
-      "published": "2026-07-31T08:40:20+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "LLMに非構造テキストをタグ化させたら平然と推測で埋めてきたので、コードで止めた",
       "link": "https://zenn.dev/hosa97/articles/573498e28626d1",
       "summary": "個人開発で「愛犬と泊まれる宿を条件で絞り込むアプリ」を作りかけて、データを126件集めた時点でボツにしました。\nプロダクトとしては失敗ですが、途中で踏んだ地雷が全部再利用できる知見だったので技術面だけ切り出して残します。\n企画面の話は note のほう に書きました。この記事は実装の話だけです。\n\n やろうとしていたこと\n宿の「ペット同伴可」は、実際には条件が細かく分かれます。\n\n食事はレストラン",
@@ -250,15 +241,6 @@
       "summary": "claude -p をワーカーから大量に叩く構成（AIエージェントを常駐させる系）を作っていて、コストが気になったので実測しました。結果、自分が想定していた削りどころが全部ハズレでした。\n\n 結論\n\n\nclaude -p は1回の呼び出しにつき固定で約29,000トークン積まれる。返事が6トークンでも変わらない\n\nプロンプトを削っても効果はほぼゼロ。CLAUDE.md（13KB）を読ませない空フォ",
       "published": "2026-07-31T08:35:30+00:00",
       "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AIエンジニアが技術書の外に出るべき理由と、読んでおきたい5冊",
-      "link": "https://zenn.dev/koukyo/articles/20260731_ai_engineer_beyond_tech_books_5",
-      "summary": "はじめに\n自分がAI関連の仕事を始めて2年目くらいのとき、社内でちょっとした事件があった。精度も推論速度も十分なモデルを本番環境にデプロイしたのに、現場のオペレーターが誰も使ってくれない。ダッシュボードのログを見ると、初回アクセスから3日後にはアクティブユーザーがゼロになっていた。\n原因を探ると、出力の意味がわからない、どう業務に組み込めばいいか見当がつかない、という声ばかりだった。技術的にはうま",
-      "published": "2026-07-31T08:25:05+00:00",
-      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -297,15 +279,6 @@
       "source": "ITmedia AI+",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "今度はムンバイだ！Google Cloudだ！240 GPUのSlurmクラスタを2週間で立ち上げ、4か月運用してみてわかった話",
-      "link": "https://zenn.dev/turing_motors/articles/fd34d82e0e56d7",
-      "summary": "はじめに\nTuringのインフラチームで、クラウドGPUクラスタの構築・運用を担当している大戸（おおど）です。前回の記事を書いた当時はMLOpsチームに所属していましたが、兼務期間を経て、現在はインフラチームの専任になりました。\nGoogle Cloud Next Tokyo 26では、CTOの山口が「End-to-End 自動運転開発を加速するデータ - セントリックな GPU 計算基盤」を発表",
-      "published": "2026-07-31T08:12:55+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "AIが作った変更を、私は何を見て本番承認するのか",
@@ -353,13 +326,13 @@
       "color": "#10A37F"
     },
     {
-      "title": "MixUpのalphaを上げたら精度が下がった話｜confidenceは理論通り、精度は逆だった",
-      "link": "https://zenn.dev/wasurenamemo/articles/ca6f64ae5f1fba",
-      "summary": "!\nこの記事は以下のブログ記事の要約版です。全コード・グラフ・詳しい考察は元記事をご覧ください。\n→ MixUpのalpha値を変えると効果はどう変わる？（α=0.1 vs 0.2 vs 0.4 vs 1.0）\n\n\n 「MixUpは精度を上げる」の逆をいく結果に\nMixUpの混合の強さを決めるalphaを0（なし）・0.1・0.2・0.4・1.0の5段階で比較しました。ベースラインはシリーズ標準構",
-      "published": "2026-07-31T06:59:56+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
+      "title": "July 31, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#July_31_2026",
+      "summary": "Datastream\nFeature\nYou can now replicate change data from Workday with Datastream.\nFor more information, see\nStream data from Workday.\nThis feature is in\nPreview.",
+      "published": "2026-07-31T07:00:00+00:00",
+      "source": "Google Cloud リリースノート",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "AIを分業させて「自動分析ツール」を簡単に作ろう",
@@ -387,6 +360,15 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "Claude Code の Skill を eval 駆動で開発したら「効くのは検出力じゃなかった」",
+      "link": "https://zenn.dev/box2box/articles/eval-driven-skill-development",
+      "summary": "結論 / TL;DR\nClaude Code の Skill（SKILL.md）を「なんとなく良さそう」で育てるのをやめて、eval 駆動に切り替えました。具体的には次の3点セットです。\n\n\n仕込みフィクスチャ — 既知の欠陥を1つだけ埋めた小さなプロジェクトを14ケース用意する\n\nwith / without の A/B — 同じ入力を「Skill あり」と「素の Claude」の両方で走らせ、",
+      "published": "2026-07-31T06:17:47+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "[機械学習]Sumノードの逆伝播についてわかりやすく",
@@ -623,15 +605,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "ChatGPTが作家の文体模倣を断る事例。一次資料で確認できる範囲と2つの観測の矛盾を整理",
-      "link": "https://qiita.com/quotidia/items/562160fae40ee0fc1974",
-      "summary": "本記事は筆者が運営する AI Quotidia の海外ニュース解説記事です。\n\nChatGPTに「特定の作家の文体で書いてほしい」と頼むと断られる、という応答が観測されています。\n\n要点\n\nOpenAIはこの挙動について説明も告知もしておらず、Ars Technicaの取...",
-      "published": "2026-07-30T23:53:29+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "【Next Tokyo '26】セッションレポート：AIが変えるサイバー空間における攻撃と防御の最前線",
       "link": "https://zenn.dev/densan_techblog/articles/6aaa01f17b284a",
       "summary": "はじめに\n2026年7月30日～31日にかけて、東京ビッグサイトにてGoogle Cloud Next Tokyo '26が開催されました。\n本記事は、Day1に行われたセッション「AIが変えるサイバー空間における攻撃と防御の最前線」のレポートです。\n本セッションは、Mandiantの2名による対談形式で行われました。\n\n中村祐 氏：Mandiant コンサルティング プリンシパルコンサルタント",
@@ -758,6 +731,15 @@
       "color": "#4285F4"
     },
     {
+      "title": "DynamoDB Streams + EventBridge Pipes で実現するマルチテナントのログ後処理",
+      "link": "https://zenn.dev/ukintech/articles/dynamodb-streams-eventbridge-pipes",
+      "summary": "はじめに\nマルチテナントのシステムでは、テナントごとにDynamoDBテーブルを分離するケースがあります。テナントが増えるたびにテーブルが増え、それぞれのテーブルに対してログの後処理（通知やイベント生成など）を行う必要が出てきます。\nこの記事では、DynamoDB Streams と EventBridge Pipes を組み合わせて、複数テナントのログテーブルから1つのLambdaに集約する「フ",
+      "published": "2026-07-30T13:00:04+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "AWS CDK の爆速版『cdkd』と Terraform を速度比較してみた",
       "link": "https://zenn.dev/go_to_k/articles/cdkd-vs-terraform",
       "summary": "AWS CDK の爆速版 CLI ツールである『cdkd』と AWS CDK CLI (CloudFormation) との速度比較は以前したのですが、今回は Terraform との速度比較をしてみました。\n\n cdkd とは\n『cdkd (CDK Direct)』は、AWS CDK CLI を フルスクラッチで作り直して、デプロイを 最大 15 倍 まで速くできるようにした OSS のツールで",
@@ -774,6 +756,15 @@
       "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "個人用家計簿アプリ開発日記 Part2 モダンデータスタックへの移管",
+      "link": "https://zenn.dev/zekeynn/articles/a5e2a7955e166c",
+      "summary": "!\nこの記事ではいくつか画像を貼り付けていますが、圧縮され多少読みにくいです。\nhttps://github.com/kawawan/zenn_pictures_zekeynn-articles-a5e2a7955e166c\nこちらのリポジトリに画像をアップしています。\n\nPart1 → https://zenn.dev/zekeynn/articles/b680a6c91061e5\nPart2",
+      "published": "2026-07-30T10:26:42+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "【ボランティア​スタッフ】KubeCon + CloudNativeCon Japan 2026",
@@ -839,6 +830,15 @@
       "color": "#FF9900"
     },
     {
+      "title": "【技術解説】【完全ガイド】Backtraderを活用したPythonによる精度の高い金融バックテスト手法",
+      "link": "https://zenn.dev/sugarfree/articles/e38090e5ae8ce585a8e382ace382a4e38389e38091bac",
+      "summary": "【完全ガイド】Backtraderを活用したPythonによる精度の高い金融バックテスト手法\n金融市場での予測は複雑で、正確なモデルを構築することは非常に困難です。投資戦略を運用する前にその効果を検証することは不可欠ですが、手動でのバックテストは時間がかかり、エラーが生じるリスクが高くなります。本ガイドでは、Pythonを用いて高精度なバックテストを実現するフレームワーク「Backtrader」を",
+      "published": "2026-07-30T02:00:32+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "AWS Nitro Isolation Engine: AWS Nitro System におけるハイパーバイザーの形式的検証",
       "link": "https://aws.amazon.com/jp/blogs/news/aws-nitro-isolation-engine-formally-verifying-the-hypervisor-in-the-aws-nitro-system/",
       "summary": "AWS Nitro System のハイパーバイザー内で分離を実施する専用コンポーネント「AWS Nitro Isolation Engine」の一般提供を Graviton5 ベースのインスタンスで開始しました。形式的検証により、機密性と完全性、機能的正確性、ランタイムエラーの不在、メモリ安全性という 4 つの特性を数学的に証明し、形式的に検証された初のクラウドハイパーバイザーを実現します。Ru",
@@ -882,6 +882,15 @@
       "source": "Zenn - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "生成モデルとは？識別モデルとの違いを整理",
+      "link": "https://zenn.dev/h888s/articles/genai-generative-model",
+      "summary": "「生成AI」という言葉の中心にあるのが「生成モデル」です。生成AIパスポート試験で問われる基礎概念であり、LLMや画像生成AIなど話題のモデルを理解するうえでの土台となります。本記事では、生成モデルの定義と、混同しやすい関連用語との違いを整理します。\n\n 生成モデルとは\n生成モデルとは、学習データの分布を学習し、それに似た新しいデータを生成できるモデルの総称です。\nポイントは2つあります。\n\n学習",
+      "published": "2026-07-29T22:58:59+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "KubernetesはAIを動かすプラットフォームに。横浜でKubeCon＋CloudNativeCon Japan 2026が開幕",
@@ -1158,15 +1167,6 @@
       "link": "https://docs.cloud.google.com/release-notes#July_22_2026",
       "summary": "Access Approval\nFeature\nPrivileged Access Manager is available in\nPreview.\nAccess Transparency\nFeature\nPrivileged Access Manager is available in\nPreview.\nGemini Enterprise\nFeature\nGemini Enterprise: S",
       "published": "2026-07-22T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "July 21, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#July_21_2026",
-      "summary": "Anthos Attached Clusters\nAnnouncement\nYou can now launch clusters with the following Kubernetes versions. Click on the following links to see the release notes associated with these patches:\n\n1.35.0-g",
-      "published": "2026-07-21T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
