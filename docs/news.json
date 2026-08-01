@@ -1,12 +1,66 @@
 {
-  "updated": "2026-08-01T12:59:30.137786+00:00",
+  "updated": "2026-08-01T15:54:11.955737+00:00",
   "items": [
+    {
+      "title": "Twitter API(Go)をAWS ECS Fargateへデプロイする手順",
+      "link": "https://qiita.com/sue-hc/items/e386e44ee59d84a80cd8",
+      "summary": "この記事では、Goで作成したTwitter風APIを、次の構成でAWSへデプロイします。\n\n構成\nAmazon ECS Fargate\nApplication Load Balancer\nマルチAZ\nAurora PostgreSQL Serverless v2\nElas...",
+      "published": "2026-08-01T15:27:45+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "【AWS Systems Manager】Session Manager でEC2に接続する",
+      "link": "https://qiita.com/hcs1996rbl/items/43191a4a2608a63038f9",
+      "summary": "はじめに\nEC2をパブリックサブネット → プライベートサブネットに移設した。\nプライベートサブネットにはインターネットへアクセスするための設定がない。\nローカル環境(Windows Subsystem for Linux)からEC2のグローバルIP宛てにSSHで接続して...",
+      "published": "2026-08-01T15:19:30+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "【前編】これまでのキャリアの棚卸し ― 運用管理からクラウドエンジニアを目指して",
+      "link": "https://zenn.dev/hitakaha/articles/849fdaedab1c28",
+      "summary": "◇はじめに\nこれまで本ブログでは、AWS SAAの学習ログを中心に発信してきました。\n特に先月はSAAの学習に専念していたことで、学習要素が中心となっておりましたが、今回は少し趣向を変えて、私が現職で積み重ねてきた経験と、身につけてきたスキルを棚卸ししてみます。\n私は現在、BPO・コールセンター運営の領域で、運用管理および業務責任者として働いています。\n一見するとクラウドエンジニアリングとは遠い経",
+      "published": "2026-08-01T14:01:11+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "ガバメント AI 源内（genai-web）を Entra ID シングルサインオン + カスタムドメインで運用する",
+      "link": "https://qiita.com/takeda_h/items/74e0d6802dafeda4a7b1",
+      "summary": "ガバメント AI 源内の AI インターフェース（genai-web）は、ユーザー認証に Cognito を使っており、デフォルトではメールアドレスを使ったパスワード認証をするようになっています。\ngenai-web は SAML で外部 IdP からシングルサインオンでき...",
+      "published": "2026-08-01T13:27:50+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "7. LangChainでLLMアプリを部品化してみる",
       "link": "https://qiita.com/bahamutra/items/7536c2029a7b53758972",
-      "summary": "NMS開発者がLLMブートキャンプで学んだこと\n← 前回 ｜ [次回 →]\n前回は、RAG を「検索して、見つけた文書を LLM に渡して、回答する仕組み」として整理しました。\nただし、実際に RAG を少し書いてみると、LLM を呼ぶ前後の処理が思ったより多いことに気づ...",
+      "summary": "連載： NMS開発者がLLMブートキャンプで学んだこと\n← 前回 ｜ [次回 →]\n前回は、RAG を「検索して、見つけた文書を LLM に渡して、回答する仕組み」として整理しました。\nただし、実際に RAG を少し書いてみると、LLM を呼ぶ前後の処理が思ったより多いこ...",
       "published": "2026-08-01T12:58:54+00:00",
       "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AWSのルートテーブルの “local” は connected ルートの代替でした",
+      "link": "https://zenn.dev/infra_kaneki/articles/7f4ad83e5f524e",
+      "summary": "AWS全冠を取った直後にオンプレ案件へ放り込まれた、新卒3年目のSIerインフラエンジニアです。\nこのシリーズは「AWSとオンプレの比較」が目的ではありません。ネットワーク設計者が現場で何を考えているかを、自分の失敗ごと言語化していきます。\n\n\n 1. 消せない local、ずっと「おまじない」だと思っていた\nAWSのルートテーブルを開くと、いつも一番上にいる行があります。10.0.0.0/16",
+      "published": "2026-08-01T12:19:17+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AIに「もっと速く約定させろ」と命じたら、検証機構が改善案を全却下した",
+      "link": "https://zenn.dev/blonded_gaeul/articles/ai-build-in-public-002",
+      "summary": "「速くしろ」と命じたら、AIが「やめておけ」と止めた\nAIにトレードbotを作らせ、AI自身に改善させる——その実験の記録の第2回だ。今回は「約定を速く増やせ」という私の指示に対して、AI側の検証機構が「その改善はエッジを殺す」と判断し、用意した改善案を一つも採用しなかったラウンドの顛末を書く。急ぐことが優位性を殺す、という逆説の話だ。\n先に前回同様の白状をしておく。この記事もAI（Claude",
+      "published": "2026-08-01T12:14:32+00:00",
+      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -29,6 +83,15 @@
       "color": "#326CE5"
     },
     {
+      "title": "材料データの Scaler／変換——X と y を混同しない",
+      "link": "https://zenn.dev/efta1989/articles/scaler-transforms-for-materials",
+      "summary": "はじめに：Standard をかけたら、精度が落ちた\n材料の表データで、温度・圧力・時間・組成のように単位も桁も違う列を並べることは日常である。距離や正則化を使うモデルでは、そのままでは大きい軸が支配する。そこで出てくるのが StandardScaler や RobustScaler だ。\nところが、特徴量 X に測定スパイクのような外れ値を混ぜた擬似データで k 近傍回帰（kNN）を回すと、次の",
+      "published": "2026-08-01T11:55:12+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "システムプロンプトは、なぜ強いのか──優先順位の正体と、破られ方",
       "link": "https://qiita.com/ha-te/items/55db57e25384418ec290",
       "summary": "はじめに\nCoT、Few-shot、ロールプロンプト、温度ときて、今回はシステムプロンプトです。「システムプロンプトの方がユーザーの発言より強い」——多くの人が当然のように信じているこの話、実は一度も機構レベルで説明されていませんでした。\n第8回（GPT化の罠）・第9回（...",
@@ -45,6 +108,24 @@
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "AIに仮想通貨トレードとアプリ開発をやらせてみる — ここまでの利益、0円",
+      "link": "https://zenn.dev/blonded_gaeul/articles/ai-build-in-public-001",
+      "summary": "労働集約から降りることにした\n受託開発と研修。AIエージェントの時代に食っていく方法として真っ先に思いつく2つだが、どちらも本質は時間の切り売りだ。単価が上がっても、私の時間が上限になる。\nナヴァル・ラヴィカントの言う「レバレッジ」——コードとメディアは、寝ている間も勝手に働く。許可もいらない。というわけで、時間を切り売りしない2つの実験を並走させている。\n\nAIに仮想通貨のトレードbotを作らせ",
+      "published": "2026-08-01T11:19:53+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "TerraformでAWS API Gatewayをコード化してみる",
+      "link": "https://zenn.dev/markreo/articles/8c71401dce0d56",
+      "summary": "はじめに\n前回はAWSコンソール（GUI）を使って、API GatewayとLambdaを連携させる構成を構築しました。\nAWSコンソールで構築すると仕組みは理解しやすい反面、\n\n手順が残らない\n同じ環境を再現しづらい\nレビューができない\n\nといった課題があります。\nそこで今回は、前回AWSコンソールで構築した内容をTerraformでコード化し、\nInfrastructure as Code（以",
+      "published": "2026-08-01T10:19:46+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "TerraformでAWS API Gatewayをコード化してみる",
@@ -65,20 +146,20 @@
       "color": "#4285F4"
     },
     {
-      "title": "【AWS】Managed Knowledge Baseでの検索フィルターを確認しました",
-      "link": "https://qiita.com/yakumo_09/items/e3442f0e25976aa73afe",
-      "summary": "はじめに\nManaged Knowledge Baseと検索フィルターを組み合わせていろいろ試してみました。\nGateway の Interceptor で検索リクエストを書き換えれば、検索の時点で絞り込めるはず。そう思って試したら、思っていたより制約が多かったので書き残...",
-      "published": "2026-08-01T09:59:21+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "Mixed Precisionは本当に速い？CIFAR-10で検証したら「速度よりメモリ」だった",
+      "link": "https://zenn.dev/wasurenamemo/articles/2640d2252c74d4",
+      "summary": "!\nこの記事は以下のブログ記事の要約版です。実験コード・グラフ・詳細な考察は元記事をご覧ください。\n👉 Mixed Precision（半精度学習）で精度は変わる？速度とのトレードオフをCIFAR-10で検証【Keras実験】\n\nMixed Precisionは「2〜3倍速くなる」と紹介されることが多いですが、CIFAR-10・Conv2D×2層の小規模CNNで検証したところ、速度向上は13%程度",
+      "published": "2026-08-01T09:46:10+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
-      "title": "【ご報告】2026 Japan AWS Jr.Champions 選出",
-      "link": "https://qiita.com/somasun_aws/items/153a716cd4f0518b3f6d",
-      "summary": "ご報告\n少し時間が空いてしまいましたが、\n先日開催されたAWS Summit Japan 2026\nそしてAPN Blogでも発表いただいた通り、\n「2026 Japan AWS Jr.Champions」に選出いただきました。\n\nhttps://aws.amazon....",
-      "published": "2026-08-01T09:31:13+00:00",
-      "source": "Qiita - AWS",
+      "title": "Terraform × AWS監視基盤②(RDS / NAT Gateway / ログ転送)",
+      "link": "https://zenn.dev/aws_iac_notes/articles/eda5579e3d083a",
+      "summary": "1. はじめに\n前編では、Terraformで追加したCloudWatchアラームのうち、EC2・ALB系の動作確認を行いました。\n後編では、実負荷での再現が難しいRDS・NAT Gatewayのアラーム確認と、開発中に発生したRDSアラームのTerraform化トラブルに加え、監視基盤の後半にあたるログ収集基盤（logsモジュール）の設計意図と、CloudWatch Logs / ALBアクセス",
+      "published": "2026-08-01T09:27:28+00:00",
+      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -92,29 +173,11 @@
       "color": "#326CE5"
     },
     {
-      "title": "私のコーディングエージェントの使い方",
-      "link": "https://qiita.com/kenken38/items/ccd546ebdbc9b37066f6",
-      "summary": "はじめに\n\nこの記事は全て人間が書いています。\nそしてこの記事には、当たり前すぎる内容しか書かれていないかもしれません。\n\nはじめまして、@kenken38です。\n普段は AI エンジニアとして、国内大手SIer にて AI 駆動開発や AI-Ready Engine...",
-      "published": "2026-08-01T08:48:44+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "ローカル開発環境なしで、ChatGPTに試験対策アプリを開発してもらった話",
       "link": "https://qiita.com/SioComb/items/1d39891e8ab9126a78ce",
       "summary": "この記事について\nPython実践試験の対策アプリを、通勤電車の中でChatGPTに作らせた話です。\n要するに、開発環境はiPhoneです（笑）\n設計、開発、テスト、デプロイは、ほぼすべてChatGPTに任せました。\n私が担当したのは、企画、仕様決定、実機テスト、Chat...",
       "published": "2026-08-01T08:02:23+00:00",
       "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "GPT-5.6 Luna が80%値下げ。個人開発のAI原価を計算し直す",
-      "link": "https://zenn.dev/kairosai/articles/d9175a099d3f67",
-      "summary": "何が起きたか\n2026-07-30、OpenAI が GPT-5.6 ファミリーの API 価格を改定した。\n\n\n\nモデル\n入力 (/1M tok)\n出力 (/1M tok)\n変化\n\n\n\n\nGPT-5.6 Sol\n$5.00\n$30.00\n据え置き\n\n\nGPT-5.6 Terra\n$2.00\n$12.00\n約20%↓ ($2.50/$15)\n\n\nGPT-5.6 Luna\n$0.20\n$1.20",
-      "published": "2026-08-01T07:46:41+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -153,6 +216,15 @@
       "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "S3 Event NotificationsのAWS生成タグで文書処理フローをシンプルにする",
+      "link": "https://zenn.dev/the_exile/articles/s3-event-notifications-system-generated-tags",
+      "summary": "はじめに\n2026年7月、Amazon S3 Event Notificationsに、S3バケットへ付与されたAWS生成タグ（system-generated tags）が含まれるようになりました。\nAWS生成タグとは、CloudFormationなどのAWSサービスが自動的に付与するメタデータです。たとえば、CloudFormationで作成したS3バケットには次のような情報が付与されます。",
+      "published": "2026-08-01T05:51:35+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "ALBアクセスログをCloudWatch Logsへ直接配信してみる",
@@ -202,7 +274,7 @@
     {
       "title": "無料・個人ではじめるアクセスログ解析基盤 ― AWS×Cloudflareで訪問者を挙動から見に行く",
       "link": "https://zenn.dev/muzzledskr/books/access-log-analytics",
-      "summary": "個人ブログの無料スタック(Cloudflare無料ログ + S3 + dbt + GA4)で、アクセスログ解析から人間/bot分類、SLIまでを実測で作る連載。無料でどこまで見えるかの「到達点」を公開。",
+      "summary": "個人ブログの無料スタック(Cloudflare無料ログ + S3 + dbt + GA4)で、アクセスログ解析から人間/bot分類、SLIまでを実測で作る連載。無料でどこまで見えるかの「到達点」を公開しています。",
       "published": "2026-08-01T04:07:02+00:00",
       "source": "Zenn - AWS",
       "tag": "AWS",
@@ -389,6 +461,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "Microsoft Agent Framework Harness とは — LLM を自律エージェントに変える実行基盤",
+      "link": "https://zenn.dev/withnextdotnet/articles/microsoft-agent-framework-harness",
+      "summary": "Microsoft は 2026 年 7 月、Microsoft Agent Framework の新機能 Agent Harness の一般提供を発表しました。単体ではテキストを返すだけの LLM を、ツールを使い・計画を立て・記憶を保ちながら多段タスクをこなす自律エージェントへ引き上げる実行基盤です。\n弊社技術ブログ WithNext.NET で、ハーネスが何を解決し・内部でどう動き・.NET",
+      "published": "2026-07-31T18:17:26+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "メビウスの輪には裏表がない。次元削減で平らに広げたら、どこかを潰すしかなかった",
       "link": "https://zenn.dev/shakeailab/articles/mobius-strip-unfolding",
       "summary": "紙テープを半回転ひねって輪にすると、メビウスの輪ができる。表面を指でなぞっていくと、いつの間にか「裏側」に来ていて、一周半でスタート地点に戻る。裏表の区別がない面——数学では「向き付け不可能」と呼ぶ。\nスイスロールは綺麗に展開でき、穴あきでも大域構造は保たれ、結び目はほどけた。ではメビウスの輪はどうか。この面は、切らずに平面へ広げることが原理的にできない。次元削減アルゴリズムたちは、この不可能な要",
@@ -452,15 +533,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "GMOコインFX自動売買の非常停止(Kill Switch) — ロックではなく冪等性で二重決済を防ぐ設計",
-      "link": "https://zenn.dev/ozapon/articles/gmo-fx-kill-switch-idempotency",
-      "summary": "TL;DR\n\n自動売買システムの非常停止(Kill Switch)は手動起動のため、定時バッチと同時に走り得ます。この重なりを排他ロックではなく冪等性で吸収する設計にしました\n柱は3つ。毎回サーバから建玉・注文を再取得してから動く(2回目の実行は自然に no-op になる)、「建玉なし」エラーの no-op 吸収は実測確認済みコードの完全一致のみ(確認できるまで許可リストは空 = すべて失敗扱い)",
-      "published": "2026-07-31T12:01:57+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "Proxmox上のhome lab k8sにAzure Arcを入れると何が変わるのか",
       "link": "https://zenn.dev/yotan/articles/azure-arc-home-k8s-monitor",
       "summary": "はじめに\n以前、自宅のk3sクラスタをAzure Arcに接続してみた【初期設定編】 という記事を書きました。\nあの記事では、Azure Arc enabled Kubernetes にクラスタを接続するところまでを扱っています。\n今回はそれを kubeadm ベースの home lab クラスタで改めてやり直しながら、「Arc を入れると実際に何が変わるのか」 を正直に書いていきます。\n結論を先",
@@ -515,15 +587,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "ECS Execを対話形式でラクに使うシェルスクリプト「ecs-gangway」を作った",
-      "link": "https://zenn.dev/orisend/articles/ecs-gangway-interactive-exec",
-      "summary": "はじめに\nECS Execは、稼働中のECSタスクのコンテナに直接入れる便利な機能だが、実際に使うときのコマンドは以下のように長い。\naws ecs execute-command \\\n    --cluster my-cluster \\\n    --task 1234567890abcdef1234567890abcdef \\\n    --container my-container \\",
-      "published": "2026-07-31T09:48:51+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "キオクシア、株価3分の1急落は「絶好のタイミング」　過去最高益と8000億円自社株買いで示す自信",
       "link": "https://www.itmedia.co.jp/business/articles/2607/31/news108.html",
       "summary": "キオクシアHDは、2026年4～6月のNon-GAAP営業利益が1兆3262億円で、直近1年間の営業利益を上回ったと説明した。7～9月の売上収益は、2兆3900億円を見込む。経営幹部からは力強い言葉が続いた。",
@@ -542,15 +605,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "AWS  API GatewayをGUIで構築して仕組みを理解してみる",
-      "link": "https://zenn.dev/markreo/articles/bbd48a9ee99aa9",
-      "summary": "はじめに\nモノレポ（Turborepo）での開発には慣れていたのですが、ある案件で AWS API Gateway を利用した構成を目にしました。\nその時、正直こう思いました。\n\n「API Gatewayってどんな時に使うの？」\n「フロントエンドからAPIを直接呼べるのに、わざわざ間に挟む必要ある？」\n「結局何が嬉しいの？」\n\nAWSのドキュメントを読んでも概念的な説明が多く、実際にどういう場面で",
-      "published": "2026-07-31T09:16:42+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "terraform import コマンドと import ブロックの違い ― よく使うstate を書き換える操作を整理する",
       "link": "https://zenn.dev/meirai/articles/f6551e2a1fb3ef",
       "summary": "terraform import コマンドと import ブロックの違い\nTerraformを利用していると、terraform import コマンドや import ブロックのような、コマンドもブロックもある機能に遭遇します。\nこれらは、state に反映されるタイミングが違います。\n「即時に state を書き換えるコマンド」と「plan → apply のフローに乗せる宣言的な手段（tf",
@@ -564,27 +618,9 @@
       "link": "https://zenn.dev/loncess/articles/b3480c91b3fc2a",
       "summary": "この記事の結論\nCloudFront + WAF構成でメンテナンスページを出そうとしたら、WAFのcustom_responseで返した503はCloudFrontのcustom_error_responseを発動させないという仕様に引っかかりました。\n最終的にはWAFのcustom_response_bodyだけで完結する方式に落ち着きました。制約は「HTMLを4KB以内に収める」こと。代わりに",
       "published": "2026-07-31T09:00:03+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "WAFの503がCloudFrontに無視される——メンテナンスページで踏んだ罠と最終設計",
-      "link": "https://zenn.dev/loncess/articles/b3480c91b3fc2a",
-      "summary": "この記事の結論\nCloudFront + WAF構成でメンテナンスページを出そうとしたら、WAFのcustom_responseで返した503はCloudFrontのcustom_error_responseを発動させないという仕様に引っかかりました。\n最終的にはWAFのcustom_response_bodyだけで完結する方式に落ち着きました。制約は「HTMLを4KB以内に収める」こと。代わりに",
-      "published": "2026-07-31T09:00:03+00:00",
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "LLM-jp-Moshi-v1 を AWS EC2 と SSM ポートフォワードで安全に検証してみる",
-      "link": "https://zenn.dev/aiforall/articles/62033499230934",
-      "summary": "はじめに\n従来の音声対話システムでは、ユーザーの発話を受け取ってから応答を生成・読み上げる構成が多く、会話中の割り込みや相槌のような自然なやり取りが難しいという課題があります。そこで LLM-jp-Moshi-v1  を AWS の GPU EC2 上で起動し、手元のブラウザから full-duplex 音声対話 (送信と受信を同時に行える音声対話) を試してみました。\n本記事では、次の 2 点を",
-      "published": "2026-07-31T08:41:33+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "AIエンジニアが技術書の外に出るべき理由と、読んでおきたい5冊",
@@ -659,15 +695,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "MixUpのalphaを上げたら精度が下がった話｜confidenceは理論通り、精度は逆だった",
-      "link": "https://zenn.dev/wasurenamemo/articles/ca6f64ae5f1fba",
-      "summary": "!\nこの記事は以下のブログ記事の要約版です。全コード・グラフ・詳しい考察は元記事をご覧ください。\n→ MixUpのalpha値を変えると効果はどう変わる？（α=0.1 vs 0.2 vs 0.4 vs 1.0）\n\n\n 「MixUpは精度を上げる」の逆をいく結果に\nMixUpの混合の強さを決めるalphaを0（なし）・0.1・0.2・0.4・1.0の5段階で比較しました。ベースラインはシリーズ標準構",
-      "published": "2026-07-31T06:59:56+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "研究者10万人にOpenAI「最上位モデル」無料提供へ　日本でも東大、京大など15大学が対象",
       "link": "https://www.itmedia.co.jp/aiplus/article/2607/31/2000000333/",
       "summary": "OpenAIが学術研究者10万人に「ChatGPT」の最上位モデルを無料提供するプログラムを発表した。今夏に1万人から提供を始め、2027年までに10万人規模へ拡大する。日本でも東京大学、京都大学、東京科学大学、早稲田大学、慶應義塾大学など15の大学が対象機関となっている。",
@@ -684,15 +711,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "[機械学習]Sumノードの逆伝播についてわかりやすく",
-      "link": "https://zenn.dev/kawarin_origami/articles/matrix-sum-backward-20260731",
-      "summary": "はじめに\nゼロから作るDeep Learning2のコードのSumノードの逆伝播のコードの理解が浅かったため、\nわかりやすく説明できるようにしました。\nちなみに該当コードは以下の部分です。(N,T,H)の形状であるtがSumノードを通し、(N,T)形状のsに変換される例です。\ndt = ds.reshape(N, T, 1).repeat(H, axis=2)\n\n 対象読者\n\nぜろつく2の逆伝播の",
-      "published": "2026-07-31T05:39:51+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "AIの限界は頭脳ではなく、電気と冷却にあった【宇宙のデーターセンターって何？】",
@@ -794,15 +812,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "【技術解説】【完全ガイド】XGBoostを用いた特徴量重要度の算出と株価予測の実装",
-      "link": "https://zenn.dev/sugarfree/articles/e38090e5ae8ce585a8e382ace382a4e38389e38091xgb",
-      "summary": "XGBoostによる株価予測と特徴量重要度の算出\n近年、金融市場でのアルゴリズムトレーディングが広がりを見せている中、データ分析や機械学習を用いた株価予測手法が注目されています。本記事では、PythonのライブラリであるXGBoostを用いて特徴量重要度を算出し、株価予測を実装する方法について解説します。この手法を通じて、データサイエンスを活用した投資戦略の構築に向けたステップを学びましょう。",
-      "published": "2026-07-31T02:00:37+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "【Google Cloud Next Tokyo 26 補足記事】「それやっておいたよ」感を生むエージェント設計の勘所",
       "link": "https://zenn.dev/kikuriyou/articles/2606260725_coach-egent",
       "summary": "!\nこの記事は Google Cloud Next Tokyo 26 で発表した 「それやっておいたよ」感を生むエージェント設計の勘所 の補足記事です。発表では時間の都合で話せなかった内容も含めてまとめています。\n\n\n TL;DR\nロードバイク用のライド分析アプリ PerfRide のコーチエージェントを主に 3 つのアプローチで設計改善しました。\n\n\nコンテキスト最適化\nグラウンディングを、自由",
@@ -810,15 +819,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "AIを勉強するのに役立つサイト100選（2026年版）",
-      "link": "https://zenn.dev/phinata/articles/ai-learning-site-100",
-      "summary": "AIを学ぶリソースは急増しているが、「とりあえず検索したらたくさん出てきて何から見ればいいか分からない」という状態になりがちです。この記事では、公式ドキュメント・オンライン講座・論文サービス・ビジュアル教材・日本語コミュニティまで、分野ごとに100サイトまとめました。\n全部で100サイト。リンクはすべて2026年7月に到達を確認している。上から順番に読む必要はないので、今の自分の状況に近い見出しへ",
-      "published": "2026-07-31T01:44:11+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "スクエニ、ゲームの品質テストをGeminiで自動化　AIが画面を見ながらコントローラーを操作、検証作業を自走",
