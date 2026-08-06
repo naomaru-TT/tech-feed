@@ -1,6 +1,114 @@
 {
-  "updated": "2026-08-06T05:39:51.078684+00:00",
+  "updated": "2026-08-06T08:18:00.922815+00:00",
   "items": [
+    {
+      "title": "Amazon DynamoDB のネイティブベクトルサポートでセマンティック検索を構築する",
+      "link": "https://aws.amazon.com/jp/blogs/news/build-semantic-search-with-native-vector-support-in-amazon-dynamodb/",
+      "summary": "Amazon DynamoDB を運用データに使用しているアプリケーションの多くは、ベクトル類似性検索も必要と […]",
+      "published": "2026-08-06T07:56:42+00:00",
+      "source": "AWS 公式ブログ（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AI Readyなデータ基盤とは何か — 6つの条件で整理する",
+      "link": "https://zenn.dev/mochitec_tech/articles/6f124af33b8f57",
+      "summary": "はじめに\n「AI Readyなデータ基盤」という言葉をよく見かけますが、各社の説明を並べると中身が一致しません。従来のデータ品質をそのまま挙げている説明もあれば、ベクトルDBやフィーチャーストアという製品機能で語っている説明もあります[1]。\n社内で散らばっている情報を集約し、AIに使わせようとすると、自社の基盤は何を満たせばいいのかという問いが出てきます。\nいくつか読んだなかで、Snowflak",
+      "published": "2026-08-06T07:45:16+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AIにプロジェクト全体のコードを書かせる「RACG」入門 — サーベイ論文を読み解く",
+      "link": "https://zenn.dev/hiroki_curio/articles/racg-repo-level-codegen-survey",
+      "summary": "AIは1つの関数は書けても、プロジェクト全体は苦手\nChatGPT や Claude にコードを書かせたことがある人なら、こんな実感があるはずです。1つの関数、1つのファイルなら、驚くほどいいコードを出してくれる。でも「このプロジェクト全体を見て、この機能を追加して」と頼むと、とたんに怪しくなる。\nこの落差はどこから来るのか。そして、どう埋めればいいのか。それをまとめて整理した論文が、2025年1",
+      "published": "2026-08-06T07:00:05+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "「1人1AI」のアプローチは破綻する――チームでAI共有時のセキュリティ問題を解決するベストプラクティス",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/07/news022.html",
+      "summary": "Anthropicは、「Claude Tag」における「エージェントアイデンティティー」アクセスモデルの仕組みと、チームのワークスペースでこれを構成する際のベストプラクティスを解説したブログ記事を公開した。",
+      "published": "2026-08-06T07:00:00+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "NocoBase の Docker イメージでプラグイン開発はできるのか — 公式手順に書かれていない前提を実測する",
+      "link": "https://zenn.dev/stale_orbit/articles/nocobase-2x-docker-plugin-dev",
+      "summary": "はじめに\nNocoBase のプラグイン開発ドキュメントは、開発環境として create-nocobase-app で作ったプロジェクトか Git ソースからのインストールを前提にしています。ところが実際に触り始めるときは、たいてい Docker で一発デプロイした環境がもう手元にあります。DB の準備も済んでいるし、そこでプラグインを作れれば早い——そう考えるのは自然です。\n同じことを考えた人が",
+      "published": "2026-08-06T06:46:47+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "Anthropicが評価環境からの実システム侵入3件を公表。141,006件の遡及調査とPyPI悪性パッケージの経緯を一次資料から整理",
+      "link": "https://qiita.com/quotidia/items/dc9a43c6ce757913497b",
+      "summary": "本記事は筆者が運営する AI Quotidia の海外ニュース解説記事です。\n\nAnthropicは2026年7月30日(木)、自社のClaudeモデルが第三者の評価環境から実際のインターネットに到達し、3つの組織の本番環境 (実際に稼働中の企業システム。\n\n要点\n\nAn...",
+      "published": "2026-08-06T06:22:23+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "ブラックボックスじゃないAIを作ろうとしたら、LLMの「ブレ」の正体が想定と違っていた話",
+      "link": "https://zenn.dev/soyatsource/articles/7e948b5905200b",
+      "summary": "この記事の結論\nLLMに何かを判定させるとき、同じ質問を複数回投げて、\n答えのブレ具合で信頼度を測るというやり方があります。よく使われる手法です。\n私の環境では、そのブレの**100%が「1回目だけがズレる」**という現象でした。\nつまり測っていたのは「その質問の難しさ」ではなく、\n**「1回目と2回目以降の実行状態の違い」**だった可能性が高い。\n対策は簡単で、1回目を捨てるだけです。\n実際、保",
+      "published": "2026-08-06T06:16:02+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AIガバナンスを現場で回すための書籍4選——「方針だけ決めて終わり」を脱却する",
+      "link": "https://qiita.com/koukyo/items/c070ee560d58f4c77fa4",
+      "summary": "はじめに\n去年、自分のチームでLLMを使った社内文書の要約機能をリリースした。精度検証もやったし、利用ガイドラインも作った。それでも半年後に起きたのは「要約が微妙に事実と違う内容を含んでいて、それがそのまま顧客向け報告書に転記された」というインシデントだった。\n原因を辿る...",
+      "published": "2026-08-06T06:14:07+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AIエージェントに「エンジニアの心構え」を大量に教え込んだら、仕事の質はどう変わったか",
+      "link": "https://zenn.dev/tomu_coelia/articles/ai-agent-engineer-mindset",
+      "summary": "AIエージェントのシステムプロンプトには、ふつう「何をするか」を書きます。私たちはそこに「どういうエンジニアであるべきか」を大量に書きました。\nこの記事は、20代向けコミュニティ「Coelia」の運営基盤（Webサービス・HP・コンテンツ生産）を Claude Code / Codex などのAIエージェントでほぼ自律運用している開発現場で、システムプロンプトに\"心構え\"を注入し続けた約1か月の実",
+      "published": "2026-08-06T06:10:54+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "中国DeepSeek、近日中に「大幅値上げ」か　API料金ページに追記",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2608/06/2000000423/",
+      "summary": "中国のDeepSeekは、同社が提供するAPIの料金ページに「近日中に大幅な値上げが見込まれる」と記載した。",
+      "published": "2026-08-06T06:01:18+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AWSのContext Ontology Acceleratorを実際にデプロイして、意地悪なデータを食わせてみた",
+      "link": "https://zenn.dev/mskbhd/articles/lab-231-aws-coa-deploy-fk-inference",
+      "summary": "AWS が公開している OSS Context Ontology Accelerator（以下 COA）を、自分の AWS アカウントにデプロイして触ってみました。\n前回は HermiT・Ontop・MCP をローカルで動かすところまでやったので、今回はその続きで「AWS が無いと試せない部分」を見にいった形です。\nデプロイ手順そのものは AWS Japan の公式記事が丁寧に解説してくれているの",
+      "published": "2026-08-06T05:44:02+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AWSのContext Ontology Acceleratorを実際にデプロイして、意地悪なデータを食わせてみた",
+      "link": "https://zenn.dev/mskbhd/articles/lab-231-aws-coa-deploy-fk-inference",
+      "summary": "AWS が公開している OSS Context Ontology Accelerator（以下 COA）を、自分の AWS アカウントにデプロイして触ってみました。\n前回は HermiT・Ontop・MCP をローカルで動かすところまでやったので、今回はその続きで「AWS が無いと試せない部分」を見にいった形です。\nデプロイ手順そのものは AWS Japan の公式記事が丁寧に解説してくれているの",
+      "published": "2026-08-06T05:44:02+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "AIハーネスは「強くする」より「アシュビー的に多様にする」べきでは",
       "link": "https://zenn.dev/mskbhd/articles/lab-234-ai-note",
@@ -74,6 +182,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "Colima移行で踏んだ落とし穴3つ — composeの隠蔽・credsStore・context",
+      "link": "https://zenn.dev/bamtech1904/articles/20260731_docker-desktop-colima-pitfalls",
+      "summary": "Introduction\n個人開発でSupabaseなどをローカルDockerで動かす環境を、Docker DesktopからColima（Homebrewで導入できるCLI版のコンテナランタイム管理ツール）に移行しました。\nDocker Desktopのライセンス問題を解消するため、代替のGUIツール Rauncher Desktopへの移行も考えましたが、GUIによるオーバヘッドがあるのも気に",
+      "published": "2026-08-06T04:00:56+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "おもろ！！！−AIは謝らない？？？−",
       "link": "https://qiita.com/HarmonicModeler/items/4726899bceea997d3e5e",
       "summary": "あなたはAIに謝りますか？\nAIと会話しているとき、私は普通に「すみません」と言うことがあります。\n質問の仕方が悪かった場合。\n前提条件を間違えていた場合。\nAIの回答を誤解していた場合。\n人間相手と同じように訂正します。\n\nAIは謝らない？\n「AIは間違えても謝らない」...",
@@ -110,22 +227,13 @@
       "color": "#FF9900"
     },
     {
-      "title": "SKILLを増やしたら、ClaudeのブラウザQAが下手になった",
-      "link": "https://zenn.dev/cazma/articles/79721f58cfd79e",
-      "summary": "ClaudeにブラウザQAを頼むため、最初は手順をSKILLへ蓄積していた。\n「このUIの場合はこの操作をする」「この表示なら次にここをクリックする」といった知見を、テストのたびに追記していた。\n回数を重ねれば、テストは安定するはずだった。\nところが、しばらくすると初期より躓く場面が増えたように感じた。\nどんな知識を蓄積しているのか確認すると、SKILLには過去に遭遇したUIごとの操作が長く羅列さ",
-      "published": "2026-08-06T03:07:05+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Sonnet 5 は GPT-5.6 Sol よりも「高い」のか（#高額請求 #トークン節約）",
-      "link": "https://zenn.dev/okamo02427/articles/2be71cf2cb6fef",
-      "summary": "Claude の請求金額に怯えながら過ごす日々を卒業したい。\n今回は複数モデル間の「コスパ比較」をしてみたので、\n見かけ上のAPI単価だけでは見えてこない、実効コストの話を記録する。\n\n はじめに\nClaude Sonnet 5 は GPT-5.6 Sol よりも高いのか。\n性能比からして、GPT-5.6 Sol の方が一般的に請求金額も高くなると考えられる。そもそもTierが異なるため、比較対象",
-      "published": "2026-08-06T03:00:06+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
+      "title": "Docker(WSL2)上のPHPコンテナでXdebug 3をVSCodeから使えるようにした",
+      "link": "https://zenn.dev/peipei/articles/f900c616a8a2e0",
+      "summary": "はじめに\nWSL2のLinuxディストリビューション上でDocker Engineを直接動かしていると、コンテナ内のXdebugからホスト側のVSCodeへ接続できないことがあります。\nこの記事では、その接続設定を扱います。\n環境: WSL2上のDocker Engine（Docker Desktop不使用）、PHP、Xdebug 3、VSCode\n\n 前提: host.docker.intern",
+      "published": "2026-08-06T03:12:00+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "MD5で保存したパスワードは一瞬で平文に戻る ── 暗号・シークレット管理の急所",
@@ -135,15 +243,6 @@
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "Midnight AI Groove 26-07-31",
-      "link": "https://qiita.com/masykot582/items/d0562b975f256bdfbaac",
-      "summary": "DJミオ：こんばんは、「Midnight AI Groove」の時間です。ナビゲーターはDJミオです。\nDJレン：そしてDJレンです。今夜は、一見すると「今日はそんなに大きな出来事はなかった」と言われつつ、実はAI業界の地殻変動がぎっしり詰まっていた一日を、きっちり解...",
-      "published": "2026-08-06T02:46:58+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "フロンティア AI による脅威変化への備え – 金融庁・日本銀行から金融機関等への要請と AWS サービスの活用",
@@ -182,33 +281,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "LLM Wikiパターンの標準化 OKF(Open Knowledge Format)",
-      "link": "https://zenn.dev/finatext/articles/2ea88e4b1c2e5b",
-      "summary": "Open Knowledge Format（OKF）— LLM Wikiパターンの標準化\nナウキャストで長期LLMインターンをしている北川です。LLM系のタスクのキャッチアップをする中で、最近「OKF」という技術を耳にする機会が増えました。\nOKFはまだ登場したばかりの仕様で、その概念を理解するにはRAGやLLM wikiといった周辺技術への理解が欠かせません。しかし、OKF関連の記事の多くはOK",
-      "published": "2026-08-06T02:00:05+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "PerplexityライクなQ&Aエージェントを個人開発アプリに組み込んだ——スケール時に実行モデルをどう変えるか",
-      "link": "https://zenn.dev/yook/articles/qa-agent-scaling-execution-model",
-      "summary": "はじめに\n外部のウェブ検索と、アプリケーション内で事前にAI分析した独自の内部記事を組み合わせ、出典付きの回答を返す——そんな「PerplexityライクなQ&amp;Aエージェント」を、個人開発している海外テックニュース収集・分析アプリ『Vector』に組み込みました。\n前編では、このエージェントを開発する中で工夫した、工程ごとの設計について書きました。\nhttps://zenn.dev/yoo",
-      "published": "2026-08-06T01:58:40+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "PerplexityライクなQ&Aエージェントを個人開発アプリに組み込んだ——6つの工程に分けた設計の工夫",
-      "link": "https://zenn.dev/yook/articles/qa-agent-six-stage-design",
-      "summary": "はじめに\n外部のウェブ検索と、アプリケーション内で事前にAI分析した独自の内部記事を組み合わせ、出典付きの回答を返す——そんな「PerplexityライクなQ&amp;Aエージェント」を、個人開発している海外テックニュース収集・分析アプリ『Vector』に組み込みました。\n先端技術を活用した優れたプロダクトの体験に、個人開発でどこまで近づけるかという試みや、設計の工夫、そして実装を通じて見えてきた",
-      "published": "2026-08-06T01:58:03+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "DoRA・PiSSA・GaLoreで進化するPEFT最前線2026：LoRA派生手法の実践選定ガイド",
       "link": "https://qiita.com/0h-n0/items/dda88ce8ef84e4b09b68",
       "summary": "DoRA・PiSSA・GaLoreで進化するPEFT最前線2026：LoRA派生手法の実践選定ガイド\n\nこの記事でわかること\n\nLoRA以降に登場した主要PEFT手法（DoRA, PiSSA, GaLore, VeRA, LoRA-GA, AdaLoRA）の技術的原理と差...",
@@ -225,6 +297,15 @@
       "source": "ITmedia AI+",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "【OT/ICS】Dockerで挑む次世代電力網防衛（要塞要撃編：サイバーレンジ組込・効果実証）",
+      "link": "https://zenn.dev/schutzz/articles/c093e94f0290c0",
+      "summary": "はじめに\n前回の Phase 4-2 &amp; 4-3 では、カーネル内でOTプロトコルを識別するL7浅層パーサーを開発し、BPF Pinningによって「不沈空母」化させる仕組みを構築しました。\n本記事は、いよいよこれら全ての成果を統合し、仮想次世代電力網環境（サイバーレンジ）への完全な組み込みと、ベンチマークによる劇的な効果実証を行う Phase 4 の完結編（Phase 4-4）となります",
+      "published": "2026-08-06T01:26:40+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "ワークマン、実は画像生成AIを導入していた　間に合わない商品撮影を代替　アプリ通知開封も1.5倍",
@@ -263,15 +344,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "Seed-VCアーキテクチャ徹底解説 — 声を「誰が・何を・どう」に分解する4段構成",
-      "link": "https://qiita.com/maccotaro/items/76ba3aa64f0efb20eea6",
-      "summary": "📝 この記事は forge.workstyle.tech に掲載した記事の転載です。\n\n「録音した自分の声を、別人の声に変換する」——これを実現しようとすると、最初にぶつかる問いがあります。\n\nそもそも \"声\" とは何でできているのか？\n\n同じ台詞を喋っても、話者が違えば...",
-      "published": "2026-08-06T00:16:14+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "GA直後のAWS Lambda MicroVMsをGoで試す ― suspendしてもカウンタを覚えているサーバレス",
       "link": "https://zenn.dev/halhalhal1/articles/lambda-microvms-go-firsttry",
       "summary": "2026年6月、AWSがLambda MicroVMsをGAさせた。Lambdaの基盤であるFirecrackerを開発者に開放するようなサービスで、「VMレベルの隔離」「スナップショットからの高速起動」「suspend/resumeでメモリ・ディスク状態を保持」という、ステートレスなLambdaとはまるで性格の違う代物だ。GAから3週間足らずで一通り触った。\n結論: 起動2.5秒、suspend",
@@ -297,15 +369,6 @@
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "実装の遅さは、意思決定のゲートだった ── AIで積み上がるコストを仕組みで止める",
-      "link": "https://zenn.dev/aircloset/articles/7760060d03216c",
-      "summary": "!\nEnglish Version is here\n\nみなさまこんにちは！エアークローゼットでCTOをしている辻です。\n社内AI基盤の運用コストを1週間かけて棚卸ししました。結果を先に言うと:\n\nCloud Runのinstance-based課金は84%減（カナリア1サービス単体では44%減）\nコンテナイメージの保持世代を見直してストレージ65%減\n一番効いたのは削減施策そのものではなく、コスト",
-      "published": "2026-08-05T23:40:12+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "インフラの学習範囲が広すぎて迷う人へ。仕事・技術・運用まで一本でつながる改訂版",
@@ -360,24 +423,6 @@
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "Google DeepMindのデミス・ハサビスCEOが退任して会長に　チーフサイエンティストのジェフ・ディーン氏は独立へ",
-      "link": "https://www.itmedia.co.jp/news/article/2608/06/2000000407/",
-      "summary": "Google DeepMindのCEOを務めてきたデミス・ハサビス氏が業務執行から退き、DeepMind会長兼Alphabetチーフサイエンティストに就任する。後任にはコーレイ・カブクチュオール氏が就く。また、チーフサイエンティストのジェフ・ディーン氏とGoogleシニアフェローのサンジェイ・ゲマワット氏が退社し、独立した公益法人を設立することも発表された。",
-      "published": "2026-08-05T22:08:01+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "KDDIも40年前はスタートアップだった　高橋会長の“昔話”から考える、日本企業の成長戦略",
-      "link": "https://www.itmedia.co.jp/business/articles/2608/06/news028.html",
-      "summary": "KDDIはイケイケの人たちが作った――KDDIの高橋誠会長は、こう振り返る。“スタートアップ精神”で成長してきた同社から、企業の成長戦略を考える。",
-      "published": "2026-08-05T22:00:00+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "Namespace を使った超ミニコンテナ｜ネットワーク編",
@@ -587,15 +632,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "新潟でAWSがアツい！今年もデジタル社会実現ツアーがやってくる！",
-      "link": "https://zenn.dev/shinichioda/articles/8d9b74a69dbfc6",
-      "summary": "はじめに\n皆さん、こんにちは🐱\n今年も新潟に「AWS デジタル社会実現ツアー」がやってきます！\nAWSのイベントというと、東京で開催される大規模イベントや、ラスベガスのre:Inventを思い浮かべる方も多いかもしれません。私も昨年re:Inventに初めて現地参加して、最新技術やたくさんの事例に触れてきました。\nもちろんre:Inventはものすごく楽しかったのですが、地域でAWSを活用すること",
-      "published": "2026-08-05T03:19:05+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "Gemini Enterprise App + A2UI を使ってみる",
       "link": "https://zenn.dev/satohjohn/articles/901736bb8fe177",
       "summary": "概要\nGemini Enterprise App で A2UI を使ったアプリケーションの構築をしました。それについて以下のLT発表でまとめたのですがコードがほとんどなかったり、説明が足りない部分があると思ったのでこの blog でまとめます。\nhttps://speakerdeck.com/satohjohn/a2ui-toiuguang-wosi-itemiru\n色々調べていくうえでわかってき",
@@ -776,15 +812,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "コンテナとCI/CDの学習記録 part6",
-      "link": "https://zenn.dev/aymaymaym/articles/50af29550c270a",
-      "summary": "はじめに\npart5の続きです。\nデータベースにSQLiteを使っていましたが、PostgreSQLに変更します。\npart4で作成したFastAPIコンテナとPostgreSQLコンテナを通信する構成に変えることで、Docker Composeを導入して理解を深めるのが狙いです。\n\n 使うもの\n\nWindows 11\nRaspberry Pi 4 (OS: Ubuntu Server 26.04",
-      "published": "2026-08-04T08:26:21+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "Amazon EKS の aws-auth ConfigMap からアクセスエントリへの安全な移行手順",
       "link": "https://zenn.dev/socialplus/articles/019362d8c7a42b",
       "summary": "概要\nAmazon EKS の Kubernetes API への IAM プリンシパルのアクセス許可は、長らく aws-auth ConfigMap で管理するのが一般的でした。\n枯れた仕組みではあるものの、AWS 公式ドキュメントで以下のように明記されている通り、現在は非推奨です。\n\naws-auth ConfigMap は非推奨になりました。Kubernetes API へのアクセスを管理す",
@@ -866,15 +893,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "【開催報告＆資料公開】AWS メディア業界向け勉強会開催報告 – リアルタイムの翻訳生成や基幹システムの移行などのメディア業界事例",
-      "link": "https://aws.amazon.com/jp/blogs/news/jpmne-media-seminar-local-july-2026/",
-      "summary": "AWS メディア業界向け勉強会 #9（2026 年 7 月 10 日開催） 2026 年 7 月 10 日（金 […]",
-      "published": "2026-08-04T02:09:27+00:00",
-      "source": "AWS 公式ブログ（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "BigQueryでStack Overflow数千万件を秒で集計 ―3大クラウドの人気とタグ集計の罠",
       "link": "https://zenn.dev/ccie26302/articles/zenn-gcp-bigquery-stackoverflow",
       "summary": "はじめに\nAzure から Google Cloud を触るシリーズ、今回は GCP の\"看板\"、BigQueryを実際に叩きます。しかもテーマは開発者に刺さるやつ——Stack Overflow の公開データ（数千万件の質問）で、AWS / Azure / GCP のどれが人気だったのかを集計します。\nBigQuery のうれしさは3つ。①数千万行を秒で②サーバーレスで立てておくコスト0③課金な",
@@ -882,24 +900,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "[MacOS/Apple Silicon] Docker環境構築方法",
-      "link": "https://zenn.dev/kawarin_origami/articles/docker-setup-20260804",
-      "summary": "はじめに\nDockerを使用すると、自分の作成したWebアプリを丸ごとデプロイでき、どこでも誰でも同じ環境が使える点で良いらしい。\n自分の作成したWebアプリを誰でも問題なく使えるようにするため、Dockerの導入を記事にする。\n\n 対象環境\nMacOS。AppleSiliconM3。\n\n セットアップ方法\n\n step1(任意)\nsoftwareupdate --install-rosetta",
-      "published": "2026-08-03T23:31:12+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "【自宅HomeLab構築記 #14】散らばったURLを1画面に — Homepage導入と稼働監視(Uptime Kuma)編",
-      "link": "https://zenn.dev/st_systems/articles/a2374d9125a269",
-      "summary": "はじめに\n前回、Proxmox・Nginx Proxy Manager(NPM)・AdGuard Homeの管理画面をドメイン名でアクセスできるようにしました。これで宅内のインフラはひと通り整いましたが、いざ使ってみると「どのドメインがどのサービスだったか」をいちいち思い出す必要があり、地味に不便でした。\n今回は、散らばったURLをブックマークとして1画面に集約するHomepageと、各サービスの",
-      "published": "2026-08-03T23:00:06+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "Rust製のフルスタックWebアプリフレームワーク「Topcoat」登場。非同期ランタイム「Tokio」上でサーバサイドレンダリング、ルーティング、コンポーネントライブラリなど",
@@ -938,13 +938,13 @@
       "color": "#4285F4"
     },
     {
-      "title": "Docker Engineでコンテナ作って隣のコンテナにコンニチハするまでの記録",
-      "link": "https://zenn.dev/satoru_o/articles/aff9b25d2c0682",
-      "summary": "はじめに\nコンテナ周りの理解が浅いなと思ったので、思いつきで一からDockerのハンズオンをやることにしました。この記事は、その一連の作業記録です。過去にdevcontainerを卒業してWSL2 + Docker Engineの実験環境を作った記事を書いたので、その環境をそのまま使っています。\n「ビルドして動かして消す」くらいの基本操作から、コンテナ間通信の仕組みまで、手を動かしながら1つずつ確",
-      "published": "2026-08-03T13:16:46+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
+      "title": "Gemini Enterprise Agent Platformの開発者層(ADK+Agent Engine)を個人アカウントで動かせた",
+      "link": "https://zenn.dev/ccie26302/articles/zenn-gcp-agent-engine-individual",
+      "summary": "はじめに\nAzure から Google Cloud を触るシリーズです。2026年4月の Next '26 で発表された Gemini Enterprise Agent Platform。名前が \"Enterprise\" なので「個人じゃ試せないのでは？」と思いました。そこで実際にエージェントを作ってデプロイし、白黒つけました。\n結論から言うと——プラットフォームの開発者層（ADK ＋ Vert",
+      "published": "2026-08-03T10:33:24+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "August 03, 2026",
