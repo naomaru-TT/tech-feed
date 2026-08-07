@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T04:48:29.001210+00:00",
+  "updated": "2026-08-07T07:01:10.989994+00:00",
   "items": [
     {
       "title": "AWS 初心者が最初に触るべき 5 つのサービス",
@@ -54,6 +54,15 @@
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "事業システム全体が動作する開発環境をAIエージェントに - Docker Sandboxes on GCE",
+      "link": "https://zenn.dev/azishii/articles/9c65946a09573e",
+      "summary": "仕様書を渡すとAIが実装とテストを行いPRまで作り、人間はレビューに集中する。\nこのようなSpec-to-PR型の開発については、2025年末から2026年にかけて、Spotifyの「Honk」、Rampの「Inspect」、Stripeの「Minions」、Harveyの「Spectre」など、自社の開発環境と業務フローに合わせて組み上げた事例が相次いで公開されました。国内でも、LINEヤフーが",
+      "published": "2026-08-07T03:18:33+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "AI彼女アプリを作っていて気付いた。記憶が役に立ったのは、思い出した時ではなく、次の選択が変わった時だった",
@@ -252,6 +261,15 @@
       "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "Kubernetes マニフェストレビューは「どこで評価するか」と「どう扱うか」を分けて設計する",
+      "link": "https://zenn.dev/aws_japan/articles/a56bc58d9f6ebb",
+      "summary": "はじめに\nこんにちは konippi です。\nKubernetes マニフェストには、コンテナイメージだけでなく、実行権限、リソース量、障害時の挙動など、本番環境を左右する設定が詰まっています。それでも PR ではアプリケーションコードほど注意深く見られず、過剰な RBAC や resource requests の欠落などがそのまま通ることがあります。\n2026 年 5 月に CNCF Blog",
+      "published": "2026-08-07T00:54:59+00:00",
+      "source": "Zenn - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "cronが突然動かなくなった原因はcrontab削除だった!確認すべき5つのチェックポイント",
@@ -884,15 +902,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "JDK 25 の AOT キャッシュでウォームアップリクエスト数を80%削った話",
-      "link": "https://zenn.dev/ttake/articles/bf81019155c465",
-      "summary": "TL;DR\nSpring Boot アプリのデプロイ時に、JIT を温めるためのウォームアップリクエストが DB に負荷を集中させていました。JDK 25 の AOT キャッシュ（JEP 483 / 514 / 515）を導入したところ、\n\n\n\n指標\nAOT なし\nAOT あり\n\n\n\n\n起動時間\n16.2 s\n6.4 s\n\n\nウォームアップ初回リクエスト\n4,683 ms\n1,912 ms\n\n\nウ",
-      "published": "2026-08-04T09:00:29+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "Haskellでクラウドネイティブに挑戦する~musl静的バイナリをk3sで動かしてみた〜",
       "link": "https://qiita.com/sigma_devsecops/items/a8ef33ddc89ec319fc0f",
       "summary": "概要\n\n本記事は社内のクラウドネイティブ勉強会で使用した資料である。\n\nHaskellが大好きなので、Haskellで作ったバイナリをKubernetes(以降k8sと記載)で動かしてみたいと思った。\nAmazon EKSやAzureのAKSなんかで最終的には動かし...",
@@ -1116,15 +1125,6 @@
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "Cilium 1.20 の ExternalAuth Filter と Authelia で Prometheus を保護する",
-      "link": "https://zenn.dev/chaokovsky/articles/cilium-external-auth-authelia",
-      "summary": "最終確認日：2026-07-31（Asia/Tokyo）\n本文は、稼働中の Kubernetes クラスタを読み取り専用で確認した結果に基づいています。Cilium 1.20.0 で追加された Gateway API の実験的機能を扱うため、将来の Gateway API ではフィールドや動作が変更される可能性があります。\n\nCilium 1.20.0 では、Gateway API の GEP-1",
-      "published": "2026-07-31T04:03:41+00:00",
-      "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "JetBrains、AIが少ないトークンでコンテキストを取得しやすく、よりよいコード生成を可能にする「JetBrains Context」発表",
