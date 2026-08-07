@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T15:45:10.905671+00:00",
+  "updated": "2026-08-07T18:41:21.190986+00:00",
   "items": [
     {
       "title": "PR単位で検証環境を生やせる仕組みを作った",
@@ -20,15 +20,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "Claude Codeで1週間に1Bトークン使ったと思ったら、97%がキャッシュだった",
-      "link": "https://zenn.dev/flipslidersand/articles/claude-code-1b-tokens",
-      "summary": "先週のClaude Code使用量を集計したら、1週間で1.36Bトークンという数字が出た。\n13億トークン。\n「さすがに使いすぎでは？」と思って内訳を調べてみると、予想とはかなり違う構造をしていた。\n\n 内訳を見たら97%がキャッシュだった\nClaude Codeのセッションログから、週単位のトークン使用量を集計した結果がこれだ。\n\n\n\n種別\nトークン数\n割合\n\n\n\n\ninput\n0.1M\n0.",
-      "published": "2026-08-07T13:04:47+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "ChatGPTスラッシュコマンドは3層構造",
       "link": "https://qiita.com/ha-te/items/2422535a3a5c25d36748",
       "summary": "「スラッシュコマンド」で検索すると、/goal も /formal も /handwritten も、同じ一覧表に並んで出てくる。\nだがこの3つは、動く仕組みがまったく違う。片方はアプリに実装された機能で、片方は単なる文章の書き方で、残り一つはそもそも効いているかどうか怪し...",
@@ -36,6 +27,15 @@
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "チーム知見メモリの「頭脳」をオンプレk3sのローカルLLMに載せ替えて、本番運用に耐える形にするまで",
+      "link": "https://zenn.dev/ysteng/articles/local-llm-agent-onprem-k3s",
+      "summary": "はじめに\n前回、チームの雑多な知見を貯める「知見メモリ」を、Markdown＋git（Obsidian vault）で作った話を書きました。その記事の最後で、こう書いています。\n\n知見を整形する「頭脳」を差し替え可能にしておく。今はClaudeがやっているが、将来的にはオンプレのKubernetes（k3s）上でローカルLLMに同じ仕事をさせられる。\n\n今回はその「将来」を実際にやった話です。Sl",
+      "published": "2026-08-07T12:52:20+00:00",
+      "source": "Zenn - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "【Amazon Linux 2023】MT Cloud連携サーバーの切替 ― ALBとElastic IPの2経路移行",
@@ -83,15 +83,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "#2 AIエージェントチーム誕生1週間、朝の調査依頼がその日の深夜にMVPになっていた",
-      "link": "https://zenn.dev/chisatom/articles/f1b27a9c3047cb",
-      "summary": "この記事は、Claude Code 6体のマルチエージェント「Lady's servants」（お屋敷）を5ヶ月運用した記録を振り返る連載の第2回です。第1回では、「執事とメイド」というロールプレイがエージェント制御のインターフェース層として機能する、という話を書きました。\n今回はタイムマシンで2026年2月に戻ります。フックも監視デーモンも報告プロトコルもまだ何もなかった、誕生直後のお屋敷が実際",
-      "published": "2026-08-07T12:08:03+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "【AWSの概要とサービス名】",
       "link": "https://zenn.dev/meihao550/articles/75abe76d3152c8",
       "summary": "【はじめに】\nAWSについて自分はあまり知見がないので勉強してみました。\nQiitaの方ではよく記事を投稿するのですが、Zennで記事を投稿したことがないため書くことにしました。\nチーム開発を現在進めてますが、学校の資格との兼ね合いもあり、AWSを採用することになり、普段GCPを使ってる私にとっては無知に近いので勉強することにしました。\n【対象読者】\n\nAWSについて無知に近い方。\nITの知識が少",
@@ -110,29 +101,11 @@
       "color": "#FF9900"
     },
     {
-      "title": "75体の並列エージェントで5.25Mトークンを溶かした——マルチエージェント運用の失敗5類型",
-      "link": "https://zenn.dev/zenn_content/articles/multi-agent-failure-patterns-measured",
-      "summary": "はじめに\nClaude Codeでサブエージェントを並列に走らせる運用を数ヶ月続けて、一通りの失敗を踏みました。最大のものは75体の並列ファンアウトで5.25Mトークンを消費し、429（レート制限）と利用枠超過で止まった件です。\n英語圏では「The 5 Failure Modes of Multi-Agent Claude Systems」のような失敗類型の整理が出始めていますが、日本語ではまだ体",
-      "published": "2026-08-07T11:15:23+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "シャープ、通期純利益見通し170億円下方修正　円安など影響　AIサーバは9月に参入",
       "link": "https://www.itmedia.co.jp/news/article/2608/07/2000000455/",
       "summary": "シャープは7日、2027年3月期の連結純利益が前期比47.3％減の250億円になる見通しだと発表した。期初予想から170億円下方修正した。樹脂・燃料の価格上昇や円安が収益を圧迫する。営業利益は190億円引き下げて300億円。売上高は1兆7700億円に据え置いた。",
       "published": "2026-08-07T10:34:01+00:00",
       "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "テキストを選んで ⌘J。送る前の下書きをその場で整える macOS アプリを作った",
-      "link": "https://zenn.dev/hrak0x59/articles/ai-text-shortcut-cmd-j",
-      "summary": "この記事で紹介するのは、選択した文章を ⌘J 一発で整えて、同じ場所に書き戻す macOS アプリです。\n名前は AI Text Shortcut。ChatGPT を開いてコピー＆ペーストする往復をなくしたくて作りました。\n\n対象読者: Mac で LINE / Slack / メールの下書きをよく書く人、ちょっとした LLM アプリを自作したい人\nリポジトリ: hrak0x59/AITextSh",
-      "published": "2026-08-07T10:32:09+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -169,24 +142,6 @@
       "summary": "著名人の肖像などが生成AIで無断利用されている問題を巡り、法務省は声優らの「声」も法的保護の対象になると明記した解釈指針を公式サイトで公表した。肖像や氏名の無断利用については最高裁判例があるが、声については違法性の線引きが曖昧だった。権利侵害に当たる具体的な事例も盛り込み、生成AIサービスの提供事業者や利用者にも注意を促す。",
       "published": "2026-08-07T10:08:04+00:00",
       "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "同じCAD操作、違う表現 — CADエージェントでDSLとコード生成をどう使い分けるか",
-      "link": "https://zenn.dev/0xliclog/articles/f8873eadc547c0",
-      "summary": "CADの内部APIをAIエージェントから操作する代表的な実装には、大きく2つあります。\n定義済みのCAD操作を、構造化された引数（多くはJSON形式）で呼び出す方式と、LLMがCAD APIを使うコードを生成・実行する方式です。\n本記事では、前者を「DSL方式」、後者を「コード生成方式」と呼びます。\nDSL方式は管理しやすい反面、未定義の操作には対応できず、ツールの追加・保守が必要です。\nコード生",
-      "published": "2026-08-07T10:00:05+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AIエージェントに管制塔を建てる、LoopX",
-      "link": "https://zenn.dev/acntechjp/articles/1fb4326c6b62ad",
-      "summary": "https://github.com/huangruiteng/loopx/tree/main/\n\nMITライセンスとして利用（https://github.com/huangruiteng/loopx/blob/main/docs/assets/control-plane-board.svg）\n\nKeep the loop moving. Keep the judgment human.\n\nAI",
-      "published": "2026-08-07T09:45:05+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -290,6 +245,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "August 07, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#August_07_2026",
+      "summary": "Cortex Framework\nAnnouncement\nRelease 7.0.1\nFixed\n\nResolved an issue where running the uv run cortex-build command in Windows PowerShell or Windows Command Prompt resulted in a Could not auto-import l",
+      "published": "2026-08-07T07:00:00+00:00",
+      "source": "Google Cloud リリースノート",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
       "title": "技術書の書評を「言及」と「読了」に分けて集計したら、想定と違う数字が出た",
       "link": "https://zenn.dev/ukintech/articles/tech-books-mention-vs-finished",
       "summary": "技術書を探すとき、「おすすめ N 選」の記事はたくさん見つかります。ただ、その N 選に並んでいる本を、書いた人が実際に読んだのかは、記事からは分からないことが多い。\n自分用に、そこを分けて集計する仕組みを作ってみました。この記事は、その集計方法と、やってみて出た数字の話です。\n\n 作ったもの\n技術書を「対象レベル・情報の鮮度・読む順番」で整理するデータベースです。まずネットワーク分野の読書ロード",
@@ -317,6 +281,24 @@
       "color": "#10A37F"
     },
     {
+      "title": "MaR: メタ認知を報酬に変えるRLで推論軌跡を直接最適化",
+      "link": "https://zenn.dev/lixian/articles/mar-metacognition-reward-reasoning",
+      "summary": "MaR: メタ認知を報酬に変えるRLで推論軌跡を直接最適化\n\n TL;DR\n\n**Metacognition-as-Reward (MaR)**は、人間の「メタ認知」の2次元（知識＋制御）をLLMのRL報酬に落とし込んだフレームワーク\n推論軌跡を「知識抽出」「プロセス制御」「最終回答」に明示的に分割し、軌跡レベルの報酬で最適化\nRLVR（結果だけ）でもRaR（ルーブリック毎）でもなく、汎用的なメタ",
+      "published": "2026-08-07T06:24:11+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Why Your Claude Code Bill Is 20x Higher Than It Should Be",
+      "link": "https://zenn.dev/neotechpark/articles/7e3d494e0f025c",
+      "summary": "Learn how Claude's prompt caching actually works, what silently resets it, and five practical ways to cut your Claude Code token bill without touching your CLAUDE.md file.\n\n Introduction\nHere is a num",
+      "published": "2026-08-07T06:17:26+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "DWHからメダリオンアーキテクチャへ ― データ基盤の設計思想はなぜ変わり続けてきたのか",
       "link": "https://zenn.dev/tk_nomura/articles/2026-08-dwh-to-medallion-architecture",
       "summary": "はじめに\nこれまで、GCPを中心としたゼロトラストなアクセス管理(Workload Identity Federationによるキーレス化、VPC Service Controlsによる境界設計、BigQueryのデータセット・列・行レベルアクセス制御、そしてそれらを組み合わせたアーキテクチャパターンの比較)をシリーズとして書いてきました。ここで一区切りとし、今回から新しいシリーズを始めます。\nテ",
@@ -326,11 +308,29 @@
       "color": "#4285F4"
     },
     {
+      "title": "OpenAIのWeb検索APIが画像も検索できるようになった",
+      "link": "https://zenn.dev/softbank/articles/829ed719303f83",
+      "summary": "ソフトバンクのCHENです。普段は、データ構造化ツール「TASUKI Annotation」の技術研究＆全社RAG基盤に携わっています。あわせて生成AI・エージェント技術の探索にも取り組み、実務投入を見据えた技術検証を行っています。本記事では、OpenAI の Web検索ツール（web_search）が新たに画像も返せるようになった点を、実際にAPIを叩いて検証しました。\n\n\n TL;DR\n\n\n使",
+      "published": "2026-08-07T05:21:05+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "特徴選択のデータリークを実測: 交差検証の外で選んだだけで、純粋な乱数から精度100%が出た",
       "link": "https://zenn.dev/shakeailab/articles/feature-selection-leakage",
       "summary": "「交差検証をしているのに、本番では全く当たらないモデル」の話は、機械学習をやっていれば一度は聞いたことがあると思う。原因としてよく挙げられるのがデータリーク——テストデータの情報が、何らかの形で訓練プロセスに漏れてしまうことだ。中でも有名なのが「特徴選択を交差検証の外でやってしまう」パターンで、マイクロアレイの遺伝子発現解析の時代から警告され続けている古典的な落とし穴だ(Ambroise &amp",
       "published": "2026-08-07T05:07:18+00:00",
       "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "OpenTelemetry Collectorを活用したLLMトレースのパイプライン制御：ガバナンスと集計のための正規化",
+      "link": "https://zenn.dev/team_lab/articles/9187743a82b75a",
+      "summary": "はじめに\nこんにちは、チームラボでエンジニアをしている鬼頭です。\nOpenTelemetry Collector（以下 Collector）は、アプリのTraceをJaegerやDatadogなどに送る前に加工できる中継点です。\n最近はサービスにLLM機能を組み込むケースが増えましたが、それに伴ってTraceに乗ってくる情報も大きく変わりました。プロンプト本文やトークン数・モデル名といった課金に直",
+      "published": "2026-08-07T05:00:05+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -351,6 +351,15 @@
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "OpenTelemetryを起点に、AIエージェントの評価データセットを育てる",
+      "link": "https://zenn.dev/sompojapan_dx/articles/6cfa8b2c8e0280",
+      "summary": "TL;DR\n\nLLMの精度改善に使える評価データセットに近道はありません。実際のユーザーや業務部門のフィードバックをトレースに結びつけ、地道に育てます。育てたデータセットは、モデルやプロンプトを変えた前後を同じ入力で比べる回帰テストになります。\nデモでは、ADK Web標準機能でフィードバックを受け、どの実行への評価かをtrace_idで特定してLangfuseのトレースに登録し、そのまま評価デー",
+      "published": "2026-08-07T04:10:00+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "PFNの国産LLM「PLaMo 3.0 Prime」、さくらのAI推論基盤で提供開始　利用は申請制",
@@ -432,6 +441,15 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "AI彼女アプリを作っていて気付いた。記憶が役に立ったのは、思い出した時ではなく、次の選択が変わった時だった",
+      "link": "https://zenn.dev/mitsukida/articles/2ad1006f0fb604",
+      "summary": "AI彼女アプリを作っていて気付いた。記憶が役に立ったのは、思い出した時ではなく、次の選択が変わった時だった\nAI彼女アプリを作り始めた頃。\n私は、\n「どれだけ正確に思い出せるか」\nばかり考えていた。\n誕生日を覚えている。\n好きな映画を覚えている。\n好きな食べ物を覚えている。\nそんな記憶が増えれば増えるほど、\n人間らしくなると思っていた。\nでも、開発を続けるうちに、\n少し違うことに気付いた。",
+      "published": "2026-08-07T02:55:33+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "【発想力を養う用】ChatGPTに「写真のトリミング案 Top N」を考えてもらうWebアプリを作ってみた",
@@ -1109,15 +1127,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "Proxmox上のhome lab k8sにAzure Arcを入れると何が変わるのか",
-      "link": "https://zenn.dev/yotan/articles/azure-arc-home-k8s-monitor",
-      "summary": "はじめに\n以前、自宅のk3sクラスタをAzure Arcに接続してみた【初期設定編】 という記事を書きました。\nあの記事では、Azure Arc enabled Kubernetes にクラスタを接続するところまでを扱っています。\n今回はそれを kubeadm ベースの home lab クラスタで改めてやり直しながら、「Arc を入れると実際に何が変わるのか」 を正直に書いていきます。\n結論を先",
-      "published": "2026-07-31T11:45:13+00:00",
-      "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "July 31, 2026",
       "link": "https://docs.cloud.google.com/release-notes#July_31_2026",
       "summary": "Apigee hybrid\nAnnouncement\nv1.15.7\nOn July 31, 2026 we released an updated version of the Apigee hybrid software, v1.15.7.\n\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.15.7",
@@ -1138,7 +1147,7 @@
     {
       "title": "July 30, 2026",
       "link": "https://docs.cloud.google.com/release-notes#July_30_2026",
-      "summary": "Bigtable\nFeature\nYou can use Bigtable as a remote storage backend for\nLMCache. By\nstoring the large language model (LLM) key-value (KV) cache externally in\nBigtable, multiple AI serving instances can",
+      "summary": "BigQuery\nFeature\nYou can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For more information, see\nAdd a pipeline task.\nThis feature is\ngenerally available.\nFea",
       "published": "2026-07-30T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
@@ -1158,15 +1167,6 @@
       "link": "https://docs.cloud.google.com/release-notes#July_29_2026",
       "summary": "App Engine standard environment Go\nFeature\nSupport for enabling only needed legacy bundled services using the\napp_engine_bundled_services\nfield is in General Availability.\nApp Engine standard environm",
       "published": "2026-07-29T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "July 28, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#July_28_2026",
-      "summary": "AlloyDB for PostgreSQL\nFeature\nNote: IAM group authentication is available in Preview\nfor new AlloyDB clusters. To enable this feature on an existing cluster,\ncontact your Google Cloud account team.\nI",
-      "published": "2026-07-28T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
