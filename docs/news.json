@@ -1,20 +1,56 @@
 {
-  "updated": "2026-08-08T09:28:49.146688+00:00",
+  "updated": "2026-08-08T12:29:25.902117+00:00",
   "items": [
     {
-      "title": "今更だけど、DynamoDBの設計の勘所をサクッとまとめてみた",
-      "link": "https://qiita.com/miruky/items/c7beb2fbed6492d195d1",
-      "summary": "はじめに\nこんばんは、mirukyです。\n突然ですが、私の一番好きなAWSサービスは、Amazon DynamoDB（DynamoをよくDyamoと打ち間違える）です。なぜかと言うと、一言で言えば「非常に扱いやすいから」ですね。RDBMSほどデータの厳密性が必要の無い場面...",
-      "published": "2026-08-08T08:58:27+00:00",
+      "title": "大人用です。角度計算「鎌倉学園高校∠E=?」様を、計算はsympyで作図は手抜きのつもりでした。",
+      "link": "https://qiita.com/mrrclb48z/items/5507c16e56a7d2d227df",
+      "summary": "・本日作図できませんでした。申し訳ありません。\n・ChatGPT\n　「現在、データ分析 を使い切りました。さらに使うには無料のPlus トライアルを開始するか、明日の 20:28 以降 にもう一度お試しください。」\n\nオリジナル\nYUUU0123 様 (0:00〜2:35)...",
+      "published": "2026-08-08T11:42:07+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "設計書に渡す情報を増やすと、LLMのテスト仕様書は良くなるのか？ A〜D条件で比較してみた",
+      "link": "https://qiita.com/BeginnerTK/items/700c87f46d612bb08382",
+      "summary": "設計書に渡す情報を増やすと、LLMのテスト仕様書は良くなるのか？ A〜D条件で比較してみた\n※本記事はAIを利用して推敲しています。\n※検証に使用したLLMはChatGPT Work(5.6 Sol)\n\nはじめに\n「画面設計書だけLLMに渡せば、そこそこ使えるテスト仕様書...",
+      "published": "2026-08-08T11:36:41+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "S3 + CloudFront + WAFでIP制限配信を組んでハマった5つのポイント",
+      "link": "https://qiita.com/caymezon/items/9bf5b1e039fd45226af0",
+      "summary": "背景\nS3 → CloudFront → WAFという構成でIP制限付きの静的サイト配信を組みました。構成自体はシンプルですが、実際にやってみるとUIの変更・IPv6の挙動・OACの仕組みなど、いくつも壁にぶつかったので記録します。\n[インターネット]\n    ↓\n[WA...",
+      "published": "2026-08-08T10:16:54+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "自分たちで立ち上げた「サーカスLT会」、第1回を大阪で開催してきた🎪",
-      "link": "https://qiita.com/ssakita/items/578e0668377acf6c5d49",
-      "summary": "はじめに\nこんにちは！ssakitaです！\n8月7日（金）、大阪で「サーカスLT会 #1」を開催してきました！\nJr.Championの仲間と一緒に立ち上げたイベントの、記念すべき第1回です。\n主催イベントの開催は初めてだったので、当日までずっとソワソワしていました。\n\n...",
-      "published": "2026-08-08T07:49:13+00:00",
+      "title": "EC2キーペアをCLIで作るときに詰まりがちなポイント",
+      "link": "https://qiita.com/caymezon/items/f6657c46240696bd2527",
+      "summary": "背景\nEC2キーペアはコンソールからも作れますが、CLIで作る方が自動化・スクリプト化に向いています。CLIでの作成から権限設定、複数鍵の管理方法までをまとめます。\n\n1. キーペア作成は1コマンド\naws ec2 create-key-pair \\\n  --key-na...",
+      "published": "2026-08-08T10:16:48+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "CloudFormationでEC2 + Apacheを構築して、SGを自分のIPに絞るまで",
+      "link": "https://qiita.com/caymezon/items/b13c72f9d8ef72416675",
+      "summary": "背景\nAWSコンソールでのEC2構築は再現性に課題があるため、CloudFormationでコード化しました。VSCode + AWS CLIで、テンプレート作成からデプロイ、セキュリティグループの絞り込みまでを一通り試した記録です。\n\n1. AMI IDをSSM Par...",
+      "published": "2026-08-08T10:16:42+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "WindowsでDNSサーバーを構築して、オンプレ想定VPCからGenU閉域モードへ接続してみた",
+      "link": "https://qiita.com/infra365/items/c350d66f0575cd1303f0",
+      "summary": "概要\nGenUには、インターネットに出ずにVPC内部だけで利用できる閉域モードがあります。\n\n閉域モードではGenUのWeb UIはALB、各種AWSサービスはVPCエンドポイント経由でアクセスします。そのため、オンプレミス側から使う場合は名前解決の設定が必須です。A...",
+      "published": "2026-08-08T09:39:20+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
@@ -74,15 +110,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "Amazon DynamoDBのリアルタイムベクトル検索機能をちょっと整理する",
-      "link": "https://qiita.com/Syoitu/items/068db63a8bf3bb961b2b",
-      "summary": "前書き\n2026年8月5日、Amazon DynamoDBがリアルタイムベクトル検索に対応しました。\n\nこれまでAWSでベクトル検索をやりたい場合、AWS Marketplace利用しない場合、選択肢はだいたい次の5つでした。\n\nAmazon OpenSearch S...",
-      "published": "2026-08-08T06:15:11+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "【OT/ICS】Dockerで挑む次世代電力網防衛（要塞要撃編：Grafana Node Graph ✕ Elasticsearch 統合）",
       "link": "https://zenn.dev/schutzz/articles/ad807aea04779b",
       "summary": "はじめに\n前回のPhase 4-4-1において、eBPF Vanguard によるパケットの選別と、ebpf_tx_agent / Redis / Vector を連携させた W3C Trace Context の OOB エンリッチメント（enrichment_status: hit 100% 成功）を証明できました。\nしかし、実際の SOC（セキュリティ運用センター）やインシデントフォレンジッ",
@@ -117,15 +144,6 @@
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "AWS Organization間のアカウント移行でTransit GatewayのRAM共有はどうなるか、実際に移行して確認した",
-      "link": "https://qiita.com/infra365/items/43831628277794df5959",
-      "summary": "概要\n前回、下記記事で、AWS Organizations間のアカウント移行でRAM共有が外れる理由と、共有を維持する設定を確認しました。\n\nこちらのマニュアルに記載の通り、組織の作成から7日、組織内で作成したメンバーアカウントは作成から4日が経過するまで別の組織へ移...",
-      "published": "2026-08-08T05:10:51+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "Lambdaのログを処理IDで追えるようにJSON形式の構造化ログにした",
@@ -407,15 +425,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "Apple刷新Siriはどこまで来たか。発表からbeta一般到達、Cook最後の説明会のiCloud+発言まで一次資料で整理",
-      "link": "https://qiita.com/quotidia/items/e3a14b76e9177c251f3e",
-      "summary": "本記事は筆者が運営する AI Quotidia の海外ニュース解説記事です。\n\nAppleが2026年6月8日(月)に発表した全面刷新版のSiri「Siri AI」は、2026年7月14日(火)に公開されたiOS 27 (iPhone向けの次期基本ソフト) のpublic...",
-      "published": "2026-08-07T21:02:20+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Amazon Bedrockの長期APIキー作成と短期APIキー利用をIAMポリシーで拒否してみた",
       "link": "https://zenn.dev/fusic/articles/cd15c2cb068ed9",
       "summary": "はじめに\nFusicのレオナです。\nAmazon Bedrockでは、AWS標準の署名認証であるSigV4に加えて、APIキーによるBearer認証を利用できます。また、APIキーには既存のAWS認証情報から生成する短期APIキーと、IAMユーザーに関連付けて発行する長期APIキーがあります。\n利用環境やシステムのセキュリティ方針によっては、長期APIキーを新しく作成できないようにしたり、APIキ",
@@ -468,15 +477,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "ChatGPTスラッシュコマンドは3層構造",
-      "link": "https://qiita.com/ha-te/items/2422535a3a5c25d36748",
-      "summary": "「スラッシュコマンド一覧」で検索すると、/goal も /formal も /handwritten も、同じ表に並んで出てくる。\nだがこの3つは、動く仕組みがまったく違う。1つ目はアプリに実装された機能、2つ目はただの文章の書き方、3つ目はそもそも効いているかどうかも怪し...",
-      "published": "2026-08-07T12:57:43+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "チーム知見メモリの「頭脳」をオンプレk3sのローカルLLMに載せ替えて、本番運用に耐える形にするまで",
