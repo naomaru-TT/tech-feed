@@ -1,6 +1,60 @@
 {
-  "updated": "2026-08-07T21:29:52.945551+00:00",
+  "updated": "2026-08-08T00:59:28.361184+00:00",
   "items": [
+    {
+      "title": "CloudFormation 460行 → CDK 200行。ALB + EC2 + RDSの3層構成をPythonで書き直した",
+      "link": "https://qiita.com/caymezon/items/2556aa5a1eaacb4b5932",
+      "summary": "背景\nCloudFormationのYAMLで構築していたALB + EC2(Tomcat) + RDSの3層構成を、AWS CDK（Python）で再現しました。\nインターネット\n  ↓ HTTP(80)\n[ALB]  ← パブリックサブネット 2AZ\n  ↓ HTTP...",
+      "published": "2026-08-08T00:41:54+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Midnight AI Groove 26-08-04",
+      "link": "https://qiita.com/masykot582/items/bd3052015f9ebf0fb740",
+      "summary": "[番組ジングル]\n♪ Midnight AI Groove... 深夜の知性は、踊りだす── ♪\nDJミオ:\nこんばんは、DJミオです。\nDJレン:\nこんばんは、DJレンです。\nDJミオ:\n今夜の「Midnight AI Groove」は、タイトルだけ見ると静かめです...",
+      "published": "2026-08-08T00:23:51+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Claude apps gatewayをAWSに構築してClaude Codeの認証とコスト管理を一元化してみた",
+      "link": "https://qiita.com/RP4nda13/items/d9249816995b6467356a",
+      "summary": "はじめに\n私はClaude CodeをAmazon Bedrock経由で利用するチームの運用を担当しているのですが、ずっと悩みの種だったのが認証とコスト管理です。\n以前の記事ではメンバーごとにアプリケーション推論プロファイルを作成してコストを可視化する方法を紹介しました...",
+      "published": "2026-08-07T23:24:33+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Anthropic、「Fable 5」の生物学の制限を緩和　誤検知によるフォールバックを約85％削減",
+      "link": "https://www.itmedia.co.jp/news/article/2608/08/2000000460/",
+      "summary": "Anthropicは、AIモデル「Claude Fable 5」の生物学分野における過度な保護機能を緩和したと発表した。安全性を重視するあまり発生していた無害な質問への誤検知や下位モデルへのフォールバックを大幅に削減。専門的な二重用途研究への制限は維持しつつ、一般的な健康・教育用途での利便性を向上させた。",
+      "published": "2026-08-07T22:57:07+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "OpenAI、次期モデル「Astra」の一部開発を停止　「Critical」級サイバー能力の可能性否定できず",
+      "link": "https://www.itmedia.co.jp/news/article/2608/08/2000000459/",
+      "summary": "OpenAIは、次期主力モデル「Astra」のサイバー能力が自社の安全指針における最上位「Critical」に達している可能性を発表した。要件を満たさない一部活動を停止し、リアルタイム監視や思考過程の評価など管理を強化する。能力を抑制するのではなく、政府機関や外部組織と協力して検証と安全策の提供を進める方針だ。",
+      "published": "2026-08-07T22:11:46+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "アプリに秘密を1文字も書かない ―Secret Manager×Cloud RunをAzure Key Vault目線で",
+      "link": "https://zenn.dev/ccie26302/articles/zenn-gcp-secret-manager-cloud-run",
+      "summary": "はじめに\nAzure から Google Cloud を触るシリーズです。これまで「SA鍵を作らない(WIF)」「トークンを絞る(CAB)」と\"秘密を持たない\"話をしてきました。今回はその締め——アプリケーションに、API キーや DB パスワードを1文字も書かないやり方です。\n道具は Secret Manager × Cloud Run。秘密は Secret Manager にだけ置き、Clou",
+      "published": "2026-08-07T21:05:53+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
     {
       "title": "Apple刷新Siriはどこまで来たか。発表からbeta一般到達、Cook最後の説明会のiCloud+発言まで一次資料で整理",
       "link": "https://qiita.com/quotidia/items/e3a14b76e9177c251f3e",
@@ -63,6 +117,15 @@
       "source": "Qiita - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "Cloud Run で 1 つのイメージを web/worker に分け、権限と設定を絞る",
+      "link": "https://zenn.dev/snknsk/articles/cloudrun-web-worker-split",
+      "summary": "Cloud Run + Cloud Tasks で非同期処理を組むと、たいてい最初は 1 つのサービスに全部が乗ります。Web UI も、/tasks/generate のようなタスク受付口も、同じプロセスの同じルーターに並びます。\n動くには動きます。実際、以前の記事ではその構成を Go と Python で比較しました。ただしこの形には、タスクの受付口が公開サービス上に存在し続けるという性質があ",
+      "published": "2026-08-07T15:27:20+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "【書評】Kubernetes Patterns, 2nd Edition",
@@ -191,15 +254,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "[AWS]ベクトル対応した DynamoDB のエンベディング戦略を考えてみる",
-      "link": "https://qiita.com/kikuziro/items/7eb821ebe7f15fc0fdd0",
-      "summary": "DynamoDB が 2026年8月5日にベクトル検索へ対応しました。商品データとそのベクトルを同じテーブルに置けるのがありがたいところです。ただしEmmbeding処理は自前でする必要があります。この記事ではその埋め込みを誰がいつ作るのか？という話を考えてみます。\n...",
-      "published": "2026-08-07T11:41:28+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "75体の並列エージェントで5.25Mトークンを溶かした——マルチエージェント運用の失敗5類型",
       "link": "https://zenn.dev/zenn_content/articles/multi-agent-failure-patterns-measured",
       "summary": "はじめに\nClaude Codeでサブエージェントを並列に走らせる運用を数ヶ月続けて、一通りの失敗を踏みました。最大のものは75体の並列ファンアウトで5.25Mトークンを消費し、429（レート制限）と利用枠超過で止まった件です。\n英語圏では「The 5 Failure Modes of Multi-Agent Claude Systems」のような失敗類型の整理が出始めていますが、日本語ではまだ体",
@@ -241,15 +295,6 @@
       "summary": "はじめに\nこんにちは、AWS Japan でソリューションアーキテクトをしている吉川です。\nエージェントに大きめの仕事を任せている間、PC を開けっぱなしにして待っていませんか。大規模リファクタ、依存の一括アップデート、長いテストの回し直し、ログの総ざらい。どれも数十分から数時間かかるのに、ラップトップの蓋を閉じた瞬間に止まってしまいます。移動する、会議に出る、寝る。そのたびに作業が中断されるのは",
       "published": "2026-08-07T10:12:42+00:00",
       "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "EC2 + CodeDeploy から ECS Fargate + GitHub Actions に移行して変わった5つのこと",
-      "link": "https://qiita.com/caymezon/items/66ae606c1bfe133b2bb0",
-      "summary": "背景\nCDK + ASG（EC2 Auto Scaling Group）で構築していた Spring Boot アプリの CI/CD 構成を、ECS Fargate + Docker に置き換えました。\nインフラは CDK Pipelines、アプリのビルド・デプロイは ...",
-      "published": "2026-08-07T10:09:40+00:00",
-      "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -364,7 +409,7 @@
     {
       "title": "August 07, 2026",
       "link": "https://docs.cloud.google.com/release-notes#August_07_2026",
-      "summary": "Cortex Framework\nAnnouncement\nRelease 7.0.1\nFixed\n\nResolved an issue where running the uv run cortex-build command in Windows PowerShell or Windows Command Prompt resulted in a Could not auto-import l",
+      "summary": "AlloyDB for PostgreSQL\nFeature\nYou can now sync tables from BigQuery into your AlloyDB instance, either as a\none-time operation or on a periodic schedule. This feature (in Preview)\nlets you enable ope",
       "published": "2026-08-07T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
@@ -438,15 +483,6 @@
       "link": "https://qiita.com/uni928/items/b4a874f0bbf91d378097",
       "summary": "ChatGPTなどのAIにHTMLを作ってもらったとき、\n\n機能は問題ないけど、もう少し見た目を良くしたい\n\nと思うことがあります。\nそんなときに便利なのが、自分が気に入ったHTMLを「HTML資産」として残しておく方法です。\n例えば、以前作ったボタンや入力フォーム、写真ア...",
       "published": "2026-08-07T03:45:45+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "ChatGPTの回答差分を残すPython監査術",
-      "link": "https://qiita.com/eiri_ai/items/3886d6bdcc53de6e611a",
-      "summary": "ChatGPTの回答差分を残すPython監査術\nOpenAIは8月6日、ChatGPTのGPT-5.6 Solを更新し、Freeユーザー向けにはGPT-5.6 Lunaを既定にすると発表しました。SolはChat内の応答をより正確で一貫したものにする更新で、Free側も...",
-      "published": "2026-08-07T03:29:23+00:00",
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
@@ -587,9 +623,9 @@
       "color": "#10A37F"
     },
     {
-      "title": "Kaggle ROGIIコンペ振り返りー193rd Place Solution",
+      "title": "Kaggle ROGIIコンペ振り返りー192nd Place Solution",
       "link": "https://zenn.dev/fusic/articles/240bd206835c53",
-      "summary": "はじめに\nFusicのレオナです。\nKaggleのROGII - Wellbore Geology Prediction[1]で、水平井戸のガンマ線（GR）をtypewellへ対応付けるCNN-SDFモデルを実装しました。最終結果は193位、Privateスコア8.143で銀メダルでした。[2]\nこのコンペでは、当初は行単位の特徴量と後処理を中心に試していました。しかし最終日に方針を変え、井戸1本",
+      "summary": "はじめに\nFusicのレオナです。\nKaggleのROGII - Wellbore Geology Prediction[1]で、水平井戸のガンマ線（GR）をtypewellへ対応付けるCNN-SDFモデルを実装しました。最終結果は192位、Privateスコア8.143で銀メダルでした。[2]\nこのコンペでは、当初は行単位の特徴量と後処理を中心に試していました。しかし最終日に方針を変え、井戸1本",
       "published": "2026-08-06T22:00:05+00:00",
       "source": "Zenn - 機械学習",
       "tag": "AI",
@@ -600,24 +636,6 @@
       "link": "https://kn.itmedia.co.jp/kn/articles/2608/07/news037.html",
       "summary": "物理AIベンチマークで最高評価を獲得した「Claude Fable 5」。だが、企業が導入を判断する際には、性能だけでは見えない悩ましい問題が浮かび上がった。",
       "published": "2026-08-06T22:00:00+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "銀行なら3カ月→AIは1カ月　10万件のデータで「数千万円」を引き出した“データドリブン資金調達術”",
-      "link": "https://www.itmedia.co.jp/business/articles/2608/07/news011.html",
-      "summary": "黒字化目前のZehitomoは、手元資金を確保すべく新たな資金調達手段を模索していた。だが、銀行融資は最低3カ月を要し、株式調達は希薄化のリスクを伴う。この壁を打ち破ったのが、AIを活用した「データ駆動型融資」だ。同社が提出した10万件の入金データをAIが解析し、わずか1カ月で数千万円の融資が実行。株を薄めず迅速に資金を確保する「AI時代の調達術」と、変化する融資条件の最前線を追う。",
-      "published": "2026-08-06T22:00:00+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "あえて歩かせない――準国産ヒューマノイド「D1」登場、現場稼働で日本の勝ち筋へ",
-      "link": "https://monoist.itmedia.co.jp/mn/articles/2608/07/news039.html",
-      "summary": "ZEALSは日本の屋内環境に適応した準国産の台車型ヒューマノイド「D1」を発表した。医療や製造現場など実際の稼働を通じて独自の物理データを収集。フィジカルAIの社会実装を推進し、2026年度内に累計1万時間の現場稼働を目指す。",
-      "published": "2026-08-06T21:45:00+00:00",
       "source": "ITmedia AI+",
       "tag": "AI",
       "color": "#10A37F"
@@ -749,7 +767,7 @@
       "color": "#FF9900"
     },
     {
-      "title": "GrafanaはGraph＋Kibana、Gitは「愚かなコンテンツトラッカー」─ DevOps・インフラ15種の名前の由来",
+      "title": "DevOps・インフラ周りの名前の由来(15種)",
       "link": "https://qiita.com/shimitaro/items/65054f73735bbb4c4f29",
       "summary": "はじめに\nTerraform、Kubernetes、Datadog—。\n毎日のようにコマンドを打ったりダッシュボードを眺めたりしているのに、「そういえばこの名前、何が由来なんだろう？」と考えたことはありますか？\n自分は恥ずかしながら、Nginx を「エヌジンクス」と読んで...",
       "published": "2026-08-06T02:01:20+00:00",
@@ -837,24 +855,6 @@
       "source": "Publickey",
       "tag": "テック",
       "color": "#888780"
-    },
-    {
-      "title": "OpenAI SDKのままGeminiを叩く ―API Gateway model routingを個人で検証（2026）",
-      "link": "https://zenn.dev/ccie26302/articles/zenn-gcp-api-gateway-model-routing",
-      "summary": "はじめに\nAzure から Google Cloud を触るシリーズです。2026年に出た API Gateway の model routing を試しました。ひとことで言うと、OpenAI 互換のリクエストを受け取って Vertex AI（Gemini など）に振り分けるマネージドな入口です。LiteLLM のような自前プロキシを立てずに、既存の OpenAI SDK のコードをそのまま GC",
-      "published": "2026-08-05T14:13:54+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "Pub/Sub→Cloud Runのイベント駆動を最小構成で ―publishしたら勝手に処理される",
-      "link": "https://zenn.dev/ccie26302/articles/zenn-gcp-pubsub-cloudrun-eventdriven",
-      "summary": "はじめに\nAzure から Google Cloud を触るシリーズです。今回は GCP 王道のイベント駆動——「メッセージを publish したら、Cloud Run が勝手に起動して処理する」を最小構成で作ります。普段はインスタンス0、メッセージが来た時だけ動く。しかも認証付き（非公開サービス）という、本番でやるべき形で。\n!\n検証は使い捨てプロジェクトで実施。Cloud Run は sca",
-      "published": "2026-08-05T13:05:31+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "Dockerコンテナを2つ作成し、Nginxコンテナ経由でないとFastapiコンテナにアクセスできないようにしてみた",
