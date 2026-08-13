@@ -1,6 +1,15 @@
 {
-  "updated": "2026-08-13T18:51:14.778604+00:00",
+  "updated": "2026-08-13T21:35:52.665612+00:00",
   "items": [
+    {
+      "title": "RokuのAI生成24時間チャンネル「Fairground」を整理。公式発表なし・全事実が報道ベース",
+      "link": "https://qiita.com/quotidia/items/e2d7530ad23916f97263",
+      "summary": "本記事は筆者が運営する AI Quotidia の海外ニュース解説記事です。\n\n米メディアThe Vergeは現地時間2026年8月7日(金)、米国のテレビ配信プラットフォームRokuに、コンテンツも広告もAIが生成する24時間チャンネル「Fairground」が追加され...",
+      "published": "2026-08-13T21:02:27+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "サブスクの見張り番AIエージェントを作った話(Strands Agents SDK + AgentCore Runtime)",
       "link": "https://qiita.com/yama3133/items/c47348968770d9367b23",
@@ -47,11 +56,20 @@
       "color": "#FF9900"
     },
     {
-      "title": "NPUのSystolic Arrayとは？PE Arrayとデータ再利用の仕組み",
-      "link": "https://zenn.dev/kas_blog/articles/npu-systolic-array-dataflow",
-      "summary": "NPUはなぜDRAMアクセスを減らしやすいのか？PE ArrayとSystolic ArrayをGPUとの違いから理解する\n\n概念図：実際の製品回路を理解しやすく簡略化した図。\n\n 本記事の目的\n\n前編では、GPUが行列積をtile（小さな部分行列）へ分割し、Shared Memory（SM内で共有する高速メモリ）やRegisters（thread近傍の保存領域）でA/B tileを再利用する仕組",
-      "published": "2026-08-13T15:13:18+00:00",
-      "source": "Zenn - 機械学習",
+      "title": "llama-serverのホットスタンバイは存在するか：部品は揃っているのに名前がない",
+      "link": "https://zenn.dev/zapabob/articles/llama-server-hot-standby-ha-design",
+      "summary": "はじめに：よくある混同\nローカルLLMを常用していると、「ホットスタンバイ」「モデル常駐」「KVキャッシュ保持」「スリープ復帰」「ホットスワップ」という言葉が混同されがちです。\n結論から言うと、llama-server にホットスタンバイという名前の完成された単一機能はありません。しかし、複数の機能を組み合わせるとホットスタンバイ構成を作れる状態にはなっています。\nこの記事では、何がホットスタンバ",
+      "published": "2026-08-13T15:42:45+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AIに仕様を勝手に決めさせない——顧客との「合意」をコンパイルするTsumugi",
+      "link": "https://zenn.dev/takashishibata/articles/3bb9875f062b8b",
+      "summary": "はじめに\nAI HACK 2026に参加し、顧客との「合意」を開発の出発点にするツール、Tsumugi（紡ぎ）— Agreement Compiler を開発しました。\n\n\nDon't generate assumptions. Compile agreements.\n推測を生成するな。合意をコンパイルせよ。\n\n生成AIを使えば、曖昧な要望からでも、それらしい仕様書やコードを素早く作れます。\nしか",
+      "published": "2026-08-13T15:01:00+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -61,6 +79,24 @@
       "summary": "はじめに\n　前々回の記事では，Double/Debiased Machine Learning（以下，DML）をFWL定理の延長として捉え，部分線形回帰モデルにおいてアウトカムと処置の双方から共変量によって予測可能な部分を取り除くという考え方を説明した．\n\n　前回の記...",
       "published": "2026-08-13T14:37:47+00:00",
       "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "クラウドAIに入力できない情報をどう扱うか？llama.cppで学ぶローカルLLM入門をUdemyで公開した話",
+      "link": "https://zenn.dev/sumumu26/articles/1898ece4db3afa",
+      "summary": "こんにちは。miharubaの池谷です。\n今日、Udemyで講座「llama.cppで学ぶローカルLLM入門 ― GPU・コンテキスト・KVキャッシュからRAGまで」を公開しました。この記事では、講座で何を扱っているか、なぜこのテーマを選んだかを書きます。\n\n きっかけ: クラウドAIに入力できない情報がある\n会社の機密情報や顧客データを、ChatGPTのようなクラウドAIに入力してよいか迷う場面",
+      "published": "2026-08-13T14:21:32+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "ローカルAIとContextLengthを超えた「思い出」を作る #4",
+      "link": "https://zenn.dev/kanakana612/articles/4facbf05f479ed",
+      "summary": "～それ、お前が言ったんやないかい！～\n\n １．ナチュラルに起きる「発言者の混同」\n会話文でLLMとチャットしてると、「前にこう話してたよね？」という形で過去の発言を引用することがある。そのとき、エージェントが過去にした発言を、さも僕が言ったことのように引用することがある。具体例を出せたらいいんだけれど…例えば、\n[user]A（主題）って、B（解釈）として理解できるよね？\n[agent]そうだね。",
+      "published": "2026-08-13T14:19:38+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -90,15 +126,6 @@
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "Cloud Run で /healthz が404になる — その404を書いたのは自分のアプリではなかった",
-      "link": "https://zenn.dev/gapprobe_labo/articles/27aba9b60810c3",
-      "summary": "FastAPI に /healthz を定義し、ローカルでは 200 が返り、/openapi.json にも載っている。それを Cloud Run にデプロイしたら、そのパスだけが 404 になりました。\nおかしいのはここからです。アプリのリクエストログに、その404が1件も残っていません。\nアプリが404を返したなら、アプリのログに残るはずです。残っていないということは、アプリまで届いていない",
-      "published": "2026-08-13T13:21:56+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "Google、「Gemini」開発遅延で焦りか　共同創業者ブリン氏が“全力投球”促す",
@@ -153,15 +180,6 @@
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "Unreal Engine 5.8のWindowsビルド環境をGCP Custom Imageで構築する",
-      "link": "https://zenn.dev/yoshitetsu/articles/unreal-engine-58-gcp-custom-image",
-      "summary": "TL;DR\nMacを主な開発機としているUnreal Engineプロジェクトに、Windowsパッケージを作るための一時的なビルド環境が必要になりました。\nGCP上にWindows Server 2022のVMを構築しました。\nEpic Games Launcher版のUnreal Engine 5.8.1とVisual Studio Build Toolsを導入したあと、認証情報とプロジェクト",
-      "published": "2026-08-13T12:38:00+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "プロンプトチェイニングとは 複雑なAI依頼を分割する方法と15のプロンプト手法",
@@ -227,15 +245,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "なぜ、私が「AIの発展でITエンジニアは消滅する」vs「AIが発展してもITエンジニアはずっと必要」の論争を冷笑的に見るのか？",
-      "link": "https://zenn.dev/pdfractal/articles/a8eb480fd10df9",
-      "summary": "はじめに\nAIが急速に発展するようになってから、「いずれITエンジニアはAIに仕事を奪われて消滅する」という議論と、「どれだけAIが発展してもITエンジニアは必要であり続ける」という議論を頻繁に見かけるようになりました。私はこの論争をかなり冷笑的に見ています。その理由は、両者が未来についての物語をぶつけ合っているように見えるからです。\n「AIがすべてを代替する」という物語と、「最後には人間にしかで",
-      "published": "2026-08-13T09:16:43+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "COMMIT成功はどの障害まで守られるか",
       "link": "https://zenn.dev/k1e1n04/articles/commit-boundaries-replication-race",
       "summary": "「COMMIT が成功した以上、データが失われることはない」と考えて設計してはいないでしょうか。\nMySQL単体の再起動であれば、redo logによってデータを回復できます。ところが、ノード障害でレプリカに切り替えるケースでは、レプリケーションの遅延によって「COMMIT 成功を返したデータが失われる」ことがあります。\nこの記事では、日常的にトランザクションを扱うWebバックエンド開発者に向けて",
@@ -252,15 +261,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "AIエージェントの“根拠の捏造”を、テスト駆動で見つけて自動修正（86%→0%）― DataRobot Tensile",
-      "link": "https://zenn.dev/miogawa/articles/f074de4d57b6bb",
-      "summary": "はじめに\n今回は 弊社が公開した新しいエージェント信頼性フレームワーク「Tensile」 を、いちエンジニアとして実際に触ってみたので、その記録を残します。自社製品ではありますが、宣伝ではなく「中の人が普通に手を動かして試したらどうだったか」をそのまま書きます。\n生成AIエージェントを業務に載せようとすると、必ずぶつかるのが 「たまに失敗する」問題 です。\n\n同じ質問でも実行するたびに挙動が変わる",
-      "published": "2026-08-13T08:20:52+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "新卒研修でAWS Jamを開催しました",
@@ -317,15 +317,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "AIワークフローを組んで数学の難問に半日ぶつけたら、ボトルネックが自分だった話",
-      "link": "https://qiita.com/dosanko_tousan/items/365c991e23dc86d14892",
-      "summary": "AIワークフローを組んで数学の難問に半日ぶつけたら、ボトルネックが自分だった話\n\n何をやったか\nChatGPT の Project を調整レイヤーにして、独立したワーカーを複数走らせる構成を組んでいます。研究、長文執筆、出版作業、ソフトウェアの実験、出典検証、複数モデルで...",
-      "published": "2026-08-13T07:13:26+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "AWS、IaCを勉強したいけど課金の心配をしたくない！",
       "link": "https://zenn.dev/silver252/articles/2fc2f815ced6d1",
       "summary": "!\n本記事はシリーズとする予定です。\n\n!\nこの記事は前段が長いのでタイトル回収部分を先に知りたい方は目次から飛んでください\n\nまた、筆者は勉強中のため先輩方からのコメントぜひお待ちしております🙇\n\n やりたいこと\n\nAWS自体の勉強\nネットワークの勉強\nクラウドインフラ設計・構築の勉強\nIaC（Terraform）の勉強\n\n\n なぜやりたいと思ったか\n自分は現在社内SEや生成AI社内推進PJをや",
@@ -358,24 +349,6 @@
       "summary": "はじめに\n最近、業務でLLMを組み込んだプロトタイプを作る機会が増えた。APIを叩くだけなら数時間で動くものが出来上がる。しかし「なぜこのアーキテクチャが主流になったのか」「経営層にどう説明すれば導入が進むのか」「この技術の社会的リスクは何か」といった問いに対して、自分の...",
       "published": "2026-08-13T06:45:36+00:00",
       "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "DeepSeek V4-ProとGrok 4.6を選ぶ前に確認したいLLM評価の見方",
-      "link": "https://zenn.dev/amamiya_chan/articles/dffbc36483190a",
-      "summary": "はじめに\n新しいLLMが発表されるたびに、\nSNSや技術コミュニティでは多くの評価が出ます。\n「このモデルはコード生成が強い」\n「推論性能が高い」\n「以前のモデルより自然になった」\nといった意見です。\n一方で、開発者が実際に導入しようとすると、\n別の問題に気づきます。\n同じモデルなのに、\nある人は、\n\nかなり使いやすい\n\nと言う。\n別の人は、\n\nAgentでは安定しない\n\nと言う。\nなぜでしょうか",
-      "published": "2026-08-13T06:42:08+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "DeepSeek V4-ProとGrok 4.6の「使いにくい」は何が違うのか",
-      "link": "https://zenn.dev/kiri_kunn/articles/3f70052f05fefc",
-      "summary": "はじめに\n最近、DeepSeek V4-ProとGrok 4.6が大きな注目を集めています。\nどちらも「高性能モデル」として紹介され、\nベンチマークや推論能力について多くの議論があります。\n一方で、開発者コミュニティを見ると、別の種類の不満も出ています。\n例えば、\n\nAgentで期待通り動かない\nAPI経由では挙動が違う\nツール呼び出しが安定しない\nすぐ次のモデルが出そうで本番採用しにくい\n\nとい",
-      "published": "2026-08-13T06:34:17+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -803,6 +776,15 @@
       "color": "#FF9900"
     },
     {
+      "title": "HuggingFaceの巨大ファイルDLが途中で止まる — curl再開で確実に取る",
+      "link": "https://zenn.dev/orca_forge/articles/huggingface-large-file-download-curl-resume",
+      "summary": "📝 この記事は forge.workstyle.tech に掲載した記事の転載です。\n\n音声変換アプリの開発で、44.1kHz の Seed-VC モデル一式（DiT の重み、rmvpe、BigVGAN のボコーダ）を落とそうとして、こんな壁にぶつかりました。\n\nhuggingface_hub でモデルを取得しようとすると、数百MBのファイルの途中で転送が止まったまま、いつまで経っても進まない。",
+      "published": "2026-08-12T01:00:10+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "【Go】Dockerfile に air は不要？ Use Compose Watch を前提にしたコンテナ構築",
       "link": "https://zenn.dev/otakakot/articles/693a8367fd5f01",
       "summary": "はじめに\nあんまり解説記事なさそうなので、メモがてらの投稿です。（私が最近記事を見なくなっただけかもです。）\nhttps://docs.docker.com/compose/how-tos/file-watch/\n\n TL;DR\n!\ndocker compose watch および compose.yaml の develop を設定することで air などに依存しないホットリロード環境を作れます",
@@ -911,6 +893,15 @@
       "color": "#326CE5"
     },
     {
+      "title": "Gemini in BigQueryで自然言語からSQLを生成する実践ガイド【2026年版】",
+      "link": "https://zenn.dev/web_benriya/articles/gemini-bigquery-nl-sql-guide-2026",
+      "summary": "はじめに\n「BigQueryにデータが蓄積されているのに、SQLが書けないせいで活用できていない」——そんな悩みを抱えるEC事業者やウェブ担当者の方は少なくありません。GA4のデータをBigQueryに連携したものの、いざ分析しようとすると「どんなSQLを書けばいいのかわからない」という壁にぶつかるケースはよくあります。\nGoogleが提供するGemini in BigQueryは、こうした課題へ",
+      "published": "2026-08-11T10:20:32+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
       "title": "Amazon EKS Distributed AI ワークショップを作った",
       "link": "https://zenn.dev/tosshi/articles/1e0bb517eb1fe6",
       "summary": "はじめに\nML 分散学習・推論の実験を、Amazon EKS 上で回すための基盤を Terraform で構築するワークショップを作りました。この基盤は、AWS が公開する分散学習リファレンス実装 awslabs/awsome-distributed-ai を参考にしながら組み立てています。まず NVIDIA GPU で動く構成を土台に据えつつ、AWS Trainium への対応も今後目指していま",
@@ -927,6 +918,15 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "「誰のテックなのか」をもっと問うべきだ　テックについて語るときに抜けている視点",
+      "link": "https://zenn.dev/kometan/articles/c08fb507246d6a",
+      "summary": "ZennやQiitaには毎日おもしろい・勉強になる記事が更新されています。\nさまざまなエンジニアが書き手となってAWSの構成図を披露してくれたり、Vercelで簡単なWebアプリをデプロイする方法を教えてくれたりします。最近ではAIが熱くClaude Codeの基本的な使い方やFableになって何が変わったか、Codexだとどうか、というような記事が日々公開されています。\n\n それは誰のテックなの",
+      "published": "2026-08-11T07:53:18+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "Docker SandboxesでAIエージェントを隔離してみた",
