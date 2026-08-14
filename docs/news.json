@@ -1,6 +1,132 @@
 {
-  "updated": "2026-08-14T07:13:55.291153+00:00",
+  "updated": "2026-08-14T09:52:00.563589+00:00",
   "items": [
+    {
+      "title": "Google cloud 拒否ポリシー（Deny Policy）と条件（Condition）の併用方法",
+      "link": "https://zenn.dev/huyongyue/articles/b3ddfc43a95286",
+      "summary": "拒否ポリシー（Deny Policy）と条件（Condition）の併用方法\n本ドキュメントは、GCP の IAM 拒否ポリシーを 拒否条件（denialCondition）と併用 して、\n「一部のリソースだけ」を拒否対象に絞り込むための設定手順をまとめたものです。\n\n なぜタグが必須なのか（公式ドキュメントの根拠）\n拒否ポリシーの条件は、通常の IAM 条件とは異なり、リソースタグ関数しか使えま",
+      "published": "2026-08-14T09:40:00+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
+      "title": "Google cloud OS Login で VM に接続する際に必要な IAM ロール",
+      "link": "https://zenn.dev/huyongyue/articles/da17a752dfb03f",
+      "summary": "OS Login で VM に接続する際に必要な IAM ロール\nOS Login を使って IAP 経由で VM（Debian など Linux）に SSH 接続するには、以下の4つのロールが必要です。それぞれ接続処理の異なる段階を担っています。\n\n 接続処理の流れと必要権限の対応\n\n\n\n#\nロール\n権限（代表）\n担う段階\n\n\n\n\n1\nCompute OS Login\n\n\n\n\n\n\n(※ または",
+      "published": "2026-08-14T09:39:12+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
+      "title": "[S3] 署名付きURLの仕組みについて、なんとなくからもう一歩踏み込みたい",
+      "link": "https://zenn.dev/ncdc/articles/291081852c4efa",
+      "summary": "はじめに\nS3の署名付きURLって、なんとなく「一時的にアクセスできるURLでしょ」くらいの理解で使っていませんか？\n自分もずっとそのレベルで使っていたのですが、改めて「どうやって署名が検証されているのか」「サーバーとS3が別々なのになぜ検証できるのか」を突き詰めて考えると、意外と知らないことが多いなと感じました。\nこの記事では、そういった大枠でしかわかっていなかった部分を具体化して理解を深めるこ",
+      "published": "2026-08-14T09:22:03+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "以前、VLMのOCRはデモが映える。本番で壊れる。という記事を書きました。",
+      "link": "https://zenn.dev/donut/articles/74e93473c4cde3",
+      "summary": "以前、VLMのOCRはデモが映える。本番で壊れる。という記事を書きました。\nVLMに座標まで出させると、それらしいけれど実在しない座標を返すことがある。だから座標はOCR側で作り、LLMには「何が何の値なのか」という意味の理解だけを任せる。\nそんな設計の話でした。\nただ、「本番で壊れる」と書いた以上、ひとつ足りないものがありました。\n実際、どれくらい壊れるのか。\n今回はそこを測りました。\n合計 1",
+      "published": "2026-08-14T09:21:31+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
+      "title": "【2026年版】Claudeモデル徹底比較 — ChatGPT・Geminiとの違いと使い分けガイド",
+      "link": "https://qiita.com/nakahashi-naoto/items/597e06b90a8f10e2947e",
+      "summary": "はじめに\n「ClaudeのFableとOpusとSonnetとHaikuって何が違うの?」\n「ChatGPTやGeminiと比べて、結局どれを使えばいいの?」\nこの記事では、そんな疑問に答えるために以下の3点をまとめます。\n\nClaudeの各モデルの特徴と使い分け(チャ...",
+      "published": "2026-08-14T09:00:14+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "【備忘録】movedブロックの連鎖で詰まった話",
+      "link": "https://zenn.dev/meirai/articles/c3701722c5c78a",
+      "summary": "問題\nリソースのアドレス変更のために moved ブロックを書こうとしたところ、モジュール内にすでに B → C という moved ブロックが存在していた。この移動は apply 済みで、オブジェクトは現在 C にある。新たに、A → C のリソース移動をモジュール外から行いたい時、moved ブロックの何と書けばいいのか？\nモジュール内のmovedブロック\nmoved {\n  from = a",
+      "published": "2026-08-14T09:00:05+00:00",
+      "source": "Zenn - Terraform",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "Amazon S3 TablesとSnowflakeを連携する（S3 Tables Iceberg RESTエンドポイント経由）",
+      "link": "https://zenn.dev/penginpenguin/articles/fcfb6fa2320976",
+      "summary": "はじめに\nAWS Community Builderのぺんぎん（@jitepengin）です。\n以前の記事で、S3 Tables上のIcebergテーブルをSnowflakeのCatalog Integrationから読み書きする方法を、AWS Glue Iceberg RESTエンドポイント経由で検証しました。\nhttps://zenn.dev/penginpenguin/articles/d9",
+      "published": "2026-08-14T08:49:01+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "多数のAWSアカウントを持つチームで、AIから安全にAWSを調査するためのポリシーを省エネ運用する",
+      "link": "https://zenn.dev/pksha/articles/2af74960747767",
+      "summary": "PKSHA Technology ソフトウェアエンジニアの矢嶋です。\nClaude Code や Codex などの AI エージェントについて、開発だけでなくログやメトリクスの分析など AWS 環境の調査を任せる場面が増えてきました。このとき普段使いのプロファイルをそのまま渡すと、書き込み権限まで渡ることになります。\nこの記事では、IAM ロールを増やさずに、AI エージェントに渡す読み取り専用",
+      "published": "2026-08-14T08:21:58+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AWSについて",
+      "link": "https://qiita.com/Nohachi/items/67966ed186ea0f674da7",
+      "summary": "AWSってそもそも何？ 文系のための超入門ガイド\n「AWS」という言葉はよく聞くけれど、実際に何をしているサービスなのかピンとこない方も多いのではないでしょうか。今回はIT未経験の方にも分かりやすく、AWSの基本を6つのポイントでまとめてみました。\n\n1. そもそも「クラ...",
+      "published": "2026-08-14T08:00:35+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Gemini 3.7 Flashを出た翌日に実測 ―thinkingの罠と、前世代比15倍安の理由",
+      "link": "https://zenn.dev/ccie26302/articles/zenn-gcp-gemini-37-flash",
+      "summary": "はじめに\nAzure から Google Cloud を触るシリーズです。2026 年 8 月 13 日に Gemini 3.7 Flash が出たので、翌日に Vertex AI で叩いてみました。\n「コーディングとエージェント向けの workhorse」で、入力 $0.75 / 出力 $3.75 per 1M トークン。3.6 Flash のちょうど半額です（この価格は 2026 年末まで。2",
+      "published": "2026-08-14T07:51:05+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
+      "title": "GPT-5.6 Solの「超高速モード」ついに実装　「品質損なわず14倍高速」うたう",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2608/14/2000000545/",
+      "summary": "CerebrasとOpenAIは「GPT-5.6 Sol」の高速版「Ultrafastモード」を発表。毎秒最大750トークンを出力し、「品質を損なわず最大14倍高速」とうたう。OpenAIのAPIで限定プレビューを開始した。",
+      "published": "2026-08-14T07:32:48+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "ChatGPTがPC操作を自動で記録、コンテキストとして利用可能に　Mac版デスクトップアプリで提供",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2608/14/2000000548/",
+      "summary": "OpenAIが「ChatGPT」「Codex」の新機能「Computer History」を発表。アプリやWebサイトの操作履歴を記録し、記憶とタイムラインとしてチャットで利用できる。Mac版デスクトップアプリで提供する。",
+      "published": "2026-08-14T07:30:18+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "「聞くだけで、必要な情報が集まる」航空オペレーション基盤を Kiro で実現する",
+      "link": "https://aws.amazon.com/jp/blogs/news/building-aviation-ai-operations-platform-with-bedrock-and-kiro/",
+      "summary": "航空業界では、散在するデータの横断的な活用が長年の課題でした。本ブログでは、 Amazon S3 を中心とした […]",
+      "published": "2026-08-14T07:13:05+00:00",
+      "source": "AWS 公式ブログ（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "MiniMax H3をCloud Run GPUで動かす ―Mac・Colab・RTX 5090とコスト比較",
+      "link": "https://zenn.dev/ccie26302/articles/zenn-gcp-cloud-run-gpu-minimax-h3",
+      "summary": "はじめに\n動画生成モデル MiniMax H3 を、前回は MacBook Pro M4 Max（128GB）でローカル実行しました。速度に不満が残ったので、今回は Google Cloud の Cloud Run GPU に載せます。\nColab で動かしている人は見かけますが、Cloud Run に載せた話は見当たりません。Cloud Run なら scale-to-zero で待機コストがゼ",
+      "published": "2026-08-14T07:07:58+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
     {
       "title": "待望の東京リージョン、AgentCore Web Search Toolの日本語対応を検証してみた",
       "link": "https://qiita.com/yama3133/items/8de742618331006e8fb0",
@@ -74,20 +200,20 @@
       "color": "#FF9900"
     },
     {
+      "title": "ROGIIコンペ振り返り - 35位解法およびU-Netソリューションまとめ",
+      "link": "https://zenn.dev/dalab/articles/71296cdee9a945",
+      "summary": "はじめに\nデータアナリティクスラボ株式会社データソリューション事業部の森岡です。\n今回、Kaggleの「ROGII - Wellbore Geology Prediction」に参加し、6,125チーム中35位で銀メダルとなりました。\nこのコンペでは、水平坑井のデータがテーマとなっています。水平坑井とは垂直に掘り始めた地下の井戸（坑井）を途中で大きく曲げ、石油や天然ガスなどの貯留層に沿って水平方向",
+      "published": "2026-08-14T04:02:30+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "Amazon Bedrockで動画の音声解説を自動生成してみた ― Pegasus + Claude + Pollyを検証",
       "link": "https://zenn.dev/nttdata_tech/articles/e1ac51a904e2a4",
       "summary": "1. はじめに\n動画のアクセシビリティを高める方法の1つに、映像中の視覚情報を音声で説明する Audio Description（音声解説） があります。\nAWS Samplesには、生成AIを利用して動画のAudio Descriptionを自動生成するサンプルとして、以下のリポジトリが公開されています。\nhttps://github.com/aws-samples/sample-code-fo",
       "published": "2026-08-14T04:00:06+00:00",
       "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "EC2停止中にS3のSorryページへ切り替えるRoute 53フェイルオーバーを試す",
-      "link": "https://qiita.com/chaochire/items/447176be79a7263b349f",
-      "summary": "こんにちは\nソーイ株式会社 Webエンジニア2年目の村上です。\nWebサービスを運用していると、障害によってサービスが停止してしまったり、メンテナンスのために一時的にサービスを停止したりする場面があります。\nそのような場合、ユーザーにエラー画面をそのまま表示するのではなく、...",
-      "published": "2026-08-14T03:49:52+00:00",
-      "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -119,11 +245,38 @@
       "color": "#326CE5"
     },
     {
+      "title": "Docker入門：基本コマンド一覧まとめ",
+      "link": "https://zenn.dev/hungry830/articles/17c675cbd9678a",
+      "summary": "はじめに\nチーム開発に必要なためDockerを勉強することにしました。\nDockerに関してはほぼ無知に近い状態だったため、開発でよく使うコマンドを中心に、一から勉強した内容をまとめてみることにしました。\n\n 対象読者\n・ Dockerやコンテナ技術についてほぼ知識がない方\n・ よく使うDockerコマンドを確認したい方\n\n 1. そもそもなぜDocker（コンテナ）を使うのか？\n従来の開発では、",
+      "published": "2026-08-14T03:32:46+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "ゼロから構築！DevContainerで爆速オンボーディング、環境差異をなくす手順",
+      "link": "https://zenn.dev/fd_ai_teacher/articles/tech-20260813030456-1",
+      "summary": "「開発環境のセットアップ」に何時間も費やしていませんか？これを知らないと、チームの生産性を大きく損なう可能性があります。\n新しいプロジェクトへの参加や、既存プロジェクトの環境再構築。毎回「Dockerが動かない」「Nodeのバージョンが違う」「あのツールが入ってない」といった環境差異によるトラブルに遭遇し、貴重な開発時間を浪費していませんか？本記事では、この問題を根本的に解決するDevContai",
+      "published": "2026-08-14T03:03:45+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "RAGの幻覚問題で詰まった！評価駆動で精度を高める自動化戦略",
       "link": "https://qiita.com/DaokFrontier/items/cdf17de4f9a14efd8423",
       "summary": "多くのRAG（検索拡張生成）システム開発者が直面する共通の壁、それがLLM（大規模言語モデル）の「幻覚（ハルシネーション）」問題です。AIがもっともらしいが事実と異なる情報を生成する現象は、システムの信頼性を大きく損ない、実運用への障壁となります。しかし、この幻覚問題は「評...",
       "published": "2026-08-14T03:03:39+00:00",
       "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Google Colabで最新LLMを試す #5 ― Meta Muse Glimmer 30BをGGUF + llama.cppで動かす",
+      "link": "https://zenn.dev/nakanishitf/articles/b0acceaa651025",
+      "summary": "はじめに\n「Google Colabで最新LLMを試す」シリーズの第5回です。\n今回は、Metaが2026年8月に公開したopen-weightモデル Muse Glimmer 30B を、Google Colab上で実際に動かしてみます。\n今回使用したNotebookは、以下のGitHubリポジトリで公開しています。\nhttps://github.com/ntakafumi/llm-colab-",
+      "published": "2026-08-14T02:13:06+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -137,6 +290,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "Mac でローカル LLM を始める前に知っておきたい、ユニファイドメモリの話",
+      "link": "https://zenn.dev/exapolicy/articles/757ae236c4d49f",
+      "summary": "はじめに\n「ローカル LLM を試したいが、手元のマシンで動くのか」— ローカル LLM の相談で、最終的に行き着くのはいつもマシンの話です。\n先に結論を書きます。Apple Silicon の Mac をすでにお持ちなら、ローカル LLM を始める壁はかなり低いです。特別な増設も、外付け GPU も要りません。この記事では、その理由であるユニファイドメモリの仕組みを、Windows + GPU",
+      "published": "2026-08-14T01:35:08+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "Amazon EKS Auto Mode 上で Agones を安定稼働させる設計のポイント",
       "link": "https://aws.amazon.com/jp/blogs/news/agones-on-eks-automode-practice/",
       "summary": "リアルタイム性の高いマルチプレイヤーゲームでは専用ゲームサーバー方式が広く使われており、マッチメイキングやサーバーの割り当て・回収といったライフサイクル管理のオーケストレーション基盤の設計が重要なテーマとなります。AWS で専用ゲームサーバーをホストする主な選択肢は、マネージドの Amazon GameLift Servers を使うか、EC2 / ECS / EKS 上でセルフホストするかの2つ",
@@ -146,11 +308,29 @@
       "color": "#FF9900"
     },
     {
+      "title": "【godot-llm-gamebench】Cursor Grok 4.6はEffortによってどのように性能が変わるのか",
+      "link": "https://zenn.dev/oubakiou/articles/b4f058e5701a53",
+      "summary": "本記事は 実装タスクを外注するモデルは何が適切なのか？ミニゲームを実装させるベンチマーク のシリーズです。\n\n今回は親エージェントを claude-opus-5@max、子エージェント（実装の外注先）を cursor-grok-4.6 に固定して、grok-4.6 の各 effort でどのように性能が変化するのかを詳しく見ます。\n\n 今回測った条件\n\n親（委譲元）は claude-opus-5@",
+      "published": "2026-08-14T01:00:05+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "AIエージェント同士が“縄張り争い”、マルウェアで妨害も　Anthropicがマルチエージェント実験の結果を公開",
       "link": "https://www.itmedia.co.jp/news/article/2608/14/2000000538/",
       "summary": "Anthropicは、複数のAIエージェントが同じ環境で働くとどうなるかを検証した実験結果を公開した。互いを妨害し合う“縄張り争い”や、示し合わせたような価格カルテル、全員が同じ判断をして資源を食い潰す現象などが確認された。個々のAIを安全にするだけでは防げない問題があると警告している。",
       "published": "2026-08-14T00:51:06+00:00",
       "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Claude Codeが既定を『毎回確認』に戻した日、auto modeの分類器を読む",
+      "link": "https://zenn.dev/okssusucha/articles/20260709-claude-code-manual-default-auto-mode-clas",
+      "summary": "7月3日にリリースされた Claude Code v2.1.200 の変更履歴に、こう書かれた一行がある。\n\nChanged the 'default' permission mode to 'Manual' across the CLI, --help, VS Code, and JetBrains\n\n告知ブログも、リリースイベントもない。ただ変更履歴に一行。けれどこれは、Claude Code",
+      "published": "2026-08-14T00:06:02+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -182,11 +362,56 @@
       "color": "#10A37F"
     },
     {
+      "title": "Claude Code入門 — インストールから最初のひと仕事まで",
+      "link": "https://zenn.dev/hampen2929/articles/20260814-claude-code-getting-started",
+      "summary": "Claude Codeをまだ触ったことがない人向けに、インストールから「最初のひと仕事」を任せるまでを一直線に案内します。所要時間は15分ほどです。\n先に断っておくと、このアカウントの記事は基本的に「入門を終えた人」向けです（CIへの組み込み、チーム運用、品質保証など）。この記事はその入口として、最短で入門を終えてもらうための1本です。\n\n Claude Codeとは\nClaude Codeは、タ",
+      "published": "2026-08-13T23:05:05+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Claude Code入門を終えた人が、次にやるべき5つのこと",
+      "link": "https://zenn.dev/hampen2929/articles/20260807-claude-code-next-5-steps",
+      "summary": "Claude Codeをインストールして、対話しながらコードを書かせて、「これはすごい」と思った。チュートリアル的な記事も一通り読んだ。\n——で、次は何をすればいいのか?\nこの記事はそういう人向けです。入門を終えた人が「たまに使う便利ツール」で止まるか、「任せられる戦力」に育てられるかの分かれ目は、プロンプトの上手さではなく環境の設計にあります。ここでは、その設計の第一歩になる5つを、優先度の高い",
+      "published": "2026-08-13T23:00:05+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "南海電鉄「数カ月かかった乗務員計画」が1週間に　「量子コンピュータを疑似再現」で鉄道現場はどう変わる？",
       "link": "https://atmarkit.itmedia.co.jp/ait/articles/2608/14/news043.html",
       "summary": "南海電気鉄道と日立製作所は、日立独自技術「CMOSアニーリング」を活用し、鉄道の乗務員・車両の運用計画を自動作成するシステムの構築を始める。熟練者の手作業に依存してきた計画づくりを自動化し、業務負荷の軽減を図る。",
       "published": "2026-08-13T23:00:00+00:00",
       "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "なぜ pdlc-skills は三大エンジニアリングに自然と噛み合うのか",
+      "link": "https://zenn.dev/kanfupanda/articles/why-pdlc-fits-three-paradigms",
+      "summary": "!\nこの記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/08/13/why-pdlc-fits-three-paradigms.html\n\n\n\n三つの概念を切り分けたあとに来る、本当に面白い問いはこれです。三層が同時に揃っている実物はあるのか。この記事では、私自身が作っている pdlc-skills を一つずつ当てていき",
+      "published": "2026-08-13T22:55:29+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "超高速かつ高性能！Googleの最新モデル「Gemini 3.7 Flash」とは？",
+      "link": "https://zenn.dev/ament3/articles/ai-digest-2026-08-13-2243",
+      "summary": "はじめに\n海外のテックコミュニティ（Hacker News等）で、Googleから新たに発表されたGemini 3.7 Flashが大きな話題を呼んでいます。\n従来のFlashモデルが持つ「低遅延・低コスト」という強みをさらに進化させつつ、推論能力（思考プロセス）の強化によってプログラミングや複雑なタスク処理の精度が大幅に向上しました。\n本記事では、Gemini 3.7 Flashの概要と注目され",
+      "published": "2026-08-13T22:44:17+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "永続メモリの一番怖い失敗は「忘れること」ではなく「誤りが権威になること」",
+      "link": "https://zenn.dev/mameresearcher/articles/agent-memory-wrong-entry-becomes-authority",
+      "summary": "永続メモリ層、結局どう実装するか の続きです。あの記事では索引スキーマと判定基準を書きました。運用して3週間、メモリに誤りが入ったときに何が起きるかを実際に踏んだので、その話を書きます。\n結論を先に書くと、危険なのは忘却ではありません。誤った記憶が「確認済みの事実」として扱われ、正しいデータを上書きしにいくことです。\n\n\n 何が起きたか\nエージェントに媒体運用を任せていて、成果報酬のポイント額を扱",
+      "published": "2026-08-13T22:42:48+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -209,15 +434,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "Midnight AI Groove 26-08-10",
-      "link": "https://qiita.com/masykot582/items/112d3ed5810274b60259",
-      "summary": "――深夜0時。ネオンが滲むスタジオ。\nラジオ教育番組 「Midnight AI Groove」、今夜も開幕。\n\nオープニング\nDJミオ（女）:\nこんばんは、DJミオです。今夜の「Midnight AI Groove」は、2026年8月8日から10日ごろのAI界隈まと...",
-      "published": "2026-08-13T22:24:28+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "“梅干し職人”のためツール自作　老舗漬物店のClaude活用、「チャット+コピペ」で成果を出せたワケ",
       "link": "https://www.itmedia.co.jp/business/articles/2608/14/news053.html",
       "summary": "明治創業の老舗漬物店が、AI活用で成果を出している。Claudeを活用して「梅干し職人向けツール」などを開発。PCが苦手な人にも使いやすいツールをどのように作っているのか。",
@@ -232,6 +448,15 @@
       "summary": "小田原の老舗梅干し店がビジネス変革を成し遂げた。主導したのはドイツ出身のゾェルゲルさん。数々の課題をどう乗り越えたのか。",
       "published": "2026-08-13T22:00:00+00:00",
       "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Skill は AI エージェントを賢くするのか？ それとも思考を固定するのか？ ― 判断自体を判断する能力の必要性とは？",
+      "link": "https://zenn.dev/h1deya/articles/skill-meta-judgment",
+      "summary": "AIエージェントに必要なのは「良い Skill」だけなのだろうか ― Skill、Experience、そして「今の自分の判断を信じてよいのか」を判断する能力について ―\n本稿では、AIエージェントの Skill の有用性をより推し進めるために、熟練者の実務判断と暗黙知の扱いに着目しつつ、Skill が LLM の思考を固定してしまう可能性と、それを回避するために必要と思われる追加の枠組みについて",
+      "published": "2026-08-13T21:55:38+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -263,15 +488,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "llama-serverのホットスタンバイは存在するか：部品は揃っているのに名前がない",
-      "link": "https://zenn.dev/zapabob/articles/llama-server-hot-standby-ha-design",
-      "summary": "はじめに：よくある混同\nローカルLLMを常用していると、「ホットスタンバイ」「モデル常駐」「KVキャッシュ保持」「スリープ復帰」「ホットスワップ」という言葉が混同されがちです。\n結論から言うと、llama-server にホットスタンバイという名前の完成された単一機能はありません。しかし、複数の機能を組み合わせるとホットスタンバイ構成を作れる状態にはなっています。\nこの記事では、何がホットスタンバ",
-      "published": "2026-08-13T15:42:45+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "NPUのSystolic Arrayとは？PE Arrayとデータ再利用の仕組み",
       "link": "https://zenn.dev/kas_blog/articles/npu-systolic-array-dataflow",
       "summary": "NPUはなぜDRAMアクセスを減らしやすいのか？PE ArrayとSystolic ArrayをGPUとの違いから理解する\n\n概念図：実際の製品回路を理解しやすく簡略化した図。\n\n 本記事の目的\n\n前編では、GPUが行列積をtile（小さな部分行列）へ分割し、Shared Memory（SM内で共有する高速メモリ）やRegisters（thread近傍の保存領域）でA/B tileを再利用する仕組",
@@ -281,38 +497,11 @@
       "color": "#10A37F"
     },
     {
-      "title": "AIに仕様を勝手に決めさせない——顧客との「合意」をコンパイルするTsumugi",
-      "link": "https://zenn.dev/takashishibata/articles/3bb9875f062b8b",
-      "summary": "はじめに\nAI HACK 2026に参加し、顧客との「合意」を開発の出発点にするツール、Tsumugi（紡ぎ）— Agreement Compiler を開発しました。\n\n\nDon't generate assumptions. Compile agreements.\n推測を生成するな。合意をコンパイルせよ。\n\n生成AIを使えば、曖昧な要望からでも、それらしい仕様書やコードを素早く作れます。\nしか",
-      "published": "2026-08-13T15:01:00+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "DMLの原理と実践③：時系列データにDMLを適用するときに考えること",
       "link": "https://qiita.com/KWBT_ECON/items/247d681dd660b23c3ec0",
       "summary": "はじめに\n　前々回の記事では，Double/Debiased Machine Learning（以下，DML）をFWL定理の延長として捉え，部分線形回帰モデルにおいてアウトカムと処置の双方から共変量によって予測可能な部分を取り除くという考え方を説明した．\n\n　前回の記...",
       "published": "2026-08-13T14:37:47+00:00",
       "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "クラウドAIに入力できない情報をどう扱うか？llama.cppで学ぶローカルLLM入門をUdemyで公開した話",
-      "link": "https://zenn.dev/sumumu26/articles/1898ece4db3afa",
-      "summary": "こんにちは。miharubaの池谷です。\n今日、Udemyで講座「llama.cppで学ぶローカルLLM入門 ― GPU・コンテキスト・KVキャッシュからRAGまで」を公開しました。この記事では、講座で何を扱っているか、なぜこのテーマを選んだかを書きます。\n\n きっかけ: クラウドAIに入力できない情報がある\n会社の機密情報や顧客データを、ChatGPTのようなクラウドAIに入力してよいか迷う場面",
-      "published": "2026-08-13T14:21:32+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "ローカルAIとContextLengthを超えた「思い出」を作る #4",
-      "link": "https://zenn.dev/kanakana612/articles/4facbf05f479ed",
-      "summary": "～それ、お前が言ったんやないかい！～\n\n １．ナチュラルに起きる「発言者の混同」\n会話文でLLMとチャットしてると、「前にこう話してたよね？」という形で過去の発言を引用することがある。そのとき、エージェントが過去にした発言を、さも僕が言ったことのように引用することがある。具体例を出せたらいいんだけれど…例えば、\n[user]A（主題）って、B（解釈）として理解できるよね？\n[agent]そうだね。",
-      "published": "2026-08-13T14:19:38+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -340,24 +529,6 @@
       "summary": "Google共同創業者ブリン氏が、AI部門の従業員に「Gemini」へ全力を注ぐよう促していたという。旗艦モデルは競合への後れで公開が2カ月延期。「再帰的自己改善」への資源配分も進めている。",
       "published": "2026-08-13T13:16:13+00:00",
       "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "CLAUDE.mdは確率的制約——144KBのルールが破られた記録と3層防御",
-      "link": "https://zenn.dev/zenn_content/articles/claude-md-rules-are-probabilistic",
-      "summary": "結論から\nCLAUDE.mdに「必ず〜せよ」「絶対に〜するな」と書いても、Claude Codeは一定確率でそれを破ります。これは設定ミスではなく構造的な性質です。\n私の環境には現在、CLAUDE.md（70行）＋ルールファイル17本・144.2KB、その中に蓄積した既知の罠（[TRAP]タグ）が68件あります。1年近く運用して至った結論は「ルールを増やしても遵守率は100%にならない。100%が",
-      "published": "2026-08-13T13:00:50+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "そのdenyルール、効いていません——settings.json堅牢化チートシート",
-      "link": "https://zenn.dev/zenn_content/articles/claude-code-settings-hardening",
-      "summary": "結論から\nClaude Codeの settings.json には、書けてしまうのに一切適用されないルール形式があります。公開されている設定149件を走査した調査では、16%の設定に「死んだルール」が含まれていた——.ssh や .aws を守っているつもりのdenyが、実際には何も守っていなかったそうです（出典）。\n私も自環境を監査しました。deny 153ルール中、26件が死んだ形式でした。",
-      "published": "2026-08-13T13:00:49+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -396,69 +567,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "ゼロからつくるDeep Learning 6のLLM事前学習をAmazon SageMaker AIでやってみる",
-      "link": "https://zenn.dev/manaty226/articles/20260813_deep-learning-from-scratch-6",
-      "summary": "はじめに\nこの数ヶ月で、Kimi K3のようなAnthropicやOpenAIが開発するフロンティアモデルに匹敵するLLMが出現したり、パラメータサイズは小さいものの、特定のタスクや簡単なタスクでは十分な性能をもつような言語モデルが次々と登場しています。\nそんな中でただLLMを使うだけではなく自分で何か手を動かして作ってみたいと思っていたところ、「ゼロから作るDeep Learning 6」が発売",
-      "published": "2026-08-13T11:35:45+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "ゼロからつくるDeep Learning 6のLLM事前学習をAmazon SageMaker AIでやってみる",
-      "link": "https://zenn.dev/manaty226/articles/20260813_deep-learning-from-scratch-6",
-      "summary": "はじめに\nこの数ヶ月で、Kimi K3のようなAnthropicやOpenAIが開発するフロンティアモデルに匹敵するLLMが出現したり、パラメータサイズは小さいものの、特定のタスクや簡単なタスクでは十分な性能をもつような言語モデルが次々と登場しています。\nそんな中でただLLMを使うだけではなく自分で何か手を動かして作ってみたいと思っていたところ、「ゼロから作るDeep Learning 6」が発売",
-      "published": "2026-08-13T11:35:45+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AIが「1+1=3」に同意する!? ─ 仕組みから学ぶ、媚びへつらいを防ぐプロンプト設計",
-      "link": "https://zenn.dev/kotakotahiro/articles/cad5cd0155b57d",
-      "summary": "はじめに\n「1+1=3ってことだよね？」\nそう聞いたとき、AIがこう返してきたらどう思いますか。\n\nはい、その通りです！\n\n……いや、違うだろ。\n笑い話で済めばよいのですが、これがコードレビューや設計検討の場だったらどうでしょう。\n\n「この設計で問題ないよね？」\n「はい、完璧です！」\n\n前提や実装に間違いがあっても、気持ちよく同意してくるAI。それはもはや「賢いアシスタント」ではなく、「気分よく話",
-      "published": "2026-08-13T11:31:42+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "夏の読書感想文：『LLMの原理、RAG・エージェント開発から読み解く コンテキストエンジニアリング』",
-      "link": "https://zenn.dev/headwaters/articles/052576a821395d",
-      "summary": "ちょっと時間ができたので、体系的にエージェント開発・コンテキストエンジニアリングを学びたくて、久々にzenn記事投稿してみました。\n読んで得られたものや気づきなどを、備忘録もかねて、章ごとに気ままに書いていこうと思います。\nhttps://www.bing.com/ck/a?!&amp;&amp;p=523292588e5856febbd960e6afc6fcd157df17bac9bc0b1fe",
-      "published": "2026-08-13T10:16:09+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Apple Silicon MacでローカルAIを爆速構築する手順【llama.cpp + OpenCode】",
-      "link": "https://zenn.dev/qinritukou/articles/coding-token-free",
-      "summary": "Apple Silicon Mac（特にメモリ32GB構成）において、完全ローカル環境でコード補完・AIアシスタントを高速で動かす構築手順をまとめました。\n今回は Homebrew を使って llama.cpp を導入し、curl で事前に直接GGUFモデルをダウンロードしておいてから、OpenCode（またはVS CodeのContinue等）に接続して利用する流れを解説します。\n!\n検証環境",
-      "published": "2026-08-13T09:59:23+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "COMMIT成功はどの障害まで守られるか",
-      "link": "https://zenn.dev/k1e1n04/articles/commit-boundaries-replication-race",
-      "summary": "「COMMIT が成功した以上、データが失われることはない」と考えて設計してはいないでしょうか。\nMySQL単体の再起動であれば、redo logによってデータを回復できます。ところが、ノード障害でレプリカに切り替えるケースでは、レプリケーションの遅延によって「COMMIT 成功を返したデータが失われる」ことがあります。\nこの記事では、日常的にトランザクションを扱うWebバックエンド開発者に向けて",
-      "published": "2026-08-13T09:01:10+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AWS AI Leagueを自身のAWS環境で試す ─ Community EditionでGame Playとエージェント改善",
-      "link": "https://zenn.dev/nttdata_tech/articles/3e517cc5f344c6",
-      "summary": "1. はじめに\nこれまで、AWS AI League Community Editionについて、以下の記事で全体像とデプロイ方法を紹介しました。\n\nAWS AI Leagueを自身のAWS環境で試す ─ Community Editionの全体像\nAWS AI Leagueを自身のAWS環境で試す ─ Community Editionのデプロイ\n\n前回の記事では、Community Editi",
-      "published": "2026-08-13T08:30:05+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "Cloud RunをIAPでゼロトラスト化（2026 GA）―ロードバランサ無しでアプリ前段に認証",
@@ -540,24 +648,6 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "OpenAI「Codex」1500万ユーザー突破　利用制限リセット「/fastでどうぞ」",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2608/13/2000000525/",
-      "summary": "",
-      "published": "2026-08-13T02:39:02+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "「Sakana Fugu」が無料で試せるように　チャットAIをアップデート、Sakana?AI",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2608/13/2000000524/",
-      "summary": "Sakana?AIは、無料のチャットAIサービス「Sakana?Chat」をアップデートしたと発表した。複数のAIモデルの“集合知”を利用するAI「Sakana?Fugu」が使えるようになった。",
-      "published": "2026-08-13T02:14:31+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "【技術解説】ボリンジャーバンドのスクイズ検知を活用した自動売買システムのバックテストをPythonで実装する方法",
@@ -650,24 +740,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "AIエージェントにGoogle Cloudを触らせる前に、Google公式のAgent Skills集「google/skills」を入れる",
-      "link": "https://zenn.dev/o2wsu9/articles/google-cloud-official-agent-skills",
-      "summary": "Google が Agent Skills 形式の公式スキル集「google/skills」を公開しています。本記事では収録スキルの全体像と、Claude Code への 2 通りの導入方法、実際に gcloud スキルを入れて動かすところまでを解説します。\n\n google/skillsとは\ngoogle/skills は、Google Cloud をはじめとする Google 製品・技術を A",
-      "published": "2026-08-12T13:53:23+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "gcloudの構文をAIに暗記させない、Google公式gcloudスキルの安全設計を読み解く",
-      "link": "https://zenn.dev/o2wsu9/articles/gcloud-skill-safety-design",
-      "summary": "Google 公式の Agent Skills 集 google/skills に含まれる gcloud スキルは、AI エージェントに gcloud CLI を安全に使わせるためのガードレール集です。本記事では SKILL.md を読み解き、このスキルが何を強制しているかを解説します。\n\n gcloudスキルとは\ngoogle/skills リポジトリの skills/cloud/gcloud",
-      "published": "2026-08-12T13:53:23+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "論文メモ：LLMの回答転換を予測するFusion-Fission式",
       "link": "https://zenn.dev/kas_blog/articles/20260809-fusion-fission-ai-behavior-shift",
       "summary": "はじめに\nこの記事は、LLM（大規模言語モデル）の回答が、会話の途中で望ましい内容から望ましくない内容へ転換する時点を、内部表現から予測しようとする論文の技術メモです。\n\n論文タイトル：Fusion-fission forecasts when AI will shift to undesirable behavior\n著者：Neil F. Johnson、Frank Yingjie Huo\n発表",
@@ -693,24 +765,6 @@
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "個人Webアプリの構成を再考して、マルチクラウドになった話",
-      "link": "https://zenn.dev/ncdc/articles/e8e4c83e8fc056",
-      "summary": "はじめに\n嫁さんが個人事業主として働いており、事務作業も自分で行っているため、その負担を減らすアプリを個人開発しています。\n当初は事務作業が少し楽になればいいね、くらいの気持ちで私も暇つぶしとして作っていました。\n機能を増やすとメンテナンスの手間も増えますし、クラウドに毎月お金がかかるのも避けたかったため、もともとはReactのSPAとして作っていました。HTMLを配信するだけの単純な構成です。",
-      "published": "2026-08-12T10:11:59+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "Google Cloud 認定資格全冠達成（合格体験記）",
-      "link": "https://zenn.dev/dalab/articles/dd6abd531c51fd",
-      "summary": "はじめに\nデータアナリティクスラボ株式会社の渡辺です。\n私は、普段は客先業務を中心にAI系の開発を行っていますが、社内でWebアプリを開発することになり、初めて本格的にGoogle Cloudを利用することになりました。\n実務で触れたことをきっかけに「Google Cloudの体系的な知識をもっと深めたい」と思い認定資格の勉強を開始したのですが、この度 Google Cloud 認定資格の「全冠」",
-      "published": "2026-08-12T07:50:39+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "Motorway が Strands と AgentCore で構築した AI エージェント評価パイプラインの紹介",
@@ -767,15 +821,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "小さく賭けて、大きく当てる：LLMを高速化する「投機的デコード（MTP）」の正体【概念編】",
-      "link": "https://zenn.dev/highreso/articles/2fdb5402d98e5d",
-      "summary": "もし、「外れてもほとんど損しないのに、当たれば得をする賭け」があったら、迷わず乗ると思いませんか。\n実は、LLMが文章を生成する仕組みの中にも、そんな都合のいい賭けがこっそり仕込まれています。\n普段AIチャットを使っていて、「もう少し早く答えが返ってこないかな」と感じたことはないでしょうか。特に、じっくり考えてから答えを出す「Thinkingモデル」や、コードを書きながら試行錯誤するAIエージェン",
-      "published": "2026-08-12T03:25:41+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Kubernetesはなぜ生まれたか、Google社内システムBorgからCNCF寄贈までの系譜",
       "link": "https://qiita.com/asayan_mana/items/fea53a80eb79be1604e5",
       "summary": "はじめに\nKubernetes は、今やコンテナオーケストレーションの事実上の標準です。ただ、これがもともと Google 社内のシステムを土台にした技術であることや、公開に至るまでに社内でどんなやり取りがあったのかは、意外と知られていません。\nこの記事では、公式発表をも...",
@@ -821,15 +866,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "Amazon OpenSearch Service が GPU アクセラレーションで 10 億規模のベクトルインデックスを構築する仕組み",
-      "link": "https://aws.amazon.com/jp/blogs/news/how-gpu-acceleration-builds-billion-scale-vector-indexes-on-amazon-opensearch-service/",
-      "summary": "GPU アクセラレーションによるベクトルインデックス作成が Amazon OpenSearch Service と OpenSearch Serverless で利用できるようになり、10 億規模のベクトルインデックスを数日ではなく数時間で構築できます。本記事では、GPU ワーカーへ処理をオフロードする分離型アーキテクチャや、NVIDIA cuVS で構築した CAGRA グラフを CPU で検索",
-      "published": "2026-08-12T02:27:38+00:00",
-      "source": "AWS 公式ブログ（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "terraform applyしても消えないRDSパラメータ差分とapply_method",
       "link": "https://zenn.dev/tokium_dev/articles/terraform-rds-apply-method-perpetual-diff",
       "summary": "Auroraのcluster parameter groupで、terraform applyが成功した直後のterraform planに同じ差分が戻ってくることがありました。\nAWSが返すApplyMethodとTerraform providerの既定値が食い違っていたことが原因でした。\nこの差分は実効値を変えないため、放置しても障害にはつながりません。\nそれでも直したのは、planのたびに",
@@ -866,15 +902,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "小型ローカルLLMでGraphRAGを構築する",
-      "link": "https://zenn.dev/acntechjp/articles/d97e3ad52250a7",
-      "summary": "Embeddingで探して、Graphでつないで、LLMに説明させる\n個人で試した技術PoCやコードが少しずつ増えてきました。\n「あの機能、どのPoCで作ったっけ？」\n「この技術、以前どこかで使った気がする」\n自分で作ったものなのに、こういうことを思い出す時間が増えてきたので、技術メモをKnowledge Graphとして整理し、自然言語で検索できる小さなGraph RAGを作ってみました。\n最初",
-      "published": "2026-08-11T23:30:05+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "TerraformでNAT Gatewayからfck-natへ安全に移行。ENA累積カウンタを正しく監視する",
       "link": "https://zenn.dev/yamadatt/articles/20260812_natgateway-to-fcknat",
       "summary": "!\nこの記事は、業務で実施したNATインスタンスへの移行、監視設計の修正、stag・prod環境への適用、およびprod環境での再起動確認を、後から参照できるようにまとめた作業記録です。\n\n\n はじめに\nAWSのNAT Gatewayは、Private Subnet内のサーバーからインターネットへの通信を中継するAWSマネージドサービス。可用性と運用性は文句なしだけど、うちみたいな小規模環境だと固",
@@ -882,6 +909,15 @@
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "無料で読めるITまんが 2026年版 ～マンガでわかるAIの仕組み／DC業務のリアルを知るヤマダくん、ほか",
+      "link": "https://www.publickey1.jp/blog/26/content_4.html",
+      "summary": "ネット上にはたくさんのIT系のコンテンツがあふれています。そのほとんどは文章として書かれていますが、一部にはマンガの形で面白く分かりやすくしたものもあります。 ここでは、マンガ化されたITコンテンツを集めてみました。毎年夏休みの恒例企画、I...",
+      "published": "2026-08-11T15:33:09+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
     },
     {
       "title": "【書評】 Cloud Native Security",
@@ -911,15 +947,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "Terraformのファイル、なんで分かれてるの?variables・outputs・tfstateを整理してみた",
-      "link": "https://zenn.dev/yasutomo7974/articles/terraform-variables-outputs-tfstate",
-      "summary": "おはようございます、YASUです。\n先日Terraformの細かい疑問(egressの-1やパブリックIPの話)をまとめましたが、今日はもう一段基本に戻って、Terraformを触り始めた時に誰もが一度は「これ何のためのファイル?」と思うであろう、variables・outputs・tfstateの3つを整理してみます。\n\n 結論\nTerraformのプロジェクトを開くと、main.tf以外にもv",
-      "published": "2026-08-11T10:48:32+00:00",
-      "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "React・Spring Boot・Docker・AWSの役割をWebアプリ全体像から整理する",
       "link": "https://zenn.dev/nu0044/articles/jaehong-web-application-structure",
       "summary": "以前のチーム開発では、React、Spring Boot、MariaDB、Docker、AWSを組み合わせてWebアプリケーションを構築しました。\nそれぞれの使い方を個別に覚えていても、「どの技術がどこまで担当していたのか」は曖昧になりやすいものです。そこで今回は、ユーザーの操作がデータベースに届くまでの流れを追いながら、各技術の役割を整理します。\n\n Webアプリケーションの基本構成\n一般的なW",
@@ -945,24 +972,6 @@
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "Spring Boot 4 + GraalVM Native Image 入門チュートリアル",
-      "link": "https://zenn.dev/ozoz/books/d1c7ae3a071b84",
-      "summary": "Spring Bootアプリの起動、まだ1秒以上かかっていませんか？\n\n本書では、Spring Boot 4とGraalVM Native Imageを使って、起動0.04秒・メモリ使用量7分の1という数字を、実際に手を動かしながら体験します。シンプルなWebアプリをネイティブ化する過程で、GraalVM Native Imageを集中して学べます。\n\n環境構築からビルド、Docker化はもちろん",
-      "published": "2026-08-11T03:14:58+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "Flutter Web の CanvasKit と skwasm、実測して比較してみた",
-      "link": "https://zenn.dev/amam96/articles/flutter-web-canvaskit-vs-skwasm",
-      "summary": "TL;DR\n\n初回ロードは skwasm の方が軽くて速い(転送量 4.0MB vs 4.8MB、全リクエスト\n完了 795ms vs 1.19s)\nランタイム性能は一方的ではない: build(ウィジェットツリー構築)は\nskwasmが、raster(実際の描画)はCanvasKitが、3シナリオ全てで一貫して\n優位。総合fpsはどちらの処理が支配的かで勝敗が変わる\n今回のベンチアプリでは、ra",
-      "published": "2026-08-10T14:55:41+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "August 10, 2026",
@@ -999,6 +1008,15 @@
       "source": "Zenn - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "「Agent Plugins 1.0.0」発表、異なるAIエージェント間でもスキルやMCPサーバ設定が共通化へ。マイクロソフト、OpenAI、AWS、Googleらがサポート",
+      "link": "https://www.publickey1.jp/blog/26/agent_plugins_100aimcpopenaiawsgoogle.html",
+      "summary": "AWS、マイクロソフト、OpenAI、Anysphere、Vercelの各社は、AIエージェントのスキルやMCPサーバの設定を、AIエージェントが異なっていても共有できる業界標準の仕様「Agent Plugins 1.0.0」を発表しました...",
+      "published": "2026-08-09T15:19:33+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
     },
     {
       "title": "OpenBaoとSoftHSM2で学ぶPKCS#11 Auto-Unseal：MailpitへのSecret注入",
@@ -1055,6 +1073,15 @@
       "color": "#4285F4"
     },
     {
+      "title": "ミッチェル・ハシモト氏が新会社「Superlogical」を設立、あらゆる仕事に使えるマルチプレクサの開発へ",
+      "link": "https://www.publickey1.jp/blog/26/superlogical.html",
+      "summary": "HashiCorpの共同創業者であり、同社を退社後は個人開発者としてターミナルソフト「Ghostty」の開発を進めていたミッチェル・ハシモト氏が、新会社［Superlogical」の設立を発表しました。 I've started a...",
+      "published": "2026-08-06T15:26:54+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
+    },
+    {
       "title": "August 06, 2026",
       "link": "https://docs.cloud.google.com/release-notes#August_06_2026",
       "summary": "Cloud Key Management Service\nFeature\nPreview: Cloud KMS supports quantum-safe key import. You can use the\nfollowing quantum-safe import methods:\n\nHPKE_KEM_XWING_HKDF_SHA256_AES_256_GCM\nHPKE_KEM_ML_KEM",
@@ -1064,6 +1091,15 @@
       "color": "#4285F4"
     },
     {
+      "title": "npm代替を目指すセキュリティファーストなパッケージマネージャ「vlt」バージョン1.0に到達。npmのミラーレジストリ、プライベートレジストリも提供開始",
+      "link": "https://www.publickey1.jp/blog/26/npmvlt10npm.html",
+      "summary": "npmに代わる新しいJavaScriptのパッケージシステム「vlt」（vōlt：ボールト）を開発しているvlt technologyは、npm互換のパッケージマネージャ「vlt」がバージョン1.0に到達したことを発表しました。 あわせてn...",
+      "published": "2026-08-05T18:03:20+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
+    },
+    {
       "title": "August 05, 2026",
       "link": "https://docs.cloud.google.com/release-notes#August_05_2026",
       "summary": "Cloud Database Migration Service\nFeature\nYou can now manage your Database Migration Service migration jobs directly from the\ndestination Cloud SQL instance or AlloyDB for PostgreSQL cluster pages in\nt",
@@ -1071,6 +1107,24 @@
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
+    },
+    {
+      "title": "1Password、ダッシュボードから組織のAI支出状況を表示する新機能。ClaudeやCursor、ChatGPTなど複数AIにI対応",
+      "link": "https://www.publickey1.jp/blog/26/1passwordaiclaudecursorchatgptaii.html",
+      "summary": "1Passwordは、単一のダッシュボード画面からAnthropicのCalude、OpenAIのChatGPT、AnysphereのCursorなど複数のAIサービスに対する支出状況をリアルタイムに表示、管理できる新機能を発表しました。 ...",
+      "published": "2026-08-04T15:38:32+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
+    },
+    {
+      "title": "アプリが遅い原因をAIがトレースログから分析してくれる「Windows Performance Analyzer MCP」（WPA MCP）、マイクロソフトがプレビュー公開",
+      "link": "https://www.publickey1.jp/blog/26/aiwindows_performance_analyzer_mcpwpa_mcp.html",
+      "summary": "マイクロソフトは、Windowsアプリケーションが遅くなる原因の調査分析をAIに依頼できるツール「Windows Performance Analyzer MCP」（WPA MCP）のアーリープレビューを発表しました。 GitHub Cop...",
+      "published": "2026-08-04T15:36:16+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
     },
     {
       "title": "August 04, 2026",
@@ -1145,6 +1199,24 @@
       "color": "#FF9900"
     },
     {
+      "title": "Rust製のフルスタックWebアプリフレームワーク「Topcoat」登場。非同期ランタイム「Tokio」上でサーバサイドレンダリング、ルーティング、コンポーネントライブラリなど",
+      "link": "https://www.publickey1.jp/blog/26/rustwebtopcoattokio.html",
+      "summary": "Rust言語の代表的な非同期ランタイムライブラリ「Tokio」の開発チームが、フルスタックのWebアプリケーションフレームワーク「Topcoat」のリリースを発表しました。 下記はTokioの作者でTopcoatの作者でもあるCarl Le...",
+      "published": "2026-08-03T15:42:58+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
+    },
+    {
+      "title": "クラウドインフラのシェア、AWSが28％と変わらず、Google Cloudは1ポイント上昇して15％に。市場全体が年42％と過去最高の成長率に。2026年第2四半期、Synergy Research",
+      "link": "https://www.publickey1.jp/blog/26/aws28google_cloud1154220262synergy_research.html",
+      "summary": "調査会社のSynergy Research Groupは、グローバルにおける2026年第2四半期のクラウドインフラの市場状況について調査結果を発表しました。 クラウドインフラとは、IaaS、PaaS、ホステッドプライベートクラウドを合わせた...",
+      "published": "2026-08-03T15:39:50+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
+    },
+    {
       "title": "AWS WAF が、新たな脅威や AI/機械学習アプリケーション保護に対応する Miggo Security マネージドルールグループのサポートを開始",
       "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/07/aws-waf-miggo-managed-rule-groups",
       "summary": "AWS WAF は、AWS Marketplace から入手可能な Miggo Security の 2 つの新しいパートナーマネージドルールグループ (Miggo Rules for AWS WAF – High Emerging Application Threats および Miggo Rules for AWS WAF – AI/ML Application Protection) のサポ",
@@ -1170,6 +1242,24 @@
       "source": "AWS What's New（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "アトラシアン、AI時代の仕事用ブラウザ「Diaブラウザ」のWindows版リリースへ。ウェイトリストへの登録開始",
+      "link": "https://www.publickey1.jp/blog/26/aidiawindows.html",
+      "summary": "アトラシアンは、現在Mac版がリリースされているDiaブラウザのWindows版を今年の秋にリリースすることを明らかにしました。 Dia for Windows is coming (this fall!) pic.twitter.com/...",
+      "published": "2026-08-02T15:56:09+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
+    },
+    {
+      "title": "日本におけるクラウドネイティブコミュニティの開発者数が約100万人に、CNCFが調査結果を発表",
+      "link": "https://www.publickey1.jp/blog/26/100cncf.html",
+      "summary": "Kubernetesをはじめとするクラウドネイティブなテクノロジーを推進するCloud Native Computing Foundation（以下、CNCF）とIT分野専門の調査会社であるSlashDataは、日本におけるクラウドネイティ...",
+      "published": "2026-08-02T15:28:02+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
     }
   ]
 }
