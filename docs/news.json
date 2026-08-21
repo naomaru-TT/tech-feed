@@ -1,6 +1,132 @@
 {
-  "updated": "2026-08-21T00:48:01.125570+00:00",
+  "updated": "2026-08-21T03:42:39.773065+00:00",
   "items": [
+    {
+      "title": "IAM権限設計：「ConsoleFullAccess」の活用",
+      "link": "https://qiita.com/j-dai/items/622b04d715f6057ab65b",
+      "summary": "社内勉強会でFSxには普通の AmazonFSxFullAccess もあるのに、わざわざ「Console」付きのポリシーが別にある。何が違うのかメモしておきます。\n\n結論から\n\n*FullAccess は API / CLI / SDK でそのサービスをフルに使うための...",
+      "published": "2026-08-21T03:29:20+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "【無停止DNS移行】ドメイン移管の完了を待たずにメールサーバーを先行切り替えする設計パターン",
+      "link": "https://qiita.com/tech_Ice_Military/items/0823df84010dfe72e87e",
+      "summary": "はじめに\nドメインの事業者移管（レジストラ変更）は、Auth-Codeの発行待ちや承認手続きなどで数日〜1週間以上のタイムラグが発生しがちです。\nしかし、「レジストラの移管」と「権威DNSサーバーの移行」は完全に独立したレイヤーです。\n移管完了を待たずに、現行レジストラ側...",
+      "published": "2026-08-21T03:18:58+00:00",
+      "source": "Qiita - インフラ",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "LambdaでAmazon Bedrockに任意のトークン上限を設定してみた【80%で通知・上限到達でリクエスト拒否】",
+      "link": "https://qiita.com/chaochire/items/80000bf7cf8bbe5b36ee",
+      "summary": "こんにちは。\nソーイ株式会社、Webエンジニア2年目の村上です。\nAWS上のアプリケーションから基盤モデルを利用する場合、簡単に生成AIモデルを呼び出せるAmazon Bedrockを使う機会も多いと思います。\n使いやすくて便利なのはそうなのですが、Bedrockは従量課金...",
+      "published": "2026-08-21T03:17:47+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AWS Transform の SQL Server から PostgreSQL へのスキーマ検証",
+      "link": "https://aws.amazon.com/jp/blogs/news/aws-transform-sql-server-to-postgresql-schema-validation-in-net-application-modernization/",
+      "summary": "AWS Transform が備える 3 層の検証モデル (構造的検証、意味的検証、動作検証) の仕組みを詳しく解説します。稼働中のデータベースに直接クエリを発行する検証方式、スタブ検出やミューテーションテストによる動作確認、そして Amazon Bedrock を活用した AI エージェントが検出内容を根本原因ごとにまとめて重大度を判定する流れを追うことで、移行品質を体系的に担保する方法が見えて",
+      "published": "2026-08-21T03:05:58+00:00",
+      "source": "AWS 公式ブログ（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AWS Transform を使用した SQL Server データベースから Aurora PostgreSQL へのモダナイズ",
+      "link": "https://aws.amazon.com/jp/blogs/news/modernize-microsoft-sql-server-databases-to-aurora-postgresql-using-aws-transform/",
+      "summary": "AWS Transform の Offline Source 機能を使用して SQL Server データベースを Aurora PostgreSQL へモダナイズする方法を紹介します。DDL ファイルをアップロードするだけで、ネットワーク接続や中間環境のプロビジョニングなしにモダナイゼーションを開始できます。LLM ベースのスキーマ変換、3 層の自動検証、Aurora PostgreSQL への",
+      "published": "2026-08-21T03:05:09+00:00",
+      "source": "AWS 公式ブログ（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Mamba-3ってなんだ？〜推論ファーストで作り直したSSMの理論と実装完全ガイド〜",
+      "link": "https://qiita.com/GeneLab_999/items/72679b07f9e7be31e463",
+      "summary": "この記事について\n対象読者\nMamba-2の記事を読み終えた方、あるいは自己注意とKVキャッシュの役割を自分の言葉で説明できる方を想定しています。深層学習の学習経験があり、PyTorchのコードを読めるレベルを前提にします。\nこの記事で得られること\n\nMamba-3が導...",
+      "published": "2026-08-21T02:28:30+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "「Claudeの使い方」を無料で学べる公式サイト登場　「Code」「Cowork」などサービスごとに解説",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2608/21/2000000672/",
+      "summary": "米Anthropicは、無料の学習サイト「Claude Academy」を公開した。AI技術の基本や、AIサービス「Claude」関連製品の使い方を解説している。",
+      "published": "2026-08-21T02:26:13+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "賢いAIはデータで決まる - 製造現場におけるRAGとエンリッチデータの重要性 - 【AWS Summit 2026 - セッションレポート】",
+      "link": "https://qiita.com/Y-Nakayama_5553/items/3d60a157b543f83c8dcd",
+      "summary": "はじめに\n\n想定読了時間：10分\n要点だけ押さえたい場合は忙しい方用をお読みください。\n\n今回、AWS Summit 2026 のセッション 「IND327 情報を集め、判断し、行動する時代へ：データ基盤・AI エージェント・エッジ AI で変わる製造現場」 を視聴しまし...",
+      "published": "2026-08-21T02:15:56+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "同じ質問で、ChatGPTは公式中心・Perplexityは個人の記事を引いた",
+      "link": "https://qiita.com/yurukusa/items/7b611047620a591550f8",
+      "summary": "AI経由で人が来ているのは分かる。でも「引かれている」のかは分からなかった\nうちはQiitaに記事を247本書いていて、配布ページも置いてある。\nその流入元を7か月半ぶん並べてみたら、並べた中でいちばん率が高かったのは chatgpt.com だった。\n5回しか見られてい...",
+      "published": "2026-08-21T02:06:30+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "QRコード決済のアーキテクチャをPayPayの公開情報から設計してみる",
+      "link": "https://qiita.com/yama3133/items/2f1020e44006c9a2a357",
+      "summary": "はじめに\n「PayPayってどういう仕組みで動いてるんだろう」と考え始めたのがきっかけだった。\n決済系のシステムはいくつか自作したことがあるものの、7000万人規模のユーザーを捌く実サービスとなると、教科書的な設計だけでは足りない部分が絶対にある。\nまずは一般的なQRコー...",
+      "published": "2026-08-21T02:01:11+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "【技術解説】【完全ガイド】Python×yfinanceで金融データを効果的に取得する方法",
+      "link": "https://qiita.com/sugarfree/items/71a47846b0c827ef0e60",
+      "summary": "Python×yfinanceによる金融データ取得の技術解説\n金融データ分析は、近年のデータ駆動型の市場環境において重要なスキルとなっています。本記事では、Pythonライブラリであるyfinanceを使用してYahoo Financeから金融データを取得する方法を解説し...",
+      "published": "2026-08-21T02:00:17+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Zindi「Bias Bounty Mapping Equity Challenge」に挑戦する：地図データと気候リスクの公平性を測る",
+      "link": "https://qiita.com/rino_yume/items/a4408ca16458a0d5fbd5",
+      "summary": "Zindi「Bias Bounty Mapping Equity Challenge」に挑戦する：地図データと気候リスクの公平性を測る\n\n1. はじめに\nZindiで公開されている Bias Bounty Mapping Equity Challenge は、オープン地...",
+      "published": "2026-08-21T01:48:57+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Googleのオープンモデル「Gemma」、累計10億ダウンロード超　GitHubに公式ディレクトリ公開",
+      "link": "https://www.itmedia.co.jp/news/article/2608/21/2000000670/",
+      "summary": "Googleは、オープンモデル「Gemma」ファミリーの累計ダウンロード数が10億回を突破したと発表した。派生モデルは10万種を超え、公式リポジトリ「Awesome Gemma」をGitHubで公開。宇宙空間での衛星データ解析や新規のがん治療経路の発見など、多様な活用事例を紹介している。",
+      "published": "2026-08-21T01:14:33+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "「うちの会社にAIは無理」と思ったあなたへ",
+      "link": "https://qiita.com/keiichik_kk/items/692b0abb5e03fc9523b1",
+      "summary": "もし、この記事を読もうと思ってくれている方なら、もしかしたらあなたも一度、AIに期待して、そして少しがっかりした一人かもしれません。\n半年前か、一年前か。会社でChatGPTやCopilotを試してみた。最初は「すごい」と思った。でも、しばらくすると気づいてしまう。\n「なん...",
+      "published": "2026-08-21T01:03:40+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "macOS版ChatGPT、Appleの「メッセージ」と連携　会話検索や下書き、送信に対応",
       "link": "https://www.itmedia.co.jp/news/article/2608/21/2000000669/",
@@ -11,24 +137,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "【AWS入門】Route 53・CloudFront・WAF・CLI・SDKをハンズオンで学んでみた",
-      "link": "https://qiita.com/NT_seki/items/6c19f116249117907ef9",
-      "summary": "1. はじめに\n前回、VPC・EC2・RDS・ELB・S3の5サービスについて、それぞれの役割とハンズオンで行ったことを整理しました。その後も学習を進め、DNS・CDN・セキュリティ・運用ツールと、扱うサービスの幅が広がってきました。\n今回は、Route 53・Cloud...",
-      "published": "2026-08-21T00:12:23+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "【AWS入門】NAT Gatewayとは何か ─ S3への通信で気づいたVPCエンドポイントの必要性",
-      "link": "https://qiita.com/y-kojima-next/items/fa37c47a0f62aa02dc1a",
-      "summary": "はじめに\nAWS認定ソリューションアーキテクト – アソシエイト（SAA）の勉強を進めていくとVPCの範囲では、NAT Gateway というサービスが出てきます。\n「プライベートサブネットからインターネットへアクセスするために使う」と説明されるのですが、これまで業務で使...",
-      "published": "2026-08-21T00:08:07+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "Dockerコンテナが謎の再起動を繰り返す→dmesgで見たら\"Out of memory\"の文字、OOM Kill調査から解決までの記録",
       "link": "https://qiita.com/fe1ix/items/04f1ab5a75643e86110d",
       "summary": "はじめに\n本番で動かしていたDockerコンテナが、何の前触れもなく突然落ちて再起動する、という現象に遭遇しました。アプリのログを見ても特にエラーらしきものは残っておらず、ただプロセスが終了して再起動している痕跡だけがある。最初は「ネットワークが不安定なのか？」とか「ヘル...",
@@ -36,15 +144,6 @@
       "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "今すぐできる！Amazon SNSでイベントのメール通知を実装しよう",
-      "link": "https://qiita.com/TechSpace-engineer/items/d2249e0b40484f3afadf",
-      "summary": "はじめに\nAWSのシステムを運用していると、手動・自動問わず様々な操作が行われるため、それに応じて多数のイベントが発生します。 その中には重大なエラーなど緊急性の高いイベントもあり、発生した場合には管理者への迅速な通知が求められます。\nそのようなニーズに対応するため、通...",
-      "published": "2026-08-21T00:01:43+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "「Fable禁止」で仕事が止まったあの日々を振り返る　日本企業が取るべき「脱・単一モデル」戦略",
@@ -70,15 +169,6 @@
       "summary": "Amazon RDS for Oracle で Oracle Database 26ai が利用可能になりました。本記事では、Amazon Bedrock の基盤モデルを使って自然言語でリレーショナルデータを照会できる Select AI を取り上げます。VPC インターフェイスエンドポイントと IAM 認証情報の設定から、DBMS_CLOUD_AI プロファイルの作成、合成データの生成、自然言語",
       "published": "2026-08-20T23:46:54+00:00",
       "source": "AWS 公式ブログ（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "「設定は開放、でも本当に届くの？」をSecurity Hub Network Scanningで5パターン検証してみた",
-      "link": "https://qiita.com/ssakita/items/2332ab7944b2cd5f93c3",
-      "summary": "この記事は「2026 Japan AWS Jr. Champions 真夏のQiitaリレー」の21日目の記事となります。\n過去の投稿（リンク集）・ 昨日の記事は以下リンクからご覧ください。\n\nはじめに\nこんにちは、株式会社日本オープンシステムズの 崎田...",
-      "published": "2026-08-20T23:42:06+00:00",
-      "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -130,7 +220,7 @@
     {
       "title": "ChatGPTに「おすすめの○○は？」　実は答えが決まっているらしい：893rd Lap",
       "link": "https://kn.itmedia.co.jp/kn/articles/2608/21/news043.html",
-      "summary": "ChatGPTに「おすすめの○○は？」と聞けば、いくつかのブランドや商品を教えてくれる。では、その候補はどうやって選ばれているのだろうか。どうやらChatGPTは、検索を始める前から「この分野ならこれ」と、ある程度の候補を持っているらしい。",
+      "summary": "ChatGPTに「おすすめの○○は？」と聞けば、幾つかのブランドや商品を教えてくれる。では、その候補はどうやって選ばれているのだろうか。どうやらChatGPTは、検索を始める前から「この分野ならこれ」と、ある程度の候補を持っているらしい。",
       "published": "2026-08-20T22:00:00+00:00",
       "source": "ITmedia AI+",
       "tag": "AI",
@@ -140,24 +230,6 @@
       "title": "「たった14人」の挑戦から7兆円の逆転劇へ　ラピダス小池社長の「TSMCとは戦わない」2ナノ半導体の勝算",
       "link": "https://www.itmedia.co.jp/business/articles/2608/21/news030.html",
       "summary": "世界の半導体市場を台湾TSMCが席巻する中、7兆円規模の国家プロジェクトとして最先端「2ナノ」の量産化に挑むのがラピダスだ。同社はTSMCとの規模の勝負を避け、設計から前後工程を一棟で完結させる「RUMS」による多品種生産で勝負する。「たった14人」の同志でスタートした原点から、北海道を「次のシリコンバレー」へと変える小池淳義社長の戦略に迫る。",
-      "published": "2026-08-20T22:00:00+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "「孫さんはOpenAIだが、僕はAnthropic」　SBI北尾会長が語る「AI投資5億円→増収27億円」の勝算",
-      "link": "https://www.itmedia.co.jp/business/articles/2608/21/news038.html",
-      "summary": "SBIホールディングスが生成AI「Claude」を開発する米Anthropicとの全社提携を発表した。当面の最優先戦略にAI化を掲げ、社外から専門人材を起用。SBI証券では顧客対応のAIエージェント開発に5億円を投資し、口座再活性化などを通じて年27億円の増収を見込む。「孫正義氏はOpenAIだが僕はAnthropic」と語る北尾吉孝会長が、AIドリブン戦略の勝算を明かす。",
-      "published": "2026-08-20T22:00:00+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "「Gemini Notebook」で利用者10倍　シニア社員をAIヘビーユーザーにした首都高の考え",
-      "link": "https://kn.itmedia.co.jp/kn/articles/2608/21/news044.html",
-      "summary": "「生成AIを何に使えばよいかわからない」という理由により、生成AIの活用が停滞してしまう企業は多い。安全を最優先する故に慎重な組織風土であった首都高速道路でも同様の課題を抱えていた。しかし同社では「Google Gemini」を起点としたある工夫により、劇的に活用状況を改善したという。その具体例を同社の推進担当者が語った。",
       "published": "2026-08-20T22:00:00+00:00",
       "source": "ITmedia AI+",
       "tag": "AI",
@@ -182,29 +254,11 @@
       "color": "#326CE5"
     },
     {
-      "title": "【さくらAIで転生小説を書いてみるシリーズ第9回】AI小説の読みやすさを決めるのは、モデルかプロンプトか",
-      "link": "https://qiita.com/TheGateBreaker/items/39b64507244471723b49",
-      "summary": "AI小説の読みやすさを決めるのは、モデルかプロンプトか\nTL;DR: 同じ再構成ユーザープロンプトを別モデルに与えた1出力では読みやすいと感じ、同じモデルに文体指示を加えた1出力でも文章の印象が変わった。ただし各条件1回だけであり、モデルや指示の効果と生成ごとの揺らぎは切...",
-      "published": "2026-08-20T20:43:58+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "P100 x2 LLMサーバー",
       "link": "https://zenn.dev/ibuky/articles/2ce9282ea37122",
       "summary": "Logical Hardwares\n\n\n\nItem\nProduct\nRemark\n\n\n\n\nMotherBoard\nASUS X99-A\nREV 1.0.2\n\n\nCPU\nIntel Core i7-5960X\n\n\n\nGPU 1\nNVIDIA GeForce GTX 1060 6GB\n画面出力用\n\n\nGPU 2\nNVIDIA Tesla P100 PCIe 16GB\nPCIe &gt; CPU電源変換",
       "published": "2026-08-20T19:31:17+00:00",
       "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "ChatGPTの嘘を見破る方法。知らんけど。",
-      "link": "https://qiita.com/hirachan/items/d81c48ad1df2f731c776",
-      "summary": "ChatGPTなどのAIを使っていると、いかにもそれっぽく答えているのに、実はなんのソースもなく適当に言っているだけのことがあります。\nうっかり信じてしまってはたいへんですし、なにより、嘘っぽいことにイライラします。\nChatGPTには設定のパーソナライズにカスタム指示とい...",
-      "published": "2026-08-20T16:45:35+00:00",
-      "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -497,15 +551,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "因果推論 Day 9／全30回　感度分析とE-value、隠れた交絡にどこまで耐えるか",
-      "link": "https://qiita.com/akiralab/items/f8c0d4ba669c3e997720",
-      "summary": "この連載について\n因果推論を「本を読んだ」で終わらせず、自分の言葉で説明でき、コードで再現できる状態まで落とす30日連載です。前回のDay 8では、LaLondeの職業訓練データでマッチングを組み、観察データが実験ベンチマークにどこまで迫れるかを試しました。マッチングも傾...",
-      "published": "2026-08-20T05:55:23+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "AWS HealthOmics と Amazon Bedrock AgentCore によるゲノムバリアント解釈の高速化",
       "link": "https://aws.amazon.com/jp/blogs/news/accelerating-genomics-variant-interpretation-with-aws-healthomics-and-amazon-bedrock-agentcore/",
       "summary": "シーケンスデータの急増により、ゲノムバリアントの解釈は複雑なパイプラインと専門知識を要する作業になっています。本記事では、AWS HealthOmics のワークフローと Amazon S3 Tables、Amazon Bedrock AgentCore 上の Strands Agents を組み合わせ、VCF ファイルの取り込みからアノテーション、自然言語での問い合わせまでを一貫して実行するゲノ",
@@ -560,15 +605,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "OSI参照モデルが覚えられない人へ",
-      "link": "https://qiita.com/infravis/items/57ceaa95e53401dacf35",
-      "summary": "この記事について\n「OSI参照モデル、名前は聞くけどプレゼンテーション層とかセッション層とか抽象的でピンとこない」——ネットワークを学ぶ人がほぼ全員つまずくポイントです。\n7層を「封筒の入れ子」というイメージで想像すると、理解しやすくなります。\nこの記事では、さらに「各層...",
-      "published": "2026-08-20T03:45:23+00:00",
-      "source": "Qiita - インフラ",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "Terraform 最初に覚えるべき内容",
       "link": "https://zenn.dev/naoki_mm/articles/6226fb7d1109c9",
       "summary": "Terraform 最初に覚えるべき内容\n\nTerraformを使用する上で、最初に覚えるべき基礎的な内容をまとめています。\n\n\n 目次\n\nTerraformとは\n基本的な流れ\nTerraformの基本的な構成要素\n\nterraform\nprovider\nresource\ndata\nvariable\nlocals\noutput\nmodule\n\n\nTerraformの実行・反映に使用する基本コマンド",
@@ -587,38 +623,11 @@
       "color": "#326CE5"
     },
     {
-      "title": "AI コーディングエージェントのチーム展開に向けた段階的な環境整備の実践例",
-      "link": "https://aws.amazon.com/jp/blogs/news/scaling-ai-coding-agents-across-teams/",
-      "summary": "AI コーディングエージェントのチーム展開に向けた段階的な環境整備の実践例を紹介しています",
-      "published": "2026-08-20T03:22:15+00:00",
-      "source": "AWS 公式ブログ（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "GRPOからDAPOへ：RLVR時代のLLM強化学習を数式とメカニズムで理解する",
       "link": "https://zenn.dev/yukinekonyan/articles/b9d19ff6e1f014",
       "summary": "最初に感想(人間が書いた)\nGRPOの派生の手法について調べたときにDAPOをみつけたので、それについて解説してもらった。\nGRPO派生として計算資源をかなり気にしているところは興味深かったです\n成功データの意味は大事だけど、失敗データも大事だ、それがないとミニバッチが無駄になるというあたりは面白いところ。\nGRPOとその派生は万能ではないが、RLVRは今後すくなくとも数理的だったりゴールが明確な",
       "published": "2026-08-20T03:10:06+00:00",
       "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Amazon Bedrock とロボティクスで目指す「未来の実験室」  ― AWS Summit Japan 2026 の Physical AI ―",
-      "link": "https://aws.amazon.com/jp/blogs/news/konicaminolta-future-lab-summit2026/",
-      "summary": "本ブログは、コニカミノルタ株式会社と Amazon Web Services Japan が共同で執筆しました […]",
-      "published": "2026-08-20T02:57:42+00:00",
-      "source": "AWS 公式ブログ（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "【技術解説】【完全ガイド】Pythonで松井証券の自動売買を実現する方法と実践コード",
-      "link": "https://qiita.com/sugarfree/items/98c79059236342a1b3bc",
-      "summary": "松井証券APIを活用した自動売買システムの構築\n本記事では、Pythonを使用して松井証券の自動売買システムを構築する方法について詳しく解説します。松井証券のAPIを利用することで、株価情報の取得や売買注文の発行を自動化することが可能です。具体的な実装コードやエラー処理の...",
-      "published": "2026-08-20T02:00:19+00:00",
-      "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -639,15 +648,6 @@
       "source": "Qiita - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "プロンプトインジェクション検知の精度は言語によって変わるのか?6言語・6000文で検証してみた",
-      "link": "https://qiita.com/A-kane_/items/3e993e37d89e7e6360d8",
-      "summary": "プロンプトインジェクション検知の精度は言語によって変わるのか?6言語・6000文で検証してみた\n\nはじめに\n以前、ルールベース+自作TF-IDFのハイブリッド方式で、ローカル完結型のプロンプトインジェクション検知CLIツールを作りました。ただし文脈依存の遠回しな攻撃に弱く...",
-      "published": "2026-08-20T01:15:20+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "PMLEを2年ぶりに更新！Google Cloud認定資格「全冠」維持で見えたAI/MLの進化",
