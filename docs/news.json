@@ -1,6 +1,42 @@
 {
-  "updated": "2026-08-22T03:34:36.511066+00:00",
+  "updated": "2026-08-22T06:24:07.550944+00:00",
   "items": [
+    {
+      "title": "毎朝 CloudWatch を見回るエージェントを作ってみたら、翌朝さっそく仕事をしてくれた話",
+      "link": "https://zenn.dev/ncdc/articles/4a54d0d95446ac",
+      "summary": "はじめに\nみなさん、AIエージェントは作っていますか？\nAWSにはAgentCoreというAIエージェントを動かすための便利なサービスがあります。また、Strands AgentsというAWS発のAIエージェントを構築するためのライブラリがあります。\n私は仕事でAIエージェントを作ることはそれなりにあるのですが、\\overset{\\tiny むちゃぶり}{\\footnotesize 要件や制約}",
+      "published": "2026-08-22T06:00:07+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "6年分の自分の投稿をAIに読ませたら、同じことをずっと言っていた",
+      "link": "https://qiita.com/ymp-a/items/71695f3c62536568d4c9",
+      "summary": "このシリーズについて\nAI と一緒にキャリア資産を育てていく過程を記録しています。この記事は第4回です。\n\nはじめに\n前回は、ChatGPT と Claude Code の使い分けについて書きました。考えを広げる相手と、成果を管理する相手を分けている、という話です。\n今回...",
+      "published": "2026-08-22T05:50:34+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "EC2 プライベートIPアドレスを引き続き使用したい場合のリストア方法",
+      "link": "https://qiita.com/XYZXYZXYZ/items/4486336dc090f68c3999",
+      "summary": "AMIでのリストア後にプライベートIPアドレスを紐づける方法\n\nさっそくEC2を作成します。\n\n上司に言われたのですがこのステータスチェックはECでは必要だそうです。\n\nAMIでのバックアップを取得します。\n\n最初に作成したEC2を削除します。\n\n今回一番重要\nプ...",
+      "published": "2026-08-22T05:12:56+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "オーナー認証を実装したのに、映像URLだけ誰でも見られる状態だった話",
+      "link": "https://zenn.dev/ym_studio_craft/articles/2be1b530507ad9",
+      "summary": "はじめに\n個人開発で、カメラ映像をリアルタイムに複数人へ配信するサービスを作っています。店舗のオーナーが自分の店の映像だけを見られるよう、REST APIにオーナー認証を実装していました。\nところが、その認証をすり抜けて映像そのものには誰でもアクセスできる状態が、しばらく残っていました。APIのレスポンスに含まれる映像URLを直接叩けば、認証もセッションも関係なくevent_idさえ手元にあれば映",
+      "published": "2026-08-22T02:38:33+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
     {
       "title": "SaaS向けapexドメイン対応の価格が桁違いになる理由",
       "link": "https://qiita.com/mori-dev@github/items/aa48b4565487a3a80f63",
@@ -65,6 +101,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "AWS Amplify Gen 2は何が違う？実装2例で理解する",
+      "link": "https://zenn.dev/yamato_snow/articles/1846c122905a",
+      "summary": "はじめに\n以前、Next.js App RouterをAWS Amplifyへデプロイする記事を書きました。\nNext.js App RouterをAWS Amplifyにデプロイする完全ガイド\n続編でまず整理したいのは、Amplify HostingとGen 2の違いです。この2つは置き換え関係ではありません。\n\nAmplify Hostingは、Next.jsなどのWebアプリをビルドして配信",
+      "published": "2026-08-21T23:07:09+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "Anthropic、「ミュトス 5」を脆弱性スキャンに開放──「Claude Security」経由でEnterprise顧客が利用可能に",
       "link": "https://www.itmedia.co.jp/aiplus/article/2608/22/2000000697/",
       "summary": "Anthropicは、最上位モデル「Claude Mythos 5」をセキュリティサービス「Claude Security」の脆弱性検出に導入したと発表した。モデル本体への直接アクセスは開放せず、パッチ提案などの出力のみに限定して提供する。オープンソース保護に向けた総額3500万ドルの基金設立も公表した。",
@@ -90,15 +135,6 @@
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "Anthropicのマルチエージェント実験の論点。連絡路なしの共謀・自己複製マルウェア・98%休戦の条件",
-      "link": "https://qiita.com/quotidia/items/4206b34c09a8132968b2",
-      "summary": "本記事は筆者が運営する AI Quotidia の海外ニュース解説記事です。\n\nAnthropic (アンソロピック) は現地時間2026年8月13日(木)、複数のAIエージェントを同じ環境で動かすと何が起きるかを調べた「マルチエージェントシステム」の研究報告を公表しまし...",
-      "published": "2026-08-21T21:02:00+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "J-Quants APIで株価・決算データを収集する【日本株クオンツ研究ノート Vol.2】",
@@ -184,7 +220,7 @@
     {
       "title": "【Terraform】tfvars、実はignoreするのはおかしいのではと考えた日",
       "link": "https://zenn.dev/mukashi_dori/articles/b5fc2e72abde63",
-      "summary": "身も蓋もない結論\n事故ったときを考えるとignoreする方が絶対いい。運用としては時と場合による（かも）。\nあたりまえだけど秘匿情報が入っていたらpushしたらダメだし、入っていないならpushしてもよさそう。\n万一の事故を防ぎつつ利便性を取れるいい感じの運用を（私は）思い付けない。\n\n 私について\nAWSは6年ちょっとくらい触っていますが、Terraformについては1年ほどなんもわからんと思い",
+      "summary": "身も蓋もない結論\n事故ったときを考えるとignoreする方が絶対いい。運用としては時と場合による（かも）。\nあたりまえだけど秘匿情報が入っていたらpushしたらダメだし、入っていないならpushしてもよさそう。\n万一の事故を防ぎつつ利便性を取れるいい感じの運用を（私は）思い付けない。\n\n 私について\nAWSは6年ちょっとくらい触っていますが、Terraformについてはなんもわからんと思いながら触",
       "published": "2026-08-21T12:30:06+00:00",
       "source": "Zenn - Terraform",
       "tag": "インフラ",
@@ -243,15 +279,6 @@
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "個人情報×生成AI入門 — Bedrockなら「学習されない」を出典付きで",
-      "link": "https://qiita.com/Xim2jp/items/c57a0fe642e339e05b4f",
-      "summary": "「個人情報をAIに入れていいの？」と聞かれて、根拠付きで答えられますか。この記事では、Amazon Bedrockを使って個人情報（PII）を安全に処理する構成を、AWS公式の出典付きで整理しています。\n\n「怖い」は3つのリスクに分解できる\n\n学習リスク: 入力が将来のモ...",
-      "published": "2026-08-21T11:20:48+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "Claude Codeのサブエージェント設計パターン7選 — 並列リサーチから部署制運営まで",
@@ -551,15 +578,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "Dogwood を Amazon Bedrock AgentCore で動かす",
-      "link": "https://zenn.dev/exwzd/articles/20260818-dogwood-agentcore-policy",
-      "summary": "先端技術開発グループ（WAND）の伊賀です。\n前回の記事では、AWS のポリシー言語 Dogwood の参照実装をローカルで動かし、「機密ドキュメントを読んだ後はメール送信を禁止する」というガードレールの判定が、同じリクエストでもイベント履歴だけで変わる様子を replay コマンドで確認しました。\nそのとき結びに書いた AgentCore Gateway で temporal policy を設",
-      "published": "2026-08-21T03:50:05+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "【無停止DNS移行】ドメイン移管の完了を待たずにメールサーバーを先行切り替えする設計パターン",
       "link": "https://qiita.com/tech_Ice_Military/items/0823df84010dfe72e87e",
       "summary": "はじめに\nドメインの事業者移管（レジストラ変更）は、Auth-Codeの発行待ちや承認手続きなどで数日〜1週間以上のタイムラグが発生しがちです。\nしかし、「レジストラの移管」と「権威DNSサーバーの移行」は完全に独立したレイヤーです。\n移管完了を待たずに、現行レジストラ側...",
@@ -567,15 +585,6 @@
       "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "Bedrock の Web Search がライブ Web 取得に対応したので試してみた",
-      "link": "https://zenn.dev/aws_japan/articles/bedrock-web-search-external-access",
-      "summary": "はじめに\n2026 年 8 月 4 日に GA した Web Search on Amazon Bedrock は、リリース時点では検索対象が Amazon の管理する Web スナップショットに限られていました。external_web_access というパラメータ自体は当初から定義されていたものの、ライブ Web 取得は将来のアップデートで有効化予定とされていました。\n8 月 19 日、その",
-      "published": "2026-08-21T03:08:41+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "AWS Transform の SQL Server から PostgreSQL へのスキーマ検証",
@@ -738,15 +747,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "WebRTC SFUをCloud RunではなくCompute Engineに構築した理由",
-      "link": "https://zenn.dev/ym_studio_craft/articles/79a04250e13044",
-      "summary": "はじめに\n個人開発で、カメラ映像をリアルタイムに複数人へ配信するサービスを作っています。バックエンドはGo、映像配信にはWebRTCを使い、Backend側にSFU（Selective Forwarding Unit）を立てて中継する構成にしました。\n最初は「サーバーレスで運用が楽そうだしCloud Runでいいのでは」と考えていたのですが、結論から言うとCompute Engine（VM）に落ち",
-      "published": "2026-08-20T14:16:08+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "個人開発でCAE解析結果管理ツールを作った話(OpenFOAM/CalculiX対応・Docker完結)",
