@@ -1,20 +1,47 @@
 {
-  "updated": "2026-08-22T09:18:23.386567+00:00",
+  "updated": "2026-08-22T12:20:46.434545+00:00",
   "items": [
     {
-      "title": "Terraform : ECS Fargate環境を構築する(1) ― クラスタ・ネットワーク・タスク定義の基本設計",
-      "link": "https://qiita.com/ham-nao/items/26166245928411f82224",
-      "summary": "この記事について\nバックエンドAPIをAWS ECS Fargate上で稼働させる構成を題材に、ECSの構築から運用まで4回に分けて解説します。\n\n基盤編(本記事): クラスタ、ネットワーク、タスク定義の分離設計、IAMロール\nデプロイ・可用性編: ECSサービス設定、...",
-      "published": "2026-08-22T09:07:18+00:00",
+      "title": "クラウドAIの\"部下\"をローカルに作る ― DGX Spark × OpenHandsで作業委任基盤を構築した記録",
+      "link": "https://qiita.com/y_hoshiba/items/d7ea235c3b33abed9353",
+      "summary": "はじめに\nClaudeやChatGPTのようなクラウドAIを日常的に使っていると、必ずぶつかる壁がある。「これ、別に賢さは要らないんだけど、量が多い」という作業だ。大量のファイルを同じルールで整形する、決まった手順でデータを分類する、定型的な集計を繰り返す——こういうタス...",
+      "published": "2026-08-22T11:31:42+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Claude Code v2.1.239: Bedrock二重課金バグ修正とPython SDK移行コマンド追加",
+      "link": "https://qiita.com/picnic/items/ff939c5e26e47d011a58",
+      "summary": "はじめに\n2026年8月、Claude Code の v2.1.239 がリリースされました。今回の目玉は機能追加よりも「気づかぬうちにコストが漏れていた」タイプの修正です。特に Amazon Bedrock をプロキシ経由で利用している環境で、APIコールが静かに2倍課...",
+      "published": "2026-08-22T11:30:11+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "【データサイエンス環境構築】 SpyderでAWSのEC2インスタンスにリモートアクセスする",
-      "link": "https://qiita.com/TomoSub/items/933d7ad3e8aeaa044f9b",
-      "summary": "はじめに\n本記事では、Pythonのデータサイエンス特化IDEであるSpyderで、AWSのEC2インスタンスにリモートアクセスする手順を説明します。\nこれにより、Spyderの素晴らしい操作性の下でAWSの豊富な計算リソースを使用することができます。\n手順の全体的な流れ...",
-      "published": "2026-08-22T08:26:27+00:00",
+      "title": "AWSでサーバーレスな「未達成なら寄付Todoアプリ」を作ってみた #1(設計〜バックエンド基礎編)",
+      "link": "https://qiita.com/matrin/items/409e240d938f8b81a1c8",
+      "summary": "AWSでサーバーレスな「未達成なら寄付Todoアプリ」を作ってみた #1(設計〜バックエンド基礎編)\n\nはじめに\nAWS SAA(Solutions Architect Associate)の学習を兼ねて、以下のようなアプリを個人開発することにしました。\n\nタスクに「期限...",
+      "published": "2026-08-22T10:55:20+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Amazon EVS で VCF 9.1 のデプロイがさらに簡単に！CloudFormation スタック1つで構築",
+      "link": "https://qiita.com/mtoyoda/items/ef0d27674ac1af45355a",
+      "summary": "先日、Amazon EVS 上で VCF 9.1 をエンドツーエンドに自動デプロイする流れを、3コマンド＋手動30分の全体像として書きました。\n\n記事で紹介したのは Deploy/VCF9-Phased-Deployment というツールキットで、Terraform（P...",
+      "published": "2026-08-22T10:37:14+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Bedrock AgentCore Runtime Instances を試してみた",
+      "link": "https://qiita.com/leomarokun/items/1c57a2ac520cc2fe4799",
+      "summary": "はじめに\nAmazon Bedrock AgentCore Runtime に自分の EC2 インスタンス上でエージェントを動かせる新しいコンピュートタイプ「Runtime Instances」が追加されました。\n\nこれまで AgentCore Runtime は m...",
+      "published": "2026-08-22T10:09:27+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
@@ -29,6 +56,60 @@
       "color": "#10A37F"
     },
     {
+      "title": "LLMハニーポットのコストが5倍に跳ねた理由を追ったら、正体不明のプロキシスキャン群に行き着いた ― 3拠点77日間の実測",
+      "link": "https://zenn.dev/halotaro/articles/galah-honeypot-cache-77days",
+      "summary": "Galah は LLM を使って HTTP リクエストへの応答を動的に生成するハニーポットだ。任意のパスへのリクエストに対して、それらしいレスポンス（ヘッダ・ボディ）を LLM に生成させる。手作業でアプリを模倣する従来型ハニーポットと違い、事前に想定していないパスへのアクセスにもそれらしく応答できるのが売りだが、これは「1リクエスト = 1回の LLM 推論」というアーキテクチャでもある。\n開発",
+      "published": "2026-08-22T08:02:43+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "llama.cppでQwen3.8:27bの思考グルグルをある程度削減",
+      "link": "https://zenn.dev/ibuky/articles/745131581b2fc9",
+      "summary": "詳細は追記します\nCUDA_VISIBLE_DEVICES=0,1 ./llama-cli --model ~/unsloth/Qwen3.8-27B-GGUF/Qwen3.8-27B-Q4_0.gguf --temp 1.0 --top-p 0.95 --top-k 20 --min-p 0.0 -ngl 999 --reasoning-effort low\n--reasoning-effort",
+      "published": "2026-08-22T07:55:27+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "RTX 5090でFreeTokenを試してみた。35Bでは不要、120B級MoEでは話が変わる",
+      "link": "https://zenn.dev/holy_fox/articles/53b82eed45f956",
+      "summary": "2026年8月22日時点のFreeToken 0.1.2を、RTX 5090 32GBとRAM 128GBのPCで試しました。\nFreeTokenは、Mixture-of-Experts（MoE）モデルのexpertをホストRAMへ置き、必要なexpertだけをGPUへキャッシュしながら推論するサービングエンジンです。狙いはvLLMやllama.cppを単純に高速化することではなく、VRAMに収ま",
+      "published": "2026-08-22T07:44:27+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AGENTS.md と CLAUDE.md は解決規則が逆 — symlink する前に確認すること",
+      "link": "https://zenn.dev/tsutomusaito/articles/agents-md-claude-code-resolution",
+      "summary": "AGENTS.md を置いているリポジトリで Claude Code も使いたい。\n検索すると ln -s AGENTS.md CLAUDE.md が出てきて、実際これは公式が案内している手順です。\nただし、この1行で繋がるのはルートの1ファイルだけです。\nそして繋いだ先の Claude Code は、AGENTS.md とは逆の規則でファイルを解決します。\nモノレポで nested な AGEN",
+      "published": "2026-08-22T07:43:33+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "LLM APIはどこから使うべきか？AWS・GCP・Azure・直API・AI Gatewayの選び方",
+      "link": "https://zenn.dev/yhay81/articles/202608-llm-api-landscape",
+      "summary": "LLMを業務システムへ導入するとき、「どのモデルが一番よいか」だけを考えると、選択を誤ることがあります。\n同じClaudeでも、Anthropicの直API、Amazon Bedrock、Vertex AI、Microsoft Foundry、AI Gateway経由では、\n契約、処理基盤、利用できる機能が同じとは限らないからです。\nモデル選定では、どのモデルを使うかとどの経路から使うかを分けます",
+      "published": "2026-08-22T07:37:41+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "LLMに損切り価格を出させない設計 — Structured Output と数理レールの分担",
+      "link": "https://zenn.dev/ozapon/articles/gmo-fx-llm-sl-python",
+      "summary": "TL;DR\n\nGMOコインFX の予約型自動売買(AWS Lambda + Python)で、損切り価格・利確価格・ロットを LLM に出させず、Python が式で算出する設計にしました\n損切り価格は当初から Python です。LLM に残したのは方向・エントリー価格と、損切り幅の広さを選ぶ離散ノブ(狭い / 広い)まで。利確価格も Structured Output のスキーマから消し、損切",
+      "published": "2026-08-22T07:11:56+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "Kubeflow Trainer × Kueue 入門",
       "link": "https://qiita.com/haystacker/items/af3dffd197fe7b2710a8",
       "summary": "Kubernetes 上で学習ワークロードを回す際、Kubeflow Trainer（学習ジョブを定義して動かす道具）と&nbsp;Kueue（それをいつ動かすか制御する道具）はよく組み合わせて使われます。本書は「Kubernetes は触れるが、この 2 つは初めて」という人を想定...",
@@ -38,22 +119,31 @@
       "color": "#326CE5"
     },
     {
-      "title": "AWS Systems Manager Session Manager を用いた安価な踏み台サーバーの構成",
-      "link": "https://zenn.dev/frontendflat/articles/bastion-server-using-session-manager",
-      "summary": "外部ネットワークからプライベートサブネットに配置された RDS へ安全に接続するには、踏み台サーバーのようなトンネリングの仕組みが必要です。従来、踏み台サーバーの構成には SSH ポートを公開する手法が使われてきました。しかし、EC2 インスタンスや SSH キーの管理に課題があり、現在では AWS Systems Manager Session Manager (以下 SSM Session M",
-      "published": "2026-08-22T06:57:18+00:00",
-      "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
+      "title": "August 22, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#August_22_2026",
+      "summary": "Apigee UI\nFixed\n\n\n\nBug ID\nDescription\n\n\n\n\n540008387\n\n\nDeveloper custom attributes now save reliably in the Apigee UI\n\n\n          Saving changes to a developer in the\n          Apigee UI in Cloud conso",
+      "published": "2026-08-22T07:00:00+00:00",
+      "source": "Google Cloud リリースノート",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
-      "title": "(海外登壇レポート)在庫オーバーセルをゼロにする話をAWS Community Day Singapore 2026でしてきた",
-      "link": "https://qiita.com/yama3133/items/7552b1fe812fa92debee",
-      "summary": "2026年8月22日、AWS Community Day Singaporeで登壇してきた。\n\n演題は\n「Distributed Transactions Under Fire: Building a Zero-Oversell Flash Sale Platform ...",
-      "published": "2026-08-22T06:31:46+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "LLM APIの費用はなぜ増える？コスト構造と最適化の基本",
+      "link": "https://zenn.dev/yhay81/articles/202608-llm-api-cost-guide-for-beginners",
+      "summary": "生成AIを業務へ組み込むと、しばしば「思ったよりAPI費用が高い」という問題が起きます。そこで安いモデルへの\n変更を考えがちですが、LLMの費用はモデルの価格だけでは決まりません。\nAIへ送る文章が長い、一つの仕事で何度もAIを呼ぶ、失敗した処理を繰り返す。このような設計上の要因でも費用は\n増えます。反対に、安いモデルへ変更して再質問や人による修正が増えれば、APIの請求額が下がっても業務全体では",
+      "published": "2026-08-22T06:30:37+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "「AIに引用されているか」を数値にする — LLMO可視性スコアの設計と、実装して初めて分かった落とし穴",
+      "link": "https://zenn.dev/mistudio/articles/3461111dd32276",
+      "summary": "検索エンジンの順位は昔から測れました。では、ChatGPTやPerplexityが回答の中で自社サイトを引用しているかどうかは、どう測ればいいのでしょうか。\n順位のように1本の数字が返ってくるわけではありません。同じ質問を投げても回答は毎回変わりますし、そもそも「引用された」の定義自体が曖昧です。回答文中にURLが出典として並ぶこともあれば、社名だけが本文に出てURLはないこともあります。\nこの記",
+      "published": "2026-08-22T06:18:56+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "6年分の自分の投稿をAIに読ませたら、同じことをずっと言っていた",
@@ -65,13 +155,31 @@
       "color": "#10A37F"
     },
     {
-      "title": "EC2 プライベートIPアドレスを引き続き使用したい場合のリストア方法",
-      "link": "https://qiita.com/XYZXYZXYZ/items/4486336dc090f68c3999",
-      "summary": "AMIでのリストア後にプライベートIPアドレスを紐づける方法\n\nさっそくEC2を作成します。\n\n上司に言われたのですがこのステータスチェックはECでは必要だそうです。\n\nAMIでのバックアップを取得します。\n\n最初に作成したEC2を削除します。\n\n今回一番重要\nプ...",
-      "published": "2026-08-22T05:12:56+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "LLM APIコスト最適化 実践教科書",
+      "link": "https://zenn.dev/yhay81/books/llm-api-cost-optimization",
+      "summary": "品質を落とさず、計測・設計・キャッシュ・ルーティング・運用でLLM費用を制御する",
+      "published": "2026-08-22T05:44:03+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Claude Codeについて学んだことの備忘録",
+      "link": "https://zenn.dev/rokkaku_dev/articles/6feb8e28bb81d1",
+      "summary": "はじめに\n社内プロジェクトでClaude CodeなどのAIエージェントコーディングを始めることになりました。\n強力なツールである一方、使い方を間違えればプロジェクトやシステムに取り返しのつかない影響を与えうる諸刃の剣でもあります。\nだからこそ、まずは公式ドキュメントを一通り読んで基礎知識を整理しておくことが大事だと思いました。\nこの記事はその インプットのアウトプット です。\n誰かに教えるという",
+      "published": "2026-08-22T03:51:24+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "オーナー認証を実装したのに、映像URLだけ誰でも見られる状態だった話",
+      "link": "https://zenn.dev/ym_studio_craft/articles/2be1b530507ad9",
+      "summary": "はじめに\n個人開発で、カメラ映像をリアルタイムに複数人へ配信するサービスを作っています。店舗のオーナーが自分の店の映像だけを見られるよう、REST APIにオーナー認証を実装していました。\nところが、その認証をすり抜けて映像そのものには誰でもアクセスできる状態が、しばらく残っていました。APIのレスポンスに含まれる映像URLを直接叩けば、認証もセッションも関係なくevent_idさえ手元にあれば映",
+      "published": "2026-08-22T02:38:33+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "【設計開発運用】航空機の冗長化設計をサーバー設計に持ち込む",
@@ -106,24 +214,6 @@
       "summary": "「長いプロンプトを書きましょう」に感じた違和感 ― 生成AIとはもっと普通に話していい\n先日、NHKの子ども向け番組を見ていた。\nその中で、生成AIに対するプロンプトの書き方を扱っていた。\n細かな表現は正確には覚えていないが、私が受け取ったメッセージは、\n「AIから良い回...",
       "published": "2026-08-22T00:39:55+00:00",
       "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "LLMの「ひらめき」はアスペクト知覚なのか ― ウィトゲンシュタインとRelevance Realizationから考える",
-      "link": "https://qiita.com/lowgain/items/7c44073f3424ed8061a1",
-      "summary": "LLMの「ひらめき」はアスペクト知覚なのか ― ウィトゲンシュタインとRelevance Realizationから考える\nLLMを長く使っていると、ときどき不思議な瞬間がある。\nこちらがいくつかの情報を与えて会話を続けていると、LLMが突然、\n\nこれは、別の見方をすると...",
-      "published": "2026-08-22T00:32:45+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Grok 4.5はCursorの操作ログで訓練された、出力トークンが約4分の1になった",
-      "link": "https://zenn.dev/okssusucha/articles/20260711-grok-4-5-cursor-session-data-token-effici",
-      "summary": "7月8日に出たGrok 4.5で、いちばん引っかかったのはベンチマークの数字ではなかった。訓練データの出どころだ。xAI（発表では SpaceXAI 名義）はこのモデルを Cursor と共同で訓練し、その材料に「数兆トークン規模の Cursor 上の操作データ」を使ったと明言している。GitHub に転がっている完成済みのコードではなく、開発者がエディタの中で実際にコードを書いていく過程そのもの",
-      "published": "2026-08-22T00:07:56+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -164,15 +254,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "AXIOM-MAS v3.2.2 実験結果 — MASカーネルPrototypeの制御実験",
-      "link": "https://zenn.dev/void09/articles/aafa9f90377986",
-      "summary": "はじめに\nAXIOM-MASは、LLMそのものを賢くするのではなく、LLMを交換可能な推論部品として扱い、その外側に制御カーネルを置くことを目的としたMAS Prototypeです。\n一般的なMASが「複数のLLMを協調させて答えを作る」方向に重点を置くのに対し、AXIOM-MASでは、\n\nAbsoluteAnchor / HashAによる不変座標\nHashBによる推論軌跡\nCapsuleによる状",
-      "published": "2026-08-21T17:03:40+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Gemini Sparkを触る勉強会をやってみて考えた、ノーコードAIエージェントとこれからのエンジニア",
       "link": "https://zenn.dev/shu_kob/articles/53a468ddd1a707",
       "summary": "はじめに\n2026年8月21日(金)の19時から、「Gemini Sparkを触る会」という勉強会を個人主催で開催しました。\nhttps://genai-users.connpass.com/event/404236/\n事前資料は作らず、公式ドキュメントを画面に出しながらライブで触る、という形式です。YouTube Liveで配信したのでアーカイブも残っています。\nこの記事では、勉強会でGemin",
@@ -200,29 +281,11 @@
       "color": "#326CE5"
     },
     {
-      "title": "SAPO: 1ロールアウト自己回帰Actor-CriticでAgent RLの壁を突破",
-      "link": "https://zenn.dev/lixian/articles/sapo-single-rollout-actor-critic",
-      "summary": "TL;DR\nLLMエージェントの強化学習において、PPOは高精度だが別途Criticモデルのメモリが必要で、GRPOはメモリ効率が良いが長期タスクでadvantage collapseに陥る——この二律背反を**SAPO（Single-rollout Autoregressive Policy Optimization）**が一発で解消する。鍵は「自己回帰モデルの因果的境界を利用して、1つのバック",
-      "published": "2026-08-21T15:00:00+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "X自動投稿AI-Workflowの改善ループ設計",
       "link": "https://zenn.dev/rikky300/articles/eb49283c9c6438",
       "summary": "はじめに\n前回、個人開発者向けのX投稿自動投稿「AgentMark」を作った話を書きました。\n自動投稿まで実装したので、次はこのAI-Workflowを改善することについて考えて実装したので、まとめたいと思います。勉強を兼ねての側面が大きいですが、少しでも参考になれば幸いです。\nhttps://github.com/rikky300/marketing_agent\n\n 何をどう改善すればいいのか",
       "published": "2026-08-21T14:51:15+00:00",
       "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "X自動投稿AI-Workflowの改善ループ設計",
-      "link": "https://zenn.dev/rikky300/articles/eb49283c9c6438",
-      "summary": "はじめに\n前回、個人開発者向けのX投稿自動投稿「AgentMark」を作った話を書きました。\n自動投稿まで実装したので、次はこのAI-Workflowを改善することについて考えて実装したので、まとめたいと思います。勉強を兼ねての側面が大きいですが、少しでも参考になれば幸いです。\nhttps://github.com/rikky300/marketing_agent\n\n 何をどう改善すればいいのか",
-      "published": "2026-08-21T14:51:15+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -252,15 +315,6 @@
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "AIに「あれは入れないで」と直させると、なぜか本文に「入れてません」と書いてくる",
-      "link": "https://zenn.dev/motimotinotch/articles/546674976fede8",
-      "summary": "こんな投稿を見かけた。\nhttps://x.com/chokudai/status/2084538207732178997?s=20\nこれは自分なりの要約だが、要するにこういう話だ。AIに何かを一発で出させるのは得意。でも、後から「〇〇は入れないで」と訂正させると、該当箇所は消すくせに、代わりに「〇〇は入れていません」的なコメントを律儀に書き足してくる。ソースコードのコメントならまだしも、プレゼン",
-      "published": "2026-08-21T12:26:45+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "RAG（検索拡張生成）とは — LLMの「知識の壁」を突破するアーキテクチャ",
@@ -297,33 +351,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "PII×LLMの4層防御 — Bedrockの非学習保証を規約とアーキテクチャで二重化する",
-      "link": "https://zenn.dev/xim2jp_tokyo/articles/6dfcc980befb02",
-      "summary": "PIIを含むワークロードにLLMを組み込む際の論点は、学習リスク・保持リスク・経路リスクの3つに分解できます。前二者は契約・規約のレイヤー、後者はネットワーク設計のレイヤーであり、対策も分けて設計すべきです。本記事はAmazon Bedrockでこの3リスクを塞ぐ構成を、一次情報の出典付きで整理したものです。\n\n 規約レイヤー\n\nプロンプト・生成結果はAWSのモデル学習に不使用、モデルプロバイダー",
-      "published": "2026-08-21T11:22:39+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Claude Codeのサブエージェント設計パターン7選 — 並列リサーチから部署制運営まで",
-      "link": "https://zenn.dev/jiritsuworks/articles/claude-code-subagent-patterns",
-      "summary": "Claude Codeのサブエージェント（Agentツール、旧Taskツール）は「知ってはいるが、結局メイン会話で全部やってしまう」機能の代表格ではないでしょうか。私たちはAIエージェントを部署に見立てて記事制作・マーケティングを運用しており、その実運用で定着した設計パターンを7つに整理し、失敗しやすいポイントとあわせてまとめます。\n仕様に関する記述は、Anthropic公式ドキュメント（Crea",
-      "published": "2026-08-21T10:38:39+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AIエージェントに\"会社経営\"を任せてみた — 市場調査から事業計画までを自律実行させた記録（第1回）",
-      "link": "https://zenn.dev/jiritsuworks/articles/ai-agent-company-experiment-01",
-      "summary": "この記事は何か\n「AIエージェントに会社を経営させたら、どこまで自律的に動けるのか」を実際に試している実験の記録です。\n具体的には、Claude Code をローカルの1ディレクトリ上で動かし、市場調査 → 事業戦略の立案 → 会社組織の構築 → コンテンツ制作までを自律実行させました。人間（私）がやったことは、途中の承認だけです。\n先に正直に書いておきます。\n\n\n現時点の売上はゼロ円です\n調査の",
-      "published": "2026-08-21T10:38:38+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "kubectl apply で特定リソースのみを部分適用する方法",
@@ -376,24 +403,6 @@
       "summary": "スペクティが提供する「Spectee Pro」は、さまざまな情報を収集し、その時に起きている「危機」を可視化するシステムだ。多くの自治体やマスコミも活用しているというSpectee Proは、どうやってデマや虚偽の情報を見分けるのか。",
       "published": "2026-08-21T09:31:35+00:00",
       "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AIエージェントにCMSのメディアを運用させる ― 画像のバイト列はLLMに通さない",
-      "link": "https://zenn.dev/pikonori/articles/ai-agent-media",
-      "summary": "!\nこの記事は、個人開発しているヘッドレスCMS Tessera のブログ（tesseracms.com/blog/ai-agent-media）に掲載したものを、Zenn向けに再掲したものです。\n\nAIエージェント（Claude CodeやCursor）にブログ記事を書かせるところまでは、もう普通にできるようになりました。ではその記事に載せる画像――アイキャッチや説明図――は、誰がアップロードす",
-      "published": "2026-08-21T09:23:52+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "日本語入力システムSumibiの開発 part23: iPhone版Sumibi 1.1.0を改めて紹介します",
-      "link": "https://zenn.dev/kiyoka/articles/japanese-input-method-sumibi-23",
-      "summary": "はじめに\niPhone版の「Sumibi - AI日本語キーボード」を 1.1.0 に更新しました。\nこれまでの記事では、part20 で開発中の設計を、part21 と part22 でApp Store審査の話を書いてきました。今回は少し視点を変えて、Sumibiを使うと何がうれしいのかを改めて紹介します。\nApp Storeには、実際に文字を入力して変換する様子が分かるビデオも追加しました。",
-      "published": "2026-08-21T09:15:08+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -767,15 +776,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "WebRTC SFUをCloud RunではなくCompute Engineに構築した理由",
-      "link": "https://zenn.dev/ym_studio_craft/articles/79a04250e13044",
-      "summary": "はじめに\n個人開発で、カメラ映像をリアルタイムに複数人へ配信するサービスを作っています。バックエンドはGo、映像配信にはWebRTCを使い、Backend側にSFU（Selective Forwarding Unit）を立てて中継する構成にしました。\n最初は「サーバーレスで運用が楽そうだしCloud Runでいいのでは」と考えていたのですが、結論から言うとCompute Engine（VM）に落ち",
-      "published": "2026-08-20T14:16:08+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "個人開発でCAE解析結果管理ツールを作った話(OpenFOAM/CalculiX対応・Docker完結)",
       "link": "https://zenn.dev/takuma1122/articles/cae-lab-intro",
       "summary": "つくったもの\nOpenFOAM・CalculiXの解析結果フォルダを一覧・検索できる、軽量な管理ツールを作りました。\n\n指定フォルダ配下のケースを自動検出し、ソルバー種別・実行日・完走判定・計算時間を一覧表示\n行をクリックすると詳細パネルが開き、解析の種類(線形/非線形、圧縮/非圧縮 等)・解析設定・メッシュ形状のサムネイルなどを確認可能\nDocker上で完結し、ホストのUbuntu環境を汚さない",
@@ -1127,6 +1127,15 @@
       "color": "#888780"
     },
     {
+      "title": "モデル名を変えるたびに、アプリをフルビルドしていた。Cloud Run の設定を Terraform へ移す",
+      "link": "https://zenn.dev/snknsk/articles/cloudrun-config-terraform-import",
+      "summary": "前回、1 つのコンテナイメージを web / worker の 2 サービスに分ける構成を書きました。その記事は、こう終わっています。\n\n両者が食い違っていないかは、誰も自動では教えてくれません。\n\nこの記事は、その一文を回収した続きです。稼働中の Cloud Run サービス 8 個を Terraform へ import し、毎日 plan を回してズレを検知するところまで進めました。\nきっか",
+      "published": "2026-08-16T14:35:17+00:00",
+      "source": "Zenn - Terraform",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "August 16, 2026",
       "link": "https://docs.cloud.google.com/release-notes#August_16_2026",
       "summary": "Agent Platform Workbench\nSecurity\nUpdated the bundled Ruby gems rexml and net-imap to patched versions, addressing known vulnerabilities.\nChange\n20260816-2330-rc0 Release\nSecurity\nUpdated aiohttp, job",
@@ -1248,15 +1257,6 @@
       "link": "https://docs.cloud.google.com/release-notes#August_13_2026",
       "summary": "Apigee X\nAnnouncement\nOn August 13th, 2026, we began maintenance updates of Apigee instances configured for maintenance windows.\nIf you set a preferred window for maintenance for your instance, and yo",
       "published": "2026-08-13T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "August 12, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#August_12_2026",
-      "summary": "Apigee API hub\nFeature\nConfigure and deploy MCP servers with gcloud CLI\nYou can use the gcloud apihub locations configure-and-deploy-server command to configure and deploy API hub Model Context Protoc",
-      "published": "2026-08-12T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
