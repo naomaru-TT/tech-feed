@@ -1,12 +1,57 @@
 {
-  "updated": "2026-08-22T06:24:07.550944+00:00",
+  "updated": "2026-08-22T09:18:23.386567+00:00",
   "items": [
     {
-      "title": "毎朝 CloudWatch を見回るエージェントを作ってみたら、翌朝さっそく仕事をしてくれた話",
-      "link": "https://zenn.dev/ncdc/articles/4a54d0d95446ac",
-      "summary": "はじめに\nみなさん、AIエージェントは作っていますか？\nAWSにはAgentCoreというAIエージェントを動かすための便利なサービスがあります。また、Strands AgentsというAWS発のAIエージェントを構築するためのライブラリがあります。\n私は仕事でAIエージェントを作ることはそれなりにあるのですが、\\overset{\\tiny むちゃぶり}{\\footnotesize 要件や制約}",
-      "published": "2026-08-22T06:00:07+00:00",
-      "source": "Zenn - AWS",
+      "title": "Terraform : ECS Fargate環境を構築する(1) ― クラスタ・ネットワーク・タスク定義の基本設計",
+      "link": "https://qiita.com/ham-nao/items/26166245928411f82224",
+      "summary": "この記事について\nバックエンドAPIをAWS ECS Fargate上で稼働させる構成を題材に、ECSの構築から運用まで4回に分けて解説します。\n\n基盤編(本記事): クラスタ、ネットワーク、タスク定義の分離設計、IAMロール\nデプロイ・可用性編: ECSサービス設定、...",
+      "published": "2026-08-22T09:07:18+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "【データサイエンス環境構築】 SpyderでAWSのEC2インスタンスにリモートアクセスする",
+      "link": "https://qiita.com/TomoSub/items/933d7ad3e8aeaa044f9b",
+      "summary": "はじめに\n本記事では、Pythonのデータサイエンス特化IDEであるSpyderで、AWSのEC2インスタンスにリモートアクセスする手順を説明します。\nこれにより、Spyderの素晴らしい操作性の下でAWSの豊富な計算リソースを使用することができます。\n手順の全体的な流れ...",
+      "published": "2026-08-22T08:26:27+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AIエージェントから動画をクリップできる時代へ：2026年のMCP最新事情",
+      "link": "https://qiita.com/anthony_katto/items/924d340831afbcbbfd2a",
+      "summary": "元記事（自分のブログ・カノニカル）: https://katto.tech/ja/blog/clip-video-from-your-ai-agent-state-of-mcp-2026-jp\n\n半年前まで「AI動画編集」といえば、Webアプリを開いてリンクを貼り、あち...",
+      "published": "2026-08-22T08:02:44+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Kubeflow Trainer × Kueue 入門",
+      "link": "https://qiita.com/haystacker/items/af3dffd197fe7b2710a8",
+      "summary": "Kubernetes 上で学習ワークロードを回す際、Kubeflow Trainer（学習ジョブを定義して動かす道具）と&nbsp;Kueue（それをいつ動かすか制御する道具）はよく組み合わせて使われます。本書は「Kubernetes は触れるが、この 2 つは初めて」という人を想定...",
+      "published": "2026-08-22T07:01:40+00:00",
+      "source": "Qiita - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "AWS Systems Manager Session Manager を用いた安価な踏み台サーバーの構成",
+      "link": "https://zenn.dev/frontendflat/articles/bastion-server-using-session-manager",
+      "summary": "外部ネットワークからプライベートサブネットに配置された RDS へ安全に接続するには、踏み台サーバーのようなトンネリングの仕組みが必要です。従来、踏み台サーバーの構成には SSH ポートを公開する手法が使われてきました。しかし、EC2 インスタンスや SSH キーの管理に課題があり、現在では AWS Systems Manager Session Manager (以下 SSM Session M",
+      "published": "2026-08-22T06:57:18+00:00",
+      "source": "Zenn - Terraform",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "(海外登壇レポート)在庫オーバーセルをゼロにする話をAWS Community Day Singapore 2026でしてきた",
+      "link": "https://qiita.com/yama3133/items/7552b1fe812fa92debee",
+      "summary": "2026年8月22日、AWS Community Day Singaporeで登壇してきた。\n\n演題は\n「Distributed Transactions Under Fire: Building a Zero-Oversell Flash Sale Platform ...",
+      "published": "2026-08-22T06:31:46+00:00",
+      "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -29,36 +74,9 @@
       "color": "#FF9900"
     },
     {
-      "title": "オーナー認証を実装したのに、映像URLだけ誰でも見られる状態だった話",
-      "link": "https://zenn.dev/ym_studio_craft/articles/2be1b530507ad9",
-      "summary": "はじめに\n個人開発で、カメラ映像をリアルタイムに複数人へ配信するサービスを作っています。店舗のオーナーが自分の店の映像だけを見られるよう、REST APIにオーナー認証を実装していました。\nところが、その認証をすり抜けて映像そのものには誰でもアクセスできる状態が、しばらく残っていました。APIのレスポンスに含まれる映像URLを直接叩けば、認証もセッションも関係なくevent_idさえ手元にあれば映",
-      "published": "2026-08-22T02:38:33+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "SaaS向けapexドメイン対応の価格が桁違いになる理由",
-      "link": "https://qiita.com/mori-dev@github/items/aa48b4565487a3a80f63",
-      "summary": "apexドメインをAレコードで受けるための入口は、事業者によって価格が大きく違います。\nAmazon CloudFront  エニーキャスト静的IP   月額 15,000 ドル (IPv4リスト1つ)\nAWS Global Accelerator             ...",
-      "published": "2026-08-22T02:28:12+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "固定IPが必要な環境でもRegional NAT Gatewayを使うメリット",
-      "link": "https://qiita.com/toumakido/items/7995c919b01736c36b54",
-      "summary": "はじめに\nこんにちは、Finatextでエンジニアをしているtoumakidoです。\n本記事は2026 Japan AWS Jr. Champions 真夏のQiitaリレーの22日目の記事になります。\n\nさて、2025年11月に、NAT Gatewayに Regio...",
-      "published": "2026-08-22T02:21:48+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "*【設計開発運用】航空機の冗長化設計をサーバー設計に持ち込む",
+      "title": "【設計開発運用】航空機の冗長化設計をサーバー設計に持ち込む",
       "link": "https://qiita.com/yml024/items/511b722b03e593455be3",
-      "summary": "航空機の冗長化設計をサーバー設計に持ち込む\n\nはじめに\n747のコックピットについて調べてたら、信頼性工学の話に行き着いた。\nそしてサーバーの高可用性設計は、航空業界の思想を後から借りてきたものだ。\n用語まで輸入してる。Redundancy、FMEA、Fail-safe、...",
+      "summary": "航空機の冗長化設計をサーバー設計に持ち込む\n\nはじめに\n747のコックピットについて調べてたら、信頼性工学の話に行き着いた。\nそしてサーバーの高可用性設計は、航空業界の思想を後から借りてきたものだ。\n用語まで輸入してる。Redundancy、FMEA、Fail-safe...",
       "published": "2026-08-22T02:11:24+00:00",
       "source": "Qiita - インフラ",
       "tag": "インフラ",
@@ -70,6 +88,15 @@
       "summary": "【完全ガイド】Pythonで構築する自動売買システム\nこの記事では、Pythonを用いて自動売買システムを設計・実装する方法について解説します。主に使用するライブラリは、ccxt、pandas、numpy、TA-Lib、websocket-client、asyncioです...",
       "published": "2026-08-22T02:00:21+00:00",
       "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "WFOとは？バックテストとの違いと必要な理由を初心者向けに解説",
+      "link": "https://zenn.dev/hiro_algo/articles/2127ac45fbf5de",
+      "summary": "FXや株式の自動売買を開発していると、バックテストでは利益が出るのに、実運用では勝てないことがあります。\n原因の一つが、過去データに最適化しすぎる「過剰最適化（オーバーフィッティング）」です。この問題を発見するためによく使われる評価手法が、Walk Forward Optimization（WFO）です。\nこの記事では、初めてWFOを知る人に向けて、バックテストとの違い、WFOが必要な理由、Pyt",
+      "published": "2026-08-22T01:39:43+00:00",
+      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -88,6 +115,15 @@
       "summary": "LLMの「ひらめき」はアスペクト知覚なのか ― ウィトゲンシュタインとRelevance Realizationから考える\nLLMを長く使っていると、ときどき不思議な瞬間がある。\nこちらがいくつかの情報を与えて会話を続けていると、LLMが突然、\n\nこれは、別の見方をすると...",
       "published": "2026-08-22T00:32:45+00:00",
       "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Grok 4.5はCursorの操作ログで訓練された、出力トークンが約4分の1になった",
+      "link": "https://zenn.dev/okssusucha/articles/20260711-grok-4-5-cursor-session-data-token-effici",
+      "summary": "7月8日に出たGrok 4.5で、いちばん引っかかったのはベンチマークの数字ではなかった。訓練データの出どころだ。xAI（発表では SpaceXAI 名義）はこのモデルを Cursor と共同で訓練し、その材料に「数兆トークン規模の Cursor 上の操作データ」を使ったと明言している。GitHub に転がっている完成済みのコードではなく、開発者がエディタの中で実際にコードを書いていく過程そのもの",
+      "published": "2026-08-22T00:07:56+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -117,24 +153,6 @@
       "source": "ITmedia AI+",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "AIとともにコラッツ予想について考えてみた(2)",
-      "link": "https://qiita.com/I-Yasusi/items/20e5534384584ecfc266",
-      "summary": "概要\n前回の続き\n$$\nT_{n+1}(x) =\n\\begin{cases}\n3x + 1 (xが奇数)  \\\\\nx/2 (xが偶数)\n\\end{cases}\n$$\nこれがコラッツ予想の元になったもので標準コラッツと呼ばれる。\n今回はこれらをいくつか可視化していき考察して...",
-      "published": "2026-08-21T21:43:11+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AWS Certified DevOps Engineer - Professional (DOP-C02)を更新しました",
-      "link": "https://qiita.com/user007/items/5ad16eeb595f793a0495",
-      "summary": "はじめに\nAWS Certified DevOps Engineer - Professionalが失効間近のため更新しました。\n\n教材\n\nUdemy | AWS DOP-C02日本語実践問題225問(DevOps Engineer Pro)\n\nSAP-C02でもお世話...",
-      "published": "2026-08-21T21:37:14+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "J-Quants APIで株価・決算データを収集する【日本株クオンツ研究ノート Vol.2】",
@@ -180,6 +198,15 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "SAPO: 1ロールアウト自己回帰Actor-CriticでAgent RLの壁を突破",
+      "link": "https://zenn.dev/lixian/articles/sapo-single-rollout-actor-critic",
+      "summary": "TL;DR\nLLMエージェントの強化学習において、PPOは高精度だが別途Criticモデルのメモリが必要で、GRPOはメモリ効率が良いが長期タスクでadvantage collapseに陥る——この二律背反を**SAPO（Single-rollout Autoregressive Policy Optimization）**が一発で解消する。鍵は「自己回帰モデルの因果的境界を利用して、1つのバック",
+      "published": "2026-08-21T15:00:00+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "X自動投稿AI-Workflowの改善ループ設計",
@@ -371,15 +398,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "Claude Codeに教わり、Codexに作らせ、Hermes Agentで試す——AIエージェント学習環境を作った",
-      "link": "https://zenn.dev/8091info/articles/agent-learning-lab-claude-codex-hermes",
-      "summary": "新しいAIエージェントを覚えるために、別のAIエージェントに先生役を頼んでみました。ただし、先生に実装も実験も任せると、私が考える前に答えができあがります。\nそこで、Claude Codeを講師、Codexを工作担当、Hermes Agentを学習対象兼実験機に分けました。予測し、Hermesを操作し、結果を検算するのは人間の担当です。\n2026年7月17日にこの環境を作り、8月19日時点で8件の",
-      "published": "2026-08-21T09:00:05+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Terraformの設定乖離時の対応チートシート ー コード、state、実態にわけてパターンを書きました。",
       "link": "https://zenn.dev/meirai/articles/178840c7fa4104",
       "summary": "Terraformの設定は、乖離することがある😇\nterraformを使っていて、コード、state、実態で乖離が出る時があります。\nコードを変えた、stateをコマンドで変えた、CLI操作などでTerraformを介さず変更した。などなど理由は様々です。\nその状態の時の状態や対応について全パターンを書き出してみました。\n\n チートシート\nplan の結果は、state の値は refresh 済",
@@ -387,15 +405,6 @@
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "AIエージェントが実務を回し始めた2026年8月 — マルチエージェント設計とガバナンスの現在地",
-      "link": "https://zenn.dev/kairosai/articles/c697a7fea9ebe6",
-      "summary": "TL;DR\n・2026年8月、AIエージェントは「パイロット」ではなく本番ワークロードを担うフェーズに入った\n・単体エージェントからマルチエージェント・オーケストレーションへ、アーキテクチャの重心が移動\n・8/2にEU AI Actの高リスク規定が施行。人間による監督・リスク管理・適合性評価が義務化\n・実装者が今考えるべきは「モデル選定」より「委任境界の設計」\n\n 何が起きているか\n今月のAIエー",
-      "published": "2026-08-21T08:32:42+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "Kubernetesのポリシー運用ってどうやるの？既存構成にモヤモヤして、Kyvernoと責任分離の設計を一から調べて整理してみた【中編】",
@@ -578,6 +587,15 @@
       "color": "#FF9900"
     },
     {
+      "title": "Dogwood を Amazon Bedrock AgentCore で動かす",
+      "link": "https://zenn.dev/exwzd/articles/20260818-dogwood-agentcore-policy",
+      "summary": "先端技術開発グループ（WAND）の伊賀です。\n前回の記事では、AWS のポリシー言語 Dogwood の参照実装をローカルで動かし、「機密ドキュメントを読んだ後はメール送信を禁止する」というガードレールの判定が、同じリクエストでもイベント履歴だけで変わる様子を replay コマンドで確認しました。\nそのとき結びに書いた AgentCore Gateway で temporal policy を設",
+      "published": "2026-08-21T03:50:05+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "【無停止DNS移行】ドメイン移管の完了を待たずにメールサーバーを先行切り替えする設計パターン",
       "link": "https://qiita.com/tech_Ice_Military/items/0823df84010dfe72e87e",
       "summary": "はじめに\nドメインの事業者移管（レジストラ変更）は、Auth-Codeの発行待ちや承認手続きなどで数日〜1週間以上のタイムラグが発生しがちです。\nしかし、「レジストラの移管」と「権威DNSサーバーの移行」は完全に独立したレイヤーです。\n移管完了を待たずに、現行レジストラ側...",
@@ -722,7 +740,7 @@
       "color": "#4285F4"
     },
     {
-      "title": "Fluter 3.47正式リリース。UIライブラリが分離され独立してアップデート可能、デフォルトでWebAssemblyを生成する方向に、など新機能",
+      "title": "Flutter 3.47正式リリース。UIライブラリが分離され独立してアップデート可能、デフォルトでWebAssemblyを生成する方向に、など新機能",
       "link": "https://www.publickey1.jp/blog/26/fluter_347uiwebassembly.html",
       "summary": "Googleは、Dart言語によるアプリケーションフレームワークの最新版「Flutter 3.47」正式リリースを発表しました。 We’ve pieced together something special... Flutter 3.47...",
       "published": "2026-08-20T15:02:15+00:00",
@@ -747,6 +765,15 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "WebRTC SFUをCloud RunではなくCompute Engineに構築した理由",
+      "link": "https://zenn.dev/ym_studio_craft/articles/79a04250e13044",
+      "summary": "はじめに\n個人開発で、カメラ映像をリアルタイムに複数人へ配信するサービスを作っています。バックエンドはGo、映像配信にはWebRTCを使い、Backend側にSFU（Selective Forwarding Unit）を立てて中継する構成にしました。\n最初は「サーバーレスで運用が楽そうだしCloud Runでいいのでは」と考えていたのですが、結論から言うとCompute Engine（VM）に落ち",
+      "published": "2026-08-20T14:16:08+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "個人開発でCAE解析結果管理ツールを作った話(OpenFOAM/CalculiX対応・Docker完結)",
@@ -792,15 +819,6 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "Claudeがタンパク質を設計した。LLMは「科学を説明するAI」からどこまで進んだのか",
-      "link": "https://zenn.dev/kuromame_kun/articles/8afc488f701ba3",
-      "summary": "2026年8月19日、Anthropicが興味深い研究結果を公開しました。\nClaudeを使って、新しいタンパク質結合体（protein binder）をゼロから設計し、その候補を実際の実験で検証したというものです。\nAnthropicによると、Claude Mythos PreviewとClaude Opus 4.8を使った実験では、15種類の標的に対してbinderを設計し、そのうち14種類で",
-      "published": "2026-08-20T07:24:29+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "August 20, 2026",
@@ -1091,15 +1109,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "Kubernetesのサイドカーを試す～TLS終端による通信の暗号化",
-      "link": "https://qiita.com/hana_shin/items/18da1a4d6ed0e756f420",
-      "summary": "1 はじめに\n本記事では、HTTPで動作するメインコンテナと、TLS終端を行うEnvoyサイドカーを同じPod内で動作させます。クライアントからのHTTPS通信をEnvoyが受け取り、TLS終端後のHTTP通信をメインコンテナへ転送することで、メインコンテナにTLS設定を...",
-      "published": "2026-08-17T01:30:48+00:00",
-      "source": "Qiita - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "Minecraft Transfer時代、Velocityは必須なのか？ mc-routerでProxyの責務を分解する",
       "link": "https://zenn.dev/alecjp02/articles/mc-router-transfer-architecture",
       "summary": "はじめに\nPaperのHubとFabricのSMPを組み合わせたかった。\n普通ならVelocityを置くところですが、Minecraft 1.20.5以降にはTransferがあります。\nそこで疑問に思いました。\n\nTransferがある今でも、Proxyがプレイヤーの接続を握り続けて、サーバー移動まで担当する必要はあるのか？\n\n今回使っているのが、itzg/mc-routerをベースに機能拡張し",
@@ -1116,15 +1125,6 @@
       "source": "Publickey",
       "tag": "テック",
       "color": "#888780"
-    },
-    {
-      "title": "モデル名を変えるたびに、アプリをフルビルドしていた。Cloud Run の設定を Terraform へ移す",
-      "link": "https://zenn.dev/snknsk/articles/cloudrun-config-terraform-import",
-      "summary": "前回、1 つのコンテナイメージを web / worker の 2 サービスに分ける構成を書きました。その記事は、こう終わっています。\n\n両者が食い違っていないかは、誰も自動では教えてくれません。\n\nこの記事は、その一文を回収した続きです。稼働中の Cloud Run サービス 8 個を Terraform へ import し、毎日 plan を回してズレを検知するところまで進めました。\nきっか",
-      "published": "2026-08-16T14:35:17+00:00",
-      "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "August 16, 2026",
