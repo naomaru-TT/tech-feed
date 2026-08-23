@@ -1,32 +1,68 @@
 {
-  "updated": "2026-08-23T03:42:20.263502+00:00",
+  "updated": "2026-08-23T06:25:30.266780+00:00",
   "items": [
     {
-      "title": "WAFログを「S3に置きっぱなし」から卒業する ― Athenaで攻撃系リクエストを自動集計してSlack通知するまで",
-      "link": "https://qiita.com/devex12/items/c96f2ec9508c2c85e765",
-      "summary": "TL;DR\n\nAWS WAFはS3にログを流し込むところまでは数クリックで終わるが、「結局何件ブロックされたのか」「どのルールが一番効いているのか」を毎回コンソールでポチポチ確認するのは長続きしない。Athenaでのクエリを定型化し、Pythonからboto3で叩いてSl...",
-      "published": "2026-08-23T03:11:41+00:00",
+      "title": "いつものEXCELでシフトを自動作成",
+      "link": "https://qiita.com/shifo/items/037b41562e4bf9ac04f8",
+      "summary": "はじめ\nシフト作成するのが大変だなと思い、シフトを自動で作成できるシステムを作ってみました。\n普段使ってるExcelのシフト表をアップロードすると、そのままシフトの作成が行えます。\n\nイメージ\n\n作成されたシフト画面\n\n実際の動いてるところ\n\nGPTとの連...",
+      "published": "2026-08-23T05:24:19+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AWSのRI/SP割引共有を誤ってすべて無効化して焦った話",
+      "link": "https://qiita.com/okum_mitsu/items/5db892c205787978281e",
+      "summary": "はじめに\nAWS OrganizationsのReserved Instances（RI）およびSavings Plans（SP）の割引共有設定を変更していたとき、1つのAWSアカウントだけを対象にするつもりが、操作ミスにより、すべてのAWSアカウントの共有を無効化してし...",
+      "published": "2026-08-23T05:04:56+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "【AWS】SageMaker AIの推論レコメンデーションは何を自動化したのか？",
-      "link": "https://zenn.dev/kira_n/articles/17ab673a3702cc",
-      "summary": "はじめに\n2026年4月、Amazon SageMaker AIに「推論レコメンデーション」機能が追加されました。生成AIモデルの本番デプロイに必要なインスタンス選定やパラメータチューニングを、手動ベンチマークなしで自動化するというものです。同年8月にはSageMaker Studio上でのGUIベースの利用もサポートされ、より手軽に使える機能へと拡張されています。\n\nAmazon SageMak",
-      "published": "2026-08-23T02:51:03+00:00",
-      "source": "Zenn - AWS",
+      "title": "Kubespray v2.31.0でクラスターをアップグレードした時のメモ",
+      "link": "https://qiita.com/YasuhiroABE/items/4f0c580a2197da443f8b",
+      "summary": "はじめに\nKubespray v2.30.0で構築したK8sクラスターにKubespray v2.31.0を適用します。\n\n環境\n\nサーバー: TX120 S3p (CPU: Xeon e3-1230 v2, Memory: 32GB) x4台\n\n適用対象の現行バージョ...",
+      "published": "2026-08-23T05:01:44+00:00",
+      "source": "Qiita - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "Splunkの分散基盤をつくる【第3回】SSM Run Commandで設定ファイルをSplunkへ一括配布",
+      "link": "https://qiita.com/ramutarafarm/items/a215a83433fde502f60d",
+      "summary": "はじめに\n前回の記事では、AWS Systems Manager Run Commandを使い、対象EC2へSplunk Enterpriseを一括インストールしました。\nSplunkの分散基盤をつくる【第2回】SSM Run CommandでSplunkの一括インストー...",
+      "published": "2026-08-23T04:24:12+00:00",
+      "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "Terraform入門 第2回：入力変数と出力値で設定を使いやすくする",
-      "link": "https://qiita.com/k0ga/items/f0bff9cca56a4bf0080c",
-      "summary": "はじめに\nTerraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。\n第1回では、Dev Container上でTerraformを実行し、AWS Systems Manager Parameter Storeにパラメータを1つ作成しまし...",
-      "published": "2026-08-23T02:48:31+00:00",
+      "title": "Splunkの分散基盤をつくる【第2回】SSM Run CommandでSplunkの一括インストール",
+      "link": "https://qiita.com/ramutarafarm/items/3a326100dfc24e8fd35b",
+      "summary": "はじめに\n前回の記事では、CloudFormationを使ってSplunk Enterpriseの分散構成用にEC2を7台作成しました。\nSplunkの分散基盤をつくる【第1回】CloudFormationによる基盤構築\n今回は、AWS Systems Manager R...",
+      "published": "2026-08-23T04:22:42+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "SSM Parameter Storeの「分け方」と「Standard / Advanced」の決め方 — ECSとLambdaで変わる制約を実測して整理した",
+      "link": "https://qiita.com/Omizu-25/items/41d5edd295915c8b6908",
+      "summary": "はじめに\nこんにちは！KDDIアイレット株式会社の水野 永遠です。この記事は「2026 Japan AWS Jr. Champions 真夏のQiitaリレー」の23日目の記事となります。過去の投稿（リンク集）はこちらからご覧ください。\n\nアプリの設定値、たとえば外...",
+      "published": "2026-08-23T04:18:09+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "GeminiAPI×GoogleDrive×Sheetsで完全自動化！Pythonレシート家計簿システム構築ガイド（無料枠のみ使用）",
+      "link": "https://zenn.dev/sosa/books/receipt-kakeibo-gemini",
+      "summary": "Google ドライブにアップロードしたレシート画像を、Gemini API（無料枠）でOCR解析し、Googleスプレッドシートへ自動記帳するPythonシステムを完全解説。OAuth 2.0認証やuvによる環境構築まで網羅。",
+      "published": "2026-08-23T03:38:20+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "因果推論 Day 10／全30回　DAGの読み方、因果の仮定を1枚の図に描く",
@@ -38,15 +74,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "RAG構築の壁を越える！ローカル×クラウドのハイブリッド構成とコスト戦略",
-      "link": "https://qiita.com/DaokFrontier/items/57251063ea93f1f3d40e",
-      "summary": "RAG構築の壁を越える！ローカル×クラウドのハイブリッド構成とコスト戦略\n「RAGを導入したはいいものの、思ったように検索精度が出ない」「クラウドサービスを使うとコストが跳ね上がる」「機密データを扱いたいが、外部サービスに渡すのは不安」――実務でRAGシステムを構築する際...",
-      "published": "2026-08-23T02:05:57+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "【技術解説】【解決策】yfinanceライブラリのPythonでの制限とエラー解決法",
       "link": "https://qiita.com/sugarfree/items/2c59824b94fb9b26ea0a",
       "summary": "yfinanceライブラリの制限とエラー解決法\nPythonで金融データを扱う際に便利なライブラリであるyfinanceですが、使用時にはいくつかの制限やエラーに直面することがあります。本記事では、yfinanceの利用時の制限、およびその対策方法について詳しく解説します...",
@@ -56,13 +83,13 @@
       "color": "#10A37F"
     },
     {
-      "title": "生成AI時代のデータマネジメントを考える",
-      "link": "https://zenn.dev/kogagogo/articles/52c8fdca31a14d",
-      "summary": "まず、本記事で扱うDMBOKからAI-Ready Data、Knowledge Graphまでの全体像を示す。\n\n\n久しぶりに、DMBOK（DAMA-DMBOK 第2版）を読み直した。\nデータマネジメントの体系を学ぶには良い本だと思う。ただ、正直かなりわかりにくい。データガバナンス、データアーキテクチャ、データモデリング、データ統合、マスターデータ、メタデータ、データ品質……。一つひとつの用語は理",
-      "published": "2026-08-23T01:57:34+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "Kubernetes 1.36(Haru)の新機能を10分で把握する",
+      "link": "https://zenn.dev/becchi78/articles/kubernetes-1-36-new-features",
+      "summary": "TL;DR\n2026年4月にリリースされたKubernetes 1.36（コードネーム「Haru」）では、User NamespacesとMutating Admission PoliciesがGAに到達しました。一方でgitRepoボリュームは完全に無効化され、Service externalIPsとkube-proxyのIPVSモードが非推奨化されています。アップグレード前にこの3点だけでも押",
+      "published": "2026-08-23T01:48:45+00:00",
+      "source": "Zenn - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "令和7年秋期 応用情報技術者試験 問3 解説（ROC曲線とAUCをアニメーションで理解する）",
@@ -72,33 +99,6 @@
       "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "Amazon Quick on Desktop を Okta のエンタープライズSSOで使う",
-      "link": "https://qiita.com/ryosaan/items/3d1996cb1e291402d7a3",
-      "summary": "はじめに\nみなさんは、Amazon Quick on Desktop をもう触られましたか？\n私は最近、社内で Amazon Quick を使い始めるにあたってデスクトップアプリを配ろうとしたのですが、ここで一つ勘違いをしていました。てっきり「SSOにしておくと便利だよね...",
-      "published": "2026-08-23T01:23:01+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "Amazon Quick on Desktop を Okta のエンタープライズSSOで使う",
-      "link": "https://zenn.dev/nnydtmg/articles/aws-quick-desktop-okta",
-      "summary": "はじめに\nみなさんは、Amazon Quick on Desktop をもう触られましたか？\n私は最近、社内で Amazon Quick を使い始めるにあたってデスクトップアプリを配ろうとしたのですが、ここで一つ勘違いをしていました。てっきり「SSOにしておくと便利だよね」くらいの話だと思っていたのですが、実際は違いました。\n!\nEnterprise アカウントでは、エンタープライズサインインの設",
-      "published": "2026-08-23T01:22:39+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "EventBridge Scheduler が DISABLED だと監視も沈黙する — 欠測ウォッチドッグの設計",
-      "link": "https://zenn.dev/ozapon/articles/gmo-fx-closeout-watchdog",
-      "summary": "TL;DR\n\nCloudWatch で組んだ監視の多くは「起動したが失敗した」系です。EventBridge Scheduler が DISABLED だとそもそも発火しないので、InvocationDroppedCount も Lambda の Errors も DLQ もすべて沈黙します\n欠測を見る Lambda を足しても、そのスケジュールが取引側 cron と同じ有効/無効変数に乗っている",
-      "published": "2026-08-23T01:05:16+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "EventBridge Scheduler が DISABLED だと監視も沈黙する — 欠測ウォッチドッグの設計",
@@ -299,15 +299,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "AIエージェントから動画をクリップできる時代へ：2026年のMCP最新事情",
-      "link": "https://qiita.com/anthony_katto/items/924d340831afbcbbfd2a",
-      "summary": "元記事（自分のブログ・カノニカル）: https://katto.tech/ja/blog/clip-video-from-your-ai-agent-state-of-mcp-2026-jp\n\n半年前まで「AI動画編集」といえば、Webアプリを開いてリンクを貼り、あち...",
-      "published": "2026-08-22T08:02:44+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "LLMハニーポットのコストが5倍に跳ねた理由を追ったら、正体不明のプロキシスキャン群に行き着いた ― 3拠点77日間の実測",
       "link": "https://zenn.dev/halotaro/articles/galah-honeypot-cache-77days",
       "summary": "Galah は LLM を使って HTTP リクエストへの応答を動的に生成するハニーポットだ。任意のパスへのリクエストに対して、それらしいレスポンス（ヘッダ・ボディ）を LLM に生成させる。手作業でアプリを模倣する従来型ハニーポットと違い、事前に想定していないパスへのアクセスにもそれらしく応答できるのが売りだが、これは「1リクエスト = 1回の LLM 推論」というアーキテクチャでもある。\n開発",
@@ -335,9 +326,9 @@
       "color": "#FF9900"
     },
     {
-      "title": "LLM APIはどこから使うべきか？AWS・GCP・Azure・直API・AI Gatewayの選び方",
+      "title": "LLM APIの提供経路を理解する：AWS・GCP・Azure・直API・AI Gatewayの違い",
       "link": "https://zenn.dev/yhay81/articles/202608-llm-api-landscape",
-      "summary": "LLMを業務システムへ導入するとき、「どのモデルが一番よいか」だけを考えると、選択を誤ることがあります。\n同じClaudeでも、Anthropicの直API、Amazon Bedrock、Vertex AI、Microsoft Foundry、AI Gateway経由では、\n契約、処理基盤、利用できる機能が同じとは限らないからです。\nモデル選定では、どのモデルを使うかとどの経路から使うかを分けます",
+      "summary": "LLMをAPIから利用するとき、モデル名だけではサービスの全体像はわかりません。\n同じClaudeでも、Anthropicの直API、Amazon Bedrock、Vertex AI、Microsoft Foundryなど、複数の経路から提供されています。\n経路が違えば、推論を実行する事業者、契約、認証、請求、利用できる機能も同じとは限りません。\nこの記事では、2026年8月22日時点の公式情報を",
       "published": "2026-08-22T07:37:41+00:00",
       "source": "Zenn - GCP",
       "tag": "GCP",
@@ -434,6 +425,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "AWS Amplify Gen 2は何が違う？実装2例で理解する",
+      "link": "https://zenn.dev/yamato_snow/articles/1846c122905a",
+      "summary": "はじめに\n以前、Next.js App RouterをAWS Amplifyへデプロイする記事を書きました。\nNext.js App RouterをAWS Amplifyにデプロイする完全ガイド\n続編でまず整理したいのは、Amplify HostingとGen 2の違いです。この2つは置き換え関係ではありません。\n\nAmplify Hostingは、Next.jsなどのWebアプリをビルドして配信",
+      "published": "2026-08-21T23:07:09+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "Anthropic、「ミュトス 5」を脆弱性スキャンに開放──「Claude Security」経由でEnterprise顧客が利用可能に",
       "link": "https://www.itmedia.co.jp/aiplus/article/2608/22/2000000697/",
       "summary": "Anthropicは、最上位モデル「Claude Mythos 5」をセキュリティサービス「Claude Security」の脆弱性検出に導入したと発表した。モデル本体への直接アクセスは開放せず、パッチ提案などの出力のみに限定して提供する。オープンソース保護に向けた総額3500万ドルの基金設立も公表した。",
@@ -479,6 +479,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "AWS S3 / AWS SDK for Ruby でオブジェクトを取得",
+      "link": "https://zenn.dev/tekitou/articles/d0685b8f6fd7d8",
+      "summary": "Amazon S3（ Simple Storage Service ）\nS3はバケットというスペースに、データをオブジェクト、階層データ、\n表形式データとして保存するサービス。\n用語の説明はこのページに書いてありました。\nhttps://docs.aws.amazon.com/ja_jp/AmazonS3/latest/userguide/Welcome.html\n\n S3でバケットを作成してファ",
+      "published": "2026-08-21T12:45:26+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "【Terraform】tfvars、実はignoreするのはおかしいのではと考えた日",
       "link": "https://zenn.dev/mukashi_dori/articles/b5fc2e72abde63",
       "summary": "身も蓋もない結論\n事故ったときを考えるとignoreする方が絶対いい。運用としては時と場合による（かも）。\nあたりまえだけど秘匿情報が入っていたらpushしたらダメだし、入っていないならpushしてもよさそう。\n万一の事故を防ぎつつ利便性を取れるいい感じの運用を（私は）思い付けない。\n\n 私について\nAWSは6年ちょっとくらい触っていますが、Terraformについてはなんもわからんと思いながら触",
@@ -506,6 +515,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "PII×LLMの4層防御 — Bedrockの非学習保証を規約とアーキテクチャで二重化する",
+      "link": "https://zenn.dev/xim2jp_tokyo/articles/6dfcc980befb02",
+      "summary": "PIIを含むワークロードにLLMを組み込む際の論点は、学習リスク・保持リスク・経路リスクの3つに分解できます。前二者は契約・規約のレイヤー、後者はネットワーク設計のレイヤーであり、対策も分けて設計すべきです。本記事はAmazon Bedrockでこの3リスクを塞ぐ構成を、一次情報の出典付きで整理したものです。\n\n 規約レイヤー\n\nプロンプト・生成結果はAWSのモデル学習に不使用、モデルプロバイダー",
+      "published": "2026-08-21T11:22:39+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "kubectl apply で特定リソースのみを部分適用する方法",
       "link": "https://qiita.com/shinnara/items/c523af2049d897cd349e",
       "summary": "概要\n# manifests/auth.yaml\napiVersion: apps/v1\nkind: Deployment\nmetadata:\n  name: auth-deployment\n  labels:\n    feature: auth\nspec:\n  ...\n...",
@@ -522,6 +540,15 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
+    },
+    {
+      "title": "【2026年版】未経験からインフラエンジニアへ転職可能？必要な資格・スキル・勉強方法を解説",
+      "link": "https://zenn.dev/reo_engineer/articles/0024fdd024347c",
+      "summary": "【2026年版】未経験からインフラエンジニアへ転職可能？必要な資格・スキル・勉強方法を解説\n「未経験からインフラエンジニアへの転職は可能？」\n「IT業界で働いたことがなくても大丈夫？」\n「転職するならLinuxやAWSはどこまで勉強すればいい？」\n未経験からインフラエンジニアを目指していると、このあたりはかなり気になるポイントだと思います。\n結論から言うと、未経験からインフラエンジニアへの転職は可",
+      "published": "2026-08-21T10:00:06+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "新卒だけど電話サービスの負荷試験基盤を構築できた話",
@@ -803,15 +830,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "AIエージェントに服を選ばせるアプリを作った話 ― ハッカソンから始まった要件定義の設計",
-      "link": "https://zenn.dev/rarino/articles/c47ea9a709ef04",
-      "summary": "今回作ったWebアプリgen-fashion では、ユーザーの手持ち服や購入候補を AI エージェントが探し、候補を見せ、ユーザーが選んだものだけを使って最終コーディネート画像を生成する、つまり「服を選ぶ意思決定の流れ」を AI エージェント化することに焦点をおいて開発を行いました。\nこの開発を始めた経緯としては、Google CloudとElastic Searchがスポンサーで Findy主催",
-      "published": "2026-08-20T21:50:44+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "Flutter 3.47正式リリース。UIライブラリが分離され独立してアップデート可能、デフォルトでWebAssemblyを生成する方向に、など新機能",
       "link": "https://www.publickey1.jp/blog/26/fluter_347uiwebassembly.html",
       "summary": "Googleは、Dart言語によるアプリケーションフレームワークの最新版「Flutter 3.47」正式リリースを発表しました。 We’ve pieced together something special... Flutter 3.47...",
@@ -898,15 +916,6 @@
       "summary": "これまでの記事で、量子化（GGUF・AWQ・GPTQ）・KVキャッシュ最適化・プロンプトキャッシュと、個別の最適化技術を扱ってきました。本記事ではこれらを組み合わせ、ローカルLLMをKubernetes上で本番運用するための最小構成を整理します。\n\n\n 最小構成の全体像\n本番運用に必要な最小限のコンポーネントは次の通りです。\n\n\nKubernetes（1.27以上）：GPU対応のオーケストレーショ",
       "published": "2026-08-20T02:00:00+00:00",
       "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "Dockerとは何か？Dockerイメージ・コンテナ・Composeの違いを整理する",
-      "link": "https://qiita.com/5qhj13/items/de929fec6994dd1b4199",
-      "summary": "はじめに\nDockerについて学習していると、次のような言葉が出てきます。\n\nDockerfile\nDockerイメージ\nDockerコンテナ\nDocker Compose\nDocker Volume\n\n最初は、それぞれの関係が分かりにくいと思います。\n特に、私は次の点を...",
-      "published": "2026-08-20T01:55:34+00:00",
-      "source": "Qiita - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
     },
@@ -1116,15 +1125,6 @@
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "Minecraft Transfer時代、Velocityは必須なのか？ mc-routerでProxyの責務を分解する",
-      "link": "https://zenn.dev/alecjp02/articles/mc-router-transfer-architecture",
-      "summary": "はじめに\nPaperのHubとFabricのSMPを組み合わせたかった。\n普通ならVelocityを置くところですが、Minecraft 1.20.5以降にはTransferがあります。\nそこで疑問に思いました。\n\nTransferがある今でも、Proxyがプレイヤーの接続を握り続けて、サーバー移動まで担当する必要はあるのか？\n\n今回使っているのが、itzg/mc-routerをベースに機能拡張し",
-      "published": "2026-08-16T15:32:13+00:00",
-      "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "タブもテーマも拡張機能もないAI専用の超軽量ヘッドレスブラウザ「Kitesurf」、Cloudflareが発表",
