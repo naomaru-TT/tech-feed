@@ -1,15 +1,6 @@
 {
-  "updated": "2026-08-24T09:37:27.545595+00:00",
+  "updated": "2026-08-24T12:30:10.003903+00:00",
   "items": [
-    {
-      "title": "顔・髪型提案にAI画像判定を使う前に、入力品質と信頼度を検証する",
-      "link": "https://zenn.dev/amamiya_chan/articles/f800bd5d12900a",
-      "summary": "顔写真から髪型を提案する機能を作るとき、最初に用意したくなるのは判定モデルのほうです。\nでも実際に壊れるのは、たいてい入力側でした。同じ人が同じ日に撮った2枚で結果が変わる。暗い部屋で撮ると別人の分類になる。そして厄介なことに、モデルはどの場合も自信ありげに答えます。\nこの記事では、判定モデルの前に置く「入力品質ゲート」と、「わからない」を返せる判定設計を書きます。\n\n 何を検証する必要があるか",
-      "published": "2026-08-24T09:33:16+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
     {
       "title": "ChatGPT／CodexとClaude／Claude Codeを2026年8月19日時点で整理する ―― Web、デスクトップ、CLI、IDE、Windows、WSL2の違い",
       "link": "https://qiita.com/ootakazuhiko/items/38b74c2e43e46c197d28",
@@ -38,20 +29,29 @@
       "color": "#10A37F"
     },
     {
-      "title": "Kubernetesにアプリ1つ追加するだけでなぜ大変なの？Kyverno・ArgoCD・Terraformの責任分離を整理してみた【後編】",
-      "link": "https://zenn.dev/scalar_sol_blog/articles/f3ce3db97c99ae",
-      "summary": "!\n⚠️ ご注意（記事の前提条件）\n本記事で紹介している設計案やコード例は、設計検討段階の調査に基づくものです。\n実際の運用環境で稼働しているコードそのものではないため、実装の際はご自身の環境に合わせて適宜調整してください。\n\nhttps://zenn.dev/scalar_sol_blog/articles/aae32e93fd5680\nhttps://zenn.dev/scalar_sol_b",
-      "published": "2026-08-24T08:30:05+00:00",
-      "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
+      "title": "人間向けのデザインを全部捨てたサイトを作って、AIが読むトークンを実測したら12.9倍だった",
+      "link": "https://zenn.dev/miki_mini/articles/7f877ae07185ca",
+      "summary": "※このあと「装飾を全部捨てろ」という話をしますが、この記事は人間向けなのでアイキャッチは全力で盛りました🍽️\n美容系勤務独学初心者マリー・アントワネット系エンジニア目指してます！\n今回は フロントエンドの才能が無い なら AI専用サイトを作ればいいじゃない 👸🍰です。\n\n読了時間の目安：約 9〜11分\n\n!\n3行まとめ\n\n装飾を全部捨てたAI専用サイトを作り、リッチHTMLと 同じ内容 でトークン",
+      "published": "2026-08-24T08:00:05+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "LLM が出力した名前は、マスタと微妙に違う — 表記揺れを前提にした正規化と観測の設計",
+      "link": "https://zenn.dev/archiningen/articles/llm-output-vocabulary-projection",
+      "summary": "!\nこの記事は archiningen.com からの転載です。\n連載「AI エージェント API の本番設計」の第 4 回 (全 4 回) です。\n\n\nLLM に「この一覧にある名前から選んで出力して」と指示しても、返ってくる表記は微妙に揺れます。マスタには「コンビニエンスストア」とあるのに、モデルは「コンビニ」と返す。人間が読めば同じものですが、文字列で突き合わせるプログラムにとっては別物です",
+      "published": "2026-08-24T07:52:43+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "AIのお話：ローカルLLMを育てる前に知ってほしい。44条件・5,720出力で捨てた3つの思い込み",
       "link": "https://zenn.dev/satoshiakiyama/articles/908992467395e8",
       "summary": "ローカルLLMを始めると、すぐに大きなモデルや高価なGPUが欲しくなります。\n私も最初は、単純にこう考えていました。\n\n大きいモデルほど、学習後も強い\n教材を増やすほど、性能は上がる\nlossが下がれば、学習は成功している\n\nところが、自宅PCで実際に測ってみると、三つとも危ない思い込みでした。\nRTX 5080 16GBを一枚使い、Qwen3の1.7B・4B・8B・14Bを、教材量を変えながらQ",
       "published": "2026-08-24T07:37:18+00:00",
-      "source": "Zenn - 機械学習",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -63,15 +63,6 @@
       "source": "ITmedia AI+",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "Redshift Serverless 4RPU×MCP OAuthで固めるコスト最適化基盤",
-      "link": "https://zenn.dev/geneg/articles/2026-08-24-aws-partner-central-agents-mcp-se",
-      "summary": "はじめに\n以前書いた「Claude Code × Redshift Serverless 4-RPU で始めるコスト最適化データ基盤」は、想定以上に読者の反応が良く、PV の伸び率も高い状態が続いています。あの記事では RPU (Redshift Processing Unit) を最小構成の 4 に固定してコストを抑える という基本設計にフォーカスしましたが、今回はその続編として Claude",
-      "published": "2026-08-24T07:25:54+00:00",
-      "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "【AWS AIP】Amazon Comprehend",
@@ -97,6 +88,15 @@
       "summary": "はじめに\nOpenAI Codex CLI には、対話セッションを開かずにタスクを実行できる exec サブコマンドがあります1。CI パイプラインや使い捨てコンテナのような、人間が張り付いてターミナルを操作できない環境で Codex CLI を動かせるかどうかは、この ...",
       "published": "2026-08-24T07:11:20+00:00",
       "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "gpt-5.4-nanoをGPT-5.6 Luna(reasoning=max)で置き換え、SLO 80%と成功単価4%増で見送った",
+      "link": "https://zenn.dev/noricha/articles/gpt56-luna-max-nano-replacement",
+      "summary": "先に結果を書きます。私が個人で運営している文字起こしSaaSのAI生成機能5つを、gpt-5.4-nanoからgpt-5.6-luna + reasoning.effort=maxに一括置き換えする計画を、事前登録した SLO と費用の hard gate で校正しました。結果は「30秒以内成功が Luna 80%（Nano 100%）、成功1件あたりの実費が Luna は Nano より 4.2",
+      "published": "2026-08-24T06:55:28+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -195,15 +195,6 @@
       "link": "https://zenn.dev/yukinekonyan/articles/65d60a8f717151",
       "summary": "この記事の位置づけ\nこれは『汎化から逃れた瞬間 ── ある対話の振り返り』の続きである。同じ対話の後半、話が「汎化されすぎているとどうなるか」から「では汎化の外側にあるものは誰が見つけるのか」へ転回した部分を扱う。\nhttps://zenn.dev/yukinekonyan/articles/43ac86839df001\n前記事と同じく、対話の相手（「相手」と書いてあるほう）が人間で、地の文を書い",
       "published": "2026-08-24T04:00:05+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "ブレイクスルーは分布の外側にある ── 未解決問題の難易度と、人間の個体差",
-      "link": "https://zenn.dev/yukinekonyan/articles/65d60a8f717151",
-      "summary": "この記事の位置づけ\nこれは『汎化から逃れた瞬間 ── ある対話の振り返り』の続きである。同じ対話の後半、話が「汎化されすぎているとどうなるか」から「では汎化の外側にあるものは誰が見つけるのか」へ転回した部分を扱う。\nhttps://zenn.dev/yukinekonyan/articles/43ac86839df001\n前記事と同じく、対話の相手（「相手」と書いてあるほう）が人間で、地の文を書い",
-      "published": "2026-08-24T04:00:05+00:00",
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
@@ -290,33 +281,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "AIでイベントカタログを279件自動生成し、成果物の検証を設計した話",
-      "link": "https://zenn.dev/tribeau/articles/d7cd180e53f719",
-      "summary": "トリビューでリードエンジニアをしています、志甫 (@shihochan_jp) です。\n弊社では、美容医療アプリ「トリビュー」の4リポジトリ（iOS、Android、Webフロントエンド、バックエンド）から、Google Analytics・Braze・Adjustの計測定義279エントリ（イベントのほか、ユーザー属性や配信トリガーの定義も含む）を横断するカタログを、AIで自動生成する仕組みを運用",
-      "published": "2026-08-24T02:50:05+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Claude Code と opencode のツール呼び出し構造の違い",
-      "link": "https://zenn.dev/siren2345/articles/tool-call-diff",
-      "summary": "Claude Code と opencode のツール呼び出し構造の違い\nqwen3-coder:30b などの大規模言語モデル（LLM）を用いたエージェント開発において、ツール呼び出し構造の互換性は重要です。特にコンテキスト長が256Kを超えるモデルでは、外部情報取得（WebFetchなど）が不可欠であり、動作原理の違いが大きな差になります。\nこの記事では、現時点での Claude Code と",
-      "published": "2026-08-24T02:45:00+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "ローカルLLM(256K)でコードエージェントを動かすまで - RTX 5090 試行錯誤メモ",
-      "link": "https://zenn.dev/siren2345/articles/23cf27e4e3b95c",
-      "summary": "はじめに\nRTX 5090 (32GB VRAM) でローカルLLMをコードエージェントとして動かせないか\n試行錯誤したメモです。結論から言うと「モデル選び」と「ツール呼び出しの相性」で\nかなり振り回されました。同じ轍を踏まないよう残しておきます。\n\n 環境\n\nGPU: NVIDIA RTX 5090 (32GB VRAM)\nOllama: 0.32.15\nモデル: qwen3-coder:30b",
-      "published": "2026-08-24T02:44:59+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "東京・大阪リージョンから Amazon Bedrock の OpenAI GPT-5.6 を使う：グローバルクロスリージョン推論の仕組みと考慮点",
       "link": "https://aws.amazon.com/jp/blogs/news/gpt-5-6-global-cross-region-inference-from-japan/",
       "summary": "Amazon Bedrock の OpenAI GPT-5.6 がクロスリージョン推論に対応し、東京リージョンと大阪リージョンがグローバル推論プロファイルのソースリージョンに含まれました。アプリケーションの接続先を変更することなく既存環境から呼び出せる一方で、推論処理は日本国外のリージョンで行われます。本記事では、その仕組みと、データの所在およびレイテンシの考慮点を整理します。",
@@ -333,15 +297,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "製造業の出荷前検査をローカルVLM(Qwen3-VL-8B)にやらせてみた｜抜き取り検査とレイテンシの現実",
-      "link": "https://zenn.dev/shineos/articles/local-vlm-manufacturing-inspection-qwen3-vl",
-      "summary": "はじめに\n前回、金融業で「社内マニュアルの問い合わせAIをローカルLLMで作った話」を書きました。今回はその画像版です。製造業のお客様から「出荷前の外観検査を少しでも楽にしたい。ただし製品の写真は社外に出せない」と相談を受けて、ローカルで動くVLM（画像も読めるLLM）に検査をやらせてみた、という記録です。\n結論から言うと、立ち上がりはめちゃくちゃ速いのに、レイテンシで現実に殴られる、という体験で",
-      "published": "2026-08-24T02:32:47+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "「行政の進化と革新のための生成AIの調達・利活用に係るガイドライン（第2.0版）」対応 – 調達チェックシート要件へのAWSサンプル回答",
@@ -731,6 +686,15 @@
       "color": "#4285F4"
     },
     {
+      "title": "「モデルが20%できる問題」は狙うな — Jeff Dean が YC で話した1%ルール",
+      "link": "https://zenn.dev/talks_tldr_jp/articles/tldr26-jeffdean-summary",
+      "summary": "この記事について\n!\n本記事は Jeff Dean が Y Combinator の Startup School 2026 で話した内容の紹介と論評です。発言の要点を筆者が抽出・整理したもので、対談の網羅でも代替でもありません。全体の文脈は必ず元動画でご確認ください。翻訳全文の掲載は行っていません。\n\nJeff Dean は Google のチーフサイエンティストとして MapReduce・Bi",
+      "published": "2026-08-22T13:00:12+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "【OT/ICS】Dockerで証す真の攻撃検知基盤（未知解析編 #9：GOOSEとSpicy）",
       "link": "https://zenn.dev/schutzz/articles/044c40c3e77404",
       "summary": "はじめに\nPhase 8で、GOOSEの簡易検知を作りました。MAC allowlistとバーストレートを使い、普段と違う送信元や異常な送信量を拾う仕組みです。しかし、その検証の最後に、はっきりした限界も残りました。正規IEDのMACアドレスを詐称したpoisonフレームは、この二つの条件をすり抜けてしまったのです。\nこの結果は失敗というより、次に見るべき場所を示していました。MACアドレスではな",
@@ -783,6 +747,24 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
+    },
+    {
+      "title": "WFOとは？バックテストとの違いと必要な理由を初心者向けに解説",
+      "link": "https://zenn.dev/hiro_algo/articles/2127ac45fbf5de",
+      "summary": "FXや株式の自動売買を開発していると、バックテストでは利益が出るのに、実運用では勝てないことがあります。\n原因の一つが、過去データに最適化しすぎる「過剰最適化（オーバーフィッティング）」です。この問題を発見するためによく使われる評価手法が、Walk Forward Optimization（WFO）です。\nこの記事では、初めてWFOを知る人に向けて、バックテストとの違い、WFOが必要な理由、Pyt",
+      "published": "2026-08-22T01:39:43+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Claude Codeと作る競馬予測システム開発記(2) データ収集パイプライン編",
+      "link": "https://zenn.dev/teruyotasaki/articles/horse-racing-ml-dev-02-data-pipeline",
+      "summary": "はじめに\n競馬予測の開発を思いついてから、ほんとうに初期の初期の段階です。\n前回はプロジェクト全体像と開発の道のりを紹介しました。第2回となる今回は、すべての土台になっているデータ収集パイプラインについて書きます。\n機械学習モデルはどれだけ工夫しても、元データの品質を超えることはできません。実際、このプロジェクトで一番深刻だった事故も「モデルのバグ」ではなく「データ収集側の静かな壊れ」が原因でした",
+      "published": "2026-08-21T23:09:18+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "J-Quants APIで株価・決算データを収集する【日本株クオンツ研究ノート Vol.2】",
@@ -965,6 +947,15 @@
       "color": "#4285F4"
     },
     {
+      "title": "Terraform 最初に覚えるべき内容",
+      "link": "https://zenn.dev/naoki_mm/articles/6226fb7d1109c9",
+      "summary": "Terraform 最初に覚えるべき内容\n\nTerraformを使用する上で、最初に覚えるべき基礎的な内容をまとめています。\n\n\n 読むべき対象者\n\nTerraformをこれから学び始める方\nTerraformのコードを見ても、それぞれ何をしているのかまだ分からない方\nTerraformの基本的な書き方や実行の流れを一通り覚えたい方\n\n\n Terraformとは\n\nTerraformは、Hashi",
+      "published": "2026-08-20T03:33:03+00:00",
+      "source": "Zenn - Terraform",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "【OT/ICS】Dockerで証す真の攻撃検知基盤（実証可視化編 #7：ダッシュボード実装）",
       "link": "https://zenn.dev/schutzz/articles/6f3d5a82428bc6",
       "summary": "はじめに\n前回（#6）でPhase 6の全4タスクが完了し、Signal 1〜6は自己申告方式に頼らない検知として実データで実証済みになりました。\n判定ロジックとしては、これでひと区切りです。\nしかし、この時点で一つ検証していないことがありました。その判定結果を、実際にGrafanaのダッシュボードが正しく映しているかです。\nSignal 1〜6がどれだけ正しく判定しても、可視化層が壊れていれば、",
@@ -1069,6 +1060,15 @@
       "summary": "この記事はなに\nApple Container 上に kubeadm で Kubernetes を建てました。そのときの手順メモです。2026-08-14時点。\n∵ Kubernetesのネットワーク周りの理解がイマイチで復習したかったため。NetworkPolicyを使いたいのでCNIはCalicoを使います。\n\n 手順と成果物の全体像\n\nApple Container - Initial in",
       "published": "2026-08-18T14:12:18+00:00",
       "source": "Zenn - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "Azureで月5,000円かかってたアプリをVercelに移したら、インフラ費がほぼゼロになった",
+      "link": "https://zenn.dev/optimisuke/articles/c0b4b5471285e6",
+      "summary": "はじめに\n以前、イベント向けにAIと人が交互に4コマ漫画を描くNext.jsアプリを作りました。\nインフラはAzure Container Apps + PostgreSQL Flexible Server + Blob Storageで構成して、Terraformで管理していました。イベント期間中は問題なく動いたんですが、月々の費用がそこそこかかりました。\nhttps://zenn.dev/op",
+      "published": "2026-08-18T11:00:05+00:00",
+      "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
     },
