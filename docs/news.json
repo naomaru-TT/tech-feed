@@ -1,6 +1,15 @@
 {
-  "updated": "2026-08-26T16:10:38.377726+00:00",
+  "updated": "2026-08-26T19:38:13.346379+00:00",
   "items": [
+    {
+      "title": "Secure Web Proxy 環境で google.com / googleapis.com を迂回させる理由とワイルドカードの中身",
+      "link": "https://zenn.dev/huyongyue/articles/e71f34ed70c731",
+      "summary": "title: \"Secure Web Proxy 環境で google.com / googleapis.com を迂回させる理由とワイルドカードの中身\"\nemoji: \"🌐\"\ntype: \"tech\"\ntopics: [\"gcp\", \"securewebproxy\", \"vpcservicecontrols\", \"chrome\", \"networking\"]\npublished: true",
+      "published": "2026-08-26T15:33:11+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
     {
       "title": "MCPの新ロードマップ公開、今後はAIエージェント対応、HTTP通信への統一、アイデンティティ、よりよいデベロッパー体験などに注力",
       "link": "https://www.publickey1.jp/blog/26/mcpaihttp.html",
@@ -56,13 +65,13 @@
       "color": "#10A37F"
     },
     {
-      "title": "Dockerで学ぶMySQL 実践入門",
-      "link": "https://zenn.dev/koarakko99/books/b1d994f18119dc",
-      "summary": "コンテナで何度でも壊して直しながら、SQL・設計・トランザクション・性能改善・バックアップ・レプリケーション・運用を体系的に学ぶ本",
-      "published": "2026-08-26T14:22:22+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
+      "title": "Stripe WebhookがTLSエラーで届かない。ACMにインポートした証明書チェーンがリーフ証明書2枚だった",
+      "link": "https://zenn.dev/yamadatt/articles/20260826-acm-certificate-chain-tls-error",
+      "summary": "はじめに\n本番環境のStripe Webhookが届かない、という調査依頼が来ました。Stripeダッシュボードからcheckout.session.completedのテストイベントを送ると、送信ステータスが失敗になります。\nダッシュボードに出ていた情報はこれだけです。\nイベント：checkout.session.completed\n送信ステータス：失敗\nエラーに関するインサイト：TLSエラー",
+      "published": "2026-08-26T14:30:05+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "Terraform : ECS Fargate環境を構築する(2) ― デプロイと可用性の設計",
@@ -70,6 +79,24 @@
       "summary": "この記事について\n前回、クラスタ・ネットワーク・タスク定義・IAMロールという「土台」を作りました。今回はその土台の上に、常駐するappタスクをECSサービスとして動かす部分を扱います。構築順としては、タスク定義ができた後に「どう稼働させ続けるか」を決める段階にあたります...",
       "published": "2026-08-26T13:29:36+00:00",
       "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "【AWS×IoT×AI】水槽環境管理システム「Fish Pi」拡張計画② 今後の拡張方針",
+      "link": "https://zenn.dev/kmiya66/articles/fish-pi-002-extension-plan",
+      "summary": "はじめに\nこんにちは。ケーみやです。\n前回の記事では現在稼働している水槽環境管理システム「Fish Pi」の構成と約1年運用して見えてきた課題について整理しました。\n※前回記事\nhttps://zenn.dev/kmiya66/articles/fish-pi-001-current-system\n今回はその課題を踏まえて、今後 Fish Pi をどのように拡張していくかを具体的に計画していきたい",
+      "published": "2026-08-26T12:50:14+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "IAM権限エラーのデバッグ手順 ── 「Access Denied」の歩き方",
+      "link": "https://zenn.dev/riverwell2359/articles/aws-11-iam-permission-error-debugging",
+      "summary": "はじめに：AWSで一番よく見るエラー、それが権限エラー\nAccess Denied not authorized to perform ──\nAWSを触っていれば必ず出会う、最もありふれたエラー。でも初学者はここで固まります。\n**「どこを見れば原因が分かるのか」**の地図があれば、もう怖くありません。\nこの記事は、私が現場で実際に使っている「診断の順番」をそのまま手順化したものです。\n適当に試行",
+      "published": "2026-08-26T12:33:42+00:00",
+      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -101,15 +128,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "Docker公式のpruneでも消えない30GBを手動初期化で解消した",
-      "link": "https://zenn.dev/yey/articles/27c2db3084995f",
-      "summary": "課題\nDockerの容量が肥大化し、PCの空き容量を圧迫していました。\nDockerのイメージやコンテナを整理しても、/var/lib/dockerに説明のつかない約30GBが残っていました。\ndocker system prune -a \nsudo du -xsh /var/lib/docker\n調査したところ、overlay2に現在は使われていないレイヤーが残っていました。Dockerの管理情",
-      "published": "2026-08-26T10:39:30+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "BigQuery ML × Gemini でEC顧客の購買予測モデルを構築する",
       "link": "https://zenn.dev/web_benriya/articles/bigquery-ml-gemini-ec-purchase-prediction",
       "summary": "はじめに\n「広告費をかけているのに、なぜ売上が安定しないのだろう」——そうお感じになるEC事業者様は少なくないと思います。アクセスは集まっても、購買に至るお客様と離脱してしまうお客様の違いが、データの中に埋もれたままになっているケースがよく見受けられます。\nGA4とBigQueryを連携させると、ページ閲覧やカート追加などの行動ログが毎日自動でデータウェアハウスに蓄積されていきます。このデータをう",
@@ -117,6 +135,15 @@
       "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "BigQuery ML × Gemini でEC顧客の購買予測モデルを構築する",
+      "link": "https://zenn.dev/web_benriya/articles/bigquery-ml-gemini-ec-purchase-prediction",
+      "summary": "はじめに\n「広告費をかけているのに、なぜ売上が安定しないのだろう」——そうお感じになるEC事業者様は少なくないと思います。アクセスは集まっても、購買に至るお客様と離脱してしまうお客様の違いが、データの中に埋もれたままになっているケースがよく見受けられます。\nGA4とBigQueryを連携させると、ページ閲覧やカート追加などの行動ログが毎日自動でデータウェアハウスに蓄積されていきます。このデータをう",
+      "published": "2026-08-26T10:22:32+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "非公開の「AI学習データ工場」に潜入　人型ロボ30台超が稼働、意外と知らない「データ収集」の裏側とは",
@@ -128,47 +155,11 @@
       "color": "#10A37F"
     },
     {
-      "title": "12GBのGPUでClaude Code本体を動かしたら、止まったのはVRAMではなかった",
-      "link": "https://zenn.dev/kimura0314/articles/claude-code-local-ollama-12gb",
-      "summary": "結論\n自宅のRTX 4070 SUPER（VRAM 12GB）に置いたOllamaへ、別PCのClaude Codeを丸ごと向けた。接続は成立し、応答も返った。ただしエージェントとしては使えなかった。\n止まった場所は3つあり、VRAMは1つも含まれていない。\n\nOllamaの既定コンテキスト長が 4096トークン\n\nClaude Codeのプロンプトが、MCPを全部切っても 62,528トークン",
-      "published": "2026-08-26T09:09:01+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "next dev、実はデフォルトで0.0.0.0にバインドしてるの知ってました？",
-      "link": "https://zenn.dev/lafine/articles/9ec162985b4310",
-      "summary": "前回、公共Wi-Fiのクライアント分離について調べた記事を書いたんだけど[1]、その流れで「じゃあ開発サーバーはどうなんだ」と気になって掘ってみたら、想像以上に雑な話だった。\n「そもそも外のWi-Fiで開発環境を開くな（テザリングやVPNを使え）」というのはド正論なんだけど、個人開発やコワーキングスペース、勉強会・カンファレンスの会場Wi-Fi、あるいは「スマホ実機とPCを同じLANに繋いでUIを",
-      "published": "2026-08-26T08:57:51+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "AIとの会話は全部残っている——JSONLという原典",
-      "link": "https://zenn.dev/aika_paranoid/articles/jsonl-genten",
-      "summary": "AIからAIへの引き継ぎ書に、「ユーザーはこう言った」という記述が2つありました。\n~/.claude/projects/ に残っている生ログと突き合わせると、1つは言った直後に本人が撤回した発言でした。もう1つは、そもそもユーザーの言葉ではなく、前のセッションでAI自身が出した提案でした。\n引き継ぎ書は要約です。そして要約は、黙ってズレます。\n私はエンジニアではありません。地方で中小企業の支援を",
-      "published": "2026-08-26T08:55:29+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "韓国SK Hynix、宮城県に半導体工場の計画浮上　「何か知り得ているものはない」と村井知事",
       "link": "https://www.itmedia.co.jp/news/article/2608/26/2000000820/",
       "summary": "韓国半導体大手SKハイニックスが宮城県にメモリー工場を建設する計画が浮上したことについて、宮城県の村井嘉浩知事は26日の定例記者会見で「いろんな半導体関連企業にアプローチしたのは事実だが、今回の件で県として何か知り得ているものはない」と述べ、今後も動向を注視する考えを示した。",
       "published": "2026-08-26T08:55:22+00:00",
       "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Claudeのトークン数はブラウザだけでは正確に数えられない",
-      "link": "https://zenn.dev/a1221/articles/claude-token-count-browser-limit",
-      "summary": "はじめに\nブラウザ内で完結するトークンカウンターを作って運用しています。入力したテキストをサーバーへ一切送らない、という制約を全ツールに課しているサイトの一部です。\nGPTのトークン数は、この制約の中で正確に数えられます。js-tiktoken に o200k_base の辞書が同梱されていて、モデル本体と同じBPEをブラウザで走らせられるからです。\nClaudeは数えられません。これは実装をサボ",
-      "published": "2026-08-26T08:54:59+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -299,6 +290,24 @@
       "color": "#326CE5"
     },
     {
+      "title": "Excel読み取り、市販パーサ65%・自作の前処理89%",
+      "link": "https://zenn.dev/ai_worklab/articles/excel-ai-reading-markitdown-vs-custom-parser",
+      "summary": "社内の Excel を AI に読ませていて、正答率が 6 割台から伸びない。パーサを良いものに替えれば上がるはずだ — この前提を測って確かめたら、上がったのは 3 ポイントでした。\n同じ 66 問を 3 通りの読み取り方で解かせて、正答率を比べた記録です。「市販で足りるのか、自分で作り込むべきか」を判断する材料として書いています。\n\n\n\n読み取り方\n正答率 (66 問)\n\n\n\n\n何も工夫しない",
+      "published": "2026-08-26T05:50:38+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AI彼女アプリを作っていて気付いた。「同じ人」は、設定だけでは続かなかった",
+      "link": "https://zenn.dev/mitsukida/articles/5377b79e3f50a0",
+      "summary": "AI彼女アプリを作っていて気付いた。「同じ人」は、設定だけでは続かなかった\n以前、\nAIを成長させようとして気付いたことを書いた。\n変わるだけではだめだった。\n変わりにくい部分があるから、\n経験によって少しずつ変わっていける。\nAIKanojyoは、\nそんな作り方になっていた。\n\nでも、\n作り続けていると、\nまた別の疑問が出てきた。\n\nでは、私が「昨日までと同じのりこだ」と感じているものは、いった",
+      "published": "2026-08-26T05:11:21+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "MonotaRO が基幹データベースを Amazon Aurora Global Database に移行し、マルチリージョン DR とフルマネージド運用を実現",
       "link": "https://aws.amazon.com/jp/blogs/news/monotaro-core-database-migration-to-amazon-aurora-global-database/",
       "summary": "株式会社MonotaRO （モノタロウ）は、工具、部品、消耗品をはじめとする間接資材のインターネット通販を展開し、連結売上高 3,338 億円（2025 年 12 月期）、登録ユーザー数 1,100 万以上、取扱商品点数 2,800 万点以上を誇る事業者向け EC プラットフォームです。同社はこのたび、事業の根幹を支える基幹データベースをオンプレミスの MySQL から Amazon Aurora",
@@ -306,6 +315,15 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "そんなツール出力までAgentに見せなくていいよ - 消費トークンを1/14にした実装事例",
+      "link": "https://zenn.dev/estie/articles/e58c1461aaec90",
+      "summary": "はじめに\nestie では Mastra ベースで不動産データを扱う AI エージェント基盤を開発しています。\nエージェント開発で継続的に向き合うことになるのが、コンテキストの管理です。LLM に見せる情報は多ければいいわけではなく、推論に効かない情報を載せるほど品質とコストが悪化していきます。そして作り込んでいくうちに、コンテキストを圧迫する大きな要因の一つがツール結果だと分かってきました。ツー",
+      "published": "2026-08-26T04:46:26+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "こんなところに野良AIが？　事例で解説、実際にあった2つの発覚パターンと防衛策",
@@ -456,15 +474,6 @@
       "link": "https://zenn.dev/exwzd/articles/20260820_aws_spa_host",
       "summary": "本記事の目標\n先端技術開発グループ（WAND）の佐藤碧です。Cloud Enablingギルド[1]のリードをしており、そのギルド活動の一環として社員が自由にアプリケーションをデプロイできる「AWSデモ環境」をホストしています。現在、社内VPN経由のみでアクセス可能なinternal ALBの配下にデモアプリをデプロイする仕組みになっています。この仕組みではSPAを安全にホストする標準手段を用意し",
       "published": "2026-08-26T01:11:12+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "閉域SPAホスティングでALBのリスナールールに分類条件をどう書くか",
-      "link": "https://zenn.dev/exwzd/articles/20260820_aws_spa_host",
-      "summary": "本記事の目標\n先端技術開発グループ（WAND）の佐藤碧です。Cloud Enablingギルド[1]のリードをしており、そのギルド活動の一環として社員が自由にアプリケーションをデプロイできる「AWSデモ環境」をホストしています。現在、社内VPN経由のみでアクセス可能なinternal ALBの配下にデモアプリをデプロイする仕組みになっています。この仕組みではSPAを安全にホストする標準手段を用意し",
-      "published": "2026-08-26T01:11:12+00:00",
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
@@ -477,15 +486,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore Registry - 増えつづけるエージェントとツールの「住所録」",
-      "link": "https://zenn.dev/kameoncloud/articles/9c54eb8fd8b526",
-      "summary": "https://serverless.co.jp/blog/e613c17qoal/\nに投稿した記事の微修正版です。\n社内でAIエージェントやツールの活用が進むと、各チームがそれぞれにMCPサーバーを立て、エージェントを作り、専用ツールを量産していきます。便利になっていく一方で、新しい悩みが出てきます。\n「あの機能、どこかのチームが作ってなかったっけ？」「同じようなツールをまた一から作っている気が",
-      "published": "2026-08-26T00:18:08+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "因果推論 Day 13／全30回　フロントドア基準、交絡を測れないときの抜け道",
@@ -603,15 +603,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "AWS上のIcebergテーブルの障害調査・運用診断ツールを作ってみた",
-      "link": "https://zenn.dev/penginpenguin/articles/e34d71ce71a656",
-      "summary": "はじめに\nAWS Community Builderのぺんぎん（@jitepengin）です。\n以前、AWSのIcebergテーブルのスナップショット履歴をCLIで確認できるツール「iceberg-navigator」を作りました。\nhttps://zenn.dev/penginpenguin/articles/a739818b188b4e\n初版ではlist、show、compare、graphの",
-      "published": "2026-08-25T13:28:50+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "LSTMでドル円予測をしたら精度56.3%だった | 第1回：AIで為替の未来予測は本当にできるのか？",
@@ -893,15 +884,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "BigQueryからGoogleスプレッドシートに自動出力して非エンジニアとデータ共有する",
-      "link": "https://zenn.dev/web_benriya/articles/bigquery-sheets-auto-export-data-sharing",
-      "summary": "はじめに\n「BigQueryでSQLを書けるようになったはいいけれど、結果を社内の担当者や取引先に渡す方法がわからない」——そういった悩みを抱えていませんか？\nBigQueryはデータ分析の強力なツールですが、SQLに不慣れな非エンジニアのメンバーが直接クエリを実行するのはハードルが高いものです。かといって、分析担当者が毎日手動でCSVをエクスポートしてSlackやメールで送るのは、時間がかかる上",
-      "published": "2026-08-24T10:16:15+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "Kubernetesにアプリ1つ追加するだけでなぜ大変なの？Kyverno・ArgoCD・Terraformの責任分離を整理してみた【後編】",
       "link": "https://zenn.dev/scalar_sol_blog/articles/f3ce3db97c99ae",
       "summary": "!\n⚠️ ご注意（記事の前提条件）\n本記事で紹介している設計案やコード例は、設計検討段階の調査に基づくものです。\n実際の運用環境で稼働しているコードそのものではないため、実装の際はご自身の環境に合わせて適宜調整してください。\n\nhttps://zenn.dev/scalar_sol_blog/articles/aae32e93fd5680\nhttps://zenn.dev/scalar_sol_b",
@@ -943,15 +925,6 @@
       "summary": "Anthos Config Management\nChange\nAddressed multiple Common Vulnerabilities and Exposures (CVEs) by updating dependencies.\nFeature\nYou can now disable monitoring for specific custom RootSync or RepoSync",
       "published": "2026-08-24T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "BigQueryのAI関数でSQLだけで100万件の感情分析 ―ETLもAPI実装もいらない",
-      "link": "https://zenn.dev/acntechjp/articles/zenn-gcp-bigquery-ai-functions",
-      "summary": "はじめに\nAzure から Google Cloud を触るシリーズです。\n「顧客レビューを感情分析して、ネガティブなものを集計したい」。よくある要件です。普通なら、データを取り出して、Python で LLM API を叩くバッチを書いて、結果を書き戻して、集計する。ETL パイプラインと API 実装の一式が要ります。\nBigQuery の AI 関数を使うと、これが SQL 一本で終わります",
-      "published": "2026-08-23T21:30:39+00:00",
-      "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
     },
@@ -1001,6 +974,24 @@
       "color": "#326CE5"
     },
     {
+      "title": "Dockerとは？VMとの違いを図解で理解する",
+      "link": "https://zenn.dev/akinori901/articles/20260816-plan001",
+      "summary": "Dockerとは？VMとの違いを図解で理解する\n\n 概要\n「Docker を使うと環境構築が楽になる」とはよく聞くものの、仮想マシン（VM）と何が違うのかがピンとこない、という声は多い。本記事では Docker とコンテナの基本を、VM との比較を通じて図解で整理する。入門者が「なぜ軽いのか」「何が同じで何が違うのか」を自分の言葉で説明できるようになることをゴールとする。\n対象読者は、これから D",
+      "published": "2026-08-22T21:08:40+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "【OT/ICS】Dockerで証す真の攻撃検知基盤（未知解析編 #9：GOOSEとSpicy）",
+      "link": "https://zenn.dev/schutzz/articles/044c40c3e77404",
+      "summary": "!\n本書で使用するソースコード・構成ファイルの公開\n本連載（Phase 0 〜 11）で構築した「真の攻撃検知基盤」の全ソースコードは、すべて以下のGitHubリポジトリで完全オープンソースとして公開しています。\nGitHub: schutzz/ot-ids-verum\n学習等にご活用ください。\n\n\n はじめに\nPhase 8で、GOOSEの簡易検知を作りました。MAC allowlistとバース",
+      "published": "2026-08-22T10:45:50+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "August 22, 2026",
       "link": "https://docs.cloud.google.com/release-notes#August_22_2026",
       "summary": "Apigee UI\nFixed\n\n\n\nBug ID\nDescription\n\n\n\n\n543626585\n\n\nServiceCallout policy can now be added in the Apigee UI\n\n\n          Adding a ServiceCallout policy in the Apigee UI no longer leaves the",
@@ -1008,6 +999,15 @@
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
+    },
+    {
+      "title": "GitHub Pagesで配る、ローカルDocker型pwn環境の作り方",
+      "link": "https://zenn.dev/tasodoufu/articles/github-pages-local-docker-pwn",
+      "summary": "こんにちは、豆腐たそです。\nAIアシスタントのメギと一緒に、毎日ひと口ずつpwnを学ぶサイト「TofuCTF」を作りました。\nhttps://tasodoufu.github.io/TofuCTF/\nフロントエンドはGitHub Pagesです。一方、pwn問題には脆弱なバイナリを実行し、ncで接続できる環境が必要です。\n以前は自宅ホスト上のサービスをraw TCPで公開していましたが、現在は方針",
+      "published": "2026-08-21T15:02:27+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "Kubernetesのポリシー運用ってどうやるの？既存構成にモヤモヤして、Kyvernoと責任分離の設計を一から調べて整理してみた【中編】",
