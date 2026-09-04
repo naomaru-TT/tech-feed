@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-04T17:55:28.590980+00:00",
+  "updated": "2026-09-04T20:05:57.543877+00:00",
   "items": [
+    {
+      "title": "Goモノレポを CodePipeline で「差分だけ」デプロイする Lambda 基盤を作った話",
+      "link": "https://qiita.com/shrimpTail/items/783bda0a93e3a09dcf9f",
+      "summary": "はじめに\nGoのモノレポに複数のLambda（user / order / post）を同居させて運用していると、あるところで必ずこう思います。\n「cmd/user を1行直しただけなのに、なんで order と post までビルドし直してデプロイしてるんだ？」\n関数が...",
+      "published": "2026-09-04T18:16:27+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "Direct Connectについて整理する",
       "link": "https://qiita.com/kaiton-ton/items/b3b3c7059c798cfde48a",
@@ -47,33 +56,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "AWS SAP 合格体験記 — 落とした10問のうち6問は「知識不足」ではなかった",
-      "link": "https://zenn.dev/usudonsdev/articles/article-zenn-sap-vibecalender",
-      "summary": "書籍 5 章の模擬テストが 15/25 でした。\n落とした 10 問を机に並べて、何を知らなかったのかを 1 問ずつ書き出しました。そこで気づいたのが、10 問のうち 6 問は「知らなかった」わけではないということです。自分が選んだ構成でも、要件は満たせる。動く。ただ、正解の構成より余計なサービスが 1 つ多い。\nSAP で落とすのは、知識の穴だけではありませんでした。要件のどの語がその機能を呼ん",
-      "published": "2026-09-04T15:29:39+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "LINEから3Dモデルと図面を作るボットを、大学3年で作った話",
-      "link": "https://zenn.dev/usudonsdev/articles/article-zenn-line-cad-bot",
-      "summary": "LINE で「かごを作りたい」と送ったら、板が空中にバラバラに浮いた 3D モデルが返ってきました。\n原因を追うと、「かご」がキーワード分類にヒットせず Bedrock の自由生成に回り、そこで生成されたコードが build123d に存在しない API を呼んでいた、という話でした。この手の地味な事故を何十回か踏みながら作ったのが DIY Agent（LINE CAD Bot） です。\nやりたか",
-      "published": "2026-09-04T15:29:38+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AgentCore Gatewayで送信元IP制限のある接続先に接続する",
-      "link": "https://qiita.com/takahash_3/items/0396070f5766efe984a8",
-      "summary": "はじめに\nAmazon Bedrock AgentCore Gatewayを使うと、Lambda関数やOpenAPI/Smithyの定義、さらには外部のMCPサーバーまで、バラバラだったツール群を1つのGatewayにまとめて登録し、一括管理できます。\nただ、Gatewa...",
-      "published": "2026-09-04T14:18:02+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "因果推論 Day 21／全30回　ITTとLATE、割付は守られないという現実",
       "link": "https://qiita.com/akiralab/items/58e351dcef244e5045ec",
       "summary": "この連載について\n因果推論を「本を読んだ」で終わらせず、自分の言葉で説明でき、コードで再現できる状態まで落とす30日連載です。直前のDay 20では、閾値で処置が決まる制度の「際」を擬似実験として使う回帰不連続デザインを扱いました。今日はRCTに戻ります。ただし、Day ...",
@@ -92,13 +74,13 @@
       "color": "#10A37F"
     },
     {
-      "title": "Roman 宇宙望遠鏡に備えて、個人の AWS に解析環境を作る",
-      "link": "https://zenn.dev/rshimakawa/articles/roman-aws-analysis-env-setup",
-      "summary": "数字はすべて自分の環境での実測です。検証に使ったノートブックは\nGitHub で公開しています。\n\n\n\n この記事は何か\nNancy Grace Roman 宇宙望遠鏡のデータは、打ち上げ後すべて AWS(us-east-1)上のアーカイブに置かれ、占有期間なしで公開されます。1 日 1.4 TB 規模のデータを手元にダウンロードして解析する運用は現実的でないため、解析環境の方をデータの隣(AWS",
-      "published": "2026-09-04T12:19:02+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "Vertex AI Workbench の STOCKOUT エラーを自動リトライで乗り切る",
+      "link": "https://zenn.dev/dmmdata/articles/vertex-ai-workbench-auto-start",
+      "summary": "はじめに\n普段 Vertex AI Workbench を PoC 環境として利用しています。GPU に A100 80GB を割り当てた構成です。\nしかし、インスタンスを起動しようとしたところ、以下のような STOCKOUT エラーが発生することが度々あります。\nThe zone 'projects/my-project-id/zones/us-central1-a' does not have",
+      "published": "2026-09-04T12:32:12+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "わたしが好きな クッキー×コーヒードリンクの組み合わせ10選【複数AI協業】WEEKDAY COFFEE ROASTERS - 鳥取市の水洗いコーヒー【3分32秒】【YouTubeチャネルからの転記です】",
@@ -137,11 +119,29 @@
       "color": "#10A37F"
     },
     {
+      "title": "BigQuery MLの需要予測モデルでEC仕入れ量を最適化する実装手順",
+      "link": "https://zenn.dev/web_benriya/articles/bigquery-ml-demand-forecast-ec-inventory",
+      "summary": "はじめに\n「季節が変わると売れ筋が変わるのはわかっているのに、いつも仕入れ量が合わない」「売り切れで機会損失が出るか、過剰在庫で資金が眠るかの繰り返し」——そうした悩みを抱えるEC事業者の方は少なくないでしょう。\n仕入れ判断をベテランスタッフの経験や勘に頼っている場合、属人化によるリスクも伴います。担当者が変わるたびに精度がブレるという声もよく耳にします。\nそこで本記事では、Google Clou",
+      "published": "2026-09-04T10:13:44+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
       "title": "MobileNetV2 を手書き NEON で速くする — 遅い層を個別に潰して ORT を抜く",
       "link": "https://zenn.dev/ux_xu/articles/mlir-mobilenet-neon-perlayer",
       "summary": "はじめに\n前回、テンソルのレイアウトを NCHW から NHWC に変えて、MobileNetV2 の backbone を 68 ms から 40 ms まで速くしました。\n\nここまでは全層に効く「一律の」最適化でした。レイアウトを変えればどの層も連続アクセスになり、まとめて速くなります。ただしそこから ORT のシングルスレッド（Pi5 実測 33 ms）まではあと 7 ms 残っていて、この",
       "published": "2026-09-04T10:12:02+00:00",
       "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AIに人格を持たせるなら、「実際に言った言葉」と「本人ならこう言う」を本人に区別させる —— 兵法家の視点役から、原典に見つからない一句が落",
+      "link": "https://zenn.dev/relightks/articles/aa80fb8fde75ac",
+      "summary": "私は小さな会社をやりながら、開発と経営判断のほぼ全部をAIと二人三脚でやっています。その中で、Claude Codeのサブエージェントに歴史上の人物の思考様式を持たせて、「この人ならこの計画をどう見るか」を言わせる、という使い方をしています。複数ある視点役のうちの1つが、『孫子』の兵法家・孫武です。\nその視点役のファイルは、最初は26行でした。孫武の考え方の型を5つ書き、それぞれに『孫子』の句を鉤",
+      "published": "2026-09-04T10:05:10+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -200,6 +200,15 @@
       "color": "#FF9900"
     },
     {
+      "title": "Gemini Enterprise ワークフロービルダーをさっそく触ってみた ― \"人間の判断も入れられるWFに生まれ変わった\"",
+      "link": "https://zenn.dev/softbank/articles/802ee89211488f",
+      "summary": "1. はじめに\nGemini Enterprise（以下、GE）ワークフロービルダーの、”ワークフロー機能”（Workflows、旧Agent Designer V3とも表現）を動かしました。この記事では、実際の画面で確認できたことと、私が作ったワークフロービルダーの一例を紹介します。\nまだ触り始めて間もない段階での所感です。そのうえで先に結論を書くと、これは単なるノーコードエージェントの新バージ",
+      "published": "2026-09-04T08:59:14+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
       "title": "ローカルLLMでベンチ豚（ベンチマーク豚）にならないためのHermes Agentの実践テク",
       "link": "https://zenn.dev/siren2345/articles/local-llm-bench-pig-hermes-practice",
       "summary": "はじめに\nローカルLLMを触っていると、あっという間にベンチ豚になる。HFのスコア表を横に並べ、Q4_K_MとQ6_Kでperplexityを比べ、誰も使わない256Kを「対応」と書く。数字は伸びるが、体感は置いていかれる。\nHermes Agent（Nous Research）のローカルランタイムは、この沼を避ける作りになっていた。RTX 5090でQwen3.8-27Bを動かしながらコードを追",
@@ -207,6 +216,15 @@
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "Google ADKのレビューエージェントをCloud Runへ載せたら、モデルのロケーションで404になった",
+      "link": "https://zenn.dev/hogehogetaro/articles/google-adk-cloud-run-webapp",
+      "summary": "9月1日の記事「Google ADKで4人の専門家がテックブログをレビューするAIエージェントを作ってみた」では、GoogleのAgent Development Kit(以下、ADK)を使い、テックブログを4つの観点から確認するAIエージェントを作りました。\nただ、このエージェントはローカルのADK Webからしか使えません。\n今回は、同じエージェントをCloud Runへデプロイし、認証付きW",
+      "published": "2026-09-04T08:17:41+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "ISO704を投げてAIの比喩をやめさせる",
@@ -272,6 +290,15 @@
       "color": "#FF9900"
     },
     {
+      "title": "September 04, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#September_04_2026",
+      "summary": "Cloud SQL for SQL Server\nFeature\nCloud SQL for SQL Server now supports connecting to instances\nwith write endpoints using the Cloud SQL Auth Proxy or Cloud SQL language\nconnectors. When you configure",
+      "published": "2026-09-04T07:00:00+00:00",
+      "source": "Google Cloud リリースノート",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
       "title": "構造化されたビジネスロジックとエージェンティック AI を組み合わせ、心地よい会話体験を届ける",
       "link": "https://aws.amazon.com/jp/blogs/news/blend-structured-business-logic-with-agentic-ai/",
       "summary": "Amazon Connect Customer で一般提供が始まった agentic CX designer を使い、会話とビジネスルールを 1 つのキャンバスで扱う方法を紹介します。柔軟さが必要な部分はエージェンティック AI が担い、本人確認やクレジットの適用可否は決定論的なステップで固定します。構築からテスト、公開、最適化までの流れを追います。",
@@ -303,15 +330,6 @@
       "link": "https://zenn.dev/officekamiya/articles/gemini-live-subtitle-latency",
       "summary": "違う言語を話す人どうしが、そのまま会議できるツールを作っています。日本語で話すと相手には英語の音声で届き、相手が英語で話すとこちらには日本語で届く、というものです。音声の翻訳には Google の Gemini 3.5 Live Translate（gemini-3.5-live-translate-preview）を使っています。\n→ 3 人が日本語・英語・スペイン語で話しているデモ（ログイン不",
       "published": "2026-09-04T06:40:32+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "人間が書かない開発日誌の作り方",
-      "link": "https://zenn.dev/taratta/articles/devlog-written-by-ai-staff",
-      "summary": "結論：開発日誌を自分の手で書くのはやめた。AIスタッフが仕事のたびに書く完了報告を、機械の篩に通してそのまま公開する。今日、その第一陣21本を出した。この記事は、その仕組みと、公開直前に見つかった篩の穴の話だ。\nhttps://github.com/force-structure-signature/taratta-devlog\n\n どういう仕組みか\nタラッタタラッタラは、一人の船長と複数のAIス",
-      "published": "2026-09-04T06:30:03+00:00",
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
@@ -438,6 +456,15 @@
       "link": "https://zenn.dev/sompojapan_dx/articles/ddd6a397294de3",
       "summary": "こんにちは。SOMPO Digital Lab でインフラエンジニアをしている藤野です。\nローンチ前で実ユーザーのトラフィックがまだないプロダクトで、ECS のネイティブ Blue/Green のライフサイクルフックで本番トラフィックの切替を止め、Green に流したスモークテストの結果で続けるか戻すかを Lambda に決めさせています。切り替えていいかの判断を、最初から人に渡していません。\n前",
       "published": "2026-09-04T01:41:07+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "ECS Blue/Green デプロイを適用しました",
+      "link": "https://zenn.dev/sompojapan_dx/articles/ddd6a397294de3",
+      "summary": "こんにちは。SOMPO Digital Lab でインフラエンジニアをしている藤野です。\nローンチ前で実ユーザーのトラフィックがまだないプロダクトで、ECS のネイティブ Blue/Green のライフサイクルフックで本番トラフィックの切替を止め、Green に流したスモークテストの結果で続けるか戻すかを Lambda に決めさせています。切り替えていいかの判断を、最初から人に渡していません。\n前",
+      "published": "2026-09-04T01:41:07+00:00",
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
@@ -477,6 +504,24 @@
       "source": "Qiita - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "GuardDuty の Custom Detection Rules は「ルールを書く」のではなく「この環境では異常」を定義する機能だった件",
+      "link": "https://zenn.dev/cscloud_blog/articles/guardduty-custom-detection-rules-use-case",
+      "summary": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！\nGuardDuty に Custom Detection Rules という機能が追加されました。\nhttps://docs.aws.amazon.com/guardduty/latest/ug/custom-detection-rules.html\n実際に有効化して動かした記録はス",
+      "published": "2026-09-04T00:39:45+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AgentCore Memory connector と FGAC でメモリーアクセスを統制する",
+      "link": "https://zenn.dev/aws_japan/articles/agentcore-memory-connector-fgac",
+      "summary": "はじめに\nAmazon Bedrock AgentCore Memory を使うと、エージェントにユーザーごとの記憶を持たせられます。イベントを actorId と sessionId で管理し、長期記憶は階層的な namespace で整理する、という作りになっています。\nただ、これをマルチテナントで使うときに気になる点があります。AgentCore Memory のデータプレーンは SigV4",
+      "published": "2026-09-04T00:37:58+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "Adobe、次期CEOにアニル・チャクラバーシー氏　ナラヤン氏は12月1日付で会長に",
@@ -713,7 +758,7 @@
       "color": "#888780"
     },
     {
-      "title": "Google ADKのレビューを差分だけにしたら、入力は90.8%減ったのに待ち時間はほぼ変わらなかった",
+      "title": "Google ADKのレビューを差分だけにしたら、入力は90.8%減ったが離れた矛盾は1件も拾えなかった",
       "link": "https://zenn.dev/hogehogetaro/articles/google-adk-diff-review-history",
       "summary": "前々回の記事「Google ADKで4人の専門家がテックブログをレビューするAIエージェントを作ってみた」では、GoogleのAgent Development Kit(以下、ADK)を使い、テックブログを4つの観点から確認するAIエージェントを作りました。\n前回の記事「Google ADKのSequential / Parallel Agentを実際に比較してみた」では、 SequentialA",
       "published": "2026-09-03T01:42:56+00:00",
@@ -848,15 +893,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "BigQuery Graphと会話分析を使って、自然言語でデータ分析してみた",
-      "link": "https://zenn.dev/team_lab/articles/38d211815d23a9",
-      "summary": "はじめに\nこんにちは、チームラボ 分析チームの蝦名です。\n「この数字、最近どうなっているんだろう？」\n業務の中で、データを確認したい場面は多くあります。一方で、いざ分析しようとすると、SQLを書いたり、集計条件を考えたり、結果をグラフにしたりする必要があります。\nそこで今回は、BigQueryが公開しているThe Look e-commerceデータセットを使い、自然言語で質問しながら、注文・商品",
-      "published": "2026-09-02T04:10:53+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "ClaudeにSalesforceを統合した「Claudeforce」、AnthropicとSalesforceが発表。Claudeから営業データ分析や顧客対応を実現",
       "link": "https://www.publickey1.jp/blog/26/claudesalesforceclaudeforceanthropicsalesforceclaude.html",
       "summary": "SalesforceとAnthropicが「Claudeforce」を発表しました。 第一弾となる「Salesforce in Claude」では、Claudeの画面からプロンプトを入力するだけで、Salesforceのデータやワークフロー...",
@@ -864,15 +900,6 @@
       "source": "Publickey",
       "tag": "テック",
       "color": "#888780"
-    },
-    {
-      "title": "Google ADKのSequential / Parallel Agentを実際に比較してみた",
-      "link": "https://zenn.dev/hogehogetaro/articles/google-adk-sequential-parallel",
-      "summary": "前回の記事「Google ADKで4人の専門家がテックブログをレビューするAIエージェントを作ってみた」では、GoogleのAgent Development Kit（以下、ADK）を使い、テックブログを4つの観点からレビューするAIエージェントを作りました。\n4つのレビューを ParallelAgent で同時に実行し、最後に編集長役のエージェントが結果を統合する構成です。\nSequential",
-      "published": "2026-09-02T01:53:08+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "音声 AI エージェントで実現するセントラルキッチンのハンズフリーオペレーション",
@@ -884,15 +911,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "Cloud Bigtableを用いたIoT時系列データの高速集約と各種ストレージの使い分け",
-      "link": "https://zenn.dev/kat/articles/6a70b628205e9d",
-      "summary": "概要と前提条件\n農地や工場、交通インフラなどに配置された大量のIoTセンサーから、秒間数万〜数十万件規模で送られてくる時系列データをリアルタイムに取り込み、保存・参照するアーキテクチャを対象とします。\n高スループットなデータ書き込みとミリ秒単位の読み出し性能を維持しながら、バックエンドの分析基盤（BigQueryなど）と役割を分担する設計を扱います。\n\n 適用できるシステム例\n\n\nスマート農業・環",
-      "published": "2026-09-02T01:01:05+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "S3用のIAMユーザをTerraformで払い出したら、パスワード変更権限がなくて初回ログインで詰んだ",
       "link": "https://zenn.dev/yamadatt/articles/20260902-iam-user-change-password-permission",
       "summary": "はじめに\nS3のバケットだけ触ってもらいたい人がいたので、専用のIAMユーザをTerraformで作りました。S3の権限を付けて、初期パスワードを払い出して、「これでログインしてください」と渡して終わり、のつもりでした。\nところが初回ログインで止まりました。ユーザ名と初期パスワードは通るのですが、そのあとの初期パスワード変更の画面で権限がないと言われて先に進めません。S3の権限は付けたのに、その手",
@@ -900,15 +918,6 @@
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "Vertex AIに自前/OSSモデルを載せて使う ―Cloud Run GPU・GPU VMとの料金と使い分け",
-      "link": "https://zenn.dev/acntechjp/articles/zenn-gcp-vertex-model-deploy",
-      "summary": "はじめに\nAzure から Google Cloud を触るシリーズです。以前、Cloud Run GPU や GPU インスタンスでローカル LLM を動かしました。今回はもう一つの選択肢、Vertex AI に自前／オープンウェイトのモデルを載せて推論エンドポイントにする話です。「Gemini を API で叩く」ではなく、「自分の（あるいは OSS の）モデルを Vertex のマネージド推",
-      "published": "2026-09-01T23:40:52+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "CPU使用率100%なのにHPAでスケールアウトしない。KubernetesのRequestでハマった話",
@@ -1248,15 +1257,6 @@
       "link": "https://docs.cloud.google.com/release-notes#August_26_2026",
       "summary": "Apigee hybrid\nAnnouncement\nv1.14.8\nOn August 26, 2026 we released an updated version of the Apigee hybrid software, v1.14.8.\n\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.14",
       "published": "2026-08-26T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "August 25, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#August_25_2026",
-      "summary": "Access Approval\nFeature\nGemini Data Analytics is generally available\n(GA).\nAccess Transparency\nFeature\nGemini Data Analytics is generally available\n(GA).\nBigQuery\nFeature\nBigQuery data governance tags",
-      "published": "2026-08-25T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
