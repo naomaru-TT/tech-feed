@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-05T19:45:26.421510+00:00",
+  "updated": "2026-09-05T22:30:31.350064+00:00",
   "items": [
+    {
+      "title": "G検定のシラバスをエンジニア視点で読み解く——配点26%の「手法」を数式で辿る",
+      "link": "https://zenn.dev/taichiendoh/articles/g-kentei-syllabus-for-engineers",
+      "summary": "初出: note（G検定試験対策）。Zenn向けに、配点が最も厚い「ディープラーニングの手法」パートを数式・コードで補って再構成しました。\n\nG検定（JDLA Deep Learning for GENERAL）は「ディープラーニングを実装できる人」ではなく「ディープラーニングを事業判断に使える人」を認定する試験です。コードを書く試験ではないぶん、実装経験のあるエンジニアからは軽視されがちですが、",
+      "published": "2026-09-05T21:08:38+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "CLIPのゼロショットでは当たらない「自分の分類軸」を、線形プローブで作る",
       "link": "https://qiita.com/shota-droid21/items/25577231762457a0f618",
@@ -101,47 +110,11 @@
       "color": "#10A37F"
     },
     {
-      "title": "AWS Cloud WAN を触ってみる。東京とシンガポール間のスループットを計測する",
-      "link": "https://zenn.dev/aws_japan/articles/aws-cloudwan-tokyo-singapore-throughput",
-      "summary": "AWS Cloud WAN を触ってみる。東京とシンガポール間のスループットを計測する\nこんにちは！ AWS でソリューションアーキテクトをしている杉山です。\nAWS Cloud WAN は、複数リージョンの VPC やオンプレミス拠点を 1 つのグローバルネットワークとしてつなぎ、ポリシーで一元管理できるマネージドな WAN サービスです。リージョンごとに Transit Gateway を立て",
-      "published": "2026-09-05T13:52:35+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AgentCore MemoryのFGACを実測 — Cedarでactor分離、permit合成の落とし穴はforbidで塞ぐ",
-      "link": "https://zenn.dev/kashiwabaray/articles/ecca09f13b1146",
-      "summary": "1. はじめに\nエージェントの記憶をエンドユーザー単位で分離するとき、AgentCore Gateway に Memory connector の target を置く構成では、Memory から見える呼び出し元が gateway 実行ロールに集約されます。そのため IAM ポリシーの条件キーで「誰のリクエストか」を絞り込むことができません。前回の記事で、JWT の検証と実行ロールだけの状態では",
-      "published": "2026-09-05T13:07:21+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "AWS IAM Identity CenterのIdPにMicrosoft Entra IDを用いた構成の構築",
-      "link": "https://zenn.dev/tmiki/books/15a45bdc4f5d13",
-      "summary": "AWS IAM Identity CenterのIdentity sourceとして、Microsoft Entra IDを用いて、SAML 2.0によるSingle Sign-onを実現する構成を構築します。",
-      "published": "2026-09-05T12:48:57+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "Amazon Bedrock AgentCore payments と Privyで体験するx402！！",
       "link": "https://qiita.com/mashharuki/items/bfd2d873b7d247c0caa9",
       "summary": "概要\n先日、ついに AmazonBedrock AgentCore paymentsがGAされました！！！\n\nプレビュー期間中に一度挑戦してみましたが設定がむず過ぎて途中で挫折していたのでGAに合わせてリベンジしてみました！\n\n設定方法とか参考になるのでぜひ最後...",
       "published": "2026-09-05T12:19:16+00:00",
       "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "Amazon Bedrock AgentCore payments と Privyで体験するx402！！",
-      "link": "https://zenn.dev/mashharuki/articles/aws_agentcore-payments-x402-cdk",
-      "summary": "概要\n先日、ついに AmazonBedrock AgentCore paymentsがGAされました！！！\nhttps://aws.amazon.com/jp/about-aws/whats-new/2026/08/bedrock-agentcore-payments-ga/\nプレビュー期間中に一度挑戦してみましたが設定がむず過ぎて途中で挫折していたのでGAに合わせてリベンジしてみました！\nhtt",
-      "published": "2026-09-05T12:12:10+00:00",
-      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -164,11 +137,47 @@
       "color": "#10A37F"
     },
     {
+      "title": "【音響物理×LLM】耳介の干渉ノッチをRoPEに拡張し、類似トークンを識別・消去する「SN-RoPE」",
+      "link": "https://zenn.dev/nanashi_os/articles/87218ce44ce09b",
+      "summary": "1. はじめに：耳介が解く「等距離・正中面問題」とLLMの課題\n人間は、両耳からの距離が等しい正中面上（左右差 ITD / ILD がゼロの領域）であっても、音源の上下位置（仰角）を一意に判別できます。これを可能にしているのが耳介（Pinna）の複雑な凹凸による物理的な位相干渉（スペクトルノッチ）です。\n一方、現在のLLM（Transformer）は「埋め込みベクトル上の距離（コサイン類似度）が非",
+      "published": "2026-09-05T10:45:52+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "サーバー初期構築、毎回同じことをやっていませんか？ Bashスクリプト9本にまとめた話",
+      "link": "https://zenn.dev/rarai01/articles/5e7a00e939af89",
+      "summary": "サーバーを新しく立てるたびに、似たような初期設定を繰り返していないでしょうか。\nDockerを入れて、Nginxを設定して、ファイアウォールを開けて、SSL証明書を発行して、監視を仕込んで……。一つひとつは難しくなくても、積み重なると地味に時間を食いますし、「前回どう書いたか忘れた」で毎回ハマったりもします。\n自分もインフラ担当として同じ作業を繰り返すうちに、定型部分をBashスクリプトとして切り",
+      "published": "2026-09-05T10:06:02+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "Kubernetes Podの裏側：起動からトラフィック到達までの内部ネットワーク徹底解剖",
       "link": "https://qiita.com/Maku-Inc/items/1e0189242d5b92f5d097",
       "summary": "はい、承知いたしました。テーマ「コンテナオーケストレーションの裏側：Podが起動してトラフィックが届くまで」について、タイトル「Kubernetes Podの裏側：起動からトラフィック到達までの内部ネットワーク徹底解剖」の技術記事をMarkdownで記述します。2000文字...",
       "published": "2026-09-05T10:04:31+00:00",
       "source": "Qiita - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "新モデルは「見える」だけでは使えない――Codex CLIとOpenClawに見るModel DiscoveryとContract",
+      "link": "https://zenn.dev/wyi_or_wye/articles/model-discovery-and-contract",
+      "summary": "Codex CLIでは使えたGPT-6 Astraが、OpenClaw 2026.8.2では401になった。この体験を手がかりに、アカウントで使えるモデルを知る model discovery と、そのモデルを正しく呼ぶための model contract を分けて考える。Codex CLI、OpenClaw、Hermes Agentのcurrent実装も比較した。\n\n\n CodexにはAstra",
+      "published": "2026-09-05T10:00:42+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Risa Asirのインストール-Dockerを使う方法",
+      "link": "https://zenn.dev/myonmyon/articles/risa_asir_setup",
+      "summary": "Risa Asirとは\nRisa Asirとは, 富士通研究所において開発されたオープンソースの数式処理ソフトです. 通常の電卓的な使い方はもちろん, 多項式を扱うことができたり, イデアル等に関する演算や, 有限体の元を扱ったりすることができます. C言語風の文法で, 自分でプログラムを組んで実行することが可能です.\n!\n基本的な操作方法については, 野呂正行, 高山信毅 著: Risa/Asi",
+      "published": "2026-09-05T09:08:17+00:00",
+      "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
     },
@@ -362,29 +371,11 @@
       "color": "#FF9900"
     },
     {
-      "title": "生成AIに送ったデータはどこへ行く？Amazon Bedrockのセキュリティを整理する",
-      "link": "https://zenn.dev/abc_yoko/articles/9e028638fa525b",
-      "summary": "はじめに\n前回の記事では、Amazon BedrockをCLIから呼び出し、生成AIを手軽に試す方法を紹介しました。\n今回は少し視点を変えて、「Bedrockに送ったデータは、実際にどこで処理されるのか？」 という点を整理します。\n生成AIを業務で利用する場合、精度やコストだけでなく、入力したデータがどこへ送られるのか、モデルの学習に使われないかといった点も重要です。\nAmazon Bedrock",
-      "published": "2026-09-05T03:45:45+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "【コスパ最強】月1万円の下位プラン投資で爆速成果！Antigravity × Cursor × ChatGPT × Claudeの「4AI連携」開発・業務・執筆術",
       "link": "https://qiita.com/boraemon2000/items/71b60ef197bd8653a092",
       "summary": "【コスパ最強】月1万円の下位プラン投資で爆速成果！Antigravity × Cursor × ChatGPT × Claudeの「4AI連携」開発・業務・執筆術\n\n1. はじめに：AI課金沼にハマっていませんか？\n生成AIやAIエディタが実務に不可欠となった今、多くの人...",
       "published": "2026-09-05T03:16:01+00:00",
       "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "「スコア上位から選ぶ」だけでは多様性を担保できない ― LLMランキングに業種ラウンドロビンを入れた話",
-      "link": "https://zenn.dev/fujifun/articles/2f3d11a6f223cb",
-      "summary": "M&amp;Aの検討がどのフェーズにあるかで、候補リストに求められるものは変わります。とくに初期段階では、売手企業の側にまだ買手像が定まっていないことが多いです。「この業種に譲渡すればこういうシナジーが生まれるのか」「この規模の相手だとこういうメリットがあるのか」「カルチャーが違う相手だとどうなるのか」——そうした像を具体的に思い浮かべてもらうことが、まずは必要になります。\nですので、M&amp;",
-      "published": "2026-09-05T03:08:34+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -407,6 +398,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "品質も性能も上げて、費用は移行前より安く — AIネイティブ開発が通ったAWSコストの山と谷",
+      "link": "https://zenn.dev/fixu/articles/ai-native-aws-cost-peaks-and-valleys",
+      "summary": "はじめに\n以前「AIネイティブ開発の基盤ができるまで」という総集編を書きました。長年運用してきた Laravel モノリスを複数のマイクロサービスに分割し、EC2 から ECS Fargate へ移行するまでの物語です。その記事の終盤に「新旧環境の並行稼働と監視強化で膨らんだクラウド費用を月額20%超削減した」と一段落だけ書きました。本記事はその一段落を、費用という軸で一本に引き伸ばした姉妹編です",
+      "published": "2026-09-05T02:50:43+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "Reservoir Computing の基本と簡易検証",
       "link": "https://zenn.dev/kotton_mas/articles/rc-basics-01-what-is-rc",
       "summary": "はじめに\n昔 Reservoir Computing (RC) の研究をしていたのですが、最近ふと始めたくなりまして、復習がてら備忘録と各種検証結果を都度まとめていこうと思います。\nRC については日本語の記事もあるのですが数としては少なく、今まで研究してきた身としてはちょっと悲しいなぁと思っていました。「なら自分で書けば良いかぁ」ということで、もしこの記事が誰かの役に立てば幸いです。\n\n 1.",
@@ -414,6 +414,15 @@
       "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "S3を「ただのストレージ」だと思っている人へ",
+      "link": "https://zenn.dev/riverwell2359/articles/aws-09-s3-is-not-just-storage",
+      "summary": "はじめに：S3は「ファイル置き場」では終わらない\nSAAでS3は最頻出。「オブジェクトストレージ」「11ナインの耐久性」と覚えます。\nでも現場でS3は、静的サイトのホスティング、データレイクの基盤、ログ集約先、バックアップ保管、イベント起点 と、驚くほど多彩に使われます。「ただのファイル置き場」という理解だと、設計でも試験でも取りこぼします。\nここで一つ、初学者がつまずく根本を押さえておきます。S",
+      "published": "2026-09-05T02:31:23+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "FastAPI × BigQuery CRUD実装ガイド ─ BigQueryをAPIバックエンドに使う実践パターン",
@@ -438,6 +447,15 @@
       "link": "https://zenn.dev/ikuosaito1989/articles/bf20f58d2cc7cc",
       "summary": "!\nCloudflare WorkersのヤバさをAIと熱く語ってたら最強であることの理由が無限に出てきたのでこの記事で発散します。AI記事が苦手だったらスキップしてください\n\nGCPのCloud Runが出たとき、どう考えても最強でしょって思ってたけど色んな視点から見ても\nどう考えてもCloudflare Workers最強でしょ\nって思ってきた。少なくとも2030年あたりまではこれ以上のものは",
       "published": "2026-09-05T01:00:05+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "少なくとも2030年まではCloudflare Workersがどう考えても最強っぽい",
+      "link": "https://zenn.dev/ikuosaito1989/articles/bf20f58d2cc7cc",
+      "summary": "!\nCloudflare WorkersのヤバさをAIと熱く語ってたら最強であることの理由が無限に出てきたのでこの記事で発散します。AI記事が苦手だったらスキップしてください\n\nGCPのCloud Runが出たとき、どう考えても最強でしょって思ってたけど色んな視点から見ても\nどう考えてもCloudflare Workers最強でしょ\nって思ってきた。少なくとも2030年あたりまではこれ以上のものは",
+      "published": "2026-09-05T01:00:05+00:00",
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
@@ -450,6 +468,15 @@
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "terraform destroy、「元に戻せない」の重みを知った",
+      "link": "https://zenn.dev/yasutomo7974/articles/terraform-destroy-caution",
+      "summary": "おはようございます、YASUです。\nこれまでplan・apply・fmt・validateと、作る・確認する系のコマンドを見てきましたが、今日は逆に「壊す」コマンド、terraform destroyについて整理します。練習では気軽に使ってきましたが、改めてその危険性と、安全に使うための工夫を確認してみます。\n\n 結論\nterraform destroyは、そのディレクトリでTerraformが管",
+      "published": "2026-09-04T23:37:12+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "terraform destroy、「元に戻せない」の重みを知った",
@@ -495,15 +522,6 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "BigQuery MLの需要予測モデルでEC仕入れ量を最適化する実装手順",
-      "link": "https://zenn.dev/web_benriya/articles/bigquery-ml-demand-forecast-ec-inventory",
-      "summary": "はじめに\n「季節が変わると売れ筋が変わるのはわかっているのに、いつも仕入れ量が合わない」「売り切れで機会損失が出るか、過剰在庫で資金が眠るかの繰り返し」——そうした悩みを抱えるEC事業者の方は少なくないでしょう。\n仕入れ判断をベテランスタッフの経験や勘に頼っている場合、属人化によるリスクも伴います。担当者が変わるたびに精度がブレるという声もよく耳にします。\nそこで本記事では、Google Clou",
-      "published": "2026-09-04T10:13:44+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "BigQuery MLの需要予測モデルでEC仕入れ量を最適化する実装手順",
@@ -1078,24 +1096,6 @@
       "summary": "はじめに\nGitOpsでKubernetesへデプロイする構成では、CIがGit上のデプロイ設定を自動更新することがあります。\nこのような構成で、イメージタグを手動で以前の値へ戻したあと、CIが生成したタグ更新コミットを環境ブランチへrebaseする際に、kustomization.yamlで競合が繰り返し発生するケースがあります。\nこの記事では、特定のシステムや実際の運用構成に依存しない一般化し",
       "published": "2026-09-01T13:37:14+00:00",
       "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "コンテナとCI/CDの学習記録 part7",
-      "link": "https://zenn.dev/aymaymaym/articles/81ef96af3d122d",
-      "summary": "はじめに\npart6の続きです。\n今回はDocker Composeでコンテナ起動することを目標とします。\n\n 使うもの\n\nWindows 11\nRaspberry Pi 4 (OS: Ubuntu Server 26.04)\n\n\n 過去の学習内容\n\n\npart1\n\nラズパイセットアップ\n\n\n\npart2\n\nk3sインストール\nDocker基礎(インストール、ログ記録など初期設定、nginxコンテ",
-      "published": "2026-09-01T13:29:55+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "42日でバックエンドエンジニアの基礎を完全に理解する #22 - マルチステージビルド",
-      "link": "https://zenn.dev/kipcop/articles/b42-go-22-multistage-build",
-      "summary": "この記事で学ぶこと\n前回、Dockerfileを書いてHTTPサーバーのイメージを作りました。レイヤーとキャッシュを理解して「速い」Dockerfileにはなりましたが、最後に嫌な数字が残りました。6.8MBのバイナリを動かすためのイメージが899MBある、という問題です。\n今日はマルチステージビルドでこれを解決します。単にサイズを削る小技ではありません。「ビルドに使う環境」と「動かす環境」を分け",
-      "published": "2026-09-01T12:38:22+00:00",
-      "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
     },
