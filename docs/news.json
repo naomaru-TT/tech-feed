@@ -1,6 +1,33 @@
 {
-  "updated": "2026-09-06T17:26:01.251368+00:00",
+  "updated": "2026-09-06T19:48:09.388047+00:00",
   "items": [
+    {
+      "title": "AWS CloudTrailでEC2停止と削除履歴を確認する手順",
+      "link": "https://qiita.com/s_horikoshi/items/598765fa49aab238a322",
+      "summary": "はじめに\nAWSの学習環境を片付けたあと、次のように不安になることがあります。\n\n昨日、本当にEC2を停止したか\nALBやNAT Gatewayを削除したのはどの操作だったか\nEventBridge SchedulerがEC2停止を実行したか\nコンソール操作なのか、...",
+      "published": "2026-09-06T18:59:24+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "TimesFM 3をColabで試す：関連データや予定を足すと予測は変わる？",
+      "link": "https://zenn.dev/sunyeul89/articles/timesfm-3-handson",
+      "summary": "はじめに\n「売上を予測するなら、来店数や来月のセール予定も一緒に見てほしい」。時系列モデルを使うとき、こんな情報も渡せたら、と思うことはありませんか。\nTimesFM 3.0でうれしいのが、関連する系列も、未来の予定も、モデルに直接まとめて渡せるところです。あらかじめ学習されたモデルなので、まずは追加学習なしで試せます。\nたとえば、こんな比較ができます。\n\n\n関連する系列を一緒に予測 → 1本ずつ",
+      "published": "2026-09-06T16:49:39+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AWSでWebアプリケーション基盤を構築して学んだこと",
+      "link": "https://zenn.dev/mh_tech/articles/cd5c61347c6913",
+      "summary": "はじめに\nこれまでAWSの各サービスを触る機会はありましたが、サービス同士がどうつながっているのか、なぜこの構成にするのかまで理解したいと思い、ECS/Fargateを中心としたAWS環境を学習用に構築しています。\nこの記事では細かい構築手順ではなく、作っている環境の全体像と、なぜこの構成にしたのかを中心にまとめます。\n構成図には最終的に作る予定のものも含めています。記事を書いている時点ではClo",
+      "published": "2026-09-06T16:37:03+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
     {
       "title": "耳で聞く！Python で学ぶ マクロ経済学 入門 10",
       "link": "https://qiita.com/maskot1977/items/dcc594be88032bd4ea68",
@@ -58,7 +85,7 @@
     {
       "title": "【AWS IAM Identity Center】個人アカウントで一人アドミンに挑戦してみた！(IAM Identity Center編)",
       "link": "https://qiita.com/yosuke-suzuki/items/6aa8e6cf04ea330cb597",
-      "summary": "はじめに\nこんにちは。\nマルチアカウント運用を楽にしたいすずきです。\nAWS Organizationsの一人アドミン検証シリーズの3本目です。\n前2本では前後編としてまとめていましたが、アカウント管理・運用を考えると、Organizationsだけで収まるわけがなかった...",
+      "summary": "はじめに\nこんにちは。マルチアカウント運用を楽にしたいすずきです。\nAWS Organizationsを利用した一人アドミン検証シリーズの3本目です。\n前2本では前後編としてまとめていましたが、アカウント管理・運用を考えると、Organizationsだけで収まるわけがな...",
       "published": "2026-09-06T14:53:44+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
@@ -83,11 +110,29 @@
       "color": "#10A37F"
     },
     {
-      "title": "【AWS/IaC】AWS IAM OIDC 認証を活用した ECS Fargate の安全な CI/CD 環境構築ガイド",
-      "link": "https://qiita.com/kentaro_abe/items/972fdce6ad59e3f8577e",
-      "summary": "1. はじめに\n本記事では、Terraformを用いてAmazon ECS(Fargate)のインフラを構築し、GitHub ActionsとIAM OIDC認証を組み合わせて、アクセスキーが不要なCI/CDパイプラインを構築した際の手順についてまとめます。\n実際の構築手...",
-      "published": "2026-09-06T14:34:33+00:00",
-      "source": "Qiita - AWS",
+      "title": "Web公開の洗礼③：1週間の連続稼働テストを終えてログを分析し、今後のWebサイト運用方針を考える",
+      "link": "https://zenn.dev/beigua273/articles/229a5d3b1f7dd2",
+      "summary": "①はじめに\n本記事は「Web公開の洗礼②：Botアクセスを観測したのでnginxでレート制限とGeoIP制御を導入してログ分析する話」の続きとなります。\nhttps://zenn.dev/beigua273/articles/2e3cffa37f5f0e\n自身でEC2インスタンス上に作成したWebサーバ運用にあたり、URLを大々的に宣伝はしていないものの、Web上の公開情報から攻撃と思われるBot",
+      "published": "2026-09-06T14:46:29+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Step FunctionsでEC2バックアップ｜AMIがavailableになるまで本当に待つ必要がある？",
+      "link": "https://zenn.dev/takuyousou/articles/step-functions-ami-backup-waiting",
+      "summary": "はじめに\nこんにちは、宋です。\n今回、EC2 の定期バックアップとして、AWS Step Functions を利用して AMI を自動作成する仕組みを構築しました。\n今回の構成では、EC2 を停止してから AMI 作成を開始し、その後 EC2 を再起動します。\n最初は安全側に考えて、AMI が available になったことを確認してから EC2 を起動する構成にしていました。\nEC2停止",
+      "published": "2026-09-06T14:35:04+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AWS サービス一覧",
+      "link": "https://zenn.dev/uparupaaa/articles/aa7a55e6402bdc",
+      "summary": "コンピューティング\n\nコンピューティング\n\n\n主なコンピューティングサービス\n\nEC2\n柔軟性と制御\nLightsail\nコストと手軽さ\nLambda\n運用負荷削除\nFargate\n運用負荷削除\nVMware Cloud on AWS\nハイブリッド環境\n\n\n\nAWS Auto Scaling\nEC2, ECS, DynamoDB/Aurora などに適用\n\n\nAWS Serverless Appl",
+      "published": "2026-09-06T13:43:50+00:00",
+      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -99,15 +144,6 @@
       "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "OpenAI の API キーを削除したのに課金が続いた話（Inactive の鍵は消せない）",
-      "link": "https://zenn.dev/mohhh_ok/articles/2026-09-openai-api-key-deleted-still-charged",
-      "summary": "2026 年 9 月 6 日の夜、OpenAI の API キーを不正利用されて 1 日で $269.19 を使われました。8 月 29 日にも同じ鍵で $3.51 の利用があり、合計 $272.70。自動チャージが月の上限で止まっていたので、残高は -$99.60 のまま残っています。\n金額そのものより、途中で気づいて鍵を削除したあとも約 15 分リクエストが通り続けたことと、8 月 29 日に",
-      "published": "2026-09-06T12:38:33+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "製品が変わるたびに学習し直し？ 少数の正常画像で異常を見つける",
@@ -144,15 +180,6 @@
       "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "GitHub の権限管理を Terraform 化すると体験がよかった",
-      "link": "https://zenn.dev/dev_commune/articles/github-terraform-permission-management",
-      "summary": "はじめに\n新規のメンバーが入るたび、チームの構成が変わるたび、依頼が Slack ワークフローで流れてきます。その都度、GitHub をブラウザで開いてパスキーで認証して、画面をポチポチする。しんどいですね。\nいい加減 Terraform にしました。なにを管理したかと詰まったところについて紹介します。\nhttps://github.com/integrations/terraform-provi",
-      "published": "2026-09-06T11:50:58+00:00",
-      "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "スキルを MCP で配る \"Skills over MCP\" を読む — SEP-2640 の設計を追う",
@@ -335,24 +362,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "AWS資格をSkill Builderで延長してみた",
-      "link": "https://zenn.dev/nekonekonekochi/articles/322d0352531216",
-      "summary": "AWS Certified Developer - Associate の有効期限が近づいてきたので、今回は AWS Skill Builderを使って認定の有効期限を延長しました。\nAWS認定は、有効期限が近づいたら再度試験を受けるイメージがあったのですが、現在は対象の認定であれば、AWS Skill Builder上の学習コンテンツを利用して認定を維持する方法も用意されています。\n今回はその中",
-      "published": "2026-09-06T08:16:52+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "書いた値とAWSが返す値がズレる ―― providerの正規化とドリフト吸収",
-      "link": "https://zenn.dev/terraform_log/articles/terraform-provider-normalizes-values",
-      "summary": "小文字で返ってきたのに「No changes」\nRDSに maintenance_window を設定したときのことです。私はこう書きました。\nmaintenance_window = \"Mon:16:00-Mon:16:30\"\napply後、AWS側の実物を確認すると、値が小文字になっている。\nmon:16:00-mon:16:30\nMon と書いたのに mon で保存されている。これはズレでは",
-      "published": "2026-09-06T07:58:05+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "書いた値とAWSが返す値がズレる ―― providerの正規化とドリフト吸収",
       "link": "https://zenn.dev/terraform_log/articles/terraform-provider-normalizes-values",
       "summary": "小文字で返ってきたのに「No changes」\nRDSに maintenance_window を設定したときのことです。私はこう書きました。\nmaintenance_window = \"Mon:16:00-Mon:16:30\"\napply後、AWS側の実物を確認すると、値が小文字になっている。\nmon:16:00-mon:16:30\nMon と書いたのに mon で保存されている。これはズレでは",
@@ -387,15 +396,6 @@
       "source": "Qiita - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "AWS上で完全自律型のエージェントを24時間働かせるコスト",
-      "link": "https://zenn.dev/yonaka15/articles/d7c304d157de08",
-      "summary": "Qiitaに、AIエージェントに完全自律でサイトを運営させている仕組みを書きました。動画を選ばせて、音声から笑いの回数を測らせて、記事を書かせて、公開のPull Requestまで出させています。人間の承認なしに24時間働きつづけるシステムです。\n今回はAWS側がいくらで回っているかを掘り下げます。\n13日間で545本の記事が公開されました。API使用料を除くとAWS請求は、$0.78（約127円",
-      "published": "2026-09-06T06:52:07+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "フル Google Cloud 環境で PR ごとのプレビュー環境を構築した",
@@ -461,13 +461,13 @@
       "color": "#10A37F"
     },
     {
-      "title": "AIを使ってAWSの試験を合格できるかチャレンジ",
-      "link": "https://zenn.dev/yamazaking/articles/ai-learning-aws",
-      "summary": "結論\nAIを使ってAWSのAIF,CLF試験に合格しました。\n\n\n2026年時点でのAIを使った学習法、資格取得法についてのまとめです。\n\n 前提\nAWSは業務で触ることはほぼないアプリエンジニアですが、最近インフラ側の知識もあるといいなーというのと、ちょうどAWSでこのようなキャンペーンをやっており、安く受験できるというので、AWSの試験を受けてみることにしました。\nあまり勉強費用もかけたくなく",
-      "published": "2026-09-06T04:50:39+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "GPT-6 Astra「Low」とUltraを同じ課題で比較したら、修正コードは同一で推論トークンは5.85倍だった",
+      "link": "https://zenn.dev/yamato_snow/articles/gpt6-astra-low-vs-ultra-token-comparison",
+      "summary": "Codex Desktop で GPT-6 Astra を使っていて、ちょっと引っかかっていたことがあります。\n「Ultra にしておけば安心」って、本当なんでしょうか。\n推論強度を上げればトークンが増えるのは公式ドキュメントにも書いてあります。\nでも「何倍か」は書いていない。しかも自分の手元の課題で、答えの質がどれだけ変わるのかは、測らないと分からないんですよね。\nなので1課題を「軽（Low）」",
+      "published": "2026-09-06T04:49:33+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "レンタルサーバーの死活監視を root なしで作る。cron から 1 回だけ動く agent と、来ないことを見る monitor",
@@ -612,15 +612,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "実写画像のOCRで、CPU専用モデルを2つに分けた理由",
-      "link": "https://zenn.dev/vaonvn/articles/e009decd9eb47f",
-      "summary": "実際の写真から文字と識別番号を読み取るOCRを、GPUなしで動かす必要がありました。要件を詰めていく中で、1つのモデルに全言語を任せるのではなく、2つの独立したエンドポイントに分けるという判断をしました。この記事では、その設計判断の理由と、実装で気をつけた点を書きます。\n\n\n なぜ1つの汎用モデルにしなかったのか\n最初に検討したのは、多言語対応の汎用OCRモデル1つで、英語・日本語・ベトナム語をま",
-      "published": "2026-09-05T08:32:02+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "September 05, 2026",
@@ -1015,6 +1006,15 @@
       "summary": "Kubernetesを運用していると、たくさんのControllerに出会う。Deployment Controller、Job Controller、Horizontal Pod Autoscaler……。\nそれぞれ公式ドキュメントを読んで、設定項目を覚えて、挙動を理解していくこともできる。ただ、制御工学をかじった人間の目でこれらを眺めていると、だんだん別のものに見えてくる。\nエアコンである。",
       "published": "2026-09-02T11:43:42+00:00",
       "source": "Zenn - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "plan前にやるべき地味な確認、terraform fmt と validate",
+      "link": "https://zenn.dev/yasutomo7974/articles/terraform-fmt-validate",
+      "summary": "おはようございます、YASUです。\nGitHub Actionsの設定ファイルの中身を見た時、terraform initとterraform planだけを扱いましたが、実務ではその前段階に、コードの見た目や文法をチェックする工程が挟まることが多いようです。今日はterraform fmtとterraform validateという2つのコマンドを整理してみます。\n\n 結論\nterraform",
+      "published": "2026-09-02T10:04:04+00:00",
+      "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
     },
