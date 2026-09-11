@@ -1,6 +1,60 @@
 {
-  "updated": "2026-09-11T18:01:52.992653+00:00",
+  "updated": "2026-09-11T22:54:06.409696+00:00",
   "items": [
+    {
+      "title": "Cognitoの新UIで「アプリケーションを作成」すると意図せずシークレット必須になる",
+      "link": "https://qiita.com/caymezon/items/8aa0cd75fd851032f26c",
+      "summary": "背景\nCognito + API Gateway + Lambdaで認証付きAPIをコンソールで構築する際、2026年時点の新UIで最も詰まりやすいポイントが、クライアントシークレットの自動付与でした。\n\n1. 新UIの「アプリケーションを作成」はUser PoolとCl...",
+      "published": "2026-09-11T22:20:36+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "CloudWatch Logsの特定ログを自動でメトリクス化する Metric Filter の使い方",
+      "link": "https://qiita.com/caymezon/items/d46c311af5b981295de1",
+      "summary": "背景\nチャットボットの会話ログをAPI経由でCloudWatch Logsに蓄積する構成をコンソールで構築しました。エラーログだけを自動集計する仕組みとして Metric Filter を使ったので、設定のポイントをまとめます。\n\n1. Metric Filter はJS...",
+      "published": "2026-09-11T22:20:22+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "CentOS Stream 9 で OpenAI Tunnel Client と Redmine MCP Server を systemd 常駐化する",
+      "link": "https://qiita.com/mamono210/items/69d889b5ddb47e1e7ff8",
+      "summary": "ChatGPT から社内やローカルネットワーク上の Redmine を操作するため、OpenAI Tunnel Client と Redmine MCP Server（@onozaty/redmine-mcp-server）を CentOS Stream 9 上で常時稼働さ...",
+      "published": "2026-09-11T21:54:01+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "DeepMindがヒトゲノムの1塩基置換 約90億通りを予測した事前計算DB「AlphaGenome Atlas」を無料公開",
+      "link": "https://qiita.com/quotidia/items/4ba849b777c37dfd6b3f",
+      "summary": "本記事は筆者が運営する AI Quotidia の海外ニュース解説記事です。\n\nGoogle DeepMindが2026年9月8日(火)、ヒトのゲノム(生き物の設計図にあたる全DNA情報)で起こりうる約90億通りの1塩基置換(バリアント。\n\n要点\n\nGoogle Deep...",
+      "published": "2026-09-11T21:01:13+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "次トークン予測を「目的関数・文脈内学習・評価」に分解する",
+      "link": "https://zenn.dev/kas_blog/articles/20260509-llm-10-next-token-prediction",
+      "summary": "LLMの学習目標を「次のtokenを当てるだけ」と説明すると、質問応答、翻訳、コード生成、few-shot適応との間に大きな飛躍が残ります。\n重要なのは、目的関数が単純であることと、目的関数を広いdata上で解くための内部計算が単純であることは別だという点です。次tokenの条件付き確率を改善するには、局所的な共起だけでなく、文書内の参照、taskの規則、複数段階の手順を使う方が有利な場面がありま",
+      "published": "2026-09-11T18:35:31+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "fugaku /local storage performance のメモ",
+      "link": "https://zenn.dev/syoyo/articles/c7fba74643665b",
+      "summary": "12 nodes config で 4kb で計測\n\n\n\nNodes\nRanks\nAggregate IOPS\nAggregate MiB/s\nTotal operations\nErrors\n\n\n\n\n1\n1\n14,148.52\n55.27\n424,786\n0\n\n\n2\n2\n24,281.67\n94.85\n729,058\n0\n\n\n4\n4\n31,980.72\n124.92\n960,257\n0\n\n\n6\n6",
+      "published": "2026-09-11T18:03:21+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "111件のテストが通ったのに、本番DBへの適用を止めた。AIコードレビューを別AIで再確認した話",
       "link": "https://qiita.com/kerono/items/1b46f345f09ddd4e0177",
@@ -47,13 +101,22 @@
       "color": "#FF9900"
     },
     {
-      "title": "Amazon Quick のデスクトップアプリがGAしました！同時に来た2つのアップデートも合わせて紹介します",
-      "link": "https://qiita.com/ryosaan/items/5011610ffcd1eb6710c5",
-      "summary": "はじめに\nみなさん、Amazon Quick はもう触られていますか？\n2026年9月9日に、デスクトップアプリが GA（一般提供開始） になりました。しかも同じ日に、Quick まわりのアップデートが他に2本出ています。\n\nAmazon Quick desktop ap...",
-      "published": "2026-09-11T14:07:25+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "OpenAIが「Codexの頭脳」を全開発者に開放 ― 新API「Agents API」で長時間稼働エージェントが誰でも作れる時代へ",
+      "link": "https://zenn.dev/tashikani/articles/openai-agents-api-2026",
+      "summary": "リード\n2026年9月10日、OpenAIは開発者向けに新しいAPI「Agents API」のパブリックベータを公開しました。これは、コーディングエージェント「Codex」を裏側で支えてきた「ハーネス(制御基盤)」――長時間タスクの管理、ツールの効率的な呼び出し、複数エージェントの連携――を、単一のAPI呼び出しで誰でも使えるようにするものです。前日9日には基盤モデル「GPT-6 Astra」も発",
+      "published": "2026-09-11T14:54:06+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "法改正をおっかけるのはめんどくさい！なので、毎日AIに追わせるための土台を作ってみた",
+      "link": "https://zenn.dev/okamyuji/articles/egov-law-sync-daily-law-tracking-for-ai",
+      "summary": "「うちの業務ルール、ちゃんと現行法に沿ってる？」を毎月点検してくれるAIエージェントを作ろう、と思い立ったところまではよかったのであります。条文を横目に判定ロジックを書き、動いた、えらい、と喜んだのも束の間、ふと気づくわけです。これ、来年の改正でまた書き直しじゃないか。再来年も。その次も。法律というやつは、こちらの都合などおかまいなしに、平日はほぼ毎日何かが気づかないうちに変わっているのでした。",
+      "published": "2026-09-11T14:13:46+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "Amazon Quick のデスクトップアプリがGAしました！同時に来た2つのアップデートも合わせて紹介します",
@@ -74,20 +137,29 @@
       "color": "#FF9900"
     },
     {
-      "title": "ChatGPTから使っている自作MCP 6個の構成を整理してみた",
-      "link": "https://qiita.com/rikunode/items/f74ef4db7c67478630ca",
-      "summary": "ChatGPTから普段使っているローカルMCPが増えてきたので、いまの役割分担を一度整理します。\n単にツールを増やしたというより、開発、ナレッジ管理、文章調整、投稿、通知をそれぞれ別のMCPへ分けて、ChatGPTを入口にしています。外から見ると1つのチャットですが、裏では...",
-      "published": "2026-09-11T13:49:34+00:00",
-      "source": "Qiita - ChatGPT",
+      "title": "【godot-llm-gamebench】SWE-2はEffortによってどのように性能が変わるのか",
+      "link": "https://zenn.dev/oubakiou/articles/8be98bfe7a4a65",
+      "summary": "本記事は 実装タスクを外注するモデルは何が適切なのか？ミニゲームを実装させるベンチマーク のシリーズです。このベンチマークを読む上での注意点は以下を参照してください。\n\n今回は親エージェントを claude-opus-5@max、子エージェント（実装の外注先）を Devin CLI 上の SWE-2 に固定して、SWE-2 の各 effort でどのように性能が変化するのかを詳しく見ます。\n\n 今",
+      "published": "2026-09-11T13:55:30+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
     {
-      "title": "Lassoはなぜ係数をゼロにするのか—Ridgeとの幾何学的な違い—",
-      "link": "https://zenn.dev/hiroki_honma/books/b7c5fc7f48569c",
-      "summary": "Lasso が係数をちょうどゼロにするのはなぜか、それはいつ崩れるのか、自分のデータで何を確かめればよいのか。この本は、X に書いた投稿を出発点に、ひし形の角という幾何を前提の列挙、命題と証明、Python の実験まで一続きで確かめます。どんな設計行列でも係数がゼロになる条件は残差との内積の絶対値が λ 以下という幅のある不等式になり、Ridge では内積がちょうど 0 という等式にしかなりません",
-      "published": "2026-09-11T12:24:05+00:00",
-      "source": "Zenn - 機械学習",
+      "title": "圧縮KVキャッシュを下書きに使い、出力を変えず最大4倍にするVeriCache",
+      "link": "https://zenn.dev/okssusucha/articles/20260719-vericache-lossless-kv-cache",
+      "summary": "KVキャッシュを圧縮すると、短い応答ならほとんど気づかない。ところが長いコード生成やエージェントのツール呼び出しでは、途中から出力がじわじわ崩れて、最後には別物になる。この「短距離では無害、長距離では致命的」という性質が、KV圧縮を本番に持ち込むときの一番の悩みどころだった。\nVeriCache という論文（arXiv:2605.17613、2026年5月）は、この問題を真正面から潰そうとするので",
+      "published": "2026-09-11T12:12:51+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Anthropic社「Fable 5」「Mythos 5」を巡る技術的・地政学的分析：攻撃能力とAI統制の深層",
+      "link": "https://zenn.dev/emilia_lab/articles/anthropic-fable5-mythos5-geopolitics",
+      "summary": "導入：兵器化するフロンティアAIと地政学的な歴史的転換点\n2026年6月上旬、世界の人工知能およびサイバーセキュリティの歴史において、最も劇的かつ物議を醸す出来事が発生した。米国サンフランシスコに拠点を置くAI開発企業Anthropicは、同社史上最も強力なAIモデルである「Claude Fable 5」と、その無制限版に位置づけられる「Claude Mythos 5」を同時に発表した。これらの「",
+      "published": "2026-09-11T11:16:32+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -117,15 +189,6 @@
       "source": "ITmedia AI+",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "SAMの`DefaultAuthorizer`1行で全エンドポイントに認証をかけ、特定箇所だけ除外する",
-      "link": "https://qiita.com/caymezon/items/2148b3a7fa49e19d192e",
-      "summary": "背景\nCognito + API Gateway + LambdaでSAMを使い認証付きAPIを構築する際、「全エンドポイントに認証をかけつつ、特定のエンドポイントだけ認証なしにする」という制御が、SAMでは驚くほど簡潔に書けました。\n\n1. DefaultAuthori...",
-      "published": "2026-09-11T10:17:15+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "Gemini CLIをGA4データアナリストとして使う具体的な設定と活用例",
@@ -254,40 +317,13 @@
       "color": "#10A37F"
     },
     {
-      "title": "AI画像プロンプトを使い回すための整理術",
-      "link": "https://qiita.com/aiimgprompt/items/9cf9f762eec4eb72d1a0",
-      "summary": "画像生成AIを仕事で使うようになって、最初にぶつかった壁は「毎回プロンプトを一から考える」ことでした。\n同じような構図、同じような色味が欲しいだけなのに、毎回ゼロから文章を組み立てる。これが地味に時間を食います。そこで、プロンプトを「書くもの」ではなく「貯めて使い回すもの」...",
-      "published": "2026-09-11T07:59:57+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AIエージェントに会社の実務を回させるとき、私が引いている3本の線",
-      "link": "https://zenn.dev/rust_start/articles/0adc828c3bc37a",
-      "summary": "連載「空いた手で」第1回。AI に会社を運転させ、空いた手で日本の文化を次の世代へ渡す、ということを実際にやっています。この回は前半——どうやって手を空けたかの話です。\n\n会社の実務を、複数台の Mac に常駐させたコーディングエージェントに回させている。1台が司令塔、残りが受付と実行。タスク・意思決定・報告は1つの DB と git に集めてあり、エージェントはそこからタスクを取り（claim）",
-      "published": "2026-09-11T07:59:36+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Claude Code運用におけるフックのLLM呼び出し分離設計：レート制限とオーバーヘッドの最適化",
-      "link": "https://zenn.dev/sh39works/articles/39d930f9c0ac30",
-      "summary": "0. 結論\nClaude Codeのフック（Hook）は「自動化できる」ことと「安く自動化できる」ことが別軸であり、両者を混同すると意図せずレート制限に到達する。本稿では実際にレート制限を踏んだ事例をもとに、フック設計の見直し指針を4点にまとめる。\n\n\nフック実行によるサブセッション生成の罠： SessionEndやPreCompact等のフックは、処理内容が空であってもClaude Codeのサ",
-      "published": "2026-09-11T07:44:27+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Claude Codeの設定を消す前に、僕が決めた基準",
-      "link": "https://zenn.dev/gemcook/articles/2336f653026c9e",
-      "summary": "はじめに\nモデルを変えた途端に、前のモデルのために書いた注意書きが効かなくなる。この半年で何度も踏んだ場面で、9 月に入って X でこの投稿を見たとき、正直ちょっと身に覚えがありました。\nhttps://x.com/kawasin73/status/2096030851217887431\n僕は AI ツールに毎月上限まで課金して使い倒し、Claude Code・Codex CLI・Grok Bui",
-      "published": "2026-09-11T07:29:45+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
+      "title": "September 11, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#September_11_2026",
+      "summary": "API Gateway\nFeature\nEnable Model Context Protocol (MCP)\nYou can now configure API Gateway to act as a remote Model Context Protocol (MCP) server. This Public Preview feature allows you to expose your",
+      "published": "2026-09-11T07:00:00+00:00",
+      "source": "Google Cloud リリースノート",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "【Proxmox × Terraform × Ansible】オンプレミスIaC完全自動化ロードマップ",
@@ -297,15 +333,6 @@
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "AIエージェントの失敗を228件記録したら、根本原因は3つしかなかった",
-      "link": "https://zenn.dev/tokium_dev/articles/ai-agent-failure-patterns-228",
-      "summary": "!\nこの記事は何の話か（3 行まとめ）\n\nAI（Claude Code）が失敗するたびに教訓を1ファイル1パターンで記録する運用を数ヶ月続けたら228件たまったので、全件を分類集計しました\n教訓の大半は「Yする前にXせよ」「XはYではない」の2つの構文に収束しており、規律系の失敗の根本原因は3つ（代理シグナルの過信・否定の早撃ち・浦島太郎現象）しかありませんでした\n\ndb:prepare が ex",
-      "published": "2026-09-11T06:34:12+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "【試験改定】AWS MLA-C01 → MLA-C02 の変更点まとめ：生成AI・AIエージェント（Bedrock）が範囲に入る",
@@ -335,15 +362,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "文字数・バイト数からのトークン数推定は実際どれくらいズレるのか",
-      "link": "https://zenn.dev/aiforall/articles/63501821b1e50e",
-      "summary": "背景\n実務で、LLM への入力テキストがトークン数の上限を超えてエラーになる事象が発生し、対策を検討する場面がありました。対策案として、LLM に投げる前に文字数やバイト数、あるいは tiktoken のようなトークナイザーでトークン数を事前に見積もり、上限を超えそうであれば送信前にエラーを表示する「事前バリデーション」方式が候補に挙がりました。\nしかし議論の中で、「その見積もりが、実際に LLM",
-      "published": "2026-09-11T05:33:13+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Google Cloud Speech-to-Textの用語ヒントで模擬技術講演のCERが64.8%から25.4%に下がった",
       "link": "https://zenn.dev/hogehogetaro/articles/google-cloud-speech-transcription",
       "summary": "前日のVertex AI RAG Engineをあえて推測させたら、誤答は24/24件から9/24件へ減ったでは、RAGの有無と回答指示でハルシネーションがどう変わるか確認しました。\n今回はGoogle Cloud Speech-to-Textへ技術用語を含む52.41秒の模擬講演音声を送り、どこまで文字起こしできるか確認します。\nクリーン音声とホワイトノイズを加えた音声を、用語ヒントなし・ありの",
@@ -369,24 +387,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "CLAUDE_CODE_SUBAGENT_MODELだけではpin済みsubagentのモデルを変えられない",
-      "link": "https://zenn.dev/clopy/articles/claude-subagent-model-force-precedence-gap",
-      "summary": "結論から: 環境変数だけでは足りない\n.claude/agents/*.md にコスト重視のカスタムsubagentを model: sonnet で固定し、CIや共有devcontainerで CLAUDE_CODE_SUBAGENT_MODEL=haiku をexportしている場合、それだけでは狙い通りにコストを抑えられません。\nClaude Code 2.1.257で実際に検証したところ、",
-      "published": "2026-09-11T04:13:38+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "なぜLLMに最適化コードを書かせず、DSLを書かせるのか",
-      "link": "https://zenn.dev/koshoshi/articles/609309957766e9",
-      "summary": "はじめに\n先日Qiitaに「LLMに数理最適化モデルを書かせるときの『もっともらしい間違い』をどう検出するか」という記事を書いた。書き終えてから引っかかっていたのだが、あの記事は、生成したコードを実際に解かせて検証する仕組みにかなりの比重を置いていて、なぜそこまで検証にこだわるのかという前提を書いていなかった。\nOptiBuddyの出発点にあったのは、4層のDSL(ドメイン固有言語)と、人間がとこ",
-      "published": "2026-09-11T04:12:46+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "Sakana AI、一部「GPT-6 Astra」「Fable 5.1」超えうたうFugu最新版　連携先に「両モデルは含まず」",
@@ -540,6 +540,15 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "タイヤメーカーがロボットハンド特許の1位だった。特許367件をAIで地図にして分かったこと",
+      "link": "https://zenn.dev/cyanary/articles/8ff79d2be0ef8a",
+      "summary": "ロボットハンドの特許を数えたら、1位はロボットメーカーではなくブリヂストンだった。\nそして特許367件をAIで「地図」にすると、特許庁が「ロボットハンド」の一言でまとめている領域が、いくつかの島に分かれて見えた。半導体の島、医療の島、そしてブリヂストンが陣取る島。\nこの記事は、その地図を作った手順と、途中で失敗した箇所の記録だ。使ったのは無料のツールだけで、費用はゼロ、登録したのはメールアドレスだ",
+      "published": "2026-09-10T23:08:36+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "旧webサイト移行をAIにまかせた",
@@ -1181,18 +1190,18 @@
       "color": "#FF9900"
     },
     {
-      "title": "AWS Transfer Family SFTP コネクタが認証情報のローテーション時におけるファイル転送の継続をサポート",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
-      "summary": "AWS Transfer Family SFTP コネクタでは、リモート SFTP サーバーへの認証に使用する認証情報をローテーションしている間も、ファイル転送を継続して実行するようになりました。認証情報をローテーションするたびに、新しいシークレットバージョンを参照するようコネクタを更新する必要はなくなりました。これにより手作業の手順が 1 つ減り、ローテーション期間中の転送の失敗を回避しやすくな",
+      "title": "Amazon SageMaker AI バッチ変換が G6e インスタンスをサポート",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/",
+      "summary": "Amazon SageMaker AI のバッチ変換では Amazon EC2 G6e インスタンスをサポートするようになりました。バッチ変換を使用すると、Amazon S3 に保存されたデータセットに対して予測を実行できます。これは永続的な推論エンドポイントを必要としない大規模なデータセットに適しています。\nAmazon EC2 G6e インスタンスには、GPU あたり 48 GB のメモリを備",
       "published": "2026-09-04T08:00:00+00:00",
       "source": "AWS What's New（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "Amazon SageMaker AI バッチ変換が G6e インスタンスをサポート",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/",
-      "summary": "Amazon SageMaker AI のバッチ変換では Amazon EC2 G6e インスタンスをサポートするようになりました。バッチ変換を使用すると、Amazon S3 に保存されたデータセットに対して予測を実行できます。これは永続的な推論エンドポイントを必要としない大規模なデータセットに適しています。\nAmazon EC2 G6e インスタンスには、GPU あたり 48 GB のメモリを備",
+      "title": "AWS Transfer Family SFTP コネクタが認証情報のローテーション時におけるファイル転送の継続をサポート",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
+      "summary": "AWS Transfer Family SFTP コネクタでは、リモート SFTP サーバーへの認証に使用する認証情報をローテーションしている間も、ファイル転送を継続して実行するようになりました。認証情報をローテーションするたびに、新しいシークレットバージョンを参照するようコネクタを更新する必要はなくなりました。これにより手作業の手順が 1 つ減り、ローテーション期間中の転送の失敗を回避しやすくな",
       "published": "2026-09-04T08:00:00+00:00",
       "source": "AWS What's New（日本語）",
       "tag": "AWS",
@@ -1248,15 +1257,6 @@
       "link": "https://docs.cloud.google.com/release-notes#September_02_2026",
       "summary": "AlloyDB for PostgreSQL\nFeature\nAlloyDB real-time data access to BigQuery (in Preview) now offers limit pushdown and runtime projects:\n\nLimit pushdown: when you query foreign tables, some LIMIT and OFF",
       "published": "2026-09-02T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "September 01, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#September_01_2026",
-      "summary": "Apigee UI\nAnnouncement\nOn September 1, 2026, we released an updated version of the Apigee UI.\nFixed\n\n\n\nBug ID\nDescription\n\n\n\n\n547582067\n\n\nRevisions can now be imported for API proxies and shared flows",
-      "published": "2026-09-01T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
