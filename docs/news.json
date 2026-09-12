@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T17:33:22.047676+00:00",
+  "updated": "2026-09-12T19:55:06.063326+00:00",
   "items": [
     {
       "title": "JAX で学習した Transformer の重みを PyTorch に移植する",
@@ -9,6 +9,60 @@
       "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "AgentCore Gateway は必要？Amazon Quick から MCP 直結と比較した",
+      "link": "https://zenn.dev/aws_japan/articles/amazon-quick-agentcore-gateway-vs-direct-mcp",
+      "summary": "はじめに\nこんにちは、AWS Japan でソリューションアーキテクトをしているいなりくです。\n2026 年 8 月 31 日、AWS Machine Learning Blog に「Connect an AgentCore Runtime-hosted MCP server to Amazon Quick」が公開されました。\nhttps://aws.amazon.com/blogs/machin",
+      "published": "2026-09-12T16:31:30+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "GuardDuty×EventBridge×Lambdaで組む、Organizationsクロスアカウント自動封じ込め ― 設計編",
+      "link": "https://zenn.dev/nyondev/articles/zenn-article-design",
+      "summary": "この記事の位置づけ\nある企業がAWS Organizationsで12の本番アカウントを運用しているという想定で、次の4点を満たすセキュリティ基盤の設計を検証した。\n\n本番アカウント全体にわたり、不審なAPI呼び出しや普段と異なる通信を継続して見つけ出す\n見つかった事象に対し、担当者の操作を挟まずに封じ込めの処理を走らせる\n重大度の高い検出が出たときにAmazon SNSへ通知する\n検出結果をすべ",
+      "published": "2026-09-12T16:01:34+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "S3ライフサイクルの最小オブジェクトサイズ・最大オブジェクトサイズを検証してみた",
+      "link": "https://zenn.dev/vibe_coder/articles/s3-lifecycle-minmax-test",
+      "summary": "はじめに\nS3のライフサイクルルールでオブジェクトを自動削除するとき、「フォルダーが消えてしまう」という話をよく見かけます。\nその回避策として、ルールの最小オブジェクトサイズに1バイトを指定する方法が紹介されています。\n\n［小ネタ］S3ライフサイクルルールでフォルダを削除しないようにする方法\n\n一方でAWSの公式ドキュメントを読むと、0バイトを指定しても同じ結果になると解釈できる記述があります。",
+      "published": "2026-09-12T15:55:26+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "開発環境設定：AWS Organizations & SSOの初期設定",
+      "link": "https://zenn.dev/ops_awsdevspace/articles/aws-organizations-setup",
+      "summary": "1. 本記事の目的\n本記事は、個人開発で使用しているAWS環境の構成・設定内容を整理したメモです。AWS OrganizationsやIAM Identity Centerの基礎説明を目的とした記事ではありません。\n\n 2. AWS OrganizationsとIAM Identity Center（SSO）\n\n 2.1. AWS Organizationsとは\n💡 グローバルサービス\nAWS O",
+      "published": "2026-09-12T15:40:41+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AIに頼っていた自分が、TerraformでLambda+IAM+CloudWatch Logsを手書きしてみた",
+      "link": "https://zenn.dev/satoru_o/articles/2485602b8cb770",
+      "summary": "この記事は誰向けか\nふだんインフラコードは生成AIに書かせることが多い人が、あえて自分の手だけでTerraformを書いてみると実際どこで詰まるのかを知りたい人向けの記事です。\n今回、個人の学習環境でAWS Lambda + IAM実行ロール + CloudWatch Logsロググループの構成を、AIの手を借りずに最初から自分で書いてみました。SDK呼び出し(CLIのaws lambda inv",
+      "published": "2026-09-12T15:39:56+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AIに頼っていた自分が、TerraformでLambda+IAM+CloudWatch Logsを手書きしてみた",
+      "link": "https://zenn.dev/satoru_o/articles/2485602b8cb770",
+      "summary": "この記事は誰向けか\nふだんインフラコードは生成AIに書かせることが多い人が、あえて自分の手だけでTerraformを書いてみると実際どこで詰まるのかを知りたい人向けの記事です。\n今回、個人の学習環境でAWS Lambda + IAM実行ロール + CloudWatch Logsロググループの構成を、AIの手を借りずに最初から自分で書いてみました。SDK呼び出し(CLIのaws lambda inv",
+      "published": "2026-09-12T15:39:56+00:00",
+      "source": "Zenn - Terraform",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "Amazon MWAA Serverless で PythonOperator と BashOperator が利用可能に",
@@ -110,6 +164,15 @@
       "color": "#326CE5"
     },
     {
+      "title": "DynamoDBで『更新したのに古い値が返る』を理解する：結果整合性と強い整合性の使い分け",
+      "link": "https://zenn.dev/sponge841841/articles/2026-09-12-dynamodb-read-consistency",
+      "summary": "DynamoDBを使っていると、次のような現象に遭遇することがあります。\n\nUpdateItem は成功したのに、直後に読み直したら古い値が返ってきた。\n\nこれは必ずしも不具合ではありません。\nDynamoDBの読み取りは、デフォルトでは 結果整合性（Eventually Consistent Read） です。\nこの記事では、結果整合性と 強い整合性（Strongly Consistent Re",
+      "published": "2026-09-12T10:03:46+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "Qiitaを280本書いたら自分でも探せなくなったので、AI要約と「読み応え」で索引を作ってみた",
       "link": "https://qiita.com/sakaimaging/items/8e46db55984e83894907",
       "summary": "はじめに\nQiitaの記事が増えてくると、タイトルを見ても「これ、何を書いた記事だったっけ？」となることがあります。私の場合、気づけば280本ほどになっていて、過去の記事を探すのが少し大変になってきました。\nまた、自分で記事を読み返したり誰かに紹介したりするときには、「何...",
@@ -135,6 +198,15 @@
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "ハエの脳を SageMaker AI で動かして画像認識をさせてみた",
+      "link": "https://zenn.dev/aws_japan/articles/flyvis-sagemaker-moving-mnist",
+      "summary": "はじめに\n最近、ハエの脳の配線図をコンピュータ上で動かして DOOM やマリオを操作させたり、クルマを走らせたりする実験が相次いで話題になっています。ハエの脳が丸ごと配線図になっていて、しかもそのデータを誰でも使えます。\n調べてみると、ハエの視覚系をコネクトームの結線どおりに組んだニューラルネットワーク FlyVis が PyTorch の実装として公開されていて、pip install flyv",
+      "published": "2026-09-12T09:01:35+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "ハエの脳を SageMaker AI で動かして画像認識をさせてみた",
@@ -171,6 +243,33 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "Snowflakeアカウントを別組織の新アカウントに再構築した",
+      "link": "https://zenn.dev/comoli/articles/b4d2c246ae5654",
+      "summary": "3行まとめ\n\nTerraform・dbt・Snowflake DCMで構成を管理していたので、必要な定義を揃えた後は順番に適用すれば再構築できた\nAWSアカウントは移管済みで識別子も変わらず、既存リソースをそのまま使えた。Snowflakeとの信頼設定だけ更新した\nデータの大半はFivetranやS3・GCSから再取得でき、旧環境から直接移したのは4テーブルだけだった\n\n会社のカーブアウトに伴い、",
+      "published": "2026-09-12T07:10:54+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Snowflakeアカウントを別組織の新アカウントに再構築した",
+      "link": "https://zenn.dev/comoli/articles/b4d2c246ae5654",
+      "summary": "3行まとめ\n\nTerraform・dbt・Snowflake DCMで構成を管理していたので、必要な定義を揃えた後は順番に適用すれば再構築できた\nAWSアカウントは移管済みで識別子も変わらず、既存リソースをそのまま使えた。Snowflakeとの信頼設定だけ更新した\nデータの大半はFivetranやS3・GCSから再取得でき、旧環境から直接移したのは4テーブルだけだった\n\n会社のカーブアウトに伴い、",
+      "published": "2026-09-12T07:10:54+00:00",
+      "source": "Zenn - Terraform",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "FSx for Lustre クライアントの DKMS 化",
+      "link": "https://zenn.dev/tosshi/articles/73cedcb6add298",
+      "summary": "はじめに\nAmazon FSx for Lustre を Ubuntu からマウントする手順は、ドキュメントに従うと次の 1 行から始まります。\nsudo apt install lustre-client-modules-$(uname -r)\nこのコマンドは、動かしているカーネルによっては失敗します。パッケージ名にカーネルのリリースが入っているため、そのリリース向けのパッケージがリポジトリに無",
+      "published": "2026-09-12T06:49:17+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "AWSアプリ開発の初手が変わる？ Nx Plugin for AWSは何を自動化し、何を人に残すのか",
@@ -245,15 +344,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "AWSコスト、削れる無駄ベスト10 ── 現場のコスト最適化",
-      "link": "https://zenn.dev/riverwell2359/articles/aws-15-cost-optimization-top10",
-      "summary": "はじめに：AWSの請求書、9割の現場に「無駄」がある\nクラウドは「使った分だけ」が魅力。でも裏を返せば、気づかぬうちに無駄が積み上がるのもクラウド。\n現場でコストを見直すと、ほぼ必ず削れる箇所が出てきます。今日は削れる無駄ベスト10を、効果の大きい順に紹介します。\n最初に体験談をひとつ。あるプロジェクトで「請求が先月より3割増えた」と相談を受け、Cost Explorerを開いたら、検証用に立てた",
-      "published": "2026-09-12T03:06:19+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "pdlc-skills は進捗・変更の影響・品質の傾向をどう見せるのか",
       "link": "https://zenn.dev/kanfupanda/articles/pdlc-progress-impact-retro",
       "summary": "!\nこの記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/09/05/pdlc-progress-impact-retro.html\n\n\n\n前回は品質の鎖について書きました。今回は見えることの話です。AI は午後のあいだに三つの機能を進めます。いまどこまで進んだのか、ここを直すと何に波及するのか、この期間はどうだったのか。",
@@ -272,15 +362,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "欲しいスマホアプリもコーディングエージェントで自分で作ろう",
-      "link": "https://zenn.dev/cyberbose/articles/build-your-own-app",
-      "summary": "生成 AI モデルと AI エージェントの進歩によって、普段の仕事は AI エージェントなしでは考えられない時代になり、skills やエージェントに頼る日々です。一方でプライベートはスマートフォンが中心で PC を開くことがほぼないため、いっそ痒い所に手が届くスマホアプリもコーディングエージェントで作ってしまおうという話です。\n\n 作ったもの\n\n買いたいものとお店を登録しておくと、お店の近くで「",
-      "published": "2026-09-12T02:49:19+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "【技術解説】Python複雑ネットワーク解析でペアトレードをマスター！Python実装ガイド",
       "link": "https://qiita.com/sugarfree/items/a6b3a5aa65515af6e077",
       "summary": "Pythonを用いたペアトレードの実装ガイド\n本記事では、Pythonを用いたペアトレードの実装方法を解説します。ペアトレードは、価格の相関性を利用したトレーディング戦略であり、特に複雑ネットワーク解析の視点からその有用性を探ります。使用する主なライブラリには、yfina...",
@@ -297,15 +378,6 @@
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "Amazon Bedrockのモデルが日本リージョン内で推論されるか確認する方法",
-      "link": "https://zenn.dev/ncdc/articles/b4c782e2503539",
-      "summary": "はじめに\nGoogle Cloud上に構築していたAIエージェントのシステムを、最近AWSに移行しました。\n移行の理由は、使いたいClaudeのモデルがVertex AIでは日本国内に閉じた推論処理ができなかったためです。\n日本国内に推論処理を限定できるAmazon Bedrockを使いたく、移行することにしました。\n「Bedrockなら日本リージョンで使える」という話はどこからともなく耳にしてい",
-      "published": "2026-09-12T01:20:01+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "6 ProをWorkのAstraに査読させたら、査読者まで検体になった件",
@@ -333,15 +405,6 @@
       "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "@aws-sdk/client-s3 は Cloudflare Workers で動かない ― エラーも出ずに機能だけ死ぬ",
-      "link": "https://zenn.dev/st0202/articles/aws-sdk-s3-workers-unenv-s3mini",
-      "summary": "Cloudflare R2 に画像を保存する処理を書いた。R2 は S3 互換なので、@aws-sdk/client-s3 をそのまま使った。ローカルでは動いた。\nWorkers にデプロイしたら、エラーは出ないのに保存されていなかった。\n\n 見つかったきっかけは、別件の調査だった\nまったく別の 502 エラーを wrangler tail で追っていて、同じログの中にこれを見つけた。\nGET /",
-      "published": "2026-09-12T00:30:07+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "KubernetesでPodが起動しない（Pending/Failed/CrashLoopBackOff）ときの原因特定フローと調査コマンド集",
@@ -407,15 +470,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "Amazon Bedrockの初回利用でAnthropicモデルがAccessDeniedになったときに確認したこと",
-      "link": "https://zenn.dev/fusic/articles/1b762e38a7fc54",
-      "summary": "はじめに\nFusicのレオナです。\nAmazon Bedrockを初めて利用するAWSアカウントで、Anthropicモデルのユースケース情報を提出し、Claude Sonnet 4.6を呼び出そうとしたところ、次のエラーが発生しました。\nAccessDeniedException: Model access is denied due to IAM user or service role is",
-      "published": "2026-09-11T22:00:05+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "One HealthのAIはなぜ分断されるか——Model Context Protocol（MCP）という「つなぎ役」の可能性",
       "link": "https://zenn.dev/taichiendoh/articles/one-health-ai-mcp-orchestration",
       "summary": "2026年、人・動物・環境の健康をひとつながりで捉える「One Health（ワンヘルス）」領域で、AIによる統合監視システムを提案する論文が公開されました。\n出典：Sorrentino et al.「From Reactive to Predictive One Health: AI-Enabled Frameworks for Integrated Zoonotic Surveillance",
@@ -450,24 +504,6 @@
       "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "Amazon Quick のデスクトップアプリがGAしました！同時に来た2つのアップデートも合わせて紹介します",
-      "link": "https://zenn.dev/nnydtmg/articles/aws-quick-desktop-ga-202609",
-      "summary": "はじめに\nみなさん、Amazon Quick はもう触られていますか？\n2026年9月9日に、デスクトップアプリが GA（一般提供開始） になりました。しかも同じ日に、Quick まわりのアップデートが他に2本出ています。\n\nAmazon Quick desktop app is now generally available on macOS and Windows\nAmazon Quick a",
-      "published": "2026-09-11T14:06:58+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "KiroだけでIAMレビューはどこまでできる？ IAM Access Analyzerとの77 Run比較で見えた役割分担",
-      "link": "https://zenn.dev/nobu_13/articles/fe8e1f1d10de4a",
-      "summary": "KiroだけでIAMレビューはどこまでできる？ IAM Access Analyzerとの77 Run比較で見えた役割分担\n「KiroでAWS開発ライフサイクルをどこまでAgentic化できるのか」シリーズ第4弾です。\nこれまで、Kiro Specs、Steering、Hooksを使ってCloudFormation開発を検証してきました。\n\n第1弾: https://zenn.dev/nobu_1",
-      "published": "2026-09-11T14:01:20+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "Lassoはなぜ係数をゼロにするのか—Ridgeとの幾何学的な違い—",
@@ -519,27 +555,9 @@
       "link": "https://zenn.dev/kotabook_dev/articles/7c636079de9705",
       "summary": "はじめに\n普段、私はAmazon EKS（以下、EKS）を使ったシステムの運用に携わっています。\n業務を通してKubernetesに触れてはいたものの、日々必要になる知識は担当するシステムや障害に関係する範囲へ偏りがちです。そこで、断片的に身につけてきた知識を体系的に整理するため、CKA（Certified Kubernetes Administrator）とCKAD（Certified Kube",
       "published": "2026-09-11T09:55:33+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "CKA・CKADの学びからYAMLとkubectlの対応を可視化できるサイトを作った",
-      "link": "https://zenn.dev/kotabook_dev/articles/7c636079de9705",
-      "summary": "はじめに\n普段、私はAmazon EKS（以下、EKS）を使ったシステムの運用に携わっています。\n業務を通してKubernetesに触れてはいたものの、日々必要になる知識は担当するシステムや障害に関係する範囲へ偏りがちです。そこで、断片的に身につけてきた知識を体系的に整理するため、CKA（Certified Kubernetes Administrator）とCKAD（Certified Kube",
-      "published": "2026-09-11T09:55:33+00:00",
       "source": "Zenn - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "Strands Agentsのプロンプトキャッシュで 社内RAG Agentの入力コストを半減させてみた",
-      "link": "https://zenn.dev/fusic/articles/50a7b980a8e9bc",
-      "summary": "背景\nこんにちは、Fusicの大宮です。\n私は、社内向けSlack Botである「Fusicマン+」の運営をしています。\nFusicマン+は、Confluenceの社内ハンドブックを検索して質問に答えるRAG AI エージェントです。\n運用開始してから時間も経過していたので、改めてコストを見直したい思い運用コストを調べていたところ、ECSやSecretManagerなどの固定費は月＄13~15であ",
-      "published": "2026-09-11T09:28:10+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "Next.jsのDockerビルド時間を約19分短縮した話",
@@ -1073,24 +1091,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "【Ansible編】AnsibleでWebサーバー（Nginx）構築を自動化",
-      "link": "https://zenn.dev/seita621/articles/c0acaa6fb9db37",
-      "summary": "前回\nhttps://zenn.dev/seita621/articles/c3bd01700ac50c\n\n 1. はじめに\n前回は、ProxmoxのVM作成をTerraformで構築し、OSのインストール画面を手動で操作する手間を省き、コマンド一つで必要なスペック・IPアドレスを持ったVMを量産できる環境を構築しました。\n今回はAnsibleを使って、  初期設定およびWebサーバーの構築を自動",
-      "published": "2026-09-07T06:11:47+00:00",
-      "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "MWAA通知基盤にBedrock AgentCoreとLambda MCPを組み込む",
-      "link": "https://zenn.dev/geneg/articles/2026-09-07-aws-mcp-server-adds-a-serverless",
-      "summary": "はじめに\n以前書いた「MWAA × EventBridge 通知基盤に Bedrock AgentCore を組み込む一歩先の設計」は、想定以上に読まれ続けています。MWAA (Managed Workflows for Apache Airflow) のタスク失敗イベントを EventBridge 経由で拾い、Bedrock AgentCore に一次トリアージさせるという構成でしたが、あの記事",
-      "published": "2026-09-07T05:40:23+00:00",
-      "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "VS Code誕生から現在までの物語「The Story of VS Code」YouTubeで公開。作者のエリック・ガンマ氏はなぜIBMからMSへ移籍してVS Codeを作ることになったか",
       "link": "https://www.publickey1.jp/blog/26/vs_codethe_story_of_vs_codeyoutubeibmmsvs_code.html",
       "summary": "Visual Studio Code（以下、VS Code）はいまやITエンジニアのあいだで最も人気のあるコードエディタの地位を確立しています。 VS Codeはオープンソースであり、そしてWindows、Mac、Linuxのマルチプラット...",
@@ -1190,18 +1190,18 @@
       "color": "#FF9900"
     },
     {
-      "title": "AWS Transfer Family SFTP コネクタが認証情報のローテーション時におけるファイル転送の継続をサポート",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
-      "summary": "AWS Transfer Family SFTP コネクタでは、リモート SFTP サーバーへの認証に使用する認証情報をローテーションしている間も、ファイル転送を継続して実行するようになりました。認証情報をローテーションするたびに、新しいシークレットバージョンを参照するようコネクタを更新する必要はなくなりました。これにより手作業の手順が 1 つ減り、ローテーション期間中の転送の失敗を回避しやすくな",
+      "title": "Amazon SageMaker AI バッチ変換が G6e インスタンスをサポート",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/",
+      "summary": "Amazon SageMaker AI のバッチ変換では Amazon EC2 G6e インスタンスをサポートするようになりました。バッチ変換を使用すると、Amazon S3 に保存されたデータセットに対して予測を実行できます。これは永続的な推論エンドポイントを必要としない大規模なデータセットに適しています。\nAmazon EC2 G6e インスタンスには、GPU あたり 48 GB のメモリを備",
       "published": "2026-09-04T08:00:00+00:00",
       "source": "AWS What's New（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "Amazon SageMaker AI バッチ変換が G6e インスタンスをサポート",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/",
-      "summary": "Amazon SageMaker AI のバッチ変換では Amazon EC2 G6e インスタンスをサポートするようになりました。バッチ変換を使用すると、Amazon S3 に保存されたデータセットに対して予測を実行できます。これは永続的な推論エンドポイントを必要としない大規模なデータセットに適しています。\nAmazon EC2 G6e インスタンスには、GPU あたり 48 GB のメモリを備",
+      "title": "AWS Transfer Family SFTP コネクタが認証情報のローテーション時におけるファイル転送の継続をサポート",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
+      "summary": "AWS Transfer Family SFTP コネクタでは、リモート SFTP サーバーへの認証に使用する認証情報をローテーションしている間も、ファイル転送を継続して実行するようになりました。認証情報をローテーションするたびに、新しいシークレットバージョンを参照するようコネクタを更新する必要はなくなりました。これにより手作業の手順が 1 つ減り、ローテーション期間中の転送の失敗を回避しやすくな",
       "published": "2026-09-04T08:00:00+00:00",
       "source": "AWS What's New（日本語）",
       "tag": "AWS",
