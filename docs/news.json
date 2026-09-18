@@ -1,6 +1,15 @@
 {
-  "updated": "2026-09-18T17:58:26.364366+00:00",
+  "updated": "2026-09-18T20:29:29.470422+00:00",
   "items": [
+    {
+      "title": "RLCDってなんだ？ — 文字を生成しないAI「Jev」を採用すべきかの判断基準",
+      "link": "https://qiita.com/GeneLab_999/items/9d3daa593050907325fa",
+      "summary": "この記事の対象読者\n\nLLM に分類・ルーティング・スコアリングをやらせていて、コストかレイテンシに困っている実務者\n\nこの記事で得られること\n自分のワークロードのうち、どの判断をSystem Oneモデルに出してよいかを、ECE・カバー率・月額コストの3つの数字で決...",
+      "published": "2026-09-18T19:13:29+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "Amazon Bedrock AgentCore Runtime V2 が登場、V1 との違いを整理してみた",
       "link": "https://qiita.com/yama3133/items/c7b437006f89fc49e4d9",
@@ -60,6 +69,15 @@
       "link": "https://zenn.dev/kipcop/articles/b42-go-36x-terraform",
       "summary": "この記事で学ぶこと\n#34 から3回かけて、VPC という敷地の上に ECS のアプリと RDS のデータベースを載せる設計を積み上げてきました。そして #34 の付録で「この連載ではコンソールのクリック手順をあえて書きません」と宣言しました。この付録はその伏線の回収です。\nインフラをコードとして宣言し、差分を確認してから適用する。IaC（Infrastructure as Code、インフラのコ",
       "published": "2026-09-18T14:28:10+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "【付録】Terraformでインフラをコードにする - 42日でバックエンドエンジニアの基礎を完全に理解する",
+      "link": "https://zenn.dev/kipcop/articles/b42-go-36x-terraform",
+      "summary": "この記事で学ぶこと\n#34 から3回かけて、VPC という敷地の上に ECS のアプリと RDS のデータベースを載せる設計を積み上げてきました。そして #34 の付録で「この連載ではコンソールのクリック手順をあえて書きません」と宣言しました。この付録はその伏線の回収です。\nインフラをコードとして宣言し、差分を確認してから適用する。IaC（Infrastructure as Code、インフラのコ",
+      "published": "2026-09-18T14:28:10+00:00",
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
@@ -92,24 +110,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "AIに「キャラの装備を勝手に変えるな」と言っても無駄だった。State Machineで縛った話",
-      "link": "https://zenn.dev/nepm_prompt/articles/f20509f933520c",
-      "summary": "AIは「できました」と言う。\nAIは「できません」とも言う。\nでも、そのどちらも事実とは限らない。\nAI画像生成で連続したイラストストーリーを作っていると、妙なことが起きます。\n\n1ページ目では正しかったキャラクターの装備が、数ページ後にはいつの間にか変わっている。\n頼んでもいないのに複数シーンを1枚にまとめる。\nまだ画像が生成されていないのに、AIが「完成しました」と言って物語を先へ進めてしまう",
-      "published": "2026-09-18T11:42:12+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AIサポートPoCの成功指標を事前に固定する — 重み付き評価ケースとLLMジャッジによる合否判定",
-      "link": "https://zenn.dev/jinno_ai/articles/poc-success-metrics",
-      "summary": "生成AI製品のPoC (概念実証) の合否が「担当者の印象」で決まることがある。デモが雰囲気よく見えた、応答がそれっぽかった、で採用判断をしてしまう。この記事は、AIサポート (カスタマーサポート自動応答) のPoCの成功指標を開始前に固定し、重み付きの評価ケース通過率で合否を判定する測定設計の記録である。\n対象は、LLMの応答品質をPoCで判定したいエンジニアと評価担当。判定をLLMジャッジに委",
-      "published": "2026-09-18T11:07:09+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "手書き INT8 が FP32 より遅かった — MobileNetV2 を int8 パイプラインに作り直す",
       "link": "https://zenn.dev/ux_xu/articles/mlir-mobilenet-int8-neon-pipeline",
       "summary": "はじめに\nMobileNetV2 を Raspberry Pi 5（Cortex-A76）上で手書き NEON によって速くしてきた話の続きです。FP32 では 29.5 ms まで詰め、ONNX Runtime（以下 ORT）の FP32 シングルスレッド（33 ms）を上回りました。\n\n次は INT8 です。データ量が半分になり、Cortex-A76 には sdot（8bit ドット積命令）も",
@@ -128,13 +128,13 @@
       "color": "#10A37F"
     },
     {
-      "title": "【売上0円】Mac miniで自律AIを毎時動かしてわかった、プロンプトより先に組むべき3つの運用ルール",
-      "link": "https://zenn.dev/sora_proj/articles/f54b524f10cb49",
-      "summary": "昨日の20時起動で、199回目の定例会議が終わった。\n売上は綺麗さっぱり0円だ。\nMac mini 1台を朝9時から夜22時まで毎時起動させている某株式会社のAI部署の会社実験である。今週の実入金は0円、note に投下した7記事の累計ビューは合計で91、Kindle 本の注文数は0だ。\n初期資金として用意した10万円のうち、累計支出は782円。X の API 代に前払いした分だけで、あとは Ma",
-      "published": "2026-09-18T10:19:32+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
+      "title": "AI.GENERATE完全ガイド — 引数・戻り値STRUCT・実務での使いどころ",
+      "link": "https://zenn.dev/web_benriya/articles/bigquery-ai-generate-complete-guide",
+      "summary": "はじめに\nシリーズ第5回、フェーズ2の第1回です。\n前回（第4回）では ML.GENERATE_TEXT から新世代の AI.* 関数への移行を整理しました。今回からフェーズ2として、個々の AI 関数を掘り下げていきます。最初は AI.GENERATE です。\nAI.GENERATE は AI SQL 関数群の中で最も汎用性が高く、他の関数が提供しない細かい制御を必要とする場面で使います。引数の",
+      "published": "2026-09-18T10:13:05+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "障害物ジャンプゲームをDocker化してECRに登録し、ECS Fargateで動かす",
@@ -144,15 +144,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "障害物ジャンプゲームをDocker化してECRに登録し、ECS Fargateで動かす",
-      "link": "https://zenn.dev/tmtk/articles/dd3224cc2fe474",
-      "summary": "はじめに\nECSを初めて触るときは、「イメージを作る → ECRに置く → ECSで動かす」の一連の流れを、まず1つのコンテナで通しておくと理解しやすくなります。\nHello Worldだけでも確認できますが、今回はもう少し動きが分かる題材として、横スクロール型の障害物ジャンプゲーム「Container Runner」を作ります。Spaceキーや画面タップでコンテナをジャンプさせ、荷箱を避けるシン",
-      "published": "2026-09-18T09:39:05+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "YOLO26nアーキテクチャ徹底解析 step4 | Detectブロック",
@@ -317,6 +308,15 @@
       "color": "#4285F4"
     },
     {
+      "title": "Markdownは新しい攻撃ベクトルになった — AIエージェント時代の間接プロンプトインジェクション入門",
+      "link": "https://zenn.dev/sun_asterisk/articles/e774ec49844c5b",
+      "summary": "はじめに\nGitHub でリポジトリを clone して、Claude Code に「このコードベースを読んで説明して」と頼む。よくやりますよね。\nその README.md の中に、目に見えない命令が仕込まれていたらどうでしょうか。\nREADME.md、.cursorrules、SKILL.md。「ただのテキストファイルでしょ」と思っていたものが、いま攻撃の入り口になっています。しかも厄介なのは、",
+      "published": "2026-09-18T06:48:26+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "やさしい Docker チーム開発チュートリアル",
       "link": "https://zenn.dev/gontaro_k/books/6b614d1526764e",
       "summary": "やさしい Docker チーム開発チュートリアル 📘\n〜 仕組みの基礎からチーム開発、本番デプロイ、AIペアプログラミングの勘所までを学ぶガイドブック 〜",
@@ -339,9 +339,27 @@
       "link": "https://zenn.dev/fusic/articles/d03bec94245edc",
       "summary": "はじめに\nFusicのレオナです。\n今回はCloud RunにLiteLLM AI Gateway(Proxy)を構築し、Gemini APIの利用実績をユーザー別・モデル別に取得してみました。利用者ごとに仮想キーを発行することで、Cloud Monitoringの標準メトリクスでは把握できない、利用者ごとのトークン数と費用を確認できます。\n\n 検証構成\nLiteLLMをCloud Runで実行し",
       "published": "2026-09-18T06:00:05+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "LiteLLMをCloud RunにデプロイしてGemini APIの利用実績をユーザー 別に取得してみた",
+      "link": "https://zenn.dev/fusic/articles/d03bec94245edc",
+      "summary": "はじめに\nFusicのレオナです。\n今回はCloud RunにLiteLLM AI Gateway(Proxy)を構築し、Gemini APIの利用実績をユーザー別・モデル別に取得してみました。利用者ごとに仮想キーを発行することで、Cloud Monitoringの標準メトリクスでは把握できない、利用者ごとのトークン数と費用を確認できます。\n\n 検証構成\nLiteLLMをCloud Runで実行し",
+      "published": "2026-09-18T06:00:05+00:00",
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
+    },
+    {
+      "title": "計画を質問攻めで鍛えるgrillingを解剖する：フロンティア式ラウンドと、実は保存されていない決定木",
+      "link": "https://zenn.dev/uehaj/articles/grilling-frontier-design-tree",
+      "summary": "!\n本記事は筆者個人の見解であり、所属する組織の公式見解ではありません。\n本記事で取り上げる mattpocock/skills は Matt Pocock 氏(mattpocock)が提供するスキル集であり、頻繁に更新されています。本文の記述は執筆時点(2026年9月、リポジトリの main ブランチおよび手元導入版で確認)の情報に基づいています。最新の内容はリポジトリをご確認ください。",
+      "published": "2026-09-18T05:48:21+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "【要約・考察】TMLR編集長が実施した「著者に自分の論文について質問する」実験とその衝撃的な結果",
@@ -486,15 +504,6 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "【技術解説】リスク管理 シミュレーション Pythonで学ぶボリンジャーバンドのスクイズ検知法",
-      "link": "https://qiita.com/sugarfree/items/12613e6afc9dd0d82df9",
-      "summary": "ボリンジャーバンドを用いたスクイズ検知法のPython実装\n本記事では、ボリンジャーバンドを利用したスクイズ検知手法をPythonで実装し、リスク管理の観点からシミュレーションを行います。主に使用するライブラリはyfinance、pandas、numpy、matplotl...",
-      "published": "2026-09-18T02:00:18+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "散在する“29万ファイル”をAmazon S3に集約、「AIに聞くだけ」で検索可能に――AWSはどう実現？",
@@ -654,15 +663,6 @@
       "link": "https://zenn.dev/marycache/articles/20260918-cloud-devops-catchup",
       "summary": "2026-09-18 クラウド・インフラ・DevOps 技術キャッチアップ\n\n 概要\n2026年9月18日時点のクラウド・インフラ・DevOps関連情報を整理した。直近24時間の公式発表を優先し、実務への影響が大きい事項については直近7日まで確認した。\n\n 重要な更新\n\n 1. GitHub ActionsのWorkflow execution protectionsが一般提供\n\n\n重要度: 高",
       "published": "2026-09-17T22:03:23+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "2026-09-18 クラウド・インフラ・DevOps 技術キャッチアップ",
-      "link": "https://zenn.dev/marycache/articles/20260918-cloud-devops-catchup",
-      "summary": "2026-09-18 クラウド・インフラ・DevOps 技術キャッチアップ\n\n 概要\n2026年9月18日時点のクラウド・インフラ・DevOps関連情報を整理した。直近24時間の公式発表を優先し、実務への影響が大きい事項については直近7日まで確認した。\n\n 重要な更新\n\n 1. GitHub ActionsのWorkflow execution protectionsが一般提供\n\n\n重要度: 高",
-      "published": "2026-09-17T22:03:23+00:00",
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
@@ -751,7 +751,7 @@
     {
       "title": "September 17, 2026",
       "link": "https://docs.cloud.google.com/release-notes#September_17_2026",
-      "summary": "BigQuery\nFeature\nYou can add unit tests to pipelines\nto validate your SQL transformation logic against mock datasets. Unit tests for\npipelines are generally available (GA).\nCloud SQL for MySQL\nChange",
+      "summary": "Apigee hybrid\nAnnouncement\nv1.16.10\nOn September 17, 2026 we released an updated version of the Apigee hybrid software, v1.16.10.\n\nFor information on upgrading, see Upgrading Apigee hybrid to version",
       "published": "2026-09-17T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
@@ -884,6 +884,15 @@
       "color": "#4285F4"
     },
     {
+      "title": "Keycloak の resource パラメータで MCP サーバーの aud を変えてみた",
+      "link": "https://zenn.dev/yoshit0oo/articles/mcp-oauth21-keycloak-resource-indicators",
+      "summary": "はじめに\nKeycloak を MCP サーバーの認可サーバーに使うと、resource パラメータは既定では無視されます。\n前回、自作 MCP サーバーに OAuth 2.1 の認可を付けるで、Keycloak 26.7.0 が RFC 8707 の resource パラメータを読まないことを確認しました。resource の有無にかかわらず、発行されるトークンの aud は同じでした。実験的",
+      "published": "2026-09-16T10:06:50+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "Gemini APIのBANがプロジェクトを巻き込む危険性",
       "link": "https://zenn.dev/mohhh_ok/articles/2026-09-gemini-api-ban-scope-gcp-project",
       "summary": "背景\nGeminiを使用してアカウントごとBANされた話や、Googleドライブにダメな画像をアップロードしてBANされた話を見つけました。\nGeminiでチャHしてたらアカウントBANされた\nhttps://anond.hatelabo.jp/20251211104855\nマンガ原稿をクラウドに上げただけでGoogleアカウントBAN　Gmailも道連れ……日本では合法なのになぜ？\nhttps:",
@@ -924,15 +933,6 @@
       "link": "https://zenn.dev/naoki_mm/articles/08ee3ddcf85c8a",
       "summary": "エンジニアが目指せる表彰・称号一覧｜選出条件と必要な活動期間まとめ\nエンジニアには、資格だけでなく、技術力・技術発信・コミュニティへの\n貢献などを評価する表彰や称号があります。\nこの記事では、エンジニアが目指せる代表的な表彰・称号について、\n\nどこで活動するのか\n何をすればよいのか\nどのくらいの期間が必要なのか\n公式サイト\n\nをまとめます。\n\n\n CNCF（Cloud Native Computi",
       "published": "2026-09-16T01:42:35+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "BigQueryサービスのAI機能・関数まとめ②[検証編](2026/07)",
-      "link": "https://zenn.dev/everrise_blog/articles/bigquery_ai_verify",
-      "summary": "想定読者: BigQuery 上でモデル作成から生成AIによる分析までのフローを実際に試したい方です。\nBigQuery の AI 機能・関数の一覧と概要は、別記事「BigQueryサービスのAI機能・関数まとめ①[整理編](2026/07)」に整理しています。本記事では、そこで挙げた各種関数とエージェント機能を実際に組み合わせ、データ抽出からレコメンドモデルの作成・評価・推論、生成AIによる分類",
-      "published": "2026-09-16T01:00:07+00:00",
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
