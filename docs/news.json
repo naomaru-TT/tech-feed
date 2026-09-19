@@ -1,6 +1,69 @@
 {
-  "updated": "2026-09-19T19:48:18.258904+00:00",
+  "updated": "2026-09-19T22:35:12.865918+00:00",
   "items": [
+    {
+      "title": "# GitHub Actions × Terraform で AWS インフラを自動デプロイしてみた",
+      "link": "https://qiita.com/Hiro_tech/items/1ecfcc5e0fc7a4eb002b",
+      "summary": "はじめに\nインフラの変更を手動で terraform apply するのは、ミスのリスクもあるし、履歴も残りにくい。そこで今回は GitHub Actions を使って Terraform の実行を自動化し、CI/CD パイプライン上で AWS インフラを管理できる環境を...",
+      "published": "2026-09-19T22:05:26+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "訂正が重なった資料の値抽出、プロンプト反復より内訳の明示が効いた",
+      "link": "https://zenn.dev/every_ai_recipe/articles/correction-tracking-breakdown-check",
+      "summary": "TL;DR\n\n「訂正が複数回重なった業務メモ」から最終的な正しい値を抽出させる際、(1) プロンプトをそのまま2回貼る\"Prompt Repetition\"、(2) 回答前に情報を古い順へ整理させるステップバイステップ指示、の2つの工夫を単体・組み合わせの6条件で検証した\n結果：6条件すべてで最終値・計算結果は正しく、工夫の有無による差は確認できなかった（易しい4項目タスク・難しい逆転トラップ＋計",
+      "published": "2026-09-19T21:17:07+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "はじめてのRDS",
+      "link": "https://qiita.com/tri-ponte/items/437d34dbad8e920bc036",
+      "summary": "RDS で MySQL を1台立てて、自宅の iMac の Python からつなぎ、テーブルを作って読み書きして、消すところまでやりました。AWS 側の部品は全部 Terraform で作ります。はじめてのTerraform の続きです。\n\n1. この記事でやること\n先に...",
+      "published": "2026-09-19T21:12:09+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "OpenAI×OATSの高齢者向け無料ChatGPT講座、米10地域・対象1,000人・55歳以上のメッセージ割合6%→10%近く",
+      "link": "https://qiita.com/quotidia/items/ec24c2da21232d2af6f9",
+      "summary": "本記事は筆者が運営する AI Quotidia の海外ニュース解説記事です。\n\nOpenAIは現地時間2026年9月16日(水)、米国の高齢者団体AARPの傘下にある非営利OATS (Older Adults Technology Services) と組み、高齢者向けの...",
+      "published": "2026-09-19T21:01:05+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "偽装SYNで、自作アプリにゲートウェイを遮断させてみた",
+      "link": "https://zenn.dev/lafine/articles/399b75c55ad7f1",
+      "summary": "自作しているセキュリティアプリ（RoamSwitch）には、着信のポートスキャンを検知して、送信元を10分間だけ遮断する機能がある。nmapで15ポート以上を短時間に叩かれたら、その送信元IPからの通信を落とす、というよくあるやつだ。\nふと気になったのは、SYNスキャンだと3ウェイハンドシェイクが完了しないから、送信元アドレスは送る側が好きに書けるということ。検知した相手を自動で遮断するなら、誰か",
+      "published": "2026-09-19T20:47:12+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "Jev＝較正済み確信度を返す閉世界分類器 — System One Modelの設計論点",
+      "link": "https://zenn.dev/xim2jp_tokyo/articles/8445fb9942f4ac",
+      "summary": "TypeSafe AIのJevを「構造化出力付きLLMの再発明では」と切るのは早い、というのが本記事の趣旨です。Jevの本質は生成モデルではなく、較正済み確信度を返す閉世界の分類器であり、この性質がアーキテクチャ上の置き場所を変えます。\n\n 設計論点1: logprobsと較正済み確信度は別物\nLLMのlogprobsは温度・プロンプト・トークナイズの影響で歪み、そのままでは意思決定の閾値に使えま",
+      "published": "2026-09-19T20:18:02+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Jevは「確度付きIF文」— テキストを生成しないAIモデルの使いどころ",
+      "link": "https://qiita.com/Xim2jp/items/8d2ab099438d6986c838",
+      "summary": "2026年9月にTypeSafe AIが公開した「Jev（ジェヴ）」、話題になっているけれど「結局何に使うの？」と思っていませんか。この記事では、Jevを 「確度付きIF文」 という一言で捉え直して解説しています。\n\nJevはLLMと何が違うのか\nLLMは文章を一文字ずつ生...",
+      "published": "2026-09-19T20:16:21+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "Route53ヘルスチェック+CloudWatchで5サーバーの死活監視を月額830円で組み、自作の自動復旧機能を7分後に消した話",
       "link": "https://qiita.com/devex12/items/a8125df54813622d52af",
@@ -20,13 +83,13 @@
       "color": "#FF9900"
     },
     {
-      "title": "GitHub Actions で S3 + CloudFront へ自動デプロイ",
-      "link": "https://qiita.com/Termnix-IT/items/166fcd56ad60fe7f4e77",
-      "summary": "GitHub Actions で S3 + CloudFront へ自動デプロイ\n\nはじめに\n個人のポートフォリオサイトを、GitHub Actions で AWS の S3 + CloudFront に自動デプロイしています。サイトはビルド不要の静的サイト（HTML /...",
-      "published": "2026-09-19T17:13:36+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "実際，ローカルLLMの性能ってどうなの？",
+      "link": "https://zenn.dev/tubesoling/articles/2f58a43ad276cb",
+      "summary": "はじめに\n初めまして．ソリングです．\n皆さんはローカルLLMを使用されたことはあるでしょうか．ここ数年でLLMの性能は急速に向上しており，現在では9B程度の比較的小規模なモデルでも，以前であれば非常に大規模な計算資源を必要としていたようなタスクを，ある程度こなせるようになってきました．\nクラウド上のLLMは非常に高性能ですが，ローカルLLMには，手元のPCだけで動かせる，外部へデータを送信せずに利",
+      "published": "2026-09-19T17:08:40+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "システム設計視点の行動経済学 全30回 総復習",
@@ -34,6 +97,24 @@
       "summary": "このシリーズ第1〜20回の詳細は全20回総復習記事を参照してください。本記事では第21〜30回（Arc IV）を重点的に取り上げ、全30回を統合的に振り返ります。\n\nuser:\n\n「システム設計視点の行動経済学」シリーズが第30回まで完結しました。以前の全20回総...",
       "published": "2026-09-19T17:07:17+00:00",
       "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "なぜ、「ハルシネーション」という言葉はすでに死語なのか？",
+      "link": "https://zenn.dev/pdfractal/articles/726013ac1d9b15",
+      "summary": "はじめに\n生成AIについて語るとき、「ハルシネーション」という言葉は長らく最重要語の一つでした。AIはもっともらしい嘘をつくため、その回答を鵜呑みにしてはいけないという説明です。2023年から2024年頃までは、この説明にそれほど違和感はありませんでした。ところが2026年現在、上位モデルの間違いを何でもハルシネーションと呼ぶことには強い違和感があります。その理由は、AIが間違えなくなったことでは",
+      "published": "2026-09-19T16:25:00+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Jev入門：Choice / Boolean / Scoreとprobability・confidence",
+      "link": "https://zenn.dev/yuzu_krs/articles/71c18d2589d01e",
+      "summary": "2026年9月15日、TypeSafe AIは最初の System One Model として Jev を公開しました。\nJevは、ChatGPTのように自由な文章を返すことを主目的にしたモデルではありません。\nざっくり言うと、\nstate（判断材料）\n+\nquestion（聞きたいこと）\n↓\n型付きの判断 + 確率\nを返す、ソフトウェアの中で意味的な判断を行うためのモデルです。\nこの記事では、A",
+      "published": "2026-09-19T15:55:16+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -47,22 +128,58 @@
       "color": "#10A37F"
     },
     {
-      "title": "【コツコツAWS】Amazon Bedrock Data Automation - サービスの概要をざっくり説明 -",
-      "link": "https://qiita.com/guupys/items/72bd700e2ec47f55687d",
-      "summary": "Amazon BedrockのBedrock Data Automation (BDA)について調べたので、学習メモとして整理します。\n\n1. Bedrock Data Automation (BDA) とは\nBedrock Data Automation (BDA) は、...",
-      "published": "2026-09-19T15:00:13+00:00",
-      "source": "Qiita - AWS",
+      "title": "TypeSafe AI「Jev」の実効性能検証レポート（約2.8万リクエストによる精度・速度・コスト評価）",
+      "link": "https://zenn.dev/biscuit/articles/typesafe-ai-jev-benchmark-2026-09",
+      "summary": "TypeSafe AIの「Jev」は、文章を生成せず、判定結果だけを返すモデルである。判定対象のデータ（JSON）と、「この発話はアラーム設定の依頼か？」のような質問を1リクエストにまとめて送ると、Yes/Noの確率や、選んだ選択肢とその確信度（confidence）といった数値・ラベルが返ってくる。質問の文面ではJSONのどのフィールド（キー）を判定するかを名前で指定し、1リクエストに数百問をま",
+      "published": "2026-09-19T15:10:17+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Ternary Bonsai 2 27BをM1Pro・16GBで動かす",
+      "link": "https://zenn.dev/okame_rara/articles/bonsai_2_27b_m1",
+      "summary": "こんにちは、はたけです。\n今回はM1 Pro・メモリ16GBのMacBook Proで、Ternary Bonsai 2 27Bを動かしてみました。PrismML公式のllama.cpp forkをソースからビルドし、日本語の応答が返るところまで確認できました。\n短い動作確認では 8.1 tokens/s、その後の対話形式での自己紹介では 9.6 tokens/s と表示されました。本格的なベンチ",
+      "published": "2026-09-19T15:05:52+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "新しい Amazon Bedrock AgentCore Runtime が利用可能に!!",
+      "link": "https://zenn.dev/aws_japan/articles/agentcore-runtime-v2-platform-version",
+      "summary": "はじめに\nこんにちは、AWS Japan AI Specialist Solutions Architect の Narimoto です。\nAI エージェント基盤上で動くワークロードとしては、数秒で終わるチャットから、数分から数時間動くコーディングエージェント、そして常時稼働する常駐型エージェントへと広がっています。AI エージェントの数も増え、人ではなく他の AI エージェントから起動されること",
+      "published": "2026-09-19T14:55:28+00:00",
+      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "保存したモデルを翌週で検証する。基準線に勝っても黒字とは限らない",
-      "link": "https://zenn.dev/data_boatrace/articles/a136ee9f96f730",
-      "summary": "前回までで、公式データを取得し、小型モデルを学習し、保存したモデルで別日の番組表を予測できるようになりました。\n今回は、そのモデルを変えずに翌週で採点します。\n結果を先に書くと、1月8〜14日のうち条件を満たす953レースで、モデルの単勝回収率は94.69%。1号艇固定の93.97%を少し上回りました。ただし100円ずつの紙上計算では5,060円のマイナスです。\n基準線を上回ったことと、お金が増え",
-      "published": "2026-09-19T13:51:03+00:00",
-      "source": "Zenn - 機械学習",
+      "title": "ランニングコストがかからない個人開発のデプロイ先 (S&P500の臨時開示)",
+      "link": "https://zenn.dev/knbzyh/articles/3c320391685579",
+      "summary": "はじめに\n個人でアプリやWebサービスを作って運用しようとすると、サーバー、ドメイン、APIなどのコストが恒常的にかかります。VPSを借りて1台に複数のサービスを載せても、メモリが圧迫されがちです。SWAPで補強しても、1台に多数の本番環境を載せるのには限界があります。\nかといってVPSを増やすと、アプリが増えるたびにまた手一杯になります。何か良い方法はないかと考えていたところ、あるイベントサイト",
+      "published": "2026-09-19T14:45:59+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "ローカルLLMの企業運用に正解を出してみる",
+      "link": "https://zenn.dev/nocodesolutions/articles/4ca795a1e3e61c",
+      "summary": "はじめに：Ollamaが動いた。その先の企業運用をどう判断するか\n機密データを外部のAIに渡せない。それなら社内で動くローカルLLMを使おう。ここまでは話が早く、Ollamaも手元のPCですぐに動きました。困ったのはその先です。どのモデルなら、何人で、どの業務まで任せられるのか。企業運用へ進むための数字がありません。\nそこで本記事では、費用、待ち時間、日本語での正確さを調べました。先行研究の数値と",
+      "published": "2026-09-19T14:28:04+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "【完全解説】インフラエンジニアになるためのサーバ実践入門",
+      "link": "https://zenn.dev/miruky/books/server-practical-guide",
+      "summary": "サーバの概念、Linux内部、主要コマンド、ネットワーク、セキュリティ、主要ミドルウェア、設計と運用、CloudWatchを含む監視を学び、5 USD以内のAWSマネジメントコンソール実践で一台を構築・観測・復旧・削除します。",
+      "published": "2026-09-19T14:19:31+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "PSA構成のLookerに、APIキーを発行せずにを導入する",
@@ -74,13 +191,22 @@
       "color": "#4285F4"
     },
     {
-      "title": "生成AIと作る工場IoT入門Vol.2 | IoT機器からの信号をWebアプリで受信・可視化",
+      "title": "生成AIと作る工場IoT入門Vol.2 | IoT機器からの信号をPython/Webアプリで受信・可視化",
       "link": "https://zenn.dev/ot_it_bridge/articles/2fdd40a0bf9ba5",
       "summary": "この記事の目的\nESP32マイコンを使った工場向けIoT機器を製作する（プログラミング未経験者向け）の続編です。\n\n2026年9月26日開催【刈谷開催・第5回】Claude Code、Pythonで工場向けWebアプリを作るハンズオン\n2026年10月25日開催【刈谷開催・第6回】GPT-6 Astra、Pythonで工場向けWebアプリを作るハンズオン\n\nの教材も兼ねています。\n\n主催者から勉強",
       "published": "2026-09-19T13:42:05+00:00",
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "LLM 抽出の自動評価が、言い回しを採点していた",
+      "link": "https://zenn.dev/tomtom55555/articles/d80e8efb8e4088",
+      "summary": "会議の文字起こしから「タスク」「決定」「リスク」を抽出するパイプラインを作っています。抽出の質を測るために、人が注釈した正解データと抽出結果を突き合わせて precision / recall を出す評価スクリプトを持っていました。\nその評価スクリプトが壊れていた話です。しかも、壊れていることが半年近く表に出ませんでした。\n\n 症状: 入力を良くしたら、スコアが下がった\n文字起こしのモデルを差し替",
+      "published": "2026-09-19T13:24:06+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "汎用WebGIS基盤を作ってみる 5 ー ローカル版WebGISを運用",
@@ -101,15 +227,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "AIに“判断だけ”させると何が変わるのか — 0.5秒で答える新モデル「Jev」を理解する",
-      "link": "https://zenn.dev/takuh/articles/93c3fb0a70eddd",
-      "summary": "はじめに\nAIチャットボットに質問を送って、回答が表示されるまでの数秒間を「なんとなく待たされているな」と感じたことはないでしょうか。じつはあの待ち時間の何割かは、AIが回答の文章を書いている時間ではなく、「この質問はどういう種類のものか」「急ぎかどうか」といった回答の前段階の判断に使われています。\n2026年9月15日に、TypeSafe AIというスタートアップが「Jev（ジェヴ）」という新し",
-      "published": "2026-09-19T11:35:35+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "AWS SAP-C02からC03へ｜2026年11月の移行スケジュールを整理する",
       "link": "https://zenn.dev/eng_skill_up/articles/fe8c6be8d601e4",
       "summary": "AWS認定ソリューションアーキテクト – プロフェッショナル(SAP)が、2026年11月にSAP-C02からSAP-C03へ移行します。現行のSAP-C02の最終受験日は2026年11月16日で、翌17日からSAP-C03のみの受験となります。\n自分はSAPを2019年・2022年・2025年と3年ごとに再受験して更新してきましたが、その立場から移行スケジュールと対応方針を整理しておきます。",
@@ -126,33 +243,6 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "教室が8倍広くなったら何が変わるか ── RTX Sparkを「学校」にたとえて理解する",
-      "link": "https://zenn.dev/yankeeeneko/articles/rtx-spark-school",
-      "summary": "先に結論を 3 行で。\n\n一番の違いはメモリ。今までノート PC には置けなかったサイズの AI モデルが動く\nただし「120B クラスが動く」は縮刷版(FP4量子化)前提の話\nCPU が Arm になるので、自分が使っているソフトが動くかは要確認\n\n\n\n きっかけ\nガジェットが好きで、最新の PC やスマホの発表を眺めるのが趣味みたいなものです。ただ、今までは「なんとなく性能が上がってるんだな」",
-      "published": "2026-09-19T11:12:42+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "DifyをMCPサーバーとして公開する — v1.6.0の双方向MCP対応をEnterprise導入の視点で読む",
-      "link": "https://zenn.dev/sidejob/articles/ae664ab8bcaf38cdd",
-      "summary": "本業でDify Enterpriseの導入検討に関わっている立場から、2026年に入ってからのDifyのアップデートで注目しているのがMCP（Model Context Protocol）への対応です。Dify v1.6.0で、外部のMCPサーバーをツールとして呼び出す機能と、逆にDify自身のアプリ・ワークフローをMCPサーバーとして外部に公開する機能の両方がビルトインで提供されるようになりまし",
-      "published": "2026-09-19T11:02:04+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "「LLMへ渡したくない仕事」の話。",
-      "link": "https://zenn.dev/algoartis/articles/73f4da4aa13dcc",
-      "summary": "はじめに\n\nこの記事は、2026年9月17日、福岡で開かれた 【仕事が捗りまくる】非ITの人にも難しくない生成AIを活用した業務効率化の知恵が集まる会 vol.2 で、大トリとして話させてもらった内容を記事にしたものです。\n（大好評で嬉しかったので、記事にさせてもらいました）\n「LLMに何をやらせるか」を持ち寄る会だったので、僕はあえて逆の話をしました。\nLLMに何を渡して、何を渡さなかったか、と",
-      "published": "2026-09-19T10:25:48+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "LLMに「死」を判定させない ―遺志を執行するエージェントの設計",
@@ -200,60 +290,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "Jevで日本語のセマンティックlinterを作ってみた",
-      "link": "https://zenn.dev/driller/articles/jevapan-semantic-lint",
-      "summary": "自然言語 lint の2つの課題\n日本語の文書を自動でチェックしたいとき、手段は大きく2つに分かれます。\n1つはtextlintに代表されるルールベースのlinterです。正規表現や形態素解析で文を検査するため高速で結果も決定的ですが、「意味」を判定できません。指示語の参照先が一意に決まるか、因果の説明に機構があるか、といった観点はルールで列挙できません。\nもう1つはLLMに文書を渡してレビューさ",
-      "published": "2026-09-19T08:42:10+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AIのブラウザ操作を選択問題にして爆速にする jev-ultrafast の仕組み",
-      "link": "https://zenn.dev/karamage/articles/8ff31cccd3d223",
-      "summary": "Jevが盛り上がってますね。そんな中、browser-useのチームが公開した「jev-ultrafast」を見て、びっくり。\nhttps://github.com/browser-use/jev-ultrafast\nGoogleフライトで「チューリッヒからロンドンまでの片道航空券を検索し、結果一覧が表示されるまで」の全工程を、わずか7.1秒で完遂しています。\nhttps://x.com/masa",
-      "published": "2026-09-19T08:08:33+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Excel 設計書を AI に読ませたくて、変換ツールを自分で書いた話（markitdown を捨てた理由）",
-      "link": "https://zenn.dev/thirtypower/articles/excel-word-to-markdown-for-ai",
-      "summary": "AI に社内ドキュメントを読ませようとしたとき、最初にぶつかるのはたいてい「ファイル形式」です。\n設計書は .xlsx、マニュアルは .docx。どちらもそのままでは AI に渡せません。そこで markitdown のような汎用コンバータを入れて、Markdown にして、渡す。ここまでは誰でも思いつきます。\n私もそうしました。そして、うまくいきませんでした。\nこの記事は変換ツールの紹介ではあり",
-      "published": "2026-09-19T08:05:24+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "JevでClaude Codeの決裁規定を監査してみた記録",
-      "link": "https://zenn.dev/marycache/articles/20260918-jev-system-one",
-      "summary": "2026/09/16に、TypeSafe AIが開発している「Jev」（System One）というプロダクトを知り、Early Accessで実際にAPIを試す機会を得ました。\nChatGPT や Claude のような大規模言語モデル（LLM）に日常的に触れていると、「AIを使う」といえば「プロンプトを投げて、自然言語の文章を返してもらう」という体験が当たり前になっています。\nしかし、Jev",
-      "published": "2026-09-19T07:40:59+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AIを「個人の道具」で終わらせないために",
-      "link": "https://zenn.dev/sionicai_jp/articles/53a6bdf8b27d9b",
-      "summary": "生成AIを使っているのに、業務は変わっていない\n生成AIを使って、文章の下書きや情報の整理、アイデア出しをする機会は増えました。\n一方で、「問い合わせ対応」「社内ナレッジの検索」「日報・レポートの作成」「見積書作成」といった業務そのものまで、AIに任せられているケースはまだ多くありません。\n私たちは、生成AIを個人の便利なツールにとどめず、企業の業務プロセスの中で継続的に活用できる仕組みにすること",
-      "published": "2026-09-19T07:30:05+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Gemini Enterprise Agent Platform の「Managed Agents」に Cloud Run を運用させてみる",
-      "link": "https://zenn.dev/satohjohn/articles/gemini-managed-agents-security",
-      "summary": "はじめに\nGoogle Cloud の Managed Agents API に、Cloud Run のサービスを運用させました。Managed Agent API は Gemini Enterprise Agent Platform の Preview 機能です。今回、ログとメトリクスを読ませ、チューニング案を推測させ、実際に再デプロイまでさせています。\nモチベーションは、Antigravity",
-      "published": "2026-09-19T06:59:04+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Gemini Enterprise Agent Platform の「Managed Agents」に Cloud Run を運用させてみる",
       "link": "https://zenn.dev/satohjohn/articles/gemini-managed-agents-security",
       "summary": "はじめに\nGoogle Cloud の Managed Agents API に、Cloud Run のサービスを運用させました。Managed Agent API は Gemini Enterprise Agent Platform の Preview 機能です。今回、ログとメトリクスを読ませ、チューニング案を推測させ、実際に再デプロイまでさせています。\nモチベーションは、Antigravity",
@@ -276,15 +312,6 @@
       "link": "https://qiita.com/s059ff/items/d75d4aaf40b2af0275e8",
       "summary": "文書埋め込み\n\n0. キーワード\n\nSentence Representation\nDocument Embedding\nContrastive Learning\n\n1. 文書埋め込みとは\n\nテキストを数値ベクトルに変換する手法.\n類似: 単語を数値ベクトルに変換する ...",
       "published": "2026-09-19T06:26:36+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "CLIP (Contrastive Language-Image Pretraining) と発展技術",
-      "link": "https://qiita.com/s059ff/items/4ca5f9318844c4d480ae",
-      "summary": "CLIP (Contrastive Language-Image Pretraining) と発展技術\n本記事では, VLM (Vision Language Model) を構成する中核技術の一つである, AI に画像とテキストの関連付けを理解させる方法についていくつか...",
-      "published": "2026-09-19T06:18:51+00:00",
       "source": "Qiita - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
@@ -342,15 +369,6 @@
       "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "疎通テスト: AWS から private リポジトリへ push する",
-      "link": "https://zenn.dev/kuronekomatu/articles/ghpush-smoke-test",
-      "summary": "これは何\nCodeBuild 経由で private リポジトリへ push する経路の疎通確認用。\npublished: false なので Zenn 側では下書きのままになる。\n\n 確認したいこと\n\npayload のパス検査と frontmatter 検査が通る\nsecret scan が誤検知しない\n初回 push で main が作られる\npush 後のハッシュ一致で検証できる\nimag",
-      "published": "2026-09-19T04:27:30+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "venv・Docker・VM、結局どれを使えばいい？環境構築の使い分けを整理する",
@@ -506,11 +524,11 @@
       "color": "#10A37F"
     },
     {
-      "title": "耳で聞く！Python で学ぶ マクロ経済学 入門 15",
-      "link": "https://qiita.com/maskot1977/items/1f6b4c9ed446b2b282df",
-      "summary": "user:\nソース動画のタイトル、そしてこの動画の内容について教えてください。\n\nGemini:\n\nソース動画のタイトル\n「日本の借金は分母の成長を見れば怖くない : Pythonで学ぶマクロ経済学入門 Podcast 15」\n\n動画の内容解説\nこの動画（Podcas...",
-      "published": "2026-09-18T15:03:49+00:00",
-      "source": "Qiita - ChatGPT",
+      "title": "ショウジョウバエの嗅覚回路を求人の名寄せに使ったら、今のデータでは要らなかった",
+      "link": "https://zenn.dev/fumi3333/articles/flyhash-job-matching",
+      "summary": "リゾートバイトの求人を派遣会社6社から集めて横断比較するサイトを作っています。掲載は12,864件です。\nこのサイトには、会社をまたいで「同じような求人」を突き合わせ、時給差を抽出する処理が入っています。そこに FlyHash——ショウジョウバエの嗅覚回路を模した局所性鋭敏型ハッシュ——を使いました。実装は229行、抽出できたのは85,377ペアです。\nそして本番に載せたあと、今のデータでは Fl",
+      "published": "2026-09-18T14:55:35+00:00",
+      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -576,15 +594,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "【エンジニア職】Finatextグループサマーインターン開催レポ -2026年-",
-      "link": "https://zenn.dev/finatext/articles/64cf162dc18565",
-      "summary": "はじめに\nこんにちは、Finatextでエンジニアをしている國友です。\nFinatextグループでは、現場エンジニアが中心となって日々さまざまな施策を企画・実施しています。\n今回はその中でも目玉施策である、サマーインターンシップ - 2026 を開催したので、その模様を紹介します。\nこのインターンも、新卒を含めた若手エンジニアが中心となって企画・運営しました。\nエンジニア就職を考えている学生の皆さ",
-      "published": "2026-09-18T09:00:08+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "Kubernetesの勉強、何から始めた？ 初現場半年の振り返り（前編：教材のあと、私はインフラでつまずきました）",
@@ -792,15 +801,6 @@
       "source": "ITmedia AI+",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "2026-09-18 クラウド・インフラ・DevOps 技術キャッチアップ",
-      "link": "https://zenn.dev/marycache/articles/20260918-cloud-devops-catchup",
-      "summary": "2026-09-18 クラウド・インフラ・DevOps 技術キャッチアップ\n\n 概要\n2026年9月18日時点のクラウド・インフラ・DevOps関連情報を整理した。直近24時間の公式発表を優先し、実務への影響が大きい事項については直近7日まで確認した。\n\n 重要な更新\n\n 1. GitHub ActionsのWorkflow execution protectionsが一般提供\n\n\n重要度: 高",
-      "published": "2026-09-17T22:03:23+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "Claude Fable 5.1 が Kiro で利用可能になりました",
