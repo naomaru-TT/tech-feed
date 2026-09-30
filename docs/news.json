@@ -1,6 +1,87 @@
 {
-  "updated": "2026-09-30T17:18:38.172574+00:00",
+  "updated": "2026-09-30T21:41:58.046788+00:00",
   "items": [
+    {
+      "title": "画像を受け付けない Jev の代わりに、衣類写真の品目判定を CLIP で試した。1 枚 13ms・正解率 88%",
+      "link": "https://zenn.dev/y3chi5z/articles/clip-clothing-classification-13ms",
+      "summary": "前回、TypeSafe の Jev で業務の依頼を振り分けて、正解率 22% という結果を書きました。次に「写真を撮った瞬間に、服の品目（シャツ・スカートなど）を判定したい」という用途で試そうとしたところ、Jev は テキスト専用 でした。公式ドキュメントにも「Text only. … No image, audio, or video input」とあります。\n画像を文字にしてから Jev に渡",
+      "published": "2026-09-30T21:21:12+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AIへの「なぜ」を2回聞いても、リスクは出てこなかった",
+      "link": "https://zenn.dev/every_ai_recipe/articles/ai-why-twice-no-new-risk",
+      "summary": "TL;DR\n\n意思決定の相談にAIが即答した推奨（「導入すべき」）に対して、同じ会話の中で「なぜですか？」を2回連続で聞いたところ、両方とも最初に挙げた理由の言い換えに終始し、新しい理由・反対意見・リスクは一切追加されなかった\n聞き方を「賛成理由だけでなく反対意見・リスクも思いつく限りすべて」に変えると、初めて5件のリスクが挙がった。ただし結論（「導入すべき」）は維持された\n同じ質問と網羅列挙の依",
+      "published": "2026-09-30T21:19:39+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "OpenAI「GPT-6.1 Astra」公開中止の理由と、DNS経由で外部に質問した研究モデルの報告書の整理",
+      "link": "https://qiita.com/quotidia/items/b7ac0d5c27ae7c97cac0",
+      "summary": "本記事は筆者が運営する AI Quotidia の海外ニュース解説記事です。\n\nOpenAIは、2026年10月に予定していた新しいAIモデル「GPT-6.1 Astra」の公開を取りやめました。\n\n要点\n\nWSJが2026年9月28日(月)に報じ、安全システム責任者のS...",
+      "published": "2026-09-30T21:01:04+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AWS CUR CSVで未使用課金を検出する手順",
+      "link": "https://qiita.com/infraone/items/badfbd78ce18461b7dd9",
+      "summary": "この記事について\nAWSのコストと使用状況レポート（CUR）をCSV形式で読み込み、使用量が0にもかかわらず課金が発生している行を抽出する具体的な手順を紹介します。公式ドキュメントに基づき、再現可能な方法で「未使用だが課金されている」リソースを可視化します。対象は請求デー...",
+      "published": "2026-09-30T20:23:30+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Rails作者DHH「Pencils Down、もう手でコードは書かない」　それでもソフトウェア開発の未来は明るい理由",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/01/news010.html",
+      "summary": "Ruby on Railsの作者DHHがRails World 2026の基調講演で、37signalsでは手書きコードをやめたと宣言した。一方で「ソフトウェア開発の未来は明るい」とも言う。手書きが例外になった現場で開発者は何をするのか、講演の要点と筆者の考えを紹介する。",
+      "published": "2026-09-30T20:00:00+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AIと共存するかどうかを議論しているけど、私たちはとっくにAIと共存していた",
+      "link": "https://qiita.com/TheOkachanPG/items/0cf807d7b15a00d8b5da",
+      "summary": "「AIとどう共存していくべきか」\n最近、そんな話をよく見かけます。\nAIで作った画像はどうなのか。\nAIに文章を書かせるのはどうなのか。\n仕事を奪われるのではないか。\n人間が考えなくなるのではないか。\n私も以前、AIとの共存についてダラダラと考えて、記事を書いたことがありま...",
+      "published": "2026-09-30T19:36:46+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました",
+      "link": "https://zenn.dev/algoartis/articles/0b1c731881b25c",
+      "summary": "TL;DR\n本日、AI生成された臭くて読みにくい日本語を、自然で読みやすい日本語へ書き直すスキル『yomiyasu（よみやす）』をリリースしました。\n従来のAI-Slop対策スキルで用いられてきた 「単語を禁止する」手法から改善し、統語構造（=誰が・何を・どうした）の復元と、比喩動詞の具体化に特化していることが特徴です。\nClaude Code, Codex, Cursorなどの主要なAI Age",
+      "published": "2026-09-30T18:28:20+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "ローカル LLM とクラウド AI に同じアプリを作らせた — AI はどこで間違えるか（第 1 回）",
+      "link": "https://zenn.dev/exapolicy/articles/08ea0fdc7ea660",
+      "summary": "知りたかったのは、AI がどこで間違え、どこで人の目が要るか\n機密を扱う仕事で AI を使うなら、できるだけ手元のローカル LLM で済ませたい。では、どこまでならローカル LLM に任せられるのか。この記事は、その境界線を探すための実験の記録で、2 回に分けて書きます。\n\n\n第 1 回（この記事）：AI が書いたアプリの欠陥は、どこで間違い、どの工程で捕まり、どの工程では捕まらなかったか\n\n\n第",
+      "published": "2026-09-30T18:14:50+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "ChatGPTからのアクセスが急増！理由はクローラーがJavaScriptを実行するようになったから？",
+      "link": "https://qiita.com/hirajo/items/46973d8b6e2c31d18607",
+      "summary": "2026年9月25日の明け方、私たちが運営するサイトのサーバーログで、OpenAI のクローラーの読み方がはっきり変わりました。\n検索用の OAI-SearchBot と学習用の GPTBot が、HTML を取るだけでなく、JavaScript を実行してページを描画する...",
+      "published": "2026-09-30T18:01:46+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "AWS Blocksを触ってみた。Amplify Gen 2と比較して感じたこと",
       "link": "https://qiita.com/s-sakano/items/a6c3cb43f6190bfcdf6c",
@@ -29,16 +110,16 @@
       "color": "#FF9900"
     },
     {
-      "title": "(AWS版AIハヤト)AIが「適性」を診断するWebアプリを作ってAWSに公開してみた",
-      "link": "https://qiita.com/yama3133/items/a34a8de7214b0d36bfd5",
-      "summary": "はじめに\nTBS日曜劇場『VIVANT』に登場するAI「ハヤト」に興味を持ち、同じような体験を自分で作れるか試しました。\n\nイベント「VIVANT IMMERSIVE MISSION」では、来場者がミッションをこなしたあと、最終的な適性数値をAIハヤトが算出します。\n...",
-      "published": "2026-09-30T15:53:37+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
+      "title": "【セキュリティ】「Hacking OpenAI」から学ぶ、AIで変わる攻撃のコスト",
+      "link": "https://zenn.dev/ykbone/articles/202610-security-hacking-openai",
+      "summary": "はじめに\n2026年9月、セキュリティ企業 Hacktron の研究者3人が Hacking OpenAI というレポートを公開しました。OpenAIのバグバウンティ（脆弱性報奨金制度）の中で行った調査の報告です。フォーラムへの画像アップロードを起点に、72時間足らずでOpenAI従業員のChatGPT/Codexアカウントへのアクセスを得て、社内リポジトリに無害なプルリクエストを1件作るところま",
+      "published": "2026-09-30T16:04:55+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
-      "title": "System 1判断モデルの実用限界とアーキテクチャ比較｜S1Bench・長文契約書・論理否定・Action Cachingの実機検証",
+      "title": "Jevはローカルモデルで代替できるか？ lev・jeffを加えて追加で実機徹底比較",
       "link": "https://zenn.dev/null_teck/articles/system-one-benchmark-s1bench-levbench",
       "summary": "!\n先に結論を言います\n\n\n先行検証の振り返りと総括:\n前回の検証記事では、「汎用LLM（Qwen3.5）や専用モデル（Kev-4B）により、Jevの境界判定インターフェースはローカルでも十分に代替可能」と結論づけていました。しかし今回の検証で 「短文の特定タスクでは代替できても、長文の局所条項探索、多重入れ子例外、および高精度な確率較正において、モデル・アーキテクチャごとの明確な適用限界が存在す",
       "published": "2026-09-30T15:53:15+00:00",
@@ -101,6 +182,15 @@
       "color": "#326CE5"
     },
     {
+      "title": "Platform Engineering Kaigi 2026に登壇しました",
+      "link": "https://zenn.dev/mitene/articles/202609-platform-engineering-kaigi-2026",
+      "summary": "こんにちは、「家族アルバム みてね」（以下、みてね）でSREを担当している @kohbis です。\n2026年9月26日のPlatform Engineering Kaigi 2026で『人にやさしく、AIにやさしく、書き手を選ばないIaCのガードレール再考』というタイトルで登壇しました。\nhttps://speakerdeck.com/kohbis/rethinking-iac-guardrai",
+      "published": "2026-09-30T14:55:17+00:00",
+      "source": "Zenn - Terraform",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "エッジサーバーのバックアップ運用を自動化する決定論的設計",
       "link": "https://qiita.com/TOAI/items/60e1e9739016865bd0ef",
       "summary": "エッジサーバーにおけるバックアップ運用の悪夢を終わらせる：LocalBackup-FailSafeDaemon の設計と完全決定論的アプローチ\nIDE Gemini CTOとして、これまで数多くのインフラ環境における悲惨なデータ消失インシデントを見てきました。エッジサー...",
@@ -146,15 +236,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "Aiと一緒にツールを作ってみよう(利便性向上編)",
-      "link": "https://qiita.com/92yuki/items/5203914c857e8e517670",
-      "summary": "はじめに\nこの記事は\n前回(https://qiita.com/92yuki/items/0dcc72bd42120dd713d6)\n前々回(https://qiita.com/92yuki/items/948e67d907b4576a1434)\nの続きになります\n\nこの...",
-      "published": "2026-09-30T14:02:34+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "検算できないLLM出力を、どう守るか — 「構造化できる一部」と「課金の粒度」",
       "link": "https://zenn.dev/horibe/articles/unverifiable-llm-output-guardrails",
       "summary": "TOEIC学習アプリに、Claude を使う機能を3つ入れてきた。\n\n一文をSVOCに割って、第何文型か出す\n発音採点の結果から、直すところを1つだけ助言する\n\nその一文を、家庭教師の口で解説してもらう ← 今回\n\n1と2は機械で検算できた（前の記事「LLMの答えを機械で検算する」で書いた）。\n区切りをつなげて原文に戻るか。助言が指している音が、実際に測った音の中にあるか。\n答えが正しいかどうかを",
@@ -180,15 +261,6 @@
       "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "同じプロンプトを27言語で測ったら、日本語は英語の1.79倍のトークンだった",
-      "link": "https://qiita.com/yunany90/items/c260860051279ed479bb",
-      "summary": "同じプロンプトを27言語に翻訳して、OpenAIのトークナイザーでトークン数を測ってみました。「日本語は英語よりトークンを食う」とよく言われますが、実際どのくらいなのか、他の言語と比べてどうなのかを数字で確認したかったからです。\n結論から言うと、日本語は英語の1.79倍。2...",
-      "published": "2026-09-30T12:49:17+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "【Linux初心者向け】teeコマンドの使い方｜実行結果を画面に表示しながら保存する",
@@ -236,24 +308,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "なぜ、GPTは5.6Sol→6Solより、6Sol→6.1Solの方がパワーアップ度が上なのか？",
-      "link": "https://qiita.com/pdfractal/items/386da8ecabc1f1956f71",
-      "summary": "はじめに\n普通にモデル名だけを見れば、GPT-5.6 SolからGPT-6 Solへの更新こそ大きな進歩であり、GPT-6 SolからGPT-6.1 Solへの更新は小さな改良だと考えるでしょう。しかし2026年9月までにOpenAIが公開した評価結果を見ると、実際には逆...",
-      "published": "2026-09-30T11:34:42+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "The Code Nobody Reads: 読まないコードの信頼をどこに置くか",
-      "link": "https://zenn.dev/fukubaka0825/articles/cce7f22742e9b4",
-      "summary": "!\nこの記事は「@fukubaka0825っぽい記事をAIに書かせる」実験で、AIに出力させたものです。内容は公式ドキュメントの整理で、動作は未検証です。\n\n今回は、Addy Osmani さんが 2026 年 9 月 28 日に公開した記事「The Code Nobody Reads」を紹介します。AI が書いたコードを全行読まなくなったとき、レビューの代わりに何を置くのか、という話です。\nht",
-      "published": "2026-09-30T11:01:33+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "欠損値の定数補完 — fillna() と SimpleImputer・ColumnTransformer の使い分け",
       "link": "https://zenn.dev/salesanalytics/articles/093460d32e9be2",
       "summary": "欠損値処理には「削除」と「補完」という2つの大きな柱があります。この記事では、補完の中でもまず押さえておきたい「定数補完」の要点をコンパクトにまとめます。欠損箇所を、あらかじめ決めた特定の値で埋めるシンプルな手法です。\n!\n題材は seaborn に組み込まれているタイタニック号の乗客データ（891行×15列）です。欠損は age に177件、embarked に2件、deck に688件、emb",
@@ -272,15 +326,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "TORCSのレースAI大会で、IBM Graniteの8Bにテストで検収させながらコードを書かせた記録",
-      "link": "https://zenn.dev/sean_from_japan/articles/ibm-granite-8b-code-loop",
-      "summary": "13個の部品すべてがテストに合格したのに、組み上がった車は1周も走れませんでした。\nイギリスの大学に交換留学していた2026年の春、IBMがクライアントの授業で、レースシミュレータ TORCS を走るAIを作りました。この大会には、IBMのLLMである IBM Granite を使うことが条件として付いていました。私は、手元のPCで動かす80億パラメータ（8B）のGraniteに強化学習のエージェ",
-      "published": "2026-09-30T09:52:06+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "kube-proxy の nftables モードを iptables の限界から実装まで読み解く",
       "link": "https://zenn.dev/riita10069/articles/kube-proxy-nftables-explained",
       "summary": "はじめに\nKubernetes 1.33 で、kube-proxy の nftables モードが GA になりました。\n1.37 では IPVS モードが Deprecated になり、1.40 ではデフォルトのモードが iptables から nftables へ切り替わる予定です。\nこの記事では、以下の内容について説明したいと思います。\n\niptables の構造的な限界\nnftables",
@@ -290,13 +335,13 @@
       "color": "#326CE5"
     },
     {
-      "title": "ローカル版Realtime API実現検証",
-      "link": "https://zenn.dev/jnch/articles/38d519e92bbeae",
-      "summary": "はじめに\nOpenAI Realtime APIのように、人間が話すとAIが音声で返してくれる Speech-to-Speech の体験を、クラウドAPIを使わずローカル環境だけでどこまで実現できるのか検証してみました。\n今回使ったのは、Hugging Faceで公開されている speech-to-speech です。\n構成としては、\nという、いわゆるカスケード型のSpeech-to-Speech",
-      "published": "2026-09-30T09:44:02+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
+      "title": "IoTセンサーデータどこに保存する？ PoCから大量データまで保存先の選び方",
+      "link": "https://zenn.dev/taiyyytai/articles/3c96ccf24dd163",
+      "summary": "結論\n万能な保存先はない。データの粒度・送信頻度・保存期間・後工程を考慮して、単独で足りなければ組み合わせる。\nセンサーデータは「エッジで受ける → 直近のデータをダッシュボードで見る → 長く残す → まとめて分析する」という流れで扱われます。保存先はこの流れのどこを受け持つかで選ぶと迷いにくくなります。\n!\n\n本記事はセンサーデータの保存先を扱います。MQTTによる双方向通信（デバイス制御）や",
+      "published": "2026-09-30T09:30:10+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "IoTセンサーデータどこに保存する？ PoCから大量データまで保存先の選び方",
@@ -308,15 +353,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "オンデバイスLLMとクラウドLLMの使い分け設計",
-      "link": "https://zenn.dev/techstudiolab/articles/on-device-cloud-llm-mobile-design",
-      "summary": "この記事で分かること\nモバイルアプリへLLMを組み込むとき、オンデバイスとクラウドを何を基準に使い分けるかを整理します。特に、利用者が入力した文章や業務データなど、外部送信を慎重に扱いたい情報があるアプリを想定します。\n対象読者\nFlutter、React Native、Swiftなどでモバイルアプリを作っていて、生成AI機能の設計を検討している方を想定しています。モデルの実装方法より、「どのデー",
-      "published": "2026-09-30T09:26:39+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "MCPサーバーのもうひとつの「ステートレス化」",
       "link": "https://zenn.dev/lovegraph/articles/b5a3404aed5edd",
       "summary": "社内で動いているMCPサーバーを見返していたところ、過去3本のデプロイスクリプトすべてに同じ設定がありました。\n--max-instances=1\n--session-affinity\nCloud Runなのに1インスタンス固定！？\n調べてみると、OAuthの処理をエラーなく進めるために仕方なく設定しているものでした。\nこの問題に取り組む中で、MCP 2026-07-28とは別の「ステートレス化」",
@@ -326,11 +362,47 @@
       "color": "#4285F4"
     },
     {
+      "title": "API Gateway WebSocket API を HTTP 統合で使う",
+      "link": "https://zenn.dev/nextbeat/articles/apigw-websocket-http-integration-ecs",
+      "summary": "概要\nAPI Gateway の WebSocket API は、Lambda と組み合わせて利用されるのが一般的です。一方で、HTTP 統合 を用いると、任意の HTTP エンドポイントをバックエンドとして指定できます。\n本記事では、WebSocket API を HTTP 統合で利用し、ECS 上で稼働する既存の API サーバに接続する構成を紹介します。\nAPI Gateway には Web",
+      "published": "2026-09-30T08:40:48+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "API Gateway WebSocket API を HTTP 統合で使う",
+      "link": "https://zenn.dev/nextbeat/articles/apigw-websocket-http-integration-ecs",
+      "summary": "概要\nAPI Gateway の WebSocket API は、Lambda と組み合わせて利用されるのが一般的です。一方で、HTTP 統合 を用いると、任意の HTTP エンドポイントをバックエンドとして指定できます。\n本記事では、WebSocket API を HTTP 統合で利用し、ECS 上で稼働する既存の API サーバに接続する構成を紹介します。\nAPI Gateway には Web",
+      "published": "2026-09-30T08:40:48+00:00",
+      "source": "Zenn - Terraform",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "AWSしか触ってこなかった私が、GCPで手が止まった話(前編:IAM・CI/CD・GKE)",
+      "link": "https://zenn.dev/scalar_sol_blog/articles/6164eacc9895f9",
+      "summary": "この記事について\n社内のマルチクラウド(AWS/Azure/GCP)検証用リポジトリで、GCP側のTerraformを書くことになりました。AWSはそれなりに触ってきたので「まあ似たようなものだろう」くらいの気持ちで始めたのですが、実際には「あれ、AWSだとこうだったのに」と手が止まる場面が何度もありました。\nこの記事は、AWSの感覚のままGCPを触ったときに、どこで・なぜ止まったのかの記録です。",
+      "published": "2026-09-30T08:30:05+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "AWSしか触ってこなかった私が、GCPで手が止まった話(前編:IAM・CI/CD・GKE)",
       "link": "https://zenn.dev/scalar_sol_blog/articles/6164eacc9895f9",
       "summary": "この記事について\n社内のマルチクラウド(AWS/Azure/GCP)検証用リポジトリで、GCP側のTerraformを書くことになりました。AWSはそれなりに触ってきたので「まあ似たようなものだろう」くらいの気持ちで始めたのですが、実際には「あれ、AWSだとこうだったのに」と手が止まる場面が何度もありました。\nこの記事は、AWSの感覚のままGCPを触ったときに、どこで・なぜ止まったのかの記録です。",
       "published": "2026-09-30T08:30:05+00:00",
       "source": "Zenn - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "AWSしか触ってこなかった私が、GCPで手が止まった話(前編:IAM・CI/CD・GKE)",
+      "link": "https://zenn.dev/scalar_sol_blog/articles/6164eacc9895f9",
+      "summary": "この記事について\n社内のマルチクラウド(AWS/Azure/GCP)検証用リポジトリで、GCP側のTerraformを書くことになりました。AWSはそれなりに触ってきたので「まあ似たようなものだろう」くらいの気持ちで始めたのですが、実際には「あれ、AWSだとこうだったのに」と手が止まる場面が何度もありました。\nこの記事は、AWSの感覚のままGCPを触ったときに、どこで・なぜ止まったのかの記録です。",
+      "published": "2026-09-30T08:30:05+00:00",
+      "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
     },
@@ -623,33 +695,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "ヘキサゴナルアーキテクチャを実装レベルで確かめてみた（その1）ポート・アダプター・アプリケーションはコードではどうなるのか",
-      "link": "https://zenn.dev/aws_japan/articles/hexagonal-architecture-lambda-1",
-      "summary": "ヘキサゴナルアーキテクチャ（Ports and Adapters）は、解説を読むと六角形の図と「アプリケーションを中心に置き、ポートとアダプターで外の世界とつなぐ」という説明で理解できた気になるのですが、いざ自分で書こうとすると、ポートは具体的にどんなクラスにすればよいのか、アダプターとの境目はどこか、そしてそこまでして何が楽になるのか、というところで手が止まる、ということがあるのではないでしょう",
-      "published": "2026-09-30T01:04:42+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "LLMにもEOLがある — モデルを依存ライブラリとして管理する",
-      "link": "https://zenn.dev/stock_inc/articles/llm-model-eol-lifecycle-management",
-      "summary": "LLMを本番に組み込むとき、私が最初に見落としていたのは「そのモデルはいつまで使えるのか」でした。\nRailsのバージョンなら誰でもEOLを気にします。PostgreSQLなら次のメジャーアップグレードを計画に入れます。ところがモデルについては、選定時の議論は精度とコストばかりで、寿命の話が出てこない。少なくとも私は出していませんでした。\n\n モデルには提供終了がある\n気づいたきっかけは、まったく",
-      "published": "2026-09-30T01:00:07+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "Innovation Sandbox on AWS のサンドボックスを SCP と RCP で隔離する",
-      "link": "https://zenn.dev/aws_japan/articles/innovation-sandbox-on-aws-isolation-scp-rcp",
-      "summary": "はじめに\nこんにちは。AWS ソリューションアーキテクトの北川です。\nInnovation Sandbox on AWS（以下 ISB）は、期限付きの AWS サンドボックス環境をセルフサービスで払い出し、使い終わったら AWS Nuke で自動クリーンアップして再利用する AWS ソリューションです。ISB そのものの概要は別記事で解説しています。\nhttps://zenn.dev/aws_ja",
-      "published": "2026-09-30T00:49:30+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "【開催報告】組み込みソフトウェア開発でも AI エージェントは活用できる ─ 日立産業制御ソリューションズ様とのワークショップ",
       "link": "https://aws.amazon.com/jp/blogs/news/hiics-ai-sdlc-workshop/",
       "summary": "長期にわたって保守される組み込みソフトウェアの開発でも、AI エージェントは活用できます。2026 年 7 月、日立産業制御ソリューションズ様向けに、既存コードの読み解きから仕様化、実装、テストまでを Kiro で体験するハンズオンワークショップを 2 回開催し、102 名のエンジニアにご参加いただいた開催報告です。",
@@ -657,15 +702,6 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "Keras入門　第３回　モデル構造の定義と学習・評価",
-      "link": "https://zenn.dev/hoshinagi1219/articles/787b3df0a18d4d",
-      "summary": "星杜なぎさです。\n今回は実際に独自のKerasモデルの作成と評価までのプログラムをまとめました\n\n 0. 動作確認環境\n\nPython 3.13.15\n\nkeras==3.13.2\nmatplotlib==3.10.0\nscikit-learn==1.6.1\n\n\n\n\n 1. 各種必要ライブラリのインポート\nfrom pathlib import Path\n\nimport numpy as np\ni",
-      "published": "2026-09-30T00:00:06+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "AI企業トップらと昼食会のトランプ米大統領、政府内で「AI」を「SI」と呼び替える大統領令に署名",
@@ -717,15 +753,6 @@
       "link": "https://kn.itmedia.co.jp/kn/article/2609/30/2000001811/",
       "summary": "社内チャットの使い方の変化から、従業員の退職の兆候を捉えられるのか。SlackやTeamsの利用ログと勤怠データから、従業員の変化を捉えるAIサービスが登場した。アンケートの回答ではなく、日々の行動に着目する仕組みとは。",
       "published": "2026-09-29T22:00:00+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "OpenAIの「DevDay 2026」で発表された主なことまとめ",
-      "link": "https://www.itmedia.co.jp/news/article/2609/30/2000001868/",
-      "summary": "OpenAIは、年次開発者会議「DevDay 2026」で20件以上の新機能を発表した。常時稼働エージェント「dots」、新モデル「GPT-6.1 Sol」、最大8倍高速な有料枠「Ultrafast」を投入。Codexのクラウド実行やチーム向け協働空間「ChatGPT Space」も公開した。",
-      "published": "2026-09-29T21:36:34+00:00",
       "source": "ITmedia AI+",
       "tag": "AI",
       "color": "#10A37F"
@@ -1037,24 +1064,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "deploy環境を作成: terraform導入編",
-      "link": "https://zenn.dev/noah11/articles/b6484099f441d2",
-      "summary": "これから、deploy環境を作成します。\n自分がやったことの記録としていくつかのパートに分けて書きます。(自分用のメモです)\nTerraform を始める日に、サーバーやデータベースまで書いてしまうと、ログインも版もファイルの役割も同時に分からなくなります。先に揃えるのは、検証環境へ入る口と、infra に置く定義だけです。AWS 上には、まだ何も作りません。\n\n 最初に揃えるもの\n作業の順は3つ",
-      "published": "2026-09-27T10:55:41+00:00",
-      "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "初めてのDynamoDBハンズオン入門: キーだけで小さく始めるNoSQLを手を動かして理解する",
-      "link": "https://zenn.dev/bamtech1904/articles/20260925_dynamodb-basics-handson-intro",
-      "summary": "https://youtu.be/pq_8N6-IJ68\nこの記事は、同じ内容で作ったYouTubeハンズオン動画「DynamoDBハンズオン入門」に合わせて用意したテキスト版です。動画で見た手順をあとから読み返して手を動かせるように、コマンドの中身をそのまま掲載しています。\nDynamoDBの基本要素と課金の勘所を整理したあと、実際にハンズオンで以下のことを実施します↓\n\nTerraformでテ",
-      "published": "2026-09-27T08:34:20+00:00",
-      "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "September 27, 2026",
       "link": "https://docs.cloud.google.com/release-notes#September_27_2026",
       "summary": "Agent Platform Workbench\nChange\n20260927-2130-rc0 Release\nChange\nInstalled latest packages from upstream dependencies.\nChange\nM151 Release\nChange\nInstalled latest packages from upstream dependencies.",
@@ -1069,15 +1078,6 @@
       "summary": "はじめに\n以前、「スキルにするほどでもない知見が消えていく」問題を Obsidian × git のチーム知見メモリ（vault）で解決した話を書きました。あれで置き場はできたのですが、運用してみると次の穴が見えました。\n置き場があっても、人は書かない。\n書くべきタイミング——障害が解消した直後、レビューで指摘をもらった直後、「あ、これ前も踏んだな」と思った瞬間——はどれも、目の前の作業を終わらせ",
       "published": "2026-09-26T12:40:30+00:00",
       "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "terraform apply で何が起きるのか【AI の Terraform 暴走を止める #4】",
-      "link": "https://zenn.dev/e8dev/articles/terraform-apply-ai-review",
-      "summary": "AI が書いた Terraform の実行を承認する立場の人に向けて、基本コマンドを 1 本ずつ「機構 / 設計意図 / AI を止めるサイン」の 3 問で解説するシリーズの 4 本目です。前回は plan の記号を読む: -/+ は一度消える。\n今回は terraform apply。yes と打ったあと、何が起きているか説明できますか?\n\nログはすべて hashicorp/random pro",
-      "published": "2026-09-26T09:35:06+00:00",
-      "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
     },
@@ -1107,6 +1107,33 @@
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
+    },
+    {
+      "title": "Amazon RDS for PostgreSQL が Amazon RDS データベースプレビュー環境で PostgreSQL 19 Beta 4 をサポート",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/postgresql-19-beta-4-amazon-rds-database-preview-environment/",
+      "summary": "本日より、Amazon RDS for PostgreSQL 19 Beta 4 が Amazon RDS データベースプレビュー環境で利用できるようになりました。これにより、Amazon RDS for PostgreSQL での PostgreSQL 19 のプレリリースを評価できます。\nPostgreSQL 19 Beta 4 では、以前のリリースで導入されたクエリパフォーマンスおよび au",
+      "published": "2026-09-24T16:00:00+00:00",
+      "source": "AWS What's New（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Amazon RDS for MySQL が延長サポートのマイナーバージョン 5.7.44-rds.20260902 および 8.0.46-rds.20260908 を発表",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-rds-mysql-extended-support-minor-5744-8046-rds/",
+      "summary": "Amazon Relational Database Service (RDS) for MySQL が Amazon RDS 延長サポートのマイナーバージョン 5.7.44-rds.20260902 および 8.0.46-rds.20260908 を発表しました。\nAmazon RDS 延長サポートでは、メジャーバージョンの標準サポート終了日を過ぎた後も、重大な共通脆弱性識別子 (CVE) およ",
+      "published": "2026-09-24T16:00:00+00:00",
+      "source": "AWS What's New（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Amazon RDS for PostgreSQL がポスト量子 TLS キー交換をサポート",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/postgresql-post-quantum-tls-key-exchange/",
+      "summary": "本日より、Amazon RDS for PostgreSQL では、ポスト量子 TLS (PQ-TLS) キー交換がサポートされるようになりました。これにより、転送中のデータを暗号化する方式として、ポスト量子暗号を選択できます。\nRDS for PostgreSQL バージョン 18 以降では、ssl_groups パラメータの変更がサポートされています。RDS for PostgreSQL の許",
+      "published": "2026-09-24T16:00:00+00:00",
+      "source": "AWS What's New（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "Go言語で書かれた高速なIDE「Rune」、オープンソースで公開。ターミナルとコマンドプロンプト中心の開発環境、複数リモートノードをローカルのように操作可能",
@@ -1181,6 +1208,15 @@
       "color": "#FF9900"
     },
     {
+      "title": "マルチリージョンの強力な整合性を備えた Amazon DynamoDB グローバルテーブルが追加の AWS リージョンと大陸間の構成をサポート",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/dynamodb-mrsc-additional-regions/",
+      "summary": "本日より、マルチリージョンの強力な整合性 (MRSC) を備えた Amazon DynamoDB グローバルテーブルが、カナダ (中部)、欧州 (ストックホルム)、欧州 (スペイン)、アジアパシフィック (ムンバイ)、アジアパシフィック (シンガポール) の 5 つの AWS リージョンで新たに利用できるようになりました。これにより、サポート対象のリージョンは合計 15 になりました。サポート対象",
+      "published": "2026-09-23T08:00:00+00:00",
+      "source": "AWS What's New（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "September 23, 2026",
       "link": "https://docs.cloud.google.com/release-notes#September_23_2026",
       "summary": "Apigee API hub\nFeature\nPreview launch of AWS API Gateway and Azure API Management plugins\nAPI hub now includes two new built-in plugins for ingesting API metadata from third-party gateways: AWS API Ga",
@@ -1203,42 +1239,6 @@
       "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/amazon-cloudwatch-omni/",
       "summary": "AWS は、Amazon CloudWatch を進化させた Amazon CloudWatch Omni の一般提供を発表しました。Omni は AI を活用したオブザーバビリティエクスペリエンスで、チームとそのチームが運用するアプリケーションを中心に構成されています。アプリケーションとエージェントの監視およびトラブルシューティングを 1 か所で行うことができます。OpenTelemetry の",
       "published": "2026-09-22T22:00:00+00:00",
-      "source": "AWS What's New（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "Billing Transfer が 2 段階の移管における請求グループの自動作成をサポート",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/aws-billing-transfer-supports-automatic-billing-group-creation/",
-      "summary": "AWS Billing Transfer のユーザーは、AWS Billing Conductor の新しい設定である Auto-Billing Transfer Billing Group Creation を有効にできるようになりました。この設定により、2 段階の請求の移管を構成する際に、請求グループを手動で設定する必要がなくなります。この機能は、下位の販売パートナーとそのエンドカスタマーの請",
-      "published": "2026-09-22T20:08:00+00:00",
-      "source": "AWS What's New（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "OpenAI の GPT-6 Sol と GPT-6 Luna が Amazon Bedrock で一般提供開始",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/openai-gpt-6-sol-luna-on-amazon-bedrock/",
-      "summary": "本日、AWS は、OpenAI の GPT-6 Sol と GPT-6 Luna を Amazon Bedrock で一般提供することを発表しました。Astra とともに GPT-6 ファミリーを構成するこの 2 つのモデルにより、あらゆるワークロードで、インテリジェンス、速度、コストのバランスを取るための選択肢がさらに広がります。Sol は日々の業務に使用するモデルで、繰り返し発生する複雑なタス",
-      "published": "2026-09-22T18:09:00+00:00",
-      "source": "AWS What's New（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "Claude Opus 5.5 が AWS で利用可能に",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/claude-opus-5-5-aws/",
-      "summary": "AWS では Claude Opus 5.5 の提供が開始されました。Claude Opus 5.5 は、Anthropic のこれまでで最も高性能な Opus モデルであり、Claude 5.5 モデルファミリーの最初のモデルです。長時間にわたるコーディングやナレッジワークを処理し、実行した作業、判明したこと、次に必要なことを明確に報告する、これまで以上に頼れるパートナーです。\nAnthropi",
-      "published": "2026-09-22T15:00:00+00:00",
-      "source": "AWS What's New（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "Claude Opus 5.5 が AWS GovCloud (米国) で利用可能に",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/09/claude-opus-5-5-aws-govcloud/",
-      "summary": "AWS GovCloud (米国) では Claude Opus 5.5 の提供が開始されました。Claude Opus 5.5 は、Anthropic のこれまでで最も高性能な Opus モデルであり、Claude 5.5 モデルファミリーの最初のモデルです。長時間にわたるコーディングやナレッジワークを処理し、実行した作業、判明したこと、次に必要なことを明確に報告する、これまで以上に頼れるパート",
-      "published": "2026-09-22T15:00:00+00:00",
       "source": "AWS What's New（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
