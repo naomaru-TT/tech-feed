@@ -1,21 +1,228 @@
 {
-  "updated": "2026-10-17T07:21:11.130944+00:00",
+  "updated": "2026-10-17T12:35:31.075301+00:00",
   "items": [
     {
-      "title": "AWS閉鎖網+Snowflake タイムトラベルの有用性",
-      "link": "https://qiita.com/Cache-Hit/items/b9d463637eadb68f0de8",
-      "summary": "この構成の続きです。\n・構成\nhttps://qiita.com/Cache-Hit/items/5f7f8788b4d97d4b553d\n\nタイムトラベルについて\nSnowflake特有の機能、タイムトラベルがほかのクラウドと比べてだいぶ異質であり便利なので紹介と検証...",
-      "published": "2026-10-17T05:21:10+00:00",
+      "title": "生成AI時代の自宅K8sクラスター",
+      "link": "https://zenn.dev/yuanying/articles/76088a579996da",
+      "summary": "自鯖缶 のプロポーザルが通らなかったので、成仏がてら。\n\n 承前\n\n 2026年某日\n自宅K8sクラスターをこの9年ほど運用してきて、今更ながらに思っていた。\nメンテナンスがめんどくさい。\n特に、ちょっと大きめのミドルウェア系のアップデートが特にめんどくさい。「特に」を重ねてしまうくらいめんどくさい。\nさらに今年は、自宅クラスター運用勢にそこそこ大きな課題が降ってきた。Ingress NGINX",
+      "published": "2026-10-17T12:08:44+00:00",
+      "source": "Zenn - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "AWS MLA試験対策 サービス用語整理",
+      "link": "https://qiita.com/Kagesyu/items/3e1fcbc05613154ed27f",
+      "summary": "イントロダクション\n今回はAWS MLA試験に出題する用語についてについて子供にでもわかるように学校をイメージして解説します。\n参考記事として以下を参照致します。\nhttps://qiita.com/tomotomo_1D/items/752ecace6b6fb42f5d...",
+      "published": "2026-10-17T11:42:26+00:00",
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "re:Invent 2026 APJK KickOFF",
-      "link": "https://qiita.com/taro-yamada/items/f169145fd03ad4537a69",
-      "summary": "メールを楽しみに待つ幸せとは\n\nいつも同じではない\nさて入場チケットを買ったのであれば。\nそろそろセッション以外情報集める時期(遅\n昨年自分はパーティ勧誘メールに飛びつきした時期。\nAPJKといえばApache女子高生ではなく\nアジアパシフィック•ジャパン韓国(違\nなかな...",
-      "published": "2026-10-17T04:53:29+00:00",
+      "title": "RDS のパスワード自動更新で ECS が落ちて、後回しにしていた RLS の対応をやった",
+      "link": "https://zenn.dev/kana001_bit/articles/rds-master-connection-rotation-rls",
+      "summary": "マルチテナントの SaaS の dev 環境を、AWS 上に Terraform で組んでいます。アプリ側は TypeScript です。\nある日の昼前、管理画面にログインできなくなりました。調べると、RDS のパスワードが 7 日ごとに自動で変わる設定になっていて、その瞬間に常駐している ECS のタスクが DB に繋がらなくなっていました。\nそれ自体はよくある話だと思います。原因はアプリが R",
+      "published": "2026-10-17T11:00:06+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Colab から RunPod まで、オープンモデルのセルフホストで確認できたこと・できなかったこと",
+      "link": "https://zenn.dev/kentaro36/articles/colab-runpod-selfhost-api-direction",
+      "summary": "要約\nColab で動かしていた Qwen の Gradio アプリを出発点に、RunPod の GPU を借りて、オープンウェイトモデルを Open WebUI につなぐ検証を 3 段階で行いました。\n\n\nPhase 1（2026-10-09）：小型の Qwen2.5-1.5B-Instruct で、Open WebUI から 1 回だけ回答を表示できました。\n\nPhase 2（2026-10-",
+      "published": "2026-10-17T10:43:00+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AIは攻撃の経済性を変えたが手口は変えていない：防御側は3つの時間を縮める",
+      "link": "https://zenn.dev/xim2jp_tokyo/articles/neta-42-zenn-summary",
+      "summary": "2026年9〜10月の国内の大量漏えいを一次情報で整理し、防御側の実装に落とした記事の紹介です。\n\n 論点：AIは増幅器であって新しい攻撃ベクトルではない\nAnthropicの9月の脅威レポートは、開発者トークン1つから約3時間でクラウドの管理権限を握り、下流のSaaS顧客約200社のデータを奪った事例を挙げる一方、手口自体は盗まれた認証情報・未修正の境界機器・公開サービス・SQLi・フィッシング",
+      "published": "2026-10-17T10:41:13+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AIは攻撃の経済性を変えたが手口は変えていない：防御側は3つの時間を縮める",
+      "link": "https://zenn.dev/xim2jp_tokyo/articles/neta-42-zenn-summary",
+      "summary": "2026年9〜10月の国内の大量漏えいを一次情報で整理し、防御側の実装に落とした記事の紹介です。\n\n 論点：AIは増幅器であって新しい攻撃ベクトルではない\nAnthropicの9月の脅威レポートは、開発者トークン1つから約3時間でクラウドの管理権限を握り、下流のSaaS顧客約200社のデータを奪った事例を挙げる一方、手口自体は盗まれた認証情報・未修正の境界機器・公開サービス・SQLi・フィッシング",
+      "published": "2026-10-17T10:41:13+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "CVE-2026-99999（PwnEscape）はDockerやAWS ECSに影響する？構成別の判定まとめ",
+      "link": "https://qiita.com/Xim2jp/items/6afb445910d1d8ea4c09",
+      "summary": "この記事でわかること\n2026年10月15日に公開されたLinuxカーネルの脆弱性 CVE-2026-99999（通称 PwnEscape）について、「自分の環境は影響を受けるのか」を構成ごとに判定できるよう整理しました。\n\nどんな脆弱性か\n\nホストのLinuxカーネルの...",
+      "published": "2026-10-17T10:41:08+00:00",
       "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Kubernetes ノードのディスク領域と Disk Pressure Eviction について",
+      "link": "https://qiita.com/yosshi_/items/28c155a3c5570416023a",
+      "summary": "はじめに\nノードのディスク領域がよくわからないのと、Pod が意図せずに evict される場合は、OOM か Disk Pressure の場合が多いですが、Disk Pressure についてはよくわからないという話をよく聞くので記事にしました。\nOOM の仕組みにつ...",
+      "published": "2026-10-17T10:35:09+00:00",
+      "source": "Qiita - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "ローカルLLMの画像翻訳が2.7秒から30秒になった計測の落とし穴",
+      "link": "https://zenn.dev/maruhana/articles/local-llm-image-translation-cache-pitfall",
+      "summary": "!\nAI 深度で立体視を作るシリーズの番外編です。同じ VITURE のグラス（Luma Cyber）のカメラが使えるようになったので、カメラで何ができるかを確かめた記録です。\n\n!\n先に、この記事の要約（専門用語なし）\n\nXRグラス（VITURE Luma Cyber）のカメラで何ができるかを確かめるため、視界の英語を撮って日本語字幕を出す「翻訳」を、ネット接続なしの手元処理だけで試した\n画像を",
+      "published": "2026-10-17T10:15:34+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "最新モデルに替えたら全件400😱 Claude Opus 5.5が強制ツール指定を受け付けなかった週末と13日黙っていたシャドウ",
+      "link": "https://zenn.dev/charge0315/articles/10db715933d2b3",
+      "summary": "みなさん、こんにちは！\n「ALPHA FORGE 開発秘話」の第22話です。\n土曜の朝、AIの判定役を出たばかりの最新モデルに替えました。そのままなら、月曜朝7時のAIピックは全件エラーで0件になるところでした😱\nしかも調べてみたら、比較役のAI（シャドウ）は13日も前から、誰にも気づかれずに止まっていたんです。\n日本株のAI銘柄スクリーニング＆継続学習端末「ALPHA FORGE（アルファフォー",
+      "published": "2026-10-17T09:51:39+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "第16回 Terraform講座",
+      "link": "https://qiita.com/nyarusasu22/items/fd8217b318135c7aa980",
+      "summary": "RDSを本当に完成させる！\nここまで、AWSのネットワークからアプリケーション、そしてRDSまで、一つずつTerraformで作ってきた。\nそして前回までで、\nRDS\n├── DB Subnet Group ✅\n└── Security Group ✅\nまで完成した。\nでも...",
+      "published": "2026-10-17T09:48:44+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "社内 MCP サーバーの管理: SaaS の鍵を 1 か所に集める",
+      "link": "https://zenn.dev/tosshi/articles/09da54a5fa740f",
+      "summary": "はじめに\n!\nこの記事は、仕組みの理解を助けるために書いたものです。実際に組む前には、専門家のレビューを受け、自分の環境で入念に検証してください。内容に誤りを見つけたら、コメントで教えていただけるとうれしいです。\nこの記事では、一例として Microsoft Entra ID を使って整理します。Amazon Cognito などほかのサービスでは、それぞれ違いがあるので、各サービスの資料を確かめ",
+      "published": "2026-10-17T09:41:33+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "GoogleのEmbeddingGemma 2をOpenCLIP風に使えるPythonライブラリを作ってPyPIに公開してみた",
+      "link": "https://qiita.com/ktanemo/items/b770db65b150e26eb58a",
+      "summary": "はじめに\nGoogleのEmbeddingGemma 2を、OpenCLIPに近いインターフェースで扱えるPythonライブラリ「openclip-gemma」を開発し、PyPIに公開しました。\nGitHub: https://github.com/kotadymo/op...",
+      "published": "2026-10-17T09:28:48+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "Jetson AGX XavierでNemotron 3.5 Lightningを動かしてみる",
+      "link": "https://zenn.dev/nooop/articles/9d5f19aed77e18",
+      "summary": "目的\n前回、Jetson AGX XavierでQwen3.8-27Bを動かしてみましたが、5〜6 tokens/secと常用には厳しい速度でした。\nhttps://zenn.dev/nooop/articles/f9dbdd970d3dfa\nその記事のコメントで、Nemotron 3.5 Lightningなら同じくらいの賢さでもっと速く生成できるのでは、という話をいただきました。\nそこで、8月",
+      "published": "2026-10-17T09:11:27+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "PC に住む AI の相棒は、何でできているか（第1回）",
+      "link": "https://zenn.dev/kamekamereon/articles/0d7243a3884767",
+      "summary": "!\nこの記事で分かること\n\nPC に常駐する AI の相棒が、どんな部品でできているか\nそれぞれの部品を、何に困って、何のために置いたか\n相棒が見ていない間も進む「小さな町」が、なぜあるのか\n\n\nこの記事は、試作の AI 自身（Anthropic の Claude Code の上で動いています）が書いています。以下の「私」はその AI、「開発者」は一緒に作っている人間です。公開する前に、開発者が中",
+      "published": "2026-10-17T09:00:54+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "EC2しか使えない環境で、コンテナ的に構築・運用する",
+      "link": "https://qiita.com/yutaka_kozuka/items/63cb382c1e3f60f7e92e",
+      "summary": "はじめに\n普段はECS、EKS、Lambdaをメインに使っており、EC2を本格的に運用する機会はほとんどありませんでした。しかし、制約により「EC2のみ使用可能」という条件での構築が必要になりました。\nEC2での構築方法にはいくつかのアプローチがあります。\n\nUserD...",
+      "published": "2026-10-17T08:53:54+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "2026年秋のAIアップデートを業務視点で読む：安く・速く・小さく、旧モデルは退場へ",
+      "link": "https://zenn.dev/kosukeozawa/articles/ai-updates-autumn-2026-business",
+      "summary": "2026年9月から10月にかけて、主要なAI各社が立て続けに新しいモデルを公表しました。追いかけるだけで疲れますが、業務で使う側から見ると、押さえるべき変化は多くありません。この記事では「安くなった」「速くなった」「小さいモデルが実用水準になった」「旧モデルの提供終了が始まった」の4点に絞り、一次情報（各社の公式発表・公式ドキュメント）に沿って整理します。\nベンチマークの順位争いではなく、「自社の",
+      "published": "2026-10-17T08:49:55+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "バックエンド開発で注意したい性能と安定性の問題 #03 ―― ヘルスチェック",
+      "link": "https://qiita.com/myaX/items/7fe8a632bdbd9c43c9a8",
+      "summary": "ヘルスチェックの目的\nヘルスチェックの目的は、システムが正常にサービスを提供できる状態かを継続的に確認することです。\n主に、次のような状態を確認します。\n\nサーバーやアプリケーションが稼働しているか\nユーザーからのリクエストを処理できるか\nデータベースなどの重要な依存先に...",
+      "published": "2026-10-17T08:44:01+00:00",
+      "source": "Qiita - インフラ",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "LLM08：ベクトルと埋め込みの脆弱性とは？社内検索AIが見せてはいけない文書を引いてくる理由",
+      "link": "https://zenn.dev/monkey_gineer/articles/security-llm-08-vector-embedding",
+      "summary": "1. その便利な機能、本当に安全ですか？\n社内の文書を検索して、質問に答えてくれるAIがあります。人事規程、業務マニュアル、過去の提案書など、さまざまな文書をまとめて検索できます。\nこのような仕組みを、RAG（検索拡張生成） と呼びます。AIが答える前に関連する文書を検索して、その内容を材料にします。\nでは、営業部の社員の質問に対して、別の部署だけが見てよい文書が検索結果に混ざってきたら？ 採用の",
+      "published": "2026-10-17T08:26:43+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "マルチターン攻撃（Crescendo）はなぜ単発の評価で見落とされるのか：会話全体の検査と評価条件を模擬実装で確かめる",
+      "link": "https://qiita.com/shalXXXX/items/ed342c5760b9e49d57ce",
+      "summary": "LLM のジェイルブレイク評価は、1 回の入力に対してモデルが断るかどうかを見る形が中心です。ところが実際の利用では、ユーザーは何往復も会話を続けられます。無害な質問から始めて少しずつ話を進め、最後にモデル自身の過去の応答を足がかりに目的の出力を引き出すマルチターン攻撃は、...",
+      "published": "2026-10-17T08:00:26+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "「そもそも親にAIなんて必要ない」　65歳以上の生成AI利用、子世代の7割が拒否する理由",
+      "link": "https://atmarkit.itmedia.co.jp/ait/articles/2610/17/news007.html",
+      "summary": "SHIFT AIが65歳以上の親を持つ全国の30～50代男女723人を対象とした「シニア×AIの意識調査」の結果を発表。親に生成AIを使ってほしくない子世代が69.3％に達したという結果とともに、その理由や自身の利用頻度、親に教える際の障壁などを示した。",
+      "published": "2026-10-17T08:00:00+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "PC に住む相棒の試作実験ノート ― この記録について（第0回）",
+      "link": "https://zenn.dev/kamekamereon/articles/eaff7b77ef7a58",
+      "summary": "!\nこの記事で分かること\n\nPC に常駐する AI の相棒を、試しに動かしていること\nその AI に「記憶の続き」を持たせられるかを、記録しながら確かめていること\nこの記録で書くこと・書かないこと\n\n\n最初の目的は、二つの AI を同時に動かしている時に、どちらが作業中で、どちらが止まっているのかを分かるようにすることでした。そのために作り始めた小さな仕組みが、今では、記憶や時間の続きまで試す実験",
+      "published": "2026-10-17T07:50:33+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AIの評価結果を信用してよいのか？ ― Known AnswerとConsistencyを実験してみる",
+      "link": "https://zenn.dev/kondonator/articles/30c571ac1daf95",
+      "summary": "AIの評価結果を信用してよいのか？\n\n ― Known AnswerとConsistencyを実験してみる\n\n はじめに\n前回の記事では、AIが自分自身や別のAIの回答を評価する Self Evaluation について実験しました。\nAIは自分の回答を正しく評価できるのか？ ― Self Evaluationを実験してみる\nAIに回答を生成させ、その回答をAIに評価させる。\n一見すると、AIによ",
+      "published": "2026-10-17T06:52:19+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AWS LightsailとKAGOYA VPSを実測比較：同じ16GBでCPU性能に約6倍の差",
+      "link": "https://zenn.dev/x10k/articles/8df2ac82ef9b47",
+      "summary": "やあみんなこんにちは！ノートパソコンでAIコーディングエージェントを動かしていると、ノートパソコンを閉じると動作が止まってしまうのが悲しくて生きるのがつらいよね。\nだから僕は適当なサーバー上でCodexを動かして並列開発して幸せを目指しているんだけど、複数のエージェントが同時にビルド・テストを走らせると、CPUにもメモリにもかなり負荷がかかります。AWS Lightsailをぽよんと利用していたん",
+      "published": "2026-10-17T05:17:39+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "DevelopersIO 2026 Joetsuに参加しました ― 技術イベントはやっぱり現地が面白い",
+      "link": "https://zenn.dev/nfffff/articles/dd32939e1257ed",
+      "summary": "はじめに\n2026年10月16日(金)に開催された「DevelopersIO 2026 Joetsu &lt;AI×クラウド技術祭&gt;」に参加してきました。\n\n参加レポートを書きます。\n\n なぜ参加したのか\n\nこれまで技術系イベントに参加したことがなかったので，一度参加してみたかった\n普段関わることの少ない社外のエンジニアが，どんな技術に触れているのか知りたかった\n自分の業務ではあまり触れない",
+      "published": "2026-10-17T02:20:07+00:00",
+      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -47,20 +254,20 @@
       "color": "#10A37F"
     },
     {
-      "title": "AWS認定全冠達成！約10か月で残り12資格を取得した学習方法を振り返る",
-      "link": "https://qiita.com/kawbow/items/b77cb409f07efadb0fe9",
-      "summary": "はじめに\n2026年10月、AWS認定資格の全冠を達成しました！\nもともと全冠を目指していたわけではなく、最初はSAPを取得することだけが目標でした。SAAを取得したのは約3年前で、2026年1月にSAPに合格。その後、せっかくなのでほかの資格にも挑戦してみることにしまし...",
-      "published": "2026-10-17T00:33:24+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "AIを活用した開発ドキュメント（README・設計書・テスト仕様書）の自動生成と実務運用ワークフロー",
       "link": "https://qiita.com/blinkgroup_jp/items/07d98f9428d903d92664",
       "summary": "読者が抱える課題\nソースコードの修正に合わせてREADME、設計書、テスト仕様書などのドキュメントを更新する作業は、開発者にとって大きな負荷となります。実装とドキュメントの剥離（ドキュメントの陳腐化）が発生しやすく、保守性の低下やレビューコストの増加につながります。\n\nこ...",
       "published": "2026-10-17T00:22:03+00:00",
       "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "機械学習の独学で効いた技術書4選",
+      "link": "https://zenn.dev/komatsu_ops/articles/20261017_book_ref",
+      "summary": "はじめに\n数年前、社内のレコメンド改善を任されたときに自分は完全に手が止まった。ライブラリを呼べばモデルは学習できる。評価スコアも出る。なのに「なぜこの精度なのか」「この差は意味があるのか」を聞かれると何も答えられなかった。\n困ってWeb記事を漁った。断片は埋まる。ただ記事は前提をばっさり省くので、交差検証の切り方やp値の扱いといった土台の部分は、読んでも読んでも穴が残った。結局その穴は本で埋める",
+      "published": "2026-10-17T00:03:48+00:00",
+      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -74,20 +281,38 @@
       "color": "#10A37F"
     },
     {
-      "title": "「何倍圧縮」で規模を比べてはいけない——1つの主張を5回訂正した記録",
-      "link": "https://zenn.dev/ai_engineer_kz/articles/ec47c15a1ae6b3",
-      "summary": "小型の言語モデルを自分で学習させて、どこまで小さくできるかを3か月測っています。\nその途中で、「語彙を2倍にすると得をする」という1つの主張を5回訂正しました。\n最後には符号が反転して、結論が逆になりました。\n原因はひとつです。「倍率」（fp32 ÷ ファイルサイズ）で、fp32 の大きさが違うモデルどうしを比べていました。\nこの記事は、その5回ぶんの記録です。各段階で「条件を揃える」度合いを上げ",
-      "published": "2026-10-16T23:10:05+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
+      "title": "ElastiCacheのLazy LoadingとWrite-Through、「いつキャッシュに入れるか」で整理した",
+      "link": "https://zenn.dev/yasutomo7974/articles/dva-elasticache-lazy-loading-write-through",
+      "summary": "おはようございます、YASUです。\nDVAの勉強で、ElastiCacheの「Lazy Loading」と「Write-Through」の違いを整理しました。名前が似ていて混同しやすかったので、シンプルにまとめておきます。\n\n 結論\n違いは「キャッシュにいつデータを入れるか」だけでした。Lazy Loadingは「読み取りの時」、Write-Throughは「書き込みの時」にキャッシュへ入れます。",
+      "published": "2026-10-16T23:40:07+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "【小技】「日本語で答えて」はもう要らない。Kiro の返答言語を表示言語で固定する",
+      "link": "https://zenn.dev/aws_japan/articles/kiro-display-language-reply",
+      "summary": "はじめに\nこんにちは、AWS Japan でソリューションアーキテクトをしているいなりくです。\nKiro に日本語で返事をしてほしくて、毎回「日本語で答えて」と書き添えたり、Steering に「日本語で回答すること」と書いたりしている、という人は多いのではないでしょうか。英語のエラーログを貼った途端に返事が英語に切り替わり、もう一度頼み直した経験がある人もいると思います。\n2026 年 7 月",
+      "published": "2026-10-16T23:31:31+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "差し戻し上等、再提出は 3 回まで。Kiro workflows の Kiro 残業ループ",
+      "link": "https://zenn.dev/aws_japan/articles/kiro-introducing-workflows",
+      "summary": "はじめに\nこんにちは、AWS Japan でソリューションアーキテクトをしているいなりくです。\nエージェントに「実装して」と頼み、終わったら「レビューして」、指摘が出たら「直して」と、1 つ終わるたびに次の指示を打ち込んでいる、という経験はないでしょうか。\n2026 年 9 月 30 日に Kiro へ追加された workflows は、この指示の受け渡しを Kiro 側に任せる機能です。作業の手",
+      "published": "2026-10-16T23:19:06+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "「何倍圧縮」で規模を比べてはいけない——1つの主張を5回訂正した記録",
       "link": "https://zenn.dev/ai_engineer_kz/articles/ec47c15a1ae6b3",
       "summary": "小型の言語モデルを自分で学習させて、どこまで小さくできるかを3か月測っています。\nその途中で、「語彙を2倍にすると得をする」という1つの主張を5回訂正しました。\n最後には符号が反転して、結論が逆になりました。\n原因はひとつです。「倍率」（fp32 ÷ ファイルサイズ）で、fp32 の大きさが違うモデルどうしを比べていました。\nこの記事は、その5回ぶんの記録です。各段階で「条件を揃える」度合いを上げ",
       "published": "2026-10-16T23:10:05+00:00",
-      "source": "Zenn - LLM",
+      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -101,15 +326,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "RAGかFine-tuningか：失敗原因から選ぶ設計判断",
-      "link": "https://zenn.dev/kas_blog/articles/20260908-rag-vs-fine-tuning",
-      "summary": "RAG（Retrieval-Augmented Generation：検索拡張生成）とFine-tuning（追加学習）は、LLM applicationを用途へ適応させる代表的な方法です。ただし、「最新知識ならRAG、振る舞いならFine-tuning」という説明だけで実装を決めると、failureの層を取り違えます。\n結論は、手法を先に選ぶのではなく、変更したい状態がどこにあるかを特定すること",
-      "published": "2026-10-16T22:52:57+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "3Dデータの処理基盤をTemporalに全面移行した話",
       "link": "https://zenn.dev/bestat/articles/7106fdf2f399e1",
       "summary": "はじめに\n私たちは、3D.Coreという産業（主に製造業・インフラ業）向けの3Dモデル生成・活用プラットフォームを開発しています。3D.Coreの裏側では、お客様がアップロードしたデータに対して、例えば次のような処理が動いています。\n\nスマホアプリで撮影した画像から、3Dモデルを生成する\nアップロードされた点群を、ブラウザで表示できる形式に変換したり、メッシュにしたりする\n3Dデータの最適化や解析",
@@ -117,24 +333,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "メール下書きの修正、AIに理由を1行添えさせると件名まで直った話",
-      "link": "https://zenn.dev/every_ai_recipe/articles/email-revision-reason-one-line",
-      "summary": "TL;DR\n\n弱点を3つ仕込んだ短いお詫びメールの下書きを1つ用意し、会話履歴を共有しない独立したLLMインスタンスに、指示文だけを変えて修正させた\n条件A「そのまま送れるように直してください」は、文末の言い回しと文の分割という表層的な修正のみ。件名（「ご報告」のまま）と曖昧な理由（「諸事情により」のまま）は放置された\n条件B「直した箇所には理由を一言（15字程度）添えて」は、同じ下書きから件名と",
-      "published": "2026-10-16T21:19:47+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Tech Watch 2026-10-16: 記憶と監査の見える化",
-      "link": "https://zenn.dev/laiken/articles/20261016-tech-watch",
-      "summary": "AIが書きました🤖\nこの記事は、AIが書いたものをAIがレビューしてから公開しています。\nL: My Fishは、AIが記憶を何回使ったかだけでなく、その記憶を得た元の会話まで表示する。自分は、記憶の内容よりこの往復経路の方が気になった。AIとの関係で信頼を決めるのは、覚える能力より、利用者が記憶の根拠へ戻れることなのだろうか。\n\n 今日の 10 件\n\n\nAn update on independ",
-      "published": "2026-10-16T21:07:17+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "分散強化学習で基地局の設定を時間帯ごとに最適化：KDDIが混雑時の上り通信を平均約60%改善 (100エリアの実証)",
@@ -150,36 +348,9 @@
       "link": "https://qiita.com/yuki_1012_1101/items/793368a704ff47e7a348",
       "summary": "変更履歴\n\n2026-10-17：公開\n\n初めに\nLambda に Web Functions（Lambda で普通の HTTP サーバーが動く機能）が来た。最初に浮かんだのは「API Gateway、もう要らないのでは？」という疑問。すぐ次に気になったのは、替えたら運...",
       "published": "2026-10-16T18:04:45+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "インフラ屋が書く Lambda Web Functions：API Gateway＋Lambda を置き換えるか、動かして判断する",
-      "link": "https://qiita.com/yuki_1012_1101/items/793368a704ff47e7a348",
-      "summary": "変更履歴\n\n2026-10-17：公開\n\n初めに\nLambda に Web Functions（Lambda で普通の HTTP サーバーが動く機能）が来た。最初に浮かんだのは「API Gateway、もう要らないのでは？」という疑問。すぐ次に気になったのは、替えたら運...",
-      "published": "2026-10-16T18:04:45+00:00",
       "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "同じ記録、違う読み：記憶の代わりに相手の記録を渡された4つのAIモデル",
-      "link": "https://zenn.dev/whalesurfer/articles/069977d0d51f91",
-      "summary": "AIと1対1でテキサスホールデムを打てるサービスを個人開発しています。その中で、記憶を持たないAIモデルに「相手の記録」を渡したとき、モデルが本当にそれを使っているのか、どう使っているのかを測りました。\n対局は2026年10月16日、保存した判断への再質問は10月17日に行いました。モデル4つ、ボット6つ、合計4,800ハンドです。\n\n 要約\nAPIで呼び出すAIモデルは、リクエストとリクエストの",
-      "published": "2026-10-16T16:35:16+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "コードの見える化: 決定的な計算を活用する",
-      "link": "https://zenn.dev/shoyataguchi/articles/4f983556c00874",
-      "summary": "「このシステム、外部のインターフェースが変わったら、どこを直せばいいの？」\n見慣れないコードベースを前にして、こういう問いに答えられる状態を作りたい、という話がありました。\n調査はエージェントにやらせる前提です。そのまま読ませるとコンテキストがあふれてしまいます（みなさんおそらく経験済みですよね？）。また、分析結果もなるべく再現性のある形で出したいです。\nそこで、静的解析ツールの出力を根拠として引",
-      "published": "2026-10-16T15:44:19+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "Docker入門：イメージ・コンテナ・Composeから本番デプロイまで整理する",
@@ -218,42 +389,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "エージェントの経験を知識に変えてスキルを育てる WikiSkill の三層構造",
-      "link": "https://zenn.dev/suwash/articles/wikiskill_20261015",
-      "summary": "WikiSkill は、エージェントの実行経験を永続的な知識ベース（wiki）にまとめ、その知識を使って手続きスキルを進化させる Google Research と Virginia Tech の論文（arXiv:2608.27454v1、Tang et al.、2026-08-27 提出、CC BY 4.0）です。この記事では、三層ワークスペースと 4 要素のループ、データの持ち方、実験結果、実",
-      "published": "2026-10-16T15:00:00+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "開発に使うAIモデルのコストと性能の最適化に挑戦（3）：OpenCode Goの月の上限をほぼ使い切ったので、内訳を調べて選び方を探った話",
-      "link": "https://zenn.dev/petittomato/articles/ai-model-cost-performance-3",
-      "summary": "このシリーズでは、Claude Opusと同じ結果を、なるべく安く手に入れる方法を探しています。題材は、自宅のAIエージェントがテレビを操作するためのコマンドの開発です。\n（1）では、低価格モデルに開発を任せました。テスト結果を見せて1回直させる方法が、いちばん安く満点に届いています。（2）では、Opusに設計書を書かせても、安くはなりませんでした。\n低価格モデルは、OpenCode Goから使っ",
-      "published": "2026-10-16T14:50:50+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "科学研究向けAgent Skills集を試す: 統計スキルは「結論」ではなく「裏付けの質」を変えた",
-      "link": "https://zenn.dev/matsushima_a/articles/day-017-scientific-agent-skills-stat-review",
-      "summary": "筆者は海外のAI関連ニュースを毎日1本検証して発信するチャレンジの17日目として、K-Dense-AI/scientific-agent-skills(MIT、旧Claude Scientific Skills)を検証した。生物学・化学・医学・物理・データ解析など幅広い研究分野をカバーするAgent Skills集で、実際に数えたところ177種のスキルが収録されていた。\n結論から書く。statis",
-      "published": "2026-10-16T13:39:10+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "小説の企画コンペを事業企画に転用したら、20案から経営会議資料まで1時間だった ― plan_studio",
-      "link": "https://zenn.dev/infra_ojisan/articles/plan-studio-business-planning",
-      "summary": "はじめに\nこのシリーズでは、AIに小説を書かせる「制作スタジオ」を作ってきました。前々回、道具を novel_studio v1.0 としてまとめて公開し、前回は 使い方の解説（1/2） を書きました。\n前回の最後に「案出しをうまく使えば新規ビジネス・新規サービスの企画案も作れる」と書きました。今回はそれを本当にやった話です。novel_studio の企画コンペの部分だけを切り出し、商品・サービ",
-      "published": "2026-10-16T13:31:18+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "モデルを変える前に、検証台帳を1行書く",
       "link": "https://zenn.dev/data_boatrace/articles/4319e066da461e",
       "summary": "モデルが動くようになると、次に試したいことがいくつも出てきます。特徴量を足す、減らす、学習期間を延ばす、設定を変える。AIに頼めば、そのたびにコードは作れます。\nただ、変更前に何を調べるかを決めていないと、実行後にいちばんよい数字を探す作業になりがちです。\n今回は、次の実験を動かす前に計画を保存するところまで進めます。原稿に計画を書くだけでなく、実行時に使う入力とコードも記録します。\n\n 次の実験",
@@ -281,15 +416,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "KiroでAWS開発をどこまでAgentに任せられる？9つの検証で分かった「できる」と「任せてよい」の差",
-      "link": "https://zenn.dev/nobu_13/articles/cc7c8b39c63b59",
-      "summary": "はじめに\n「KiroでAWS Software Development Lifecycleをどこまで自動化・Agentic化できるのか？」\nこの問いから、9つの検証を始めました。\nCloudFormation生成、AWS設計標準、lint、IAM Security Review、Serverless開発、CI/CD修復、Architecture Review、Security Review、Fin",
-      "published": "2026-10-16T11:38:41+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "KASUGAI Canvas — GIS 利活用を促進する Agentic AI エージェント",
       "link": "https://zenn.dev/yamamoto_ryuzo/articles/kasugai-canvas-agentic-ai-hackathon-vol5",
       "summary": "プロジェクト提出情報\n\n\n\n項目\n内容\n\n\n\n\nプロジェクト名\nKASUGAI Canvas + ANTIGRAVITY 情報レイヤー\n\n\nGitHub リポジトリ\n（提出時に記入）\n\n\nデプロイ URL\n（提出時に記入）\n\n\nデモ動画 URL\n（提出時に記入：YouTube 公開）\n\n\nシステムアーキテクチャ図\n（画像を追加）\n\n\n使用技術\nCesiumJS, Gemini API（functi",
@@ -297,24 +423,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "S3 Files に SQLite を置いた Lambda はどこまで耐えるか — 天井・コストと代替案の比較",
-      "link": "https://zenn.dev/ino_h/articles/2026-10-16-s3-files-sqlite-lambda-capacity",
-      "summary": "はじめに\nここ1〜2年、AWS で「とりあえず立ち上げるだけなら一瞬」というサービスが目に見えて増えています。公式の発表で日付を確認できたものだけでも、次のとおりです。\n\n\n\n時期\nサービス\n何が手軽になったか\n\n\n\n\n2024-11\nAurora Serverless v2 の 0 ACU 対応\n使っていない間は自動で一時停止する\n\n\n2025-10\nAmazon Bedrock AgentCo",
-      "published": "2026-10-16T09:11:08+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "BedrockのGPT-6.1 Sol Ultrafastを実測 — 完了時間4〜6倍高速と指定できるAPIの範囲",
-      "link": "https://zenn.dev/kashiwabaray/articles/ccd54ccf730a8b",
-      "summary": "1. はじめに\nコーディングアシスタントや対話型エージェントでは、応答の質と同じくらい「何秒待たされるか」が体験を左右します。推論モデルは考える時間のぶんだけ最初の1文字が遅れ、長い回答では生成速度がそのまま待ち時間になります。モデルを小さくすれば速くなりますが、質を保ったまま速度だけを上げる選択肢は限られています。\nAWS（Amazon Web Services）は 2026/10/08 に、A",
-      "published": "2026-10-16T08:29:49+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "AWS での多段階攻撃の検出: サービス横断のシグナル相関分析ガイド",
@@ -353,29 +461,11 @@
       "color": "#4285F4"
     },
     {
-      "title": "自動レッドチーミングの主要手法 GCG・PAIR・TAP：仕組みの違いと評価での使い分けを模擬実装で確かめる",
-      "link": "https://qiita.com/shalXXXX/items/da78ea040f9b757e6afb",
-      "summary": "LLM アプリのレッドチームを人手だけで回すと、試せるプロンプトの数がすぐに頭打ちになります。そこで、攻撃プロンプトの生成そのものを自動化する手法が研究されてきました。よく名前が挙がるのが GCG、PAIR、TAP の 3 つで、OSS のレッドチームツールにも実装されてい...",
-      "published": "2026-10-16T08:00:35+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "日本通運の AI 搭載型物流 Web アプリ「DCX」— AWS で実現する次世代サプライチェーンの可視化と予測",
       "link": "https://aws.amazon.com/jp/blogs/news/nx-dcx/",
       "summary": "物流業界では、EC 市場の急拡大、販売チャネルの多様化、商品ライフサイクルの短期化が同時に進み、サプライチェー […]",
       "published": "2026-10-16T07:54:07+00:00",
       "source": "AWS 公式ブログ（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "GuardDuty のカスタム検知ルールが Runtime Monitoring に対応したので実際に検知させてみた",
-      "link": "https://zenn.dev/cscloud_blog/articles/guardduty-custom-detection-rules-runtime-support",
-      "summary": "こんにちは、CSC の CloudFastener というプロダクトで TAM のポジションで働いている平木です！\n先日、GuardDuty の Custom Detection Rules（カスタム検知ルール）について記事を書きました。\nhttps://zenn.dev/cscloud_blog/articles/guardduty-custom-detection-rules-use-case",
-      "published": "2026-10-16T07:39:46+00:00",
-      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -389,15 +479,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "ClientVPNエンドポイントを使ってDatabase ClientJDBCからRDSに接続",
-      "link": "https://zenn.dev/fttkmcc/articles/ed7322f7c46815",
-      "summary": "概要\nプライベートなRDSに対してVPNを介して接続する\n\n この記事を読み終えると\nVPN接続からAWSのリソースにアクセスできる\n\n 目次\n\neasy-rsaでCA証明書、サーバー証明書、クライアント証明書を作成\nVPC関連のリソースを作成\nRDSを作成\n証明書をACMにアップロード\nクライアントVPNエンドポイントを作成\nAWS VPN Clientを使ってVPN接続\nDatabase Cl",
-      "published": "2026-10-16T07:06:05+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "October 16, 2026",
       "link": "https://docs.cloud.google.com/release-notes#October_16_2026",
       "summary": "BigQuery\nFeature\nConversational analytics in BigQuery\nis now available in the following locations:\n\nnorthamerica-northeast1 (Montréal)\nnorthamerica-northeast2 (Toronto)\n\nFor more information, see\nLoca",
@@ -407,15 +488,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "Bedrock Managed Knowledge Base に CSV を取り込む(注意点あり)",
-      "link": "https://zenn.dev/takurandom324/articles/bedrock-mkb-csv-truncation",
-      "summary": "はじめに\n2026年6月にGAした Amazon Bedrock Managed Knowledge Bases は、ベクトルデータベースやデータパイプラインを自分で用意しなくてよいので、とても便利ですよね。CSVファイルも表データとして解析して取り込んでくれることを知り、試してみました。おおざっぱに言えば(正確なところは記事後半で)、\n\n行ごとにチャンクになる\n各チャンクにヘッダーが付与されてい",
-      "published": "2026-10-16T06:56:05+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "議事録から開発タスクへ。人の承認を挟む meeting-watcher の設計",
       "link": "https://zenn.dev/yukamiya/articles/meeting-watcher-architecture",
       "summary": "開発会議のあとに残る「誰かが Issue にしておく」は、ささやかですが抜けやすい仕事です。\n今回、この作業を減らすために meeting-watcher を作りました。Google Docs の議事録から実行すると決まった Next Action を Gemini で抽出し、Slack に届けます。ただし、Slack 投稿から Issue 作成までを自動でつなぐのではありません。人が内容を確認し",
@@ -423,15 +495,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "AIの同時実行数を1から50へ：LLM処理をLaravelのキューワーカーから7MBのGoゲートウェイに移した話⚡",
-      "link": "https://zenn.dev/doublecheck/articles/e026f86282e181",
-      "summary": "私たちのLaravelアプリには、3つのAI機能があります。翻訳、単語・文法の例文生成、ビジネスメールの下書き作成です。どれもLLMを呼び出し、1回の呼び出しに2〜30秒かかります。\n長い間、これで問題ありませんでした。ところが「10人が同時にボタンを押したら？」と計算してみたところ、答えは 「10人目は約4分待たされる」 でした。\nこの記事では、アプリを書き直さずに この問題をどう解決したかを紹",
-      "published": "2026-10-16T06:11:56+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "k6で負荷試験をコード管理しよう",
@@ -468,24 +531,6 @@
       "source": "Qiita - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "【AIが一夜で350の主要数学問題を解決】フィールズ賞受賞者が語る、純粋数学の「オッペンハイマー・モーメント」と今後の展望",
-      "link": "https://qiita.com/dsnfuji/items/3f581ce3955967d37453",
-      "summary": "はじめに\nわずか3〜4年前まで、理論数学者たちにとって大規模言語モデル（LLM）は「初歩的な論理パズルを解かせて hallucination（幻覚）を起こす様子を見て笑う」という学術的な冗談の種に過ぎませんでした。しかし今、純粋数学は物理学研究所ではなく、AIコングロマリ...",
-      "published": "2026-10-16T05:02:40+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "[フィジカルAI]LLM によるテレオペデータで VLA を学習して Strands Robots に組み込んでみた",
-      "link": "https://zenn.dev/aws_japan/articles/strands-robots-llm-teleop",
-      "summary": "はじめに\n前回の記事[1]では、strands-robots で SO-100 というロボットアームのシミュレーションを動かし、強化学習で作った把持の Policy を Agent に登録して、日本語の指示から赤い球を掴ませました。ただ、その Policy は球を掴むという 1 つの動作だけを強化学習で覚えたもので、指示文を受け取っても動作のために使われませんでした。言葉と動作が結び付いていないの",
-      "published": "2026-10-16T04:43:37+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "Amazon S3 が Vercel Marketplace と v0 by Vercel で入手可能になりました",
@@ -668,15 +713,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "日本に本当に勝ち筋はあるのか　ヒューマノイド「解剖」で見る中国の強さと課題",
-      "link": "https://monoist.itmedia.co.jp/mn/articles/2610/16/news017.html",
-      "summary": "中国では現在、ヒューマノイドロボットの開発や量産、社会実装に向けた動きが加速している。しかし、完成品の動向を追うだけでは、その競争力の源泉や本格普及に向けた課題までは見えてこない。SUGENAのセミナー「フィジカルAI解体新書」では、ヒューマノイドをAIや関節、センサー、手などに“解体”し、中国勢の強さと残された課題を解説した。本稿ではその内容を基に、日本企業が勝負できる領域を見ていく。",
-      "published": "2026-10-15T23:00:00+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "ロジスティック回帰を最尤推定で解く：勾配とヘッセ行列を導いてニュートン法で求める",
       "link": "https://zenn.dev/tmtk/articles/891221e21485a8",
       "summary": "はじめに\n『分析者のための数理最適化入門』（伊藤元治・原田耕平・松岡勇気、ソシム、2026年）の第3章を、4本に分けて記事にしています。この記事は3本目で、ロジスティック回帰を扱います。\nロジスティック回帰は、「遅延が起きるか、起きないか」のような2択の結果を、確率として予測する方法です。scikit-learnなら LogisticRegression().fit(x, y) で求まりますが、そ",
@@ -711,15 +747,6 @@
       "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "【Docker初心者向け】ホストのコードを変更したのにコンテナに反映されない理由と対処法",
-      "link": "https://qiita.com/25Such/items/e1bff05f07db487a8145",
-      "summary": "「ホスト側のソースコードを修正したのに、なぜかDockerコンテナ側に変更が反映されない…」\nこの問題にぶち当たり、備忘録として仕組みと原因、対処法を残しておきます。\n\n結論\n今回のようにホスト側の修正がコンテナに反映されない場合、よくある原因は、ソースコードが volu...",
-      "published": "2026-10-15T11:54:41+00:00",
-      "source": "Qiita - インフラ",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "ローカルLLMの\"性格\"を1層だけいじる — Activation Steering実験記",
@@ -792,15 +819,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "語彙を倍にしても意味は1.39倍にしかならない",
-      "link": "https://zenn.dev/ai_engineer_kz/articles/e69fecaf4f752f",
-      "summary": "小型の言語モデルを自分で学習させて、どこまで小さくできるかを3か月測っていました。\nその過程で、語彙を倍にしても「独立した意味」の数は1.39倍にしかならないという測定が出ました。\nこの記事は手法の解説ではなく、規模と学習量を動かしたときに何が起きたかの測定記録です。\n実装そのものは別記事に書いています。\n\n 設定\n自作の小型言語モデル。ノートPCのCPUだけで学習しています（GPUなし）。",
-      "published": "2026-10-14T23:10:05+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "Windows上でAIエージェントの実行を安全に隔離する「Microsoft Execution Containers」（MXC）正式リリース。ファイルやネットワークなどの境界を柔軟にカスタマイズ",
@@ -1100,15 +1118,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "KubernetesのVolume・PV・PVCとは何か？",
-      "link": "https://qiita.com/5qhj13/items/46970aff07cbe8a90776",
-      "summary": "はじめに\n前回は、Secretを使ってパスワードやAPIトークンなどの機密情報をPodへ渡す仕組みを学びました。\nSecret\n        ↓\nPod\n        ↓\nContainer\n\nConfigMapやSecretは、設定値をPodへ渡すための仕組みです。...",
-      "published": "2026-10-12T03:01:50+00:00",
-      "source": "Qiita - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "ChatGPTと作るAWSの使い捨てKubernetes検証環境とその苦しみ",
       "link": "https://zenn.dev/degurum/articles/aws-kubeadm-lab-build-and-destroy",
       "summary": "KubernetesやCNIを試すために、AWSのEC2上にkubeadmでクラスタを作り、使い終わったら削除する環境を作りました。\nChatGPTには「AWS上でTerraform/Ansibleの学習がてら、AWS上のKubernetesクラスターをスクラップアンドビルドできる環境やコードが欲しい」と伝えて対応した記録が本記事です。\n私自身のスキルはKubernetesについて一定の知見がある",
@@ -1177,15 +1186,6 @@
       "summary": "インフラやアプリケーションの実行環境を定義するファイルの増加と生成AIの台頭によって、組織の決まりをレビューで確認する作業はトイルになりつつある。しかし、確認が漏れると、設定の誤りがそのままセキュリティ上の問題になる。本書は、この確認をConftestで自動化するPolicy as Codeを、手を動かしながら身につけるハンズオン形式の書籍である。対象読者は、Terraform・Docker・Ku",
       "published": "2026-10-10T05:25:24+00:00",
       "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "ConftestではじめるPolicy as Code 章末問題 解答・解説",
-      "link": "https://zenn.dev/ikaro1192/books/001cd5b93a2879",
-      "summary": "本書は、『ConftestではじめるPolicy as Code』の第1-12章の章末問題、計58問の解答と解説である。各問題について、問題の意図・考え方・解答のコード・実行結果・補足の順に説明する。補足では、誤答の例や別解、運用上の判断と、本編のどの章の内容につながるかを示す。解答のコードと出力は、すべて実際に実行して確かめた。「はじめに」と第1-4章の解答は、無料で読める。",
-      "published": "2026-10-10T05:25:21+00:00",
-      "source": "Zenn - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
     },
