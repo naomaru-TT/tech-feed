@@ -1,6 +1,15 @@
 {
-  "updated": "2026-10-18T17:41:29.864782+00:00",
+  "updated": "2026-10-18T19:53:58.013542+00:00",
   "items": [
+    {
+      "title": "毎日 terraform plan を回しても、権限が増えたことには気付けない",
+      "link": "https://zenn.dev/snknsk/articles/terraform-plan-additive-blind-spot",
+      "summary": "GCP のインフラを Terraform で管理し、手作業による変更（ドリフト）を見つけるために、毎朝 CI で terraform plan を回していました。差分が出たら CI が落ちる仕組みです。\nところが、plan は「消えた」しか見ていません。 誰かが手で権限を足しても、リソースを作っても、毎朝の検知を素通りします。毎日 CI は緑で、No changes が出続けます。\n厄介なのは、気",
+      "published": "2026-10-18T18:38:12+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
     {
       "title": "試して理解する Cloud SQL Blue/Green デプロイメント",
       "link": "https://zenn.dev/makocchan/articles/blue-green-deployment-sql",
@@ -666,15 +675,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "HomeGuardian：住宅仕様を 30 年のライフサイクルコストと温熱環境で比較する｜第5回 Agentic AI Hackathon",
-      "link": "https://zenn.dev/sky_road/articles/2e79eacbfad2a9",
-      "summary": "はじめに\nHomeGuardian は、施主が自然言語で書いた希望を要件に整理し、外壁と断熱の仕様を、建てる時の費用だけでなく 30 年分の修繕費・光熱費・月々の負担・室内の温熱環境で比べて、ハウスメーカーや建築士と話し合うための提案書を作る住宅設計の AI エージェントです。第5回 Agentic AI Hackathon with Google Cloud の提出作品として開発しました。この記",
-      "published": "2026-10-16T15:16:27+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "AWS の請求が伸びたら全 Lambda を止める仕組みを Terraform で作った",
