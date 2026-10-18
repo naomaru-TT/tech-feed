@@ -1,6 +1,42 @@
 {
-  "updated": "2026-10-18T19:53:58.013542+00:00",
+  "updated": "2026-10-18T22:41:14.565965+00:00",
   "items": [
+    {
+      "title": "「止まっている案件はどれ?」にSQLで答える。Snowflake Cortex AIで議事録を自動分類する",
+      "link": "https://zenn.dev/fusic/articles/snowflake-ai-parse-document-minutes",
+      "summary": "はじめに\n会議の議事録は、書いて共有フォルダに置いたらそれっきり、になりがちです。\n後から「Snowflakeの話をしていた会議で、止まっている案件はどれだっけ?」と探そうとしても、ファイル名と全文検索くらいしか手がかりがありません。\nそこで本記事では、Markdownで書いた議事録をS3に置くだけで、Snowflake上で次のメタデータが自動で付く仕組みを作ります。\n\n関連する技術タグ(タグマス",
+      "published": "2026-10-18T22:30:05+00:00",
+      "source": "Zenn - Terraform",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "「言い訳文化」から脱却のNECが足立区に伝授した生成AI活用術とは　データ活用“逆算”の鉄則",
+      "link": "https://kn.itmedia.co.jp/kn/article/2610/19/2000002342/",
+      "summary": "生成AIを実業務に定着させるには、明確な目的設定とデータの整備・統合が不可欠だ。NECと東京都足立区の事例を通じて、AIエージェントによるデータ分析・施策立案の実践と、統合的なAI基盤を活用した持続的な業務変革の要点を解説する。",
+      "published": "2026-10-18T22:00:00+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "非エンジニアを3か月でAIアプリ開発人材に：みずほ「AI Bootcamp」の育成設計",
+      "link": "https://qiita.com/quotidia/items/5a013f2c59af5a4b3239",
+      "summary": "本記事は筆者が運営する AI Quotidia の海外ニュース解説記事です。\n\nみずほフィナンシャルグループは2026年10月15日(木)、エンジニアではない社員を3か月でAIアプリケーションの開発人材に育てる「みずほ AI Bootcamp」の本格運用を始めると発表しま...",
+      "published": "2026-10-18T21:01:09+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "毎日 terraform plan を回しても、権限が増えたことには気付けない",
+      "link": "https://zenn.dev/snknsk/articles/terraform-plan-additive-blind-spot",
+      "summary": "GCP のインフラを Terraform で管理し、手作業による変更（ドリフト）を見つけるために、毎朝 CI で terraform plan を回していました。差分が出たら CI が落ちる仕組みです。\nところが、plan は「消えた」しか見ていません。 誰かが手で権限を足しても、リソースを作っても、毎朝の検知を素通りします。毎日 CI は緑で、No changes が出続けます。\n厄介なのは、気",
+      "published": "2026-10-18T18:38:12+00:00",
+      "source": "Zenn - Terraform",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
     {
       "title": "毎日 terraform plan を回しても、権限が増えたことには気付けない",
       "link": "https://zenn.dev/snknsk/articles/terraform-plan-additive-blind-spot",
@@ -56,6 +92,15 @@
       "color": "#FF9900"
     },
     {
+      "title": "AIに聞いたAWS初期設定が、2026年9月以降の新しい登録方式では通用しなかった話",
+      "link": "https://zenn.dev/chibanarch/articles/4db5f5b22a43e8",
+      "summary": "はじめに\nYouTube用のAI音声として Amazon Polly を試したくて、2026年10月にAWSアカウントを作りました。\nAWS自体は初めてではありません。以前、どんなものかと思って無料でアカウントを作ったものの、ふーんと思って閉じたのと、あとは仕事で少し触ったことがある程度です。\n今回は、普段使っているAI（Claude）に手順を聞きながら進めました。ところが、Claudeの案内と実",
+      "published": "2026-10-18T14:28:02+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "Graseful Shutdownとは",
       "link": "https://qiita.com/ak2ie/items/c4ab89bac84aa6d46db6",
       "summary": "Graceful Shutdownとは\nグレースフル・シャットダウンとは「正常終了」を指し、AWSではサーバーを強制終了(SIGKILL)する前に終了予告(SIGTERM)を送ることでサーバーが処理中のリクエストを処理完了するまでの時間的猶予を持たせることを言います。\nG...",
@@ -70,6 +115,15 @@
       "summary": "はじめに\nインクの濃さで陣地を奪い合う 1 対 1 のブラウザゲーム Inkmaru を、Go + Ebitengine で書いて WebAssembly として配信しています。CPU 対戦だけだったところに、WebRTC による P2P のオンライン対戦と、同じ相手との...",
       "published": "2026-10-18T14:13:40+00:00",
       "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "ローカルVM上のSpring BootアプリをCloudWatchで監視して、SNS でエラー通知を受け取りたい！",
+      "link": "https://zenn.dev/sawa_tech/articles/7e1cbec55c1f43",
+      "summary": "はじめに\n普段、AWS上のEC2やECSで動作するアプリケーションでは、CloudWatchを利用してログの収集や監視を行うことが多いと思います。\n今回はCloudWatchの学習も兼ねて、ローカル環境のVM上で動作しているSpring BootアプリケーションのログをCloudWatchへ送信し、ERRORログが発生したらメールで通知を受け取るところまで構築してみます。\n最終的には、以下のような",
+      "published": "2026-10-18T13:48:32+00:00",
+      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -299,15 +353,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "【Gmail×GAS】定型返信・一次受けを一発自動化！ChatGPTで作る「メール下書き生成ボット」",
-      "link": "https://qiita.com/BizhackAI/items/adedc2cc0028af2170f3",
-      "summary": "💡 この記事について\n本記事は、実務直結の生成AI・SaaS活用マガジン BizHack AI（ビズハックAI） で公開している「第12弾：【Gmail×GAS】定型返信・一次受けを一発自動化！ChatGPTで作る「メール下書き生成ボット」」のダイジェスト・導入解説版です...",
-      "published": "2026-10-18T05:22:50+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "AIに頼むだけでは作れない「自分で育つサイト」の作り方 — 三重ループで次の一手をサイトに考えさせる",
       "link": "https://zenn.dev/nagiworks/books/self-driving-webservice",
       "summary": "この本で手に入るもの\n・そのままAIに貼れるひな形の本文。AIに毎回守らせる運用の規則10項目と、週次レポート・月次会議のAIへの指示文\n・集計の数字が正しいかを確かめる点検のチェックリスト(題材のサイトの実例つき)\n・削除や公開など取り消せない操作の前に、人が確認する場所の決め方\n次に試すことの案出しから、効いたかどうかの判定までをAIに任せ、サイトを放置せずに回し続ける。事故は外に出さない。そ",
@@ -459,24 +504,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "日本語の業務データが、そのまま日本語のオントロジーに。Context Ontology Accelerator v0.3.6 の日本語対応",
-      "link": "https://zenn.dev/aws_japan/articles/context-ontology-accelerator-multilingual",
-      "summary": "はじめに\nこんにちは、AWS Japan でソリューションアーキテクトをしているいなりくです。\n日本語のテーブルを繋いだのに、AI が付けてくれた説明は英語だった、という経験はないでしょうか。データも利用者も日本語なのに、カタログやオントロジーの中だけ英語になっていると、レビューする人が読み替える手間が増えます。\n前回の記事では、AWS の OSS「Context Ontology Acceler",
-      "published": "2026-10-17T23:19:26+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "日本語の個人情報を Bedrock Guardrails, SDP, Presidio でマスキングして比較する",
-      "link": "https://zenn.dev/fusic/articles/a77ba348115364",
-      "summary": "はじめに\nこんにちは、Fusicの大宮です。\n問い合わせメールや通話記録を外部に渡したり、生成AIで分析したりする前には、個人情報を消したい（マスキングしたい）、という場面があるかと思います。\nただ、日本語の文章には、全角の数字や和暦、話し言葉など、英語にはない書き方が多くあります。\n2026年10月、クラウドのサービスとオープンソースのツールで、日本語の個人情報をどこまでマスキングできるのか気に",
-      "published": "2026-10-17T23:00:05+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "日本語の個人情報を Bedrock Guardrails, SDP, Presidio でマスキングして比較する",
@@ -830,15 +857,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "「Claude Haiku 5.5」は本当にコスパがいいのか？　3つの日本語タスクで検証してみた",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2610/16/2000002313/",
-      "summary": "Anthropicの最軽量モデル「Claude Haiku 5.5」を、3つの日本語タスクで「Sonnet 5.5」「GPT-6 Luna」と比較検証。定型文書では上位モデルに迫る一方、自らの立場を把握した上での返答が必要な課題では回答が揺れた。",
-      "published": "2026-10-16T01:14:18+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Amazon S3 Access Points で Amazon FSx for NetApp ONTAP 上のデータに AWS サービスからゼロコピーでアクセスする",
       "link": "https://aws.amazon.com/jp/blogs/news/enable-zero-copy-access-to-aws-services-on-amazon-fsx-for-netapp-ontap-with-amazon-s3-access-points/",
       "summary": "半導体の検証チームが毎晩生成する大量の EDA ログを、データを移動せずに AI で分析するアーキテクチャを紹介します。Amazon S3 Access Points を使って Amazon FSx for NetApp ONTAP 上のログに S3 API でアクセスし、Amazon Bedrock AgentCore と Amazon Quick により、リグレッションテストで失敗した原因の切",
@@ -1179,24 +1197,6 @@
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "Terraform・Docker・GitHub Actionsで始めるAWS ECSのCI/CD入門",
-      "link": "https://zenn.dev/yoshihiro_iwato/articles/9a46510c4c3def",
-      "summary": "AWS ECS CI/CD ハンズオン — Terraform と GitHub Actions で自動デプロイする\nこの記事では、Terraform で AWS のインフラを構築し、GitHub Actions から Amazon ECS へ自動デプロイする仕組みを作ります。\n最終的には、アプリケーションのコードを GitHub の main ブランチに push すると、GitHub Acti",
-      "published": "2026-10-11T02:34:54+00:00",
-      "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "Terraform の check ブロックは apply を止めなかったから precondition に置き換えた",
-      "link": "https://zenn.dev/kana001_bit/articles/terraform-check-does-not-stop-apply",
-      "summary": "引き継いだ Terraform のリポジトリに checks.tf というファイルがありました。中身は check ブロックが並んでいて、環境名が prd / prod / production のときに RDS の削除保護やバックアップ保持日数を確かめていました。\ncheck \"rds_backup_retention_when_production_like_env\" {\n  assert {",
-      "published": "2026-10-10T21:17:10+00:00",
-      "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "October 10, 2026",
