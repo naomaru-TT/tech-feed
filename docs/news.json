@@ -1,6 +1,78 @@
 {
-  "updated": "2026-10-20T08:02:55.475894+00:00",
+  "updated": "2026-10-20T13:59:20.532900+00:00",
   "items": [
+    {
+      "title": "LoRAで小規模データセットから日本語LLMを追加学習する",
+      "link": "https://qiita.com/hono_ai_labho/items/57de4cf7aa7a072a3058",
+      "summary": "社内用語や製品固有の回答など、汎用LLMが知らない知識を日本語で答えさせたい場合があります。しかし、モデル全体を追加学習するフルファインチューニングは、GPUメモリと計算時間の負担が大きくなります。\nそこで今回は、LoRA（Low-Rank Adaptation）を使って、...",
+      "published": "2026-10-20T12:00:05+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "オンプレKubernetesのServiceAccountにS3+CloudFrontだけでAWS IAMロールを割り当てる（IRSA相当）",
+      "link": "https://qiita.com/tebichi/items/76f91173a8b549056062",
+      "summary": "はじめに\nオンプレのKubernetesから、Podにアクセスキーを持たせずにAWS（S3やSSM Parameter Storeなど）を使いたい場面があります。\nEKSにはIRSA（IAM Roles for Service Accounts） があり、ServiceA...",
+      "published": "2026-10-20T11:39:51+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "オンプレKubernetesのServiceAccountにS3+CloudFrontだけでAWS IAMロールを割り当てる（IRSA相当）",
+      "link": "https://qiita.com/tebichi/items/76f91173a8b549056062",
+      "summary": "はじめに\nオンプレのKubernetesから、Podにアクセスキーを持たせずにAWS（S3やSSM Parameter Storeなど）を使いたい場面があります。\nEKSにはIRSA（IAM Roles for Service Accounts） があり、ServiceA...",
+      "published": "2026-10-20T11:39:51+00:00",
+      "source": "Qiita - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "第18回 Terraform講座｜実務演習② 高可用性を意識したAWS設計",
+      "link": "https://qiita.com/nyarusasu22/items/6749afc67bbeeef51252",
+      "summary": "前回は、会社から与えられた要件をもとに、\n要件 → AWS構成 → Terraformリソース\nという順番で考える練習をした。\n今回はそこから一歩進んで、\n«「AZ障害が起きてもWebサービスを止めたくない」»\nという、より実務に近い要件を考えてみる。\n\n📋 今回の要件\n会...",
+      "published": "2026-10-20T09:12:35+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "「どの国のモデルか」は本質ではない　「中国製LLMは危険な指示を実行」発言で話題の専門家に補足してもらった",
+      "link": "https://www.itmedia.co.jp/aiplus/article/2610/20/2000002430/",
+      "summary": "中国製LLMは本当に危険なのか。一連の情報漏えい騒動とAIの関係について、問題の本質はどこにあるのか。取材での回答が話題になっている専門家に聞いた。",
+      "published": "2026-10-20T08:43:38+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "初めて Terraform の二重管理を踏んだ話",
+      "link": "https://qiita.com/gensan0223/items/535b9f4fc768d48b378d",
+      "summary": "結論\n\nfor_each から要素を1つ外す = そのインスタンスの destroy そのもの。ファイルごと消した場合と結果は同じです。\n同じ付与を2箇所で宣言すると危険。「自分のぶんだけ消したつもり」が、他サービスの権限を消す可能性あり。\n実体を残して state か...",
+      "published": "2026-10-20T08:27:53+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "デジタル庁、政府職員18万人にAIエージェント環境を展開──「源内」で提供開始、独自の安全基準も",
+      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002428/",
+      "summary": "デジタル庁は10月20日、政府職員向けの生成AI利用環境「源内」で、職員が自らAIエージェントを作って動かせる環境を順次導入すると発表した。安全に使うためのルール「源内基準」も併せて公表した。",
+      "published": "2026-10-20T08:14:44+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "POIから作る地域特徴量＆Embedding入門：街を数値化して分かることと限界",
+      "link": "https://qiita.com/isshiki/items/b3431cd4fa331531d1ac",
+      "summary": "前回は、Foursquare、Overture、OpenStreetMapのPOIデータを比較しました。今回はその続きとして、公開POI（お店や施設などの地点）から街を数値化し、似た街の検索、クラスタリング、地域Embeddingまで試します。\n先に結論を書くと、POIから...",
+      "published": "2026-10-20T08:04:04+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "攻撃成功率（ASR）の数字の読み方：採点基準・試行回数・データセットで同じ評価結果が 15% にも 100% にもなる",
       "link": "https://qiita.com/shalXXXX/items/3ab75ce8e981437c0060",
@@ -20,15 +92,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "Style LoRAの学習データをどう作る？Toonkitのガイドで整理する画像・キャプション・設定値",
-      "link": "https://qiita.com/toonkit_official/items/ebe9ba9c3d5082840645",
-      "summary": "こんにちは。ToonkitでPMをしているEUROです。本記事では、チームのStyle LoRA学習ガイドをもとに、データセットの選び方、キャプションの付け方、学習設定の読み方を整理します。\n対象は、画像生成用のStyle LoRAを初めて学習する方です。Toonkitの「...",
-      "published": "2026-10-20T07:09:20+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Streamlit の ALB ヘルスチェックは /_stcore/health",
       "link": "https://qiita.com/shimitaro/items/57cf27feaad027dbbb98",
       "summary": "ヘルスチェックパスは /_stcore/health\n\nいきなり結論ですが、Streamlit を ALB の後ろに置くなら、ターゲットグループのヘルスチェックパスは /_stcore/health です。\nGET すると、プレーンテキストで ok の2文字だけが返ってき...",
@@ -36,15 +99,6 @@
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "デジタル庁、政府職員18万人にAIエージェント環境を展開──「源内」で提供開始、独自の安全基準も",
-      "link": "https://www.itmedia.co.jp/news/article/2610/20/2000002428/",
-      "summary": "デジタル庁は10月20日、政府職員向けの生成AI利用環境「源内」で、職員が自らAIエージェントを作って動かせる環境を順次導入すると発表した。安全に使うためのルール「源内基準」も併せて公表した。",
-      "published": "2026-10-20T07:03:45+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "Test-NetConnection -Port が84秒も返ってこない理由と、3秒で「開いている・拒否・応答なし」を判定する方法",
@@ -56,34 +110,7 @@
       "color": "#326CE5"
     },
     {
-      "title": "AWSサービス解説(SageMaker編)",
-      "link": "https://qiita.com/Kagesyu/items/a2222e22d608319fa7bf",
-      "summary": "イントロダクション\n今回はAWSサービスSageMakerについて子供にでもわかるように学校をイメージして解説します。\n\n1. SageMaker\nAIを育てるための学校\nAIを簡単に作って、育てて、働かせるためのサービス。\nたとえば犬と猫を見分けるAIを作りたいとします...",
-      "published": "2026-10-20T06:32:12+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "時系列予測にZero-shotを加える ― Chronos-2の仕組みと比較実験の進め方",
-      "link": "https://qiita.com/rino_yume/items/4a49b226d40ba9372c9b",
-      "summary": "時系列予測にZero-shotを加える ― Chronos-2の仕組みと比較実験の進め方\n\nはじめに\n時系列予測というと、ARIMAや状態空間モデル、XGBoost、LightGBM、LSTMなどを使い、対象のデータに合わせてモデルを学習する方法がよく使われます。これらの...",
-      "published": "2026-10-20T06:08:37+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AI時代におけるサイバーセキュリティ変革：Google Cloud Security Summit 2026 基調講演 レポート",
-      "link": "https://zenn.dev/kentaro36/articles/google-cloud-security-summit-2026",
-      "summary": "1. オープニング：サイバー空間の「平時」から「有事」への質的転換\n\n 1.1 導入：現代の脅威環境と日本企業が直面する構造的危機\n現代のサイバー脅威環境は、従来の「平時」を前提とした防御モデルが完全に形骸化し、常に実効的な攻撃に晒される「有事」の状態へと質的に不可逆な転換を遂げました。連日のように報じられる大規模な情報漏洩やランサムウェア被害、社会インフラの停止は、サイバー攻撃が単なる一部の技術",
-      "published": "2026-10-20T06:07:38+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "Codex Day 15徹底解説：OpenAI公式配信『COOKED』で紹介されたCloud・CLI・Worktree・Ultrafast",
+      "title": "Codex Day 15更新版：COOKED公式配信＋フルリセット！追加発表と利用枠への影響",
       "link": "https://qiita.com/sponge841841/items/2388a70f59ddb132065b",
       "summary": "OpenAI・Codexの「28日間アップデート」を毎日、一次情報と照らして詳しく発信しています。Day 16以降の新機能やリセットも見逃したくない方は、ぜひフォローしてください。\n2026年10月19日（米国時間）、OpenAIの「28日間、Codex / ChatGPT...",
       "published": "2026-10-20T06:07:17+00:00",
@@ -99,15 +126,6 @@
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "AI成果物のHTML用のpublic_html的なものをCloudFront+S3で作ってみた",
-      "link": "https://qiita.com/ha8960/items/1a6e2987d53ee5ae1c9f",
-      "summary": "背景と目的\nAIにわからないものを質問して解説してもらうことってよくありますよね。開発していてわからないところを質問したり、資格取得やその他の自己研鑽でもよくわからないことを質問します。このとき、Markdownファイルに出力する形でまとめてもらうのが定番かと思います。し...",
-      "published": "2026-10-20T04:14:03+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "【Kubernetes特集 Day 2/6】第1章 基礎：Podを動かして、わざと壊して、状態を読んで直す",
@@ -128,29 +146,11 @@
       "color": "#10A37F"
     },
     {
-      "title": "【AWS】CloudWatch のログ監視でエラー本文を通知＆検出ラグ問題を解決した話",
-      "link": "https://qiita.com/ReQ_HY/items/10a33a0bf9417790cf85",
-      "summary": "みなさん、こんにちは！\nAWS環境でEC2やRDSの運用を行っていると、インスタンス内部で発生したアラートをSNSで通知する構成をとることが多いですよね。\nただ、CloudWatch Alarmは「エラーが起きた」ことは通知してくれますが、「どんなエラーが起きたのか」は説明...",
-      "published": "2026-10-20T03:36:50+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "Codex CLI 0.162 入門、既定モデルが GPT-6.1 Sol に変わった",
       "link": "https://qiita.com/kai_kou/items/ed9721813fb7339268c6",
       "summary": "はじめに\nnpm update で Codex CLI を上げたあと、リリースノートを読まずにそのまま使い始めることは多いと思います。ところが 0.161.0 では、同梱されているモデルカタログの既定モデルが GPT-6.1 Sol に入れ替わっています。手元で何も設定し...",
       "published": "2026-10-20T03:11:42+00:00",
       "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "AIに「仕事の進め方」を教える──Qwen3.8-27B-piの学習設計",
-      "link": "https://zenn.dev/acrosstudioblog/articles/b9851ff78afeb1",
-      "summary": "!\nざっくり3行で言うと、\n\nQwen3.8-27B-piは、特定のAgent harnessで仕事を進めるために調整したモデル\n成功した作業履歴をSFTで学び、RLでは正しさを優先しながらeffortごとの思考量を整える\n参考になるのはモデルの調整だけでなく、学習タスクと採点器も改善していること\n\n\n\n はじめに：lowの方が余計に考えていた\n推論の設定にlow、medium、xhighと並んで",
-      "published": "2026-10-20T03:02:00+00:00",
-      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -461,15 +461,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "「日本を愛している。見過ごせない」――“100億円配布”のセキュリティ支援策、トレンドマイクロCEOが見せた危機感",
-      "link": "https://www.itmedia.co.jp/business/articles/2610/20/news041.html",
-      "summary": "相次ぐセキュリティ事案を受けて、トレンドマイクロが100億規模の「緊急支援」を打ち出した。国内法人のセキュリティ対策ツール導入などを支援する。会見でCEOが語ったのは、この状況に対する危機感だった。",
-      "published": "2026-10-19T21:40:00+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "CloudWatch Log AlarmとMetric Filter + Metric Alarmを比較してみた",
       "link": "https://zenn.dev/takuyousou/articles/log-alarm-vs-metric-filter-alarm",
       "summary": "はじめに\nCloudWatch Logsでエラーを検知したいとき、これまではMetric Filterでログをメトリクスに変換し、Metric Alarmで監視する構成をよく使っていました。\n2026年7月に、Logs Insightsのクエリ結果からアラームを作成できるLog Alarmが登場しました。今回は東京リージョンで検証します。\n気になったのは、Metric Filter + Metri",
@@ -513,15 +504,6 @@
       "source": "Publickey",
       "tag": "テック",
       "color": "#888780"
-    },
-    {
-      "title": "kube-controller-manager の controller 一覧",
-      "link": "https://qiita.com/yosshi_/items/2745d65548c63faa4d55",
-      "summary": "はじめに\nkube-controller-manager は Kubernetes の Control Plane で多数の controller を抱えるコンポーネントです。Deployment や Job のような Workload の管理から、Node の障害検知、...",
-      "published": "2026-10-19T14:56:55+00:00",
-      "source": "Qiita - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "Claude Code SkillsでLambda Durable Functionsを使いこなす",
@@ -839,6 +821,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "生成AIに「拡散モデル」を聞いてみた（復元に見えるのに、なぜ生成できる？）",
+      "link": "https://zenn.dev/tkpurine/articles/diffusion-models-intro",
+      "summary": "はじめに\nこのシリーズでは、背景除去・SAM・超解像(Real-ESRGAN)・顔復元(GFPGAN)・物体消去(LaMa) を作ってきました。SRやGFPGANは GAN系、消去のLaMaは専用の穴埋め。最後に、いまの画像生成（Stable Diffusion, Flux など）の主役である 拡散モデル（Diffusion Model） を、GAN系との対比で整理します。デモは作りません（拡散は",
+      "published": "2026-10-18T08:04:38+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "October 18, 2026",
       "link": "https://docs.cloud.google.com/release-notes#October_18_2026",
       "summary": "Google SecOps\nFeature\nSpecify whether to reopen closed cases when the grouping is by Source Grouping Identifier\nYou can now specify whether Google SecOps reopens closed cases when grouping SOAR alerts",
@@ -900,6 +891,15 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "シークレットのローテーションは、値を更新するだけでは終わらない",
+      "link": "https://zenn.dev/numekudi/articles/a3a4ae380d125a",
+      "summary": "はじめに\nLLMサービスの普及により、APIキーを扱う機会が増えました。\nAPIキーをソースコードに埋め込まず、シークレットマネージャーに保存する構成も珍しくありません。\nしかし、保存先を用意しただけでは、漏えいしたときに安全に切り替えられるとは限りません。\n新しいキーを登録したのに、稼働中のアプリケーションは古いキーを使い続けていることがあります。\n私の開発しているプロジェクトでも、Cloud",
+      "published": "2026-10-17T15:36:38+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "Linuxカーネルの深刻な脆弱性「PwnEscape」（CVE-2026-99999）、ゲストの仮想マシンからホスト側Linux OSに不正なコードを実行できる可能性",
