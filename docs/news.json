@@ -1,23 +1,77 @@
 {
-  "updated": "2026-10-22T23:47:08.060440+00:00",
+  "updated": "2026-10-23T02:42:01.966019+00:00",
   "items": [
     {
-      "title": "Qwen CodeはClaude Codeの代わりになるか",
-      "link": "https://zenn.dev/acntechjp/articles/zenn-qwen-code-vs-claude-code",
-      "summary": "3行でまとめ\n\nClaude Code の記事でよく見る作業(動画・音声・PDF・データ・ファイル整理・テスト修正)と、gcloud・Terraform の作業、計40課題を、Claude Code と Qwen Code に3回ずつ解かせた\n手元の Mac で動かした Qwen(27B)は、Claude Code ができた課題の8割弱(79%)をこなした。ただし1課題に10分ほどかかり、Clau",
-      "published": "2026-10-22T23:37:31+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
+      "title": "正規分布の条件付分布：分散を直感的に理解する",
+      "link": "https://qiita.com/KimuraSoh/items/91f83313dabe4514f113",
+      "summary": "はじめに\n正規分布の条件付分布は機械学習の予測においてほぼ確実に登場する重要人物です。逆に言えば機械学習の予測式はほぼ正規分布の条件付分布をもとにしており、この条件付分布さえ覚えてしまえば機械学習の式なんて覚える必要がなくなります。\nさて、その正規分布の条件付分布について...",
+      "published": "2026-10-23T02:08:06+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
-      "title": "OllamaのGPU診断：モデル配置・GPU認識・設定の作用先を分ける",
-      "link": "https://zenn.dev/kas_blog/articles/20260910-ollama-gpu-troubleshooting",
-      "summary": "OllamaでGPUを使えているか調べるとき、ollama ps、nvidia-smi、応答時間はそれぞれ異なる情報を見ています。さらに、コマンドを入力する端末とモデルを動かすサーバーが別なら、設定を変える場所も変わります。\nこの記事では、ローカルモデルの診断を「観測するサーバーをそろえる → GPU認識 → モデル配置 → 応答」の順に整理します。2026年9月10日に確認した公式資料に基づく技",
-      "published": "2026-10-22T23:24:55+00:00",
-      "source": "Zenn - Docker",
+      "title": "AWS気になった参考文献(備忘録)",
+      "link": "https://qiita.com/Kagesyu/items/3222a52819859ca12ba3",
+      "summary": "気になったAWS記事について備忘録として記載いたします。\n(1)https://aws.amazon.com/jp/architecture/reference-architecture-diagrams/?solutions-all.sort-by=item.additi...",
+      "published": "2026-10-23T01:42:04+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "2026年10月23日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
+      "link": "https://qiita.com/ennagara128/items/b9d8253e6f8ee145426e",
+      "summary": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。\n通勤中などにながら聴きしよう！\n（Qiita投稿は通勤には間に合わないと思われますが）\nフィードバックとか助かりますのでください\n↓こちらから\n\n出典\nAWS初心者がエンジニアを辞めた話\nhttps...",
+      "published": "2026-10-23T01:08:05+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AWS東京で7種類のゲーム専用サーバーを立てて、導入時間・RAM・CPU・バックアップ時間を実測した",
+      "link": "https://qiita.com/haisaba/items/33b565da332b63ac3229",
+      "summary": "この記事について\n「ゲームサーバーにはメモリが何GB必要か」は、ネットでは体感値が多く、条件がそろった比較が少ないので、同じEC2インスタンス・同じ手順で7種類の専用サーバーを立てて実測しました。\n\n対象: パルワールド / Minecraft（vanilla・Paper...",
+      "published": "2026-10-23T01:07:28+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Claude Duet速報、OpenAI Dotsとの違いは承認設計と提供地域",
+      "link": "https://qiita.com/kai_kou/items/de695c5bf89b3f16cb73",
+      "summary": "はじめに\n対象読者: Claude Duet と OpenAI Dots の両方が気になっていて、「どちらを試すべきか」「何が違うのか」を短時間で把握したい日本の開発者・個人事業主の方。\n2026 年 10 月 21 日（米国時間）、Anthropic は Claude ...",
+      "published": "2026-10-23T00:23:58+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "PHP2ShellとPwnEscapeから考える更新の責任分界と止められる可用性設計",
+      "link": "https://qiita.com/ishizakahiroshi/items/9421c7437aee8648a966",
+      "summary": "先に、結論を3行で書きます。\n\nPHPとホストの更新は、別の層として確認します。\nSLAの数字と、実際に使える時間は分けて見ます。\n冗長化と復旧準備は、分けて設計します。\n\n時間に合わせて、読み方を選べます。\n\n少し忙しい人向け：5分で読める要約版（個人サイト）\n\nもっ...",
+      "published": "2026-10-23T00:22:54+00:00",
+      "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "AIコーディングにおけるトークン消費の原因分析とコンテキスト削減の実践手法",
+      "link": "https://qiita.com/blinkgroup_jp/items/60e39a0dfbeaf5a7e123",
+      "summary": "読者が抱える課題\nAIコーディングアシスタント（GitHub Copilot、Claude Dev/Cline、Cursorなど）を利用する際、コンテキストウィンドウの圧迫やトークンの急速な消費が発生することがあります。これにより、以下の問題が生じます。\n\nトークン上限到...",
+      "published": "2026-10-23T00:22:01+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "機械学習の数式に強くなる定番書4選",
+      "link": "https://qiita.com/koukyo/items/d84f2ce6805db77779d4",
+      "summary": "はじめに\n自分が機械学習を初めて触ったとき、やっていたことは fit と predict を呼ぶだけだった。チュートリアルをなぞれば精度は出る。それで仕事になっている気になっていた。\n崩れたのは、本番データで精度が落ちた理由を聞かれた時だ。説明できなかった。特徴量を足した...",
+      "published": "2026-10-23T00:02:53+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "なぜ、重要システムは“分割”すべきなのか？　AI攻撃から守り切れない時代、IT部門が考えるべき「備え」とは",
@@ -96,25 +150,7 @@
       "link": "https://qiita.com/yuki_1012_1101/items/0e75dcd56132f40adcf1",
       "summary": "変更履歴\n\n2026-10-23：公開\n\n初めに\n2025 年 11 月に、AWS の NAT Gateway に Regional NAT Gateway が加わった。あわせて、従来の AZ 単位で作成する NAT Gateway は、Zonal NAT Gatewa...",
       "published": "2026-10-22T18:50:21+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "インフラ屋が書く Regional NAT Gateway で何が変わった？従来の Zonal NAT Gateway と並べて確かめる",
-      "link": "https://qiita.com/yuki_1012_1101/items/0e75dcd56132f40adcf1",
-      "summary": "変更履歴\n\n2026-10-23：公開\n\n初めに\n2025 年 11 月に、AWS の NAT Gateway に Regional NAT Gateway が加わった。あわせて、従来の AZ 単位で作成する NAT Gateway は、Zonal NAT Gatewa...",
-      "published": "2026-10-22T18:50:21+00:00",
       "source": "Qiita - インフラ",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "Claude CodeやCodexで並列開発していたら、Macのストレージが残り8GBになったので掃除した",
-      "link": "https://zenn.dev/yoshinani_dev/articles/0c17dec1c082a1",
-      "summary": "!\nクライアント案件のリポジトリ名は伏せています。容量の数字は、dfとduで実際に測った値です。\n\n1TBのMacBook Airで、ストレージの空きが8GBまで減っていました。\nClaude Codeに「ストレージがほぼないので整理したい」と頼んで、何が容量を使っているかを調べてもらいながら掃除しました。原因はほとんどが開発まわりで、最終的に空きは約380GBまで戻りました。\n最近はClaude",
-      "published": "2026-10-22T17:21:33+00:00",
-      "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
     },
@@ -146,33 +182,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "耳で聞く！Python で学ぶ マクロ経済学 入門 33",
-      "link": "https://qiita.com/maskot1977/items/302bc82b65d7c5bb54d6",
-      "summary": "user:\nソース動画のタイトル、そしてこの動画の内容について教えてください。\n\nGemini:\nご質問ありがとうございます！\n本動画のタイトル、および動画で解説されている詳細な内容について整理してお伝えします。\n\n動画のタイトル\n\n本動画のタイトルは 「富裕層への増...",
-      "published": "2026-10-22T15:12:16+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "【書評】 実践 自然言語処理 ―実世界NLPアプリケーション開発のベストプラクティス",
-      "link": "https://qiita.com/io0323/items/124240c0a6996e8d908e",
-      "summary": "はじめに\n自然言語処理（NLP）の本は、アルゴリズムの理論を深く掘り下げる教科書か、ライブラリの使い方を追うレシピ集のどちらかに偏りがちです。\n一方で、現場で実際に困るのは「そのモデルをどう本番に載せ、どう育て、どう止めずに運用するか」という、設計と運用の部分ではないでし...",
-      "published": "2026-10-22T15:00:41+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Strands harnessでMCPサーバをつなぐ  （設定ファイルで済むこと、コードで書くべきこと）",
-      "link": "https://qiita.com/mtmt_factory/items/96224163102e6266a4e2",
-      "summary": "はじめに\nStrands harnessの機能を色々と試したく、MCPサーバの接続を取り上げます。\nStrands harnessでは、MCPサーバをmcp.jsonという設定ファイルでつなげます。一方で、その下にあるStrands Harness SDKにはMCPCli...",
-      "published": "2026-10-22T14:45:16+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "Amazon ECS ゲートウェイの紹介：ECS サービス向けの完全マネージド型イングレスソリューション",
       "link": "https://aws.amazon.com/jp/blogs/news/introducing-amazon-ecs-gateway-a-fully-managed-ingress-solution-for-ecs-services/",
       "summary": "プラットフォームチームが Amazon Elastic Container Service (Amazon E […]",
@@ -182,11 +191,11 @@
       "color": "#FF9900"
     },
     {
-      "title": "【登壇レポ】AWS若手LT大会で「APKのAPIキー問題」を発表してきた",
-      "link": "https://qiita.com/A0yyy36/items/f193d976c5e13eace9be",
-      "summary": "はじめに\n2026年10月19日の「AWS 若手LT大会 #4」で、初めてLTに登壇しました。本記事は、その登壇レポートです。\n話すこと\n\n登壇した経緯\n発表で伝えたかったことと、会場の反応\n登壇して得られた学びと、次にやること\n\n話さないこと\n\nAPIキー問題の技術的な...",
-      "published": "2026-10-22T14:41:16+00:00",
-      "source": "Qiita - AWS",
+      "title": "クロスアカウント調査のログ設計：sharedEventIDとフローログをどう結ぶか",
+      "link": "https://zenn.dev/xim2jp_tokyo/articles/neta-47-zenn-summary",
+      "summary": "アカウントをまたいだAssumeRoleの事後調査では、記録が複数アカウントに散らばります。設計時に押さえておきたい論点を絞りました。\n\n 突き合わせの論点\n\nAssumeRoleは呼び出し側とロール側の両方に残り、sharedEventIDで結べる。ただしIAMユーザー起点だとロール側の呼び出し元はアカウント番号とプリンシパルIDになり、後続イベントには元のユーザーが出ない\n拒否されたクロスアカ",
+      "published": "2026-10-22T14:40:53+00:00",
+      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -209,6 +218,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "Bedrock Managed Agentsでデータ分析を組み込み実測 — skillの有無で売上集計に17.5%の差",
+      "link": "https://zenn.dev/kashiwabaray/articles/b3ec22fa4cc316",
+      "summary": "1. はじめに\n「CSV を渡すと集計・グラフ・Excel を作って返してくれる分析アシスタント」を組み込みたい、というケースはよくあります。自前で作る場合は、モデル呼び出しのループ、コード実行環境、会話の保持、生成ファイルの受け渡しをすべて実装する必要があり、PoC から先へ進めにくい部分です。\nAWS（Amazon Web Services）が 2026/09/29 にプレビューとして発表した",
+      "published": "2026-10-22T13:56:12+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "生成AI定着を阻む『3つの壁』とは？Google Workspace 活用ユーザー交流会レポート",
       "link": "https://zenn.dev/softbank/articles/aa238a443453cd",
       "summary": "2026年9月14日（月）に開催された「第1回 Google Workspace 活用ユーザー交流会」の模様をお届けします。\n本イベントには約20社、30名以上のお客様にご参加いただきました。この記事では、前半の事例講演（第1部）の内容と、私たちGoogle Workspaceを担当しているSEチームが企画・進行を務めた後半のワークショップ（第2部）の様子を中心にご紹介します。\n\n ■ 第1部：ソ",
@@ -227,20 +245,20 @@
       "color": "#10A37F"
     },
     {
+      "title": "コンテナに揃えて AI に任せる、手間の少ない AWS の脆弱性管理",
+      "link": "https://zenn.dev/ytkdm/articles/aws-vuln-management-with-containers",
+      "summary": "はじめに\n最近、セキュリティインシデントのニュースをよく目にします。侵入の経路はさまざまですが、この記事ではそのうち、アプリケーションの依存ライブラリの脆弱性への対策を、できるだけ簡単に回す方法を考えます。\n日本のアプリケーションには、リリースしたあと塩漬けになり、パッケージの更新がされていないものが少なくありません。自分たちが開発するアプリケーションは、少ない手間で高い水準の脆弱性対策ができる状",
+      "published": "2026-10-22T13:41:16+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "【scikit-learn入門 #4】分類入門 ─ ロジスティック回帰とk近傍法（KNN）",
       "link": "https://zenn.dev/haruhiro1020/articles/ab521f1e85b2aa",
       "summary": "はじめに\n本記事は「Pythonで機械学習を行うscikit-learn入門」シリーズの第4回です．\n第3回では「数値を予測する」回帰 を学びました．\n第4回では「カテゴリ（種類）を予測する」分類（Classification） を扱います．\n分類は，「このメールは迷惑メールか」「この花はどの品種か」のように，\n答えが種類（ラベル）になる 問題です．身近で応用範囲が広いテーマです．\n私のsciki",
       "published": "2026-10-22T13:00:05+00:00",
       "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Codex Day 17はフルリセット！発表時刻・日本時間の反映期限・Daybreak Blueを詳しく解説",
-      "link": "https://qiita.com/sponge841841/items/8678288f1d4eea94fe60",
-      "summary": "OpenAIの「28日間アップデート」**Day 17（米国太平洋時間2026年10月21日）**は、新機能の発表ではなく、Codex / ChatGPT Workの利用枠リセットを行う日と案内されました。\nTibo Sottiaux氏の公式X投稿は次のとおりです。\n\nDa...",
-      "published": "2026-10-22T12:45:58+00:00",
-      "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -310,7 +328,7 @@
     {
       "title": "多段WAF構成による多層防御とインフラ企業の責任",
       "link": "https://zenn.dev/leannacreate/articles/12649ede08b648",
-      "summary": "はじめに重要な結論を\n\n 末端のユーザーにセキュリティ意識を求める以前に、サイバー攻撃の踏み台として自社インフラを悪用されているクラウド事業者（Google, Microsoft, Amazon, Cloudflare）こそが、より主体的な対策を講じるべきです。\n\n\n 攻撃\n\n 1. 攻撃者はどのようにWebサイトを攻撃するのか？\n悪意ある攻撃者がWebサイトを狙うとき、よく使われる手法が脆弱性ス",
+      "summary": "はじめに重要な結論を\n\n 末端のユーザーにセキュリティ意識を求める以前に、サイバー攻撃の踏み台として自社インフラを悪用されているクラウド事業者こそが、より主体的な対策を講じるべきです。\n\n\n 攻撃\n\n 1. 攻撃者はどのようにWebサイトを攻撃するのか？\n悪意ある攻撃者がWebサイトを狙うとき、よく使われる手法が脆弱性スキャン（Vulnerability Scanning）です。\nスキャンで発見し",
       "published": "2026-10-22T10:47:17+00:00",
       "source": "Zenn - GCP",
       "tag": "GCP",
@@ -380,24 +398,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "HarmBench・StrongREJECT で何が測れて何が測れないか：データの中身を数え、自分のアプリとの差を洗い出す",
-      "link": "https://qiita.com/shalXXXX/items/e409ffd1a4158b1bf5c9",
-      "summary": "モデルの安全性を比べるとき、HarmBench や StrongREJECT のスコアがよく引かれます。ただ、これらのベンチマークが測っているのは「決まった言語・決まった入力経路・決まった失敗の定義」での振る舞いで、自分の LLM アプリが守るべきものと一致するとは限りませ...",
-      "published": "2026-10-22T08:00:34+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "net use の「システム エラー 67」は原因を教えてくれない ─ 3つの失敗を測って分かった切り分けの近道",
-      "link": "https://qiita.com/infravis/items/1ef7402a74a9375d6854",
-      "summary": "この記事について\n共有フォルダにつながらないとき、net use \\\\サーバー\\共有名 を打つと「システム エラー 67 が発生しました。ネットワーク名が見つかりません。」と出ることがあります。67は本来「共有名が見つからない」という意味ですが、実際に試すと、まったく別の...",
-      "published": "2026-10-22T07:38:36+00:00",
-      "source": "Qiita - インフラ",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "チームみらい安野氏「電力、水道、医療などの停止を伴う被害を想定すべき」　デジ庁に緊急提言へ、AI悪用のサイバー攻撃受け",
       "link": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002518/",
       "summary": "チームみらいの党首、安野貴博氏はAIを使ったサイバー攻撃に「一刻も早く対策を講じるべき」と警鐘を鳴らした。",
@@ -409,7 +409,7 @@
     {
       "title": "October 22, 2026",
       "link": "https://docs.cloud.google.com/release-notes#October_22_2026",
-      "summary": "App Engine flexible environment PHP\nSecurity\nAll supported versions of PHP 8.2 and later are patched. Take immediate protective action by redeploying your resources with updated dependencies.\nSee Resp",
+      "summary": "App Engine standard environment PHP\nSecurity\nAll supported versions of PHP 8.2 and later are patched. Take immediate protective action by redeploying your resources with updated dependencies.\nSee Resp",
       "published": "2026-10-22T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
@@ -722,15 +722,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "[AWS]セキュリティグループとNACLの違いを実際に試す",
-      "link": "https://zenn.dev/77nnaapp/articles/b830b79235a53e",
-      "summary": "[AWS]セキュリティグループとNACLの違いを実際に試す\nインターネットからパブリックに設置したEC2とSSH接続を可能にする。\n現状NACLなしのところにNACLを適用したうえ通信できること。\nVPCコンソールの「ネットワークACL」を開く。\n作成した aws-lab-nacl-test を選択する。\n下の詳細ペインで「インバウンドルール」を確認する。\n続けて「アウトバウンドルール」も確認する",
-      "published": "2026-10-21T11:35:15+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "WSL2のext4.vhdxが80GBに膨らんでいた話 ― 案件データを一切消さずに18GB取り戻した手順",
       "link": "https://zenn.dev/ojineko/articles/fcded693beded1",
       "summary": "はじめに\n開発用PCの容量がひっ迫してきました。\nエクスプローラーで眺めても、これといって巨大なフォルダは見当たりません。ドキュメント類は合計しても数十MB。プロジェクトのソースもせいぜい数GB。それなのにCドライブは残り少ない。\n犯人は WSL2の仮想ディスク ext4.vhdx、単体で80.37GB でした。\nこの記事は、そこから 18GBを回収し、案件のDBデータやリポジトリには一切手を付け",
@@ -758,15 +749,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "Amplify Gen 2で作る業務システム、DynamoDBよりRDBの方が扱いやすいのでは？",
-      "link": "https://zenn.dev/ky_iwanami/articles/amplify-gen2-rdb-business-system",
-      "summary": "TL;DR\n小規模な業務システムでも、柔軟な検索条件への対応や継続的な要件変更が求められるなら、Amplify Gen 2でRDBを使う構成を選びたい。\n\n単なる試作や、アクセスパターンが単純で安定している用途にはAmplify Data＋DynamoDB。\n業務を理解しながら検索条件やデータの関係を変更していく用途にはRDB。\n今回の構成では、検索・データ保持の両方でRDB案の方が安かった。",
-      "published": "2026-10-21T08:42:45+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "【図解OpenShift】コア4大リソースの協調関係とHelm×ArgoCDによる多層Valuesカスケード配信アーキテクチャ",
       "link": "https://qiita.com/mooreyxia/items/6f846175f608c4d50d0e",
       "summary": "📌 はじめに\nKubernetes（K8s）や OpenShift の学習および本番運用において、個々のリソース定義（Deployment、Service、Route、ConfigMap）の仕様を単体で理解していても、それらが「実際のクラスタ内でどのように協調して動いてい...",
@@ -774,15 +756,6 @@
       "source": "Qiita - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "Strands + AgentCoreで複数ターンを順番に処理する",
-      "link": "https://zenn.dev/webshoten/articles/8b620913739931",
-      "summary": "はじめに\nこの記事では、Strands AgentsをAmazon Bedrock AgentCore Runtimeで動かし、Agentが回答中でも次のメッセージを受け付け、同じ会話のターンを順番に処理する実装を紹介します。\n実装したコードは次のリポジトリにあります。\nhttps://github.com/webshoten/strands-agent-core\n\n この記事で想定するチャット",
-      "published": "2026-10-21T07:46:40+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "October 21, 2026",
@@ -801,6 +774,15 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
+    },
+    {
+      "title": "zvecとzvec-grepの概要：Docker Composeでローカル検索を試す",
+      "link": "https://zenn.dev/apricotpersonal/articles/zvec-zvec-grep-compose",
+      "summary": "文書を意味で探したいとき、ベクトルDBに加えて、文書の分割や埋め込みモデルの呼び出しも必要になります。まず検索を試すなら、その処理をまとめたCLIから始めると全体像をつかみやすくなります。\nこの記事では、検索の保存・実行基盤である zvec と、それを使う検索ツール zvec-grep（コマンド名は zg） の役割を整理します。その後、英語のMarkdown文書3件をDocker Compose経",
+      "published": "2026-10-21T03:42:44+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
     },
     {
       "title": "Claude Code から GPU を借りて学習ジョブを回す（Runcrate MCP サーバー）",
@@ -839,6 +821,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "Macのストレージが肥大化していたので、調べてみたら100GB以上空いた話",
+      "link": "https://zenn.dev/szkkzm/articles/7ce22663d824a2",
+      "summary": "はじめに\nMacのストレージを確認していたところ、「書類」がかなりの容量を占めていることに気づきました。\nところが、ストレージ管理の「ファイルブラウザ」で表示されるファイルを合計しても、その容量には到底届きません。\n何がそんなに容量を使っているのか気になったので、ターミナルから調べてみることにしました。\n結果的に、開発ツールのキャッシュやローカルAIモデルなど、使わなくなったデータが大量に残ってい",
+      "published": "2026-10-20T22:12:32+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "「Cloudflare OS」のマネージドサービス提供へ。GitHubとの接続やGmailとの連携強化など",
       "link": "https://www.publickey1.jp/blog/26/cloudflare_osgithubgmail.html",
       "summary": "Cloudflareは、AIを活用した業務のためのプラットフォームとなる「Cloudflare OS」のマネージドサービスを発表しました。現在ウェイティングリストへの登録を募集しています。 AIを活用した業務アプリのプラットフォーム Clo...",
@@ -873,6 +864,15 @@
       "source": "Zenn - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "Data Preparation Agentでデータクレンジングを任せる",
+      "link": "https://zenn.dev/web_benriya/articles/bigquery-data-preparation-agent",
+      "summary": "BigQueryのデータ前処理で時間がかかる理由\nBigQueryに取り込んだ生データをそのまま分析に使えることは少ない。実務では次のような前処理が必要になる。\n\nNULL値や空文字の扱いをカラムごとに検討する\n日付や金額のフォーマットがソースによって異なる\n重複レコードを特定して除外するロジックを考える\n外れ値の閾値をデータ分布から決めてフラグを立てる\nカテゴリ名の表記ゆれを統一する（「東京都」",
+      "published": "2026-10-20T10:12:21+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "October 20, 2026",
