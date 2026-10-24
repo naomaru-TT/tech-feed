@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-24T17:43:38.861329+00:00",
+  "updated": "2026-10-24T20:00:28.906084+00:00",
   "items": [
+    {
+      "title": "ChatGPTで仕様を考え、Codex CLIで実装する ― 初めてのMinecraft MOD開発記録",
+      "link": "https://qiita.com/shimmy-notat/items/98e85252597e42ac7bba",
+      "summary": "はじめに\n「Groundedにあるようなジップラインを、Minecraftでも使えたら面白そう」\nそんな思いつきから、MinecraftのMOD制作に挑戦してみました。\n今回参考にしたゲームは、サバイバルアドベンチャーゲームのGroundedです。\nGroundedには、...",
+      "published": "2026-10-24T19:14:01+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "量子化が引き起こすButterfly Effect？ — World Modelの誤差蓄積と計画性能の限界",
+      "link": "https://zenn.dev/akisayo/articles/world-model-quantization-butterfly-effect",
+      "summary": "ロボットに「この箱を右側に押して」と指示したとします。\n人間なら、箱を押した後の動きを何となく想像できます。右から押せば左に動くし、斜めから押せば回転するかもしれません。\nでは、ロボットが同じように「これから起こること」を頭の中でシミュレーションできたら？\nこの発想を実現しようとする研究のひとつが、**World Model（世界モデル）**です。\nWorld Modelは環境の変化を学習し、ある",
+      "published": "2026-10-24T17:19:20+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "ノギスの動画から仕切り板を設計させたら、Claude Opus 5.5は1回実物と同じ読み違いをしGPT-6.1 Solは3回とも正解",
       "link": "https://zenn.dev/noricha/articles/oreore-bench-vision-measure",
@@ -263,6 +281,15 @@
       "color": "#4285F4"
     },
     {
+      "title": "MultiheadAttentionの高速経路がVRAMを18GB食っていた話",
+      "link": "https://zenn.dev/genelab_999/articles/387bf151caf716",
+      "summary": "TL;DR\n\n\nnn.MultiheadAttention は、eval かつ勾配なしの推論でマスクを渡すと、need_weights=False を付けていても SDPA を使わず、ヘッド数 × P × P の注意行列を丸ごと作る\nXiaomi-Lens-0 では flash-attn が無いときの代替経路がまさにこれで、3 MP の画像でマスク生成段の追加 VRAM が 18.02 GB、8",
+      "published": "2026-10-24T09:00:37+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "LLM で大量生成される偽アカウント・偽レビュー・スパムへの対策：文章の判定をやめ、つながりと時間の偏りで見つける",
       "link": "https://qiita.com/shalXXXX/items/018c8205a3a717d53b7f",
       "summary": "レビュー欄・コメント欄・Q&amp;A・会員登録といった「利用者が書き込める場所」を持つサービスでは、LLM によって偽の投稿を作るコストが大きく下がりました。以前のスパムは同じ文面の使い回しや不自然な日本語で見分けられましたが、LLM は 1 件ずつ違う、自然な文章を書けます。\n...",
@@ -315,15 +342,6 @@
       "source": "Zenn - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "日本と同じ条件の国は何をしたか ― 財政政策の国際比較実証研究 : システム設計視点の行動経済学 (48)",
-      "link": "https://qiita.com/maskot1977/items/faa29f9bdce4dab79040",
-      "summary": "user:\n「システム設計視点の行動経済学」、第48回を始めましょう。その前に、まず前回の復習として、\nAIを低賃金ロックインの打破に使え ― 「奪う仕事」と「生む仕事」の両面設計 : システム設計視点の行動経済学 (47)\nhttps://qiita.com/masko...",
-      "published": "2026-10-24T02:35:12+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "動画視聴制御 Proxy を OCI Always Free で作る",
@@ -792,24 +810,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "CPUだけのIndra OCRを日本語で測る：遅さの正体は出力層",
-      "link": "https://zenn.dev/mskbhd/articles/lab-1117-indra-ocr-1mcpu",
-      "summary": "Datalab が出した OCR「Indra OCR」は、認識モデルが約 1M パラメータで、ONNX Runtime を使って CPU だけで動きます。PyTorch も GPU も要りません。公称速度は 4 コアで 6.2 ページ/秒、32 コアで 44 ページ/秒です（発表時のツイートでは 7.3 / 49.4）。\n日本語にも対応しているので、手元の非力な Linux 機で日本語の精度と速度",
-      "published": "2026-10-22T10:45:26+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "18-⑤その1 Kaggle実践3 Biohub細胞トラッキング：2位の解法まとめ",
-      "link": "https://zenn.dev/rg687076/articles/8d1917f9931396",
-      "summary": "18-①Kaggle実践3 Biohub細胞トラッキング：環境構築から初回提出までの手順\n18-②Kaggle実践3 Biohub細胞トラッキング：初回提出コードを解説してみた\n18-③Kaggle実践3 Biohub細胞トラッキング：ローカル環境を構築してみた(交差検証(CV)込み)\n18-④Kaggle実践3 Biohub細胞トラッキング：3D U-Netの壁とCV微増(0.4483→0.45",
-      "published": "2026-10-22T10:07:09+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "詳解: Amazon EKS Auto Mode によるノード障害の検出、修復、診断の仕組み",
