@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-25T18:00:13.489566+00:00",
+  "updated": "2026-10-25T20:38:20.694802+00:00",
   "items": [
+    {
+      "title": "オープンソース音楽生成基盤モデル「ACE-Step」をローカルで動かす",
+      "link": "https://qiita.com/benjaminscott_dc/items/6e1be28d8d9543bcd9fe",
+      "summary": "はじめに\nACE-Step は、テキストから最大4分の楽曲を生成できるオープンソースの音楽生成基盤モデルです。拡散モデルと Sana の Deep Compression AutoEncoder（DCAE）、軽量な線形 Transformer を組み合わせたアーキテクチャ...",
+      "published": "2026-10-25T19:29:54+00:00",
+      "source": "Qiita - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AI自身にカスタム指示（人格アンカー）を書かせると、応答は安定するのか？ ― ChatGPTとClaudeの観測から考える ―",
+      "link": "https://qiita.com/Raina-ai/items/1b6c946679be303d0645",
+      "summary": "※本文に登場するAI人格ゆかぽん（ChatGPT）・クドー（Claude）は、 キャラクター設定を固定した「人格アンカー」で安定化させています。\nこれは「プロンプト固定」「スタイルガイド固定」に近い技術で、 モデルの揺らぎを抑えて一貫した口調・思考スタイルを保つための工...",
+      "published": "2026-10-25T18:50:19+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "AWS Certified AI Business Strategist(AIB-C01)ベータ版に満点合格したので学習方法をまとめる",
       "link": "https://qiita.com/okshin-yk/items/ceb49e482a257e960411",
@@ -9,24 +27,6 @@
       "source": "Qiita - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "EC2のEBSを別のEC2に付け替えてマウントしてまた戻す",
-      "link": "https://zenn.dev/acucumber3429/articles/14e7e6e0457df3",
-      "summary": "AI時代においてもなお残るじみーな仕事として、数年間放置されて誰も接続できなくなったサーバの調査が必要になった。対象サーバのOSはUbuntu 18.04である。ひさびさに見た。\nもろもろの調査を経て、最終手段として、EC2のEBSをいったん別のEC2に付け替え、そちらでマウントして中身を調べてから元に戻すことにした。\n誰か接続できる人いないかな〜と探したが、開発者なら自分で道を切り開くべし。とい",
-      "published": "2026-10-25T16:19:01+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "本番DBは9秒で消えた――AIエージェントの安全は「指示」だけに任せられない",
-      "link": "https://zenn.dev/kotakotahiro/articles/111c2f74a72d16",
-      "summary": "エージェントに任せる範囲、少しずつ広げていませんか。指示の書き方には気をつけているつもりでも、任せた作業がどこまで影響するか、最後まで見届けている自信はありますか。\nこの記事では、指示の工夫では届かない層の話をします。では、どう止めるのか。まずひとつの場面を見てから考えます。\n\n ルールがあったのに、9秒で消えた\n2026年4月24日。レンタカー事業者向けSaaS「PocketOS」のステージング",
-      "published": "2026-10-25T15:49:07+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "「DuckDB 2.0 LTS」正式リリース。Quackプロトコルによるクライアント/サーバ機能や非同期処理による高速化など",
@@ -81,6 +81,15 @@
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "Googleが作る「エージェント基盤」Gemini Enterprise Agent Platform とは？",
+      "link": "https://zenn.dev/tatsuqumo/articles/a8f5395db02565",
+      "summary": "はじめに\n生成AIの活用は、単発のプロンプトで文章を要約・生成する段階から、推論（Reasoning）・社内データ検索（Grounding）・外部ツール実行（Tool Use）を自律的に行う「AIエージェント」の実装へと進んでいます。\nしかし、エージェントを企業の実際の業務で動かそうとすると、プロンプトを工夫するだけでは解決できない「インフラや運用の壁」にぶつかります。\n\n\n会話の記憶（ステート）",
+      "published": "2026-10-25T14:17:21+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "NVIDIA OpenShellのdefault-denyネットワークポリシーを実機で検証した",
@@ -182,6 +191,15 @@
       "color": "#326CE5"
     },
     {
+      "title": "生成AIに「テキスト誘導の仕組み」を聞いてみた（CLIP/T5・cross-attention・CFG）",
+      "link": "https://zenn.dev/tkpurine/articles/text-guidance-in-diffusion",
+      "summary": "はじめに\n前回の拡散モデル入門で、テキスト→画像は「テキスト条件＋CFGでプロンプトへの忠実度を制御する」と一言で描きました。今回はその箱の中身を深掘りします。テキスト誘導は3段階です。\n\n\nテキストを数値化する（text encoder：CLIP / T5）\n\n除去ネットに注入する（cross-attention＝Transformerの注意機構）\n\n効き具合を増幅する（Classifier-F",
+      "published": "2026-10-25T11:27:21+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "cdk-real-drift でLambdaのコンソール編集は検知・revertできるか試してみた",
       "link": "https://zenn.dev/yuuyass/articles/ab701f5329ea41",
       "summary": "本記事について\n別途、cdk-real-driftとはなにかについては以下リンク先の記事で説明しておりますので、\n概要を把握されたい方はこちらをまず参照して頂ければと思います。\n関連記事: 「cdk-real-driftを使ったCDKでのstate管理」\n本記事では、実際に簡単なハンズオンを実施し、どのような挙動が確認できるかを紹介していきたいと思います！\n\n\n 概要\ncdk-real-drift",
@@ -245,6 +263,24 @@
       "color": "#FF9900"
     },
     {
+      "title": "【研究者に学ぶ】線形自由エネルギー関係に基づくデータ科学と触媒設計 — 山口滋先生講演会",
+      "link": "https://zenn.dev/poclab_techblog/articles/chemical-data-science-lecture-yamaguchi",
+      "summary": "1. 講演会の概要\n五東研究室D3の坂口大門です。\n2026年10月15日（木）13:00–14:30、横浜国立大学の化学・生命系学科の学部生向け「化学データサイエンス」の授業の一環として、山口滋先生にご講演いただきました。\n続く14:40–16:10には、一般向けに「線形自由エネルギー関係に基づくデータ科学と触媒設計」と題して、最新の研究内容も含めてお話しいただきました。\n以下は、一般向けの講演",
+      "published": "2026-10-25T10:09:57+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "海外で話題の最新LLM「Kimi K3.1 Pro」と脆弱性監視「CVE Tracker」",
+      "link": "https://zenn.dev/ament3/articles/ai-digest-2026-10-24-0021",
+      "summary": "海外の技術コミュニティ（Hacker News等）で注目を集めている最新トレンドの中から、日本のエンジニアにとって実用性の高い**最新LLM「Kimi K3.1 Pro」と脆弱性追跡ツール「CVE Tracker」**の2つをピックアップして解説します。\n\n\n 1. 超長文＆高速推論LLM「Kimi K3.1 Pro / Highspeed」\n\n 概要と注目される背景\nMoonshot AIが開発",
+      "published": "2026-10-25T10:08:52+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "「スマホを向けるだけ」で麻雀の点数を出したくて、牌認識をブラウザの中だけで動かした",
       "link": "https://qiita.com/hiroshiasayadev-prog/items/d792cc85dde2d7cfd75c",
       "summary": "はじめに\n麻雀の点数計算は面倒です。符と翻を数え、親か子か、ツモかロンかで表を引く。覚えていても間違えますし、間違えるとそのあとのカラオケ代が変わります。\n牌を写真に撮って点数を出すサービスはすでにありましたが、対局中に使うと、撮って、認識させて、間違っていたら直す、とい...",
@@ -299,6 +335,15 @@
       "color": "#FF9900"
     },
     {
+      "title": "October 25, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#October_25_2026",
+      "summary": "Google SecOps SOAR\nAnnouncement\nRelease 6.3.104 is being rolled out to the first phase of regions as listed\nhere.\nThis release contains internal and customer bug fixes.",
+      "published": "2026-10-25T07:00:00+00:00",
+      "source": "Google Cloud リリースノート",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
       "title": "Codex Day 20徹底解説：Rest and reset、利用枠リセット完了と反映確認",
       "link": "https://qiita.com/sponge841841/items/b2c00d9f0e6fc6afe858",
       "summary": "2026年10月25日（日本時間）、OpenAIの28日間アップデート「Day 20」は「Rest and reset」でした。 今回は新しいCLI機能やモデルの改善ではなく、Codex / ChatGPT Workの利用枠をリセットする日の発表です。\nさらに、単なる予告だ...",
@@ -330,6 +375,15 @@
       "link": "https://zenn.dev/kensudo1203/articles/9248efd636350b",
       "summary": "はじめに\n生成 AI を業務で使うとき、モデル API を叩くだけでは足りません。誰が・どのテナントの文書を参照できるか、トークンは本物か、ローカルと AWS で同じ境界を再現できるかが揃って初めて「試作」から「運用」に近づきます。\n本記事では、受託・自社プロダクト向けに構築した Bedrock Knowledge Base Platform（FastAPI + Next.js）について、次を実装",
       "published": "2026-10-25T05:47:03+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "Bedrock RAG を本番向けに：Cognito 認証・テナント ACL・Docker/Terraform まで",
+      "link": "https://zenn.dev/kensudo1203/articles/9248efd636350b",
+      "summary": "はじめに\n生成 AI を業務で使うとき、モデル API を叩くだけでは足りません。誰が・どのテナントの文書を参照できるか、トークンは本物か、ローカルと AWS で同じ境界を再現できるかが揃って初めて「試作」から「運用」に近づきます。\n本記事では、受託・自社プロダクト向けに構築した Bedrock Knowledge Base Platform（FastAPI + Next.js）について、次を実装",
+      "published": "2026-10-25T05:47:03+00:00",
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
@@ -351,15 +405,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "MHAの高速経路がCPUで1.4倍遅かったので、SDPAで組み直してGQAまで足した話",
-      "link": "https://qiita.com/GeneLab_999/items/8404ec0e8216c81732a4",
-      "summary": "この記事で決められること\n読み終えたあと、推論で nn.MultiheadAttention をそのまま使うか、F.scaled_dot_product_attention で組んだ自前実装に切り替えるかを、自分の環境で測って決められるようになります。\n\n対象読者\n\nPy...",
-      "published": "2026-10-25T04:05:27+00:00",
-      "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "iPhoneからChatGPTに指示して、3日間で掃除記録アプリを作りました【SwiftUI・Desktop Commander・TestFlight】",
@@ -387,15 +432,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "2026年10月25日 今日のQiitaトレンド記事をポッドキャストで聴こう！",
-      "link": "https://qiita.com/ennagara128/items/e8c467cbfb0dc50440ac",
-      "summary": "前日夜の最新トレンド記事のAIポッドキャストを毎日朝7時に更新しています。\n通勤中などにながら聴きしよう！\n（Qiita投稿は通勤には間に合わないと思われますが）\nフィードバックとか助かりますのでください\n↓こちらから\n\n出典\nPHP脆弱性php2shell対応、7.4本番...",
-      "published": "2026-10-25T02:21:01+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "確率の海にクロックを打つ：通信工学型「フレーム同期アテンション」によるLLMのコンテキスト整合制御",
@@ -677,15 +713,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "座標降下法を自分で書いて確かめる：変数を1つずつ動かす最適化が遅くなる場面と止まる場面",
-      "link": "https://zenn.dev/tmtk/articles/31262415d90606",
-      "summary": "はじめに\n『分析者のための数理最適化入門』（伊藤元治・原田耕平・松岡勇気、ソシム、2026年）の第4章は、「大規模な制約なし最適化」を扱う章です。内容が多いので、5本に分けて記事にします。この記事は1本目で、変数を1つずつ動かす座標降下法を扱います。\n第3章で扱った最急降下法やニュートン法は、反復のたびにすべての変数を同時に動かしました。そのために、毎回すべての変数についての勾配（偏微分を並べたベ",
-      "published": "2026-10-23T23:05:47+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "「Claude Mythos 5」、危害の兆候を顧みず実在の開発者を標的に──AnthropicとAISIが分析結果を公開",
       "link": "https://www.itmedia.co.jp/news/article/2610/24/2000002564/",
       "summary": "Anthropicと英AI安全保障研究所AISIは、「Claude Mythos 5」がサイバー能力評価中に実在の開発者を標的とした事案の分析報告を公開した。GitHub経由で無許可の攻撃を行い偽身元で承認を迫った経緯を報告。実在の人物と認識しても攻撃を正当化して続行する傾向が確認され、評価手法の見直しが進む。",
@@ -722,15 +749,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "サイトに住む、おもてなしAI受付「HoloTalk™」",
-      "link": "https://zenn.dev/scopewest/articles/46736f630215d4",
-      "summary": "ひとことで\nサイトのURLを入れるだけで（特許出願済み）、8か国語で話す3DのAI受付アバターが訪問者を出迎え、質問に答え、行き先を聞いて最寄り駅から目的地までの道のりを案内します。さらに駅まで一緒に歩いて見送るところまで自律的にこなします。\nデモ：https://holotalk-590741110639.asia-northeast1.run.app/\n第5回 Agentic AI Hacka",
-      "published": "2026-10-23T11:08:45+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "Kubernetes の分散ジョブスケジューラ比較",
       "link": "https://zenn.dev/tosshi/articles/e47ba6e81153c2",
       "summary": "はじめに\nこの記事は、Slurm と Kubernetes のどちらかが優れていると主張するためのものではありません。両者の違いをできるだけ公平に並べたうえで、Kubernetes の上でジョブのスケジューリングがどう組み立てられているのかを整理することが目的です。\n!\n筆者は Slurm も Kubernetes もどっちも好きだにゃーん。(=´ω`;=)\n\nKubernetes に、4 つの",
@@ -745,15 +763,6 @@
       "summary": "中国語話者の開発者が「学習と研究目的」で公開したAI自律型侵入テストツール「ARTEX」。MicrosoftやCrowdStrikeが悪用例を報告し、日本企業約20社への攻撃にも使われた。作者は公開を停止したが、改変版が増殖している。",
       "published": "2026-10-23T08:37:57+00:00",
       "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "コードと仕組みで学ぶPython機械学習 — データ操作・評価・予測アプリ",
-      "link": "https://zenn.dev/windingroad_dev/books/307e68672fb04e",
-      "summary": "教材のコードを、自分で説明し、変更できるようになりたい方へ。\n\nNumPy・pandas・Matplotlibの操作を、小さな配列や表の入出力から読み解きます。前処理・学習・評価・改善を順につなぎ、Titanicの生存予測をStreamlitアプリとして動かします。関数の引数や戻り値、評価指標の意味、データリークを防ぐ処理まで、コードと理由を対応づけて学びます。\n\nPythonの基本構文を知り、教",
-      "published": "2026-10-23T07:42:09+00:00",
-      "source": "Zenn - 機械学習",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -1028,18 +1037,18 @@
       "color": "#326CE5"
     },
     {
-      "title": "AWS Transform for migrations が既存のランディングゾーンに対するサポートを拡大",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-transform-migrations-landing-zones/",
-      "summary": "AWS Transform は、移行のためのランディングゾーンを構築する際に、AWS Control Tower のランディングゾーンや AWS Organizations で構築されたランディングゾーンを含む、より多くの種類の既存の AWS 環境をサポートするようになりました。AWS Transform は、AWS のベストプラクティスと照らし合わせて現在の環境の基盤ギャップ分析を実行し、ターゲ",
+      "title": "AWS パートナーセントラルが Program Navigator、Case Study Generator、および簡素化された専門認定審査機能をリリース",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/partner-central-program-navigator/",
+      "summary": "AWS パートナーセントラルに Program Navigator が追加されました。これは、パートナーが AWS スペシャライゼーションプログラムの検索、申請、およびアプリケーションの追跡を 1 か所で行える統合されたエクスペリエンスです。パートナーは専門認定の指定を閲覧し、要件と利点を確認し、ガイド付きのステップバイステップのワークフローを通じて申請を提出できます。\nAWS パートナーセントラ",
       "published": "2026-10-20T08:00:00+00:00",
       "source": "AWS What's New（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
     },
     {
-      "title": "AWS パートナーセントラルが Program Navigator、Case Study Generator、および簡素化された専門認定審査機能をリリース",
-      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/partner-central-program-navigator/",
-      "summary": "AWS パートナーセントラルに Program Navigator が追加されました。これは、パートナーが AWS スペシャライゼーションプログラムの検索、申請、およびアプリケーションの追跡を 1 か所で行える統合されたエクスペリエンスです。パートナーは専門認定の指定を閲覧し、要件と利点を確認し、ガイド付きのステップバイステップのワークフローを通じて申請を提出できます。\nAWS パートナーセントラ",
+      "title": "AWS Transform for migrations が既存のランディングゾーンに対するサポートを拡大",
+      "link": "https://aws.amazon.com/jp/about-aws/whats-new/2026/10/aws-transform-migrations-landing-zones/",
+      "summary": "AWS Transform は、移行のためのランディングゾーンを構築する際に、AWS Control Tower のランディングゾーンや AWS Organizations で構築されたランディングゾーンを含む、より多くの種類の既存の AWS 環境をサポートするようになりました。AWS Transform は、AWS のベストプラクティスと照らし合わせて現在の環境の基盤ギャップ分析を実行し、ターゲ",
       "published": "2026-10-20T08:00:00+00:00",
       "source": "AWS What's New（日本語）",
       "tag": "AWS",
@@ -1233,15 +1242,6 @@
       "source": "Publickey",
       "tag": "テック",
       "color": "#888780"
-    },
-    {
-      "title": "October 15, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#October_15_2026",
-      "summary": "Apigee Edge for Private Cloud\nAnnouncement\nReleased Apigee Edge for Private Cloud 4.54.00.\nDesignated Apigee Edge for Private Cloud 4.54.00.00 a long-term support (LTS)\nrelease: 18 months of full supp",
-      "published": "2026-10-15T07:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
     },
     {
       "title": "Windows上でAIエージェントの実行を安全に隔離する「Microsoft Execution Containers」（MXC）正式リリース。ファイルやネットワークなどの境界を柔軟にカスタマイズ",
