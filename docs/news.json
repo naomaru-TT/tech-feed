@@ -1,6 +1,51 @@
 {
-  "updated": "2026-10-31T20:48:58.310820+00:00",
+  "updated": "2026-10-31T23:52:04.068712+00:00",
   "items": [
+    {
+      "title": "Docker でテストを隔離するなら --network none：本物の API に届かないことを確かめた",
+      "link": "https://qiita.com/torifukukaiou/items/8146693bad688ea5791f",
+      "summary": "はじめに\n\n今日の Tips\nテストを隔離環境として Docker コンテナで動かすなら、--network none を付ける。コンテナからネットワークがなくなるので、テストが間違って本物の API を呼んでも、外へ出られません。\n\n前回、AWS CLI のスクリ...",
+      "published": "2026-10-31T23:47:19+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "受験生用鉄緑風プリント作成プロンプト",
+      "link": "https://qiita.com/KKTeX/items/c2612d68b2882afd620a",
+      "summary": "非公式です。鉄緑会とは関係ありません。\n\n出力例\n上が ChatGPT（思考量「極高」）、下が Claude です。\n\n使い方\n下のプロンプト全文を貼り、末尾の「以下が教材です。」の下に作りたいプリントの中身を書いて送るだけです。写真や PDF も添付できます。\n\nプロン...",
+      "published": "2026-10-31T22:55:06+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "LINEに食事の写真を送ると、AIがカロリーと栄養素を分析。LINEヤフーが「食事管理」エージェントを開始",
+      "link": "https://qiita.com/quotidia/items/aab08b0a4f86918ef9ae",
+      "summary": "本記事は筆者が運営する AI Quotidia の海外ニュース解説記事です。\n\nLINEヤフーは2026年10月28日(水)、LINEに食事の写真を送るとAIがカロリーや栄養素を分析する「食事管理」エージェントの提供を始めました。\n\n要点\n\n食事の写真や内容を送ると、AI...",
+      "published": "2026-10-31T21:01:09+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AI効果とは？AIが上手になるほど『AI』と呼ばなくなる現象をわかりやすく解説",
+      "link": "https://zenn.dev/tkrndisk/articles/g-kentei-ai-effect-tech",
+      "summary": "はじめに\nAI効果（AI Effect）は、コンピュータ科学者ダグラス・ハフスタッターが1985年に提唱した概念です。AIが何かの問題を解決すると、その解決策は「AI」ではなく「単なるコンピュータプログラム」と見なされるようになるという、AI評価の相対性を指摘する用語です。\n\n 定義\nAI効果：\n\n何らかの問題解決がコンピュータで実現されると、その技術は「AI」とは呼ばれなくなる傾向\n言い換えれば",
+      "published": "2026-10-31T15:28:55+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "【小学5年生でもわかる】AI効果ってなに？",
+      "link": "https://zenn.dev/tkrndisk/articles/g-kentei-ai-effect-kids",
+      "summary": "AI効果とは、「コンピュータが何かができるようになると、人間はそれを『AI』と呼ばなくなってしまう」という現象です。\n例えば、昔、メールを自動で分類することはとても難しいと思われていました。だから、「スパムメールを自動判別するのはすごいAI技術だ！」と言われていました。\nでも今、メールの自動分類は当たり前になってしまいました。だから、もう誰も「これはAI技術だ」とは言いません。ただの機能になってし",
+      "published": "2026-10-31T15:28:55+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "AWS試験を初めて英語で受けて分かったこと",
       "link": "https://qiita.com/kenken38/items/bd9ac1951e42b4fb8aa7",
@@ -20,6 +65,15 @@
       "color": "#FF9900"
     },
     {
+      "title": "LambdaとBedrockで自作するLLMプロキシ(キー発行・予算・管理UI)",
+      "link": "https://zenn.dev/upgradetech/articles/2026-10-simple-llm-proxy-lambda-bedrock",
+      "summary": "社内でClaude CodeやCodex CLIを使う人が増えてくると、「誰がどのモデルにいくら使っているかわからない」「キーを配るしくみがない」「危ないツールを禁止したい」という話になります。\nLiteLLMを立てれば解決しますが、常時起動のコンテナとDBを運用するほどの規模ではなく、依存パッケージの脆弱性を追いかけ続けるのも避けたいと考えました。\nそこでAWS LambdaとAmazon Be",
+      "published": "2026-10-31T14:46:00+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "Terraform入門 第4回：モジュールでTerraform設定を再利用する",
       "link": "https://qiita.com/k0ga/items/7d2e4cd2936c4de59057",
       "summary": "はじめに\nTerraformをゼロから学びながら、その内容を自分なりに整理して残していく入門連載です。\n第3回では、Terraform StateをS3のリモートバックエンドで管理しました。\n\nTerraformの設定が大きくなってくると、同じような設定を何度も書い...",
@@ -29,13 +83,13 @@
       "color": "#FF9900"
     },
     {
-      "title": "自律型AIペネトレーションテスターShannonを自分のPCで動かそうとして、深いところで2回連続つまずいた話",
-      "link": "https://zenn.dev/matsushima_a/articles/day-032-shannon-ai-pentester-recon-bug",
-      "summary": "今日のネタ元\nGitHub Trending(TypeScript)に挙がっていた以下のOSSを検証した。\n\n\nKeygraphHQ/shannon(Shannon Lite、AGPL-3.0)\n\nWebアプリ/APIのソースコードを解析して攻撃経路を特定し、ブラウザ自動操作とCLIツールで実際に攻撃を再現した上で、動作するPoCが取れた脆弱性のみを報告する自律型AIペネトレーションテストツールで",
-      "published": "2026-10-31T14:13:15+00:00",
-      "source": "Zenn - Docker",
-      "tag": "インフラ",
-      "color": "#326CE5"
+      "title": "Spring BootをAWSにデプロイするまで ─ RDS・ECR・ECS/Fargateで学ぶAWS #2",
+      "link": "https://zenn.dev/mohu_mohu/articles/46329de6723ccc",
+      "summary": "Amazon ECRにDockerイメージを登録\n\n AWSにログイン\nAWSにログインしたら、リージョンが下記の通りになっていることを確認します\nAsia Pacific (Tokyo)\nap-northeast-1\n\n リポジトリの作成\nECRを開き、「Create repository」を押下し、\n任意の名前を設定し、「Create」を押下します\n\nリポジトリが作られると下記のように表示され",
+      "published": "2026-10-31T14:12:31+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "Codex Day 25徹底解説：Pro・Businessの利用枠2倍とPro 200減枠撤回",
@@ -47,9 +101,9 @@
       "color": "#10A37F"
     },
     {
-      "title": "AI時代のアクセス解析：BQMLによる具体的なマーケティング分析例-Google Analytics4と生きる道-",
+      "title": "AI時代のアクセス解析 Conversational Analytics - BQMLマーケティング分析例",
       "link": "https://zenn.dev/zuck/articles/3bd263151306a9",
-      "summary": "AI時代のアクセス解析：BQMLによる具体的なマーケティング分析例（GA4）\nWebサイトやアプリのユーザー行動を記録する「GA4（Google Analytics 4）」。これをBigQueryにエクスポートしたデータは、機械学習にとってまさに宝の山です。\n本章では、第3章で学んだ特徴量エンジニアリングの知識を総動員し、実際のGA4データを使ってビジネスの核となる2つの予測モデル（チャーン予測・",
+      "summary": "AI時代のアクセス解析：BQMLによる具体的なマーケティング分析例（GA4）\nWebサイトやアプリのユーザー行動を記録するGA4（Google Analytics 4）。\nこれをBigQueryにエクスポートしたデータは、機械学習にとってまさに宝の山です。\n本章では、特徴量エンジニアリングの知識を総動員し、実際のGA4データを使ってビジネスの核となる2つの予測モデル（チャーン予測・LTV予測）を構",
       "published": "2026-10-31T13:56:35+00:00",
       "source": "Zenn - 機械学習",
       "tag": "AI",
@@ -92,24 +146,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "Codex Day 22：GPT-6.1 Terraを徹底解説｜性能・API料金・Computer Use",
-      "link": "https://qiita.com/sponge841841/items/e803d01929ef564a6508",
-      "summary": "2026年10月27日（日本時間）、OpenAIの28日間アップデートDay 22として「GPT-6.1 Terra」が発表されました。 画面の内容を理解してアプリを操作するComputer Use、画像・図面の理解、自然な文章作成を得意とする、高速かつ低コストの新モデルで...",
-      "published": "2026-10-31T13:49:39+00:00",
-      "source": "Qiita - ChatGPT",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "【AWS】【Transfer Family】SFTP で受けたファイルを FSx for Windows にリアルタイムで置きたい",
-      "link": "https://qiita.com/yuki_1012_1101/items/c5d656d33b53593009d6",
-      "summary": "変更履歴\n\n2026-10-31：公開\n\n初めに\n外部のシステムから SFTP でファイルを受け取り、Windows のファイルサーバーに置きたい場面がある。\nEC2 に SFTP サーバーを立て、Amazon FSx for Windows File Server（以...",
-      "published": "2026-10-31T13:23:10+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "開催レポート｜AIのある生活ーエンジニアのいらない時代のエンジニアの働き方ー【現地限定：コミュニティ横断コラボ】",
       "link": "https://zenn.dev/zuck/articles/b909da6f7dc31a",
       "summary": "開催レポート｜AIのある生活ーエンジニアのいらない時代のエンジニアの働き方ー【現地限定：コミュニティ横断コラボ】\n※この記事は,juguar AI/ML分科会をはじめ複数のコミュニティをコラボし、その開催風景が運営メンバー中村氏の書籍にも掲載された記念に為、こちらでも転載いたします\n2026年某日、AI時代の新たなエンジニアの生き方を模索する熱いイベント「AI/ML 人材育成コラボ Meetup」",
@@ -142,15 +178,6 @@
       "summary": "1枚の人物画像とダンスの参照動画から「その人が踊っている動画」を作る、いわゆる pose-guided な人物動画生成を触ってきた中で、特に苦労した 時間的一貫性（フレーム間のちらつき・顔や服の崩れ） への対処をまとめます。特定の論文の再実装ではなく、実際にパイプラインを組んで分かった実務寄りのメモです。\n\n 全体のパイプライン\nざっくり分けると次の4段です。\n\n\n参照動画から姿勢列を抽出：DWP",
       "published": "2026-10-31T12:12:25+00:00",
       "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "同じ課題を Claude・Gemini・Grok・GPT・Codex に渡して 5 ラウンド比べたら、順位は付けられなかった",
-      "link": "https://qiita.com/zdna0x/items/7d64db2246527ef57bcc",
-      "summary": "先に結果\n同じコードベースから、5 つの AI（Claude・Gemini・Grok・GPT・Codex）に別々の作業場を作り、同じ課題を 5 ラウンド渡して比べました（2026 年 8 月 30 日、実行は 1 日）。\n結果は、1 つの順位には決まりませんでした。やった...",
-      "published": "2026-10-31T12:09:36+00:00",
-      "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -435,15 +462,6 @@
     },
     {
       "title": "機械学習の数学と実装を固める5冊",
-      "link": "https://zenn.dev/makitech/articles/20261031_book_ref",
-      "summary": "はじめに\n自分が機械学習の仕事を始めた頃、手元にあったのは断片的なチュートリアルの寄せ集めだった。写経すればモデルは動く。精度もそれなりに出る。ただ、なぜその損失関数なのか、学習率を下げると何が起きるのか、聞かれても答えられなかった。\n決定的だったのは、社内レビューで「この改善幅は偶然の範囲に入らないのか」と質問された日だ。検証データでのスコア差を自信満々に報告した直後、サンプル数と分散の話を一切",
-      "published": "2026-10-31T00:03:21+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "機械学習の数学と実装を固める5冊",
       "link": "https://qiita.com/koukyo/items/33a1b4e74e78ca4efa4a",
       "summary": "はじめに\n自分が機械学習の仕事を始めた頃、手元にあったのは断片的なチュートリアルの寄せ集めだった。写経すればモデルは動く。精度もそれなりに出る。ただ、なぜその損失関数なのか、学習率を下げると何が起きるのか、聞かれても答えられなかった。\n決定的だったのは、社内レビューで「こ...",
       "published": "2026-10-31T00:02:52+00:00",
@@ -468,15 +486,6 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "Claude Codeと作る競馬予測システム開発記(10) 複数モデルを並べる編",
-      "link": "https://zenn.dev/teruyotasaki/articles/horse-racing-ml-dev-10-multi-model",
-      "summary": "はじめに\n前回は、Claude Codeとの開発の進め方について書きました。\n第10回となる今回は、予測モデルを1つに絞らず「複数のモデルを並べて使い分ける・組み合わせる」仕組みについて書きます。A/Bテストによるモデルの入れ替え、券種ごとのメタモデル、レースの荒れやすさを測るセンサーなど、いくつかの試みを紹介します。\n\n Model A/B：デュアルモデル運用\nモデルを改良するとき、新しいモデル",
-      "published": "2026-10-30T23:31:01+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "Platform Engineering入門：開発者とAIエージェントのための「舗装された道」を作る",
@@ -524,15 +533,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "BIツール（Metabase等）を自社ホストするなら、インターネットから直接アクセスできないようにしよう",
-      "link": "https://zenn.dev/delt/articles/1bba3171849791",
-      "summary": "最近何かとセキュリティが話題ですね。\nMetabaseのようなBIツールは、オープンソースで手軽に立てられる反面、\n「EC2に立てて、IDとパスワードだけで守っている」 というようなあまり良くない構成を見かけることが多いです。\nMetabaseには、DBにつながる接続情報と、そのDBを自由に読めるログインが入っています。入口は、できるだけ外から見えないようにしておきたいところです。\n入口を閉じる2",
-      "published": "2026-10-30T17:36:10+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "Agentic AI Summit '26 Fall Day 2 基調講演 速報レポート",
       "link": "https://zenn.dev/densan_techblog/articles/e124c1d23d6b68",
       "summary": "Agentic AI Summit '26 Fall Day 2 基調講演\n2026年10月30日、Google Cloud Agentic AI Summit '26 Fall の Day 2 基調講演を聴講しました。テーマは「AI エージェント開発の最前線：試すから本番で動かす」。\nGoogle Cloud と Google DeepMind のメンバーに加え、Sakana AI、荏原製作所、",
@@ -549,15 +549,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "SnowflakeのExternal Volumeで設定するExternal IDの意味を整理してみる",
-      "link": "https://zenn.dev/penginpenguin/articles/b7286a9ee3e48b",
-      "summary": "はじめに\nAWS Community Builderのぺんぎん（@jitepengin）です。\n以前の記事で、S3上のIcebergテーブルとSnowflakeを連携する方法を紹介しました。\nhttps://zenn.dev/penginpenguin/articles/97f30cc1ac8377\nhttps://zenn.dev/penginpenguin/articles/d9c916abc",
-      "published": "2026-10-30T15:36:25+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "CNCFブログはエージェントの境界を許されたツール集合として整理する",
@@ -970,6 +961,15 @@
       "summary": "Anthropic で Platform engineering を率いる Katelyn Lesse が、2026-10-26 に X へ論考を投稿しました。テーマは、マルチエージェントシステムを本番で動かすときにエンジニアが解くべき新しい問題です。論考は問題を4つの領域に分けています。実行基盤、身元と認可、隔離、監視と停止です。\nこの記事では、まず論考の中身と、本人が別のブログで書いている設計",
       "published": "2026-10-28T15:00:00+00:00",
       "source": "Zenn - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "Docker ComposeからECS・Fargateへ ── 対応関係で理解するAWSコンテナデプロイ",
+      "link": "https://zenn.dev/yamato_snow/books/compose-to-ecs-fargate",
+      "summary": "docker composeで動くアプリを、ECS・Fargateへデプロイするための入門書です。\ncomposeの各要素とAWSサービスの対応関係を整理したうえで、\nAWS CLIによる手動デプロイと、GitHub Actions・OIDCを使った\nデプロイの自動化までを図解付きで扱います。",
+      "published": "2026-10-28T12:11:42+00:00",
+      "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
     },
