@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T16:34:41.420408+00:00",
+  "updated": "2026-10-31T20:48:58.310820+00:00",
   "items": [
     {
       "title": "AWS試験を初めて英語で受けて分かったこと",
@@ -16,15 +16,6 @@
       "summary": "はじめに\nRHEL10のEC2を使って○○を検証してほしいと言われたので、いつものようにインスタンスを起動してSession Managerで接続しようとしました。ところが、接続できません。\n調べてみると、今回使ったAMIにはSSM Agentが入っていませんでした。それ...",
       "published": "2026-10-31T14:58:37+00:00",
       "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "LambdaとBedrockで自作するLLMプロキシ(キー発行・予算・管理UI)",
-      "link": "https://zenn.dev/upgradetech/articles/2026-10-simple-llm-proxy-lambda-bedrock",
-      "summary": "社内でClaude CodeやCodex CLIを使う人が増えてくると、「誰がどのモデルにいくら使っているかわからない」「キーを配るしくみがない」「危ないツールを禁止したい」という話になります。\nLiteLLMを立てれば解決しますが、常時起動のコンテナとDBを運用するほどの規模ではなく、依存パッケージの脆弱性を追いかけ続けるのも避けたいと考えました。\nそこでAWS LambdaとAmazon Be",
-      "published": "2026-10-31T14:46:00+00:00",
-      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -47,15 +38,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "Spring BootをAWSにデプロイするまで ─ RDS・ECR・ECS/Fargateで学ぶAWS #2",
-      "link": "https://zenn.dev/mohu_mohu/articles/46329de6723ccc",
-      "summary": "Amazon ECRにDockerイメージを登録\n\n AWSにログイン\nAWSにログインしたら、リージョンが下記の通りになっていることを確認します\nAsia Pacific (Tokyo)\nap-northeast-1\n\n リポジトリの作成\nECRを開き、「Create repository」を押下し、\n任意の名前を設定し、「Create」を押下します\n\nリポジトリが作られると下記のように表示され",
-      "published": "2026-10-31T14:12:31+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "Codex Day 25徹底解説：Pro・Businessの利用枠2倍とPro 200減枠撤回",
       "link": "https://qiita.com/sponge841841/items/7a9ecd56737aa6bbd22b",
       "summary": "2026年10月30日（金・日本時間）、OpenAIの「28日間アップデート」Day 25で、ChatGPT WorkとCodexの利用枠が大きく変更されました。 Pro 100・Pro 500のWork/Codex枠が従来の2倍となり、Business Premiumでも...",
@@ -65,9 +47,9 @@
       "color": "#10A37F"
     },
     {
-      "title": "AI時代のアクセス解析 Conversational Analytics - BQMLマーケティング分析例",
+      "title": "AI時代のアクセス解析：BQMLによる具体的なマーケティング分析例-Google Analytics4と生きる道-",
       "link": "https://zenn.dev/zuck/articles/3bd263151306a9",
-      "summary": "AI時代のアクセス解析：BQMLによる具体的なマーケティング分析例（GA4）\nWebサイトやアプリのユーザー行動を記録するGA4（Google Analytics 4）。\nこれをBigQueryにエクスポートしたデータは、機械学習にとってまさに宝の山です。\n本章では、特徴量エンジニアリングの知識を総動員し、実際のGA4データを使ってビジネスの核となる2つの予測モデル（チャーン予測・LTV予測）を構",
+      "summary": "AI時代のアクセス解析：BQMLによる具体的なマーケティング分析例（GA4）\nWebサイトやアプリのユーザー行動を記録する「GA4（Google Analytics 4）」。これをBigQueryにエクスポートしたデータは、機械学習にとってまさに宝の山です。\n本章では、第3章で学んだ特徴量エンジニアリングの知識を総動員し、実際のGA4データを使ってビジネスの核となる2つの予測モデル（チャーン予測・",
       "published": "2026-10-31T13:56:35+00:00",
       "source": "Zenn - 機械学習",
       "tag": "AI",
@@ -191,11 +173,38 @@
       "color": "#10A37F"
     },
     {
+      "title": "Claude Codeの未解決バグ、自分のPCで起きる127件を先回りで台帳にした",
+      "link": "https://zenn.dev/zenn_content/articles/claude-code-known-bugs-ledger",
+      "summary": "はじめに\n結論: Claude Code 公式リポジトリの不具合報告のうち、私の環境（Windows 11 + Desktop アプリ + hooks 多数）に関係しそうな656件を仕分けたところ、未解決で「この PC でも起きうる」ものが127件ありました。そのうち63件は、私の手元のルール・メモ・ナレッジのどこにも書かれていませんでした。\nただし報告文だけでの判定はあてになりません。127件か",
+      "published": "2026-10-31T10:59:36+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "ペイントツール上でニューラルネットワークを動かす",
       "link": "https://zenn.dev/melville/articles/953aa2b41f674b",
       "summary": "ペイントツール（ここではKrita）で数字を描くと、その数字に対応する棒が伸びます。\n\nKritaの標準フィルターと合成レイヤーのみで計算しています。入力レイヤーを変更すると、クローンレイヤーとフィルターレイヤーの依存関係に従って出力が更新されます。\n以前ペイントツール上でライフゲームを動かすという記事を書きましたが、今回はその発展として手書き数字を認識するニューラルネットワークを作成してみた形に",
       "published": "2026-10-31T10:16:28+00:00",
       "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "LLMは同じ質問でも、回答と書き換えで役割の割り当てを変えるのか？――5つの実験で検証",
+      "link": "https://zenn.dev/shinyahayakawa/articles/278db8adf6bee2",
+      "summary": "はじめに\n私は個人で、大規模言語モデル（LLM）の挙動や評価方法を研究しています。今回は、Claude Sonnet 4.6を対象とした5つの実験について、2026年9月のプレプリント（v2）の内容を紹介します。\n本研究の問いは、引数の役割が明示されていない入力に対して、LLMが表明する役割の割り当ては、問いかけ方によらず一定なのかというものです。\n検証した条件では、役割の割り当ても「決められない",
+      "published": "2026-10-31T09:47:54+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "スキルを入れる前に「前提スキルとCLI」を確かめる: 依存センサスから",
+      "link": "https://zenn.dev/skillselion/articles/455321970cdcaf",
+      "summary": "Claude Code にスキルを1つ入れて試したら、エージェントが gws: command not found で止まった。あるいは ../gws-shared/SKILL.md を読もうとして、そんなファイルはないと言われた。スキルを何本か触っていると、こういう場面に一度は当たると思います。\n原因はたいてい単純で、そのスキルが「別のスキル」や「特定のCLI」が先に入っていることを前提に書かれ",
+      "published": "2026-10-31T08:58:04+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -216,6 +225,15 @@
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
+    },
+    {
+      "title": "AI時代の学び方に迷っている人へ: 言葉の理解を自分のものにする7つのベクトル操作",
+      "link": "https://zenn.dev/somnicattus/articles/346bb1e0ca3345",
+      "summary": "はじめに: AIで学ぶことへの4つの迷い\nAIが出てきてから、学び方を決めかねている人は多いと思う。その迷いは、だいたい次の4つに分けられる。\n\n\n考える力を手放してしまう恐れ: 考えることをAIに任せ続けると、自分で問いを立てたり、粘り強く考えたりする力が衰えるのではないか。どこまで頼ってよいのかが分からない。\n\n楽をすることへの後ろめたさと、非効率への焦り: 「自力でやるべきだ」という価値観と",
+      "published": "2026-10-31T07:07:02+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "Unlimited-OCR-2で完全ローカルOCRワークベンチ構築：長文PDF・数式・表もVRAM一定で爆速解析",
@@ -353,15 +371,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "今日の技術トレンド",
-      "link": "https://zenn.dev/bambampurin/articles/2026-09-21-tech-daily",
-      "summary": "!\n2026年9月21日の技術トレンドでは、AI領域において単なる「ツール利用」から自主的に動作する「エージェンティックAI」や「Managed Agents」への移行が加速しています。一方、Claude Opus 5を用いた攻撃シナリオやNext.jsの重大な脆弱性修正に見られるよう、AIとWeb基盤双方でのセキュリティ対応が急務となっています。Pythonエコシステムでは、OpenAIによるA",
-      "published": "2026-10-31T02:15:24+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Amazon Quick のデータ共有を「4段階」で理解してみた",
       "link": "https://zenn.dev/yunatake/articles/a1719158ba3483",
       "summary": "!\nこの記事は個人の理解を整理したものです。所属組織の公式見解ではありません。\n内容は 2026年10月時点で私が試した範囲・読んだ範囲に基づきます。仕様や料金は変わるので、実際に設計するときは必ず公式ドキュメントを確認してください。\n\nAmazon Quick では「誰がどのデータを見られるか」を目的に応じて設定できます。この記事では、私なりに次の4段階に分けて基本を整理してみます。\n\n\nLv1",
@@ -423,33 +432,6 @@
       "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "2026年後半のLLM動向: この数か月の進化を振り返る",
-      "link": "https://zenn.dev/shoyataguchi/articles/2495be9f531d85",
-      "summary": "ここ数週間で、気になるモデルの発表が続いています。OpenAIからは、Sonnet 5.5に近い能力を半分のAPI単価で使えるGPT-6.1 Terra。Googleからは、GPT-6 AstraやClaude Opus 5.5と競うGemini 4 Argonに続き、約1か月でさらに性能を伸ばしたGemini 4 Carbonです。中国からも、Opus 5.5やAstraに迫る性能をうたうKim",
-      "published": "2026-10-31T00:58:52+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "temperature 0 なのに出力が変わる — MoE/dense 3モデルで KV キャッシュ状態の決定性を実測する",
-      "link": "https://zenn.dev/wisteriacorp/articles/wisteria-a9236a633d6c",
-      "summary": "NVIDIA GB10 搭載機で Ollama を回し、temperature 0 の出力が実行ごとに変わる件を測りました。以前の運用記事で「おまけの実験」として短く触れた内容の完全版です。この記事では手順・生ハッシュ・状態遷移・再現スクリプトを全部出します。\n結論を先に書くと、真のランダムな揺れは観測されず、出力は「モデル・入力・KV キャッシュ状態」の決定的関数に見えました。 同じ状態なら b",
-      "published": "2026-10-31T00:55:23+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "なぜAIは10ターン目から指示を忘れるのか？暴走を止める「AGENTS.md」と「SKILL.md」の黄金分割",
-      "link": "https://zenn.dev/yui_dev_ai/articles/ai-agent-rules-and-skills-design",
-      "summary": "なぜAIは「10ターン目」から暴走するのか\nClaude Code、Gemini、Antigravity、Cursorといった自律型AIコーディングエージェントを実務に導入した開発者の多くが、ある共通の現象に頭を抱えています。\nプロジェクト立ち上げ直後は、あなたが書いた AGENTS.md（あるいは CLAUDE.md / GEMINI.md）の規約を忠実に守っていたはずのエージェントが、運用開始",
-      "published": "2026-10-31T00:29:26+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "機械学習の数学と実装を固める5冊",
@@ -542,6 +524,15 @@
       "color": "#326CE5"
     },
     {
+      "title": "BIツール（Metabase等）を自社ホストするなら、インターネットから直接アクセスできないようにしよう",
+      "link": "https://zenn.dev/delt/articles/1bba3171849791",
+      "summary": "最近何かとセキュリティが話題ですね。\nMetabaseのようなBIツールは、オープンソースで手軽に立てられる反面、\n「EC2に立てて、IDとパスワードだけで守っている」 というようなあまり良くない構成を見かけることが多いです。\nMetabaseには、DBにつながる接続情報と、そのDBを自由に読めるログインが入っています。入口は、できるだけ外から見えないようにしておきたいところです。\n入口を閉じる2",
+      "published": "2026-10-30T17:36:10+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "Agentic AI Summit '26 Fall Day 2 基調講演 速報レポート",
       "link": "https://zenn.dev/densan_techblog/articles/e124c1d23d6b68",
       "summary": "Agentic AI Summit '26 Fall Day 2 基調講演\n2026年10月30日、Google Cloud Agentic AI Summit '26 Fall の Day 2 基調講演を聴講しました。テーマは「AI エージェント開発の最前線：試すから本番で動かす」。\nGoogle Cloud と Google DeepMind のメンバーに加え、Sakana AI、荏原製作所、",
@@ -551,15 +542,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "「Excelの操作感じゃないと嫌だ」と言われたWeb画面。HTML Tableで列幅ドラッグ伸縮（最小10px）とリアルタイムPing疎通を自作した話",
-      "link": "https://qiita.com/ojisantech/items/2091de517b7f7deed49e",
-      "summary": "💡 【検証環境・個人研究（PoC）に関する注記】\n本記事は、筆者個人の自宅検証環境（ホームラボ／仮想環境）において、公開情報およびOSS（オープンソースソフトウェア）を用いて独自に構築・検証した個人研究（PoC）の記録です。特定の企業・団体の実環境や業務上の非公開情報とは一...",
-      "published": "2026-10-30T16:30:34+00:00",
-      "source": "Qiita - インフラ",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "山手線の車窓ゲームを作ってみた振り返り（でも締切に間に合わず）",
       "link": "https://zenn.dev/degel/articles/yamanote-observer-retrospective",
       "summary": "はじめに\n第5回 Agentic AI Hackathon with Google Cloud に向けて、山手線の車窓を観察するサービス「YAMANOTE OBSERVER」を作りました。\n提出の締切には間に合いませんでしたが、Cloud Run で動くところまでは作りました。今はサービスを消してあります（3節）。\nこの記事は、その振り返りです。\n\n 1. 作ったもの\n山手線の駅と駅の間、30の区",
@@ -567,6 +549,15 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
+    },
+    {
+      "title": "SnowflakeのExternal Volumeで設定するExternal IDの意味を整理してみる",
+      "link": "https://zenn.dev/penginpenguin/articles/b7286a9ee3e48b",
+      "summary": "はじめに\nAWS Community Builderのぺんぎん（@jitepengin）です。\n以前の記事で、S3上のIcebergテーブルとSnowflakeを連携する方法を紹介しました。\nhttps://zenn.dev/penginpenguin/articles/97f30cc1ac8377\nhttps://zenn.dev/penginpenguin/articles/d9c916abc",
+      "published": "2026-10-30T15:36:25+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "CNCFブログはエージェントの境界を許されたツール集合として整理する",
@@ -745,6 +736,15 @@
       "summary": "tl;dr\n\n\nterraform のコードを少し整える tfstylus を作ってみた の続きの\n\nその１ なぜ tfstylus を作ったのか の続きの\n\nその２ tfstylus を作り始めた時にわかっていなかったこと の続きの\n\nその３ AIと併走しながら tfstylus を開発して苦労したこと の続き\nAI で開発してみて（今更）の気づきのメモ\n\n\n 気づきとか覚えたこととかわかったこ",
       "published": "2026-10-30T04:32:06+00:00",
       "source": "Zenn - Terraform",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "光パワーの dB と dBm を Python で扱う（足し算の落とし穴とリンクバジェット）",
+      "link": "https://qiita.com/dwdm/items/9348cbc849259b05c73e",
+      "summary": "この記事は、Zenn に公開した「dB と dBm」のうち、計算の部分だけをコードにしたものです。\n「なぜ dBm どうしを足してはいけないのか」といった考え方は原本のほうが詳しいので、あわせて参照してください。\n\n光伝送の資料には、「送信 0dBm、受信 −14.8dB...",
+      "published": "2026-10-30T04:15:34+00:00",
+      "source": "Qiita - インフラ",
       "tag": "インフラ",
       "color": "#326CE5"
     },
@@ -1201,7 +1201,7 @@
     {
       "title": "October 22, 2026",
       "link": "https://docs.cloud.google.com/release-notes#October_22_2026",
-      "summary": "App Engine flexible environment PHP\nSecurity\nAll supported versions of PHP 8.2 and later are patched. Take immediate protective action by redeploying your resources with updated dependencies.\nSee Resp",
+      "summary": "Apigee X\nAnnouncement\nOn October 22, 2026, we released an updated version of Apigee (1-18-0-apigee-7).\nNote: Rollouts of this release began today and can take four or more business\ndays to complete ac",
       "published": "2026-10-22T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
@@ -1219,7 +1219,7 @@
     {
       "title": "October 21, 2026",
       "link": "https://docs.cloud.google.com/release-notes#October_21_2026",
-      "summary": "Apigee hybrid\nAnnouncement\nv1.15.9\nOn October 21, 2026 we released an updated version of the Apigee hybrid software, v1.15.9.\n\nFor information on upgrading, see Upgrading Apigee hybrid to version v1.1",
+      "summary": "Apigee X\nAnnouncement\nApigee Emulator\nApigee Emulator v2.0.2\nOn October 21, 2026, we released Apigee Emulator version 2.0.2.\nThis release upgrades the Apigee Emulator runtime to Java 21 (Eclipse Temur",
       "published": "2026-10-21T07:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
