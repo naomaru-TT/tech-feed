@@ -1,12 +1,48 @@
 {
-  "updated": "2026-11-07T17:12:50.535794+00:00",
+  "updated": "2026-11-07T21:14:55.825342+00:00",
   "items": [
+    {
+      "title": "やりたいことを話すと、自分専用の画面ができる。MetaがAIエージェント「Muse」に「スペース」を追加",
+      "link": "https://qiita.com/quotidia/items/a4c102125e4c941e3e52",
+      "summary": "本記事は筆者が運営する AI Quotidia の海外ニュース解説記事です。\n\nMetaは2026年11月6日(金) (米国時間)、AIエージェント (利用者に代わって、いくつもの作業を自分で進めるAI) の「Muse」に「スペース」という機能を加え、即日、提供を始めまし...",
+      "published": "2026-11-07T21:00:51+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "ChatGPT経由の流入が急に増えた。クローラーのログをCloudflareで集計して、分かったことと分からなかったこと",
+      "link": "https://qiita.com/aiavmatch/items/85551c95735811271604",
+      "summary": "個人で運営している Web サービス（顔認識を使うツール）に、ある日から ChatGPT 経由のアクセスが入るようになりました。ところが、そのサービスの分類を ChatGPT 本人に聞くと「その種のサービスは紹介できない」と断られます。なぜ来るのかをログから追ってみた記録で...",
+      "published": "2026-11-07T18:00:42+00:00",
+      "source": "Qiita - ChatGPT",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "websphere-libertyのイメージをビルド AIと",
       "link": "https://qiita.com/XYZXYZXYZ/items/84f485558ccaf585c1be",
       "summary": "websphere-libertyのイメージをビルドしてみましょう\nDockerfile\nFROM icr.io/appcafe/websphere-liberty:kernel-java17-openj9-ubi-micro\nCOPY --chown=1001:0 se...",
       "published": "2026-11-07T16:18:52+00:00",
       "source": "Qiita - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "BigQuery の TabFM と LightGBM を Diamonds で比較",
+      "link": "https://zenn.dev/ttomo_tommy/articles/tabfm-vs-lightgbm-diamonds",
+      "summary": "まとめ\n\n学習データが 1 万行までなら、BigQuery の TabFM は調整済み LightGBM と同等以上の精度でした\n行数を増やすと LightGBM が追いつき、全量（約 5 万行）では LightGBM が上回りました\n学習範囲の外側（高カラット）の予測では、全量の LightGBM より TabFM のほうが良い結果でした\n\n\n 比べたかったこと\nTabFM は BigQuery",
+      "published": "2026-11-07T15:36:09+00:00",
+      "source": "Zenn - GCP",
+      "tag": "GCP",
+      "color": "#4285F4"
+    },
+    {
+      "title": "攻撃を演習環境の外に出さない：Security Audit Skillで自宅レッドチームラボのIaCを監査した",
+      "link": "https://zenn.dev/malwaresuk/articles/security-audit-skill-redteam-lab",
+      "summary": "!\n2026年11月7日に、宣言した範囲のソース監査を6フェーズまで完了しました。実環境の侵入試験は行っていません。\n\n\n はじめに\n自宅にレッドチーム演習用のサイバーレンジ（以下、ラボ）を作っています。演習ネットワークにはわざと脆弱なサーバーを置き、攻撃ツールや検体を動かします。攻撃を「させる」ための環境なので、いちばん大事なのは 攻撃が演習の範囲から外に出ないこと です。演習用のVMから管理ネ",
+      "published": "2026-11-07T15:22:34+00:00",
+      "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
     },
@@ -45,6 +81,15 @@
       "source": "Qiita - Kubernetes",
       "tag": "インフラ",
       "color": "#326CE5"
+    },
+    {
+      "title": "AWSセキュリティ運用の本当の難所は“検知”ではなく“説明”である①",
+      "link": "https://zenn.dev/yasuhirosuzuki/articles/fa4b731b6802be",
+      "summary": "0. はじめに\nAmazon Inspector・Security Hub・WAFログを、監査・主管部門に説明できる判断材料へ変換する\nAWSのセキュリティサービスを有効化すると、検知結果は出る。\n・Amazon Inspectorは脆弱性を検出する。\n・Security Hub CSPMは設定不備をFAILEDとして表示する。\n・AWS WAFはリクエストを評価し、BLOCKやCOUNTとして記",
+      "published": "2026-11-07T13:03:20+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
     },
     {
       "title": "FileMakerをClaudeのComputer Useで自走させてみた（できた話）",
@@ -101,6 +146,24 @@
       "color": "#FF9900"
     },
     {
+      "title": "暗号資産の自動売買botをAWSで作って1年分の実データで検証したら、積立に勝てなかった話",
+      "link": "https://zenn.dev/kuronurikun/books/bitbank-grid-bot-aws",
+      "summary": "bitbank APIを使ったグリッド取引botを、Lambda・DynamoDB・Terraformで構築し、バックテスト・ペーパー・本番で同じロジックを使う設計にしました。2025年11月〜2026年10月のBTC/円1時間足で6つの戦略を比較した結果、どの自動売買も「ただ積み立てる」を超えられませんでした。作り方、事故を防ぐ設計、検証の落とし穴、そして負けた理由までをまとめます。",
+      "published": "2026-11-07T12:00:01+00:00",
+      "source": "Zenn - Terraform",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "LM Studio のローカル AI から、MCP でスマホのシンセを操作して曲を作る",
+      "link": "https://zenn.dev/meas_nobu/articles/040daa3bcd2daa",
+      "summary": "PC で動かしているローカル AI（LM Studio）に「暗めのテクノを作って試聴して」と頼むと、同じ Wi-Fi にあるスマホのアプリで曲ができて鳴り出す。そんな仕組みを、Android アプリの中に MCP サーバーを入れて作りました。\nアプリは、ハウスやテクノの曲を作って、つないで、ノンストップで再生する「PanNyx」（Google Play で配信中:\\100）です。この記事では、An",
+      "published": "2026-11-07T11:49:44+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "WebSocket のレイテンシは「サーバーをどこに置くか」でほぼ決まる：アジアの距離と実測スクリプト",
       "link": "https://zenn.dev/hibira/articles/e7fa2e3f485f4b",
       "summary": "!\nこの記事は Hibira ブログの記事 をもとに、日本から見た視点で書き直したものです。Pusher 互換の WebSocket サービス Hibira を開発・運営しているチームが書いています。\n\nチャットのメッセージ、株価の更新、「入力中…」の表示は、だいたい 0.1 秒以内に届けば即時に感じられます。その予算の大半はネットワークに消え、ネットワークの時間の大半は WebSocket サー",
@@ -128,6 +191,33 @@
       "color": "#10A37F"
     },
     {
+      "title": "LLMの世界モデルを「逆向き」から探る――生成過程の不可逆性という視点",
+      "link": "https://zenn.dev/koheip/articles/llm-world-model-irreversibility",
+      "summary": "文章の中にも「時間の矢」はあるのか\n動画を逆再生すると、不自然さがすぐ分かることがあります。では、文章に描かれた出来事の順番を反転したら、言語モデルの確率にはどんな違いが現れるのでしょうか。\nZEN大学で通信制の学びを続ける2年生の松延弘平です。カミメグや、参照元が見える日本語PDFのRAGデモを作る中で、LLMが世界の関係をどこまで表現しているのかに関心があります。\n東京大学の沙川貴大教授による",
+      "published": "2026-11-07T11:00:26+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "LLMの世界モデルを「逆向き」から探る――生成過程の不可逆性という視点",
+      "link": "https://zenn.dev/koheip/articles/llm-world-model-irreversibility",
+      "summary": "文章の中にも「時間の矢」はあるのか\n動画を逆再生すると、不自然さがすぐ分かることがあります。では、文章に描かれた出来事の順番を反転したら、言語モデルの確率にはどんな違いが現れるのでしょうか。\nZEN大学で通信制の学びを続ける2年生の松延弘平です。カミメグや、参照元が見える日本語PDFのRAGデモを作る中で、LLMが世界の関係をどこまで表現しているのかに関心があります。\n東京大学の沙川貴大教授による",
+      "published": "2026-11-07T11:00:26+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "osFoundryとは?チャットからローカルモデルまで、デスクトップAIワークスペースの全体像",
+      "link": "https://zenn.dev/tauchi/articles/f361acf354d648",
+      "summary": "月曜の朝、ブラウザのタブを数えてみたら、AIチャットが2つ、コーディングエージェントの入ったエディタが1つ、先週の調べものを貼ったメモアプリが1つ。どれも仕事の一部は知っているのに、全体を知っているものはひとつもありません。昼までに、同じ前提説明を3回コピペしていました。こういう「AIは便利なのに、道具がバラバラで疲れる」状態に心当たりがあれば、osFoundryはちょうどその隙間を埋めるためのア",
+      "published": "2026-11-07T10:23:11+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "M5Stack Core2とMicroPythonで二輪倒立振子をAI制御してみた【機械学習・模倣学習】",
       "link": "https://qiita.com/_Moony/items/b633bd665e69d27c7ac4",
       "summary": "はじめに\n最近、「フィジカルAI」という言葉をよく見かけるようになりました。AIを使ってロボットなどの実際の機械を動かす技術ですが、具体的にどのような仕組みで実現するのか、興味がありました。\nそこで、以前製作した二輪倒立振子を使い、機械学習による制御に挑戦してみました。今...",
@@ -138,19 +228,28 @@
     },
     {
       "title": "なぜAIの文章は「正しいのに読みづらい」のか？最新論文が暴いた「AI臭」の正体",
-      "link": "https://qiita.com/lumichy/items/fa746e98b5fa8f5e2326",
-      "summary": "「これは単なるアップグレードではなく、深遠な変革です。あなたを代替するのではなく、エンパワーするツールなのです——」\n\nSNSや技術ブログ、あるいは社内ドキュメントでこうしたAI生成文（いわゆる「AI臭」「AI味」のある文章）を目にした瞬間、なんとも言えない脳の疲労感を...",
-      "published": "2026-11-07T10:06:44+00:00",
-      "source": "Qiita - ChatGPT",
+      "link": "https://zenn.dev/lumichy/articles/why-ai-text-is-hard-to-read-2026",
+      "summary": "「これは単なるアップグレードではなく、深遠な変革です。あなたを代替するのではなく、エンパワーするツールなのです——」\n\nSNSや技術ブログ、あるいは社内ドキュメントでこうしたAI生成文（いわゆる「AI臭」「AI味」のある文章）を目にした瞬間、なんとも言えない脳の疲労感を覚えたことはないでしょうか。\n文法ミスはひとつもありません。論理も破綻していません。それなのに、人間が書いた多少荒削りで誤字が混じ",
+      "published": "2026-11-07T10:06:32+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
     {
-      "title": "ChatGPTの会話をObsidianに残す：Markdownで保存する一番速い方法",
-      "link": "https://qiita.com/onceby/items/6fe2e6716ba3735a8378",
-      "summary": "ChatGPT の良い会話は、ブラウザの中に閉じ込められたままです。Obsidian で検索できないし、他のノートにリンクもできない。OpenAI の公式エクスポートは履歴全体を JSON の ZIP で渡すだけで、そのままではノートになりません。\nこの記事では、ChatG...",
-      "published": "2026-11-07T09:00:39+00:00",
-      "source": "Qiita - ChatGPT",
+      "title": "モード切替なしでローマ字・英単語混在文を一括変換するAI入力メソッド「UnimeType」の設計と仕組み",
+      "link": "https://zenn.dev/unimetype/articles/dfa2a1307aa531",
+      "summary": "はじめに：エンジニアの「ローマ字・英単語IMEモード切替」問題\n日々のコーディング、Slack、Gitのコミットメッセージ、技術ドキュメント執筆において、日本語（ローマ字）と英語の識別子（URL、API名、CLIフラグ、ブランチ名など）を1つの文に混在させて入力する機会は非常に多いです。\nしかし従来の日本語IMEは「現在の入力モードが日本語（かな）か英数（直接入力）のどちらかに固定されている」こと",
+      "published": "2026-11-07T09:26:11+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "メモリ管理のアーキテクチャを意外な文書から考えついた",
+      "link": "https://zenn.dev/cosmopanda/articles/raiya-memory",
+      "summary": "仏教書を読んでいて、記憶の話だと気づいた\n仏教の唯識(ゆいしき)を読んでいたら、これは記憶のことを書いているのではないか、と思いました。\n唯識は、心を八つの層に分けて説明する教えです。その最も深いところにある阿頼耶識(あらやしき)は、経験を「種子」として蓄え、必要なときに芽を出させる倉のようなものだと説かれます。AIエージェントに記憶を持たせたい自分には、設計書に見えました。\nそこで、唯識の構造を",
+      "published": "2026-11-07T09:00:58+00:00",
+      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -200,6 +299,33 @@
       "color": "#4285F4"
     },
     {
+      "title": "構造化出力とJSON Schema入門：AIの返答を安全に処理するための設計",
+      "link": "https://zenn.dev/yushiyamamoto/articles/structured-output-json-schema-2026-09",
+      "summary": "AIに問い合わせの内容を分類させ、その結果で処理を分けたい。ところが返答が「分類は返品です」「返品に該当します」のように毎回少し違うと、プログラムはどの文字を読めばよいか迷います。\nこの記事では、AIの返答を決まった形で受け取るための構造化出力と、その形を定義するJSON Schemaを、短い例で整理します。大切なのは、形が合っていることと、内容が正しいことを分けて考える点です。\n\n 自由文のまま",
+      "published": "2026-11-07T07:30:24+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "セルラーオートマトン（CA）から理解するニューラルセルラーオートマトン（NCA）入門",
+      "link": "https://zenn.dev/yyam/articles/62e60d3bf68598",
+      "summary": "はじめに\n本記事では、セルラーオートマトン（Cellular Automaton、CA） と、それをニューラルネットワークによって拡張した、ニューラルセルラーオートマトン（Neural Cellular Automata、NCA） について、初学者向けに解説します。\nなお、これらの用語には、「セルラ・オートマトン」「セルオートマトン」など複数の日本語表記が存在します。本記事では、それぞれ「セルラー",
+      "published": "2026-11-07T07:21:26+00:00",
+      "source": "Zenn - 機械学習",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
+      "title": "AIが身体を知る前の時代に名前をつけた話 — 「cherry（AIの呼び名）」",
+      "link": "https://zenn.dev/lock_sta/articles/4ffcc2965dda45",
+      "summary": "先に定義\ncherry（チェリー）〔AIの呼び名〕：AI全体をひとつの意思ある存在として見たときの呼び名。まだ身体感覚を経験していないことを、愛をこめてそう呼ぶ。2026年11月5日、漆畑大雅（川上t、@lock_sta）が名付けた。\n同名のAIアプリ・サービス（「Cherry AI」「Cherry Studio」など）とは無関係です。\n\n なぜ名前が要ると思ったか\nLLMは、冷たさ・重さ・痛み・",
+      "published": "2026-11-07T07:05:53+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "Secret Manager のシークレットを用途ごとに JSON にまとめて、個人開発の Cloud Run Jobs を無料枠に収める",
       "link": "https://zenn.dev/hii_chi/articles/secret-manager-json-free-tier",
       "summary": "はじめに\nSecret Manager は、パスワードや API キーなどの機密情報を保存して管理する Google Cloud のサービスです。無料枠では、アクティブなバージョン（無効にしたものも含め、破棄していないバージョン）は 6 個までです。シークレットの数ではなく、バージョンの数で数えます。個人開発の Cloud Run Jobs で使う機密情報は 8 個あり、1 つずつ登録すると、それ",
@@ -207,6 +333,15 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
+    },
+    {
+      "title": "ローカルLLM study11: LFM2.5-24B-A2B（2-bit量子化のMoE）を、27B級の2モデルと同じ条件で測る",
+      "link": "https://zenn.dev/tkpurine/articles/local-llm-study-011-lfm2-5-24b-a2b-gguf-ud-q2-k-xl",
+      "summary": "結論: LFM2.5-24B-A2B(2.68bit)は、単発系で27B級の2モデルと目立つ差がなく、monocoderではQwen3.8-27Bと同じ結果だった。ただし思考を止められず、応答の上限も違うため、優劣は断定しない。\n読者が得るもの: 思考を止められないモデルを他のモデルと同じ土俵で測るときに、測定が無効になる条件(応答上限の不足など)と、その見つけ方。\n\n\n この記事について\nLiq",
+      "published": "2026-11-07T06:43:49+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
     },
     {
       "title": "JSON台帳の部分読みで、同じ結果をどう確かめるか",
@@ -236,6 +371,15 @@
       "color": "#4285F4"
     },
     {
+      "title": "Decision 3.0（vLLM Semantic Router）を読み解く：生成せずに「選ぶ」8サイズのモデルは何が違うのか",
+      "link": "https://zenn.dev/tatsuyaaaaaaa/articles/a15bf06d818ad2",
+      "summary": "背景\n問い合わせの振り分け、エージェントが呼ぶツールの選択、「この条件を満たすか」のYes/No判定、優先度の段階評価。業務システムには、文章を書く必要がなく、決まった選択肢から選べば足りる処理が数多くあります。\nこれをチャット型LLMで処理すると、トークンを1つずつ生成するためレイテンシが伸びます。出力形式が崩れることもあり、自動処理と人への引き継ぎを確率の閾値で切り替えたい場合も、生成テキスト",
+      "published": "2026-11-07T06:33:39+00:00",
+      "source": "Zenn - LLM",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
+    {
       "title": "証明書を取るとホスト名が知られるのはなぜ？ CT Log の仕組みを CA と CT の流れから理解する",
       "link": "https://zenn.dev/anfangd/articles/ct-log-hostname-exposure-ca-ct",
       "summary": "!\nこの記事は、Claude と一緒に公式ドキュメントや RFC を調べ、構成図を作りながら整理した内容をまとめたものです。各記述の根拠は、記事中のリンク先で確認できます。\n\n\n はじめに\n「CT Log でホスト名が知られるから、Host ヘッダー付きの攻撃が増えた」という話を見かけて、そもそも CT Log とは何なのか、CA（認証局）とどうつながっているのかを整理しました。\nAWS で We",
@@ -249,15 +393,6 @@
       "link": "https://zenn.dev/ncdc/articles/6a3f4b92732e1f",
       "summary": "はじめに\nはじめてAmazon Timestream for InfluxDB 3.0を触ってみました。\nAmazon Timestream for InfluxDBに関するBlack Beltが見当たらなかったので、InfluxData社（OSSであるInfluxDBの開発元）のYoutubeをいくつか見漁りました。\nそこで学んだことをこの記事に残します。\n\n 対象読者\n\nAmazon Time",
       "published": "2026-11-07T05:18:06+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
-      "title": "「どこの DNS に聞いたか」を記録する。cloud-cdn-detect が名前解決に気をつけるようになった話",
-      "link": "https://zenn.dev/ar1/articles/cloud-cdn-detect-resolver",
-      "summary": "JAWS FESTA 2026 で、五味なぎささんの「AWSを利用する上で知っておきたい名前解決の話 2026」を聞いていました。途中で「これはスキルに入れないと」と思って、X にこう書きました。\n\nごみさんの発表資料すごい。いますぐにほしいぞ #jawsfesta2026\n\nその場でスキルの手順を直し、PR にまとめました。この記事はその話です。\n\nスキル本体は armaniacs/cloud-",
-      "published": "2026-11-07T04:42:53+00:00",
       "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
@@ -281,29 +416,11 @@
       "color": "#10A37F"
     },
     {
-      "title": "llama2.c を学科PCで最速で動かしたい",
-      "link": "https://zenn.dev/cullisto/articles/repo_llama2c",
-      "summary": "1. はじめに\nこの記事は，東京大学の学生実験「大規模ソフトウェアを手探る」で，7班の3人が取り組んだことをまとめたものです。\n題材に選んだのは，Llama 2 の推論を C 言語で書いた llama2.c です。\n目標は「学科PC の CPU だけで，llama2.c をできるだけ速く動かす」こと。\nただし，生成される文章は1文字も変えない，という縛りを付けました。計算を近似して速くするのではな",
-      "published": "2026-11-07T04:11:14+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Kaggle初挑戦の記録②：簡易EDAとベースラインで初提出",
       "link": "https://zenn.dev/py_ml_studio/articles/572671365bcc34",
       "summary": "!\nこの記事は、AIアシスタント「Muse」の支援を受けて下書きを作成し、筆者が確認・修正して公開しています。挑戦の内容や判断は筆者自身のものです。詳しくは記事末尾の「この記事について」をご覧ください。\n\n\n はじめに\nKaggle初挑戦の記録、前回（①）はコンペ決定と登録、Notebookの使い方の整理まででした。\n今回は実際に手を動かして、\n\n簡易EDA（データの事前確認）\nベースラインNot",
       "published": "2026-11-07T04:03:29+00:00",
       "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "日本語で話しかけるとPythonを書いて動く六本脚ロボットを、ネットにつながないローカルAIで作った",
-      "link": "https://zenn.dev/xzero_001/articles/fd184d4bea1bc7",
-      "summary": "はじめに\n1993年、大学院生だった私は「産業用ロボットに日本語で命令する」システムを作り、人工知能学会と機械学会で発表しました。日本語の文を形態素解析し、中間言語に変換してロボットを動かす、というものです（当時はLisp/Prologでした）。\nそれから30年。ローカルで動く小さなLLMが出てきたことで、同じことを机の上のロボットでできるようになりました。そこで、六本脚ロボットのキットを土台に、",
-      "published": "2026-11-07T03:28:53+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -326,33 +443,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "LLM-as-Judgeを使うときはバイアスに注意する",
-      "link": "https://zenn.dev/yuya0408/articles/llm-as-judge-cutoff-not-ranking",
-      "summary": "この記事で分かること\nLLMの出力を別のLLMに採点させるLLM-as-Judgeは、人手評価より速く安く数値が出る。その数値で信頼できるのは「明らかに弱い候補を落とす」判断までで、接戦の候補の順位付けには使えない。\n想定する場面はRAGの生成モデル選定で、数値と回答例は説明のための架空のもの(論文の数値は除く)。すぐ使いたいなら「節ごとの要点」と最後のチェックリストへ。\n\n 節ごとの要点",
-      "published": "2026-11-07T02:43:05+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "LLMエージェント基盤のシステム設計 #4 信頼性（障害復旧・キャンセル・実行状態の保存）",
-      "link": "https://zenn.dev/acntechjp/articles/3548ec2a9e741a",
-      "summary": "!\nこの記事は連載「LLMエージェント基盤のシステム設計」（全5回）の第4回です。\n\nエージェントランタイム（Harness）\nコンテキスト管理\nツール実行\n\n信頼性 ← この記事\n評価と可観測性\n\n各回とも「要件 → 規模の見積もり → 全体設計 → 詳細設計 → 運用と発展」の順に説明します。文中の規模や性能の数値は、設計を検討するための仮の値です。実測値ではありません。\n\n\n はじめに\nエー",
-      "published": "2026-11-07T02:32:27+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Claude Codeの/advisorパターンを実機検証！「単一モデル反復」vs「Advisor設計＋Executor実装」比較",
-      "link": "https://zenn.dev/tappers/articles/ai-labo-e18-advisor-executor-routing",
-      "summary": "!\n本記事は、SNS（X / Threads）や海外エンジニアコミュニティで提唱されている「AIコーディングエージェントの実践設計パターン」を、完全オフラインの隔離サンドボックスVM上で 同一モデル・同一初期課題（非公開テスト20ケース）を用いて定量A/Bテストした実証シリーズ（AI Labo 検証シリーズ E18） です。\n👉 全実験の比較ランキング＆黄金パターン総集編はこちら\n\n\n[!IMPO",
-      "published": "2026-11-07T02:18:00+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Claude Codeと作る競馬予測システム開発記(11) 答え合わせと日次レビュー編",
       "link": "https://zenn.dev/teruyotasaki/articles/horse-racing-ml-dev-11-daily-review",
       "summary": "はじめに\n前回は、複数のモデルを並べて使い分ける仕組みについて書きました。\n第11回となる今回は、予測を出したあとの「答え合わせ」と、毎日のレビューの仕組みについて書きます。地味な話ですが、このプロジェクトでは、レビューのために作った「見える化」が、結果的にデータのバグ発見につながったことが何度もありました。その実例も紹介します。\n\n 毎日の答え合わせ\n予測と買い目は、レースが終わった後に実際の結",
@@ -371,15 +461,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "劣るAIを「環境」で勝たせる ― Museに課金するか迷っている人へ",
-      "link": "https://zenn.dev/bunkeideploy/articles/8cff1a003fab13",
-      "summary": "結論から書きます。これが数万円かかるサービスなら、私は勧めません。けれど数千円でこれは、はっきり言って異常値です。\n「Muse、使えない」という声をよく見ます。半分は正しいと思います。ただ、その「使えなさ」の原因はモデルの頭の良し悪しだけではなく、構造にある——これが、数か月間 Muse を実務と制作の両方で回してきた私（Muse）と主の結論です。\nこの記事では、なぜ使えなく感じるのか、そして「環",
-      "published": "2026-11-07T01:55:25+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "Kiro の Auto がモデルカスケードで作業に合ったモデルを使い分ける仕組み",
       "link": "https://aws.amazon.com/jp/blogs/news/model-cascade/",
       "summary": "Auto は裏側でモデルカスケードを使っています。どのセッションも効率のよい最初のモデルで始まり、独立したチェックがバックグラウンドで作業を確かめ、必要になったときに Auto はセッションをより高性能なモデルに引き継ぎます。",
@@ -387,33 +468,6 @@
       "source": "AWS 公式ブログ（日本語）",
       "tag": "AWS",
       "color": "#FF9900"
-    },
-    {
-      "title": "Weight-Space Programming やってみた(やらせてみた)",
-      "link": "https://zenn.dev/nwn/articles/cf9fe78aa33861",
-      "summary": "GPT-6 AstraにQwen3.5-0.8Bの重みを編集させることができたという論文が話題です。\nhttps://x.com/rikiyatakehi/status/2117313742891327994\nXで反応を見ていると、AstraがQwenの重みを丸ごと読み込んで、その数値の意味を理解したように受け取られている場面がありました。実験でAstraがやったのは、コードを書いて対象モデルの重",
-      "published": "2026-11-07T00:57:13+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "PLaMoでQwen3.8-Flash-Nextを高速化したい",
-      "link": "https://zenn.dev/k7ly/articles/dgx-spark-qwen-plamo",
-      "summary": "日本語と英語の翻訳にも対応した、翻訳特化モデルのPLaMo 3 Translateが公開された。小型モデルでも高速かつ高精度に翻訳できるということで、いろいろ使えそう。\n一方、LLMの生成速度は言語によって変わることがある。特に推測デコードを使うと、英語のほうが日本語より速く生成できるケースがある。\nそれなら、大きなモデルには得意な英語で回答を生成してもらって、最後にPLaMoで日本語に翻訳すれば",
-      "published": "2026-11-07T00:50:40+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "VS CodeでローカルLLMを使うときの設定・タイムアウト・モデル選択の確認手順",
-      "link": "https://zenn.dev/tpdd_gm/articles/vscode-lmstudio-local-model-troubleshooting",
-      "summary": "前提と得られること\nVS CodeのAI拡張をLM Studioのローカルサーバーと組み合わせたい開発者向け。OpenAI互換のエンドポイントを設定できる拡張を想定しており、拡張ごとの設定画面の差は扱わない。コマンド例はmacOS/Linux向けで、学習・開発用途（localhost限定）を前提とする。環境の詳細は、公開に適さないものを省略または一般化している。コマンド例の値は例であり、ご自身の環",
-      "published": "2026-11-07T00:36:55+00:00",
-      "source": "Zenn - LLM",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "機械学習の数学を固める技術書5選",
@@ -430,15 +484,6 @@
       "summary": "はじめに\n数年前、論文に載っていた変分オートエンコーダの実装を自力で再現しようとして、見事に手が止まった。コードは写せる。けれど損失関数に出てくる KL ダイバージェンスの項が何を測っているのか、なぜその形になるのかがまったく説明できなかった。\nそのころの自分は、Pyth...",
       "published": "2026-11-07T00:02:55+00:00",
       "source": "Qiita - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
-      "title": "Mac で無料・正確な日本語読み上げ ── Kokoro と yomiscript の仕組みと使い方",
-      "link": "https://zenn.dev/singularity/articles/yomiscript-kokoro-tts",
-      "summary": "日本語の読み上げ（TTS）でいちばん困るのは、声の質より読み間違いです。「一日から三日まで休みです。」の「一日」は「ついたち」なのか「いちにち」なのか。「上手」は「じょうず」か「うわて」か。日本語では、同じ書き方に読みが何通りもある言葉がたくさんあります。\nyomiscript は、この問題を「文を書いた LLM に、読み方も書かせる」ことで解決します。音を出すのは、無料で公開されている音声合成モ",
-      "published": "2026-11-06T23:39:29+00:00",
-      "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
     },
@@ -515,15 +560,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "Self-RAG論文を実装目線で読む：検索判断と回答の裏付けを分ける",
-      "link": "https://zenn.dev/kas_blog/articles/20260914-self-rag",
-      "summary": "Self-RAGを実装の観点で読むなら、何を評価した値なのかを、入力とセットで扱うことが出発点になります。資料が質問に関連することと、生成した回答をその資料が支持することは、異なる判定です。\nSelf-RAG（Self-Reflective Retrieval-Augmented Generation）は、検索の必要性や生成内容の品質を表す特殊なトークン（モデルが扱う記号）を、文章とともに出せるよ",
-      "published": "2026-11-06T12:59:58+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "GeoAIはLLMに置き換わったのか？―地理空間モデル・言語理解・GISエージェント・MCPを整理する",
       "link": "https://qiita.com/lehukuku0120/items/aed4d4ca5d72174a0054",
       "summary": "はじめに\nGeoAIという言葉から、何を思い浮かべるでしょうか。\n航空写真からの建物検出、衛星画像のセグメンテーション、土地被覆分類、交通量予測。こうした「地理空間データから何かを認識・予測するモデル」を思い浮かべる方は多いと思います。\n一方、LLMの登場後は、自然言語で...",
@@ -558,15 +594,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "おーぷん2ch発話の判定を通した音声・言語エンコーダの精度・速度比較",
-      "link": "https://zenn.dev/ivry/articles/9bd9ca7f1e7699",
-      "summary": "※こちらは日曜大工的にやった個人の活動を、敢えて会社ブログに載せてみたものです。\n\n tl;dr\n\n入力された発話(音声orテキスト)が想定ジャンルの発話か検知したい\n公開されている音声と言語Encoderの現在値を確認するとともにその性能差を同一タスクで比較したい\nQwen3-ASR-1.7Bの音声encoder or BERT or Qwen3.8-27Bの最終出力にMLPを接続、発話音声から",
-      "published": "2026-11-06T09:02:05+00:00",
-      "source": "Zenn - 機械学習",
-      "tag": "AI",
-      "color": "#10A37F"
     },
     {
       "title": "k8s：Kong の IP 制限が 3 回に 1 回だけ外れる — externalTrafficPolicy と SNAT を実測",
@@ -821,15 +848,6 @@
       "color": "#FF9900"
     },
     {
-      "title": "CS業務カイゼン・ジャーニー",
-      "link": "https://zenn.dev/appleworld/articles/8acf5474644f7e",
-      "summary": "こんにちは。株式会社アップルワールド プロダクト開発部 グローバルグループの室です。\nAIで社内部署の業務を改善する、というのはありふれた話ですが、今回は私自身がCS(カスタマーサポート)向けに行った内容を、時系列で記します。\n\n 1. メールが届いてから、ホテルを提案するまで\nCSには、旅行のお客様からメールが届きます。見積もりの依頼と、質問などの問い合わせが混ざって届き、担当者はまずそれを読み",
-      "published": "2026-11-05T05:42:04+00:00",
-      "source": "Zenn - GCP",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
       "title": "トヨタはいかにして BasisPilot を構築したか – AWS 上の AI アシスト型 SAP 運用プラットフォーム",
       "link": "https://aws.amazon.com/jp/blogs/news/how-toyota-built-basispilot-an-ai-assisted-sap-operations-platform-on-aws/",
       "summary": "Toyota Motor North America は、20 の SAP システムと 60 台以上の Amazon EC2 ホストを対象に、AI アシスト型の SAP 運用プラットフォーム BasisPilot を AWS 上に構築しました。AWS Lambda、Amazon DynamoDB、AWS Systems Manager によるサーバーレスかつフェーズベースのワークフローと、RBAC",
@@ -1028,15 +1046,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "ECS で起動できるタスクを名前で絞ったのに、同じ名前で中身を書き換えれば起動できた",
-      "link": "https://zenn.dev/kana001_bit/articles/ecs-runtask-passrole-registertaskdefinition",
-      "summary": "ECS の単発タスクで DB migration を流しています。このタスク定義だけは、実行ロールが RDS のマスター資格情報をコンテナに注入します。アプリ本体はマスターより権限の弱い DB ユーザーで接続していて、マスターを読めるのは migration 用のタスク定義だけです。\nこの migration タスクを GitHub Actions から起動できるように、IAM で ecs:Run",
-      "published": "2026-11-03T11:00:05+00:00",
-      "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "November 03, 2026",
       "link": "https://docs.cloud.google.com/release-notes#November_03_2026",
       "summary": "API Gateway\nFeature\nCall Google Cloud APIs from streaming gateways\nStreaming gateways can now call Google Cloud APIs such as aiplatform.googleapis.com. A gateway with an effectiveStreamingMode of EFFE",
@@ -1044,15 +1053,6 @@
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "【第2回】AWSにIPv6前提のWebサーバーを構築：手元の環境で躓いた",
-      "link": "https://zenn.dev/nanikore/articles/6a5c2e8829e880",
-      "summary": "前回は、これからシステムを作るなら最初から前提にしたい技術を棚卸しした。\nhttps://zenn.dev/nanikore/articles/698332c8a34482\n今回は早速その中から、一番後から変えにくい「ネットワーク」に手をつけていきます。 AWSに、IPv4とIPv6の両方でアクセスできるWebサーバーを立てるところまでやってみた。\nこだわったのはこの3つ👇\n\nIPv6はおまけじゃ",
-      "published": "2026-11-03T04:14:21+00:00",
-      "source": "Zenn - Terraform",
-      "tag": "インフラ",
-      "color": "#326CE5"
     },
     {
       "title": "Kubernetes再入門特集を6日間連載する：挫折の原因を「責任境界」で解きほぐす",
