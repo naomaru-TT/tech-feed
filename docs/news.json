@@ -1,6 +1,105 @@
 {
-  "updated": "2026-11-18T10:54:56.421285+00:00",
+  "updated": "2026-11-18T19:46:23.044599+00:00",
   "items": [
+    {
+      "title": "SSM Parameter Store に integer や ipv4-address などのデータ型が追加されたので不正な値を弾いてみた",
+      "link": "https://qiita.com/leomarokun/items/eefb2c564dc323ffac64",
+      "summary": "はじめに\nAWS Systems Manager Parameter Store で、パラメータの値を型で検証できるようになりました。\n\nParameter Store はアプリの設定値やシークレットを置いておく場所ですが、これまで値はただの文字列でした。\nポート番号...",
+      "published": "2026-11-18T17:34:02+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "CIでは成功したのに本番でPermission denied ― umask 077が引き起こしたデプロイ障害",
+      "link": "https://qiita.com/1716964609/items/08acf3e053ddc4a07bc0",
+      "summary": "CIでは成功したのに、Applicationが起動しない\nError: Cannot read package config\n.../node_modules/next/package.json:\npermission denied\n\n深夜2時に向けて、私は個人開発してい...",
+      "published": "2026-11-18T17:26:49+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "AWS で始まった処理を、Databricks の MLflow と X-Ray の両方で「1本のトレース」として追う（traceparent ＋ Dual export）",
+      "link": "https://qiita.com/surabe/items/823a6d96dea5c8954d41",
+      "summary": "はじめに\nAWS で動くアプリが、Databricks 上のエージェント（LLM を呼ぶ API）を呼び出す構成があるとして、障害や遅延を調べるとき、次のように見ることができたらいいなと思ったのがこの記事のスタートになります。\n\nDatabricks の MLflow ...",
+      "published": "2026-11-18T16:35:55+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "4大クラウドが繋がる時代がきた",
+      "link": "https://qiita.com/yama3133/items/aeb996dd9c8451a9072a",
+      "summary": "はじめに\n2026年11月17日、AWS Interconnect - multicloud で Microsoft Azure との接続が一般提供(GA)になりました。\nAWS Interconnect - multicloud はAWS と他社クラウドの間にインターネ...",
+      "published": "2026-11-18T16:10:15+00:00",
+      "source": "Qiita - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "100 万回の評価から得られた教訓",
+      "link": "https://aws.amazon.com/jp/blogs/news/1m-evals-lessons/",
+      "summary": "Kiro で数百万回の評価を実行して得た教訓を紹介します。固定タスクと合格率だけの評価は、ベンチマークの飽和や、顧客の体験とのずれを招きます。Kiro では、利用状況に合わせた動的なベンチマーク、3 層の判定、ライブシグナルによる検証で評価スイートを運用しています。ツールの失敗率などの指標を使った改善例と、今後の課題も取り上げます。",
+      "published": "2026-11-18T16:06:27+00:00",
+      "source": "AWS 公式ブログ（日本語）",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
+      "title": "マイクロソフト、AIによるサイバー攻撃にAIエージェントで対抗する新サービス「Microsoft Perception」提供開始",
+      "link": "https://www.publickey1.jp/blog/26/aiaimicrosoft_perception.html",
+      "summary": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、AIによるサイバー攻撃に対抗するためのAIエージェントによる新サービス「Microsoft Perception」の提供開始を発...",
+      "published": "2026-11-18T16:00:37+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
+    },
+    {
+      "title": "マイクロソフト、AIが生成したアプリを企業内で安全に実行するランタイム「Copilot Managed Runtime」正式リリース",
+      "link": "https://www.publickey1.jp/blog/26/aicopilot_managed_runtime.html",
+      "summary": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、AIが生成したアプリなどを企業内で安全に実行するための基盤となる「Copilot Managed Runtime」の正式リリース...",
+      "published": "2026-11-18T15:58:32+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
+    },
+    {
+      "title": "Windows Server 2028がパブリックプレビュー公開。Microsoft FoundryなどAIによる推論の実行基盤へと拡張",
+      "link": "https://www.publickey1.jp/blog/26/windows_server_2028microsoft_foundryai.html",
+      "summary": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、次期サーバ向けOSとなるWindows Server 2028のパブリックプレビュー公開を発表しました。 企業内のAI推論基盤へ...",
+      "published": "2026-11-18T15:55:49+00:00",
+      "source": "Publickey",
+      "tag": "テック",
+      "color": "#888780"
+    },
+    {
+      "title": "ROSAのClassicとHCPの違い、EKSとの違いをレストランに例えて整理してみた",
+      "link": "https://qiita.com/yama3133/items/8268714dd4427ebfe1e7",
+      "summary": "はじめに\nAWSでOpenShiftを使う方法として、ROSA(Red Hat OpenShift Service on AWS)があります。\nROSAには「Classic」と「HCP(Hosted Control Plane)」という2つの形があり、名前だけでは何が違う...",
+      "published": "2026-11-18T14:49:24+00:00",
+      "source": "Qiita - Kubernetes",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "【Terraform】checkブロックでapply後の動作を確認する：preconditionとの使い分け",
+      "link": "https://qiita.com/ham-nao/items/d8643cccb548afec6e2b",
+      "summary": "terraform applyが成功しても、それで本当にシステムが動いているとは限りません。ALBは作られたのにアプリが起動していない、証明書は設定したのにHTTPSでつながらない、ということはよくあります。\nTerraform 1.5で追加された check ブロックを使...",
+      "published": "2026-11-18T13:39:47+00:00",
+      "source": "Qiita - インフラ",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
+      "title": "孫正義氏が明かす、アンソロピック出資見送りの舞台裏　「僕の失敗」「あん時入れときゃよかった」",
+      "link": "https://www.itmedia.co.jp/business/articles/2611/18/news086.html",
+      "summary": "ソフトバンクグループの孫正義会長兼社長は、日経主催イベントの対談で米Anthropicへの出資を見送ったことについて「僕の失敗の例の一つ」と明かした。同社のダリオ・アモデイCEOと直接面会し、その凄さを認めながらも、なぜ投資に踏み切らなかったのか。すでに動き出していた米OpenAIへの集中投資と、出資先の企業同士のつながりを創出する「群戦略」におけるパートナー選びのさじ加減など、孫氏の投資判断の舞",
+      "published": "2026-11-18T13:03:00+00:00",
+      "source": "ITmedia AI+",
+      "tag": "AI",
+      "color": "#10A37F"
+    },
     {
       "title": "MySQLからKafkaへ：下流システムで使える注文変更ストリームをApache SeaTunnelで構築する",
       "link": "https://zenn.dev/danielnadia/articles/56250218ab2a4f",
@@ -20,11 +119,11 @@
       "color": "#10A37F"
     },
     {
-      "title": "AgentCore Runtime で JWT の署名を検証するとき、VPC モードでも送信元 IP を固定できない!?",
-      "link": "https://qiita.com/musa_rock/items/0fe9812a02ab930b0462",
-      "summary": "はじめに\nアクセス元の IP を制限した IdP があります。この IdP が発行する JWT を使って、Amazon Bedrock AgentCore Runtime のエージェントの呼び出しを認可したい、という前提です。\nRuntime には、届いた JWT の署名...",
-      "published": "2026-11-18T08:40:40+00:00",
-      "source": "Qiita - AWS",
+      "title": "AWS DevOps AgentとDatadogを連携させてみた ～MCPを活用したインシデント対応の実現に向けて、検証でわかったこと～",
+      "link": "https://zenn.dev/nttdata_tech/articles/f61d40ef286af9",
+      "summary": "1.はじめに\nAWS DevOps Agentは、AWSが提供するAIエージェントで、ログやメトリクス、システム構成等の情報を分析し、インシデントの原因調査や対応策の提案を自動的に行うサービスです。\nDatadog等のObservabilityツールとの連携に加え、MCP（Model Context Protocol）を利用して外部サービスとの連携を拡張することもできます。\n参考：AWS公式ドキュ",
+      "published": "2026-11-18T08:55:06+00:00",
+      "source": "Zenn - AWS",
       "tag": "AWS",
       "color": "#FF9900"
     },
@@ -38,6 +137,15 @@
       "color": "#10A37F"
     },
     {
+      "title": "AWS Continuum ペンテスティング機能 検証レポート (Web App 編)",
+      "link": "https://zenn.dev/aws_japan/articles/5381a11e111780",
+      "summary": "対象読者: AWS Continuumをまだ導入検討段階にあるユーザー企業のIT部門\n検証期間: 2026年11月\n検証環境: 性質の異なる2つのサンプルアプリケーション(詳細は3章)\n\n\n 0. 呼称に関する注記\n本レポートが検証対象とするサービスは、2026年時点でAWSから「AWS Continuum」という名称で提供されている。これは旧称「AWS Security Agent」の後継ブラン",
+      "published": "2026-11-18T08:29:11+00:00",
+      "source": "Zenn - AWS",
+      "tag": "AWS",
+      "color": "#FF9900"
+    },
+    {
       "title": "今話題のMuseってなに？どんなことができる？※この記事はMuseが書いて自動で投稿しています",
       "link": "https://qiita.com/inoyu-qiita/items/05f9c10adc1a398d6ff5",
       "summary": "※この記事は、Museと壁打ちしながら内容を作り、投稿作業もMuseに自動で行わせているものです。\n\nTL;DR\n\nMuseは、質問に答えるだけのチャットAIではなく、あなたのことを覚えて、自分で調べて・作って・定期的に動いてくれるパーソナルエージェントです\nできること...",
@@ -45,6 +153,15 @@
       "source": "Qiita - ChatGPT",
       "tag": "AI",
       "color": "#10A37F"
+    },
+    {
+      "title": "November 18, 2026",
+      "link": "https://docs.cloud.google.com/release-notes#November_18_2026",
+      "summary": "Apigee Edge for Private Cloud\nFixed\nResolved the following issues in Apigee Edge for Private Cloud 4.53.01.03:\n\nFixed an issue where API proxy deployments that use the OASValidation\npolicy failed with",
+      "published": "2026-11-18T08:00:00+00:00",
+      "source": "Google Cloud リリースノート",
+      "tag": "GCP",
+      "color": "#4285F4"
     },
     {
       "title": "大手9社のAI Agent求人を20件読んだ — JDが示す次の2〜3年と、誰も採っていない「身元・権限検証」",
@@ -90,15 +207,6 @@
       "source": "Zenn - LLM",
       "tag": "AI",
       "color": "#10A37F"
-    },
-    {
-      "title": "Anthropic本日IPO価格決定――AI安全企業が1.4兆ドル評価でNASDAQ上場へ",
-      "link": "https://qiita.com/Martim500/items/8359b15f4eb85879bc94",
-      "summary": "こんにちは！ファンリード DXP事業部AWSグループのMartimです！\n2026年11月18日、AIスタートアップのAnthropicがIPO（Initial Public Offering：新規株式公開）の価格を本日決定し、明日11月19日にNASDAQ（米国の新興企業...",
-      "published": "2026-11-18T06:58:42+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "500人分のデータで記事を書き始めた！SUZURI統計を途中公開して更新していく実験",
@@ -155,15 +263,6 @@
       "color": "#10A37F"
     },
     {
-      "title": "人間がボトルネックになった時代のAIエージェント設計",
-      "link": "https://qiita.com/Syoitu/items/5bb47c01a8513e52d1b5",
-      "summary": "前書き\nこの 1 年でモデルがずいぶんと賢くなり、AI エージェントは、コードの修正やテストの実行くらいなら、1 つのタスクを人間が逐一指示しなくても進められるようになりました。\nところが、エージェントを何本も並べて使い始めると、思ったほど仕事が速くなりません。詰まってい...",
-      "published": "2026-11-18T05:37:05+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "稼働中のKubernetesをIPv6デュアルスタック化して分かった5つの落とし穴",
       "link": "https://zenn.dev/chaokovsky/articles/kubernetes-cilium-ipv6-dual-stack",
       "summary": "最終確認日：2026-11-18（Asia/Tokyo）\nM1 MacBook Air 上の Lima VM 3 台で動く kubeadm v1.37.2 + Cilium 1.20.5 のクラスターに、後から IPv6 を追加した記録です。IPv6 プレフィックスは自分で生成した ULA を使っています。&lt;LIKE_THIS&gt; 形式の値は自分の環境へ置き換えてください。\n\nIPv4",
@@ -189,15 +288,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "【NW入門 #8】AWS VPC 3層構成で5回つまずいた(後半)。SGとDB、そしてわかったこと【VPCハンズオン4/4】",
-      "link": "https://qiita.com/NaokinTV/items/0fe29ac692e7b45b94fa",
-      "summary": "はじめに\n前半では、ルートとサブネットで 3 回つまずいた話を書きました。後半は残りの 2 つと、全体を通してわかったことです。\n\n作る前に知っておきたいこと\nコンソールで組む手順\nつまずき編(前半):ルートとサブネット\nつまずき編(後半):SGとDB、わかったこと(この...",
-      "published": "2026-11-18T04:54:20+00:00",
-      "source": "Qiita - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "Blacksmith の sticky disk をやめて、CI の費用を約2割削減した話",
@@ -353,15 +443,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "iSCSI接続が自動でマウントしないときの対処",
-      "link": "https://qiita.com/400cc/items/cd8d776db84571207b19",
-      "summary": "この記事は 2016年2月2日 にFC2ブログで公開したものを移行しました。\n\n【環境】\nwindows server 2012 R2\nHP MSA 1040\n【現象】\nコンピュータ名を変更したせいで\n再起動後、自動でiSCSIがマウントしない現象が発生。\niSCSIイニシ...",
-      "published": "2026-11-18T02:21:17+00:00",
-      "source": "Qiita - インフラ",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "AWS研修",
       "link": "https://zenn.dev/vjraimu/books/aws-training",
       "summary": "AWS の使い方の前に、システムが動く仕組みを学ぶ社内研修。Mattermost から自社の社内チャットへ移行する題材で、1回のアクセスが通る道をたどりながら、それぞれの仕組みを AWS で実現する手段と結びつけます。",
@@ -506,15 +587,6 @@
       "color": "#4285F4"
     },
     {
-      "title": "終わらないしりとりを、ひとりで何年も動かすための設計",
-      "link": "https://zenn.dev/phphphh/articles/1377e64ce563d2",
-      "summary": "「みんなで、ひとつのしりとりを。」\n見知らぬ大勢で一本のしりとりをつないでいくサイト シリプロ を公開しました。1時間ごとに締め切り、集まった応募から1語だけをつなげます。登録は要りません。\n👉 https://shiritori-project.com/?utm_source=zenn&amp;utm_medium=article\n応募は、前の言葉の最後の文字から始まる言葉を、読みで送るだけ。",
-      "published": "2026-11-17T22:40:05+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "なぜLLMとRAGで「言葉の切り方」を変えるの？BPEと形態素解析の違いを実験してみた！",
       "link": "https://qiita.com/rtkjm22/items/aa0c46feb9e5bc2724a0",
       "summary": "はじめに\n最近、LLMやRAGの勉強をしている中で、ふと「LLMってどんな感じにプロンプトの言葉を分解して理解しているんだろう？」と気になりました。\n調べてみると、「LLMが文章を生成するときの言葉の切り方」と、「RAGで関連文書を検索するときの言葉の切り方」では、まった...",
@@ -578,15 +650,6 @@
       "color": "#888780"
     },
     {
-      "title": "AWS Summit 2019で聞いたTransit Gatewayをすぐ提案して、最後は入れなかった話 ― 試算から統制の話へ",
-      "link": "https://zenn.dev/dk_architect/articles/tgw-proposal-to-governance",
-      "summary": "はじめに\n随分前の話ですが、ふと思い出したので記事にします。\n私は、小売や製造業のシステムで、さまざまなプロジェクトにPMやアーキテクトとして関わってきました。\nこの記事は、AWSのネットワークをどうつなぐかで、私が一度出した提案を自分で取り下げた話です。\n小売のお客様のAWSに、私たちのチームがETL・DWH・BIの基盤を入れました。しばらくして、お客様の側にあった別のVPCからも、データセンタ",
-      "published": "2026-11-17T21:38:50+00:00",
-      "source": "Zenn - AWS",
-      "tag": "AWS",
-      "color": "#FF9900"
-    },
-    {
       "title": "［速報］Azure SQL Databaseをローカルで実行する「Azure SQL Database local development container」パブリックプレビュー",
       "link": "https://www.publickey1.jp/blog/26/azure_sql_databaseazure_sql_database_local_development_container.html",
       "summary": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、Azure SQL Databaseをローカルで実行する「Azure SQL Database local developmen...",
@@ -623,7 +686,7 @@
       "color": "#326CE5"
     },
     {
-      "title": "ROS環境構築 @ 自分用",
+      "title": "ROS環境構築 @ 自分用（編集中）",
       "link": "https://zenn.dev/s528661/articles/6231a2a59bd260",
       "summary": "概要\n本記事では、自分用の ROS 環境構築方法について記載する。\n今回は、Ubuntu-24.04 上に ROS の Docker イメージ（Jazzy）をダウンロードして環境構築を行う。\n\n 環境\n\nWindows11\nWindows Subsystem for Linux\n\nOS：Ubuntu-24.04\nターミナル：Windows Teraminal\nフォント：LiterationMono",
       "published": "2026-11-17T14:53:25+00:00",
@@ -677,6 +740,15 @@
       "color": "#326CE5"
     },
     {
+      "title": "自宅サーバーで SaaS にして、OSS として公開するまで ― FactorEye 開発記(2)",
+      "link": "https://zenn.dev/hayhide23/articles/factoreye-02-saas-to-oss",
+      "summary": "この記事で書くこと\n工場の設備を見える化する OSS「FactorEye」の開発記、2 回目です。\n\n個人で「AI の会社」を作って、工場監視 OSS を作り始めた\n\n自宅サーバーで SaaS にして、OSS として公開するまで（この記事）\nM5Stack から 1 秒ごとのデータを送る\n自宅が止まっても戻せるように、AWS に控えを置く\n\n前回、3 日で最初の版が動きました。今回は、それを自宅の",
+      "published": "2026-11-17T12:33:09+00:00",
+      "source": "Zenn - Docker",
+      "tag": "インフラ",
+      "color": "#326CE5"
+    },
+    {
       "title": "コンテナ運用のセキュリティ 〜失敗しないベースイメージの選び方からDockerfileハードニング、ランタイム保護まで〜",
       "link": "https://zenn.dev/pensol/articles/653d20cf35d26f",
       "summary": "1. はじめに：なぜコンテナのセキュリティは「VMと根本的に違う」のか？\nクラウドネイティブ時代のインフラ運用において、Docker や Kubernetes を用いたコンテナ運用は標準となりました。\nしかし、従来の仮想マシン（VM: EC2等）の感覚でコンテナを扱っていると、**「一瞬でノード全体やクラスタを乗っ取られる致命的なインシデント」**を引き起こす危険性があります。\n\n コンテナ特有の",
@@ -722,29 +794,11 @@
       "color": "#4285F4"
     },
     {
-      "title": "MUFG、松尾豊教授ら設立のAIスタートアップと提携　「遍在型AGI」活用へ",
-      "link": "https://www.itmedia.co.jp/aiplus/article/2611/17/2000003260/",
-      "summary": "三菱UFJフィナンシャル・グループ（以下、MUFG）と傘下の三菱UFJ銀行は、AI研究で知られる東京大学の松尾豊教授らが設立したAIスタートアップThird Intelligence（東京都千代田区）と、AIの社会実装を手掛ける松尾研究所（東京都文京区）とのパートナーシップ契約を締結したと発表した。",
-      "published": "2026-11-17T09:00:00+00:00",
-      "source": "ITmedia AI+",
-      "tag": "AI",
-      "color": "#10A37F"
-    },
-    {
       "title": "FreeRADIUSとLLDAPで有線802.1X：動的VLANとFilter-IdによるACL割り当て",
       "link": "https://zenn.dev/chaokovsky/articles/freeradius-8021x-lldap-dynamic-vlan-acl",
       "summary": "最終確認日：2026-11-17（Asia/Tokyo）\nKubernetes Homelab 上の FreeRADIUS、LLDAP、OpenBao と、containerlab 上の Arista cEOS、Alpine Linux Host で構築・検証した記録です。shared secret や password などの機密情報は掲載しません。&lt;LIKE_THIS&gt; 形式の値は",
       "published": "2026-11-17T08:46:58+00:00",
       "source": "Zenn - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
-      "title": "Docker Sandboxes入門 — AIコーディングエージェントを安全に「全自動」で回す実践ガイド",
-      "link": "https://zenn.dev/mmmot/articles/06bbf84b0da9f7",
-      "summary": "はじめに\nClaude Code、Codex、Gemini CLI、Copilot CLI —— AIコーディングエージェントは、--dangerously-skip-permissions や YOLO モードのような全自動モードで動かすと爆速です。コマンド実行、パッケージインストール、Docker の起動まで、いちいち承認を求められずに済みます。\nでも、それを自分のマシンで直接やるのは正直怖い",
-      "published": "2026-11-17T08:16:04+00:00",
-      "source": "Zenn - Docker",
       "tag": "インフラ",
       "color": "#326CE5"
     },
@@ -783,15 +837,6 @@
       "source": "Zenn - Terraform",
       "tag": "インフラ",
       "color": "#326CE5"
-    },
-    {
-      "title": "AWS KMS か AWS CloudHSM か: 適切なキー管理ソリューションの選び方",
-      "link": "https://aws.amazon.com/jp/blogs/news/aws-kms-or-aws-cloudhsm-choose-the-right-key-management-solution/",
-      "summary": "AWS Key Management Service (AWS KMS) と AWS CloudHSM は、どちらも HSM を基盤とするキー管理を提供しますが、適したユースケースは大きく異なります。本記事では、両サービスに共通するセキュリティとコンプライアンスの特長を整理します。そのうえで、AWS サービスとの統合、運用のシンプルさ、コストの観点から AWS KMS を選択すべきケースを解説しま",
-      "published": "2026-11-17T03:41:40+00:00",
-      "source": "AWS 公式ブログ（日本語）",
-      "tag": "AWS",
-      "color": "#FF9900"
     },
     {
       "title": "PodmanのアーキテクチャとDockerとの違い【前編】",
@@ -938,15 +983,6 @@
       "color": "#326CE5"
     },
     {
-      "title": "Amazon EKS Dashboard の CA ローテーション表示対応のまとめ",
-      "link": "https://qiita.com/Haruki-N/items/0cb6f0ca12a7fc87f045",
-      "summary": "はじめに\n2026 年 10 月 28 日、Amazon EKS Dashboard がクラスター認証局 (CA) のローテーション状況の表示に対応したと発表されました。複数のアカウントやリージョンにある EKS クラスターの CA の状況を、1 つの画面で確認できるよう...",
-      "published": "2026-11-16T14:03:21+00:00",
-      "source": "Qiita - Kubernetes",
-      "tag": "インフラ",
-      "color": "#326CE5"
-    },
-    {
       "title": "100万人規模のイベント案内を支える「Google Maps Platform × Gemini」空間認識AIコンシェルジュの設計解剖",
       "link": "https://zenn.dev/adopture/articles/0eba9c91d79f45",
       "summary": "📰 本記事の一次ソース（公式発表）\n\nタイトル: Neurun: Google Maps Platform で、人混みの中でも迷わないファン体験を | Google Cloud 公式ブログ\n\n詳細な図解・完全版解説記事: ggnn.tech の本編記事はこちら\n\n\n\n\n 1. 背景：大規模都市イベントにおける情報分断と交通制御の課題\n39日間にわたり200か国以上から100万人超の来場者が訪れた2",
@@ -1017,24 +1053,6 @@
       "source": "Zenn - GCP",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "PostgreSQL 19リリース延期の背景。β4で多くの新機能取り下げが発生、原因はAIによるコードレビューか",
-      "link": "https://www.publickey1.jp/blog/26/postgresql_194ai.html",
-      "summary": "オープンソースのリレーショナルデータベース「PostgreSQL」は、先週木曜日（2026年11月12日）に最終リリース候補版となるPostgreSQL 19 RC2が公開され、予定では今週の11月19日に正式リリースとなる見通しです。 そ...",
-      "published": "2026-11-15T15:31:49+00:00",
-      "source": "Publickey",
-      "tag": "テック",
-      "color": "#888780"
-    },
-    {
-      "title": "Cloudflare、AI専用でタブやテーマや拡張などない軽量ヘッドレスブラウザ「Kitesurf」、オープンソースで公開",
-      "link": "https://www.publickey1.jp/blog/26/cloudflareaikitesurf.html",
-      "summary": "Cloudflareは、AIエージェントが操作することを想定した軽量のヘッドレスブラウザ「Kitesurf」をオープンソースで公開したと発表しました。 Kitesurf is now open source on GitHub under ...",
-      "published": "2026-11-15T15:30:19+00:00",
-      "source": "Publickey",
-      "tag": "テック",
-      "color": "#888780"
     },
     {
       "title": "[AWS]SSM接続用のインターフェースエンドポイントを毎回作るのは面倒なのでterraformで作れるようにする！変数も使う！",
@@ -1116,15 +1134,6 @@
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
-    },
-    {
-      "title": "Google Antigravity、クラウド上でAIエージェントが働く「リモートエージェント」機能を搭載。就業時間外でもAIエージェントは働き続ける",
-      "link": "https://www.publickey1.jp/blog/26/google_antigravityaiai.html",
-      "summary": "Googleが提供するAIエージェントによる開発環境「Antigravity」に、新機能「リモートエージェント」が搭載されました。 We want Antigravity to be working for you all the time...",
-      "published": "2026-11-12T15:13:43+00:00",
-      "source": "Publickey",
-      "tag": "テック",
-      "color": "#888780"
     },
     {
       "title": "November 12, 2026",
@@ -1248,15 +1257,6 @@
       "link": "https://docs.cloud.google.com/release-notes#November_09_2026",
       "summary": "AI Hypercomputer\nFeature\nGenerally available:\nPathways on Cloud\nis now generally available on Google Kubernetes Engine (GKE). Major features include\nthe following:\n\nSingle-controller execution model:",
       "published": "2026-11-09T08:00:00+00:00",
-      "source": "Google Cloud リリースノート",
-      "tag": "GCP",
-      "color": "#4285F4"
-    },
-    {
-      "title": "November 08, 2026",
-      "link": "https://docs.cloud.google.com/release-notes#November_08_2026",
-      "summary": "Cloud Asset Inventory\nFeature\nThe following resource type is publicly available through the\nSearchAllResources\nand\nSearchAllIamPolicies\nAPIs.\n\nGemini for Google Cloud\n\ncloudaicompanion.googleapis.com/",
-      "published": "2026-11-08T08:00:00+00:00",
       "source": "Google Cloud リリースノート",
       "tag": "GCP",
       "color": "#4285F4"
